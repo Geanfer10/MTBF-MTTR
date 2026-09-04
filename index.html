@@ -122,8 +122,13 @@
     </div>
     <div class="meta">
       <span class="n" id="headerUpdated">—</span> última atualização
-      <div>
+      <div style="display:flex; gap:6px; margin-top:4px;">
+        <select class="datepicker" id="modeSelect">
+          <option value="day">Por dia</option>
+          <option value="month">Por mês</option>
+        </select>
         <select class="datepicker" id="dateSelect"></select>
+        <select class="datepicker" id="monthSelect" style="display:none;"></select>
       </div>
     </div>
   </header>
@@ -281,12 +286,74 @@ async function init(){
   try{
     historyCache = await fetchJSON(DATA_DIR + 'history.json').catch(()=>[]);
     populateDateSelect(historyCache);
+    populateMonthSelect(historyCache);
     const latest = await fetchJSON(DATA_DIR + 'latest.json');
-    render(latest);
+    render(latest, PERIOD_HOURS);
   }catch(err){
     console.error(err);
     document.getElementById('loadError').style.display = 'block';
   }
+
+  document.getElementById('modeSelect').addEventListener('change', (e)=>{
+    const isMonth = e.target.value === 'month';
+    document.getElementById('dateSelect').style.display = isMonth ? 'none' : '';
+    document.getElementById('monthSelect').style.display = isMonth ? '' : 'none';
+    if(isMonth){
+      loadMonth(document.getElementById('monthSelect').value);
+    }else{
+      loadDay(document.getElementById('dateSelect').value);
+    }
+  });
+}
+
+async function loadDay(dateStr){
+  try{
+    const day = await fetchJSON(DATA_DIR + dateStr + '.json');
+    render(day, PERIOD_HOURS);
+  }catch(err){ console.error(err); }
+}
+
+async function loadMonth(monthPrefix){
+  const dates = historyCache.map(h=>h.date).filter(d=>d.startsWith(monthPrefix));
+  if(!dates.length) return;
+  const days = await Promise.all(dates.map(d => fetchJSON(DATA_DIR + d + '.json').catch(()=>null)));
+  const validDays = days.filter(Boolean);
+  if(!validDays.length) return;
+
+  const equipMap = {};
+  const turnos = {};
+  const topMap = {};
+  validDays.forEach(day => {
+    day.equip.forEach(e=>{
+      if(!equipMap[e.name]) equipMap[e.name] = {name:e.name, horas:0, falhas:0};
+      equipMap[e.name].horas += e.horas;
+      equipMap[e.name].falhas += e.falhas;
+    });
+    Object.entries(day.turnos).forEach(([dept, ts])=>{
+      if(!turnos[dept]) turnos[dept] = {'1':0,'2':0,'3':0};
+      ['1','2','3'].forEach(t => turnos[dept][t] += (ts[t]||0));
+    });
+    (day.top_falhas||[]).forEach(f=>{
+      const key = f.tag + '|' + f.componente;
+      if(!topMap[key]) topMap[key] = {tag:f.tag, componente:f.componente, falhas:0, horas:0};
+      topMap[key].falhas += f.falhas;
+      topMap[key].horas += f.horas;
+    });
+  });
+
+  const lastDay = validDays[validDays.length-1];
+  const aggregated = {
+    date: monthPrefix,
+    updated_at: lastDay.updated_at,
+    meta_mtbf: lastDay.meta_mtbf,
+    dias_parados: lastDay.dias_parados,
+    equip: Object.values(equipMap).sort((a,b)=>b.horas-a.horas),
+    turnos,
+    top_falhas: Object.values(topMap).sort((a,b)=>b.falhas-a.falhas).slice(0,12),
+    evolucao_mensal: lastDay.evolucao_mensal
+  };
+  const periodHours = validDays.length * 24;
+  render(aggregated, periodHours, true, validDays.length);
 }
 
 function populateDateSelect(history){
@@ -298,30 +365,46 @@ function populateDateSelect(history){
     opt.textContent = fmtDateBR(h.date);
     sel.appendChild(opt);
   });
-  sel.addEventListener('change', async ()=>{
-    try{
-      const day = await fetchJSON(DATA_DIR + sel.value + '.json');
-      render(day);
-    }catch(err){ console.error(err); }
+  sel.addEventListener('change', ()=> loadDay(sel.value));
+}
+
+function populateMonthSelect(history){
+  const sel = document.getElementById('monthSelect');
+  const months = [...new Set(history.map(h=>h.date.slice(0,7)))].sort().reverse();
+  const monthNames = {'01':'Janeiro','02':'Fevereiro','03':'Março','04':'Abril','05':'Maio','06':'Junho','07':'Julho','08':'Agosto','09':'Setembro','10':'Outubro','11':'Novembro','12':'Dezembro'};
+  sel.innerHTML = '';
+  months.forEach(m=>{
+    const [y,mm] = m.split('-');
+    const opt = document.createElement('option');
+    opt.value = m;
+    opt.textContent = `${monthNames[mm]}/${y}`;
+    sel.appendChild(opt);
   });
+  sel.addEventListener('change', ()=> loadMonth(sel.value));
 }
 
 /* =========================================================================
    RENDERIZAÇÃO — recebe o JSON de um dia e desenha todo o painel
 ========================================================================= */
-function render(data){
+function render(data, periodHours, isMonth, dayCount){
   document.getElementById('loadError').style.display = 'none';
-  document.getElementById('headerSubtitle').textContent = `${fmtDateBR(data.date)} · Departamento: Automação, Elétrica e Mecânica`;
+  if(isMonth){
+    const monthNames = {'01':'Janeiro','02':'Fevereiro','03':'Março','04':'Abril','05':'Maio','06':'Junho','07':'Julho','08':'Agosto','09':'Setembro','10':'Outubro','11':'Novembro','12':'Dezembro'};
+    const [y,mm] = data.date.split('-');
+    document.getElementById('headerSubtitle').textContent = `${monthNames[mm]}/${y} · ${dayCount} dia(s) com dados · Departamento: Automação, Elétrica e Mecânica`;
+  }else{
+    document.getElementById('headerSubtitle').textContent = `${fmtDateBR(data.date)} · Departamento: Automação, Elétrica e Mecânica`;
+  }
   document.getElementById('headerUpdated').textContent = data.updated_at ? data.updated_at.replace('T',' ') : '—';
   document.getElementById('footRefresh').textContent = 'Última carga: ' + new Date().toLocaleString('pt-BR');
-  if(document.getElementById('dateSelect').value !== data.date){
+  if(!isMonth && document.getElementById('dateSelect').value !== data.date){
     document.getElementById('dateSelect').value = data.date;
   }
 
   const EQUIP = data.equip.map(e => ({
     name: e.name, horas: e.horas, falhas: e.falhas,
-    indisp: e.horas/PERIOD_HOURS*100,
-    mtbf_h: e.falhas ? (PERIOD_HOURS - e.horas)/e.falhas : 0,
+    indisp: e.horas/periodHours*100,
+    mtbf_h: e.falhas ? (periodHours - e.horas)/e.falhas : 0,
     mttr_h: e.falhas ? e.horas/e.falhas : 0
   }));
   const TURNOS = data.turnos;
