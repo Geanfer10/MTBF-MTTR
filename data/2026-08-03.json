@@ -1,0 +1,174 @@
+{
+  "date": "2026-08-03",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK R2",
+      "horas": 5.3667,
+      "falhas": 41
+    },
+    {
+      "name": "MESPACK E",
+      "horas": 3.2667,
+      "falhas": 16
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 2.45,
+      "falhas": 22
+    },
+    {
+      "name": "MESPACK D",
+      "horas": 2.3167,
+      "falhas": 6
+    },
+    {
+      "name": "CONDOR",
+      "horas": 1.2333,
+      "falhas": 3
+    },
+    {
+      "name": "ENCHEDEIRA TOP DOWN",
+      "horas": 0.5667,
+      "falhas": 2
+    },
+    {
+      "name": "ENCHEDEIRA COPO/LATA",
+      "horas": 0.5333,
+      "falhas": 4
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 0.4167,
+      "falhas": 2
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 0.2167,
+      "falhas": 2
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 0.8,
+      "2": 3.8667,
+      "3": 1.4667
+    },
+    "Elétrica": {
+      "1": 2.1,
+      "2": 0.85,
+      "3": 0.0
+    },
+    "Mecânica": {
+      "1": 2.8,
+      "2": 2.0667,
+      "3": 2.4167
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 31,
+      "horas": 3.8333
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 12,
+      "horas": 1.0833
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 8,
+      "horas": 0.7667
+    },
+    {
+      "tag": "20539",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK D ",
+      "falhas": 5,
+      "horas": 2.2667
+    },
+    {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "falhas": 4,
+      "horas": 0.5667
+    },
+    {
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "falhas": 4,
+      "horas": 0.5333
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "falhas": 2,
+      "horas": 0.2
+    },
+    {
+      "tag": "31191",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
+      "falhas": 2,
+      "horas": 0.1333
+    },
+    {
+      "tag": "30777",
+      "componente": "CABEÇOTE SUPERIOR MOCOCA M3",
+      "falhas": 2,
+      "horas": 0.3833
+    },
+    {
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "falhas": 2,
+      "horas": 0.2167
+    },
+    {
+      "tag": "31929",
+      "componente": "SISTEMA DE SENSORES ELEVADOR DE BANDEJA TF-BJ-3",
+      "falhas": 2,
+      "horas": 0.8
+    },
+    {
+      "tag": "31532",
+      "componente": "CONJUNTO DE CANECA DA ESTEIRA INDEXIDAORA 03 DE SASHE R1",
+      "falhas": 2,
+      "horas": 0.25
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

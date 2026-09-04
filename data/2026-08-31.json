@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-31",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK E",
+      "horas": 5.7333,
+      "falhas": 53
+    },
+    {
+      "name": "MESPACK F",
+      "horas": 4.0708,
+      "falhas": 34
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 3.0833,
+      "falhas": 21
+    },
+    {
+      "name": "MESPACK R2",
+      "horas": 2.9833,
+      "falhas": 27
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 1.3333,
+      "falhas": 6
+    },
+    {
+      "name": "MESPACK D",
+      "horas": 0.7333,
+      "falhas": 6
+    },
+    {
+      "name": "ENCHEDEIRA TOP DOWN",
+      "horas": 0.5767,
+      "falhas": 9
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 5.1,
+      "2": 1.4167,
+      "3": 3.7167
+    },
+    "Elétrica": {
+      "1": 0.1934,
+      "2": 0.95,
+      "3": 0.5833
+    },
+    "Mecânica": {
+      "1": 1.8667,
+      "2": 2.5042,
+      "3": 2.1833
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 45,
+      "horas": 4.55
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 23,
+      "horas": 2.7667
+    },
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 18,
+      "horas": 2.0167
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "falhas": 10,
+      "horas": 1.8
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 7,
+      "horas": 0.8333
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 5,
+      "horas": 0.4167
+    },
+    {
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "falhas": 4,
+      "horas": 0.8667
+    },
+    {
+      "tag": "20547",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "falhas": 4,
+      "horas": 0.4833
+    },
+    {
+      "tag": "ELETRICA01",
+      "componente": "AGUARDANDO ELETRICA",
+      "falhas": 3,
+      "horas": 0.2333
+    },
+    {
+      "tag": "INK09",
+      "componente": "INKJET ROTULADEIRA TOPDONW",
+      "falhas": 3,
+      "horas": 0.1934
+    },
+    {
+      "tag": "INK08",
+      "componente": "INKJET MESPACK R2",
+      "falhas": 2,
+      "horas": 0.2667
+    },
+    {
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "falhas": 2,
+      "horas": 0.1333
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "date": "2026-07-30",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK R2",
+      "horas": 6.2333,
+      "falhas": 52
+    },
+    {
+      "name": "CONDOR",
+      "horas": 3.45,
+      "falhas": 14
+    },
+    {
+      "name": "MESPACK E",
+      "horas": 1.9167,
+      "falhas": 24
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 1.8833,
+      "falhas": 27
+    },
+    {
+      "name": "MESPACK B",
+      "horas": 1.7833,
+      "falhas": 7
+    },
+    {
+      "name": "MESPACK D",
+      "horas": 1.25,
+      "falhas": 6
+    },
+    {
+      "name": "MESPACK A",
+      "horas": 0.8667,
+      "falhas": 3
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 2.15,
+      "2": 3.1,
+      "3": 2.65
+    },
+    "Elétrica": {
+      "1": 0.25,
+      "2": 0.8333,
+      "3": 0.55
+    },
+    "Mecânica": {
+      "1": 1.95,
+      "2": 3.2667,
+      "3": 2.6333
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 35,
+      "horas": 4.2167
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 21,
+      "horas": 1.4333
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 20,
+      "horas": 1.5
+    },
+    {
+      "tag": "30787",
+      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
+      "falhas": 12,
+      "horas": 3.1
+    },
+    {
+      "tag": "INK04",
+      "componente": "INKJET MESPACK D",
+      "falhas": 4,
+      "horas": 1.0833
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "falhas": 4,
+      "horas": 0.2333
+    },
+    {
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "falhas": 3,
+      "horas": 0.4667
+    },
+    {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "falhas": 3,
+      "horas": 0.2667
+    },
+    {
+      "tag": "FEL01",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+      "falhas": 3,
+      "horas": 0.1833
+    },
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "falhas": 2,
+      "horas": 0.85
+    },
+    {
+      "tag": "20503",
+      "componente": "CONJUNTO DE FACAS MESPACK B ",
+      "falhas": 2,
+      "horas": 0.6
+    },
+    {
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "falhas": 2,
+      "horas": 0.35
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

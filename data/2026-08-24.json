@@ -1,0 +1,179 @@
+{
+  "date": "2026-08-24",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK R2",
+      "horas": 6.5,
+      "falhas": 35
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 4.1333,
+      "falhas": 42
+    },
+    {
+      "name": "MESPACK B",
+      "horas": 3.4833,
+      "falhas": 18
+    },
+    {
+      "name": "MESPACK A",
+      "horas": 3.1,
+      "falhas": 10
+    },
+    {
+      "name": "MESPACK E",
+      "horas": 2.5667,
+      "falhas": 27
+    },
+    {
+      "name": "MESPACK F",
+      "horas": 2.5,
+      "falhas": 22
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 1.1,
+      "falhas": 3
+    },
+    {
+      "name": "ENCHEDEIRA TOP DOWN",
+      "horas": 0.1833,
+      "falhas": 1
+    },
+    {
+      "name": "CONDOR",
+      "horas": 0.1667,
+      "falhas": 1
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 0.1167,
+      "falhas": 2
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 2.6167,
+      "2": 2.6667,
+      "3": 1.9333
+    },
+    "Elétrica": {
+      "1": 0.4667,
+      "2": 0.4667,
+      "3": 0.4333
+    },
+    "Mecânica": {
+      "1": 2.7,
+      "2": 8.1667,
+      "3": 4.4
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 24,
+      "horas": 2.2
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 18,
+      "horas": 1.4667
+    },
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 16,
+      "horas": 2.2
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "falhas": 15,
+      "horas": 1.7667
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 12,
+      "horas": 0.9167
+    },
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "falhas": 10,
+      "horas": 1.5833
+    },
+    {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "falhas": 5,
+      "horas": 0.5667
+    },
+    {
+      "tag": "20487",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "falhas": 5,
+      "horas": 2.15
+    },
+    {
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "falhas": 4,
+      "horas": 0.5
+    },
+    {
+      "tag": "31394",
+      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK R2",
+      "falhas": 4,
+      "horas": 2.1
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 4,
+      "horas": 0.55
+    },
+    {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "falhas": 4,
+      "horas": 0.75
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

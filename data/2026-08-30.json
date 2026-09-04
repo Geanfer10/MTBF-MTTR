@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-30",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK F",
+      "horas": 5.3757,
+      "falhas": 38
+    },
+    {
+      "name": "MESPACK E",
+      "horas": 5.0667,
+      "falhas": 46
+    },
+    {
+      "name": "MESPACK R2",
+      "horas": 4.1667,
+      "falhas": 27
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 1.2,
+      "falhas": 9
+    },
+    {
+      "name": "ENCHEDEIRA COPO/LATA",
+      "horas": 0.6,
+      "falhas": 2
+    },
+    {
+      "name": "CONDOR",
+      "horas": 0.5,
+      "falhas": 1
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 0.1833,
+      "falhas": 1
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 2.2333,
+      "2": 6.0584,
+      "3": 3.9167
+    },
+    "Elétrica": {
+      "1": 1.1,
+      "2": 0.5006,
+      "3": 0.0
+    },
+    "Mecânica": {
+      "1": 2.0,
+      "2": 1.1,
+      "3": 0.1833
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 41,
+      "horas": 4.4333
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 32,
+      "horas": 3.5418
+    },
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 16,
+      "horas": 2.1667
+    },
+    {
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "falhas": 4,
+      "horas": 0.5667
+    },
+    {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "falhas": 3,
+      "horas": 0.2667
+    },
+    {
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "falhas": 3,
+      "horas": 1.2
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 3,
+      "horas": 0.4833
+    },
+    {
+      "tag": "ETH",
+      "componente": "ERRO DE ETHERCAT",
+      "falhas": 2,
+      "horas": 1.0167
+    },
+    {
+      "tag": "31191",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
+      "falhas": 2,
+      "horas": 0.15
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "falhas": 2,
+      "horas": 0.0833
+    },
+    {
+      "tag": "PS02",
+      "componente": "PASTEURIZADOR 4KG",
+      "falhas": 2,
+      "horas": 0.6
+    },
+    {
+      "tag": "31310",
+      "componente": "CONJUNTO DE FACAS MESPACK F",
+      "falhas": 1,
+      "horas": 0.05
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

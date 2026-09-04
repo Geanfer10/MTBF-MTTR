@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-04",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK R2",
+      "horas": 4.8792,
+      "falhas": 44
+    },
+    {
+      "name": "MESPACK E",
+      "horas": 2.8667,
+      "falhas": 26
+    },
+    {
+      "name": "MESPACK D",
+      "horas": 1.6833,
+      "falhas": 10
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 1.6667,
+      "falhas": 17
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 1.3667,
+      "falhas": 8
+    },
+    {
+      "name": "ENCHEDEIRA COPO/LATA",
+      "horas": 0.6667,
+      "falhas": 5
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 0.4667,
+      "falhas": 5
+    },
+    {
+      "name": "ENCHEDEIRA TOP DOWN",
+      "horas": 0.1667,
+      "falhas": 1
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 2.1458,
+      "2": 2.4,
+      "3": 1.05
+    },
+    "Elétrica": {
+      "1": 0.5667,
+      "2": 0.9333,
+      "3": 0.3833
+    },
+    "Mecânica": {
+      "1": 1.85,
+      "2": 3.4,
+      "3": 1.0333
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 34,
+      "horas": 3.5125
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 12,
+      "horas": 0.8667
+    },
+    {
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "falhas": 9,
+      "horas": 1.25
+    },
+    {
+      "tag": "20547",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "falhas": 7,
+      "horas": 0.8167
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 6,
+      "horas": 0.2667
+    },
+    {
+      "tag": "TP-BJ4-L2",
+      "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L2",
+      "falhas": 4,
+      "horas": 0.3333
+    },
+    {
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "falhas": 3,
+      "horas": 0.2833
+    },
+    {
+      "tag": "30777",
+      "componente": "CABEÇOTE SUPERIOR MOCOCA M3",
+      "falhas": 3,
+      "horas": 0.1833
+    },
+    {
+      "tag": "31404",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
+      "falhas": 3,
+      "horas": 0.2
+    },
+    {
+      "tag": "FEL01",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+      "falhas": 3,
+      "horas": 0.3
+    },
+    {
+      "tag": "31929",
+      "componente": "SISTEMA DE SENSORES ELEVADOR DE BANDEJA TF-BJ-3",
+      "falhas": 2,
+      "horas": 0.7667
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "falhas": 2,
+      "horas": 0.1333
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

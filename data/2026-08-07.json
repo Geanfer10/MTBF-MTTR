@@ -1,0 +1,179 @@
+{
+  "date": "2026-08-07",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK R2",
+      "horas": 5.3,
+      "falhas": 41
+    },
+    {
+      "name": "MESPACK F",
+      "horas": 4.1,
+      "falhas": 17
+    },
+    {
+      "name": "MESPACK B",
+      "horas": 3.05,
+      "falhas": 8
+    },
+    {
+      "name": "MESPACK E",
+      "horas": 2.6327,
+      "falhas": 27
+    },
+    {
+      "name": "MESPACK D",
+      "horas": 2.2,
+      "falhas": 11
+    },
+    {
+      "name": "MESPACK A",
+      "horas": 2.0333,
+      "falhas": 8
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 2.0,
+      "falhas": 26
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 1.2833,
+      "falhas": 3
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 1.0333,
+      "falhas": 9
+    },
+    {
+      "name": "ENCHEDEIRA TOP DOWN",
+      "horas": 0.6167,
+      "falhas": 2
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 2.9167,
+      "2": 2.85,
+      "3": 4.25
+    },
+    "Elétrica": {
+      "1": 0.6,
+      "2": 2.9333,
+      "3": 0.1827
+    },
+    "Mecânica": {
+      "1": 2.7,
+      "2": 3.5,
+      "3": 4.3167
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 39,
+      "horas": 5.1167
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 19,
+      "horas": 1.5833
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 16,
+      "horas": 1.1167
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 12,
+      "horas": 1.65
+    },
+    {
+      "tag": "INK04",
+      "componente": "INKJET MESPACK D",
+      "falhas": 6,
+      "horas": 1.35
+    },
+    {
+      "tag": "20487",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "falhas": 5,
+      "horas": 1.45
+    },
+    {
+      "tag": "ETH",
+      "componente": "ERRO DE ETHERCAT",
+      "falhas": 4,
+      "horas": 0.1833
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "falhas": 4,
+      "horas": 0.3333
+    },
+    {
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "falhas": 4,
+      "horas": 0.3667
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 3,
+      "horas": 2.2167
+    },
+    {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "falhas": 3,
+      "horas": 1.6333
+    },
+    {
+      "tag": "ELETRICA01",
+      "componente": "AGUARDANDO ELETRICA",
+      "falhas": 3,
+      "horas": 0.6833
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}
