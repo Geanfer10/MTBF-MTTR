@@ -516,10 +516,10 @@ function render(data, periodHours, isMonth, dayCount){
   charts.trend = new Chart(document.getElementById('chartTrend'), {
     type:'bar',
     data:{ labels: trendRecent.map(t=>fmtDateBR(t.date).slice(0,5)), datasets:[{data: trendRecent.map(t=>t.horas), backgroundColor:'#0E7A42', borderRadius:4, maxBarThickness:60}] },
-    options:{ layout:{padding:{top:20}},
+    options:{ layout:{padding:{top:24}},
       plugins:{ legend:{display:false}, tooltip:{callbacks:{label:(ctx)=> hoursToHM(trendRecent[ctx.dataIndex].horas)}},
-        datalabels:{display:true, anchor:'end', align:'top', color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:11, weight:600}, formatter:(v,ctx)=> hoursToHM(trendRecent[ctx.dataIndex].horas)} },
-      scales:{ x:{grid:{display:false}, ticks:{color:'#12271A'}}, y:{grid:{color:'#E7F1EA'}, ticks:{callback:(v)=>v.toFixed(0)+'h'}} }
+        datalabels:{display:'auto', clamp:true, anchor:'end', align:'top', offset:4, color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:10.5, weight:600}, formatter:(v,ctx)=> hoursToHM(trendRecent[ctx.dataIndex].horas)} },
+      scales:{ x:{grid:{display:false}, ticks:{color:'#12271A', font:{size:10}, maxRotation:45, minRotation:0}}, y:{grid:{color:'#E7F1EA'}, ticks:{callback:(v)=>v.toFixed(0)+'h'}} }
     }
   });
 
