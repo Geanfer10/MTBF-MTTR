@@ -1,0 +1,179 @@
+{
+  "date": "2026-07-29",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK R2",
+      "horas": 6.0333,
+      "falhas": 42
+    },
+    {
+      "name": "MESPACK E",
+      "horas": 3.4667,
+      "falhas": 16
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 3.1333,
+      "falhas": 22
+    },
+    {
+      "name": "MESPACK B",
+      "horas": 1.8167,
+      "falhas": 5
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 1.0998,
+      "falhas": 4
+    },
+    {
+      "name": "CONDOR",
+      "horas": 1.0167,
+      "falhas": 4
+    },
+    {
+      "name": "MESPACK D",
+      "horas": 0.8167,
+      "falhas": 4
+    },
+    {
+      "name": "MESPACK A",
+      "horas": 0.5333,
+      "falhas": 5
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 0.4333,
+      "falhas": 2
+    },
+    {
+      "name": "60L1",
+      "horas": 0.1333,
+      "falhas": 1
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 2.9833,
+      "2": 1.4664,
+      "3": 4.2667
+    },
+    "Elétrica": {
+      "1": 1.9,
+      "2": 1.0667,
+      "3": 1.2667
+    },
+    "Mecânica": {
+      "1": 2.45,
+      "2": 1.7167,
+      "3": 1.3667
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 34,
+      "horas": 3.6667
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 15,
+      "horas": 1.8
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 12,
+      "horas": 1.6
+    },
+    {
+      "tag": "20487",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "falhas": 5,
+      "horas": 0.5333
+    },
+    {
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "falhas": 5,
+      "horas": 0.4
+    },
+    {
+      "tag": "31996",
+      "componente": "SISTEMA DE SENSORES ESTEIRA TRANSPORTE CADENA TP-BJ4-L1",
+      "falhas": 3,
+      "horas": 1.0167
+    },
+    {
+      "tag": "INK04",
+      "componente": "INKJET MESPACK D",
+      "falhas": 3,
+      "horas": 0.6167
+    },
+    {
+      "tag": "INK12",
+      "componente": "INKJET RECRAVADEIRA CONDOR",
+      "falhas": 3,
+      "horas": 0.7667
+    },
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "falhas": 2,
+      "horas": 0.2833
+    },
+    {
+      "tag": "FEL01",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+      "falhas": 2,
+      "horas": 0.1333
+    },
+    {
+      "tag": "20505",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK B ",
+      "falhas": 2,
+      "horas": 0.2167
+    },
+    {
+      "tag": "20542",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK D ",
+      "falhas": 1,
+      "horas": 0.35
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "date": "2026-05-20",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK E",
+      "horas": 8.2667,
+      "falhas": 37
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 7.6667,
+      "falhas": 18
+    },
+    {
+      "name": "MESPACK F",
+      "horas": 6.9667,
+      "falhas": 39
+    },
+    {
+      "name": "MESPACK R2",
+      "horas": 5.2333,
+      "falhas": 28
+    },
+    {
+      "name": "CONDOR",
+      "horas": 2.6167,
+      "falhas": 6
+    },
+    {
+      "name": "BENEFICIAMENTO  MILHO",
+      "horas": 2.1333,
+      "falhas": 1
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 1.7667,
+      "falhas": 13
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 1.3833,
+      "falhas": 9
+    },
+    {
+      "name": "ENCHEDEIRA TOP DOWN",
+      "horas": 0.4833,
+      "falhas": 2
+    },
+    {
+      "name": "MESPACK B",
+      "horas": 0.2667,
+      "falhas": 2
+    },
+    {
+      "name": "MESPACK A",
+      "horas": 0.1333,
+      "falhas": 1
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 3.2667,
+      "2": 3.2333,
+      "3": 2.4167
+    },
+    "Elétrica": {
+      "1": 8.1,
+      "2": 1.3167,
+      "3": 6.9833
+    },
+    "Mecânica": {
+      "1": 2.7167,
+      "2": 3.3167,
+      "3": 5.5667
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 28,
+      "horas": 2.0167
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 25,
+      "horas": 2.9667
+    },
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 17,
+      "horas": 2.6
+    },
+    {
+      "tag": "32285",
+      "componente": "MOTOR 01 DE TRACIONAMENTO DAS CORREIAS FECH ATOMATADOS",
+      "falhas": 14,
+      "horas": 8.4333
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 10,
+      "horas": 0.8667
+    },
+    {
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "falhas": 8,
+      "horas": 1.1167
+    },
+    {
+      "tag": "30787",
+      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
+      "falhas": 5,
+      "horas": 0.65
+    },
+    {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "falhas": 4,
+      "horas": 0.3
+    },
+    {
+      "tag": "30.9",
+      "componente": " MOTOR ELETRICO ESTEIRA DE DOSAGEM DE ESPIGAS",
+      "falhas": 4,
+      "horas": 7.7667
+    },
+    {
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "falhas": 4,
+      "horas": 0.4
+    },
+    {
+      "tag": "FEL01",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+      "falhas": 2,
+      "horas": 0.1833
+    },
+    {
+      "tag": "32239",
+      "componente": "VENTOSA ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO",
+      "falhas": 2,
+      "horas": 0.4167
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

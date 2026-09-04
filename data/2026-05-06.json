@@ -1,0 +1,179 @@
+{
+  "date": "2026-05-06",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK E",
+      "horas": 7.6081,
+      "falhas": 40
+    },
+    {
+      "name": "MESPACK R2",
+      "horas": 5.3833,
+      "falhas": 37
+    },
+    {
+      "name": "MESPACK F",
+      "horas": 3.7269,
+      "falhas": 27
+    },
+    {
+      "name": "60L2",
+      "horas": 1.2333,
+      "falhas": 4
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 0.95,
+      "falhas": 12
+    },
+    {
+      "name": "MESPACK A",
+      "horas": 0.6,
+      "falhas": 1
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 0.4167,
+      "falhas": 7
+    },
+    {
+      "name": "ENCHEDEIRA TOP DOWN",
+      "horas": 0.25,
+      "falhas": 1
+    },
+    {
+      "name": "BENEFICIAMENTO  MILHO",
+      "horas": 0.15,
+      "falhas": 1
+    },
+    {
+      "name": "60L1",
+      "horas": 0.0833,
+      "falhas": 1
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 4.2667,
+      "2": 5.2514,
+      "3": 1.9833
+    },
+    "Elétrica": {
+      "1": 1.4303,
+      "2": 2.6867,
+      "3": 0.05
+    },
+    "Mecânica": {
+      "1": 1.5333,
+      "2": 2.4667,
+      "3": 0.7333
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 29,
+      "horas": 3.55
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 29,
+      "horas": 3.55
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 15,
+      "horas": 1.4681
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 7,
+      "horas": 0.35
+    },
+    {
+      "tag": "FEL01",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+      "falhas": 5,
+      "horas": 0.2833
+    },
+    {
+      "tag": "30463",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
+      "falhas": 4,
+      "horas": 1.2333
+    },
+    {
+      "tag": "31799",
+      "componente": "SERVO 02 DA ESTEIRA INDEXADORA COLETA COL1-L2E MESPACK E",
+      "falhas": 4,
+      "horas": 3.3444
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 4,
+      "horas": 0.6667
+    },
+    {
+      "tag": "32110",
+      "componente": "SISTEMA TRAVAMENTO DE BANDEJA LADO DIREITO 01 ROBO DESEMPILHADOR",
+      "falhas": 3,
+      "horas": 0.1833
+    },
+    {
+      "tag": "ELETRICA01",
+      "componente": "AGUARDANDO ELETRICA",
+      "falhas": 2,
+      "horas": 0.2
+    },
+    {
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "falhas": 2,
+      "horas": 0.2
+    },
+    {
+      "tag": "INK08",
+      "componente": "INKJET MESPACK R2",
+      "falhas": 2,
+      "horas": 0.75
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

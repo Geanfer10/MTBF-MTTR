@@ -1,0 +1,164 @@
+{
+  "date": "2026-04-10",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK R2",
+      "horas": 4.45,
+      "falhas": 31
+    },
+    {
+      "name": "MESPACK E",
+      "horas": 3.5167,
+      "falhas": 32
+    },
+    {
+      "name": "MESPACK F",
+      "horas": 3.2833,
+      "falhas": 41
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 2.3167,
+      "falhas": 18
+    },
+    {
+      "name": "60L1",
+      "horas": 1.4833,
+      "falhas": 4
+    },
+    {
+      "name": "MESPACK D",
+      "horas": 1.2833,
+      "falhas": 1
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 0.75,
+      "falhas": 3
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 2.2667,
+      "2": 3.5667,
+      "3": 3.1833
+    },
+    "Elétrica": {
+      "1": 0.8,
+      "2": 2.35,
+      "3": 0.0
+    },
+    "Mecânica": {
+      "1": 2.8667,
+      "2": 1.5,
+      "3": 0.55
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 32,
+      "horas": 3.5167
+    },
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 30,
+      "horas": 4.0167
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 24,
+      "horas": 1.4333
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 12,
+      "horas": 1.25
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 10,
+      "horas": 0.7667
+    },
+    {
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "falhas": 6,
+      "horas": 0.9333
+    },
+    {
+      "tag": "INK10",
+      "componente": "INKJET RECRAVADEIRA 60L1",
+      "falhas": 2,
+      "horas": 1.2167
+    },
+    {
+      "tag": "30433",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
+      "falhas": 2,
+      "horas": 0.2667
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "falhas": 2,
+      "horas": 0.2167
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "falhas": 2,
+      "horas": 0.8
+    },
+    {
+      "tag": "31186",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK R1",
+      "falhas": 1,
+      "horas": 0.15
+    },
+    {
+      "tag": "31319",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK F",
+      "falhas": 1,
+      "horas": 0.1
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

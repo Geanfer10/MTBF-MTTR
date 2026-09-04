@@ -1,0 +1,149 @@
+{
+  "date": "2026-04-06",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK R2",
+      "horas": 3.7833,
+      "falhas": 26
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 2.5,
+      "falhas": 12
+    },
+    {
+      "name": "60L1",
+      "horas": 1.3833,
+      "falhas": 4
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 0.8667,
+      "falhas": 5
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 2.4167,
+      "2": 1.2,
+      "3": 0.95
+    },
+    "Elétrica": {
+      "1": 1.75,
+      "2": 0.0,
+      "3": 0.6333
+    },
+    "Mecânica": {
+      "1": 1.3167,
+      "2": 0.1,
+      "3": 0.1667
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 20,
+      "horas": 2.8667
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 13,
+      "horas": 2.1167
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "falhas": 2,
+      "horas": 0.1167
+    },
+    {
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "falhas": 2,
+      "horas": 0.1
+    },
+    {
+      "tag": "30433",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
+      "falhas": 1,
+      "horas": 0.1167
+    },
+    {
+      "tag": "30423",
+      "componente": "MOTOR ELETRICO DO REDUTOR DA ENCHEDEIRA 60L1",
+      "falhas": 1,
+      "horas": 0.4167
+    },
+    {
+      "tag": "31404",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
+      "falhas": 1,
+      "horas": 0.0333
+    },
+    {
+      "tag": "31392",
+      "componente": "CONJUNTO SUPERIOR DESBOBINADOR MESPACK R2",
+      "falhas": 1,
+      "horas": 0.6333
+    },
+    {
+      "tag": "30536",
+      "componente": "ESTEIRA PULMÃO ENCESTADOR LINHA 60L2",
+      "falhas": 1,
+      "horas": 0.6333
+    },
+    {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "falhas": 1,
+      "horas": 0.0667
+    },
+    {
+      "tag": "INK10",
+      "componente": "INKJET RECRAVADEIRA 60L1",
+      "falhas": 1,
+      "horas": 0.2167
+    },
+    {
+      "tag": "FEL01",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+      "falhas": 1,
+      "horas": 0.0333
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

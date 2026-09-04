@@ -1,0 +1,121 @@
+{
+  "date": "2026-04-29",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK D",
+      "horas": 3.25,
+      "falhas": 3
+    },
+    {
+      "name": "MESPACK B",
+      "horas": 0.7167,
+      "falhas": 4
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 0.6833,
+      "falhas": 4
+    },
+    {
+      "name": "MESPACK A",
+      "horas": 0.2333,
+      "falhas": 1
+    }
+  ],
+  "turnos": {
+    "Mecânica": {
+      "1": 1.1,
+      "2": 3.3167,
+      "3": 0.4667
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "20505",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK B ",
+      "falhas": 2,
+      "horas": 0.5333
+    },
+    {
+      "tag": "20547",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "falhas": 2,
+      "horas": 3.0
+    },
+    {
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "falhas": 2,
+      "horas": 0.3333
+    },
+    {
+      "tag": "20487",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "falhas": 1,
+      "horas": 0.2333
+    },
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "falhas": 1,
+      "horas": 0.1167
+    },
+    {
+      "tag": "20516",
+      "componente": "CONJUNTO DESBOBINADOR MESPACK C ",
+      "falhas": 1,
+      "horas": 0.2833
+    },
+    {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "falhas": 1,
+      "horas": 0.0667
+    },
+    {
+      "tag": "20522",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK C ",
+      "falhas": 1,
+      "horas": 0.0667
+    },
+    {
+      "tag": "20544",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK D ",
+      "falhas": 1,
+      "horas": 0.25
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

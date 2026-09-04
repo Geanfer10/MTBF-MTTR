@@ -1,0 +1,184 @@
+{
+  "date": "2026-06-22",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK R2",
+      "horas": 8.6,
+      "falhas": 51
+    },
+    {
+      "name": "MESPACK F",
+      "horas": 5.9167,
+      "falhas": 38
+    },
+    {
+      "name": "MESPACK E",
+      "horas": 4.45,
+      "falhas": 39
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 3.6,
+      "falhas": 23
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 2.1833,
+      "falhas": 9
+    },
+    {
+      "name": "MESPACK A",
+      "horas": 1.4,
+      "falhas": 4
+    },
+    {
+      "name": "CONDOR",
+      "horas": 1.2167,
+      "falhas": 3
+    },
+    {
+      "name": "ENCHEDEIRA TOP DOWN",
+      "horas": 1.1333,
+      "falhas": 7
+    },
+    {
+      "name": "MESPACK B",
+      "horas": 0.8,
+      "falhas": 4
+    },
+    {
+      "name": "MESPACK D",
+      "horas": 0.5333,
+      "falhas": 4
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 0.15,
+      "falhas": 2
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 3.9167,
+      "2": 6.3833,
+      "3": 8.2833
+    },
+    "Elétrica": {
+      "1": 2.1,
+      "2": 0.4833,
+      "3": 1.1333
+    },
+    "Mecânica": {
+      "1": 3.0667,
+      "2": 3.6833,
+      "3": 0.9333
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 49,
+      "horas": 7.5
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 35,
+      "horas": 4.1167
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 24,
+      "horas": 3.2167
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 18,
+      "horas": 1.35
+    },
+    {
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "falhas": 6,
+      "horas": 0.6167
+    },
+    {
+      "tag": "20378",
+      "componente": "CABEÇOTE DE INDUÇÃO",
+      "falhas": 5,
+      "horas": 0.8167
+    },
+    {
+      "tag": "30787",
+      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
+      "falhas": 3,
+      "horas": 1.2167
+    },
+    {
+      "tag": "20519",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
+      "falhas": 3,
+      "horas": 0.9167
+    },
+    {
+      "tag": "31669",
+      "componente": "GARRA DE EMPURRAR SACHE EMPURRADOR DE EMBALAGEM MESPACK F",
+      "falhas": 3,
+      "horas": 0.45
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "falhas": 2,
+      "horas": 0.25
+    },
+    {
+      "tag": "20367",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
+      "falhas": 2,
+      "horas": 0.3167
+    },
+    {
+      "tag": "20476",
+      "componente": "CONJUNTO DESBOBINADOR MESPACK A ",
+      "falhas": 2,
+      "horas": 0.9667
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

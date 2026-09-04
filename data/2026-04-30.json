@@ -1,0 +1,80 @@
+{
+  "date": "2026-04-30",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK C",
+      "horas": 0.4833,
+      "falhas": 4
+    },
+    {
+      "name": "MESPACK A",
+      "horas": 0.45,
+      "falhas": 1
+    }
+  ],
+  "turnos": {
+    "Elétrica": {
+      "1": 0.0,
+      "2": 0.45,
+      "3": 0.0
+    },
+    "Mecânica": {
+      "1": 0.4833,
+      "2": 0.0,
+      "3": 0.0
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "falhas": 3,
+      "horas": 0.2833
+    },
+    {
+      "tag": "20479",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A ",
+      "falhas": 1,
+      "horas": 0.45
+    },
+    {
+      "tag": "20516",
+      "componente": "CONJUNTO DESBOBINADOR MESPACK C ",
+      "falhas": 1,
+      "horas": 0.2
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "date": "2026-07-04",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK R2",
+      "horas": 4.5167,
+      "falhas": 26
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 3.4333,
+      "falhas": 17
+    },
+    {
+      "name": "MESPACK F",
+      "horas": 2.85,
+      "falhas": 28
+    },
+    {
+      "name": "MESPACK E",
+      "horas": 2.3833,
+      "falhas": 22
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 1.7167,
+      "falhas": 4
+    },
+    {
+      "name": "MESPACK D",
+      "horas": 1.3667,
+      "falhas": 7
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 1.0833,
+      "falhas": 5
+    },
+    {
+      "name": "ENCHEDEIRA TOP DOWN",
+      "horas": 0.85,
+      "falhas": 3
+    },
+    {
+      "name": "MESPACK B",
+      "horas": 0.6833,
+      "falhas": 4
+    },
+    {
+      "name": "MESPACK A",
+      "horas": 0.1167,
+      "falhas": 1
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 3.8,
+      "2": 2.3833,
+      "3": 1.3833
+    },
+    "Elétrica": {
+      "1": 1.2167,
+      "2": 0.0833,
+      "3": 0.1333
+    },
+    "Mecânica": {
+      "1": 2.4667,
+      "2": 6.9667,
+      "3": 0.5667
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 22,
+      "horas": 3.1
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 15,
+      "horas": 1.4167
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 15,
+      "horas": 1.5
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 12,
+      "horas": 1.45
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 5,
+      "horas": 0.3833
+    },
+    {
+      "tag": "20547",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "falhas": 4,
+      "horas": 0.9833
+    },
+    {
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "falhas": 4,
+      "horas": 0.8667
+    },
+    {
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "falhas": 3,
+      "horas": 0.6833
+    },
+    {
+      "tag": "31312",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK F",
+      "falhas": 3,
+      "horas": 0.4833
+    },
+    {
+      "tag": "20367",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
+      "falhas": 3,
+      "horas": 0.85
+    },
+    {
+      "tag": "TP-BJ12",
+      "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ-12",
+      "falhas": 2,
+      "horas": 1.1667
+    },
+    {
+      "tag": "20556",
+      "componente": "CONJUNTO DESBOBINADOR MESPACK E ",
+      "falhas": 2,
+      "horas": 0.25
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

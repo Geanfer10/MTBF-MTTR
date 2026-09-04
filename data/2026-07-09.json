@@ -1,0 +1,184 @@
+{
+  "date": "2026-07-09",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK E",
+      "horas": 6.1824,
+      "falhas": 49
+    },
+    {
+      "name": "MESPACK R2",
+      "horas": 5.45,
+      "falhas": 38
+    },
+    {
+      "name": "MESPACK F",
+      "horas": 4.3561,
+      "falhas": 35
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 3.5833,
+      "falhas": 18
+    },
+    {
+      "name": "60L1",
+      "horas": 1.25,
+      "falhas": 2
+    },
+    {
+      "name": "MESPACK A",
+      "horas": 0.9333,
+      "falhas": 3
+    },
+    {
+      "name": "60L2",
+      "horas": 0.8833,
+      "falhas": 4
+    },
+    {
+      "name": "MESPACK B",
+      "horas": 0.5667,
+      "falhas": 3
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 0.4,
+      "falhas": 2
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 0.1833,
+      "falhas": 4
+    },
+    {
+      "name": "MESPACK D",
+      "horas": 0.1,
+      "falhas": 1
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 3.4333,
+      "2": 5.7,
+      "3": 1.8333
+    },
+    "Elétrica": {
+      "1": 1.2217,
+      "2": 1.3333,
+      "3": 0.05
+    },
+    "Mecânica": {
+      "1": 3.1333,
+      "2": 2.95,
+      "3": 4.2335
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 32,
+      "horas": 4.3333
+    },
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 28,
+      "horas": 2.7667
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 20,
+      "horas": 1.9167
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 10,
+      "horas": 1.3667
+    },
+    {
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "falhas": 8,
+      "horas": 0.8167
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 6,
+      "horas": 0.75
+    },
+    {
+      "tag": "30463",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
+      "falhas": 4,
+      "horas": 0.8833
+    },
+    {
+      "tag": "31944",
+      "componente": "CORRENTE ESTEIRA TRANSPORTE CADENA TF-BJ-3",
+      "falhas": 3,
+      "horas": 1.2333
+    },
+    {
+      "tag": "31593",
+      "componente": "CABEÇOTE FECH. DE CIAXAS ATOMATADOS ",
+      "falhas": 3,
+      "horas": 0.5168
+    },
+    {
+      "tag": "20565",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK E ",
+      "falhas": 2,
+      "horas": 0.5
+    },
+    {
+      "tag": "TP10",
+      "componente": "ESTEIRA TRANSPORTE ATM TP10",
+      "falhas": 2,
+      "horas": 0.128
+    },
+    {
+      "tag": "FEL01",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+      "falhas": 2,
+      "horas": 0.1
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

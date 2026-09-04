@@ -1,0 +1,159 @@
+{
+  "date": "2026-05-16",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK R2",
+      "horas": 2.0833,
+      "falhas": 23
+    },
+    {
+      "name": "60L2",
+      "horas": 0.8833,
+      "falhas": 6
+    },
+    {
+      "name": "CONDOR",
+      "horas": 0.8833,
+      "falhas": 6
+    },
+    {
+      "name": "ENCHEDEIRA TOP DOWN",
+      "horas": 0.7167,
+      "falhas": 3
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 0.7167,
+      "falhas": 11
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 0.3167,
+      "falhas": 4
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 1.6833,
+      "2": 0.9167,
+      "3": 0.0
+    },
+    "Elétrica": {
+      "1": 0.6833,
+      "2": 0.25,
+      "3": 0.0
+    },
+    "Mecânica": {
+      "1": 1.3833,
+      "2": 0.6833,
+      "3": 0.0
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 21,
+      "horas": 1.8167
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 9,
+      "horas": 0.6
+    },
+    {
+      "tag": "30463",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
+      "falhas": 5,
+      "horas": 0.6333
+    },
+    {
+      "tag": "30787",
+      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
+      "falhas": 4,
+      "horas": 0.6333
+    },
+    {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "falhas": 2,
+      "horas": 0.2667
+    },
+    {
+      "tag": "FEL01",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+      "falhas": 2,
+      "horas": 0.1167
+    },
+    {
+      "tag": "20374",
+      "componente": "VÁLVULA DE PRODUTO ENCHEDEIRA TOPDOWN",
+      "falhas": 1,
+      "horas": 0.1833
+    },
+    {
+      "tag": "20391",
+      "componente": "ESTEIRA TRANSPORTE DE FRASCOS ROTULADEIRA TOPDOWN",
+      "falhas": 1,
+      "horas": 0.1167
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "falhas": 1,
+      "horas": 0.0667
+    },
+    {
+      "tag": "31191",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
+      "falhas": 1,
+      "horas": 0.05
+    },
+    {
+      "tag": "30790",
+      "componente": "ROSCA SEM FIM RECRAVADEIRA CONDOR",
+      "falhas": 1,
+      "horas": 0.0667
+    },
+    {
+      "tag": "32129",
+      "componente": "BALANÇA FECH. DE CAIXA VEGETAIS",
+      "falhas": 1,
+      "horas": 0.1333
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

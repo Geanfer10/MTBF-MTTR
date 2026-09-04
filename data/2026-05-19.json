@@ -1,0 +1,174 @@
+{
+  "date": "2026-05-19",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK R2",
+      "horas": 10.0833,
+      "falhas": 45
+    },
+    {
+      "name": "MESPACK E",
+      "horas": 6.4028,
+      "falhas": 55
+    },
+    {
+      "name": "MESPACK F",
+      "horas": 4.15,
+      "falhas": 53
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 2.55,
+      "falhas": 14
+    },
+    {
+      "name": "ENCHEDEIRA TOP DOWN",
+      "horas": 2.3333,
+      "falhas": 3
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 1.7333,
+      "falhas": 11
+    },
+    {
+      "name": "MESPACK D",
+      "horas": 1.0833,
+      "falhas": 4
+    },
+    {
+      "name": "60L1",
+      "horas": 0.6,
+      "falhas": 3
+    },
+    {
+      "name": "60L2",
+      "horas": 0.3167,
+      "falhas": 3
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 5.7167,
+      "2": 5.3833,
+      "3": 3.8833
+    },
+    "Elétrica": {
+      "1": 4.4361,
+      "2": 2.8667,
+      "3": 0.1333
+    },
+    "Mecânica": {
+      "1": 3.2667,
+      "2": 2.9333,
+      "3": 0.6333
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 47,
+      "horas": 4.55
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 37,
+      "horas": 2.6667
+    },
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 30,
+      "horas": 4.1833
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 13,
+      "horas": 1.15
+    },
+    {
+      "tag": "31404",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
+      "falhas": 7,
+      "horas": 1.3333
+    },
+    {
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "falhas": 6,
+      "horas": 0.6167
+    },
+    {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "falhas": 6,
+      "horas": 0.7667
+    },
+    {
+      "tag": "31310",
+      "componente": "CONJUNTO DE FACAS MESPACK F",
+      "falhas": 5,
+      "horas": 0.35
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 4,
+      "horas": 0.5833
+    },
+    {
+      "tag": "30463",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
+      "falhas": 3,
+      "horas": 0.3167
+    },
+    {
+      "tag": "30433",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
+      "falhas": 3,
+      "horas": 0.6
+    },
+    {
+      "tag": "20547",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "falhas": 3,
+      "horas": 0.8
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

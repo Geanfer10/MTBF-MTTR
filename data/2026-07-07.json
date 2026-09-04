@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-07",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK R2",
+      "horas": 6.1764,
+      "falhas": 51
+    },
+    {
+      "name": "60L1",
+      "horas": 5.0333,
+      "falhas": 10
+    },
+    {
+      "name": "MESPACK E",
+      "horas": 4.25,
+      "falhas": 31
+    },
+    {
+      "name": "MESPACK F",
+      "horas": 2.8167,
+      "falhas": 26
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 1.95,
+      "falhas": 24
+    },
+    {
+      "name": "MESPACK D",
+      "horas": 1.1667,
+      "falhas": 6
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 0.3333,
+      "falhas": 3
+    },
+    {
+      "name": "MESPACK B",
+      "horas": 0.0333,
+      "falhas": 1
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 3.6,
+      "2": 2.3667,
+      "3": 3.243
+    },
+    "Elétrica": {
+      "1": 2.1333,
+      "2": 2.4333,
+      "3": 0.0
+    },
+    "Mecânica": {
+      "1": 3.25,
+      "2": 3.65,
+      "3": 1.0833
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 46,
+      "horas": 4.8597
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 23,
+      "horas": 1.7167
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 17,
+      "horas": 1.05
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 13,
+      "horas": 0.9167
+    },
+    {
+      "tag": "30433",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
+      "falhas": 7,
+      "horas": 4.0667
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 5,
+      "horas": 0.4833
+    },
+    {
+      "tag": "31311",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK F",
+      "falhas": 4,
+      "horas": 0.6667
+    },
+    {
+      "tag": "ink04",
+      "componente": "INKJET MESPACK D",
+      "falhas": 3,
+      "horas": 0.3667
+    },
+    {
+      "tag": "TRS01",
+      "componente": "TRANSFER DE BANDEJA ",
+      "falhas": 3,
+      "horas": 0.6
+    },
+    {
+      "tag": "INK10",
+      "componente": "INKJET RECRAVADEIRA 60L1",
+      "falhas": 3,
+      "horas": 0.9667
+    },
+    {
+      "tag": "20572",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK E",
+      "falhas": 2,
+      "horas": 0.35
+    },
+    {
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "falhas": 2,
+      "horas": 0.1833
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "date": "2026-04-27",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK D",
+      "horas": 2.1333,
+      "falhas": 8
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 1.8833,
+      "falhas": 9
+    },
+    {
+      "name": "MESPACK A",
+      "horas": 0.5167,
+      "falhas": 2
+    },
+    {
+      "name": "MESPACK B",
+      "horas": 0.3167,
+      "falhas": 4
+    }
+  ],
+  "turnos": {
+    "Elétrica": {
+      "1": 0.0,
+      "2": 0.2667,
+      "3": 0.1167
+    },
+    "Mecânica": {
+      "1": 2.3667,
+      "2": 1.0667,
+      "3": 1.0333
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "20532",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK C",
+      "falhas": 4,
+      "horas": 0.4333
+    },
+    {
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "falhas": 3,
+      "horas": 1.0667
+    },
+    {
+      "tag": "20547",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "falhas": 3,
+      "horas": 0.2333
+    },
+    {
+      "tag": "20478",
+      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK A ",
+      "falhas": 2,
+      "horas": 0.5167
+    },
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "falhas": 2,
+      "horas": 0.15
+    },
+    {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "falhas": 2,
+      "horas": 0.1667
+    },
+    {
+      "tag": "20544",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK D ",
+      "falhas": 2,
+      "horas": 0.85
+    },
+    {
+      "tag": "20519",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
+      "falhas": 1,
+      "horas": 0.1333
+    },
+    {
+      "tag": "20522",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK C ",
+      "falhas": 1,
+      "horas": 0.25
+    },
+    {
+      "tag": "20545",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK D ",
+      "falhas": 1,
+      "horas": 0.0667
+    },
+    {
+      "tag": "20552",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK D",
+      "falhas": 1,
+      "horas": 0.1
+    },
+    {
+      "tag": "PS04",
+      "componente": "PASTEURIZADOR C-D",
+      "falhas": 1,
+      "horas": 0.8833
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

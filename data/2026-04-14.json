@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-14",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK F",
+      "horas": 4.2833,
+      "falhas": 53
+    },
+    {
+      "name": "MESPACK E",
+      "horas": 3.55,
+      "falhas": 30
+    },
+    {
+      "name": "MESPACK R2",
+      "horas": 3.1667,
+      "falhas": 18
+    },
+    {
+      "name": "60L1",
+      "horas": 1.25,
+      "falhas": 6
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 0.85,
+      "falhas": 6
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 0.5167,
+      "falhas": 4
+    },
+    {
+      "name": "MESPACK D",
+      "horas": 0.5,
+      "falhas": 2
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 0.1667,
+      "falhas": 3
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 1.5,
+      "2": 2.2833,
+      "3": 4.85
+    },
+    "Elétrica": {
+      "1": 0.5333,
+      "2": 0.5167,
+      "3": 0.25
+    },
+    "Mecânica": {
+      "1": 0.8833,
+      "2": 1.9667,
+      "3": 1.5
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 35,
+      "horas": 2.3333
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 25,
+      "horas": 2.8667
+    },
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 17,
+      "horas": 3.0833
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 8,
+      "horas": 0.9667
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 8,
+      "horas": 0.9333
+    },
+    {
+      "tag": "30433",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
+      "falhas": 6,
+      "horas": 1.25
+    },
+    {
+      "tag": "31312",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK F",
+      "falhas": 4,
+      "horas": 0.35
+    },
+    {
+      "tag": "31319",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK F",
+      "falhas": 3,
+      "horas": 0.5333
+    },
+    {
+      "tag": "MP07",
+      "componente": "MESPACK F",
+      "falhas": 3,
+      "horas": 0.1
+    },
+    {
+      "tag": "20564",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK E ",
+      "falhas": 2,
+      "horas": 0.1667
+    },
+    {
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "falhas": 2,
+      "horas": 0.3
+    },
+    {
+      "tag": "20524",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK C ",
+      "falhas": 1,
+      "horas": 0.1
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

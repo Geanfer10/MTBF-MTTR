@@ -1,0 +1,174 @@
+{
+  "date": "2026-06-10",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK R2",
+      "horas": 9.3,
+      "falhas": 49
+    },
+    {
+      "name": "MESPACK F",
+      "horas": 5.5833,
+      "falhas": 19
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 4.05,
+      "falhas": 26
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 3.7333,
+      "falhas": 5
+    },
+    {
+      "name": "MESPACK E",
+      "horas": 3.3276,
+      "falhas": 29
+    },
+    {
+      "name": "MESPACK B",
+      "horas": 2.7833,
+      "falhas": 5
+    },
+    {
+      "name": "MESPACK A",
+      "horas": 2.0,
+      "falhas": 5
+    },
+    {
+      "name": "60L1",
+      "horas": 1.2833,
+      "falhas": 2
+    },
+    {
+      "name": "60L2",
+      "horas": 0.6,
+      "falhas": 2
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 2.4333,
+      "2": 4.05,
+      "3": 0.9776
+    },
+    "Elétrica": {
+      "1": 0.0,
+      "2": 3.0,
+      "3": 1.75
+    },
+    "Mecânica": {
+      "1": 11.6667,
+      "2": 5.7167,
+      "3": 3.0667
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 23,
+      "horas": 2.6609
+    },
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 21,
+      "horas": 2.0667
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 12,
+      "horas": 0.9167
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 11,
+      "horas": 0.9
+    },
+    {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "falhas": 10,
+      "horas": 3.0833
+    },
+    {
+      "tag": "31404",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
+      "falhas": 7,
+      "horas": 2.7
+    },
+    {
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "falhas": 5,
+      "horas": 1.5
+    },
+    {
+      "tag": "FEL01",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+      "falhas": 4,
+      "horas": 0.3667
+    },
+    {
+      "tag": "RB010",
+      "componente": "ROBO  DESEMPILHADOR DE BANDEJA ",
+      "falhas": 4,
+      "horas": 0.4167
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "falhas": 3,
+      "horas": 0.2167
+    },
+    {
+      "tag": "ink05",
+      "componente": "INKJET MESPACK E",
+      "falhas": 3,
+      "horas": 0.2167
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "falhas": 3,
+      "horas": 0.9333
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}

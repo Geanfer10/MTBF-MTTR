@@ -1,0 +1,174 @@
+{
+  "date": "2026-03-31",
+  "updated_at": "2026-09-04T19:44",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK R2",
+      "horas": 4.1833,
+      "falhas": 34
+    },
+    {
+      "name": "MESPACK F",
+      "horas": 3.2833,
+      "falhas": 31
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 2.6,
+      "falhas": 17
+    },
+    {
+      "name": "60L1",
+      "horas": 2.2833,
+      "falhas": 10
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 1.4778,
+      "falhas": 7
+    },
+    {
+      "name": "MESPACK A",
+      "horas": 1.2333,
+      "falhas": 1
+    },
+    {
+      "name": "MESPACK D",
+      "horas": 1.0,
+      "falhas": 5
+    },
+    {
+      "name": "MESPACK B",
+      "horas": 0.8333,
+      "falhas": 4
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 0.1333,
+      "falhas": 2
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 2.3,
+      "2": 2.35,
+      "3": 1.3167
+    },
+    "Elétrica": {
+      "1": 0.6,
+      "2": 2.1444,
+      "3": 0.2833
+    },
+    "Mecânica": {
+      "1": 4.75,
+      "2": 2.2667,
+      "3": 1.0167
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 25,
+      "horas": 2.3167
+    },
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 25,
+      "horas": 2.65
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 7,
+      "horas": 0.5333
+    },
+    {
+      "tag": "30433",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
+      "falhas": 7,
+      "horas": 1.9333
+    },
+    {
+      "tag": "31191",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
+      "falhas": 3,
+      "horas": 0.1833
+    },
+    {
+      "tag": "31183",
+      "componente": "CONJUNTO SUPERIOR DESBOBINADOR MESPACK R1",
+      "falhas": 3,
+      "horas": 0.5167
+    },
+    {
+      "tag": "31404",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
+      "falhas": 3,
+      "horas": 0.3833
+    },
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "falhas": 2,
+      "horas": 0.5167
+    },
+    {
+      "tag": "31904",
+      "componente": "CORRENTE ESTEIRA TRANSPORTE CADENA TP-BJ-9",
+      "falhas": 2,
+      "horas": 1.6167
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 2,
+      "horas": 0.3167
+    },
+    {
+      "tag": "TP-BJ4-L1",
+      "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L1",
+      "falhas": 2,
+      "horas": 0.1333
+    },
+    {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "falhas": 2,
+      "horas": 0.25
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}
