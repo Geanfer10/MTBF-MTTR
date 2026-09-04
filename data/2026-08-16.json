@@ -1,0 +1,145 @@
+{
+  "date": "2026-08-16",
+  "updated_at": "2026-09-04T11:54",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK B",
+      "horas": 2.1667,
+      "falhas": 9
+    },
+    {
+      "name": "MESPACK F",
+      "horas": 2.0167,
+      "falhas": 17
+    },
+    {
+      "name": "MESPACK A",
+      "horas": 1.5333,
+      "falhas": 4
+    },
+    {
+      "name": "MESPACK E",
+      "horas": 1.0833,
+      "falhas": 6
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 0.0,
+      "2": 0.4,
+      "3": 1.1333
+    },
+    "Elétrica": {
+      "1": 0.1667,
+      "2": 0.85,
+      "3": 0.0
+    },
+    "Mecânica": {
+      "1": 0.5333,
+      "2": 1.3167,
+      "3": 2.4
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 13,
+      "horas": 1.4833
+    },
+    {
+      "tag": "20499",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B ",
+      "falhas": 5,
+      "horas": 1.5667
+    },
+    {
+      "tag": "20492",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK A",
+      "falhas": 3,
+      "horas": 0.5833
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 3,
+      "horas": 0.2333
+    },
+    {
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "falhas": 2,
+      "horas": 0.45
+    },
+    {
+      "tag": "20505",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK B ",
+      "falhas": 1,
+      "horas": 0.0667
+    },
+    {
+      "tag": "20479",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A ",
+      "falhas": 1,
+      "horas": 0.95
+    },
+    {
+      "tag": "20560",
+      "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK E ",
+      "falhas": 1,
+      "horas": 0.2667
+    },
+    {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "falhas": 1,
+      "horas": 0.1667
+    },
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "falhas": 1,
+      "horas": 0.2333
+    },
+    {
+      "tag": "20565",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK E ",
+      "falhas": 1,
+      "horas": 0.1833
+    },
+    {
+      "tag": "ELETRICA01",
+      "componente": "AGUARDANDO ELETRICA",
+      "falhas": 1,
+      "horas": 0.1333
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 1664
+    }
+  ]
+}

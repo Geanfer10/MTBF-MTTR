@@ -1,0 +1,160 @@
+{
+  "date": "2026-08-15",
+  "updated_at": "2026-09-04T11:54",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK R2",
+      "horas": 3.75,
+      "falhas": 31
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 2.0167,
+      "falhas": 22
+    },
+    {
+      "name": "MESPACK A",
+      "horas": 1.9,
+      "falhas": 6
+    },
+    {
+      "name": "MESPACK F",
+      "horas": 1.8333,
+      "falhas": 16
+    },
+    {
+      "name": "MESPACK B",
+      "horas": 1.5667,
+      "falhas": 4
+    },
+    {
+      "name": "ENCHEDEIRA TOP DOWN",
+      "horas": 0.6,
+      "falhas": 4
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 0.3167,
+      "falhas": 3
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 2.6167,
+      "2": 1.9333,
+      "3": 0.05
+    },
+    "Elétrica": {
+      "1": 0.6833,
+      "2": 0.0,
+      "3": 1.35
+    },
+    "Mecânica": {
+      "1": 0.65,
+      "2": 2.6167,
+      "3": 2.0833
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 25,
+      "horas": 2.9167
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 10,
+      "horas": 0.8167
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "falhas": 6,
+      "horas": 0.7333
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 5,
+      "horas": 0.2333
+    },
+    {
+      "tag": "20367",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
+      "falhas": 3,
+      "horas": 0.3833
+    },
+    {
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "falhas": 3,
+      "horas": 0.1167
+    },
+    {
+      "tag": "31312",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK F",
+      "falhas": 3,
+      "horas": 0.3833
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 3,
+      "horas": 0.3167
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "falhas": 2,
+      "horas": 0.1667
+    },
+    {
+      "tag": "20499",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B ",
+      "falhas": 2,
+      "horas": 1.0167
+    },
+    {
+      "tag": "20490",
+      "componente": "CONJUNTO TANQUE DE PRODUTO MESPACK A ",
+      "falhas": 2,
+      "horas": 0.4333
+    },
+    {
+      "tag": "20479",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A ",
+      "falhas": 2,
+      "horas": 1.2
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 1664
+    }
+  ]
+}

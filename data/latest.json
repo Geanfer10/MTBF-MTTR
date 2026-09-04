@@ -1,0 +1,169 @@
+{
+  "date": "2026-09-03",
+  "updated_at": "2026-09-04T11:55",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK R2",
+      "horas": 6.1833,
+      "falhas": 47
+    },
+    {
+      "name": "MESPACK E",
+      "horas": 4.95,
+      "falhas": 30
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 3.3833,
+      "falhas": 26
+    },
+    {
+      "name": "MESPACK F",
+      "horas": 2.25,
+      "falhas": 29
+    },
+    {
+      "name": "MESPACK B",
+      "horas": 0.8,
+      "falhas": 4
+    },
+    {
+      "name": "MESPACK A",
+      "horas": 0.5167,
+      "falhas": 5
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 0.3833,
+      "falhas": 3
+    },
+    {
+      "name": "CONDOR",
+      "horas": 0.35,
+      "falhas": 2
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 2.05,
+      "2": 2.1333,
+      "3": 3.1333
+    },
+    "Elétrica": {
+      "1": 0.5333,
+      "2": 1.2667,
+      "3": 1.1833
+    },
+    "Mecânica": {
+      "1": 3.2167,
+      "2": 2.8333,
+      "3": 2.4667
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 25,
+      "horas": 2.9
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 20,
+      "horas": 1.25
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 19,
+      "horas": 1.7167
+    },
+    {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "falhas": 11,
+      "horas": 1.6167
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 11,
+      "horas": 0.7167
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "falhas": 8,
+      "horas": 0.8667
+    },
+    {
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "falhas": 4,
+      "horas": 0.25
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 4,
+      "horas": 0.4167
+    },
+    {
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "falhas": 3,
+      "horas": 0.3833
+    },
+    {
+      "tag": "TP-BJ14",
+      "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ-14",
+      "falhas": 3,
+      "horas": 1.1833
+    },
+    {
+      "tag": "20499",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B ",
+      "falhas": 3,
+      "horas": 0.7333
+    },
+    {
+      "tag": "20487",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "falhas": 2,
+      "horas": 0.2167
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3646
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 449
+    }
+  ]
+}
