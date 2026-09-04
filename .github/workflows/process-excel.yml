@@ -1,0 +1,42 @@
+name: Processar planilha PCM
+
+on:
+  push:
+    paths:
+      - "uploads/*.xlsm"
+      - "uploads/*.xlsx"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências
+        run: pip install pandas openpyxl
+
+      - name: Processar planilha(s)
+        run: |
+          shopt -s nullglob
+          for f in uploads/*.xlsm uploads/*.xlsx; do
+            echo "Processando $f"
+            python scripts/parse_excel.py --file "$f" --outdir data
+          done
+
+      - name: Commit dos dados atualizados
+        run: |
+          git config user.name "pcm-bot"
+          git config user.email "pcm-bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Atualiza dados PCM ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          git push
