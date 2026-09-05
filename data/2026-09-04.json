@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updated_at": "2026-09-05T10:04",
+  "updated_at": "2026-09-05T10:10",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -47,9 +47,9 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 6.85,
-      "2": 5.1802,
-      "3": 3.6
+      "1": 2.7333,
+      "2": 4.1802,
+      "3": 2.5167
     },
     "Elétrica": {
       "1": 0.6333,
@@ -57,85 +57,12 @@
       "3": 1.6
     },
     "Mecânica": {
-      "1": 1.6333,
-      "2": 3.35,
-      "3": 1.1
+      "1": 5.75,
+      "2": 4.35,
+      "3": 2.1833
     }
   },
-  "top_falhas": [
-    {
-      "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO MESPACK E",
-      "falhas": 30,
-      "horas": 4.95
-    },
-    {
-      "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA R2",
-      "falhas": 30,
-      "horas": 2.8167
-    },
-    {
-      "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO MESPACK F",
-      "falhas": 22,
-      "horas": 3.3
-    },
-    {
-      "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA R1",
-      "falhas": 14,
-      "horas": 0.9833
-    },
-    {
-      "tag": "31593",
-      "componente": "CABEÇOTE FECH. DE CIAXAS ATOMATADOS ",
-      "falhas": 9,
-      "horas": 2.2302
-    },
-    {
-      "tag": "31194",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
-      "falhas": 9,
-      "horas": 1.15
-    },
-    {
-      "tag": "31596",
-      "componente": "REJEITO DE CAIXAS FECH. DE CAIXAS ATOMATADOS ",
-      "falhas": 7,
-      "horas": 0.8833
-    },
-    {
-      "tag": "31411",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
-      "falhas": 6,
-      "horas": 0.3667
-    },
-    {
-      "tag": "31407",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
-      "falhas": 3,
-      "horas": 0.2667
-    },
-    {
-      "tag": "31198",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
-      "falhas": 3,
-      "horas": 0.0833
-    },
-    {
-      "tag": "20487",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
-      "falhas": 2,
-      "horas": 0.1167
-    },
-    {
-      "tag": "20367",
-      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
-      "falhas": 2,
-      "horas": 0.5333
-    }
-  ],
+  "top_falhas": [],
   "evolucao_mensal": [
     {
       "mes": "março",
