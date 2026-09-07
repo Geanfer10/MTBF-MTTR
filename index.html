@@ -67,7 +67,7 @@
   .card{background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:18px; box-shadow:0 1px 3px rgba(20,60,40,0.06);}
   .card h3{font-size:12px; font-weight:600; color:var(--text-dim); text-transform:uppercase; letter-spacing:0.05em; margin-bottom:14px;}
   .chart-box{position:relative; height:320px;}
-  .chart-box.sm{height:230px;} .chart-box.turno{height:260px;} .chart-box.matrix{height:340px;} .chart-box.donut{height:230px;} .chart-box.top10{height:340px;}
+  .chart-box.sm{height:320px;} .chart-box.turno{height:260px;} .chart-box.matrix{height:340px;} .chart-box.donut{height:230px;} .chart-box.top10{height:340px;}
   .dept-list{display:flex; flex-direction:column; gap:10px;}
   .dept-row{display:flex; align-items:center; gap:12px; padding:10px 12px; background:var(--panel-2); border:1px solid var(--border); border-radius:8px;}
   .dept-row .icon{width:34px; height:34px; border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:16px; flex-shrink:0;}
@@ -469,7 +469,7 @@ function render(data, periodHours, isPeriod, dayCount){
   charts.horas = new Chart(document.getElementById('chartHoras'), {
     type:'bar',
     data:{ labels: equipByHoras.map(e=>e.name), datasets:[{data: equipByHoras.map(e=>e.horas), backgroundColor:'#1E9350', borderRadius:4, maxBarThickness:16}] },
-    options:{ indexAxis:'y', layout:{padding:{right:36}},
+    options:{ maintainAspectRatio:false, indexAxis:'y', layout:{padding:{right:36}},
       plugins:{ legend:{display:false}, tooltip:{callbacks:{label:(ctx)=> hoursToHM(equipByHoras[ctx.dataIndex].horas)}},
         datalabels:{display:true, anchor:'end', align:'right', clamp:true, color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:10.5, weight:600}, formatter:(v,ctx)=> hoursToHM(equipByHoras[ctx.dataIndex].horas)} },
       scales:{ x:{grid:{color:'#E7F1EA'}, ticks:{callback:(v)=>v.toFixed(0)+'h'}}, y:{grid:{display:false}, ticks:{color:'#12271A', font:{size:10.5}}} }
@@ -481,7 +481,7 @@ function render(data, periodHours, isPeriod, dayCount){
   charts.falhas = new Chart(document.getElementById('chartFalhas'), {
     type:'bar',
     data:{ labels: equipByFalhas.map(e=>e.name), datasets:[{data: equipByFalhas.map(e=>e.falhas), backgroundColor:'#D8433F', borderRadius:4, maxBarThickness:16}] },
-    options:{ indexAxis:'y', layout:{padding:{right:26}},
+    options:{ maintainAspectRatio:false, indexAxis:'y', layout:{padding:{right:26}},
       plugins:{ legend:{display:false}, datalabels:{display:true, anchor:'end', align:'right', clamp:true, color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:10.5, weight:600}} },
       scales:{ x:{grid:{color:'#E7F1EA'}, ticks:{precision:0}}, y:{grid:{display:false}, ticks:{color:'#12271A', font:{size:10.5}}} }
     }
@@ -491,7 +491,7 @@ function render(data, periodHours, isPeriod, dayCount){
   charts.turno = new Chart(document.getElementById('chartTurno'), {
     type:'bar',
     data:{ labels:['Turno 1','Turno 2','Turno 3'], datasets: deptNames.map(dept => ({ label: dept, data: [1,2,3].map(t => TURNOS[dept][String(t)]), backgroundColor: DEPT_COLOR[dept] || '#888', borderRadius:4, maxBarThickness:34 })) },
-    options:{ layout:{padding:{top:20}},
+    options:{ maintainAspectRatio:false, layout:{padding:{top:20}},
       plugins:{ legend:{position:'bottom', labels:{color:'#5C7266', boxWidth:9, boxHeight:9, padding:14, usePointStyle:true, pointStyle:'circle'}},
         datalabels:{display:true, anchor:'end', align:'top', color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:9, weight:600},
           formatter:(v,ctx)=> hoursToHM(TURNOS[deptNames[ctx.datasetIndex]][String(ctx.dataIndex+1)])} },
@@ -513,7 +513,7 @@ function render(data, periodHours, isPeriod, dayCount){
   charts.indisp = new Chart(document.getElementById('chartIndisp'), {
     type:'bar',
     data:{ labels: equipByIndisp.map(e=>e.name), datasets:[{data: equipByIndisp.map(e=>e.indisp), backgroundColor:'#D8433F', borderRadius:4, maxBarThickness:30}] },
-    options:{ layout:{padding:{top:20}},
+    options:{ maintainAspectRatio:false, layout:{padding:{top:20}},
       plugins:{ legend:{display:false}, datalabels:{display:true, anchor:'end', align:'top', color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:10, weight:600}, formatter:(v)=> v.toFixed(2).replace('.',',')+'%'} },
       scales:{ x:{grid:{display:false}, ticks:{color:'#5C7266', font:{size:10}}}, y:{grid:{color:'#E7F1EA'}, ticks:{callback:(v)=>v.toFixed(0)+'%'}} }
     }
@@ -551,7 +551,7 @@ function render(data, periodHours, isPeriod, dayCount){
   charts.trend = new Chart(document.getElementById('chartTrend'), {
     type:'bar',
     data:{ labels: trendRecent.map(t=>fmtDateBR(t.date).slice(0,5)), datasets:[{data: trendRecent.map(t=>t.horas), backgroundColor:'#0E7A42', borderRadius:4, maxBarThickness:60}] },
-    options:{ layout:{padding:{top:24}},
+    options:{ maintainAspectRatio:false, layout:{padding:{top:24}},
       plugins:{ legend:{display:false}, tooltip:{callbacks:{label:(ctx)=> hoursToHM(trendRecent[ctx.dataIndex].horas)}},
         datalabels:{display:'auto', clamp:true, anchor:'end', align:'top', offset:4, color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:10.5, weight:600}, formatter:(v,ctx)=> hoursToHM(trendRecent[ctx.dataIndex].horas)} },
       scales:{ x:{grid:{display:false}, ticks:{color:'#12271A', font:{size:10}, maxRotation:45, minRotation:0}}, y:{grid:{color:'#E7F1EA'}, ticks:{callback:(v)=>v.toFixed(0)+'h'}} }
@@ -581,7 +581,7 @@ function render(data, periodHours, isPeriod, dayCount){
     type:'scatter',
     data:{ datasets:[{ data: matrixPoints, backgroundColor:'#0E7A42', pointRadius:7, pointHoverRadius:9 }] },
     plugins:[quadrantBg],
-    options:{
+    options:{ maintainAspectRatio:false,
       plugins:{ legend:{display:false},
         datalabels:{ display:true, align:'top', offset:6, color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:9.5, weight:600}, formatter:(v,ctx)=> matrixPoints[ctx.dataIndex].name },
         tooltip:{ callbacks:{ label:(ctx)=> `${matrixPoints[ctx.dataIndex].name}: ${hoursToHM(matrixPoints[ctx.dataIndex].x)}, ${matrixPoints[ctx.dataIndex].y} falhas` } } },
@@ -593,7 +593,7 @@ function render(data, periodHours, isPeriod, dayCount){
   charts.evolucao = new Chart(document.getElementById('chartEvolucao'), {
     type:'line',
     data:{ labels: data.evolucao_mensal.map(m=>m.mes), datasets:[{ data: data.evolucao_mensal.map(m=>m.falhas), borderColor:'#1E9350', backgroundColor:'#1E9350', tension:.3, pointRadius:4, pointBackgroundColor:'#1E9350', fill:false }] },
-    options:{ layout:{padding:{top:20}}, plugins:{ legend:{display:false}, datalabels:{display:true, align:'top', color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:10, weight:600}} },
+    options:{ maintainAspectRatio:false, layout:{padding:{top:20}}, plugins:{ legend:{display:false}, datalabels:{display:true, align:'top', color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:10, weight:600}} },
       scales:{ x:{grid:{display:false}}, y:{grid:{color:'#E7F1EA'}} } }
   });
 
@@ -602,7 +602,7 @@ function render(data, periodHours, isPeriod, dayCount){
   charts.disp = new Chart(document.getElementById('chartDisp'), {
     type:'bar',
     data:{ labels: dispSorted.map(e=>e.name), datasets:[{data: dispSorted.map(e=>e.disp), backgroundColor:'#1E9350', borderRadius:4, maxBarThickness:16}] },
-    options:{ indexAxis:'y', layout:{padding:{right:36}},
+    options:{ maintainAspectRatio:false, indexAxis:'y', layout:{padding:{right:36}},
       plugins:{ legend:{display:false}, datalabels:{display:true, anchor:'end', align:'right', clamp:true, color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:9.5, weight:600}, formatter:(v)=>v.toFixed(2).replace('.',',')+'%'} },
       scales:{ x:{grid:{color:'#E7F1EA'}, max:100, ticks:{callback:(v)=>v+'%'}}, y:{grid:{display:false}, ticks:{color:'#12271A', font:{size:9.5}}} }
     }
@@ -612,7 +612,7 @@ function render(data, periodHours, isPeriod, dayCount){
   charts.donut = new Chart(document.getElementById('chartDonut'), {
     type:'doughnut',
     data:{ labels: deptSorted.map(d=>d[0]), datasets:[{ data: deptSorted.map(d=>d[1]), backgroundColor: deptSorted.map(d=>DEPT_COLOR[d[0]]||'#888'), borderWidth:3, borderColor:'#FFFFFF' }] },
-    options:{ cutout:'62%',
+    options:{ maintainAspectRatio:false, cutout:'62%',
       plugins:{ legend:{position:'bottom', labels:{color:'#5C7266', boxWidth:9, boxHeight:9, padding:12, usePointStyle:true, pointStyle:'circle'}},
         datalabels:{ display:true, color:'#fff', font:{family:"'JetBrains Mono',monospace", size:10, weight:700}, formatter:(v)=> hoursToHM(v) } }
     }
@@ -623,7 +623,7 @@ function render(data, periodHours, isPeriod, dayCount){
   charts.top10 = new Chart(document.getElementById('chartTop10'), {
     type:'bar',
     data:{ labels: topFalhas.map(f=>f.componente), datasets:[{data: topFalhas.map(f=>f.falhas), backgroundColor:'#E08A1E', borderRadius:4, maxBarThickness:18}] },
-    options:{ indexAxis:'y', layout:{padding:{right:26}},
+    options:{ maintainAspectRatio:false, indexAxis:'y', layout:{padding:{right:26}},
       plugins:{ legend:{display:false}, datalabels:{display:true, anchor:'end', align:'right', clamp:true, color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:10.5, weight:600}} },
       scales:{ x:{grid:{color:'#E7F1EA'}, ticks:{precision:0}}, y:{grid:{display:false}, ticks:{color:'#12271A', font:{size:10}}} }
     }
@@ -656,7 +656,7 @@ function render(data, periodHours, isPeriod, dayCount){
         { type:'line', label:'Meta 80%', data: pareto.map(()=>80), borderColor:'#D8433F', borderDash:[6,4], borderWidth:2, pointRadius:0, fill:false, order:0, yAxisID:'yPct', datalabels:{display:false} }
       ]
     },
-    options:{ layout:{padding:{top:20}},
+    options:{ maintainAspectRatio:false, layout:{padding:{top:20}},
       plugins:{ legend:{position:'bottom', labels:{color:'#5C7266', boxWidth:9, boxHeight:9, padding:14, usePointStyle:true, pointStyle:'circle'}} },
       scales:{ x:{ grid:{display:false}, ticks:{color:'#12271A', font:{size:10}} },
         yHoras:{ position:'left', grid:{color:'#E7F1EA'}, ticks:{callback:(v)=>v.toFixed(0)+'h'}, title:{display:true, text:'Horas'} },
