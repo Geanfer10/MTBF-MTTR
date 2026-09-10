@@ -1,6 +1,6 @@
 {
   "date": "2026-04-30",
-  "updated_at": "2026-09-10T11:53",
+  "updated_at": "2026-09-10T12:37",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -58,13 +58,13 @@
   "top_falhas": [
     {
       "tag": "20527",
-      "componente": "AJUSTE NAS PINÇAS",
-      "falhas": 2,
-      "horas": 0.2167,
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "falhas": 3,
+      "horas": 0.2833,
       "por_turno": {
         "1": {
-          "horas": 0.2167,
-          "falhas": 2
+          "horas": 0.2833,
+          "falhas": 3
         },
         "2": {
           "horas": 0.0,
@@ -78,7 +78,7 @@
     },
     {
       "tag": "20479",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A ",
       "falhas": 1,
       "horas": 0.45,
       "por_turno": {
@@ -98,32 +98,12 @@
     },
     {
       "tag": "20516",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CONJUNTO DESBOBINADOR MESPACK C ",
       "falhas": 1,
       "horas": 0.2,
       "por_turno": {
         "1": {
           "horas": 0.2,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "20527",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "falhas": 1,
-      "horas": 0.0667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0667,
           "falhas": 1
         },
         "2": {
@@ -164,7 +144,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 618
+      "falhas": 1066
     }
   ]
 }

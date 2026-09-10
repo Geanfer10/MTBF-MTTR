@@ -1,6 +1,6 @@
 {
   "date": "2026-05-11",
-  "updated_at": "2026-09-10T11:53",
+  "updated_at": "2026-09-10T12:37",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -253,7 +253,7 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
       "falhas": 21,
       "horas": 1.85,
       "por_turno": {
@@ -273,7 +273,7 @@
     },
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R2",
       "falhas": 19,
       "horas": 3.6167,
       "por_turno": {
@@ -293,7 +293,7 @@
     },
     {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
       "falhas": 16,
       "horas": 0.95,
       "por_turno": {
@@ -313,37 +313,37 @@
     },
     {
       "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
-      "falhas": 6,
-      "horas": 1.25,
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 8,
+      "horas": 1.6167,
       "por_turno": {
         "1": {
-          "horas": 0.25,
-          "falhas": 3
+          "horas": 0.3333,
+          "falhas": 4
         },
         "2": {
           "horas": 0.8,
           "falhas": 2
         },
         "3": {
-          "horas": 0.2,
-          "falhas": 1
+          "horas": 0.4833,
+          "falhas": 2
         }
       }
     },
     {
       "tag": "31198",
-      "componente": "BICO DOSADOR ENTUPIDO",
-      "falhas": 6,
-      "horas": 0.2833,
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "falhas": 7,
+      "horas": 0.5167,
       "por_turno": {
         "1": {
           "horas": 0.2833,
           "falhas": 6
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.2333,
+          "falhas": 1
         },
         "3": {
           "horas": 0.0,
@@ -354,8 +354,8 @@
     {
       "tag": "FEL01",
       "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-      "falhas": 4,
-      "horas": 0.1833,
+      "falhas": 5,
+      "horas": 0.5,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -366,34 +366,14 @@
           "falhas": 4
         },
         "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "30463",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "falhas": 4,
-      "horas": 0.7167,
-      "por_turno": {
-        "1": {
-          "horas": 0.0833,
+          "horas": 0.3167,
           "falhas": 1
-        },
-        "2": {
-          "horas": 0.6333,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
         }
       }
     },
     {
       "tag": "30433",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
       "falhas": 4,
       "horas": 0.4167,
       "por_turno": {
@@ -412,8 +392,48 @@
       }
     },
     {
+      "tag": "30463",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
+      "falhas": 4,
+      "horas": 0.7167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.6333,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31186",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK R1",
+      "falhas": 3,
+      "horas": 0.85,
+      "por_turno": {
+        "1": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.6833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
       "tag": "MP07",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "MESPACK F",
       "falhas": 3,
       "horas": 0.35,
       "por_turno": {
@@ -432,50 +452,10 @@
       }
     },
     {
-      "tag": "20556",
-      "componente": "MANUTENÇÃO ELÉTRICA",
-      "falhas": 2,
-      "horas": 0.6,
-      "por_turno": {
-        "1": {
-          "horas": 0.3667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.2333,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "31503",
-      "componente": "TROCA VENTOSA ROBÔ",
-      "falhas": 2,
-      "horas": 0.1333,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.1333,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "31404",
-      "componente": "TROCA DE VENTOSAS",
-      "falhas": 2,
-      "horas": 0.15,
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
+      "falhas": 3,
+      "horas": 0.2333,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -486,7 +466,27 @@
           "falhas": 1
         },
         "3": {
-          "horas": 0.1,
+          "horas": 0.1833,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "20478",
+      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK A ",
+      "falhas": 2,
+      "horas": 2.5333,
+      "por_turno": {
+        "1": {
+          "horas": 0.35,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 2.1833,
           "falhas": 1
         }
       }
@@ -519,7 +519,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 618
+      "falhas": 1066
     }
   ]
 }

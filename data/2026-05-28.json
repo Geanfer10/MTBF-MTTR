@@ -1,6 +1,6 @@
 {
   "date": "2026-05-28",
-  "updated_at": "2026-09-10T11:53",
+  "updated_at": "2026-09-10T12:38",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -215,7 +215,7 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R2",
       "falhas": 31,
       "horas": 4.0667,
       "por_turno": {
@@ -235,7 +235,7 @@
     },
     {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
       "falhas": 22,
       "horas": 1.6333,
       "por_turno": {
@@ -254,8 +254,28 @@
       }
     },
     {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 22,
+      "horas": 2.05,
+      "por_turno": {
+        "1": {
+          "horas": 0.3,
+          "falhas": 6
+        },
+        "2": {
+          "horas": 0.7167,
+          "falhas": 9
+        },
+        "3": {
+          "horas": 1.0333,
+          "falhas": 7
+        }
+      }
+    },
+    {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
       "falhas": 20,
       "horas": 1.3167,
       "por_turno": {
@@ -274,38 +294,18 @@
       }
     },
     {
-      "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
-      "falhas": 19,
-      "horas": 1.8167,
-      "por_turno": {
-        "1": {
-          "horas": 0.2667,
-          "falhas": 5
-        },
-        "2": {
-          "horas": 0.7167,
-          "falhas": 9
-        },
-        "3": {
-          "horas": 0.8333,
-          "falhas": 5
-        }
-      }
-    },
-    {
       "tag": "20527",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "falhas": 8,
-      "horas": 1.7333,
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "falhas": 11,
+      "horas": 2.0167,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.2167,
+          "falhas": 2
         },
         "2": {
-          "horas": 0.2167,
-          "falhas": 1
+          "horas": 0.2833,
+          "falhas": 2
         },
         "3": {
           "horas": 1.5167,
@@ -314,28 +314,28 @@
       }
     },
     {
-      "tag": "30433",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "falhas": 4,
-      "horas": 0.6333,
+      "tag": "FEL01",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+      "falhas": 7,
+      "horas": 0.4,
       "por_turno": {
         "1": {
+          "horas": 0.2167,
+          "falhas": 4
+        },
+        "2": {
           "horas": 0.0,
           "falhas": 0
         },
-        "2": {
-          "horas": 0.55,
-          "falhas": 2
-        },
         "3": {
-          "horas": 0.0833,
-          "falhas": 2
+          "horas": 0.1833,
+          "falhas": 3
         }
       }
     },
     {
       "tag": "ELETRICA01",
-      "componente": "AGUARDANDO ELETRICISTA",
+      "componente": "AGUARDANDO ELETRICA",
       "falhas": 4,
       "horas": 3.0003,
       "por_turno": {
@@ -354,78 +354,38 @@
       }
     },
     {
-      "tag": "FEL01",
-      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-      "falhas": 3,
-      "horas": 0.15,
+      "tag": "30433",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
+      "falhas": 4,
+      "horas": 0.6333,
       "por_turno": {
         "1": {
-          "horas": 0.05,
-          "falhas": 1
-        },
-        "2": {
           "horas": 0.0,
           "falhas": 0
         },
+        "2": {
+          "horas": 0.55,
+          "falhas": 2
+        },
         "3": {
-          "horas": 0.1,
+          "horas": 0.0833,
           "falhas": 2
         }
       }
     },
     {
-      "tag": "FEL01",
-      "componente": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-      "falhas": 3,
-      "horas": 0.1667,
-      "por_turno": {
-        "1": {
-          "horas": 0.1667,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "31407",
-      "componente": "AJUSTE NAS PINÇAS",
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
       "falhas": 2,
       "horas": 0.1,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
           "horas": 0.1,
           "falhas": 2
         },
-        "3": {
+        "2": {
           "horas": 0.0,
           "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "20527",
-      "componente": "AJUSTE NO GUIA DE EMBALAGEM",
-      "falhas": 2,
-      "horas": 0.2167,
-      "por_turno": {
-        "1": {
-          "horas": 0.15,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0667,
-          "falhas": 1
         },
         "3": {
           "horas": 0.0,
@@ -435,7 +395,7 @@
     },
     {
       "tag": "20563",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CONJUNTO DE FACAS MESPACK E ",
       "falhas": 2,
       "horas": 0.5333,
       "por_turno": {
@@ -446,6 +406,46 @@
         "2": {
           "horas": 0.0,
           "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31905",
+      "componente": "PISTÃO DE TRAVAMENTO DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-9",
+      "falhas": 2,
+      "horas": 0.15,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.15,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "32130",
+      "componente": "REJEITO DE CAIXAS FECH. DE CAIXAS VEGETAIS",
+      "falhas": 2,
+      "horas": 0.2833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.2167,
+          "falhas": 1
         },
         "3": {
           "horas": 0.0,
@@ -481,7 +481,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 618
+      "falhas": 1066
     }
   ]
 }

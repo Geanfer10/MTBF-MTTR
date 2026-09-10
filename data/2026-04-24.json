@@ -1,6 +1,6 @@
 {
   "date": "2026-04-24",
-  "updated_at": "2026-09-10T11:53",
+  "updated_at": "2026-09-10T12:37",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -196,17 +196,17 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
-      "falhas": 31,
-      "horas": 3.7333,
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 32,
+      "horas": 3.8167,
       "por_turno": {
         "1": {
           "horas": 1.1,
           "falhas": 13
         },
         "2": {
-          "horas": 1.1667,
-          "falhas": 10
+          "horas": 1.25,
+          "falhas": 11
         },
         "3": {
           "horas": 1.4667,
@@ -216,13 +216,13 @@
     },
     {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-      "falhas": 18,
-      "horas": 1.2167,
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 19,
+      "horas": 1.25,
       "por_turno": {
         "1": {
-          "horas": 0.4333,
-          "falhas": 8
+          "horas": 0.4667,
+          "falhas": 9
         },
         "2": {
           "horas": 0.4167,
@@ -235,10 +235,30 @@
       }
     },
     {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 13,
+      "horas": 1.35,
+      "por_turno": {
+        "1": {
+          "horas": 0.3167,
+          "falhas": 5
+        },
+        "2": {
+          "horas": 0.3167,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.7167,
+          "falhas": 4
+        }
+      }
+    },
+    {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-      "falhas": 11,
-      "horas": 0.6333,
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 12,
+      "horas": 0.9,
       "por_turno": {
         "1": {
           "horas": 0.3833,
@@ -249,34 +269,54 @@
           "falhas": 5
         },
         "3": {
-          "horas": 0.0333,
-          "falhas": 1
+          "horas": 0.3,
+          "falhas": 2
         }
       }
     },
     {
-      "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
-      "falhas": 11,
-      "horas": 1.3,
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "falhas": 6,
+      "horas": 0.7333,
       "por_turno": {
         "1": {
+          "horas": 0.4333,
+          "falhas": 2
+        },
+        "2": {
           "horas": 0.3,
           "falhas": 4
         },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "RB010",
+      "componente": "ROBO  DESEMPILHADOR DE BANDEJA ",
+      "falhas": 5,
+      "horas": 1.0,
+      "por_turno": {
+        "1": {
+          "horas": 0.1,
+          "falhas": 2
+        },
         "2": {
-          "horas": 0.2833,
-          "falhas": 3
+          "horas": 0.1167,
+          "falhas": 1
         },
         "3": {
-          "horas": 0.7167,
-          "falhas": 4
+          "horas": 0.7833,
+          "falhas": 2
         }
       }
     },
     {
       "tag": "30787",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
       "falhas": 5,
       "horas": 1.2333,
       "por_turno": {
@@ -295,58 +335,18 @@
       }
     },
     {
-      "tag": "31407",
-      "componente": "AJUSTE NAS PINÇAS",
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
       "falhas": 5,
-      "horas": 0.65,
-      "por_turno": {
-        "1": {
-          "horas": 0.4333,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.2167,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "RB010",
-      "componente": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-      "falhas": 3,
-      "horas": 0.3333,
+      "horas": 1.5333,
       "por_turno": {
         "1": {
           "horas": 0.1,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.2333,
           "falhas": 1
-        }
-      }
-    },
-    {
-      "tag": "31314",
-      "componente": "AJUSTE NAS PINÇAS",
-      "falhas": 3,
-      "horas": 1.1667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
         },
         "2": {
-          "horas": 1.1667,
-          "falhas": 3
+          "horas": 1.4333,
+          "falhas": 4
         },
         "3": {
           "horas": 0.0,
@@ -356,7 +356,7 @@
     },
     {
       "tag": "RB011",
-      "componente": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
+      "componente": "ROBO  ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO",
       "falhas": 3,
       "horas": 0.1833,
       "por_turno": {
@@ -375,38 +375,18 @@
       }
     },
     {
-      "tag": "31404",
-      "componente": "TROCA DE VENTOSAS",
+      "tag": "31310",
+      "componente": "CONJUNTO DE FACAS MESPACK F",
       "falhas": 2,
-      "horas": 3.1167,
+      "horas": 0.9833,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0667,
+          "horas": 0.1333,
           "falhas": 1
         },
-        "3": {
-          "horas": 3.05,
-          "falhas": 1
-        }
-      }
-    },
-    {
-      "tag": "20567",
-      "componente": "AJUSTE NAS PINÇAS",
-      "falhas": 2,
-      "horas": 0.1833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
         "2": {
-          "horas": 0.1833,
-          "falhas": 2
+          "horas": 0.85,
+          "falhas": 1
         },
         "3": {
           "horas": 0.0,
@@ -415,21 +395,41 @@
       }
     },
     {
-      "tag": "RB010",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "tag": "31191",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
       "falhas": 2,
-      "horas": 0.6667,
+      "horas": 0.1333,
       "por_turno": {
         "1": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "2": {
           "horas": 0.0,
           "falhas": 0
         },
+        "3": {
+          "horas": 0.05,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "31311",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK F",
+      "falhas": 2,
+      "horas": 0.1667,
+      "por_turno": {
+        "1": {
+          "horas": 0.05,
+          "falhas": 1
+        },
         "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
           "horas": 0.1167,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.55,
           "falhas": 1
         }
       }
@@ -462,7 +462,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 618
+      "falhas": 1066
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "date": "2026-05-08",
-  "updated_at": "2026-09-10T11:53",
+  "updated_at": "2026-09-10T12:37",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -253,7 +253,7 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
       "falhas": 20,
       "horas": 1.7667,
       "por_turno": {
@@ -273,7 +273,7 @@
     },
     {
       "tag": "30433",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
       "falhas": 9,
       "horas": 1.5333,
       "por_turno": {
@@ -293,7 +293,7 @@
     },
     {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
       "falhas": 7,
       "horas": 0.3833,
       "por_turno": {
@@ -313,7 +313,7 @@
     },
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R2",
       "falhas": 6,
       "horas": 0.7833,
       "por_turno": {
@@ -332,8 +332,28 @@
       }
     },
     {
+      "tag": "20547",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "falhas": 5,
+      "horas": 0.5167,
+      "por_turno": {
+        "1": {
+          "horas": 0.1,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.2333,
+          "falhas": 2
+        }
+      }
+    },
+    {
       "tag": "20567",
-      "componente": "AJUSTE NAS PINÇAS",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
       "falhas": 4,
       "horas": 0.55,
       "por_turno": {
@@ -348,6 +368,26 @@
         "3": {
           "horas": 0.2333,
           "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "31186",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK R1",
+      "falhas": 4,
+      "horas": 8.9667,
+      "por_turno": {
+        "1": {
+          "horas": 7.5333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 1.0333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.4,
+          "falhas": 2
         }
       }
     },
@@ -372,34 +412,14 @@
       }
     },
     {
-      "tag": "20547",
-      "componente": "AJUSTE CARRO MÓVEL",
-      "falhas": 3,
-      "horas": 0.3333,
-      "por_turno": {
-        "1": {
-          "horas": 0.1,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.2333,
-          "falhas": 2
-        }
-      }
-    },
-    {
       "tag": "20519",
-      "componente": "MANUTENÇÃO ELÉTRICA",
-      "falhas": 2,
-      "horas": 0.8833,
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
+      "falhas": 3,
+      "horas": 0.9833,
       "por_turno": {
         "1": {
-          "horas": 0.8833,
-          "falhas": 2
+          "horas": 0.9833,
+          "falhas": 3
         },
         "2": {
           "horas": 0.0,
@@ -412,18 +432,18 @@
       }
     },
     {
-      "tag": "20556",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "falhas": 2,
-      "horas": 0.4167,
+      "tag": "20499",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B ",
+      "falhas": 3,
+      "horas": 1.85,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.3333,
-          "falhas": 1
+          "horas": 1.7667,
+          "falhas": 2
         },
         "3": {
           "horas": 0.0833,
@@ -432,62 +452,42 @@
       }
     },
     {
-      "tag": "31186",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "falhas": 2,
-      "horas": 8.5667,
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 3,
+      "horas": 0.3667,
       "por_turno": {
         "1": {
-          "horas": 7.5333,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "2": {
-          "horas": 1.0333,
+          "horas": 0.2,
           "falhas": 1
         },
         "3": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.1667,
+          "falhas": 2
         }
       }
     },
     {
-      "tag": "30463",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
       "falhas": 2,
-      "horas": 1.1167,
+      "horas": 0.1833,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 1.1167,
+          "horas": 0.1833,
           "falhas": 2
         },
         "3": {
           "horas": 0.0,
           "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "31186",
-      "componente": "AJUSTE NA MORDAÇA SUPERIOR",
-      "falhas": 2,
-      "horas": 0.4,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.4,
-          "falhas": 2
         }
       }
     }
@@ -519,7 +519,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 618
+      "falhas": 1066
     }
   ]
 }

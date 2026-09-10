@@ -1,6 +1,6 @@
 {
   "date": "2026-05-05",
-  "updated_at": "2026-09-10T11:53",
+  "updated_at": "2026-09-10T12:37",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -253,17 +253,17 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-      "falhas": 24,
-      "horas": 1.9,
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 25,
+      "horas": 2.0,
       "por_turno": {
         "1": {
           "horas": 0.7833,
           "falhas": 9
         },
         "2": {
-          "horas": 0.4833,
-          "falhas": 6
+          "horas": 0.5833,
+          "falhas": 7
         },
         "3": {
           "horas": 0.6333,
@@ -273,7 +273,7 @@
     },
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R2",
       "falhas": 24,
       "horas": 4.9167,
       "por_turno": {
@@ -293,7 +293,7 @@
     },
     {
       "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R1",
       "falhas": 23,
       "horas": 4.11,
       "por_turno": {
@@ -313,17 +313,17 @@
     },
     {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-      "falhas": 21,
-      "horas": 1.2969,
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 22,
+      "horas": 1.4136,
       "por_turno": {
         "1": {
           "horas": 0.7667,
           "falhas": 10
         },
         "2": {
-          "horas": 0.2469,
-          "falhas": 5
+          "horas": 0.3636,
+          "falhas": 6
         },
         "3": {
           "horas": 0.2833,
@@ -332,28 +332,28 @@
       }
     },
     {
-      "tag": "20367",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "falhas": 4,
-      "horas": 0.8333,
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 7,
+      "horas": 0.8167,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.4167,
-          "falhas": 2
+          "horas": 0.55,
+          "falhas": 4
         },
         "3": {
-          "horas": 0.4167,
-          "falhas": 2
+          "horas": 0.2667,
+          "falhas": 3
         }
       }
     },
     {
       "tag": "31404",
-      "componente": "AJUSTE DE VENTOSAS",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
       "falhas": 4,
       "horas": 1.25,
       "por_turno": {
@@ -372,34 +372,34 @@
       }
     },
     {
-      "tag": "31314",
-      "componente": "AJUSTE NAS PINÇAS",
-      "falhas": 3,
-      "horas": 0.3,
+      "tag": "20367",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
+      "falhas": 4,
+      "horas": 0.8333,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.2,
+          "horas": 0.4167,
           "falhas": 2
         },
         "3": {
-          "horas": 0.1,
-          "falhas": 1
+          "horas": 0.4167,
+          "falhas": 2
         }
       }
     },
     {
       "tag": "ELETRICA01",
-      "componente": "MANUTENÇÃO ELÉTRICA",
-      "falhas": 3,
-      "horas": 0.4167,
+      "componente": "AGUARDANDO ELETRICA",
+      "falhas": 4,
+      "horas": 0.6167,
       "por_turno": {
         "1": {
-          "horas": 0.1833,
-          "falhas": 2
+          "horas": 0.3833,
+          "falhas": 3
         },
         "2": {
           "horas": 0.0,
@@ -412,8 +412,48 @@
       }
     },
     {
+      "tag": "31312",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK F",
+      "falhas": 3,
+      "horas": 0.3667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.3667,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "falhas": 3,
+      "horas": 0.3333,
+      "por_turno": {
+        "1": {
+          "horas": 0.3333,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
       "tag": "INK12",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "INKJET RECRAVADEIRA CONDOR",
       "falhas": 3,
       "horas": 0.6,
       "por_turno": {
@@ -432,57 +472,17 @@
       }
     },
     {
-      "tag": "20616",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "falhas": 2,
-      "horas": 1.0833,
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "falhas": 3,
+      "horas": 0.3167,
       "por_turno": {
         "1": {
-          "horas": 1.0833,
-          "falhas": 2
+          "horas": 0.0833,
+          "falhas": 1
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "ARM01",
-      "componente": "SACHÉ PRESO NA SELADORA",
-      "falhas": 2,
-      "horas": 0.5,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.5,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "31312",
-      "componente": "AJUSTE DO ESTICADOR",
-      "falhas": 2,
-      "horas": 0.1167,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.1167,
+          "horas": 0.2333,
           "falhas": 2
         },
         "3": {
@@ -519,7 +519,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 618
+      "falhas": 1066
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "date": "2026-05-06",
-  "updated_at": "2026-09-10T11:53",
+  "updated_at": "2026-09-10T12:37",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -214,28 +214,8 @@
   },
   "top_falhas": [
     {
-      "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-      "falhas": 29,
-      "horas": 3.55,
-      "por_turno": {
-        "1": {
-          "horas": 1.3333,
-          "falhas": 11
-        },
-        "2": {
-          "horas": 1.1667,
-          "falhas": 8
-        },
-        "3": {
-          "horas": 1.05,
-          "falhas": 10
-        }
-      }
-    },
-    {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R2",
       "falhas": 29,
       "horas": 3.55,
       "por_turno": {
@@ -254,8 +234,28 @@
       }
     },
     {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 29,
+      "horas": 3.55,
+      "por_turno": {
+        "1": {
+          "horas": 1.3333,
+          "falhas": 11
+        },
+        "2": {
+          "horas": 1.1667,
+          "falhas": 8
+        },
+        "3": {
+          "horas": 1.05,
+          "falhas": 10
+        }
+      }
+    },
+    {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
       "falhas": 15,
       "horas": 1.4681,
       "por_turno": {
@@ -275,7 +275,7 @@
     },
     {
       "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R1",
       "falhas": 7,
       "horas": 0.35,
       "por_turno": {
@@ -315,7 +315,7 @@
     },
     {
       "tag": "30463",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
       "falhas": 4,
       "horas": 1.2333,
       "por_turno": {
@@ -334,8 +334,48 @@
       }
     },
     {
+      "tag": "31799",
+      "componente": "SERVO 02 DA ESTEIRA INDEXADORA COLETA COL1-L2E MESPACK E",
+      "falhas": 4,
+      "horas": 3.3444,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 3.3111,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0333,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 4,
+      "horas": 0.6667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.25,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.4167,
+          "falhas": 2
+        }
+      }
+    },
+    {
       "tag": "32110",
-      "componente": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
+      "componente": "SISTEMA TRAVAMENTO DE BANDEJA LADO DIREITO 01 ROBO DESEMPILHADOR",
       "falhas": 3,
       "horas": 0.1833,
       "por_turno": {
@@ -354,68 +394,8 @@
       }
     },
     {
-      "tag": "31799",
-      "componente": "MANUTENÇÃO ELÉTRICA",
-      "falhas": 3,
-      "horas": 1.6111,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 1.5778,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0333,
-          "falhas": 2
-        }
-      }
-    },
-    {
-      "tag": "31314",
-      "componente": "AJUSTE NAS PINÇAS",
-      "falhas": 3,
-      "horas": 0.5833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.1667,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.4167,
-          "falhas": 2
-        }
-      }
-    },
-    {
-      "tag": "30342",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "falhas": 2,
-      "horas": 0.4,
-      "por_turno": {
-        "1": {
-          "horas": 0.4,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "ELETRICA01",
-      "componente": "AGUARDANDO ELETRICISTA",
+      "componente": "AGUARDANDO ELETRICA",
       "falhas": 2,
       "horas": 0.2,
       "por_turno": {
@@ -434,22 +414,42 @@
       }
     },
     {
-      "tag": "ETH",
-      "componente": "ERRO DE ETHERCAT",
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
       "falhas": 2,
-      "horas": 0.3333,
+      "horas": 0.2,
       "por_turno": {
         "1": {
+          "horas": 0.0167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "3": {
           "horas": 0.0,
           "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "INK08",
+      "componente": "INKJET MESPACK R2",
+      "falhas": 2,
+      "horas": 0.75,
+      "por_turno": {
+        "1": {
+          "horas": 0.75,
+          "falhas": 2
         },
         "2": {
           "horas": 0.0,
           "falhas": 0
         },
         "3": {
-          "horas": 0.3333,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 0
         }
       }
     }
@@ -481,7 +481,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 618
+      "falhas": 1066
     }
   ]
 }

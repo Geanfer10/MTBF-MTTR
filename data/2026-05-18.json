@@ -1,6 +1,6 @@
 {
   "date": "2026-05-18",
-  "updated_at": "2026-09-10T11:53",
+  "updated_at": "2026-09-10T12:37",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -215,7 +215,7 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R2",
       "falhas": 31,
       "horas": 4.95,
       "por_turno": {
@@ -235,7 +235,7 @@
     },
     {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
       "falhas": 23,
       "horas": 2.05,
       "por_turno": {
@@ -255,7 +255,7 @@
     },
     {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
       "falhas": 15,
       "horas": 1.0,
       "por_turno": {
@@ -275,7 +275,7 @@
     },
     {
       "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R1",
       "falhas": 11,
       "horas": 0.8333,
       "por_turno": {
@@ -294,8 +294,28 @@
       }
     },
     {
+      "tag": "20519",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
+      "falhas": 6,
+      "horas": 4.0333,
+      "por_turno": {
+        "1": {
+          "horas": 3.1333,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.8333,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0667,
+          "falhas": 1
+        }
+      }
+    },
+    {
       "tag": "30463",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
       "falhas": 6,
       "horas": 2.1167,
       "por_turno": {
@@ -314,48 +334,28 @@
       }
     },
     {
-      "tag": "20519",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
       "falhas": 5,
-      "horas": 3.95,
+      "horas": 0.3667,
       "por_turno": {
         "1": {
-          "horas": 3.05,
+          "horas": 0.0333,
           "falhas": 2
         },
         "2": {
-          "horas": 0.8333,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0667,
+          "horas": 0.05,
           "falhas": 1
-        }
-      }
-    },
-    {
-      "tag": "20567",
-      "componente": "AJUSTE NAS PINÇAS",
-      "falhas": 5,
-      "horas": 0.8667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.8667,
-          "falhas": 5
         },
         "3": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.2833,
+          "falhas": 2
         }
       }
     },
     {
       "tag": "30433",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
       "falhas": 5,
       "horas": 1.75,
       "por_turno": {
@@ -374,48 +374,68 @@
       }
     },
     {
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "falhas": 5,
+      "horas": 0.8667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.8667,
+          "falhas": 5
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20532",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK C",
+      "falhas": 4,
+      "horas": 0.9167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.7,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.2167,
+          "falhas": 2
+        }
+      }
+    },
+    {
       "tag": "31194",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "falhas": 3,
-      "horas": 0.3,
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "falhas": 4,
+      "horas": 0.4167,
       "por_turno": {
         "1": {
           "horas": 0.1,
           "falhas": 2
         },
         "2": {
-          "horas": 0.2,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "31198",
-      "componente": "BICO DOSADOR ENTUPIDO",
-      "falhas": 3,
-      "horas": 0.0833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0333,
+          "horas": 0.3167,
           "falhas": 2
         },
-        "2": {
+        "3": {
           "horas": 0.0,
           "falhas": 0
-        },
-        "3": {
-          "horas": 0.05,
-          "falhas": 1
         }
       }
     },
     {
       "tag": "20367",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
       "falhas": 3,
       "horas": 0.4167,
       "por_turno": {
@@ -430,26 +450,6 @@
         "3": {
           "horas": 0.25,
           "falhas": 2
-        }
-      }
-    },
-    {
-      "tag": "31404",
-      "componente": "AJUSTE DE VENTOSAS",
-      "falhas": 3,
-      "horas": 0.2667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0833,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.1833,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
         }
       }
     }
@@ -481,7 +481,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 618
+      "falhas": 1066
     }
   ]
 }

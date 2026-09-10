@@ -1,6 +1,6 @@
 {
   "date": "2026-05-21",
-  "updated_at": "2026-09-10T11:53",
+  "updated_at": "2026-09-10T12:37",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -272,7 +272,7 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R2",
       "falhas": 60,
       "horas": 7.0833,
       "por_turno": {
@@ -292,7 +292,7 @@
     },
     {
       "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R1",
       "falhas": 21,
       "horas": 1.3667,
       "por_turno": {
@@ -312,7 +312,7 @@
     },
     {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
       "falhas": 20,
       "horas": 1.9667,
       "por_turno": {
@@ -332,7 +332,7 @@
     },
     {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
       "falhas": 16,
       "horas": 1.3167,
       "por_turno": {
@@ -347,6 +347,26 @@
         "3": {
           "horas": 0.2167,
           "falhas": 4
+        }
+      }
+    },
+    {
+      "tag": "20519",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
+      "falhas": 8,
+      "horas": 2.3667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 2.3,
+          "falhas": 7
         }
       }
     },
@@ -371,28 +391,48 @@
       }
     },
     {
-      "tag": "20519",
-      "componente": "AJUSTE NA MORDAÇA SUPERIOR",
-      "falhas": 7,
-      "horas": 2.3,
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 5,
+      "horas": 1.1167,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 1.0167,
+          "falhas": 4
         },
         "3": {
-          "horas": 2.3,
-          "falhas": 7
+          "horas": 0.1,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "falhas": 5,
+      "horas": 0.5833,
+      "por_turno": {
+        "1": {
+          "horas": 0.15,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.4333,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
         }
       }
     },
     {
       "tag": "20572",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK E",
       "falhas": 4,
       "horas": 0.5833,
       "por_turno": {
@@ -412,7 +452,7 @@
     },
     {
       "tag": "INK03",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "INKJET MESPACK C",
       "falhas": 4,
       "horas": 0.9667,
       "por_turno": {
@@ -431,28 +471,28 @@
       }
     },
     {
-      "tag": "31314",
-      "componente": "TROCA DE MOLA DAS PINÇAS",
+      "tag": "32285",
+      "componente": "MOTOR 01 DE TRACIONAMENTO DAS CORREIAS FECH ATOMATADOS",
       "falhas": 3,
-      "horas": 0.9167,
+      "horas": 3.7333,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.8167,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
-          "horas": 0.1,
-          "falhas": 1
+          "horas": 3.7333,
+          "falhas": 3
         }
       }
     },
     {
       "tag": "MECANICA01",
-      "componente": "AGUARDANDO MECÂNICO",
+      "componente": "AGUARDANDO MECANICO",
       "falhas": 3,
       "horas": 0.1667,
       "por_turno": {
@@ -467,46 +507,6 @@
         "3": {
           "horas": 0.1,
           "falhas": 2
-        }
-      }
-    },
-    {
-      "tag": "31319",
-      "componente": "LIMPEZA ELETROVÁLVULA",
-      "falhas": 2,
-      "horas": 0.25,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.25,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "30538",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "falhas": 2,
-      "horas": 0.2167,
-      "por_turno": {
-        "1": {
-          "horas": 0.2167,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
         }
       }
     }
@@ -538,7 +538,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 618
+      "falhas": 1066
     }
   ]
 }

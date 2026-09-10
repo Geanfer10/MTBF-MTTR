@@ -1,6 +1,6 @@
 {
   "date": "2026-04-06",
-  "updated_at": "2026-09-10T11:53",
+  "updated_at": "2026-09-10T12:37",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -101,17 +101,17 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
-      "falhas": 18,
-      "horas": 2.7,
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 20,
+      "horas": 2.8667,
       "por_turno": {
         "1": {
-          "horas": 1.1167,
-          "falhas": 10
+          "horas": 1.2333,
+          "falhas": 11
         },
         "2": {
-          "horas": 0.7,
-          "falhas": 4
+          "horas": 0.75,
+          "falhas": 5
         },
         "3": {
           "horas": 0.8833,
@@ -121,37 +121,37 @@
     },
     {
       "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
-      "falhas": 6,
-      "horas": 1.05,
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 13,
+      "horas": 2.1167,
       "por_turno": {
         "1": {
-          "horas": 0.9333,
-          "falhas": 4
+          "horas": 1.5833,
+          "falhas": 9
         },
         "2": {
-          "horas": 0.05,
-          "falhas": 1
+          "horas": 0.3667,
+          "falhas": 2
         },
         "3": {
-          "horas": 0.0667,
-          "falhas": 1
+          "horas": 0.1667,
+          "falhas": 2
         }
       }
     },
     {
-      "tag": "ROBOTICA03",
-      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-      "falhas": 3,
-      "horas": 0.4,
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "falhas": 2,
+      "horas": 0.1167,
       "por_turno": {
         "1": {
-          "horas": 0.0833,
+          "horas": 0.1167,
           "falhas": 2
         },
         "2": {
-          "horas": 0.3167,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,
@@ -161,7 +161,7 @@
     },
     {
       "tag": "31411",
-      "componente": "BICO DOSADOR ENTUPIDO",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
       "falhas": 2,
       "horas": 0.1,
       "por_turno": {
@@ -180,88 +180,8 @@
       }
     },
     {
-      "tag": "ROBOTICA03",
-      "componente": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-      "falhas": 2,
-      "horas": 0.1333,
-      "por_turno": {
-        "1": {
-          "horas": 0.1333,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "31194",
-      "componente": "TROCA DE MOLA DAS PINÇAS",
-      "falhas": 1,
-      "horas": 0.0833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0833,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "31194",
-      "componente": "AJUSTE NAS PINÇAS",
-      "falhas": 1,
-      "horas": 0.0333,
-      "por_turno": {
-        "1": {
-          "horas": 0.0333,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "30536",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "falhas": 1,
-      "horas": 0.6333,
-      "por_turno": {
-        "1": {
-          "horas": 0.6333,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "30433",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
       "falhas": 1,
       "horas": 0.1167,
       "por_turno": {
@@ -281,7 +201,7 @@
     },
     {
       "tag": "30423",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "MOTOR ELETRICO DO REDUTOR DA ENCHEDEIRA 60L1",
       "falhas": 1,
       "horas": 0.4167,
       "por_turno": {
@@ -300,8 +220,28 @@
       }
     },
     {
+      "tag": "31404",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
+      "falhas": 1,
+      "horas": 0.0333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
       "tag": "31392",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "CONJUNTO SUPERIOR DESBOBINADOR MESPACK R2",
       "falhas": 1,
       "horas": 0.6333,
       "por_turno": {
@@ -320,8 +260,68 @@
       }
     },
     {
-      "tag": "31404",
-      "componente": "AJUSTE DE VENTOSAS",
+      "tag": "30536",
+      "componente": "ESTEIRA PULMÃO ENCESTADOR LINHA 60L2",
+      "falhas": 1,
+      "horas": 0.6333,
+      "por_turno": {
+        "1": {
+          "horas": 0.6333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "falhas": 1,
+      "horas": 0.0667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0667,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "INK10",
+      "componente": "INKJET RECRAVADEIRA 60L1",
+      "falhas": 1,
+      "horas": 0.2167,
+      "por_turno": {
+        "1": {
+          "horas": 0.2167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "FEL01",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
       "falhas": 1,
       "horas": 0.0333,
       "por_turno": {
@@ -367,7 +367,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 618
+      "falhas": 1066
     }
   ]
 }

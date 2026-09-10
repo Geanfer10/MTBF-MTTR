@@ -1,6 +1,6 @@
 {
   "date": "2026-06-04",
-  "updated_at": "2026-09-10T11:53",
+  "updated_at": "2026-09-10T12:38",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -214,8 +214,28 @@
   },
   "top_falhas": [
     {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 14,
+      "horas": 1.45,
+      "por_turno": {
+        "1": {
+          "horas": 0.3833,
+          "falhas": 4
+        },
+        "2": {
+          "horas": 0.5333,
+          "falhas": 5
+        },
+        "3": {
+          "horas": 0.5333,
+          "falhas": 5
+        }
+      }
+    },
+    {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
       "falhas": 13,
       "horas": 0.95,
       "por_turno": {
@@ -234,28 +254,8 @@
       }
     },
     {
-      "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
-      "falhas": 12,
-      "horas": 1.3167,
-      "por_turno": {
-        "1": {
-          "horas": 0.3333,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.45,
-          "falhas": 4
-        },
-        "3": {
-          "horas": 0.5333,
-          "falhas": 5
-        }
-      }
-    },
-    {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
       "falhas": 8,
       "horas": 0.55,
       "por_turno": {
@@ -275,13 +275,13 @@
     },
     {
       "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
-      "falhas": 5,
-      "horas": 0.4,
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 6,
+      "horas": 0.45,
       "por_turno": {
         "1": {
-          "horas": 0.1833,
-          "falhas": 2
+          "horas": 0.2333,
+          "falhas": 3
         },
         "2": {
           "horas": 0.0667,
@@ -294,8 +294,48 @@
       }
     },
     {
+      "tag": "20560",
+      "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK E ",
+      "falhas": 5,
+      "horas": 1.7167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.7167,
+          "falhas": 5
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20547",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "falhas": 4,
+      "horas": 1.8,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.45,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 1.35,
+          "falhas": 1
+        }
+      }
+    },
+    {
       "tag": "32055",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "SISTEMA DE SENSORES ESTEIRA TRANSPORTE CADENA TP-BJ-5",
       "falhas": 4,
       "horas": 3.05,
       "por_turno": {
@@ -314,34 +354,14 @@
       }
     },
     {
-      "tag": "20547",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "falhas": 3,
-      "horas": 0.45,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.45,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "20498",
-      "componente": "AJUSTE NA MORDAÇA INFERIOR",
-      "falhas": 3,
-      "horas": 1.0,
+      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK B ",
+      "falhas": 4,
+      "horas": 1.4333,
       "por_turno": {
         "1": {
-          "horas": 0.5333,
-          "falhas": 2
+          "horas": 0.9667,
+          "falhas": 3
         },
         "2": {
           "horas": 0.4667,
@@ -355,7 +375,7 @@
     },
     {
       "tag": "MECANICA01",
-      "componente": "AGUARDANDO MECÂNICO",
+      "componente": "AGUARDANDO MECANICO",
       "falhas": 3,
       "horas": 0.3167,
       "por_turno": {
@@ -374,70 +394,10 @@
       }
     },
     {
-      "tag": "20560",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "falhas": 3,
-      "horas": 0.2833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.2833,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "20563",
-      "componente": "AJUSTE DE FACA",
-      "falhas": 2,
-      "horas": 1.85,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 1.85,
-          "falhas": 2
-        }
-      }
-    },
-    {
-      "tag": "31198",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "falhas": 2,
-      "horas": 0.3333,
-      "por_turno": {
-        "1": {
-          "horas": 0.2667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0667,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "20545",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "falhas": 2,
-      "horas": 0.4,
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK D ",
+      "falhas": 3,
+      "horas": 0.5667,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -446,6 +406,46 @@
         "2": {
           "horas": 0.4,
           "falhas": 2
+        },
+        "3": {
+          "horas": 0.1667,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "falhas": 2,
+      "horas": 0.15,
+      "por_turno": {
+        "1": {
+          "horas": 0.15,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "INK12",
+      "componente": "INKJET RECRAVADEIRA CONDOR",
+      "falhas": 2,
+      "horas": 0.5167,
+      "por_turno": {
+        "1": {
+          "horas": 0.5167,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,
@@ -481,7 +481,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 618
+      "falhas": 1066
     }
   ]
 }

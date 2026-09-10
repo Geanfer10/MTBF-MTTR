@@ -1,6 +1,6 @@
 {
   "date": "2026-06-05",
-  "updated_at": "2026-09-10T11:53",
+  "updated_at": "2026-09-10T12:38",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -253,9 +253,9 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-      "falhas": 17,
-      "horas": 0.6667,
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 18,
+      "horas": 1.1833,
       "por_turno": {
         "1": {
           "horas": 0.25,
@@ -266,16 +266,16 @@
           "falhas": 7
         },
         "3": {
-          "horas": 0.1667,
-          "falhas": 5
+          "horas": 0.6833,
+          "falhas": 6
         }
       }
     },
     {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-      "falhas": 16,
-      "horas": 1.1,
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 17,
+      "horas": 1.1667,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -286,14 +286,14 @@
           "falhas": 10
         },
         "3": {
-          "horas": 0.3167,
-          "falhas": 6
+          "horas": 0.3833,
+          "falhas": 7
         }
       }
     },
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R2",
       "falhas": 15,
       "horas": 1.4833,
       "por_turno": {
@@ -312,17 +312,37 @@
       }
     },
     {
-      "tag": "31314",
-      "componente": "AJUSTE NAS PINÇAS",
-      "falhas": 4,
-      "horas": 0.8167,
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 6,
+      "horas": 0.75,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.0333,
+          "falhas": 1
         },
         "2": {
-          "horas": 0.8167,
+          "horas": 0.2167,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.5,
+          "falhas": 3
+        }
+      }
+    },
+    {
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "falhas": 5,
+      "horas": 0.6,
+      "por_turno": {
+        "1": {
+          "horas": 0.05,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.55,
           "falhas": 4
         },
         "3": {
@@ -332,30 +352,50 @@
       }
     },
     {
-      "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
-      "falhas": 4,
-      "horas": 0.5833,
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 5,
+      "horas": 1.0167,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.2167,
-          "falhas": 2
+          "horas": 1.0167,
+          "falhas": 5
         },
         "3": {
-          "horas": 0.3667,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20547",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "falhas": 4,
+      "horas": 0.4667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.3833,
+          "falhas": 3
         }
       }
     },
     {
       "tag": "TF-BJ4",
-      "componente": "FALHA NO TRANSFERIDOR 4",
-      "falhas": 3,
-      "horas": 0.2,
+      "componente": "TRANSFERIDO DE BANDEJA TF-BJ4",
+      "falhas": 4,
+      "horas": 0.3833,
       "por_turno": {
         "1": {
           "horas": 0.2,
@@ -366,6 +406,26 @@
           "falhas": 0
         },
         "3": {
+          "horas": 0.1833,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "falhas": 3,
+      "horas": 0.3667,
+      "por_turno": {
+        "1": {
+          "horas": 0.1167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.25,
+          "falhas": 2
+        },
+        "3": {
           "horas": 0.0,
           "falhas": 0
         }
@@ -373,7 +433,7 @@
     },
     {
       "tag": "30463",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
       "falhas": 3,
       "horas": 0.6167,
       "por_turno": {
@@ -392,102 +452,42 @@
       }
     },
     {
-      "tag": "20527",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "tag": "FEL01",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
       "falhas": 2,
-      "horas": 0.3833,
+      "horas": 0.1333,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.3833,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "20547",
-      "componente": "AJUSTE NAS PINÇAS",
-      "falhas": 2,
-      "horas": 0.3167,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.3167,
-          "falhas": 2
-        }
-      }
-    },
-    {
-      "tag": "31194",
-      "componente": "AJUSTE NAS PINÇAS",
-      "falhas": 2,
-      "horas": 0.3833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.15,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.2333,
-          "falhas": 1
-        }
-      }
-    },
-    {
-      "tag": "31198",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "falhas": 2,
-      "horas": 0.25,
-      "por_turno": {
-        "1": {
-          "horas": 0.1167,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.1333,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "MECANICA01",
-      "componente": "AGUARDANDO MECÂNICO",
-      "falhas": 2,
-      "horas": 0.1,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.05,
+          "horas": 0.0833,
           "falhas": 1
         },
         "3": {
           "horas": 0.05,
           "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "RB010",
+      "componente": "ROBO  DESEMPILHADOR DE BANDEJA ",
+      "falhas": 2,
+      "horas": 0.2,
+      "por_turno": {
+        "1": {
+          "horas": 0.2,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
         }
       }
     }
@@ -519,7 +519,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 618
+      "falhas": 1066
     }
   ]
 }

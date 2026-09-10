@@ -1,6 +1,6 @@
 {
   "date": "2026-06-02",
-  "updated_at": "2026-09-10T11:53",
+  "updated_at": "2026-09-10T12:38",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -234,29 +234,29 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
-      "falhas": 28,
-      "horas": 3.1,
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 32,
+      "horas": 3.4667,
       "por_turno": {
         "1": {
-          "horas": 0.9167,
-          "falhas": 10
+          "horas": 1.1167,
+          "falhas": 12
         },
         "2": {
           "horas": 1.45,
           "falhas": 11
         },
         "3": {
-          "horas": 0.7333,
-          "falhas": 7
+          "horas": 0.9,
+          "falhas": 9
         }
       }
     },
     {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-      "falhas": 12,
-      "horas": 1.1,
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 13,
+      "horas": 1.3,
       "por_turno": {
         "1": {
           "horas": 0.6333,
@@ -267,14 +267,34 @@
           "falhas": 4
         },
         "3": {
-          "horas": 0.15,
+          "horas": 0.35,
+          "falhas": 5
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 12,
+      "horas": 1.1333,
+      "por_turno": {
+        "1": {
+          "horas": 0.3833,
           "falhas": 4
+        },
+        "2": {
+          "horas": 0.5333,
+          "falhas": 5
+        },
+        "3": {
+          "horas": 0.2167,
+          "falhas": 3
         }
       }
     },
     {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
       "falhas": 11,
       "horas": 0.6167,
       "por_turno": {
@@ -288,26 +308,6 @@
         },
         "3": {
           "horas": 0.0667,
-          "falhas": 2
-        }
-      }
-    },
-    {
-      "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
-      "falhas": 10,
-      "horas": 1.05,
-      "por_turno": {
-        "1": {
-          "horas": 0.3667,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.5333,
-          "falhas": 5
-        },
-        "3": {
-          "horas": 0.15,
           "falhas": 2
         }
       }
@@ -335,16 +335,16 @@
     {
       "tag": "FEL01",
       "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-      "falhas": 5,
-      "horas": 0.3667,
+      "falhas": 6,
+      "horas": 0.6,
       "por_turno": {
         "1": {
           "horas": 0.0333,
           "falhas": 1
         },
         "2": {
-          "horas": 0.15,
-          "falhas": 2
+          "horas": 0.3833,
+          "falhas": 3
         },
         "3": {
           "horas": 0.1833,
@@ -353,8 +353,48 @@
       }
     },
     {
+      "tag": "ELETRICA01",
+      "componente": "AGUARDANDO ELETRICA",
+      "falhas": 3,
+      "horas": 0.45,
+      "por_turno": {
+        "1": {
+          "horas": 0.3,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.15,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "falhas": 3,
+      "horas": 0.3,
+      "por_turno": {
+        "1": {
+          "horas": 0.1,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.1333,
+          "falhas": 1
+        }
+      }
+    },
+    {
       "tag": "MECANICA01",
-      "componente": "AGUARDANDO MECÂNICO",
+      "componente": "AGUARDANDO MECANICO",
       "falhas": 3,
       "horas": 0.3667,
       "por_turno": {
@@ -373,38 +413,18 @@
       }
     },
     {
-      "tag": "ROBOTICA04",
-      "componente": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-      "falhas": 3,
-      "horas": 0.2333,
-      "por_turno": {
-        "1": {
-          "horas": 0.0667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.1667,
-          "falhas": 2
-        }
-      }
-    },
-    {
-      "tag": "ELETRICA01",
-      "componente": "AGUARDANDO ELETRICISTA",
+      "tag": "20531",
+      "componente": "CONJUNTO VALVULA DE ENTRADA DE PRODUTO MESPACK C ",
       "falhas": 2,
-      "horas": 0.3,
+      "horas": 0.2167,
       "por_turno": {
         "1": {
-          "horas": 0.3,
-          "falhas": 2
-        },
-        "2": {
           "horas": 0.0,
           "falhas": 0
+        },
+        "2": {
+          "horas": 0.2167,
+          "falhas": 2
         },
         "3": {
           "horas": 0.0,
@@ -413,58 +433,38 @@
       }
     },
     {
-      "tag": "32042",
-      "componente": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
       "falhas": 2,
-      "horas": 0.3833,
-      "por_turno": {
-        "1": {
-          "horas": 0.3833,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "31411",
-      "componente": "AJUSTE NO BICO DE DOSAGEM",
-      "falhas": 2,
-      "horas": 0.2333,
+      "horas": 0.4333,
       "por_turno": {
         "1": {
           "horas": 0.1,
           "falhas": 1
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.3333,
+          "falhas": 1
         },
         "3": {
-          "horas": 0.1333,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         }
       }
     },
     {
-      "tag": "31905",
-      "componente": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
+      "tag": "20542",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK D ",
       "falhas": 2,
-      "horas": 0.25,
+      "horas": 0.4,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.1,
+          "falhas": 1
         },
         "2": {
-          "horas": 0.25,
-          "falhas": 2
+          "horas": 0.3,
+          "falhas": 1
         },
         "3": {
           "horas": 0.0,
@@ -500,7 +500,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 618
+      "falhas": 1066
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "date": "2026-05-16",
-  "updated_at": "2026-09-10T11:53",
+  "updated_at": "2026-09-10T12:37",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -139,17 +139,17 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
-      "falhas": 19,
-      "horas": 1.6667,
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 21,
+      "horas": 1.8167,
       "por_turno": {
         "1": {
           "horas": 1.1167,
           "falhas": 12
         },
         "2": {
-          "horas": 0.55,
-          "falhas": 7
+          "horas": 0.7,
+          "falhas": 9
         },
         "3": {
           "horas": 0.0,
@@ -159,17 +159,17 @@
     },
     {
       "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
-      "falhas": 7,
-      "horas": 0.4833,
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 9,
+      "horas": 0.6,
       "por_turno": {
         "1": {
           "horas": 0.3833,
           "falhas": 5
         },
         "2": {
-          "horas": 0.1,
-          "falhas": 2
+          "horas": 0.2167,
+          "falhas": 4
         },
         "3": {
           "horas": 0.0,
@@ -179,7 +179,7 @@
     },
     {
       "tag": "30463",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
       "falhas": 5,
       "horas": 0.6333,
       "por_turno": {
@@ -199,7 +199,7 @@
     },
     {
       "tag": "30787",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
       "falhas": 4,
       "horas": 0.6333,
       "por_turno": {
@@ -218,37 +218,17 @@
       }
     },
     {
-      "tag": "ROBOTICA04",
-      "componente": "BANDEJA ACAVALADA SOBRE A OUTRA",
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
       "falhas": 2,
-      "horas": 0.15,
+      "horas": 0.2667,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.15,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "ROBOTICA03",
-      "componente": "BANDEJA ACAVALADA SOBRE A OUTRA",
-      "falhas": 2,
-      "horas": 0.1167,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.1167,
+          "horas": 0.2667,
           "falhas": 2
         },
         "3": {
@@ -278,28 +258,8 @@
       }
     },
     {
-      "tag": "20391",
-      "componente": "MANUTENÇÃO ELÉTRICA",
-      "falhas": 1,
-      "horas": 0.1167,
-      "por_turno": {
-        "1": {
-          "horas": 0.1167,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "20374",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "VÁLVULA DE PRODUTO ENCHEDEIRA TOPDOWN",
       "falhas": 1,
       "horas": 0.1833,
       "por_turno": {
@@ -318,8 +278,48 @@
       }
     },
     {
+      "tag": "20391",
+      "componente": "ESTEIRA TRANSPORTE DE FRASCOS ROTULADEIRA TOPDOWN",
+      "falhas": 1,
+      "horas": 0.1167,
+      "por_turno": {
+        "1": {
+          "horas": 0.1167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "falhas": 1,
+      "horas": 0.0667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
       "tag": "31191",
-      "componente": "TROCA DE VENTOSAS",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
       "falhas": 1,
       "horas": 0.05,
       "por_turno": {
@@ -339,7 +339,7 @@
     },
     {
       "tag": "30790",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "ROSCA SEM FIM RECRAVADEIRA CONDOR",
       "falhas": 1,
       "horas": 0.0667,
       "por_turno": {
@@ -358,13 +358,13 @@
       }
     },
     {
-      "tag": "ELETRICA01",
-      "componente": "AGUARDANDO MECÂNICO",
+      "tag": "32129",
+      "componente": "BALANÇA FECH. DE CAIXA VEGETAIS",
       "falhas": 1,
-      "horas": 0.4167,
+      "horas": 0.1333,
       "por_turno": {
         "1": {
-          "horas": 0.4167,
+          "horas": 0.1333,
           "falhas": 1
         },
         "2": {
@@ -405,7 +405,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 618
+      "falhas": 1066
     }
   ]
 }
