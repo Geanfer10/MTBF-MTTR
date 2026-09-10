@@ -1,53 +1,179 @@
 {
   "date": "2026-09-01",
-  "updated_at": "2026-09-04T19:44",
+  "updated_at": "2026-09-10T11:53",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK F",
       "horas": 6.3,
-      "falhas": 27
+      "falhas": 27,
+      "por_turno": {
+        "1": {
+          "horas": 1.8167,
+          "falhas": 9
+        },
+        "2": {
+          "horas": 2.7167,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 1.7667,
+          "falhas": 16
+        }
+      }
     },
     {
       "name": "MESPACK R2",
       "horas": 5.8333,
-      "falhas": 46
+      "falhas": 46,
+      "por_turno": {
+        "1": {
+          "horas": 1.9,
+          "falhas": 18
+        },
+        "2": {
+          "horas": 1.9167,
+          "falhas": 16
+        },
+        "3": {
+          "horas": 2.0167,
+          "falhas": 12
+        }
+      }
     },
     {
       "name": "MESPACK R1",
       "horas": 4.3667,
-      "falhas": 39
+      "falhas": 39,
+      "por_turno": {
+        "1": {
+          "horas": 2.2,
+          "falhas": 24
+        },
+        "2": {
+          "horas": 1.6333,
+          "falhas": 11
+        },
+        "3": {
+          "horas": 0.5333,
+          "falhas": 4
+        }
+      }
     },
     {
       "name": "MESPACK E",
       "horas": 2.6833,
-      "falhas": 36
+      "falhas": 36,
+      "por_turno": {
+        "1": {
+          "horas": 1.1167,
+          "falhas": 17
+        },
+        "2": {
+          "horas": 0.95,
+          "falhas": 10
+        },
+        "3": {
+          "horas": 0.6167,
+          "falhas": 9
+        }
+      }
     },
     {
       "name": "MESPACK D",
       "horas": 1.05,
-      "falhas": 4
+      "falhas": 4,
+      "por_turno": {
+        "1": {
+          "horas": 0.7333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.2333,
+          "falhas": 2
+        }
+      }
     },
     {
       "name": "ENCAIXOTAMENTO VEGETAIS",
       "horas": 0.6833,
-      "falhas": 7
+      "falhas": 7,
+      "por_turno": {
+        "1": {
+          "horas": 0.5667,
+          "falhas": 6
+        },
+        "2": {
+          "horas": 0.1167,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     },
     {
       "name": "ENCHEDEIRA TOP DOWN",
       "horas": 0.6333,
-      "falhas": 3
+      "falhas": 3,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4667,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.1667,
+          "falhas": 1
+        }
+      }
     },
     {
       "name": "CONDOR",
       "horas": 0.5,
-      "falhas": 3
+      "falhas": 3,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.5,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     },
     {
       "name": "MESPACK C",
       "horas": 0.2667,
-      "falhas": 2
+      "falhas": 2,
+      "por_turno": {
+        "1": {
+          "horas": 0.1167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.15,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     }
   ],
   "turnos": {
@@ -70,75 +196,243 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
       "falhas": 35,
-      "horas": 2.55
+      "horas": 2.55,
+      "por_turno": {
+        "1": {
+          "horas": 1.1167,
+          "falhas": 17
+        },
+        "2": {
+          "horas": 0.8167,
+          "falhas": 9
+        },
+        "3": {
+          "horas": 0.6167,
+          "falhas": 9
+        }
+      }
     },
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA R2",
-      "falhas": 34,
-      "horas": 3.2667
+      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "falhas": 29,
+      "horas": 2.8667,
+      "por_turno": {
+        "1": {
+          "horas": 1.5167,
+          "falhas": 17
+        },
+        "2": {
+          "horas": 0.5667,
+          "falhas": 5
+        },
+        "3": {
+          "horas": 0.7833,
+          "falhas": 7
+        }
+      }
     },
     {
       "tag": "31194",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
-      "falhas": 21,
-      "horas": 2.7167
+      "componente": "AJUSTE NAS PINÇAS",
+      "falhas": 19,
+      "horas": 2.5333,
+      "por_turno": {
+        "1": {
+          "horas": 0.8833,
+          "falhas": 11
+        },
+        "2": {
+          "horas": 1.3333,
+          "falhas": 6
+        },
+        "3": {
+          "horas": 0.3167,
+          "falhas": 2
+        }
+      }
     },
     {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
       "falhas": 18,
-      "horas": 2.35
+      "horas": 2.35,
+      "por_turno": {
+        "1": {
+          "horas": 1.7333,
+          "falhas": 8
+        },
+        "2": {
+          "horas": 0.15,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.4667,
+          "falhas": 9
+        }
+      }
     },
     {
       "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA R1",
-      "falhas": 10,
-      "horas": 0.7667
-    },
-    {
-      "tag": "31314",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
-      "falhas": 7,
-      "horas": 3.2833
-    },
-    {
-      "tag": "RB09",
-      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
-      "falhas": 6,
-      "horas": 0.6667
+      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "falhas": 9,
+      "horas": 0.6833,
+      "por_turno": {
+        "1": {
+          "horas": 0.4167,
+          "falhas": 6
+        },
+        "2": {
+          "horas": 0.05,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.2167,
+          "falhas": 2
+        }
+      }
     },
     {
       "tag": "31407",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "componente": "AJUSTE NAS PINÇAS",
       "falhas": 5,
-      "horas": 1.0167
+      "horas": 1.0167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.65,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.3667,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO EMPILHADOR EM FALHA",
+      "falhas": 5,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.15,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.2667,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA04",
+      "componente": "BANDEJA ACAVALADA SOBRE A OUTRA",
+      "falhas": 4,
+      "horas": 0.3667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2167,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.15,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "31314",
+      "componente": "AJUSTE NAS PINÇAS",
+      "falhas": 4,
+      "horas": 0.3667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.3667,
+          "falhas": 4
+        }
+      }
     },
     {
       "tag": "30787",
-      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
+      "componente": "MANUTENÇÃO MECÂNICA",
       "falhas": 3,
-      "horas": 0.5
+      "horas": 0.5,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.5,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     },
     {
       "tag": "TP-BJ4-L1",
-      "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L1",
+      "componente": "FALHA NO TRANSFERIDOR 4",
       "falhas": 3,
-      "horas": 0.2
+      "horas": 0.2,
+      "por_turno": {
+        "1": {
+          "horas": 0.2,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     },
     {
-      "tag": "31404",
-      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
+      "tag": "31314",
+      "componente": "TROCA DE MOLA DAS PINÇAS",
       "falhas": 2,
-      "horas": 0.8167
-    },
-    {
-      "tag": "INK09",
-      "componente": "INKJET ROTULADEIRA TOPDONW",
-      "falhas": 2,
-      "horas": 0.3333
+      "horas": 0.35,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.35,
+          "falhas": 2
+        }
+      }
     }
   ],
   "evolucao_mensal": [
@@ -168,7 +462,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 449
+      "falhas": 618
     }
   ]
 }
