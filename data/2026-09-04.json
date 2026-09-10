@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updated_at": "2026-09-10T11:53",
+  "updated_at": "2026-09-10T12:38",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -176,18 +176,38 @@
   },
   "top_falhas": [
     {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 30,
+      "horas": 2.8167,
+      "por_turno": {
+        "1": {
+          "horas": 1.0833,
+          "falhas": 13
+        },
+        "2": {
+          "horas": 0.8667,
+          "falhas": 9
+        },
+        "3": {
+          "horas": 0.8667,
+          "falhas": 8
+        }
+      }
+    },
+    {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-      "falhas": 24,
-      "horas": 3.0,
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 25,
+      "horas": 3.1,
       "por_turno": {
         "1": {
           "horas": 0.5167,
           "falhas": 4
         },
         "2": {
-          "horas": 1.8833,
-          "falhas": 14
+          "horas": 1.9833,
+          "falhas": 15
         },
         "3": {
           "horas": 0.6,
@@ -196,28 +216,28 @@
       }
     },
     {
-      "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
-      "falhas": 23,
-      "horas": 2.25,
+      "tag": "31593",
+      "componente": "CABEÇOTE FECH. DE CIAXAS ATOMATADOS ",
+      "falhas": 18,
+      "horas": 5.9969,
       "por_turno": {
         "1": {
-          "horas": 0.65,
-          "falhas": 8
+          "horas": 3.7,
+          "falhas": 13
         },
         "2": {
-          "horas": 0.8667,
-          "falhas": 9
+          "horas": 1.2136,
+          "falhas": 3
         },
         "3": {
-          "horas": 0.7333,
-          "falhas": 6
+          "horas": 1.0833,
+          "falhas": 2
         }
       }
     },
     {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
       "falhas": 18,
       "horas": 1.3833,
       "por_turno": {
@@ -236,34 +256,14 @@
       }
     },
     {
-      "tag": "31593",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "falhas": 14,
-      "horas": 5.3167,
-      "por_turno": {
-        "1": {
-          "horas": 3.2333,
-          "falhas": 10
-        },
-        "2": {
-          "horas": 1.0,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 1.0833,
-          "falhas": 2
-        }
-      }
-    },
-    {
       "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
-      "falhas": 9,
-      "horas": 0.6667,
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 14,
+      "horas": 0.9833,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.3167,
+          "falhas": 5
         },
         "2": {
           "horas": 0.3333,
@@ -277,13 +277,13 @@
     },
     {
       "tag": "31194",
-      "componente": "AJUSTE NAS PINÇAS",
-      "falhas": 8,
-      "horas": 1.0667,
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "falhas": 9,
+      "horas": 1.15,
       "por_turno": {
         "1": {
-          "horas": 0.1333,
-          "falhas": 2
+          "horas": 0.2167,
+          "falhas": 3
         },
         "2": {
           "horas": 0.6333,
@@ -297,7 +297,7 @@
     },
     {
       "tag": "31596",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "REJEITO DE CAIXAS FECH. DE CAIXAS ATOMATADOS ",
       "falhas": 7,
       "horas": 0.8833,
       "por_turno": {
@@ -316,68 +316,28 @@
       }
     },
     {
-      "tag": "ROBOTICA03",
-      "componente": "BANDEJA ACAVALADA SOBRE A OUTRA",
-      "falhas": 5,
-      "horas": 0.3167,
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "falhas": 6,
+      "horas": 0.3667,
       "por_turno": {
         "1": {
-          "horas": 0.3167,
-          "falhas": 5
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "ROBOTICA04",
-      "componente": "BANDEJA ACAVALADA SOBRE A OUTRA",
-      "falhas": 5,
-      "horas": 0.4333,
-      "por_turno": {
-        "1": {
-          "horas": 0.4333,
-          "falhas": 5
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "31593",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-      "falhas": 4,
-      "horas": 0.6802,
-      "por_turno": {
-        "1": {
-          "horas": 0.4667,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.2136,
+          "horas": 0.0667,
           "falhas": 1
         },
+        "2": {
+          "horas": 0.25,
+          "falhas": 4
+        },
         "3": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.05,
+          "falhas": 1
         }
       }
     },
     {
       "tag": "31407",
-      "componente": "AJUSTE NAS PINÇAS",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
       "falhas": 3,
       "horas": 0.2667,
       "por_turno": {
@@ -396,22 +356,62 @@
       }
     },
     {
-      "tag": "31411",
-      "componente": "BICO DOSADOR ENTUPIDO",
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
       "falhas": 3,
-      "horas": 0.1667,
+      "horas": 0.0833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20487",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "falhas": 2,
+      "horas": 0.1167,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.1167,
-          "falhas": 2
+          "horas": 0.0667,
+          "falhas": 1
         },
         "3": {
           "horas": 0.05,
           "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20367",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
+      "falhas": 2,
+      "horas": 0.5333,
+      "por_turno": {
+        "1": {
+          "horas": 0.15,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.3833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
         }
       }
     }
@@ -443,7 +443,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 618
+      "falhas": 1066
     }
   ]
 }
