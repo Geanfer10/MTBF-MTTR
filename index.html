@@ -136,6 +136,12 @@
           <input type="date" class="datepicker" id="rangeEnd">
           <button id="rangeApply" class="tab-btn" style="border:1px solid var(--border); padding:4px 10px; font-size:11px;">Aplicar</button>
         </span>
+        <select class="datepicker" id="turnoSelect">
+          <option value="all">Todos os turnos</option>
+          <option value="1">Turno 1</option>
+          <option value="2">Turno 2</option>
+          <option value="3">Turno 3</option>
+        </select>
       </div>
     </div>
   </header>
@@ -296,7 +302,11 @@ async function init(){
     populateDateSelect(historyCache);
     populateMonthSelect(historyCache);
     const latest = await fetchJSON(DATA_DIR + 'latest.json');
-    render(latest, PERIOD_HOURS);
+    currentRawData = latest;
+    currentBasePeriodHours = PERIOD_HOURS;
+    currentIsPeriod = false;
+    currentDayCount = 1;
+    applyTurnoAndRender();
   }catch(err){
     console.error(err);
     document.getElementById('loadError').style.display = 'block';
@@ -322,6 +332,8 @@ async function init(){
     loadRange(start, end);
   });
 
+  document.getElementById('turnoSelect').addEventListener('change', applyTurnoAndRender);
+
   // pré-preenche o período personalizado com o intervalo total disponível
   if(historyCache.length){
     document.getElementById('rangeStart').value = historyCache[0].date;
@@ -329,10 +341,29 @@ async function init(){
   }
 }
 
+let currentRawData = null;
+let currentBasePeriodHours = PERIOD_HOURS;
+let currentIsPeriod = false;
+let currentDayCount = 1;
+
+function mergePorTurno(target, source){
+  if(!source) return;
+  ['1','2','3'].forEach(t=>{
+    if(!target[t]) target[t] = {horas:0, falhas:0};
+    const s = source[t] || {horas:0, falhas:0};
+    target[t].horas += s.horas;
+    target[t].falhas += s.falhas;
+  });
+}
+
 async function loadDay(dateStr){
   try{
     const day = await fetchJSON(DATA_DIR + dateStr + '.json');
-    render(day, PERIOD_HOURS);
+    currentRawData = day;
+    currentBasePeriodHours = PERIOD_HOURS;
+    currentIsPeriod = false;
+    currentDayCount = 1;
+    applyTurnoAndRender();
   }catch(err){ console.error(err); }
 }
 
@@ -347,9 +378,10 @@ async function loadDates(dates, subtitleLabel){
   const topMap = {};
   validDays.forEach(day => {
     day.equip.forEach(e=>{
-      if(!equipMap[e.name]) equipMap[e.name] = {name:e.name, horas:0, falhas:0};
+      if(!equipMap[e.name]) equipMap[e.name] = {name:e.name, horas:0, falhas:0, por_turno:{}};
       equipMap[e.name].horas += e.horas;
       equipMap[e.name].falhas += e.falhas;
+      mergePorTurno(equipMap[e.name].por_turno, e.por_turno);
     });
     Object.entries(day.turnos).forEach(([dept, ts])=>{
       if(!turnos[dept]) turnos[dept] = {'1':0,'2':0,'3':0};
@@ -357,14 +389,15 @@ async function loadDates(dates, subtitleLabel){
     });
     (day.top_falhas||[]).forEach(f=>{
       const key = f.tag + '|' + f.componente;
-      if(!topMap[key]) topMap[key] = {tag:f.tag, componente:f.componente, falhas:0, horas:0};
+      if(!topMap[key]) topMap[key] = {tag:f.tag, componente:f.componente, falhas:0, horas:0, por_turno:{}};
       topMap[key].falhas += f.falhas;
       topMap[key].horas += f.horas;
+      mergePorTurno(topMap[key].por_turno, f.por_turno);
     });
   });
 
   const lastDay = validDays[validDays.length-1];
-  const aggregated = {
+  currentRawData = {
     date: subtitleLabel,
     updated_at: lastDay.updated_at,
     meta_mtbf: lastDay.meta_mtbf,
@@ -374,8 +407,43 @@ async function loadDates(dates, subtitleLabel){
     top_falhas: Object.values(topMap).sort((a,b)=>b.falhas-a.falhas).slice(0,12),
     evolucao_mensal: lastDay.evolucao_mensal
   };
-  const periodHours = validDays.length * 24;
-  render(aggregated, periodHours, true, validDays.length);
+  currentBasePeriodHours = validDays.length * 24;
+  currentIsPeriod = true;
+  currentDayCount = validDays.length;
+  applyTurnoAndRender();
+}
+
+function applyTurnoFilter(data, turno){
+  if(turno === 'all') return data;
+  const equip = data.equip
+    .map(e => {
+      const t = e.por_turno ? e.por_turno[turno] : null;
+      return {name: e.name, horas: t ? t.horas : 0, falhas: t ? t.falhas : 0};
+    })
+    .filter(e => e.horas > 0 || e.falhas > 0)
+    .sort((a,b)=>b.horas-a.horas);
+  const top_falhas = (data.top_falhas||[])
+    .map(f => {
+      const t = f.por_turno ? f.por_turno[turno] : null;
+      return {tag:f.tag, componente:f.componente, horas: t ? t.horas : 0, falhas: t ? t.falhas : 0};
+    })
+    .filter(f => f.horas > 0 || f.falhas > 0)
+    .sort((a,b)=>b.falhas-a.falhas);
+  const turnos = {};
+  Object.entries(data.turnos).forEach(([dept, ts])=>{
+    turnos[dept] = {'1':0,'2':0,'3':0};
+    turnos[dept][turno] = ts[turno] || 0;
+  });
+  return {...data, equip, top_falhas, turnos};
+}
+
+function applyTurnoAndRender(){
+  if(!currentRawData) return;
+  const turno = document.getElementById('turnoSelect').value;
+  const filtered = applyTurnoFilter(currentRawData, turno);
+  // um turno específico cobre ~8h por dia (24h / 3 turnos), não 24h
+  const periodHours = turno === 'all' ? currentBasePeriodHours : currentBasePeriodHours / 3;
+  render(filtered, periodHours, currentIsPeriod, currentDayCount);
 }
 
 function loadMonth(monthPrefix){
@@ -389,6 +457,8 @@ function loadRange(startDate, endDate){
   const dates = historyCache.map(h=>h.date).filter(d => d >= startDate && d <= endDate);
   loadDates(dates, `${fmtDateBR(startDate)} a ${fmtDateBR(endDate)}`);
 }
+
+
 
 function populateDateSelect(history){
   const sel = document.getElementById('dateSelect');
@@ -422,10 +492,12 @@ function populateMonthSelect(history){
 ========================================================================= */
 function render(data, periodHours, isPeriod, dayCount){
   document.getElementById('loadError').style.display = 'none';
+  const turnoSel = document.getElementById('turnoSelect').value;
+  const turnoLabel = turnoSel === 'all' ? 'todos os turnos' : `Turno ${turnoSel}`;
   if(isPeriod){
-    document.getElementById('headerSubtitle').textContent = `${data.date} · ${dayCount} dia(s) com dados · Departamento: Automação, Elétrica e Mecânica`;
+    document.getElementById('headerSubtitle').textContent = `${data.date} · ${dayCount} dia(s) com dados · ${turnoLabel} · Automação, Elétrica e Mecânica`;
   }else{
-    document.getElementById('headerSubtitle').textContent = `${fmtDateBR(data.date)} · Departamento: Automação, Elétrica e Mecânica`;
+    document.getElementById('headerSubtitle').textContent = `${fmtDateBR(data.date)} · ${turnoLabel} · Automação, Elétrica e Mecânica`;
   }
   document.getElementById('headerUpdated').textContent = data.updated_at ? data.updated_at.replace('T',' ') : '—';
   document.getElementById('footRefresh').textContent = 'Última carga: ' + new Date().toLocaleString('pt-BR');
