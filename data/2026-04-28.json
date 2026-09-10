@@ -1,28 +1,84 @@
 {
   "date": "2026-04-28",
-  "updated_at": "2026-09-04T19:44",
+  "updated_at": "2026-09-10T11:53",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK C",
       "horas": 2.3,
-      "falhas": 14
+      "falhas": 14,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 2.2,
+          "falhas": 13
+        },
+        "3": {
+          "horas": 0.1,
+          "falhas": 1
+        }
+      }
     },
     {
       "name": "MESPACK D",
       "horas": 0.5667,
-      "falhas": 2
+      "falhas": 2,
+      "por_turno": {
+        "1": {
+          "horas": 0.15,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.4167,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     },
     {
       "name": "MESPACK A",
       "horas": 0.1333,
-      "falhas": 2
+      "falhas": 2,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1333,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     },
     {
       "name": "MESPACK B",
       "horas": 0.05,
-      "falhas": 1
+      "falhas": 1,
+      "por_turno": {
+        "1": {
+          "horas": 0.05,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     }
   ],
   "turnos": {
@@ -40,57 +96,243 @@
   "top_falhas": [
     {
       "tag": "20522",
-      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK C ",
-      "falhas": 6,
-      "horas": 0.95
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "falhas": 5,
+      "horas": 0.7833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.7833,
+          "falhas": 5
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     },
     {
       "tag": "20532",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK C",
+      "componente": "MANUTENÇÃO MECÂNICA",
       "falhas": 4,
-      "horas": 0.3333
-    },
-    {
-      "tag": "20547",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
-      "falhas": 2,
-      "horas": 0.5667
-    },
-    {
-      "tag": "20516",
-      "componente": "CONJUNTO DESBOBINADOR MESPACK C ",
-      "falhas": 2,
-      "horas": 0.1667
+      "horas": 0.3333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.3333,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     },
     {
       "tag": "20492",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK A",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "falhas": 1,
-      "horas": 0.0667
-    },
-    {
-      "tag": "20523",
-      "componente": "CONJUNTO DE FACAS MESPACK C ",
-      "falhas": 1,
-      "horas": 0.7333
+      "horas": 0.0667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     },
     {
       "tag": "20507",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "componente": "AJUSTE NAS PINÇAS",
       "falhas": 1,
-      "horas": 0.05
+      "horas": 0.05,
+      "por_turno": {
+        "1": {
+          "horas": 0.05,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20516",
+      "componente": "AJUSTE NO PERFURADOR",
+      "falhas": 1,
+      "horas": 0.1,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20516",
+      "componente": "AJUSTE NO GUIA DE EMBALAGEM",
+      "falhas": 1,
+      "horas": 0.0667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20523",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "falhas": 1,
+      "horas": 0.7333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.7333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20522",
+      "componente": "MANUTENÇÃO ELÉTRICA",
+      "falhas": 1,
+      "horas": 0.1667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     },
     {
       "tag": "20524",
-      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK C ",
+      "componente": "MANUTENÇÃO MECÂNICA",
       "falhas": 1,
-      "horas": 0.1167
+      "horas": 0.1167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1167,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20547",
+      "componente": "AJUSTE NAS PINÇAS",
+      "falhas": 1,
+      "horas": 0.15,
+      "por_turno": {
+        "1": {
+          "horas": 0.15,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20547",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "falhas": 1,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4167,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     },
     {
       "tag": "ink01",
-      "componente": "INKJET MESPACK A",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "falhas": 1,
-      "horas": 0.0667
+      "horas": 0.0667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     }
   ],
   "evolucao_mensal": [
@@ -120,7 +362,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 449
+      "falhas": 618
     }
   ]
 }

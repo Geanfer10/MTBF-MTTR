@@ -1,63 +1,217 @@
 {
   "date": "2026-05-12",
-  "updated_at": "2026-09-04T19:44",
+  "updated_at": "2026-09-10T11:53",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK R1",
       "horas": 5.4833,
-      "falhas": 29
+      "falhas": 29,
+      "por_turno": {
+        "1": {
+          "horas": 0.8,
+          "falhas": 6
+        },
+        "2": {
+          "horas": 3.4333,
+          "falhas": 13
+        },
+        "3": {
+          "horas": 1.25,
+          "falhas": 10
+        }
+      }
     },
     {
       "name": "MESPACK R2",
       "horas": 4.1333,
-      "falhas": 31
+      "falhas": 31,
+      "por_turno": {
+        "1": {
+          "horas": 0.95,
+          "falhas": 7
+        },
+        "2": {
+          "horas": 1.6333,
+          "falhas": 11
+        },
+        "3": {
+          "horas": 1.55,
+          "falhas": 13
+        }
+      }
     },
     {
       "name": "MESPACK E",
       "horas": 3.1778,
-      "falhas": 29
+      "falhas": 29,
+      "por_turno": {
+        "1": {
+          "horas": 1.1778,
+          "falhas": 12
+        },
+        "2": {
+          "horas": 1.2667,
+          "falhas": 7
+        },
+        "3": {
+          "horas": 0.7333,
+          "falhas": 10
+        }
+      }
     },
     {
       "name": "MESPACK F",
       "horas": 2.8833,
-      "falhas": 16
+      "falhas": 16,
+      "por_turno": {
+        "1": {
+          "horas": 0.75,
+          "falhas": 7
+        },
+        "2": {
+          "horas": 1.9667,
+          "falhas": 6
+        },
+        "3": {
+          "horas": 0.1667,
+          "falhas": 3
+        }
+      }
     },
     {
       "name": "MESPACK A",
       "horas": 2.15,
-      "falhas": 10
+      "falhas": 10,
+      "por_turno": {
+        "1": {
+          "horas": 1.4,
+          "falhas": 4
+        },
+        "2": {
+          "horas": 0.35,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.4,
+          "falhas": 2
+        }
+      }
     },
     {
       "name": "60L2",
       "horas": 2.15,
-      "falhas": 5
+      "falhas": 5,
+      "por_turno": {
+        "1": {
+          "horas": 0.5,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 1.65,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     },
     {
       "name": "MESPACK D",
       "horas": 1.3333,
-      "falhas": 2
+      "falhas": 2,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.7167,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.6167,
+          "falhas": 1
+        }
+      }
     },
     {
       "name": "ENCAIXOTAMENTO VEGETAIS",
       "horas": 0.8667,
-      "falhas": 5
+      "falhas": 5,
+      "por_turno": {
+        "1": {
+          "horas": 0.2333,
+          "falhas": 4
+        },
+        "2": {
+          "horas": 0.6333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     },
     {
       "name": "MESPACK B",
       "horas": 0.8167,
-      "falhas": 3
+      "falhas": 3,
+      "por_turno": {
+        "1": {
+          "horas": 0.8167,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     },
     {
       "name": "60L1",
       "horas": 0.5,
-      "falhas": 1
+      "falhas": 1,
+      "por_turno": {
+        "1": {
+          "horas": 0.5,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     },
     {
       "name": "MESPACK C",
       "horas": 0.4167,
-      "falhas": 3
+      "falhas": 3,
+      "por_turno": {
+        "1": {
+          "horas": 0.3333,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0833,
+          "falhas": 1
+        }
+      }
     }
   ],
   "turnos": {
@@ -80,75 +234,243 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
       "falhas": 21,
-      "horas": 1.8
+      "horas": 1.8,
+      "por_turno": {
+        "1": {
+          "horas": 0.9333,
+          "falhas": 10
+        },
+        "2": {
+          "horas": 0.4833,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.3833,
+          "falhas": 7
+        }
+      }
     },
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA R2",
+      "componente": "FALTA DE GRELHA (BANDEJA)",
       "falhas": 18,
-      "horas": 2.4833
+      "horas": 2.4833,
+      "por_turno": {
+        "1": {
+          "horas": 0.6667,
+          "falhas": 4
+        },
+        "2": {
+          "horas": 0.3167,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 1.5,
+          "falhas": 12
+        }
+      }
     },
     {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
       "falhas": 13,
-      "horas": 0.9833
+      "horas": 0.9833,
+      "por_turno": {
+        "1": {
+          "horas": 0.3167,
+          "falhas": 5
+        },
+        "2": {
+          "horas": 0.5,
+          "falhas": 5
+        },
+        "3": {
+          "horas": 0.1667,
+          "falhas": 3
+        }
+      }
     },
     {
       "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA R1",
-      "falhas": 10,
-      "horas": 1.0667
-    },
-    {
-      "tag": "31194",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
-      "falhas": 5,
-      "horas": 0.5667
-    },
-    {
-      "tag": "31186",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK R1",
-      "falhas": 5,
-      "horas": 2.3167
+      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "falhas": 9,
+      "horas": 1.0167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.95,
+          "falhas": 8
+        }
+      }
     },
     {
       "tag": "31407",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "componente": "AJUSTE NAS PINÇAS",
       "falhas": 5,
-      "horas": 0.4667
+      "horas": 0.4667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4667,
+          "falhas": 5
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     },
     {
-      "tag": "30463",
-      "componente": "CABEÇOTE SUPERIOR 60L2",
-      "falhas": 4,
-      "horas": 2.05
+      "tag": "31186",
+      "componente": "AJUSTE NA MORDAÇA SUPERIOR",
+      "falhas": 5,
+      "horas": 2.3167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 2.1667,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.15,
+          "falhas": 1
+        }
+      }
     },
     {
       "tag": "FEL01",
       "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
       "falhas": 4,
-      "horas": 0.2333
+      "horas": 0.2333,
+      "por_turno": {
+        "1": {
+          "horas": 0.1333,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.05,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.05,
+          "falhas": 1
+        }
+      }
     },
     {
-      "tag": "20492",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK A",
-      "falhas": 3,
-      "horas": 0.5167
+      "tag": "31194",
+      "componente": "AJUSTE NAS PINÇAS",
+      "falhas": 4,
+      "horas": 0.5,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.35,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.15,
+          "falhas": 1
+        }
+      }
     },
     {
-      "tag": "31187",
-      "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK R1",
-      "falhas": 3,
-      "horas": 0.35
+      "tag": "30463",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "falhas": 4,
+      "horas": 2.05,
+      "por_turno": {
+        "1": {
+          "horas": 0.5,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 1.55,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     },
     {
       "tag": "MECANICA01",
-      "componente": "AGUARDANDO MECANICO",
+      "componente": "AGUARDANDO MECÂNICO",
       "falhas": 3,
-      "horas": 0.2833
+      "horas": 0.2833,
+      "por_turno": {
+        "1": {
+          "horas": 0.1333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.15,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "TF-BJ4",
+      "componente": "FALHA NO TRANSFERIDOR 4",
+      "falhas": 2,
+      "horas": 0.1,
+      "por_turno": {
+        "1": {
+          "horas": 0.1,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ink05",
+      "componente": "TROCA DE CARTUCHO DATADOURA",
+      "falhas": 2,
+      "horas": 0.0944,
+      "por_turno": {
+        "1": {
+          "horas": 0.0278,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0667,
+          "falhas": 1
+        }
+      }
     }
   ],
   "evolucao_mensal": [
@@ -178,7 +500,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 449
+      "falhas": 618
     }
   ]
 }

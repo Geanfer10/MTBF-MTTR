@@ -1,23 +1,65 @@
 {
   "date": "2026-04-08",
-  "updated_at": "2026-09-04T19:44",
+  "updated_at": "2026-09-10T11:53",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK R2",
       "horas": 1.8667,
-      "falhas": 14
+      "falhas": 14,
+      "por_turno": {
+        "1": {
+          "horas": 0.8833,
+          "falhas": 7
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.9833,
+          "falhas": 7
+        }
+      }
     },
     {
       "name": "MESPACK R1",
       "horas": 1.3333,
-      "falhas": 10
+      "falhas": 10,
+      "por_turno": {
+        "1": {
+          "horas": 0.3833,
+          "falhas": 5
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.95,
+          "falhas": 5
+        }
+      }
     },
     {
       "name": "ENCAIXOTAMENTO VEGETAIS",
       "horas": 0.1167,
-      "falhas": 2
+      "falhas": 2,
+      "por_turno": {
+        "1": {
+          "horas": 0.1167,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     }
   ],
   "turnos": {
@@ -35,33 +77,183 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA R2",
-      "falhas": 11,
-      "horas": 1.5667
+      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "falhas": 10,
+      "horas": 1.2833,
+      "por_turno": {
+        "1": {
+          "horas": 0.6333,
+          "falhas": 5
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.65,
+          "falhas": 5
+        }
+      }
     },
     {
       "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA R1",
-      "falhas": 8,
-      "horas": 0.8833
+      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "falhas": 5,
+      "horas": 0.55,
+      "por_turno": {
+        "1": {
+          "horas": 0.25,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.3,
+          "falhas": 3
+        }
+      }
     },
     {
       "tag": "RB09",
-      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
-      "falhas": 5,
-      "horas": 0.7833
+      "componente": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+      "falhas": 4,
+      "horas": 0.35,
+      "por_turno": {
+        "1": {
+          "horas": 0.35,
+          "falhas": 4
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+      "falhas": 2,
+      "horas": 0.1167,
+      "por_turno": {
+        "1": {
+          "horas": 0.1167,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     },
     {
       "tag": "31191",
-      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
+      "componente": "TROCA DE VENTOSAS",
       "falhas": 1,
-      "horas": 0.0333
+      "horas": 0.0333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
+      "falhas": 1,
+      "horas": 0.2167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.2167,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO EMPILHADOR EM FALHA",
+      "falhas": 1,
+      "horas": 0.4333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.4333,
+          "falhas": 1
+        }
+      }
     },
     {
       "tag": "31407",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "componente": "AJUSTE NAS PINÇAS",
       "falhas": 1,
-      "horas": 0.05
+      "horas": 0.05,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.05,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA04",
+      "componente": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
+      "falhas": 1,
+      "horas": 0.2833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.2833,
+          "falhas": 1
+        }
+      }
     }
   ],
   "evolucao_mensal": [
@@ -91,7 +283,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 449
+      "falhas": 618
     }
   ]
 }
