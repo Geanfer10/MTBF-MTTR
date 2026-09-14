@@ -40,3 +40,4 @@ jobs:
           git add data/
           git diff --cached --quiet || git commit -m "Atualiza dados PCM ($(date -u +'%Y-%m-%d %H:%M UTC'))"
           git push
+
