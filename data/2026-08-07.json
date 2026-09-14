@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "updated_at": "2026-09-14T19:20",
+  "updated_at": "2026-09-14T20:02",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -446,6 +446,308 @@
         "2": {
           "horas": 0.6833,
           "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    }
+  ],
+  "parada_componentes": [
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 39,
+      "horas": 5.1167,
+      "por_turno": {
+        "1": {
+          "horas": 1.5,
+          "falhas": 17
+        },
+        "2": {
+          "horas": 1.7833,
+          "falhas": 14
+        },
+        "3": {
+          "horas": 1.8333,
+          "falhas": 8
+        }
+      }
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 3,
+      "horas": 2.2167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 2.1333,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 12,
+      "horas": 1.65,
+      "por_turno": {
+        "1": {
+          "horas": 0.4833,
+          "falhas": 4
+        },
+        "2": {
+          "horas": 0.2667,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.9,
+          "falhas": 5
+        }
+      }
+    },
+    {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "falhas": 3,
+      "horas": 1.6333,
+      "por_turno": {
+        "1": {
+          "horas": 0.25,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 1.3833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 19,
+      "horas": 1.5833,
+      "por_turno": {
+        "1": {
+          "horas": 0.3667,
+          "falhas": 5
+        },
+        "2": {
+          "horas": 0.3167,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.9,
+          "falhas": 10
+        }
+      }
+    },
+    {
+      "tag": "20487",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "falhas": 5,
+      "horas": 1.45,
+      "por_turno": {
+        "1": {
+          "horas": 0.3333,
+          "falhas": 4
+        },
+        "2": {
+          "horas": 1.1167,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "INK04",
+      "componente": "INKJET MESPACK D",
+      "falhas": 6,
+      "horas": 1.35,
+      "por_turno": {
+        "1": {
+          "horas": 0.6,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.75,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 16,
+      "horas": 1.1167,
+      "por_turno": {
+        "1": {
+          "horas": 0.2667,
+          "falhas": 6
+        },
+        "2": {
+          "horas": 0.2333,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.6167,
+          "falhas": 6
+        }
+      }
+    },
+    {
+      "tag": "20520",
+      "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK C ",
+      "falhas": 1,
+      "horas": 1.0333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 1.0333,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20585",
+      "componente": "MOTOR ELÉTRICO DO REDUTOR DA ESTEIRA DE SAIDA DE EMBALAGENS MESPACK B",
+      "falhas": 1,
+      "horas": 0.75,
+      "por_turno": {
+        "1": {
+          "horas": 0.75,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ELETRICA01",
+      "componente": "AGUARDANDO ELETRICA",
+      "falhas": 3,
+      "horas": 0.6833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.6833,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "32239",
+      "componente": "VENTOSA ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO",
+      "falhas": 2,
+      "horas": 0.6333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.6333,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20367",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
+      "falhas": 2,
+      "horas": 0.6167,
+      "por_turno": {
+        "1": {
+          "horas": 0.1,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.5167,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20564",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK E ",
+      "falhas": 3,
+      "horas": 0.4833,
+      "por_turno": {
+        "1": {
+          "horas": 0.2333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.25,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "20505",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK B ",
+      "falhas": 2,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.4167,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,

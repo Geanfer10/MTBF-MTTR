@@ -1,6 +1,6 @@
 {
   "date": "2026-05-08",
-  "updated_at": "2026-09-14T19:20",
+  "updated_at": "2026-09-14T20:02",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -488,6 +488,308 @@
         "3": {
           "horas": 0.0,
           "falhas": 0
+        }
+      }
+    }
+  ],
+  "parada_componentes": [
+    {
+      "tag": "31186",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK R1",
+      "falhas": 4,
+      "horas": 8.9667,
+      "por_turno": {
+        "1": {
+          "horas": 7.5333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 1.0333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.4,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "PS06",
+      "componente": "PASTEURIZADOR MESPACK F",
+      "falhas": 1,
+      "horas": 5.1667,
+      "por_turno": {
+        "1": {
+          "horas": 5.1667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20499",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B ",
+      "falhas": 3,
+      "horas": 1.85,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.7667,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0833,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 20,
+      "horas": 1.7667,
+      "por_turno": {
+        "1": {
+          "horas": 0.2667,
+          "falhas": 4
+        },
+        "2": {
+          "horas": 0.8333,
+          "falhas": 7
+        },
+        "3": {
+          "horas": 0.6667,
+          "falhas": 9
+        }
+      }
+    },
+    {
+      "tag": "32096",
+      "componente": "CORRENTE ESTEIRA TRANSPORTE CADENA TF-BJ1-2",
+      "falhas": 2,
+      "horas": 1.7,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 1.7,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "30433",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
+      "falhas": 9,
+      "horas": 1.5333,
+      "por_turno": {
+        "1": {
+          "horas": 0.7167,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.8167,
+          "falhas": 6
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "30463",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
+      "falhas": 2,
+      "horas": 1.1167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.1167,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "30459",
+      "componente": "ROSCA SEM FIM ENCHEDEIRA 60L2",
+      "falhas": 1,
+      "horas": 1.0,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.0,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20519",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
+      "falhas": 3,
+      "horas": 0.9833,
+      "por_turno": {
+        "1": {
+          "horas": 0.9833,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20378",
+      "componente": "CABEÇOTE DE INDUÇÃO",
+      "falhas": 1,
+      "horas": 0.9,
+      "por_turno": {
+        "1": {
+          "horas": 0.9,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 6,
+      "horas": 0.7833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.6,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.1833,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "30537",
+      "componente": "RODAS DENTADAS ESTEIRA PULMÃO ENCESTADOR LINHA 60L2",
+      "falhas": 1,
+      "horas": 0.6,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.6,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20559",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK E ",
+      "falhas": 2,
+      "horas": 0.5667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.3,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "falhas": 4,
+      "horas": 0.55,
+      "por_turno": {
+        "1": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.25,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.2333,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20547",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "falhas": 5,
+      "horas": 0.5167,
+      "por_turno": {
+        "1": {
+          "horas": 0.1,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.2333,
+          "falhas": 2
         }
       }
     }

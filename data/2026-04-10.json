@@ -1,6 +1,6 @@
 {
   "date": "2026-04-10",
-  "updated_at": "2026-09-14T19:20",
+  "updated_at": "2026-09-14T20:02",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -389,6 +389,308 @@
         "2": {
           "horas": 0.1,
           "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    }
+  ],
+  "parada_componentes": [
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 30,
+      "horas": 4.0167,
+      "por_turno": {
+        "1": {
+          "horas": 0.9833,
+          "falhas": 9
+        },
+        "2": {
+          "horas": 0.8167,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 2.2167,
+          "falhas": 17
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 32,
+      "horas": 3.5167,
+      "por_turno": {
+        "1": {
+          "horas": 0.85,
+          "falhas": 15
+        },
+        "2": {
+          "horas": 2.1833,
+          "falhas": 11
+        },
+        "3": {
+          "horas": 0.4833,
+          "falhas": 6
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 24,
+      "horas": 1.4333,
+      "por_turno": {
+        "1": {
+          "horas": 0.4333,
+          "falhas": 8
+        },
+        "2": {
+          "horas": 0.7333,
+          "falhas": 12
+        },
+        "3": {
+          "horas": 0.2667,
+          "falhas": 4
+        }
+      }
+    },
+    {
+      "tag": "MP04",
+      "componente": "MESPACK D",
+      "falhas": 1,
+      "horas": 1.2833,
+      "por_turno": {
+        "1": {
+          "horas": 1.2833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 12,
+      "horas": 1.25,
+      "por_turno": {
+        "1": {
+          "horas": 0.1833,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.7333,
+          "falhas": 7
+        },
+        "3": {
+          "horas": 0.3333,
+          "falhas": 3
+        }
+      }
+    },
+    {
+      "tag": "INK10",
+      "componente": "INKJET RECRAVADEIRA 60L1",
+      "falhas": 2,
+      "horas": 1.2167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.2167,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "falhas": 6,
+      "horas": 0.9333,
+      "por_turno": {
+        "1": {
+          "horas": 0.3667,
+          "falhas": 4
+        },
+        "2": {
+          "horas": 0.4333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.1333,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "falhas": 2,
+      "horas": 0.8,
+      "por_turno": {
+        "1": {
+          "horas": 0.8,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 10,
+      "horas": 0.7667,
+      "por_turno": {
+        "1": {
+          "horas": 0.3167,
+          "falhas": 5
+        },
+        "2": {
+          "horas": 0.2333,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.2167,
+          "falhas": 3
+        }
+      }
+    },
+    {
+      "tag": "RB012",
+      "componente": "ROBO  ENCAIXOTAMENTO VEGETAIS LADO DIREITO",
+      "falhas": 1,
+      "horas": 0.6333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.6333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "30433",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
+      "falhas": 2,
+      "horas": 0.2667,
+      "por_turno": {
+        "1": {
+          "horas": 0.1,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "falhas": 2,
+      "horas": 0.2167,
+      "por_turno": {
+        "1": {
+          "horas": 0.2167,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31312",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK F",
+      "falhas": 1,
+      "horas": 0.1667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31309",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK F",
+      "falhas": 1,
+      "horas": 0.1667,
+      "por_turno": {
+        "1": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31186",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK R1",
+      "falhas": 1,
+      "horas": 0.15,
+      "por_turno": {
+        "1": {
+          "horas": 0.15,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,

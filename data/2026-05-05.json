@@ -1,6 +1,6 @@
 {
   "date": "2026-05-05",
-  "updated_at": "2026-09-14T19:20",
+  "updated_at": "2026-09-14T20:02",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -484,6 +484,308 @@
         "2": {
           "horas": 0.2333,
           "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    }
+  ],
+  "parada_componentes": [
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 24,
+      "horas": 4.9167,
+      "por_turno": {
+        "1": {
+          "horas": 0.9,
+          "falhas": 9
+        },
+        "2": {
+          "horas": 3.7,
+          "falhas": 12
+        },
+        "3": {
+          "horas": 0.3167,
+          "falhas": 3
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 23,
+      "horas": 4.11,
+      "por_turno": {
+        "1": {
+          "horas": 0.55,
+          "falhas": 9
+        },
+        "2": {
+          "horas": 2.1767,
+          "falhas": 10
+        },
+        "3": {
+          "horas": 1.3833,
+          "falhas": 4
+        }
+      }
+    },
+    {
+      "tag": "RB010",
+      "componente": "ROBO  DESEMPILHADOR DE BANDEJA ",
+      "falhas": 1,
+      "horas": 2.0667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 2.0667,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 25,
+      "horas": 2.0,
+      "por_turno": {
+        "1": {
+          "horas": 0.7833,
+          "falhas": 9
+        },
+        "2": {
+          "horas": 0.5833,
+          "falhas": 7
+        },
+        "3": {
+          "horas": 0.6333,
+          "falhas": 9
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 22,
+      "horas": 1.4136,
+      "por_turno": {
+        "1": {
+          "horas": 0.7667,
+          "falhas": 10
+        },
+        "2": {
+          "horas": 0.3636,
+          "falhas": 6
+        },
+        "3": {
+          "horas": 0.2833,
+          "falhas": 6
+        }
+      }
+    },
+    {
+      "tag": "31404",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
+      "falhas": 4,
+      "horas": 1.25,
+      "por_turno": {
+        "1": {
+          "horas": 1.15,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20616",
+      "componente": "REDUTOR DE TRAÇÃO ESTEIRÃO DE RESFRIAMENTO MESPACK A/B",
+      "falhas": 2,
+      "horas": 1.0833,
+      "por_turno": {
+        "1": {
+          "horas": 1.0833,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "32109",
+      "componente": "GARRA DE PEGAR BANDEJA ROBO DESEMPILHADOR",
+      "falhas": 1,
+      "horas": 1.0,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.0,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ETH",
+      "componente": "ERRO DE ETHERCAT",
+      "falhas": 1,
+      "horas": 0.9167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.9167,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20367",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
+      "falhas": 4,
+      "horas": 0.8333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4167,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.4167,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 7,
+      "horas": 0.8167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.55,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.2667,
+          "falhas": 3
+        }
+      }
+    },
+    {
+      "tag": "ELETRICA01",
+      "componente": "AGUARDANDO ELETRICA",
+      "falhas": 4,
+      "horas": 0.6167,
+      "por_turno": {
+        "1": {
+          "horas": 0.3833,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.2333,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20539",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK D ",
+      "falhas": 2,
+      "horas": 0.6,
+      "por_turno": {
+        "1": {
+          "horas": 0.6,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "INK12",
+      "componente": "INKJET RECRAVADEIRA CONDOR",
+      "falhas": 3,
+      "horas": 0.6,
+      "por_turno": {
+        "1": {
+          "horas": 0.15,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.45,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "32258",
+      "componente": "VENTOSA  ROBO ENCAIXOTAMENTO VEGETAIS LADO DIREITO",
+      "falhas": 1,
+      "horas": 0.5833,
+      "por_turno": {
+        "1": {
+          "horas": 0.5833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,

@@ -1,6 +1,6 @@
 {
   "date": "2026-05-06",
-  "updated_at": "2026-09-14T19:20",
+  "updated_at": "2026-09-14T20:02",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -446,6 +446,308 @@
         "2": {
           "horas": 0.0,
           "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    }
+  ],
+  "parada_componentes": [
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 29,
+      "horas": 3.55,
+      "por_turno": {
+        "1": {
+          "horas": 1.5333,
+          "falhas": 11
+        },
+        "2": {
+          "horas": 1.6333,
+          "falhas": 13
+        },
+        "3": {
+          "horas": 0.3833,
+          "falhas": 5
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 29,
+      "horas": 3.55,
+      "por_turno": {
+        "1": {
+          "horas": 1.3333,
+          "falhas": 11
+        },
+        "2": {
+          "horas": 1.1667,
+          "falhas": 8
+        },
+        "3": {
+          "horas": 1.05,
+          "falhas": 10
+        }
+      }
+    },
+    {
+      "tag": "31799",
+      "componente": "SERVO 02 DA ESTEIRA INDEXADORA COLETA COL1-L2E MESPACK E",
+      "falhas": 4,
+      "horas": 3.3444,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 3.3111,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0333,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 15,
+      "horas": 1.4681,
+      "por_turno": {
+        "1": {
+          "horas": 0.8,
+          "falhas": 7
+        },
+        "2": {
+          "horas": 0.4514,
+          "falhas": 5
+        },
+        "3": {
+          "horas": 0.2167,
+          "falhas": 3
+        }
+      }
+    },
+    {
+      "tag": "30463",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
+      "falhas": 4,
+      "horas": 1.2333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.2333,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "INK08",
+      "componente": "INKJET MESPACK R2",
+      "falhas": 2,
+      "horas": 0.75,
+      "por_turno": {
+        "1": {
+          "horas": 0.75,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "falhas": 4,
+      "horas": 0.6667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.25,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.4167,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "20490",
+      "componente": "CONJUNTO TANQUE DE PRODUTO MESPACK A ",
+      "falhas": 1,
+      "horas": 0.6,
+      "por_turno": {
+        "1": {
+          "horas": 0.6,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "falhas": 1,
+      "horas": 0.55,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.55,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "MP07",
+      "componente": "MESPACK F",
+      "falhas": 1,
+      "horas": 0.5,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.5,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "30342",
+      "componente": "BOMBA DE ENVIO DE GRÃOS DO TANQUE BRANQUEADOR LINHA 001",
+      "falhas": 2,
+      "horas": 0.4,
+      "por_turno": {
+        "1": {
+          "horas": 0.4,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 7,
+      "horas": 0.35,
+      "por_turno": {
+        "1": {
+          "horas": 0.1333,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.2167,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ETH",
+      "componente": "ERRO DE ETHERCAT",
+      "falhas": 2,
+      "horas": 0.3333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.3333,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "31780",
+      "componente": "MOTOR ESTEIRA TRANSPORTE ATM TP11",
+      "falhas": 1,
+      "horas": 0.3167,
+      "por_turno": {
+        "1": {
+          "horas": 0.3167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31772",
+      "componente": "SISTEMA TRAVAMENTO DE CAIXA ESTEIRA TRANSPORTE ATM TP9",
+      "falhas": 1,
+      "horas": 0.2922,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2922,
+          "falhas": 1
         },
         "3": {
           "horas": 0.0,

@@ -1,6 +1,6 @@
 {
   "date": "2026-05-20",
-  "updated_at": "2026-09-14T19:20",
+  "updated_at": "2026-09-14T20:02",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -465,6 +465,308 @@
         "2": {
           "horas": 0.4167,
           "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    }
+  ],
+  "parada_componentes": [
+    {
+      "tag": "32285",
+      "componente": "MOTOR 01 DE TRACIONAMENTO DAS CORREIAS FECH ATOMATADOS",
+      "falhas": 14,
+      "horas": 8.4333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 8.4333,
+          "falhas": 14
+        }
+      }
+    },
+    {
+      "tag": "30.9",
+      "componente": " MOTOR ELETRICO ESTEIRA DE DOSAGEM DE ESPIGAS",
+      "falhas": 4,
+      "horas": 7.7667,
+      "por_turno": {
+        "1": {
+          "horas": 7.7667,
+          "falhas": 4
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 25,
+      "horas": 2.9667,
+      "por_turno": {
+        "1": {
+          "horas": 1.7333,
+          "falhas": 12
+        },
+        "2": {
+          "horas": 0.6,
+          "falhas": 7
+        },
+        "3": {
+          "horas": 0.6333,
+          "falhas": 6
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 17,
+      "horas": 2.6,
+      "por_turno": {
+        "1": {
+          "horas": 0.5,
+          "falhas": 5
+        },
+        "2": {
+          "horas": 1.35,
+          "falhas": 7
+        },
+        "3": {
+          "horas": 0.75,
+          "falhas": 5
+        }
+      }
+    },
+    {
+      "tag": "31189",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK R1",
+      "falhas": 1,
+      "horas": 2.4,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 2.4,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 28,
+      "horas": 2.0167,
+      "por_turno": {
+        "1": {
+          "horas": 0.8833,
+          "falhas": 11
+        },
+        "2": {
+          "horas": 0.7,
+          "falhas": 13
+        },
+        "3": {
+          "horas": 0.4333,
+          "falhas": 4
+        }
+      }
+    },
+    {
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "falhas": 8,
+      "horas": 1.1167,
+      "por_turno": {
+        "1": {
+          "horas": 0.3833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.1,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.6333,
+          "falhas": 6
+        }
+      }
+    },
+    {
+      "tag": "31191",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
+      "falhas": 1,
+      "horas": 1.05,
+      "por_turno": {
+        "1": {
+          "horas": 1.05,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 10,
+      "horas": 0.8667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.3667,
+          "falhas": 5
+        },
+        "3": {
+          "horas": 0.4167,
+          "falhas": 3
+        }
+      }
+    },
+    {
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "falhas": 1,
+      "horas": 0.7667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.7667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "30787",
+      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
+      "falhas": 5,
+      "horas": 0.65,
+      "por_turno": {
+        "1": {
+          "horas": 0.15,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.5,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "32181",
+      "componente": "VENTOSA ROBO ENTRAGA DE SACHE MESPACK E",
+      "falhas": 2,
+      "horas": 0.65,
+      "por_turno": {
+        "1": {
+          "horas": 0.1,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.55,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "32239",
+      "componente": "VENTOSA ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO",
+      "falhas": 2,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4167,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20378",
+      "componente": "CABEÇOTE DE INDUÇÃO",
+      "falhas": 1,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.4167,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "32241",
+      "componente": "SISTEMA DE MANGUEIRA DE AR COMPRIMIDO ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO",
+      "falhas": 1,
+      "horas": 0.4,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4,
+          "falhas": 1
         },
         "3": {
           "horas": 0.0,

@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updated_at": "2026-09-14T19:20",
+  "updated_at": "2026-09-14T20:02",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -461,6 +461,308 @@
         "1": {
           "horas": 11.3333,
           "falhas": 4
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    }
+  ],
+  "parada_componentes": [
+    {
+      "tag": "PS03",
+      "componente": "PASTEURIZADOR A-B",
+      "falhas": 4,
+      "horas": 11.3333,
+      "por_turno": {
+        "1": {
+          "horas": 11.3333,
+          "falhas": 4
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 37,
+      "horas": 4.1333,
+      "por_turno": {
+        "1": {
+          "horas": 1.9,
+          "falhas": 16
+        },
+        "2": {
+          "horas": 0.9833,
+          "falhas": 10
+        },
+        "3": {
+          "horas": 1.25,
+          "falhas": 11
+        }
+      }
+    },
+    {
+      "tag": "INK06",
+      "componente": "INKJET MESPACK F",
+      "falhas": 12,
+      "horas": 3.4333,
+      "por_turno": {
+        "1": {
+          "horas": 1.2167,
+          "falhas": 7
+        },
+        "2": {
+          "horas": 2.2167,
+          "falhas": 5
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 26,
+      "horas": 3.0,
+      "por_turno": {
+        "1": {
+          "horas": 0.8667,
+          "falhas": 5
+        },
+        "2": {
+          "horas": 0.8333,
+          "falhas": 8
+        },
+        "3": {
+          "horas": 1.3,
+          "falhas": 13
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 21,
+      "horas": 1.7667,
+      "por_turno": {
+        "1": {
+          "horas": 0.3667,
+          "falhas": 5
+        },
+        "2": {
+          "horas": 0.4667,
+          "falhas": 7
+        },
+        "3": {
+          "horas": 0.9333,
+          "falhas": 9
+        }
+      }
+    },
+    {
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "falhas": 4,
+      "horas": 1.1667,
+      "por_turno": {
+        "1": {
+          "horas": 0.5833,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.5833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20532",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK C",
+      "falhas": 2,
+      "horas": 1.1333,
+      "por_turno": {
+        "1": {
+          "horas": 1.1333,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20386",
+      "componente": "CABECOTE ROTULADOR FRENTE ROTULADEIRA TOPDOWN",
+      "falhas": 1,
+      "horas": 1.0667,
+      "por_turno": {
+        "1": {
+          "horas": 1.0667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20505",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK B ",
+      "falhas": 1,
+      "horas": 1.0333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.0333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 17,
+      "horas": 0.9833,
+      "por_turno": {
+        "1": {
+          "horas": 0.3833,
+          "falhas": 6
+        },
+        "2": {
+          "horas": 0.2667,
+          "falhas": 5
+        },
+        "3": {
+          "horas": 0.3333,
+          "falhas": 6
+        }
+      }
+    },
+    {
+      "tag": "31387",
+      "componente": "MOTOR ELETRICO BOMBA DE ENVIO TORRE MESPACK'S 01",
+      "falhas": 3,
+      "horas": 0.9667,
+      "por_turno": {
+        "1": {
+          "horas": 0.9667,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "falhas": 6,
+      "horas": 0.65,
+      "por_turno": {
+        "1": {
+          "horas": 0.0333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.6167,
+          "falhas": 5
+        }
+      }
+    },
+    {
+      "tag": "20478",
+      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK A ",
+      "falhas": 2,
+      "horas": 0.5333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.5333,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "20519",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
+      "falhas": 4,
+      "horas": 0.5333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.35,
+          "falhas": 3
+        }
+      }
+    },
+    {
+      "tag": "30787",
+      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
+      "falhas": 2,
+      "horas": 0.5,
+      "por_turno": {
+        "1": {
+          "horas": 0.5,
+          "falhas": 2
         },
         "2": {
           "horas": 0.0,

@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updated_at": "2026-09-14T19:20",
+  "updated_at": "2026-09-14T20:02",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -407,6 +407,308 @@
         },
         "2": {
           "horas": 0.3833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    }
+  ],
+  "parada_componentes": [
+    {
+      "tag": "31593",
+      "componente": "CABEÇOTE FECH. DE CIAXAS ATOMATADOS ",
+      "falhas": 18,
+      "horas": 5.9969,
+      "por_turno": {
+        "1": {
+          "horas": 3.7,
+          "falhas": 13
+        },
+        "2": {
+          "horas": 1.2136,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 1.0833,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 25,
+      "horas": 3.1,
+      "por_turno": {
+        "1": {
+          "horas": 0.5167,
+          "falhas": 4
+        },
+        "2": {
+          "horas": 1.9833,
+          "falhas": 15
+        },
+        "3": {
+          "horas": 0.6,
+          "falhas": 6
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 30,
+      "horas": 2.8167,
+      "por_turno": {
+        "1": {
+          "horas": 1.0833,
+          "falhas": 13
+        },
+        "2": {
+          "horas": 0.8667,
+          "falhas": 9
+        },
+        "3": {
+          "horas": 0.8667,
+          "falhas": 8
+        }
+      }
+    },
+    {
+      "tag": "31320",
+      "componente": "PAINEL OPERACIONAL MESPACK F",
+      "falhas": 2,
+      "horas": 1.7667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.5333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 1.2333,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "falhas": 18,
+      "horas": 1.3833,
+      "por_turno": {
+        "1": {
+          "horas": 0.3167,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.8,
+          "falhas": 8
+        },
+        "3": {
+          "horas": 0.2667,
+          "falhas": 7
+        }
+      }
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "falhas": 9,
+      "horas": 1.15,
+      "por_turno": {
+        "1": {
+          "horas": 0.2167,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.6333,
+          "falhas": 5
+        },
+        "3": {
+          "horas": 0.3,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 14,
+      "horas": 0.9833,
+      "por_turno": {
+        "1": {
+          "horas": 0.3167,
+          "falhas": 5
+        },
+        "2": {
+          "horas": 0.3333,
+          "falhas": 5
+        },
+        "3": {
+          "horas": 0.3333,
+          "falhas": 4
+        }
+      }
+    },
+    {
+      "tag": "31596",
+      "componente": "REJEITO DE CAIXAS FECH. DE CAIXAS ATOMATADOS ",
+      "falhas": 7,
+      "horas": 0.8833,
+      "por_turno": {
+        "1": {
+          "horas": 0.8833,
+          "falhas": 7
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20573",
+      "componente": "PAINEL OPERACIONAL MESPACK E",
+      "falhas": 1,
+      "horas": 0.7,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.7,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20560",
+      "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK E ",
+      "falhas": 1,
+      "horas": 0.5333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.5333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20367",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
+      "falhas": 2,
+      "horas": 0.5333,
+      "por_turno": {
+        "1": {
+          "horas": 0.15,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.3833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31395",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK R2",
+      "falhas": 2,
+      "horas": 0.45,
+      "por_turno": {
+        "1": {
+          "horas": 0.1167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.3333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20563",
+      "componente": "CONJUNTO DE FACAS MESPACK E ",
+      "falhas": 2,
+      "horas": 0.4333,
+      "por_turno": {
+        "1": {
+          "horas": 0.2833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.15,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "30811",
+      "componente": "VALVULA ENTRADA DE SALMOURA LINHA 01",
+      "falhas": 1,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4167,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "INK01",
+      "componente": "INKJET MESPACK A",
+      "falhas": 2,
+      "horas": 0.4,
+      "por_turno": {
+        "1": {
+          "horas": 0.3,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.1,
           "falhas": 1
         },
         "3": {

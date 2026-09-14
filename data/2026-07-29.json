@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "updated_at": "2026-09-14T19:20",
+  "updated_at": "2026-09-14T20:02",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -426,6 +426,308 @@
         "2": {
           "horas": 0.2167,
           "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20542",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK D ",
+      "falhas": 1,
+      "horas": 0.35,
+      "por_turno": {
+        "1": {
+          "horas": 0.35,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    }
+  ],
+  "parada_componentes": [
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "falhas": 34,
+      "horas": 3.6667,
+      "por_turno": {
+        "1": {
+          "horas": 1.6833,
+          "falhas": 17
+        },
+        "2": {
+          "horas": 0.95,
+          "falhas": 10
+        },
+        "3": {
+          "horas": 1.0333,
+          "falhas": 7
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 15,
+      "horas": 1.8,
+      "por_turno": {
+        "1": {
+          "horas": 0.6167,
+          "falhas": 10
+        },
+        "2": {
+          "horas": 0.1333,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 1.05,
+          "falhas": 3
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "falhas": 12,
+      "horas": 1.6,
+      "por_turno": {
+        "1": {
+          "horas": 0.5167,
+          "falhas": 5
+        },
+        "2": {
+          "horas": 0.25,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.8333,
+          "falhas": 3
+        }
+      }
+    },
+    {
+      "tag": "20498",
+      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK B ",
+      "falhas": 1,
+      "horas": 1.3167,
+      "por_turno": {
+        "1": {
+          "horas": 1.3167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "32257",
+      "componente": "CONJUNTO DE SUPORTE VENTOSA ROBO ENCAIXOTAMENTO VEGETAIS LADO DIREITO",
+      "falhas": 1,
+      "horas": 1.0833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 1.0833,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "31996",
+      "componente": "SISTEMA DE SENSORES ESTEIRA TRANSPORTE CADENA TP-BJ4-L1",
+      "falhas": 3,
+      "horas": 1.0167,
+      "por_turno": {
+        "1": {
+          "horas": 0.6833,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.3333,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20665",
+      "componente": "TRATAMENTO DE AR COMPRIMIDO (TOLVA) - MESPACK E",
+      "falhas": 1,
+      "horas": 0.95,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.95,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "31481",
+      "componente": "SISTEMA DE SENSORES ESTEIRA DE TRANSPORTE SAIDA MESPACK RETORT CADENA TP-BJ-15",
+      "falhas": 1,
+      "horas": 0.7833,
+      "por_turno": {
+        "1": {
+          "horas": 0.7833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "INK12",
+      "componente": "INKJET RECRAVADEIRA CONDOR",
+      "falhas": 3,
+      "horas": 0.7667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.7667,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31757",
+      "componente": "SISTEMA TRAVAMENTO DE CAIXA ESTEIRA TRANSPORTE ATM TP7-L2E",
+      "falhas": 1,
+      "horas": 0.7167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.7167,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "INK04",
+      "componente": "INKJET MESPACK D",
+      "falhas": 3,
+      "horas": 0.6167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.3,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.3167,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "falhas": 1,
+      "horas": 0.6,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.6,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20487",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "falhas": 5,
+      "horas": 0.5333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.45,
+          "falhas": 4
+        }
+      }
+    },
+    {
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "falhas": 5,
+      "horas": 0.4,
+      "por_turno": {
+        "1": {
+          "horas": 0.2167,
+          "falhas": 4
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 1
         },
         "3": {
           "horas": 0.0,
