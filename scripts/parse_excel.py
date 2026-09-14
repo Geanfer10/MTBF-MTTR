@@ -77,32 +77,39 @@ def process_date(df, target_date, args):
         gc_source.groupby(["TAG", "Componente"])
         .agg(falhas=("Falhas", "sum"), horas=("Tempo Parada (h decimal)", "sum"))
         .reset_index()
-        .sort_values("falhas", ascending=False)
     )
     piv_falha_turno = gc_source.groupby(["TAG", "Componente", "Turno"]).agg(
         horas=("Tempo Parada (h decimal)", "sum"), falhas=("Falhas", "sum")
     ).reset_index()
-    top_falhas = []
-    for _, r in gc.head(12).iterrows():
-        por_turno = {}
-        for turno in [1, 2, 3]:
-            linha = piv_falha_turno[
-                (piv_falha_turno["TAG"] == r["TAG"]) & (piv_falha_turno["Componente"] == r["Componente"]) & (piv_falha_turno["Turno"] == turno)
-            ]
-            if len(linha):
-                por_turno[str(turno)] = {
-                    "horas": round(float(linha["horas"].values[0]), 4),
-                    "falhas": int(linha["falhas"].values[0]),
-                }
-            else:
-                por_turno[str(turno)] = {"horas": 0.0, "falhas": 0}
-        top_falhas.append({
-            "tag": str(r["TAG"]),
-            "componente": r["Componente"],
-            "falhas": int(r["falhas"]),
-            "horas": round(float(r["horas"]), 4),
-            "por_turno": por_turno,
-        })
+
+    def _monta_lista(df_ordenado):
+        lista = []
+        for _, r in df_ordenado.iterrows():
+            por_turno = {}
+            for turno in [1, 2, 3]:
+                linha = piv_falha_turno[
+                    (piv_falha_turno["TAG"] == r["TAG"]) & (piv_falha_turno["Componente"] == r["Componente"]) & (piv_falha_turno["Turno"] == turno)
+                ]
+                if len(linha):
+                    por_turno[str(turno)] = {
+                        "horas": round(float(linha["horas"].values[0]), 4),
+                        "falhas": int(linha["falhas"].values[0]),
+                    }
+                else:
+                    por_turno[str(turno)] = {"horas": 0.0, "falhas": 0}
+            lista.append({
+                "tag": str(r["TAG"]),
+                "componente": r["Componente"],
+                "falhas": int(r["falhas"]),
+                "horas": round(float(r["horas"]), 4),
+                "por_turno": por_turno,
+            })
+        return lista
+
+    # gráfico "Top Falhas" — mostra quem mais falhou (por número de falhas)
+    top_falhas = _monta_lista(gc.sort_values("falhas", ascending=False).head(12))
+    # cards "Parada por Componentes" — mostra quem mais tempo ficou parado (por tempo)
+    parada_componentes = _monta_lista(gc.sort_values("horas", ascending=False).head(15))
 
     mg = df.groupby("Mês")["Falhas"].sum()
     evolucao = [{"mes": m, "falhas": int(mg[m])} for m in MONTH_ORDER if m in mg.index]
@@ -115,6 +122,7 @@ def process_date(df, target_date, args):
         "equip": equip,
         "turnos": turnos,
         "top_falhas": top_falhas,
+        "parada_componentes": parada_componentes,
         "evolucao_mensal": evolucao,
     }
 
@@ -183,4 +191,3 @@ if __name__ == "__main__":
 
 if __name__ == "__main__":
     main()
-
