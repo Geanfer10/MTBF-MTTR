@@ -25,12 +25,12 @@ jobs:
       - name: Instalar dependências
         run: pip install pandas openpyxl
 
-      - name: Processar planilha(s)
+      - name: Processar planilha(s) — reprocessa todo o histórico sempre
         run: |
           shopt -s nullglob
           for f in uploads/*.xlsm uploads/*.xlsx; do
-            echo "Processando $f"
-            python scripts/parse_excel.py --file "$f" --outdir data
+            echo "Processando $f (histórico completo)"
+            python scripts/parse_excel.py --file "$f" --outdir data --date all
           done
 
       - name: Commit dos dados atualizados
