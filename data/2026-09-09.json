@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updated_at": "2026-09-10T12:38",
+  "updated_at": "2026-09-14T18:45",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -62,7 +62,7 @@
       }
     },
     {
-      "name": "60l2",
+      "name": "60L2",
       "horas": 1.7667,
       "falhas": 4,
       "por_turno": {
@@ -119,7 +119,7 @@
       }
     },
     {
-      "name": "60l1",
+      "name": "60L1",
       "horas": 0.6667,
       "falhas": 5,
       "por_turno": {
@@ -197,12 +197,12 @@
     {
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
-      "falhas": 18,
-      "horas": 1.9833,
+      "falhas": 19,
+      "horas": 2.3333,
       "por_turno": {
         "1": {
-          "horas": 0.4333,
-          "falhas": 4
+          "horas": 0.7833,
+          "falhas": 5
         },
         "2": {
           "horas": 0.9333,
@@ -295,26 +295,6 @@
       }
     },
     {
-      "tag": "20556",
-      "componente": "CONJUNTO DESBOBINADOR MESPACK E ",
-      "falhas": 5,
-      "horas": 1.2333,
-      "por_turno": {
-        "1": {
-          "horas": 0.6333,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.6,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "31411",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
       "falhas": 5,
@@ -335,18 +315,18 @@
       }
     },
     {
-      "tag": "31194",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
-      "falhas": 4,
-      "horas": 0.4167,
+      "tag": "20556",
+      "componente": "CONJUNTO DESBOBINADOR MESPACK E ",
+      "falhas": 5,
+      "horas": 1.2333,
       "por_turno": {
         "1": {
-          "horas": 0.1833,
+          "horas": 0.6333,
           "falhas": 3
         },
         "2": {
-          "horas": 0.2333,
-          "falhas": 1
+          "horas": 0.6,
+          "falhas": 2
         },
         "3": {
           "horas": 0.0,
@@ -367,6 +347,26 @@
         "2": {
           "horas": 0.5333,
           "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "falhas": 4,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.1833,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.2333,
+          "falhas": 1
         },
         "3": {
           "horas": 0.0,
@@ -415,17 +415,17 @@
       }
     },
     {
-      "tag": "INK06",
-      "componente": "INKJET MESPACK F",
-      "falhas": 3,
-      "horas": 0.5333,
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "falhas": 2,
+      "horas": 0.2667,
       "por_turno": {
         "1": {
-          "horas": 0.2833,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "2": {
-          "horas": 0.25,
+          "horas": 0.2667,
           "falhas": 2
         },
         "3": {
@@ -462,7 +462,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 1066
+      "falhas": 1557
     }
   ]
 }
