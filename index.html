@@ -375,7 +375,6 @@ async function loadDates(dates, subtitleLabel){
 
   const equipMap = {};
   const turnos = {};
-  const topMap = {};
   validDays.forEach(day => {
     day.equip.forEach(e=>{
       if(!equipMap[e.name]) equipMap[e.name] = {name:e.name, horas:0, falhas:0, por_turno:{}};
@@ -387,8 +386,17 @@ async function loadDates(dates, subtitleLabel){
       if(!turnos[dept]) turnos[dept] = {'1':0,'2':0,'3':0};
       ['1','2','3'].forEach(t => turnos[dept][t] += (ts[t]||0));
     });
-    (day.top_falhas||[]).forEach(f=>{
+  });
+
+  // junta top_falhas + parada_componentes de cada dia num único total por TAG+Componente
+  // (evita contar duas vezes um item que já apareça nas duas listas do mesmo dia)
+  const topMap = {};
+  validDays.forEach(day => {
+    const seenHoje = new Set();
+    [...(day.top_falhas||[]), ...(day.parada_componentes||[])].forEach(f=>{
       const key = f.tag + '|' + f.componente;
+      if(seenHoje.has(key)) return;
+      seenHoje.add(key);
       if(!topMap[key]) topMap[key] = {tag:f.tag, componente:f.componente, falhas:0, horas:0, por_turno:{}};
       topMap[key].falhas += f.falhas;
       topMap[key].horas += f.horas;
@@ -397,6 +405,7 @@ async function loadDates(dates, subtitleLabel){
   });
 
   const lastDay = validDays[validDays.length-1];
+  const todosItens = Object.values(topMap);
   currentRawData = {
     date: subtitleLabel,
     updated_at: lastDay.updated_at,
@@ -404,7 +413,8 @@ async function loadDates(dates, subtitleLabel){
     dias_parados: validDays.length,
     equip: Object.values(equipMap).sort((a,b)=>b.horas-a.horas),
     turnos,
-    top_falhas: Object.values(topMap).sort((a,b)=>b.falhas-a.falhas).slice(0,12),
+    top_falhas: [...todosItens].sort((a,b)=>b.falhas-a.falhas).slice(0,12),
+    parada_componentes: [...todosItens].sort((a,b)=>b.horas-a.horas).slice(0,15),
     evolucao_mensal: lastDay.evolucao_mensal
   };
   currentBasePeriodHours = validDays.length * 24;
@@ -429,12 +439,19 @@ function applyTurnoFilter(data, turno){
     })
     .filter(f => f.horas > 0 || f.falhas > 0)
     .sort((a,b)=>b.falhas-a.falhas);
+  const parada_componentes = (data.parada_componentes||[])
+    .map(f => {
+      const t = f.por_turno ? f.por_turno[turno] : null;
+      return {tag:f.tag, componente:f.componente, horas: t ? t.horas : 0, falhas: t ? t.falhas : 0};
+    })
+    .filter(f => f.horas > 0 || f.falhas > 0)
+    .sort((a,b)=>b.horas-a.horas);
   const turnos = {};
   Object.entries(data.turnos).forEach(([dept, ts])=>{
     turnos[dept] = {'1':0,'2':0,'3':0};
     turnos[dept][turno] = ts[turno] || 0;
   });
-  return {...data, equip, top_falhas, turnos};
+  return {...data, equip, top_falhas, parada_componentes, turnos};
 }
 
 function applyTurnoAndRender(){
@@ -690,7 +707,7 @@ function render(data, periodHours, isPeriod, dayCount){
     }
   });
 
-  /* ---- Top falhas por componente ---- */
+  /* ---- Top falhas por componente (quem mais falhou) ---- */
   const topFalhas = data.top_falhas || [];
   charts.top10 = new Chart(document.getElementById('chartTop10'), {
     type:'bar',
@@ -701,9 +718,10 @@ function render(data, periodHours, isPeriod, dayCount){
     }
   });
 
-  /* ---- Parada por componentes ---- */
-  const maxCompFalhas = Math.max(...topFalhas.map(c=>c.falhas), 1);
-  document.getElementById('compGrid').innerHTML = topFalhas.map(c => {
+  /* ---- Parada por componentes (quem mais tempo ficou parado) ---- */
+  const paradaComponentes = data.parada_componentes || [];
+  const maxCompFalhas = Math.max(...paradaComponentes.map(c=>c.falhas), 1);
+  document.getElementById('compGrid').innerHTML = paradaComponentes.map(c => {
     const h = 20 + (c.falhas/maxCompFalhas)*50;
     return `
     <div class="comp-card">
