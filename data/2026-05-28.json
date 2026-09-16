@@ -1,6 +1,6 @@
 {
   "date": "2026-05-28",
-  "updated_at": "2026-09-15T17:16",
+  "updated_at": "2026-09-16T17:32",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -256,8 +256,8 @@
     {
       "tag": "ROBOTICA03",
       "componente": "FALTA DE GRELHA R1",
-      "falhas": 22,
-      "horas": 2.05,
+      "falhas": 21,
+      "horas": 1.9,
       "por_turno": {
         "1": {
           "horas": 0.3,
@@ -268,8 +268,8 @@
           "falhas": 9
         },
         "3": {
-          "horas": 1.0333,
-          "falhas": 7
+          "horas": 0.8833,
+          "falhas": 6
         }
       }
     },
@@ -374,18 +374,38 @@
       }
     },
     {
-      "tag": "RB09",
-      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "tag": "32130",
+      "componente": "REJEITO DE CAIXAS FECH. DE CAIXAS VEGETAIS",
       "falhas": 2,
-      "horas": 0.1,
+      "horas": 0.2833,
       "por_turno": {
         "1": {
-          "horas": 0.1,
-          "falhas": 2
+          "horas": 0.0667,
+          "falhas": 1
         },
         "2": {
+          "horas": 0.2167,
+          "falhas": 1
+        },
+        "3": {
           "horas": 0.0,
           "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "INK10",
+      "componente": "INKJET RECRAVADEIRA 60L1",
+      "falhas": 2,
+      "horas": 0.8,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.8,
+          "falhas": 2
         },
         "3": {
           "horas": 0.0,
@@ -414,42 +434,22 @@
       }
     },
     {
-      "tag": "31905",
-      "componente": "PISTÃO DE TRAVAMENTO DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-9",
+      "tag": "20552",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK D",
       "falhas": 2,
-      "horas": 0.15,
+      "horas": 0.1667,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.15,
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1667,
           "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "32130",
-      "componente": "REJEITO DE CAIXAS FECH. DE CAIXAS VEGETAIS",
-      "falhas": 2,
-      "horas": 0.2833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.2167,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
         }
       }
     }
@@ -496,26 +496,6 @@
       }
     },
     {
-      "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA R1",
-      "falhas": 22,
-      "horas": 2.05,
-      "por_turno": {
-        "1": {
-          "horas": 0.3,
-          "falhas": 6
-        },
-        "2": {
-          "horas": 0.7167,
-          "falhas": 9
-        },
-        "3": {
-          "horas": 1.0333,
-          "falhas": 7
-        }
-      }
-    },
-    {
       "tag": "20527",
       "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
       "falhas": 11,
@@ -532,6 +512,26 @@
         "3": {
           "horas": 1.5167,
           "falhas": 7
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "falhas": 21,
+      "horas": 1.9,
+      "por_turno": {
+        "1": {
+          "horas": 0.3,
+          "falhas": 6
+        },
+        "2": {
+          "horas": 0.7167,
+          "falhas": 9
+        },
+        "3": {
+          "horas": 0.8833,
+          "falhas": 6
         }
       }
     },
@@ -783,7 +783,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 1682
+      "falhas": 1829
     }
   ]
 }
