@@ -1,16 +1,16 @@
 {
   "date": "2026-09-16",
-  "updated_at": "2026-09-16T19:37",
+  "updated_at": "2026-09-16T20:13",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
-      "name": "60L1",
-      "horas": 0.2667,
+      "name": "MESPACK C",
+      "horas": 2.0,
       "falhas": 1,
       "por_turno": {
         "1": {
-          "horas": 0.2667,
+          "horas": 2.0,
           "falhas": 1
         },
         "2": {
@@ -26,20 +26,20 @@
   ],
   "turnos": {
     "Mecânica": {
-      "1": 0.2667,
+      "1": 2.0,
       "2": 0.0,
       "3": 0.0
     }
   },
   "top_falhas": [
     {
-      "tag": "30433",
-      "componente": "CABEÇOTE SUPERIOR 60L1",
+      "tag": "20455",
+      "componente": "VALVULA MODULADORA DE AGUA PASTEURIZADOR MESPACK C/D",
       "falhas": 1,
-      "horas": 0.2667,
+      "horas": 2.0,
       "por_turno": {
         "1": {
-          "horas": 0.2667,
+          "horas": 2.0,
           "falhas": 1
         },
         "2": {
@@ -55,13 +55,13 @@
   ],
   "parada_componentes": [
     {
-      "tag": "30433",
-      "componente": "CABEÇOTE SUPERIOR 60L1",
+      "tag": "20455",
+      "componente": "VALVULA MODULADORA DE AGUA PASTEURIZADOR MESPACK C/D",
       "falhas": 1,
-      "horas": 0.2667,
+      "horas": 2.0,
       "por_turno": {
         "1": {
-          "horas": 0.2667,
+          "horas": 2.0,
           "falhas": 1
         },
         "2": {
