@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updated_at": "2026-09-16T20:13",
+  "updated_at": "2026-09-17T11:58",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -375,26 +375,6 @@
       }
     },
     {
-      "tag": "31198",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
-      "falhas": 3,
-      "horas": 0.1167,
-      "por_turno": {
-        "1": {
-          "horas": 0.0667,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.05,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "30463",
       "componente": "CABEÇOTE SUPERIOR 60L2",
       "falhas": 3,
@@ -407,6 +387,26 @@
         "2": {
           "horas": 1.6333,
           "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "falhas": 3,
+      "horas": 0.1167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0667,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.05,
+          "falhas": 1
         },
         "3": {
           "horas": 0.0,
@@ -497,8 +497,8 @@
       }
     },
     {
-      "tag": "20547",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "tag": "INK09",
+      "componente": "INKJET ROTULADEIRA TOPDONW",
       "falhas": 1,
       "horas": 1.3,
       "por_turno": {
@@ -764,7 +764,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 1830
+      "falhas": 1975
     }
   ]
 }
