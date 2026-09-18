@@ -8,6 +8,8 @@ Uso:
 Por padrao processa a ULTIMA data encontrada na planilha. Para processar uma
 data especifica:
     python scripts/parse_excel.py --file uploads/PCM_Indicadores.xlsm --date 2026-09-03
+Para reprocessar TODO o historico:
+    python scripts/parse_excel.py --file uploads/PCM_Indicadores.xlsm --date all
 """
 import argparse
 import json
@@ -78,6 +80,11 @@ def process_date(df, target_date, args):
         .agg(falhas=("Falhas", "sum"), horas=("Tempo Parada (h decimal)", "sum"))
         .reset_index()
     )
+    # equipamento de cada TAG (assume-se 1 TAG = 1 equipamento; usa o mais frequente por segurança)
+    equipamento_por_tag = (
+        gc_source.groupby("TAG")["Equipamento"]
+        .agg(lambda s: s.mode().iloc[0] if not s.mode().empty else s.iloc[0])
+    )
     piv_falha_turno = gc_source.groupby(["TAG", "Componente", "Turno"]).agg(
         horas=("Tempo Parada (h decimal)", "sum"), falhas=("Falhas", "sum")
     ).reset_index()
@@ -100,6 +107,7 @@ def process_date(df, target_date, args):
             lista.append({
                 "tag": str(r["TAG"]),
                 "componente": r["Componente"],
+                "equipamento": equipamento_por_tag.get(r["TAG"], ""),
                 "falhas": int(r["falhas"]),
                 "horas": round(float(r["horas"]), 4),
                 "por_turno": por_turno,
@@ -183,10 +191,6 @@ def main():
         latest_path = os.path.join(args.outdir, "latest.json")
         with open(latest_path, "w", encoding="utf-8") as f:
             json.dump(last_out, f, ensure_ascii=False, indent=2)
-
-
-if __name__ == "__main__":
-    main()
 
 
 if __name__ == "__main__":
