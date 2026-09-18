@@ -109,6 +109,7 @@
   .datepicker{font-family:'JetBrains Mono',monospace; font-size:12px; padding:6px 10px; border:1px solid var(--border); border-radius:6px; background:var(--panel); color:var(--text);}
   footer{margin-top:30px; padding-top:16px; border-top:1px solid var(--border); font-size:11px; color:var(--text-faint); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px;}
   #loadError{display:none; background:var(--red-dim); border:1px solid var(--red); color:var(--red); border-radius:8px; padding:14px 18px; margin-bottom:18px; font-size:13px;}
+  #equipNotice{display:none; background:var(--amber-dim); border:1px solid var(--amber); color:#7a5a10; border-radius:8px; padding:10px 16px; margin-bottom:18px; font-size:12px;}
 </style>
 </head>
 <body>
@@ -142,11 +143,15 @@
           <option value="2">Turno 2</option>
           <option value="3">Turno 3</option>
         </select>
+        <select class="datepicker" id="equipSelect">
+          <option value="all">Todas as máquinas</option>
+        </select>
       </div>
     </div>
   </header>
 
   <div id="loadError">Não foi possível carregar os dados (data/latest.json). Confira se o GitHub Actions já processou uma planilha e se o GitHub Pages está publicando a pasta certa.</div>
+  <div id="equipNotice">Filtro de máquina ativo: "Evolução mensal", "Ranking disponibilidade" e "Falha por departamento" continuam mostrando todos os equipamentos, pois não se aplicam a uma única máquina.</div>
 
   <div class="tabs">
     <button class="tab-btn active" data-tab="geral">Visão Geral</button>
@@ -166,10 +171,10 @@
     </div>
 
     <div class="section">
-      <div class="section-head"><h2>Paradas por turno e departamento</h2><div class="idx">02</div><div class="line"></div></div>
+      <div class="section-head"><h2 id="turnoSectionTitle">Paradas por turno e departamento</h2><div class="idx">02</div><div class="line"></div></div>
       <div class="grid-2">
-        <div class="card"><h3>Análise de paradas por turno</h3><div class="chart-box turno"><canvas id="chartTurno"></canvas></div></div>
-        <div class="card"><h3>Horas paradas por departamento</h3><div class="dept-list" id="deptList"></div></div>
+        <div class="card"><h3 id="turnoChartTitle">Análise de paradas por turno</h3><div class="chart-box turno"><canvas id="chartTurno"></canvas></div></div>
+        <div class="card"><h3 id="deptListTitle">Horas paradas por departamento</h3><div class="dept-list" id="deptList"></div></div>
       </div>
     </div>
 
@@ -255,19 +260,13 @@
 </div>
 
 <script>
-/* =========================================================================
-   CARREGAMENTO DE DADOS
-   O painel busca ./data/latest.json (dia mais recente) e ./data/history.json
-   (série histórica p/ o gráfico de tendência). Esses arquivos são gerados
-   pelo script scripts/parse_excel.py, disparado pelo GitHub Actions.
-========================================================================= */
 const DATA_DIR = './data/';
 const DEPT_COLOR = {'Elétrica':'#2E6FD9', 'Mecânica':'#1E9350', 'Automação':'#E08A1E'};
 const DEPT_ICON = {'Elétrica':'⚡', 'Mecânica':'⚙️', 'Automação':'🔧'};
 const MATRIX_X_THRESHOLD = 3;
 const MATRIX_Y_THRESHOLD = 20;
 const PERIOD_HOURS = 24;
-const DIAS_PARADOS_LIMITE_HORAS = 24; // se o total de horas paradas do dia passar disso, conta como "dia crítico"
+const DIAS_PARADOS_LIMITE_HORAS = 24;
 
 let charts = {};
 let historyCache = [];
@@ -306,7 +305,8 @@ async function init(){
     currentBasePeriodHours = PERIOD_HOURS;
     currentIsPeriod = false;
     currentDayCount = 1;
-    applyTurnoAndRender();
+    populateEquipSelect(latest);
+    applyFiltersAndRender();
   }catch(err){
     console.error(err);
     document.getElementById('loadError').style.display = 'block';
@@ -322,7 +322,6 @@ async function init(){
     }else if(mode === 'month'){
       loadMonth(document.getElementById('monthSelect').value);
     }
-    // 'range' só carrega quando clicar em Aplicar
   });
 
   document.getElementById('rangeApply').addEventListener('click', ()=>{
@@ -332,9 +331,9 @@ async function init(){
     loadRange(start, end);
   });
 
-  document.getElementById('turnoSelect').addEventListener('change', applyTurnoAndRender);
+  document.getElementById('turnoSelect').addEventListener('change', applyFiltersAndRender);
+  document.getElementById('equipSelect').addEventListener('change', applyFiltersAndRender);
 
-  // pré-preenche o período personalizado com o intervalo total disponível
   if(historyCache.length){
     document.getElementById('rangeStart').value = historyCache[0].date;
     document.getElementById('rangeEnd').value = historyCache[historyCache.length-1].date;
@@ -356,6 +355,15 @@ function mergePorTurno(target, source){
   });
 }
 
+function populateEquipSelect(data){
+  const sel = document.getElementById('equipSelect');
+  const atual = sel.value || 'all';
+  const nomes = (data.equip||[]).map(e=>e.name).sort();
+  sel.innerHTML = '<option value="all">Todas as máquinas</option>' +
+    nomes.map(n=>`<option value="${n}">${n}</option>`).join('');
+  if(nomes.includes(atual)) sel.value = atual;
+}
+
 async function loadDay(dateStr){
   try{
     const day = await fetchJSON(DATA_DIR + dateStr + '.json');
@@ -363,7 +371,8 @@ async function loadDay(dateStr){
     currentBasePeriodHours = PERIOD_HOURS;
     currentIsPeriod = false;
     currentDayCount = 1;
-    applyTurnoAndRender();
+    populateEquipSelect(day);
+    applyFiltersAndRender();
   }catch(err){ console.error(err); }
 }
 
@@ -388,8 +397,6 @@ async function loadDates(dates, subtitleLabel){
     });
   });
 
-  // junta top_falhas + parada_componentes de cada dia num único total por TAG+Componente
-  // (evita contar duas vezes um item que já apareça nas duas listas do mesmo dia)
   const topMap = {};
   validDays.forEach(day => {
     const seenHoje = new Set();
@@ -397,7 +404,7 @@ async function loadDates(dates, subtitleLabel){
       const key = f.tag + '|' + f.componente;
       if(seenHoje.has(key)) return;
       seenHoje.add(key);
-      if(!topMap[key]) topMap[key] = {tag:f.tag, componente:f.componente, falhas:0, horas:0, por_turno:{}};
+      if(!topMap[key]) topMap[key] = {tag:f.tag, componente:f.componente, equipamento:f.equipamento||'', falhas:0, horas:0, por_turno:{}};
       topMap[key].falhas += f.falhas;
       topMap[key].horas += f.horas;
       mergePorTurno(topMap[key].por_turno, f.por_turno);
@@ -420,47 +427,8 @@ async function loadDates(dates, subtitleLabel){
   currentBasePeriodHours = validDays.length * 24;
   currentIsPeriod = true;
   currentDayCount = validDays.length;
-  applyTurnoAndRender();
-}
-
-function applyTurnoFilter(data, turno){
-  if(turno === 'all') return data;
-  const equip = data.equip
-    .map(e => {
-      const t = e.por_turno ? e.por_turno[turno] : null;
-      return {name: e.name, horas: t ? t.horas : 0, falhas: t ? t.falhas : 0};
-    })
-    .filter(e => e.horas > 0 || e.falhas > 0)
-    .sort((a,b)=>b.horas-a.horas);
-  const top_falhas = (data.top_falhas||[])
-    .map(f => {
-      const t = f.por_turno ? f.por_turno[turno] : null;
-      return {tag:f.tag, componente:f.componente, horas: t ? t.horas : 0, falhas: t ? t.falhas : 0};
-    })
-    .filter(f => f.horas > 0 || f.falhas > 0)
-    .sort((a,b)=>b.falhas-a.falhas);
-  const parada_componentes = (data.parada_componentes||[])
-    .map(f => {
-      const t = f.por_turno ? f.por_turno[turno] : null;
-      return {tag:f.tag, componente:f.componente, horas: t ? t.horas : 0, falhas: t ? t.falhas : 0};
-    })
-    .filter(f => f.horas > 0 || f.falhas > 0)
-    .sort((a,b)=>b.horas-a.horas);
-  const turnos = {};
-  Object.entries(data.turnos).forEach(([dept, ts])=>{
-    turnos[dept] = {'1':0,'2':0,'3':0};
-    turnos[dept][turno] = ts[turno] || 0;
-  });
-  return {...data, equip, top_falhas, parada_componentes, turnos};
-}
-
-function applyTurnoAndRender(){
-  if(!currentRawData) return;
-  const turno = document.getElementById('turnoSelect').value;
-  const filtered = applyTurnoFilter(currentRawData, turno);
-  // um turno específico cobre ~8h por dia (24h / 3 turnos), não 24h
-  const periodHours = turno === 'all' ? currentBasePeriodHours : currentBasePeriodHours / 3;
-  render(filtered, periodHours, currentIsPeriod, currentDayCount);
+  populateEquipSelect(currentRawData);
+  applyFiltersAndRender();
 }
 
 function loadMonth(monthPrefix){
@@ -474,8 +442,6 @@ function loadRange(startDate, endDate){
   const dates = historyCache.map(h=>h.date).filter(d => d >= startDate && d <= endDate);
   loadDates(dates, `${fmtDateBR(startDate)} a ${fmtDateBR(endDate)}`);
 }
-
-
 
 function populateDateSelect(history){
   const sel = document.getElementById('dateSelect');
@@ -504,21 +470,74 @@ function populateMonthSelect(history){
   sel.addEventListener('change', ()=> loadMonth(sel.value));
 }
 
-/* =========================================================================
-   RENDERIZAÇÃO — recebe o JSON de um dia e desenha todo o painel
-========================================================================= */
-function render(data, periodHours, isPeriod, dayCount){
+function applyEquipFilter(data, equipamento){
+  if(equipamento === 'all') return data;
+  const equip = data.equip.filter(e => e.name === equipamento);
+  const top_falhas = (data.top_falhas||[]).filter(f => f.equipamento === equipamento);
+  const parada_componentes = (data.parada_componentes||[]).filter(f => f.equipamento === equipamento);
+  return {...data, equip, top_falhas, parada_componentes};
+}
+
+function applyTurnoFilter(data, turno){
+  if(turno === 'all') return data;
+  const equip = data.equip
+    .map(e => {
+      const t = e.por_turno ? e.por_turno[turno] : null;
+      return {name: e.name, horas: t ? t.horas : 0, falhas: t ? t.falhas : 0};
+    })
+    .filter(e => e.horas > 0 || e.falhas > 0)
+    .sort((a,b)=>b.horas-a.horas);
+  const top_falhas = (data.top_falhas||[])
+    .map(f => {
+      const t = f.por_turno ? f.por_turno[turno] : null;
+      return {tag:f.tag, componente:f.componente, equipamento:f.equipamento, horas: t ? t.horas : 0, falhas: t ? t.falhas : 0};
+    })
+    .filter(f => f.horas > 0 || f.falhas > 0)
+    .sort((a,b)=>b.falhas-a.falhas);
+  const parada_componentes = (data.parada_componentes||[])
+    .map(f => {
+      const t = f.por_turno ? f.por_turno[turno] : null;
+      return {tag:f.tag, componente:f.componente, equipamento:f.equipamento, horas: t ? t.horas : 0, falhas: t ? t.falhas : 0};
+    })
+    .filter(f => f.horas > 0 || f.falhas > 0)
+    .sort((a,b)=>b.horas-a.horas);
+  const turnos = {};
+  Object.entries(data.turnos).forEach(([dept, ts])=>{
+    turnos[dept] = {'1':0,'2':0,'3':0};
+    turnos[dept][turno] = ts[turno] || 0;
+  });
+  return {...data, equip, top_falhas, parada_componentes, turnos};
+}
+
+function applyFiltersAndRender(){
+  if(!currentRawData) return;
+  const turno = document.getElementById('turnoSelect').value;
+  const equipamento = document.getElementById('equipSelect').value;
+
+  document.getElementById('equipNotice').style.display = equipamento === 'all' ? 'none' : 'block';
+
+  let filtered = applyEquipFilter(currentRawData, equipamento);
+  const equipOriginalPorTurno = equipamento === 'all' ? null :
+    (currentRawData.equip.find(e=>e.name===equipamento) || {}).por_turno;
+  filtered = applyTurnoFilter(filtered, turno);
+
+  const periodHours = turno === 'all' ? currentBasePeriodHours : currentBasePeriodHours / 3;
+  render(filtered, periodHours, currentIsPeriod, currentDayCount, equipamento, equipOriginalPorTurno);
+}
+
+function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipPorTurno){
   document.getElementById('loadError').style.display = 'none';
   const turnoSel = document.getElementById('turnoSelect').value;
   const turnoLabel = turnoSel === 'all' ? 'todos os turnos' : `Turno ${turnoSel}`;
+  const equipLabel = (equipamentoFiltro && equipamentoFiltro !== 'all') ? ` · ${equipamentoFiltro}` : '';
   if(isPeriod){
-    document.getElementById('headerSubtitle').textContent = `${data.date} · ${dayCount} dia(s) com dados · ${turnoLabel} · Automação, Elétrica e Mecânica`;
+    document.getElementById('headerSubtitle').textContent = `${data.date} · ${dayCount} dia(s) com dados · ${turnoLabel}${equipLabel} · Automação, Elétrica e Mecânica`;
   }else{
-    document.getElementById('headerSubtitle').textContent = `${fmtDateBR(data.date)} · ${turnoLabel} · Automação, Elétrica e Mecânica`;
+    document.getElementById('headerSubtitle').textContent = `${fmtDateBR(data.date)} · ${turnoLabel}${equipLabel} · Automação, Elétrica e Mecânica`;
   }
   document.getElementById('headerUpdated').textContent = data.updated_at ? data.updated_at.replace('T',' ') : '—';
   document.getElementById('footRefresh').textContent = 'Última carga: ' + new Date().toLocaleString('pt-BR');
-  if(!isPeriod && document.getElementById('dateSelect').value !== data.date){
+  if(!isPeriod && document.getElementById('modeSelect').value==='day' && document.getElementById('dateSelect').value !== data.date){
     document.getElementById('dateSelect').value = data.date;
   }
 
@@ -528,6 +547,7 @@ function render(data, periodHours, isPeriod, dayCount){
     mtbf_h: e.falhas ? (periodHours - e.horas)/e.falhas : 0,
     mttr_h: e.falhas ? e.horas/e.falhas : 0
   }));
+  const isSingleEquip = equipamentoFiltro && equipamentoFiltro !== 'all';
   const TURNOS = data.turnos;
   const deptNames = Object.keys(TURNOS);
   const DEPT_TOTAL = {};
@@ -535,15 +555,14 @@ function render(data, periodHours, isPeriod, dayCount){
 
   const TOTAL_HORAS = EQUIP.reduce((s,e)=>s+e.horas,0);
   const TOTAL_FALHAS = EQUIP.reduce((s,e)=>s+e.falhas,0);
-  const CRITICO = [...EQUIP].sort((a,b)=>b.horas-a.horas)[0];
-  const DEPT_CRITICO_NAME = Object.entries(DEPT_TOTAL).sort((a,b)=>b[1]-a[1])[0][0];
+  const CRITICO = EQUIP.length ? [...EQUIP].sort((a,b)=>b.horas-a.horas)[0] : {name:'—', horas:0, falhas:0};
+  const DEPT_CRITICO_NAME = deptNames.length ? Object.entries(DEPT_TOTAL).sort((a,b)=>b[1]-a[1])[0][0] : '—';
 
   const diasParadosValue = isPeriod ? data.dias_parados : (TOTAL_HORAS > DIAS_PARADOS_LIMITE_HORAS ? 1 : 0);
   const diasParadosFoot = isPeriod ? 'dias com ocorrência de parada no período' : `1 = total do dia passou de ${DIAS_PARADOS_LIMITE_HORAS}h`;
 
   destroyCharts();
 
-  /* ---- KPIs ---- */
   const kpis = [
     {label:'Meta MTBF mensal', value: data.meta_mtbf, cls:'crit-meta', foot:'referência definida pelo PCM'},
     {label:'Horas paradas', value: hoursToHM(TOTAL_HORAS), cls:'crit-horas', foot:'acumulado do período'},
@@ -553,7 +572,6 @@ function render(data, periodHours, isPeriod, dayCount){
   document.getElementById('kpiRow').innerHTML = kpis.map(k => `
     <div class="kpi ${k.cls}"><div class="label">${k.label}</div><div class="value">${k.value}</div><div class="foot">${k.foot}</div></div>`).join('');
 
-  /* ---- Horas paradas por equipamento ---- */
   const equipByHoras = [...EQUIP].sort((a,b)=>b.horas-a.horas);
   charts.horas = new Chart(document.getElementById('chartHoras'), {
     type:'bar',
@@ -565,7 +583,6 @@ function render(data, periodHours, isPeriod, dayCount){
     }
   });
 
-  /* ---- Falhas por equipamento ---- */
   const equipByFalhas = [...EQUIP].sort((a,b)=>b.falhas-a.falhas);
   charts.falhas = new Chart(document.getElementById('chartFalhas'), {
     type:'bar',
@@ -576,19 +593,34 @@ function render(data, periodHours, isPeriod, dayCount){
     }
   });
 
-  /* ---- Paradas por turno ---- */
-  charts.turno = new Chart(document.getElementById('chartTurno'), {
-    type:'bar',
-    data:{ labels:['Turno 1','Turno 2','Turno 3'], datasets: deptNames.map(dept => ({ label: dept, data: [1,2,3].map(t => TURNOS[dept][String(t)]), backgroundColor: DEPT_COLOR[dept] || '#888', borderRadius:4, maxBarThickness:34 })) },
-    options:{ maintainAspectRatio:false, layout:{padding:{top:20}},
-      plugins:{ legend:{position:'bottom', labels:{color:'#5C7266', boxWidth:9, boxHeight:9, padding:14, usePointStyle:true, pointStyle:'circle'}},
-        datalabels:{display:true, anchor:'end', align:'top', color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:9, weight:600},
-          formatter:(v,ctx)=> hoursToHM(TURNOS[deptNames[ctx.datasetIndex]][String(ctx.dataIndex+1)])} },
-      scales:{ x:{grid:{display:false}, ticks:{color:'#12271A'}}, y:{grid:{color:'#E7F1EA'}, ticks:{callback:(v)=>v.toFixed(0)+'h'}} }
-    }
-  });
+  if(isSingleEquip && equipPorTurno){
+    document.getElementById('turnoChartTitle').textContent = `Paradas por turno — ${equipamentoFiltro}`;
+    document.getElementById('deptListTitle').textContent = 'Horas paradas por departamento (todas as máquinas)';
+    const turnoVals = [1,2,3].map(t => (equipPorTurno[String(t)]||{horas:0}).horas);
+    charts.turno = new Chart(document.getElementById('chartTurno'), {
+      type:'bar',
+      data:{ labels:['Turno 1','Turno 2','Turno 3'], datasets:[{ label: equipamentoFiltro, data: turnoVals, backgroundColor:'#0E7A42', borderRadius:4, maxBarThickness:60 }] },
+      options:{ maintainAspectRatio:false, layout:{padding:{top:20}},
+        plugins:{ legend:{display:false},
+          datalabels:{display:true, anchor:'end', align:'top', color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:10, weight:600}, formatter:(v)=> hoursToHM(v)} },
+        scales:{ x:{grid:{display:false}, ticks:{color:'#12271A'}}, y:{grid:{color:'#E7F1EA'}, ticks:{callback:(v)=>v.toFixed(0)+'h'}} }
+      }
+    });
+  }else{
+    document.getElementById('turnoChartTitle').textContent = 'Análise de paradas por turno';
+    document.getElementById('deptListTitle').textContent = 'Horas paradas por departamento';
+    charts.turno = new Chart(document.getElementById('chartTurno'), {
+      type:'bar',
+      data:{ labels:['Turno 1','Turno 2','Turno 3'], datasets: deptNames.map(dept => ({ label: dept, data: [1,2,3].map(t => TURNOS[dept][String(t)]), backgroundColor: DEPT_COLOR[dept] || '#888', borderRadius:4, maxBarThickness:34 })) },
+      options:{ maintainAspectRatio:false, layout:{padding:{top:20}},
+        plugins:{ legend:{position:'bottom', labels:{color:'#5C7266', boxWidth:9, boxHeight:9, padding:14, usePointStyle:true, pointStyle:'circle'}},
+          datalabels:{display:true, anchor:'end', align:'top', color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:9, weight:600},
+            formatter:(v,ctx)=> hoursToHM(TURNOS[deptNames[ctx.datasetIndex]][String(ctx.dataIndex+1)])} },
+        scales:{ x:{grid:{display:false}, ticks:{color:'#12271A'}}, y:{grid:{color:'#E7F1EA'}, ticks:{callback:(v)=>v.toFixed(0)+'h'}} }
+      }
+    });
+  }
 
-  /* ---- Departamento list ---- */
   const deptSorted = Object.entries(DEPT_TOTAL).sort((a,b)=>b[1]-a[1]);
   document.getElementById('deptList').innerHTML = deptSorted.map(([name, horas]) => `
     <div class="dept-row">
@@ -597,7 +629,6 @@ function render(data, periodHours, isPeriod, dayCount){
       <div class="val" style="color:${DEPT_COLOR[name]}">${hoursToHM(horas)}</div>
     </div>`).join('');
 
-  /* ---- Indisponibilidade ---- */
   const equipByIndisp = [...EQUIP].sort((a,b)=>b.indisp-a.indisp);
   charts.indisp = new Chart(document.getElementById('chartIndisp'), {
     type:'bar',
@@ -608,7 +639,6 @@ function render(data, periodHours, isPeriod, dayCount){
     }
   });
 
-  /* ---- Tabelas MTBF / MTTR ---- */
   function fillRankTable(sel, arr, key, color){
     const sorted = [...arr].sort((a,b)=> a[key]-b[key]);
     const maxVal = Math.max(...arr.map(e=>e[key]), 0.0001);
@@ -627,14 +657,12 @@ function render(data, periodHours, isPeriod, dayCount){
     }).join('');
   })();
 
-  /* ---- Destaques ---- */
   document.getElementById('critName').textContent = CRITICO.name;
   document.getElementById('critHoras').textContent = hoursToHM(CRITICO.horas);
   document.getElementById('critFalhas').textContent = CRITICO.falhas;
   document.getElementById('deptName').textContent = DEPT_CRITICO_NAME;
-  document.getElementById('deptHoras').textContent = hoursToHM(DEPT_TOTAL[DEPT_CRITICO_NAME]);
+  document.getElementById('deptHoras').textContent = hoursToHM(DEPT_TOTAL[DEPT_CRITICO_NAME]||0);
 
-  /* ---- Tendência (histórico) ---- */
   const trend = historyCache.length ? historyCache : [{date:data.date, horas:TOTAL_HORAS}];
   const trendRecent = trend.slice(-14);
   charts.trend = new Chart(document.getElementById('chartTrend'), {
@@ -647,9 +675,6 @@ function render(data, periodHours, isPeriod, dayCount){
     }
   });
 
-  /* ====================== ANÁLISE AVANÇADA ====================== */
-
-  /* ---- Matriz de criticidade ---- */
   const matrixPoints = EQUIP.map(e => ({x: e.horas, y: e.falhas, name:e.name}));
   const quadrantBg = {
     id:'quadrantBg',
@@ -678,7 +703,6 @@ function render(data, periodHours, isPeriod, dayCount){
     }
   });
 
-  /* ---- Evolução mensal ---- */
   charts.evolucao = new Chart(document.getElementById('chartEvolucao'), {
     type:'line',
     data:{ labels: data.evolucao_mensal.map(m=>m.mes), datasets:[{ data: data.evolucao_mensal.map(m=>m.falhas), borderColor:'#1E9350', backgroundColor:'#1E9350', tension:.3, pointRadius:4, pointBackgroundColor:'#1E9350', fill:false }] },
@@ -686,7 +710,6 @@ function render(data, periodHours, isPeriod, dayCount){
       scales:{ x:{grid:{display:false}}, y:{grid:{color:'#E7F1EA'}} } }
   });
 
-  /* ---- Ranking disponibilidade ---- */
   const dispSorted = [...EQUIP].map(e=>({name:e.name, disp: 100-e.indisp})).sort((a,b)=>a.disp-b.disp);
   charts.disp = new Chart(document.getElementById('chartDisp'), {
     type:'bar',
@@ -697,7 +720,6 @@ function render(data, periodHours, isPeriod, dayCount){
     }
   });
 
-  /* ---- Falha por departamento (donut) ---- */
   charts.donut = new Chart(document.getElementById('chartDonut'), {
     type:'doughnut',
     data:{ labels: deptSorted.map(d=>d[0]), datasets:[{ data: deptSorted.map(d=>d[1]), backgroundColor: deptSorted.map(d=>DEPT_COLOR[d[0]]||'#888'), borderWidth:3, borderColor:'#FFFFFF' }] },
@@ -707,7 +729,6 @@ function render(data, periodHours, isPeriod, dayCount){
     }
   });
 
-  /* ---- Top falhas por componente (quem mais falhou) ---- */
   const topFalhas = data.top_falhas || [];
   charts.top10 = new Chart(document.getElementById('chartTop10'), {
     type:'bar',
@@ -718,7 +739,6 @@ function render(data, periodHours, isPeriod, dayCount){
     }
   });
 
-  /* ---- Parada por componentes (quem mais tempo ficou parado) ---- */
   const paradaComponentes = data.parada_componentes || [];
   const maxCompFalhas = Math.max(...paradaComponentes.map(c=>c.falhas), 1);
   document.getElementById('compGrid').innerHTML = paradaComponentes.map(c => {
@@ -732,7 +752,6 @@ function render(data, periodHours, isPeriod, dayCount){
     </div>`;
   }).join('');
 
-  /* ---- Pareto 80/20 ---- */
   const paretoSorted = [...EQUIP].sort((a,b)=>b.horas-a.horas);
   let acc = 0;
   const pareto = paretoSorted.map(e => { acc += e.horas; return {name:e.name, horas:e.horas, acumulado: TOTAL_HORAS ? (acc/TOTAL_HORAS*100) : 0}; });
@@ -760,7 +779,6 @@ function destroyCharts(){
   charts = {};
 }
 
-/* ---- Tabs ---- */
 document.querySelectorAll('.tab-btn').forEach(btn=>{
   btn.addEventListener('click', ()=>{
     document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
