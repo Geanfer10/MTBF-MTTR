@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updated_at": "2026-09-23T13:31",
+  "updated_at": "2026-09-24T14:43",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -160,12 +160,12 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 30,
-      "horas": 3.05,
+      "falhas": 29,
+      "horas": 2.9833,
       "por_turno": {
         "1": {
-          "horas": 1.3,
-          "falhas": 14
+          "horas": 1.2333,
+          "falhas": 13
         },
         "2": {
           "horas": 1.35,
@@ -325,6 +325,27 @@
       }
     },
     {
+      "tag": "31955",
+      "componente": "SISTEMA DE SENSORES ESTEIRA TRANSPORTE CADENA TP-BJ-5",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 1.55,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 1.55,
+          "falhas": 2
+        }
+      }
+    },
+    {
       "tag": "31432",
       "componente": "CONJUNTO ABRIDOR DE EMBALAGEM R2",
       "equipamento": "MESPACK R2",
@@ -367,27 +388,6 @@
       }
     },
     {
-      "tag": "31411",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 2,
-      "horas": 0.1167,
-      "por_turno": {
-        "1": {
-          "horas": 0.05,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0667,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "31407",
       "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
       "equipamento": "MESPACK R2",
@@ -414,12 +414,12 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 30,
-      "horas": 3.05,
+      "falhas": 29,
+      "horas": 2.9833,
       "por_turno": {
         "1": {
-          "horas": 1.3,
-          "falhas": 14
+          "horas": 1.2333,
+          "falhas": 13
         },
         "2": {
           "horas": 1.35,
@@ -753,7 +753,7 @@
     },
     {
       "mes": "setembro",
-      "falhas": 2729
+      "falhas": 2865
     }
   ]
 }
