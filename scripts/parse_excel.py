@@ -149,7 +149,23 @@ def main():
         sys.exit(1)
 
     df = pd.read_excel(args.file, sheet_name=SHEET)
-    df["Data Inicio"] = pd.to_datetime(df["Data Inicio"])
+    df["Data Inicio"] = pd.to_datetime(df["Data Inicio"], errors="coerce")
+
+    # Linhas sem data (vazias ou com valor inválido) não têm como entrar em nenhum dia.
+    # Em vez de quebrar o robô inteiro, ignora essas linhas e avisa quantas foram.
+    sem_data = df["Data Inicio"].isna()
+    if sem_data.any():
+        linhas_excel = (df.index[sem_data] + 2).tolist()  # +2: cabeçalho + índice começa em 0
+        print(
+            f"AVISO: {int(sem_data.sum())} linha(s) sem 'Data Inicio' foram ignoradas "
+            f"(linhas do Excel: {linhas_excel[:20]}{'...' if len(linhas_excel) > 20 else ''})",
+            file=sys.stderr,
+        )
+        df = df[~sem_data].copy()
+
+    if df.empty:
+        print("ERRO: nenhuma linha com 'Data Inicio' válida encontrada na planilha.", file=sys.stderr)
+        sys.exit(1)
 
     if args.date == "all":
         target_dates = sorted(df["Data Inicio"].dt.date.unique())
