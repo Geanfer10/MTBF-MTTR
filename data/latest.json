@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "updated_at": "2026-09-30T19:02",
+  "updated_at": "2026-10-01T16:39",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -138,27 +138,6 @@
   },
   "top_falhas": [
     {
-      "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO MESPACK F",
-      "equipamento": "MESPACK F",
-      "falhas": 16,
-      "horas": 2.5,
-      "por_turno": {
-        "1": {
-          "horas": 0.7167,
-          "falhas": 8
-        },
-        "2": {
-          "horas": 1.6,
-          "falhas": 5
-        },
-        "3": {
-          "horas": 0.1833,
-          "falhas": 3
-        }
-      }
-    },
-    {
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
@@ -176,6 +155,27 @@
         "3": {
           "horas": 0.0,
           "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 16,
+      "horas": 2.5,
+      "por_turno": {
+        "1": {
+          "horas": 0.7167,
+          "falhas": 8
+        },
+        "2": {
+          "horas": 1.6,
+          "falhas": 5
+        },
+        "3": {
+          "horas": 0.1833,
+          "falhas": 3
         }
       }
     },
@@ -243,27 +243,6 @@
       }
     },
     {
-      "tag": "20556",
-      "componente": "CONJUNTO DESBOBINADOR MESPACK E ",
-      "equipamento": "MESPACK E",
-      "falhas": 5,
-      "horas": 0.95,
-      "por_turno": {
-        "1": {
-          "horas": 0.95,
-          "falhas": 5
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "31407",
       "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
       "equipamento": "MESPACK R2",
@@ -281,6 +260,27 @@
         "3": {
           "horas": 0.1833,
           "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20556",
+      "componente": "CONJUNTO DESBOBINADOR MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 5,
+      "horas": 0.95,
+      "por_turno": {
+        "1": {
+          "horas": 0.95,
+          "falhas": 5
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
         }
       }
     },
@@ -348,27 +348,6 @@
       }
     },
     {
-      "tag": "31305",
-      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK F",
-      "equipamento": "MESPACK F",
-      "falhas": 2,
-      "horas": 0.6167,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.6167,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "ELETRICA01",
       "componente": "AGUARDANDO ELETRICA",
       "equipamento": "MESPACK A",
@@ -388,15 +367,36 @@
           "falhas": 0
         }
       }
+    },
+    {
+      "tag": "31191",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 0.0667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0667,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     }
   ],
   "parada_componentes": [
     {
-      "tag": "PS02",
-      "componente": "PASTEURIZADOR 4KG",
+      "tag": "PS05",
+      "componente": "PASTEURIZADOR MESPACK E",
       "equipamento": "MESPACK E",
-      "falhas": 1,
-      "horas": 5.3833,
+      "falhas": 2,
+      "horas": 5.5,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -407,8 +407,8 @@
           "falhas": 0
         },
         "3": {
-          "horas": 5.3833,
-          "falhas": 1
+          "horas": 5.5,
+          "falhas": 2
         }
       }
     },

@@ -1,6 +1,6 @@
 {
   "date": "2026-06-18",
-  "updated_at": "2026-09-30T19:01",
+  "updated_at": "2026-10-01T16:39",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -317,48 +317,6 @@
       }
     },
     {
-      "tag": "31307",
-      "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK F",
-      "equipamento": "MESPACK E",
-      "falhas": 4,
-      "horas": 1.4333,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 1.4333,
-          "falhas": 4
-        }
-      }
-    },
-    {
-      "tag": "31192",
-      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK R1",
-      "equipamento": "MESPACK F",
-      "falhas": 4,
-      "horas": 0.45,
-      "por_turno": {
-        "1": {
-          "horas": 0.0667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.3833,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "30463",
       "componente": "CABEÇOTE SUPERIOR 60L2",
       "equipamento": "60L2",
@@ -380,6 +338,27 @@
       }
     },
     {
+      "tag": "20560",
+      "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 4,
+      "horas": 1.4333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 1.4333,
+          "falhas": 4
+        }
+      }
+    },
+    {
       "tag": "FEL01",
       "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
       "equipamento": "MESPACK R2",
@@ -393,6 +372,27 @@
         "2": {
           "horas": 0.0333,
           "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31192",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK R1",
+      "equipamento": "MESPACK F",
+      "falhas": 4,
+      "horas": 0.45,
+      "por_turno": {
+        "1": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.3833,
+          "falhas": 3
         },
         "3": {
           "horas": 0.0,
@@ -464,23 +464,23 @@
       }
     },
     {
-      "tag": "31194",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
-      "equipamento": "MESPACK R1",
+      "tag": "INK11",
+      "componente": "INKJET RECRAVADEIRA 60L2",
+      "equipamento": "60L2",
       "falhas": 3,
-      "horas": 0.6167,
+      "horas": 1.3333,
       "por_turno": {
         "1": {
-          "horas": 0.4667,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "2": {
-          "horas": 0.1167,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
-          "horas": 0.0333,
-          "falhas": 1
+          "horas": 1.3333,
+          "falhas": 3
         }
       }
     }
@@ -634,8 +634,8 @@
       }
     },
     {
-      "tag": "31307",
-      "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK F",
+      "tag": "20560",
+      "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK E ",
       "equipamento": "MESPACK E",
       "falhas": 4,
       "horas": 1.4333,

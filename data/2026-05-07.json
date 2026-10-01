@@ -1,6 +1,6 @@
 {
   "date": "2026-05-07",
-  "updated_at": "2026-09-30T19:01",
+  "updated_at": "2026-10-01T16:39",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -340,18 +340,18 @@
       }
     },
     {
-      "tag": "31449",
-      "componente": "CAIXA DE COMANDO RESET/EMERGENCIA ESTEIRA DE TRANSPORTE CADENA TP-BJ-17",
+      "tag": "20562",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK E ",
       "equipamento": "MESPACK E",
-      "falhas": 6,
-      "horas": 0.5592,
+      "falhas": 3,
+      "horas": 0.35,
       "por_turno": {
         "1": {
-          "horas": 0.2553,
-          "falhas": 3
+          "horas": 0.0,
+          "falhas": 0
         },
         "2": {
-          "horas": 0.3039,
+          "horas": 0.35,
           "falhas": 3
         },
         "3": {
@@ -403,6 +403,27 @@
       }
     },
     {
+      "tag": "31449",
+      "componente": "CAIXA DE COMANDO RESET/EMERGENCIA ESTEIRA DE TRANSPORTE CADENA TP-BJ-17",
+      "equipamento": "MESPACK F",
+      "falhas": 3,
+      "horas": 0.3039,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.3039,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
       "tag": "MECANICA01",
       "componente": "AGUARDANDO MECANICO",
       "equipamento": "MESPACK F",
@@ -424,40 +445,19 @@
       }
     },
     {
-      "tag": "20562",
-      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK E ",
+      "tag": "TP10",
+      "componente": "ESTEIRA TRANSPORTE ATM TP10",
       "equipamento": "MESPACK E",
       "falhas": 3,
-      "horas": 0.35,
+      "horas": 0.2553,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.35,
+          "horas": 0.2553,
           "falhas": 3
         },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "20395",
-      "componente": "MOTOR ELÉTRICO REDUTOR ESTEIRA DE SAIDA ROTULADEIRA TOPDOWN",
-      "equipamento": "ENCHEDEIRA TOP DOWN",
-      "falhas": 2,
-      "horas": 1.0,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
         "2": {
-          "horas": 1.0,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,
@@ -678,27 +678,6 @@
       }
     },
     {
-      "tag": "31449",
-      "componente": "CAIXA DE COMANDO RESET/EMERGENCIA ESTEIRA DE TRANSPORTE CADENA TP-BJ-17",
-      "equipamento": "MESPACK E",
-      "falhas": 6,
-      "horas": 0.5592,
-      "por_turno": {
-        "1": {
-          "horas": 0.2553,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.3039,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "20387",
       "componente": "CABECOTE ROTULADOR VERSO ROTULADEIRA TOPDOWN",
       "equipamento": "ENCHEDEIRA TOP DOWN",
@@ -775,6 +754,27 @@
         "2": {
           "horas": 0.35,
           "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "32244",
+      "componente": "SISTEMA PNEUMATICO ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO",
+      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
+      "falhas": 1,
+      "horas": 0.35,
+      "por_turno": {
+        "1": {
+          "horas": 0.35,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,
