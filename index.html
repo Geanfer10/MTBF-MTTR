@@ -301,6 +301,7 @@ async function init(){
     populateDateSelect(historyCache);
     populateMonthSelect(historyCache);
     const latest = await fetchJSON(DATA_DIR + 'latest.json');
+    window.__versaoMTBF = latest.updated_at;
     currentRawData = latest;
     currentBasePeriodHours = PERIOD_HOURS;
     currentIsPeriod = false;
@@ -789,6 +790,32 @@ document.querySelectorAll('.tab-btn').forEach(btn=>{
 });
 
 init();
+/* ===== Atualização automática: verifica dados novos a cada 2 min ===== */
+(function(){
+  const INTERVALO = 120000, OCIOSO = 180000;
+  let ultimaAcao = Date.now();
+  ['click','keydown','wheel','touchstart'].forEach(ev => addEventListener(ev, () => { ultimaAcao = Date.now(); }, {passive:true}));
+  function faixa(){
+    if (document.getElementById('autoUpd')) return;
+    const b = document.createElement('button');
+    b.id = 'autoUpd'; b.type = 'button';
+    b.textContent = 'Dados novos disponíveis · Atualizar';
+    b.style.cssText = 'position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:9999;'+
+      'background:#1E7A3C;color:#fff;border:0;border-radius:999px;padding:10px 18px;font:600 14px system-ui,sans-serif;box-shadow:0 4px 14px rgba(0,0,0,.25);cursor:pointer';
+    b.onclick = () => location.reload();
+    document.body.appendChild(b);
+  }
+  async function verificar(){
+    try{
+      const atual = await (async()=>{const r=await fetch(DATA_DIR+'latest.json?_='+Date.now(),{cache:'no-store'});if(!r.ok)return null;return (await r.json()).updated_at})();
+      if (!atual || atual === (window.__versaoMTBF)) return;
+      if (Date.now() - ultimaAcao > OCIOSO) location.reload(); else faixa();
+    }catch(e){ /* sem rede ou fora do GitHub Pages: tenta de novo depois */ }
+  }
+  setInterval(verificar, INTERVALO);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) verificar(); });
+})();
+
 </script>
 </body>
 </html>
