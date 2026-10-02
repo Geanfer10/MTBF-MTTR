@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updated_at": "2026-10-02T11:11",
+  "updated_at": "2026-10-02T11:26",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -62,26 +62,7 @@
       }
     },
     {
-      "name": "ENCAIXOTAMENTO AUTOMATICO VEGETAIS",
-      "horas": 2.4896,
-      "falhas": 15,
-      "por_turno": {
-        "1": {
-          "horas": 0.4833,
-          "falhas": 7
-        },
-        "2": {
-          "horas": 0.2729,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 1.7333,
-          "falhas": 6
-        }
-      }
-    },
-    {
-      "name": "MESPACK A ",
+      "name": "MESPACK A",
       "horas": 2.1833,
       "falhas": 8,
       "por_turno": {
@@ -119,6 +100,25 @@
       }
     },
     {
+      "name": "SERAC",
+      "horas": 1.4,
+      "falhas": 9,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 1.4,
+          "falhas": 9
+        }
+      }
+    },
+    {
       "name": "MESPACK B",
       "horas": 1.25,
       "falhas": 4,
@@ -138,40 +138,21 @@
       }
     },
     {
-      "name": "ROTULADEIRA TOPDOWN",
-      "horas": 0.8,
-      "falhas": 2,
+      "name": "60L1",
+      "horas": 0.85,
+      "falhas": 4,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.8,
+          "horas": 0.3667,
           "falhas": 2
-        }
-      }
-    },
-    {
-      "name": "SERAC",
-      "horas": 0.6,
-      "falhas": 7,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.4833,
+          "falhas": 2
         },
         "3": {
-          "horas": 0.6,
-          "falhas": 7
+          "horas": 0.0,
+          "falhas": 0
         }
       }
     },
@@ -195,44 +176,6 @@
       }
     },
     {
-      "name": "60L5",
-      "horas": 0.4,
-      "falhas": 1,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.4,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "name": "60L4",
-      "horas": 0.2667,
-      "falhas": 1,
-      "por_turno": {
-        "1": {
-          "horas": 0.2667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "name": "MESPACK D",
       "horas": 0.2167,
       "falhas": 3,
@@ -250,59 +193,21 @@
           "falhas": 1
         }
       }
-    },
-    {
-      "name": "60L2",
-      "horas": 0.1,
-      "falhas": 1,
-      "por_turno": {
-        "1": {
-          "horas": 0.1,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "name": "60L1",
-      "horas": 0.0833,
-      "falhas": 1,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0833,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
     }
   ],
   "turnos": {
     "Automação": {
-      "1": 1.75,
-      "2": 3.2396,
-      "3": 3.2667
+      "1": 1.4167,
+      "2": 2.9667,
+      "3": 1.5333
     },
     "Elétrica": {
-      "1": 0.9667,
+      "1": 0.8833,
       "2": 0.1667,
       "3": 1.8333
     },
     "Mecânica": {
-      "1": 4.0167,
+      "1": 3.95,
       "2": 4.1743,
       "3": 6.05
     }
@@ -340,7 +245,7 @@
     },
     {
       "mes": "outubro",
-      "falhas": 152
+      "falhas": 137
     }
   ]
 }
