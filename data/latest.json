@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updated_at": "2026-10-02T14:11",
+  "updated_at": "2026-10-02T14:41",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -319,6 +319,27 @@
       }
     },
     {
+      "tag": "20391",
+      "componente": "ESTEIRA TRANSPORTE DE FRASCOS ROTULADEIRA TOPDOWN",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 1,
+      "horas": 0.5167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.5167,
+          "falhas": 1
+        }
+      }
+    },
+    {
       "tag": "20390",
       "componente": "LIMITADOR DE FRASCOS ROTULADEIRA TOPDOWN",
       "equipamento": "ENCHEDEIRA TOP DOWN",
@@ -340,11 +361,11 @@
       }
     },
     {
-      "tag": "20391",
-      "componente": "ESTEIRA TRANSPORTE DE FRASCOS ROTULADEIRA TOPDOWN",
-      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "tag": "20503",
+      "componente": "CONJUNTO DE FACAS MESPACK B ",
+      "equipamento": "MESPACK B",
       "falhas": 1,
-      "horas": 0.5167,
+      "horas": 0.25,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -355,7 +376,7 @@
           "falhas": 0
         },
         "3": {
-          "horas": 0.5167,
+          "horas": 0.25,
           "falhas": 1
         }
       }
@@ -382,11 +403,11 @@
       }
     },
     {
-      "tag": "20503",
-      "componente": "CONJUNTO DE FACAS MESPACK B ",
-      "equipamento": "MESPACK B",
+      "tag": "20532",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK C",
+      "equipamento": "MESPACK C",
       "falhas": 1,
-      "horas": 0.25,
+      "horas": 0.1667,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -397,7 +418,49 @@
           "falhas": 0
         },
         "3": {
-          "horas": 0.25,
+          "horas": 0.1667,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20519",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.2167,
+      "por_turno": {
+        "1": {
+          "horas": 0.2167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ELETRICA01",
+      "componente": "AGUARDANDO ELETRICA",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.0667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0667,
           "falhas": 1
         }
       }
@@ -573,6 +636,69 @@
       }
     },
     {
+      "tag": "20519",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.2167,
+      "por_turno": {
+        "1": {
+          "horas": 0.2167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20532",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK C",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.1667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1667,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "ELETRICA01",
+      "componente": "AGUARDANDO ELETRICA",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.0667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0667,
+          "falhas": 1
+        }
+      }
+    },
+    {
       "tag": "20505",
       "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK B ",
       "equipamento": "MESPACK B",
@@ -590,6 +716,27 @@
         "3": {
           "horas": 0.0,
           "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "INK03",
+      "componente": "INKJET MESPACK C",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.0,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 1
         }
       }
     }
