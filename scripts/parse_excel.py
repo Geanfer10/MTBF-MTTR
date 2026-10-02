@@ -20,6 +20,23 @@ from datetime import datetime
 import pandas as pd
 
 SHEET = "BASE_PCM"
+SHEET_HORAS = "horas_disponiveis"   # aba com as horas disponíveis por máquina/dia (vem da programação do PCP)
+H_PADRAO = 22                        # usado quando a aba não existe ou o dia/máquina não está nela
+
+
+def ler_horas_disponiveis(path):
+    """{data: {EQUIPAMENTO: horas}} a partir da aba horas_disponiveis. Vazio se a aba não existir."""
+    try:
+        h = pd.read_excel(path, sheet_name=SHEET_HORAS)
+    except Exception:
+        print("AVISO: aba horas_disponiveis não encontrada; usando 24 h por dia", file=sys.stderr)
+        return {}
+    h["Data"] = pd.to_datetime(h["Data"], errors="coerce")
+    h = h.dropna(subset=["Data"])
+    out = {}
+    for _, r in h.iterrows():
+        out.setdefault(r["Data"].date(), {})[str(r["Equipamento"]).strip().upper()] = round(float(r["Minutos"]) / 60, 4)
+    return out
 
 MONTH_ORDER = [
     "janeiro", "fevereiro", "março", "abril", "maio", "junho",
@@ -132,7 +149,20 @@ def process_date(df, target_date, args):
         "top_falhas": top_falhas,
         "parada_componentes": parada_componentes,
         "evolucao_mensal": evolucao,
+        # horas disponíveis do dia: todas as máquinas da aba + as que tiveram falha e não estão nela (padrão)
+        "horas_disp": _horas_dia(args, target_date, g["Equipamento"]),
     }
+
+
+def _horas_dia(args, target_date, nomes):
+    if not getattr(args, "horas", None):
+        return {}
+    dia = dict(args.horas.get(target_date, {}))
+    if not dia:
+        return {}
+    for n in nomes:
+        dia.setdefault(str(n).strip().upper(), H_PADRAO)
+    return dia
 
 
 def main():
@@ -149,6 +179,9 @@ def main():
         sys.exit(1)
 
     df = pd.read_excel(args.file, sheet_name=SHEET)
+    args.horas = ler_horas_disponiveis(args.file)
+    # "60l1" e "60L1" são a mesma máquina: padroniza em maiúsculas
+    df["Equipamento"] = df["Equipamento"].astype(str).str.strip().str.upper()
     df["Data Inicio"] = pd.to_datetime(df["Data Inicio"], errors="coerce")
 
     # Linhas sem data (vazias ou com valor inválido) não têm como entrar em nenhum dia.
