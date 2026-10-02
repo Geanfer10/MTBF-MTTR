@@ -1,6 +1,6 @@
 {
   "date": "2026-04-30",
-  "updated_at": "2026-10-01T18:11",
+  "updated_at": "2026-10-02T11:11",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -58,14 +58,14 @@
   "top_falhas": [
     {
       "tag": "20527",
-      "componente": "AJUSTE NAS PINÇAS",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
       "equipamento": "MESPACK C",
-      "falhas": 2,
-      "horas": 0.2167,
+      "falhas": 3,
+      "horas": 0.2833,
       "por_turno": {
         "1": {
-          "horas": 0.2167,
-          "falhas": 2
+          "horas": 0.2833,
+          "falhas": 3
         },
         "2": {
           "horas": 0.0,
@@ -79,7 +79,7 @@
     },
     {
       "tag": "20479",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A ",
       "equipamento": "MESPACK A",
       "falhas": 1,
       "horas": 0.45,
@@ -100,34 +100,13 @@
     },
     {
       "tag": "20516",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CONJUNTO DESBOBINADOR MESPACK C ",
       "equipamento": "MESPACK C",
       "falhas": 1,
       "horas": 0.2,
       "por_turno": {
         "1": {
           "horas": 0.2,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "20527",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "equipamento": "MESPACK C",
-      "falhas": 1,
-      "horas": 0.0667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0667,
           "falhas": 1
         },
         "2": {
@@ -144,7 +123,7 @@
   "parada_componentes": [
     {
       "tag": "20479",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A ",
       "equipamento": "MESPACK A",
       "falhas": 1,
       "horas": 0.45,
@@ -165,14 +144,14 @@
     },
     {
       "tag": "20527",
-      "componente": "AJUSTE NAS PINÇAS",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
       "equipamento": "MESPACK C",
-      "falhas": 2,
-      "horas": 0.2167,
+      "falhas": 3,
+      "horas": 0.2833,
       "por_turno": {
         "1": {
-          "horas": 0.2167,
-          "falhas": 2
+          "horas": 0.2833,
+          "falhas": 3
         },
         "2": {
           "horas": 0.0,
@@ -186,34 +165,13 @@
     },
     {
       "tag": "20516",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CONJUNTO DESBOBINADOR MESPACK C ",
       "equipamento": "MESPACK C",
       "falhas": 1,
       "horas": 0.2,
       "por_turno": {
         "1": {
           "horas": 0.2,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "20527",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "equipamento": "MESPACK C",
-      "falhas": 1,
-      "horas": 0.0667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0667,
           "falhas": 1
         },
         "2": {
@@ -255,6 +213,10 @@
     {
       "mes": "setembro",
       "falhas": 3676
+    },
+    {
+      "mes": "outubro",
+      "falhas": 152
     }
   ]
 }

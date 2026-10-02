@@ -1,6 +1,6 @@
 {
   "date": "2026-06-13",
-  "updated_at": "2026-10-01T18:11",
+  "updated_at": "2026-10-02T11:11",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -139,7 +139,7 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
       "falhas": 17,
       "horas": 2.2167,
@@ -160,14 +160,14 @@
     },
     {
       "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
-      "falhas": 7,
-      "horas": 0.4167,
+      "falhas": 8,
+      "horas": 0.45,
       "por_turno": {
         "1": {
-          "horas": 0.4167,
-          "falhas": 7
+          "horas": 0.45,
+          "falhas": 8
         },
         "2": {
           "horas": 0.0,
@@ -181,7 +181,7 @@
     },
     {
       "tag": "30463",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
       "equipamento": "60L2",
       "falhas": 3,
       "horas": 0.3167,
@@ -201,78 +201,15 @@
       }
     },
     {
-      "tag": "20487",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "equipamento": "MESPACK A",
-      "falhas": 1,
-      "horas": 0.1667,
+      "tag": "32260",
+      "componente": "SISTEMA DE MANGUEIRA DE AR COMPRIMIDO ROBO ENCAIXOTAMENTO VEGETAIS LADO DIREITO",
+      "equipamento": "MESPACK R2",
+      "falhas": 2,
+      "horas": 1.5,
       "por_turno": {
         "1": {
-          "horas": 0.1667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "20511",
-      "componente": "MANUTENÇÃO ELÉTRICA",
-      "equipamento": "MESPACK B",
-      "falhas": 1,
-      "horas": 0.1667,
-      "por_turno": {
-        "1": {
-          "horas": 0.1667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "30511",
-      "componente": "MANUTENÇÃO MECÂNICA",
-      "equipamento": "60L1",
-      "falhas": 1,
-      "horas": 1.1333,
-      "por_turno": {
-        "1": {
-          "horas": 1.1333,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "20507",
-      "componente": "AJUSTE NO GUIA DE EMBALAGEM",
-      "equipamento": "MESPACK B",
-      "falhas": 1,
-      "horas": 0.0833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0833,
-          "falhas": 1
+          "horas": 1.5,
+          "falhas": 2
         },
         "2": {
           "horas": 0.0,
@@ -286,7 +223,7 @@
     },
     {
       "tag": "20491",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "CONJUNTO VALVULA DE ENTRADA DE PRODUTO MESPACK A ",
       "equipamento": "MESPACK A",
       "falhas": 1,
       "horas": 0.2167,
@@ -306,14 +243,77 @@
       }
     },
     {
-      "tag": "31394",
-      "componente": "AJUSTE NA MORDAÇA INFERIOR",
-      "equipamento": "MESPACK R2",
+      "tag": "20487",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "equipamento": "MESPACK A",
       "falhas": 1,
-      "horas": 0.1333,
+      "horas": 0.1667,
       "por_turno": {
         "1": {
-          "horas": 0.1333,
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "30511",
+      "componente": "REDUTOR ESTEIRA PULMÃO ENCESTADOR LINHA 60L1",
+      "equipamento": "60L1",
+      "falhas": 1,
+      "horas": 1.1333,
+      "por_turno": {
+        "1": {
+          "horas": 1.1333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20511",
+      "componente": "CONJUNTO VALVULA DE ENTRADA DE PRODUTO MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.1667,
+      "por_turno": {
+        "1": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.0833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
           "falhas": 1
         },
         "2": {
@@ -328,7 +328,7 @@
     },
     {
       "tag": "31198",
-      "componente": "AJUSTE NO BICO DE DOSAGEM",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
       "equipamento": "MESPACK R1",
       "falhas": 1,
       "horas": 0.1,
@@ -349,7 +349,7 @@
     },
     {
       "tag": "31404",
-      "componente": "TROCA DE VENTOSAS",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
       "equipamento": "MESPACK R2",
       "falhas": 1,
       "horas": 0.0833,
@@ -369,14 +369,14 @@
       }
     },
     {
-      "tag": "32260",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "tag": "31394",
+      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK R2",
       "equipamento": "MESPACK R2",
       "falhas": 1,
-      "horas": 0.2167,
+      "horas": 0.1333,
       "por_turno": {
         "1": {
-          "horas": 0.2167,
+          "horas": 0.1333,
           "falhas": 1
         },
         "2": {
@@ -393,7 +393,7 @@
   "parada_componentes": [
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
       "falhas": 17,
       "horas": 2.2167,
@@ -414,14 +414,14 @@
     },
     {
       "tag": "32260",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "SISTEMA DE MANGUEIRA DE AR COMPRIMIDO ROBO ENCAIXOTAMENTO VEGETAIS LADO DIREITO",
       "equipamento": "MESPACK R2",
-      "falhas": 1,
-      "horas": 1.2833,
+      "falhas": 2,
+      "horas": 1.5,
       "por_turno": {
         "1": {
-          "horas": 1.2833,
-          "falhas": 1
+          "horas": 1.5,
+          "falhas": 2
         },
         "2": {
           "horas": 0.0,
@@ -435,7 +435,7 @@
     },
     {
       "tag": "30511",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "REDUTOR ESTEIRA PULMÃO ENCESTADOR LINHA 60L1",
       "equipamento": "60L1",
       "falhas": 1,
       "horas": 1.1333,
@@ -456,14 +456,14 @@
     },
     {
       "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
-      "falhas": 7,
-      "horas": 0.4167,
+      "falhas": 8,
+      "horas": 0.45,
       "por_turno": {
         "1": {
-          "horas": 0.4167,
-          "falhas": 7
+          "horas": 0.45,
+          "falhas": 8
         },
         "2": {
           "horas": 0.0,
@@ -477,7 +477,7 @@
     },
     {
       "tag": "30463",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
       "equipamento": "60L2",
       "falhas": 3,
       "horas": 0.3167,
@@ -497,29 +497,8 @@
       }
     },
     {
-      "tag": "32260",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
-      "equipamento": "MESPACK R2",
-      "falhas": 1,
-      "horas": 0.2167,
-      "por_turno": {
-        "1": {
-          "horas": 0.2167,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "20491",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "CONJUNTO VALVULA DE ENTRADA DE PRODUTO MESPACK A ",
       "equipamento": "MESPACK A",
       "falhas": 1,
       "horas": 0.2167,
@@ -540,7 +519,7 @@
     },
     {
       "tag": "20487",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
       "equipamento": "MESPACK A",
       "falhas": 1,
       "horas": 0.1667,
@@ -561,7 +540,7 @@
     },
     {
       "tag": "20511",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "CONJUNTO VALVULA DE ENTRADA DE PRODUTO MESPACK B ",
       "equipamento": "MESPACK B",
       "falhas": 1,
       "horas": 0.1667,
@@ -582,7 +561,7 @@
     },
     {
       "tag": "INK11",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "INKJET RECRAVADEIRA 60L2",
       "equipamento": "60L2",
       "falhas": 1,
       "horas": 0.15,
@@ -603,7 +582,7 @@
     },
     {
       "tag": "31394",
-      "componente": "AJUSTE NA MORDAÇA INFERIOR",
+      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK R2",
       "equipamento": "MESPACK R2",
       "falhas": 1,
       "horas": 0.1333,
@@ -624,7 +603,7 @@
     },
     {
       "tag": "31198",
-      "componente": "AJUSTE NO BICO DE DOSAGEM",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
       "equipamento": "MESPACK R1",
       "falhas": 1,
       "horas": 0.1,
@@ -645,7 +624,7 @@
     },
     {
       "tag": "20507",
-      "componente": "AJUSTE NO GUIA DE EMBALAGEM",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
       "equipamento": "MESPACK B",
       "falhas": 1,
       "horas": 0.0833,
@@ -666,7 +645,7 @@
     },
     {
       "tag": "31404",
-      "componente": "TROCA DE VENTOSAS",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
       "equipamento": "MESPACK R2",
       "falhas": 1,
       "horas": 0.0833,
@@ -735,6 +714,10 @@
     {
       "mes": "setembro",
       "falhas": 3676
+    },
+    {
+      "mes": "outubro",
+      "falhas": 152
     }
   ]
 }

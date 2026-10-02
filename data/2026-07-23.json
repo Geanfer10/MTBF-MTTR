@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "updated_at": "2026-10-01T18:11",
+  "updated_at": "2026-10-02T11:11",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -272,7 +272,7 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
       "equipamento": "MESPACK E",
       "falhas": 34,
       "horas": 3.8167,
@@ -293,28 +293,28 @@
     },
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 25,
-      "horas": 3.4667,
+      "falhas": 27,
+      "horas": 3.6167,
       "por_turno": {
         "1": {
           "horas": 0.8333,
           "falhas": 9
         },
         "2": {
-          "horas": 1.6833,
-          "falhas": 8
+          "horas": 1.75,
+          "falhas": 9
         },
         "3": {
-          "horas": 0.95,
-          "falhas": 8
+          "horas": 1.0333,
+          "falhas": 9
         }
       }
     },
     {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
       "equipamento": "MESPACK F",
       "falhas": 23,
       "horas": 3.7,
@@ -335,18 +335,18 @@
     },
     {
       "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
-      "falhas": 10,
-      "horas": 0.8667,
+      "falhas": 13,
+      "horas": 1.3333,
       "por_turno": {
         "1": {
-          "horas": 0.3833,
-          "falhas": 4
+          "horas": 0.7667,
+          "falhas": 6
         },
         "2": {
-          "horas": 0.2833,
-          "falhas": 3
+          "horas": 0.3667,
+          "falhas": 4
         },
         "3": {
           "horas": 0.2,
@@ -356,7 +356,7 @@
     },
     {
       "tag": "30433",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
       "equipamento": "60L1",
       "falhas": 5,
       "horas": 0.8167,
@@ -376,8 +376,29 @@
       }
     },
     {
+      "tag": "20487",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "equipamento": "MESPACK A",
+      "falhas": 4,
+      "horas": 0.5667,
+      "por_turno": {
+        "1": {
+          "horas": 0.1167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.2833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.1667,
+          "falhas": 1
+        }
+      }
+    },
+    {
       "tag": "20567",
-      "componente": "AJUSTE NO GUIA DE EMBALAGEM",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
       "equipamento": "MESPACK E",
       "falhas": 4,
       "horas": 0.5333,
@@ -398,7 +419,7 @@
     },
     {
       "tag": "31312",
-      "componente": "AJUSTE DO ESTICADOR",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK F",
       "equipamento": "MESPACK F",
       "falhas": 4,
       "horas": 0.5833,
@@ -418,19 +439,19 @@
       }
     },
     {
-      "tag": "RB09",
-      "componente": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+      "tag": "31404",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
       "equipamento": "MESPACK R2",
       "falhas": 3,
-      "horas": 0.35,
+      "horas": 0.4833,
       "por_turno": {
         "1": {
-          "horas": 0.35,
-          "falhas": 3
+          "horas": 0.1333,
+          "falhas": 1
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.35,
+          "falhas": 2
         },
         "3": {
           "horas": 0.0,
@@ -440,7 +461,7 @@
     },
     {
       "tag": "20502",
-      "componente": "AJUSTE NO ARRASTE",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK B ",
       "equipamento": "MESPACK B",
       "falhas": 3,
       "horas": 0.25,
@@ -460,40 +481,19 @@
       }
     },
     {
-      "tag": "31404",
-      "componente": "AJUSTE DE VENTOSAS",
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
       "equipamento": "MESPACK R2",
-      "falhas": 2,
-      "horas": 0.3167,
+      "falhas": 3,
+      "horas": 0.35,
       "por_turno": {
         "1": {
-          "horas": 0.1333,
-          "falhas": 1
+          "horas": 0.35,
+          "falhas": 3
         },
         "2": {
-          "horas": 0.1833,
-          "falhas": 1
-        },
-        "3": {
           "horas": 0.0,
           "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "INK08",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
-      "equipamento": "MESPACK R2",
-      "falhas": 2,
-      "horas": 1.1,
-      "por_turno": {
-        "1": {
-          "horas": 0.3667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.7333,
-          "falhas": 1
         },
         "3": {
           "horas": 0.0,
@@ -503,7 +503,7 @@
     },
     {
       "tag": "20367",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
       "equipamento": "ENCHEDEIRA TOP DOWN",
       "falhas": 2,
       "horas": 0.2833,
@@ -526,7 +526,7 @@
   "parada_componentes": [
     {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
       "equipamento": "MESPACK E",
       "falhas": 34,
       "horas": 3.8167,
@@ -547,7 +547,7 @@
     },
     {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
       "equipamento": "MESPACK F",
       "falhas": 23,
       "horas": 3.7,
@@ -568,28 +568,28 @@
     },
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 25,
-      "horas": 3.4667,
+      "falhas": 27,
+      "horas": 3.6167,
       "por_turno": {
         "1": {
           "horas": 0.8333,
           "falhas": 9
         },
         "2": {
-          "horas": 1.6833,
-          "falhas": 8
+          "horas": 1.75,
+          "falhas": 9
         },
         "3": {
-          "horas": 0.95,
-          "falhas": 8
+          "horas": 1.0333,
+          "falhas": 9
         }
       }
     },
     {
       "tag": "ink05",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "INKJET MESPACK E",
       "equipamento": "MESPACK E",
       "falhas": 2,
       "horas": 3.3833,
@@ -610,14 +610,14 @@
     },
     {
       "tag": "RB02",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "ROBO PALETIZAÇÃO ATOMATADOS",
       "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 1,
-      "horas": 1.5,
+      "falhas": 2,
+      "horas": 1.6833,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.1833,
+          "falhas": 1
         },
         "2": {
           "horas": 1.5,
@@ -630,8 +630,29 @@
       }
     },
     {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 13,
+      "horas": 1.3333,
+      "por_turno": {
+        "1": {
+          "horas": 0.7667,
+          "falhas": 6
+        },
+        "2": {
+          "horas": 0.3667,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.2,
+          "falhas": 3
+        }
+      }
+    },
+    {
       "tag": "INK08",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "INKJET MESPACK R2",
       "equipamento": "MESPACK R2",
       "falhas": 2,
       "horas": 1.1,
@@ -651,29 +672,8 @@
       }
     },
     {
-      "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
-      "equipamento": "MESPACK R1",
-      "falhas": 10,
-      "horas": 0.8667,
-      "por_turno": {
-        "1": {
-          "horas": 0.3833,
-          "falhas": 4
-        },
-        "2": {
-          "horas": 0.2833,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.2,
-          "falhas": 3
-        }
-      }
-    },
-    {
       "tag": "30433",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
       "equipamento": "60L1",
       "falhas": 5,
       "horas": 0.8167,
@@ -694,7 +694,7 @@
     },
     {
       "tag": "INK03",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "INKJET MESPACK C",
       "equipamento": "MESPACK C",
       "falhas": 2,
       "horas": 0.6,
@@ -715,7 +715,7 @@
     },
     {
       "tag": "31312",
-      "componente": "AJUSTE DO ESTICADOR",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK F",
       "equipamento": "MESPACK F",
       "falhas": 4,
       "horas": 0.5833,
@@ -735,8 +735,29 @@
       }
     },
     {
+      "tag": "20487",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "equipamento": "MESPACK A",
+      "falhas": 4,
+      "horas": 0.5667,
+      "por_turno": {
+        "1": {
+          "horas": 0.1167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.2833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.1667,
+          "falhas": 1
+        }
+      }
+    },
+    {
       "tag": "20567",
-      "componente": "AJUSTE NO GUIA DE EMBALAGEM",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
       "equipamento": "MESPACK E",
       "falhas": 4,
       "horas": 0.5333,
@@ -756,8 +777,29 @@
       }
     },
     {
+      "tag": "31404",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 3,
+      "horas": 0.4833,
+      "por_turno": {
+        "1": {
+          "horas": 0.1333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.35,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
       "tag": "ink04",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "INKJET MESPACK D",
       "equipamento": "MESPACK D",
       "falhas": 1,
       "horas": 0.4667,
@@ -778,7 +820,7 @@
     },
     {
       "tag": "INK11",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "INKJET RECRAVADEIRA 60L2",
       "equipamento": "60L2",
       "falhas": 1,
       "horas": 0.4667,
@@ -790,48 +832,6 @@
         "2": {
           "horas": 0.4667,
           "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "INK10",
-      "componente": "MANUTENÇÃO ELÉTRICA",
-      "equipamento": "60L1",
-      "falhas": 2,
-      "horas": 0.45,
-      "por_turno": {
-        "1": {
-          "horas": 0.45,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "ROBOTICA03",
-      "componente": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-      "equipamento": "MESPACK R1",
-      "falhas": 2,
-      "horas": 0.3833,
-      "por_turno": {
-        "1": {
-          "horas": 0.3833,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
         },
         "3": {
           "horas": 0.0,
@@ -868,6 +868,10 @@
     {
       "mes": "setembro",
       "falhas": 3676
+    },
+    {
+      "mes": "outubro",
+      "falhas": 152
     }
   ]
 }
