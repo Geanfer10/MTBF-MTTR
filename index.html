@@ -368,7 +368,7 @@ function populateEquipSelect(data){
 async function loadDay(dateStr){
   try{
     const day = await fetchJSON(DATA_DIR + dateStr + '.json');
-    currentRawData = day;
+    currentRawData = {...day, hdisp: day.horas_disp || null};
     currentBasePeriodHours = PERIOD_HOURS;
     currentIsPeriod = false;
     currentDayCount = 1;
@@ -412,6 +412,18 @@ async function loadDates(dates, subtitleLabel){
     });
   });
 
+  // horas disponíveis por máquina somadas no período (aba horas_disponiveis da planilha);
+  // dia sem a informação conta 24 h, como antes
+  let hdisp = null;
+  if(validDays.some(d => d.horas_disp && Object.keys(d.horas_disp).length)){
+    hdisp = {};
+    const nomes = new Set();
+    validDays.forEach(d => { Object.keys(d.horas_disp||{}).forEach(n=>nomes.add(n)); d.equip.forEach(e=>nomes.add(e.name.trim().toUpperCase())); });
+    validDays.forEach(d => {
+      const hd = d.horas_disp && Object.keys(d.horas_disp).length ? d.horas_disp : null;
+      nomes.forEach(n => { hdisp[n] = (hdisp[n]||0) + (hd ? (hd[n] ?? 0) : PERIOD_HOURS); });
+    });
+  }
   const lastDay = validDays[validDays.length-1];
   const todosItens = Object.values(topMap);
   currentRawData = {
@@ -419,6 +431,7 @@ async function loadDates(dates, subtitleLabel){
     updated_at: lastDay.updated_at,
     meta_mtbf: lastDay.meta_mtbf,
     dias_parados: validDays.length,
+    hdisp,
     equip: Object.values(equipMap).sort((a,b)=>b.horas-a.horas),
     turnos,
     top_falhas: [...todosItens].sort((a,b)=>b.falhas-a.falhas).slice(0,12),
@@ -542,10 +555,15 @@ function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipP
     document.getElementById('dateSelect').value = data.date;
   }
 
+  const fatorTurno = periodHours / (currentBasePeriodHours || periodHours);   // 1/3 quando filtrado por turno
+  const hDisp = e => {
+    const v = data.hdisp ? data.hdisp[e.name.trim().toUpperCase()] : undefined;
+    return (v === undefined || v === null) ? periodHours : v * fatorTurno;
+  };
   const EQUIP = data.equip.map(e => ({
-    name: e.name, horas: e.horas, falhas: e.falhas,
-    indisp: e.horas/periodHours*100,
-    mtbf_h: e.falhas ? (periodHours - e.horas)/e.falhas : 0,
+    name: e.name, horas: e.horas, falhas: e.falhas, hdisp: hDisp(e),
+    indisp: hDisp(e) ? e.horas/hDisp(e)*100 : 0,
+    mtbf_h: e.falhas ? Math.max(0, hDisp(e) - e.horas)/e.falhas : 0,
     mttr_h: e.falhas ? e.horas/e.falhas : 0
   }));
   const isSingleEquip = equipamentoFiltro && equipamentoFiltro !== 'all';
