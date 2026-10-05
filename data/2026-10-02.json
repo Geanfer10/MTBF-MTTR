@@ -1,21 +1,21 @@
 {
   "date": "2026-10-02",
-  "updated_at": "2026-10-05T11:42",
+  "updated_at": "2026-10-05T12:12",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK R1",
-      "horas": 7.1,
-      "falhas": 21,
+      "horas": 6.6667,
+      "falhas": 20,
       "por_turno": {
         "1": {
           "horas": 0.3667,
           "falhas": 6
         },
         "2": {
-          "horas": 1.5167,
-          "falhas": 9
+          "horas": 1.0833,
+          "falhas": 8
         },
         "3": {
           "horas": 5.2167,
@@ -178,8 +178,8 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 1.8667,
-      "2": 2.2333,
+      "1": 1.7667,
+      "2": 1.8,
       "3": 1.4833
     },
     "Elétrica": {
@@ -188,12 +188,96 @@
       "3": 4.45
     },
     "Mecânica": {
-      "1": 4.25,
+      "1": 4.35,
       "2": 3.6333,
       "3": 4.0
     }
   },
   "top_falhas": [
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "equipamento": "MESPACK E",
+      "falhas": 14,
+      "horas": 1.05,
+      "por_turno": {
+        "1": {
+          "horas": 0.2333,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.2,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.6167,
+          "falhas": 9
+        }
+      }
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 7,
+      "horas": 1.75,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 1.65,
+          "falhas": 6
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 7,
+      "horas": 0.4333,
+      "por_turno": {
+        "1": {
+          "horas": 0.2,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.15,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 5,
+      "horas": 0.25,
+      "por_turno": {
+        "1": {
+          "horas": 0.0667,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
     {
       "tag": "SRC",
       "componente": "SERAC",
@@ -216,6 +300,27 @@
       }
     },
     {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 4,
+      "horas": 1.0,
+      "por_turno": {
+        "1": {
+          "horas": 0.0333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.05,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.9167,
+          "falhas": 2
+        }
+      }
+    },
+    {
       "tag": "20367",
       "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
       "equipamento": "ENCHEDEIRA TOP DOWN",
@@ -233,6 +338,90 @@
         "3": {
           "horas": 0.05,
           "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20539",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK D ",
+      "equipamento": "MESPACK D",
+      "falhas": 3,
+      "horas": 1.65,
+      "por_turno": {
+        "1": {
+          "horas": 1.5667,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0833,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20572",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK E",
+      "equipamento": "MESPACK F",
+      "falhas": 2,
+      "horas": 0.3167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.3167,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "20565",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 1,
+      "horas": 0.1833,
+      "por_turno": {
+        "1": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20482",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK A ",
+      "equipamento": "MESPACK D",
+      "falhas": 1,
+      "horas": 0.1667,
+      "por_turno": {
+        "1": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
         }
       }
     },
@@ -260,6 +449,132 @@
   ],
   "parada_componentes": [
     {
+      "tag": "32261",
+      "componente": "BOMBA DE VACUO ROBO ENCAIXOTAMENTO VEGETAIS LADO DIREITO",
+      "equipamento": "MESPACK R1",
+      "falhas": 1,
+      "horas": 4.0667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 4.0667,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 7,
+      "horas": 1.75,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 1.65,
+          "falhas": 6
+        }
+      }
+    },
+    {
+      "tag": "20539",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK D ",
+      "equipamento": "MESPACK D",
+      "falhas": 3,
+      "horas": 1.65,
+      "por_turno": {
+        "1": {
+          "horas": 1.5667,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0833,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "equipamento": "MESPACK E",
+      "falhas": 14,
+      "horas": 1.05,
+      "por_turno": {
+        "1": {
+          "horas": 0.2333,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.2,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.6167,
+          "falhas": 9
+        }
+      }
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 4,
+      "horas": 1.0,
+      "por_turno": {
+        "1": {
+          "horas": 0.0333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.05,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.9167,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "31920",
+      "componente": "CORRENTE ESTEIRA TRANSPORTE CADENA TP-BJ-7",
+      "equipamento": "MESPACK R1",
+      "falhas": 1,
+      "horas": 0.6833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.6833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
       "tag": "20367",
       "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
       "equipamento": "ENCHEDEIRA TOP DOWN",
@@ -302,11 +617,32 @@
       }
     },
     {
-      "tag": "20391",
-      "componente": "ESTEIRA TRANSPORTE DE FRASCOS ROTULADEIRA TOPDOWN",
-      "equipamento": "ENCHEDEIRA TOP DOWN",
-      "falhas": 1,
-      "horas": 0.1167,
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 7,
+      "horas": 0.4333,
+      "por_turno": {
+        "1": {
+          "horas": 0.2,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.15,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "20572",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK E",
+      "equipamento": "MESPACK F",
+      "falhas": 2,
+      "horas": 0.3167,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -317,8 +653,113 @@
           "falhas": 0
         },
         "3": {
-          "horas": 0.1167,
+          "horas": 0.3167,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 5,
+      "horas": 0.25,
+      "por_turno": {
+        "1": {
+          "horas": 0.0667,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20552",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK D",
+      "equipamento": "MESPACK D",
+      "falhas": 1,
+      "horas": 0.2333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2333,
           "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20565",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 1,
+      "horas": 0.1833,
+      "por_turno": {
+        "1": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20482",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK A ",
+      "equipamento": "MESPACK D",
+      "falhas": 1,
+      "horas": 0.1667,
+      "por_turno": {
+        "1": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "31312",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 1,
+      "horas": 0.15,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.15,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
         }
       }
     }
@@ -354,7 +795,7 @@
     },
     {
       "mes": "outubro",
-      "falhas": 423
+      "falhas": 422
     }
   ],
   "horas_disp": {}
