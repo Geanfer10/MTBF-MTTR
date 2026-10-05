@@ -1,12 +1,13 @@
 {
   "date": "2026-04-27",
-  "updated_at": "2026-10-05T19:04",
+  "updated_at": "2026-10-05T20:20",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK D",
       "horas": 2.1333,
+      "horas_disponiveis": 22.0,
       "falhas": 8,
       "por_turno": {
         "1": {
@@ -26,6 +27,7 @@
     {
       "name": "MESPACK C",
       "horas": 1.8833,
+      "horas_disponiveis": 22.0,
       "falhas": 9,
       "por_turno": {
         "1": {
@@ -45,6 +47,7 @@
     {
       "name": "MESPACK A",
       "horas": 0.5167,
+      "horas_disponiveis": 22.0,
       "falhas": 2,
       "por_turno": {
         "1": {
@@ -64,6 +67,7 @@
     {
       "name": "MESPACK B",
       "horas": 0.3167,
+      "horas_disponiveis": 22.0,
       "falhas": 4,
       "por_turno": {
         "1": {
@@ -635,19 +639,32 @@
       "falhas": 417
     }
   ],
-  "horas_disp": {
-    "MESPACK A": 22.0,
-    "MESPACK B": 22.0,
-    "MESPACK C": 22.0,
-    "MESPACK D": 22.0,
-    "MESPACK E": 22.0,
-    "MESPACK F": 22.0,
-    "MESPACK R1": 22.0,
-    "MESPACK R2": 22.0,
-    "ENCHEDEIRA TOP DOWN": 22.0,
-    "ENCHEDEIRA COPO/LATA": 22.0,
-    "60L1": 22.0,
-    "60L2": 22.0,
-    "CONDOR": 22.0
+  "disponibilidade": {
+    "geral": {
+      "horas_disponiveis": 286.0,
+      "horas_paradas": 4.85,
+      "disponibilidade_pct": 98.3042,
+      "indisponibilidade_pct": 1.6958
+    },
+    "departamentos": {
+      "Elétrica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 0.3833,
+        "disponibilidade_pct": 99.866,
+        "indisponibilidade_pct": 0.134
+      },
+      "Mecânica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 4.4667,
+        "disponibilidade_pct": 98.4382,
+        "indisponibilidade_pct": 1.5618
+      },
+      "Automação": {
+        "horas_disponiveis": 88.0,
+        "horas_paradas": 0.0,
+        "disponibilidade_pct": 100.0,
+        "indisponibilidade_pct": 0.0
+      }
+    }
   }
 }

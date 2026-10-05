@@ -1,12 +1,13 @@
 {
   "date": "2026-07-02",
-  "updated_at": "2026-10-05T19:04",
+  "updated_at": "2026-10-05T20:20",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK D",
       "horas": 6.4833,
+      "horas_disponiveis": 22.0,
       "falhas": 6,
       "por_turno": {
         "1": {
@@ -26,6 +27,7 @@
     {
       "name": "MESPACK C",
       "horas": 5.2167,
+      "horas_disponiveis": 22.0,
       "falhas": 5,
       "por_turno": {
         "1": {
@@ -45,6 +47,7 @@
     {
       "name": "MESPACK R2",
       "horas": 4.9,
+      "horas_disponiveis": 22.0,
       "falhas": 40,
       "por_turno": {
         "1": {
@@ -64,6 +67,7 @@
     {
       "name": "MESPACK R1",
       "horas": 3.2667,
+      "horas_disponiveis": 22.0,
       "falhas": 22,
       "por_turno": {
         "1": {
@@ -83,6 +87,7 @@
     {
       "name": "MESPACK E",
       "horas": 2.5851,
+      "horas_disponiveis": 22.0,
       "falhas": 30,
       "por_turno": {
         "1": {
@@ -102,6 +107,7 @@
     {
       "name": "ENCAIXOTAMENTO VEGETAIS",
       "horas": 2.4833,
+      "horas_disponiveis": 22.0,
       "falhas": 4,
       "por_turno": {
         "1": {
@@ -121,6 +127,7 @@
     {
       "name": "MESPACK F",
       "horas": 2.1333,
+      "horas_disponiveis": 22.0,
       "falhas": 20,
       "por_turno": {
         "1": {
@@ -138,8 +145,9 @@
       }
     },
     {
-      "name": "60L2",
+      "name": "60l2",
       "horas": 1.8667,
+      "horas_disponiveis": 22.0,
       "falhas": 7,
       "por_turno": {
         "1": {
@@ -159,6 +167,7 @@
     {
       "name": "ENCHEDEIRA TOP DOWN",
       "horas": 1.2167,
+      "horas_disponiveis": 22.0,
       "falhas": 7,
       "por_turno": {
         "1": {
@@ -178,6 +187,7 @@
     {
       "name": "60L1",
       "horas": 0.3833,
+      "horas_disponiveis": 22.0,
       "falhas": 2,
       "por_turno": {
         "1": {
@@ -197,6 +207,7 @@
     {
       "name": "MESPACK B",
       "horas": 0.0833,
+      "horas_disponiveis": 22.0,
       "falhas": 1,
       "por_turno": {
         "1": {
@@ -361,7 +372,7 @@
     {
       "tag": "30463",
       "componente": "CABEÇOTE SUPERIOR 60L2",
-      "equipamento": "60L2",
+      "equipamento": "60l2",
       "falhas": 6,
       "horas": 0.9167,
       "por_turno": {
@@ -636,7 +647,7 @@
     {
       "tag": "INK11",
       "componente": "INKJET RECRAVADEIRA 60L2",
-      "equipamento": "60L2",
+      "equipamento": "60l2",
       "falhas": 1,
       "horas": 0.95,
       "por_turno": {
@@ -678,7 +689,7 @@
     {
       "tag": "30463",
       "componente": "CABEÇOTE SUPERIOR 60L2",
-      "equipamento": "60L2",
+      "equipamento": "60l2",
       "falhas": 6,
       "horas": 0.9167,
       "por_turno": {
@@ -836,20 +847,32 @@
       "falhas": 417
     }
   ],
-  "horas_disp": {
-    "MESPACK A": 22.0,
-    "MESPACK B": 22.0,
-    "MESPACK C": 22.0,
-    "MESPACK D": 22.0,
-    "MESPACK E": 22.0,
-    "MESPACK F": 22.0,
-    "MESPACK R1": 22.0,
-    "MESPACK R2": 22.0,
-    "ENCHEDEIRA TOP DOWN": 22.0,
-    "ENCHEDEIRA COPO/LATA": 22.0,
-    "60L1": 22.0,
-    "60L2": 22.0,
-    "CONDOR": 22.0,
-    "ENCAIXOTAMENTO VEGETAIS": 22
+  "disponibilidade": {
+    "geral": {
+      "horas_disponiveis": 286.0,
+      "horas_paradas": 30.6184,
+      "disponibilidade_pct": 89.2943,
+      "indisponibilidade_pct": 10.7057
+    },
+    "departamentos": {
+      "Elétrica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 4.4684,
+        "disponibilidade_pct": 98.4376,
+        "indisponibilidade_pct": 1.5624
+      },
+      "Mecânica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 15.8667,
+        "disponibilidade_pct": 94.4522,
+        "indisponibilidade_pct": 5.5478
+      },
+      "Automação": {
+        "horas_disponiveis": 88.0,
+        "horas_paradas": 10.2833,
+        "disponibilidade_pct": 88.3144,
+        "indisponibilidade_pct": 11.6856
+      }
+    }
   }
 }

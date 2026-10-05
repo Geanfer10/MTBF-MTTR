@@ -1,12 +1,13 @@
 {
   "date": "2026-09-25",
-  "updated_at": "2026-10-05T19:04",
+  "updated_at": "2026-10-05T20:20",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK R1",
       "horas": 6.6167,
+      "horas_disponiveis": 22.0,
       "falhas": 40,
       "por_turno": {
         "1": {
@@ -26,6 +27,7 @@
     {
       "name": "MESPACK R2",
       "horas": 4.9833,
+      "horas_disponiveis": 22.0,
       "falhas": 38,
       "por_turno": {
         "1": {
@@ -45,6 +47,7 @@
     {
       "name": "MESPACK E",
       "horas": 4.7667,
+      "horas_disponiveis": 22.0,
       "falhas": 35,
       "por_turno": {
         "1": {
@@ -64,6 +67,7 @@
     {
       "name": "MESPACK F",
       "horas": 3.1167,
+      "horas_disponiveis": 22.0,
       "falhas": 25,
       "por_turno": {
         "1": {
@@ -83,6 +87,7 @@
     {
       "name": "MESPACK B",
       "horas": 2.2833,
+      "horas_disponiveis": 22.0,
       "falhas": 5,
       "por_turno": {
         "1": {
@@ -100,8 +105,9 @@
       }
     },
     {
-      "name": "60L1",
+      "name": "60l1",
       "horas": 1.9833,
+      "horas_disponiveis": 22.0,
       "falhas": 7,
       "por_turno": {
         "1": {
@@ -121,6 +127,7 @@
     {
       "name": "CONDOR",
       "horas": 1.0333,
+      "horas_disponiveis": 22.0,
       "falhas": 1,
       "por_turno": {
         "1": {
@@ -140,6 +147,7 @@
     {
       "name": "ENCHEDEIRA COPO/LATA",
       "horas": 0.6,
+      "horas_disponiveis": 22.0,
       "falhas": 1,
       "por_turno": {
         "1": {
@@ -159,6 +167,7 @@
     {
       "name": "MESPACK A",
       "horas": 0.4167,
+      "horas_disponiveis": 22.0,
       "falhas": 3,
       "por_turno": {
         "1": {
@@ -178,6 +187,7 @@
     {
       "name": "ENCHEDEIRA TOP DOWN",
       "horas": 0.3667,
+      "horas_disponiveis": 22.0,
       "falhas": 1,
       "por_turno": {
         "1": {
@@ -426,7 +436,7 @@
     {
       "tag": "30433",
       "componente": "CABEÇOTE SUPERIOR 60L1",
-      "equipamento": "60L1",
+      "equipamento": "60l1",
       "falhas": 6,
       "horas": 0.75,
       "por_turno": {
@@ -617,7 +627,7 @@
     {
       "tag": "30429",
       "componente": "ROSCA SEM FIM ENCHEDEIRA  60L1",
-      "equipamento": "60L1",
+      "equipamento": "60l1",
       "falhas": 1,
       "horas": 1.2333,
       "por_turno": {
@@ -701,7 +711,7 @@
     {
       "tag": "30433",
       "componente": "CABEÇOTE SUPERIOR 60L1",
-      "equipamento": "60L1",
+      "equipamento": "60l1",
       "falhas": 6,
       "horas": 0.75,
       "por_turno": {
@@ -817,19 +827,32 @@
       "falhas": 417
     }
   ],
-  "horas_disp": {
-    "MESPACK A": 22.0,
-    "MESPACK B": 22.0,
-    "MESPACK C": 22.0,
-    "MESPACK D": 22.0,
-    "MESPACK E": 22.0,
-    "MESPACK F": 22.0,
-    "MESPACK R1": 22.0,
-    "MESPACK R2": 22.0,
-    "ENCHEDEIRA TOP DOWN": 22.0,
-    "ENCHEDEIRA COPO/LATA": 22.0,
-    "60L1": 22.0,
-    "60L2": 22.0,
-    "CONDOR": 22.0
+  "disponibilidade": {
+    "geral": {
+      "horas_disponiveis": 286.0,
+      "horas_paradas": 26.1667,
+      "disponibilidade_pct": 90.8508,
+      "indisponibilidade_pct": 9.1492
+    },
+    "departamentos": {
+      "Elétrica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 4.25,
+        "disponibilidade_pct": 98.514,
+        "indisponibilidade_pct": 1.486
+      },
+      "Mecânica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 15.0,
+        "disponibilidade_pct": 94.7552,
+        "indisponibilidade_pct": 5.2448
+      },
+      "Automação": {
+        "horas_disponiveis": 88.0,
+        "horas_paradas": 6.9167,
+        "disponibilidade_pct": 92.1402,
+        "indisponibilidade_pct": 7.8598
+      }
+    }
   }
 }

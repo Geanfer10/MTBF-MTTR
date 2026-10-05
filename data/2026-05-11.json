@@ -1,12 +1,13 @@
 {
   "date": "2026-05-11",
-  "updated_at": "2026-10-05T19:04",
+  "updated_at": "2026-10-05T20:20",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK R2",
       "horas": 4.9667,
+      "horas_disponiveis": 22.0,
       "falhas": 35,
       "por_turno": {
         "1": {
@@ -26,6 +27,7 @@
     {
       "name": "MESPACK F",
       "horas": 4.1833,
+      "horas_disponiveis": 22.0,
       "falhas": 24,
       "por_turno": {
         "1": {
@@ -45,6 +47,7 @@
     {
       "name": "MESPACK R1",
       "horas": 4.1333,
+      "horas_disponiveis": 22.0,
       "falhas": 26,
       "por_turno": {
         "1": {
@@ -64,6 +67,7 @@
     {
       "name": "MESPACK E",
       "horas": 3.15,
+      "horas_disponiveis": 22.0,
       "falhas": 27,
       "por_turno": {
         "1": {
@@ -83,6 +87,7 @@
     {
       "name": "MESPACK A",
       "horas": 2.75,
+      "horas_disponiveis": 22.0,
       "falhas": 4,
       "por_turno": {
         "1": {
@@ -100,8 +105,9 @@
       }
     },
     {
-      "name": "60L2",
+      "name": "60l2",
       "horas": 1.3333,
+      "horas_disponiveis": 22.0,
       "falhas": 5,
       "por_turno": {
         "1": {
@@ -121,6 +127,7 @@
     {
       "name": "MESPACK D",
       "horas": 1.25,
+      "horas_disponiveis": 22.0,
       "falhas": 2,
       "por_turno": {
         "1": {
@@ -140,6 +147,7 @@
     {
       "name": "BENEFICIAMENTO  MILHO",
       "horas": 1.2,
+      "horas_disponiveis": 22.0,
       "falhas": 2,
       "por_turno": {
         "1": {
@@ -159,6 +167,7 @@
     {
       "name": "ENCAIXOTAMENTO VEGETAIS",
       "horas": 0.6833,
+      "horas_disponiveis": 22.0,
       "falhas": 2,
       "por_turno": {
         "1": {
@@ -178,6 +187,7 @@
     {
       "name": "MESPACK C",
       "horas": 0.45,
+      "horas_disponiveis": 22.0,
       "falhas": 5,
       "por_turno": {
         "1": {
@@ -197,6 +207,7 @@
     {
       "name": "60L1",
       "horas": 0.4167,
+      "horas_disponiveis": 22.0,
       "falhas": 4,
       "por_turno": {
         "1": {
@@ -216,6 +227,7 @@
     {
       "name": "MESPACK B",
       "horas": 0.4167,
+      "horas_disponiveis": 22.0,
       "falhas": 3,
       "por_turno": {
         "1": {
@@ -401,7 +413,7 @@
     {
       "tag": "30463",
       "componente": "CABEÇOTE SUPERIOR 60L2",
-      "equipamento": "60L2",
+      "equipamento": "60l2",
       "falhas": 4,
       "horas": 0.7167,
       "por_turno": {
@@ -571,7 +583,7 @@
     {
       "tag": "30116",
       "componente": "MOTOR ELETRICO DA ESTEIRA DE RETORNO DE SABUGO / PALHA",
-      "equipamento": "60L2",
+      "equipamento": "60l2",
       "falhas": 2,
       "horas": 1.6333,
       "por_turno": {
@@ -718,7 +730,7 @@
     {
       "tag": "30463",
       "componente": "CABEÇOTE SUPERIOR 60L2",
-      "equipamento": "60L2",
+      "equipamento": "60l2",
       "falhas": 4,
       "horas": 0.7167,
       "por_turno": {
@@ -855,21 +867,32 @@
       "falhas": 417
     }
   ],
-  "horas_disp": {
-    "MESPACK A": 22.0,
-    "MESPACK B": 22.0,
-    "MESPACK C": 22.0,
-    "MESPACK D": 22.0,
-    "MESPACK E": 22.0,
-    "MESPACK F": 22.0,
-    "MESPACK R1": 22.0,
-    "MESPACK R2": 22.0,
-    "ENCHEDEIRA TOP DOWN": 22.0,
-    "ENCHEDEIRA COPO/LATA": 22.0,
-    "60L1": 22.0,
-    "60L2": 22.0,
-    "CONDOR": 22.0,
-    "BENEFICIAMENTO  MILHO": 22,
-    "ENCAIXOTAMENTO VEGETAIS": 22
+  "disponibilidade": {
+    "geral": {
+      "horas_disponiveis": 286.0,
+      "horas_paradas": 24.9333,
+      "disponibilidade_pct": 91.2821,
+      "indisponibilidade_pct": 8.7179
+    },
+    "departamentos": {
+      "Elétrica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 6.1833,
+        "disponibilidade_pct": 97.838,
+        "indisponibilidade_pct": 2.162
+      },
+      "Mecânica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 8.2167,
+        "disponibilidade_pct": 97.127,
+        "indisponibilidade_pct": 2.873
+      },
+      "Automação": {
+        "horas_disponiveis": 88.0,
+        "horas_paradas": 10.5333,
+        "disponibilidade_pct": 88.0303,
+        "indisponibilidade_pct": 11.9697
+      }
+    }
   }
 }

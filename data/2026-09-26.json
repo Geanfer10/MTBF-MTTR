@@ -1,12 +1,13 @@
 {
   "date": "2026-09-26",
-  "updated_at": "2026-10-05T19:04",
+  "updated_at": "2026-10-05T20:20",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK R1",
       "horas": 4.9667,
+      "horas_disponiveis": 22.0,
       "falhas": 31,
       "por_turno": {
         "1": {
@@ -26,6 +27,7 @@
     {
       "name": "MESPACK E",
       "horas": 3.8,
+      "horas_disponiveis": 22.0,
       "falhas": 36,
       "por_turno": {
         "1": {
@@ -45,6 +47,7 @@
     {
       "name": "MESPACK R2",
       "horas": 3.6167,
+      "horas_disponiveis": 22.0,
       "falhas": 34,
       "por_turno": {
         "1": {
@@ -64,6 +67,7 @@
     {
       "name": "MESPACK F",
       "horas": 1.3333,
+      "horas_disponiveis": 22.0,
       "falhas": 15,
       "por_turno": {
         "1": {
@@ -83,6 +87,7 @@
     {
       "name": "MESPACK B",
       "horas": 0.8333,
+      "horas_disponiveis": 22.0,
       "falhas": 4,
       "por_turno": {
         "1": {
@@ -102,6 +107,7 @@
     {
       "name": "ENCHEDEIRA TOP DOWN",
       "horas": 0.45,
+      "horas_disponiveis": 22.0,
       "falhas": 2,
       "por_turno": {
         "1": {
@@ -121,6 +127,7 @@
     {
       "name": "MESPACK A",
       "horas": 0.4167,
+      "horas_disponiveis": 22.0,
       "falhas": 2,
       "por_turno": {
         "1": {
@@ -140,6 +147,7 @@
     {
       "name": "CONDOR",
       "horas": 0.1667,
+      "horas_disponiveis": 22.0,
       "falhas": 2,
       "por_turno": {
         "1": {
@@ -779,19 +787,32 @@
       "falhas": 417
     }
   ],
-  "horas_disp": {
-    "MESPACK A": 22.0,
-    "MESPACK B": 22.0,
-    "MESPACK C": 22.0,
-    "MESPACK D": 22.0,
-    "MESPACK E": 22.0,
-    "MESPACK F": 22.0,
-    "MESPACK R1": 22.0,
-    "MESPACK R2": 22.0,
-    "ENCHEDEIRA TOP DOWN": 22.0,
-    "ENCHEDEIRA COPO/LATA": 22.0,
-    "60L1": 22.0,
-    "60L2": 22.0,
-    "CONDOR": 22.0
+  "disponibilidade": {
+    "geral": {
+      "horas_disponiveis": 286.0,
+      "horas_paradas": 15.5833,
+      "disponibilidade_pct": 94.5513,
+      "indisponibilidade_pct": 5.4487
+    },
+    "departamentos": {
+      "Elétrica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 3.3167,
+        "disponibilidade_pct": 98.8403,
+        "indisponibilidade_pct": 1.1597
+      },
+      "Mecânica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 5.3,
+        "disponibilidade_pct": 98.1469,
+        "indisponibilidade_pct": 1.8531
+      },
+      "Automação": {
+        "horas_disponiveis": 88.0,
+        "horas_paradas": 6.9667,
+        "disponibilidade_pct": 92.0833,
+        "indisponibilidade_pct": 7.9167
+      }
+    }
   }
 }

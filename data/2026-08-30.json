@@ -1,12 +1,13 @@
 {
   "date": "2026-08-30",
-  "updated_at": "2026-10-05T19:04",
+  "updated_at": "2026-10-05T20:20",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK F",
       "horas": 5.3757,
+      "horas_disponiveis": 22.0,
       "falhas": 38,
       "por_turno": {
         "1": {
@@ -26,6 +27,7 @@
     {
       "name": "MESPACK E",
       "horas": 5.0667,
+      "horas_disponiveis": 22.0,
       "falhas": 46,
       "por_turno": {
         "1": {
@@ -45,6 +47,7 @@
     {
       "name": "MESPACK R2",
       "horas": 4.1667,
+      "horas_disponiveis": 22.0,
       "falhas": 27,
       "por_turno": {
         "1": {
@@ -64,6 +67,7 @@
     {
       "name": "MESPACK R1",
       "horas": 1.2,
+      "horas_disponiveis": 22.0,
       "falhas": 9,
       "por_turno": {
         "1": {
@@ -83,6 +87,7 @@
     {
       "name": "ENCHEDEIRA COPO/LATA",
       "horas": 0.6,
+      "horas_disponiveis": 22.0,
       "falhas": 2,
       "por_turno": {
         "1": {
@@ -102,6 +107,7 @@
     {
       "name": "CONDOR",
       "horas": 0.5,
+      "horas_disponiveis": 22.0,
       "falhas": 1,
       "por_turno": {
         "1": {
@@ -121,6 +127,7 @@
     {
       "name": "ENCAIXOTAMENTO VEGETAIS",
       "horas": 0.1833,
+      "horas_disponiveis": 22.0,
       "falhas": 1,
       "por_turno": {
         "1": {
@@ -760,20 +767,32 @@
       "falhas": 417
     }
   ],
-  "horas_disp": {
-    "MESPACK A": 22.0,
-    "MESPACK B": 22.0,
-    "MESPACK C": 22.0,
-    "MESPACK D": 22.0,
-    "MESPACK E": 22.0,
-    "MESPACK F": 22.0,
-    "MESPACK R1": 22.0,
-    "MESPACK R2": 22.0,
-    "ENCHEDEIRA TOP DOWN": 22.0,
-    "ENCHEDEIRA COPO/LATA": 22.0,
-    "60L1": 22.0,
-    "60L2": 22.0,
-    "CONDOR": 22.0,
-    "ENCAIXOTAMENTO VEGETAIS": 22
+  "disponibilidade": {
+    "geral": {
+      "horas_disponiveis": 286.0,
+      "horas_paradas": 17.0924,
+      "disponibilidade_pct": 94.0236,
+      "indisponibilidade_pct": 5.9764
+    },
+    "departamentos": {
+      "Elétrica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 1.6006,
+        "disponibilidade_pct": 99.4403,
+        "indisponibilidade_pct": 0.5597
+      },
+      "Mecânica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 3.2833,
+        "disponibilidade_pct": 98.852,
+        "indisponibilidade_pct": 1.148
+      },
+      "Automação": {
+        "horas_disponiveis": 88.0,
+        "horas_paradas": 12.2084,
+        "disponibilidade_pct": 86.1268,
+        "indisponibilidade_pct": 13.8732
+      }
+    }
   }
 }

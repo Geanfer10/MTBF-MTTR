@@ -1,12 +1,13 @@
 {
   "date": "2026-08-06",
-  "updated_at": "2026-10-05T19:04",
+  "updated_at": "2026-10-05T20:20",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK A",
       "horas": 5.8167,
+      "horas_disponiveis": 22.0,
       "falhas": 12,
       "por_turno": {
         "1": {
@@ -26,6 +27,7 @@
     {
       "name": "MESPACK R2",
       "horas": 3.9,
+      "horas_disponiveis": 22.0,
       "falhas": 32,
       "por_turno": {
         "1": {
@@ -45,6 +47,7 @@
     {
       "name": "MESPACK E",
       "horas": 2.55,
+      "horas_disponiveis": 22.0,
       "falhas": 24,
       "por_turno": {
         "1": {
@@ -64,6 +67,7 @@
     {
       "name": "MESPACK D",
       "horas": 2.2167,
+      "horas_disponiveis": 22.0,
       "falhas": 9,
       "por_turno": {
         "1": {
@@ -83,6 +87,7 @@
     {
       "name": "MESPACK F",
       "horas": 1.6,
+      "horas_disponiveis": 22.0,
       "falhas": 21,
       "por_turno": {
         "1": {
@@ -102,6 +107,7 @@
     {
       "name": "MESPACK B",
       "horas": 1.45,
+      "horas_disponiveis": 22.0,
       "falhas": 5,
       "por_turno": {
         "1": {
@@ -121,6 +127,7 @@
     {
       "name": "MESPACK R1",
       "horas": 1.3167,
+      "horas_disponiveis": 22.0,
       "falhas": 18,
       "por_turno": {
         "1": {
@@ -140,6 +147,7 @@
     {
       "name": "ENCAIXOTAMENTO VEGETAIS",
       "horas": 0.95,
+      "horas_disponiveis": 22.0,
       "falhas": 5,
       "por_turno": {
         "1": {
@@ -159,6 +167,7 @@
     {
       "name": "MESPACK C",
       "horas": 0.6667,
+      "horas_disponiveis": 22.0,
       "falhas": 4,
       "por_turno": {
         "1": {
@@ -798,20 +807,32 @@
       "falhas": 417
     }
   ],
-  "horas_disp": {
-    "MESPACK A": 22.0,
-    "MESPACK B": 22.0,
-    "MESPACK C": 22.0,
-    "MESPACK D": 22.0,
-    "MESPACK E": 22.0,
-    "MESPACK F": 22.0,
-    "MESPACK R1": 22.0,
-    "MESPACK R2": 22.0,
-    "ENCHEDEIRA TOP DOWN": 22.0,
-    "ENCHEDEIRA COPO/LATA": 22.0,
-    "60L1": 22.0,
-    "60L2": 22.0,
-    "CONDOR": 22.0,
-    "ENCAIXOTAMENTO VEGETAIS": 22
+  "disponibilidade": {
+    "geral": {
+      "horas_disponiveis": 286.0,
+      "horas_paradas": 20.4667,
+      "disponibilidade_pct": 92.8438,
+      "indisponibilidade_pct": 7.1562
+    },
+    "departamentos": {
+      "Elétrica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 3.55,
+        "disponibilidade_pct": 98.7587,
+        "indisponibilidade_pct": 1.2413
+      },
+      "Mecânica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 10.3833,
+        "disponibilidade_pct": 96.3695,
+        "indisponibilidade_pct": 3.6305
+      },
+      "Automação": {
+        "horas_disponiveis": 88.0,
+        "horas_paradas": 6.5333,
+        "disponibilidade_pct": 92.5758,
+        "indisponibilidade_pct": 7.4242
+      }
+    }
   }
 }

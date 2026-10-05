@@ -1,12 +1,13 @@
 {
   "date": "2026-09-21",
-  "updated_at": "2026-10-05T19:04",
+  "updated_at": "2026-10-05T20:20",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK R2",
       "horas": 6.5,
+      "horas_disponiveis": 22.0,
       "falhas": 49,
       "por_turno": {
         "1": {
@@ -26,6 +27,7 @@
     {
       "name": "MESPACK R1",
       "horas": 6.0,
+      "horas_disponiveis": 22.0,
       "falhas": 44,
       "por_turno": {
         "1": {
@@ -45,6 +47,7 @@
     {
       "name": "MESPACK E",
       "horas": 3.4833,
+      "horas_disponiveis": 22.0,
       "falhas": 27,
       "por_turno": {
         "1": {
@@ -64,6 +67,7 @@
     {
       "name": "MESPACK C",
       "horas": 2.8333,
+      "horas_disponiveis": 22.0,
       "falhas": 8,
       "por_turno": {
         "1": {
@@ -83,6 +87,7 @@
     {
       "name": "MESPACK F",
       "horas": 1.8333,
+      "horas_disponiveis": 22.0,
       "falhas": 24,
       "por_turno": {
         "1": {
@@ -102,6 +107,7 @@
     {
       "name": "MESPACK B",
       "horas": 0.9833,
+      "horas_disponiveis": 22.0,
       "falhas": 6,
       "por_turno": {
         "1": {
@@ -121,6 +127,7 @@
     {
       "name": "MESPACK A",
       "horas": 0.6,
+      "horas_disponiveis": 22.0,
       "falhas": 7,
       "por_turno": {
         "1": {
@@ -140,6 +147,7 @@
     {
       "name": "60L1",
       "horas": 0.4333,
+      "horas_disponiveis": 22.0,
       "falhas": 3,
       "por_turno": {
         "1": {
@@ -159,6 +167,7 @@
     {
       "name": "MESPACK D",
       "horas": 0.4,
+      "horas_disponiveis": 22.0,
       "falhas": 2,
       "por_turno": {
         "1": {
@@ -798,19 +807,32 @@
       "falhas": 417
     }
   ],
-  "horas_disp": {
-    "MESPACK A": 22.0,
-    "MESPACK B": 22.0,
-    "MESPACK C": 22.0,
-    "MESPACK D": 22.0,
-    "MESPACK E": 22.0,
-    "MESPACK F": 22.0,
-    "MESPACK R1": 22.0,
-    "MESPACK R2": 22.0,
-    "ENCHEDEIRA TOP DOWN": 22.0,
-    "ENCHEDEIRA COPO/LATA": 22.0,
-    "60L1": 22.0,
-    "60L2": 22.0,
-    "CONDOR": 22.0
+  "disponibilidade": {
+    "geral": {
+      "horas_disponiveis": 286.0,
+      "horas_paradas": 23.0667,
+      "disponibilidade_pct": 91.9347,
+      "indisponibilidade_pct": 8.0653
+    },
+    "departamentos": {
+      "Elétrica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 2.9333,
+        "disponibilidade_pct": 98.9744,
+        "indisponibilidade_pct": 1.0256
+      },
+      "Mecânica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 12.5,
+        "disponibilidade_pct": 95.6294,
+        "indisponibilidade_pct": 4.3706
+      },
+      "Automação": {
+        "horas_disponiveis": 88.0,
+        "horas_paradas": 7.6333,
+        "disponibilidade_pct": 91.3258,
+        "indisponibilidade_pct": 8.6742
+      }
+    }
   }
 }

@@ -1,12 +1,13 @@
 {
   "date": "2026-06-25",
-  "updated_at": "2026-10-05T19:04",
+  "updated_at": "2026-10-05T20:20",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK R2",
       "horas": 6.9833,
+      "horas_disponiveis": 22.0,
       "falhas": 48,
       "por_turno": {
         "1": {
@@ -26,6 +27,7 @@
     {
       "name": "MESPACK R1",
       "horas": 3.1333,
+      "horas_disponiveis": 22.0,
       "falhas": 36,
       "por_turno": {
         "1": {
@@ -45,6 +47,7 @@
     {
       "name": "MESPACK E",
       "horas": 2.7333,
+      "horas_disponiveis": 22.0,
       "falhas": 21,
       "por_turno": {
         "1": {
@@ -64,6 +67,7 @@
     {
       "name": "60L1",
       "horas": 2.4333,
+      "horas_disponiveis": 22.0,
       "falhas": 8,
       "por_turno": {
         "1": {
@@ -83,6 +87,7 @@
     {
       "name": "MESPACK F",
       "horas": 1.1833,
+      "horas_disponiveis": 22.0,
       "falhas": 17,
       "por_turno": {
         "1": {
@@ -102,6 +107,7 @@
     {
       "name": "MESPACK A",
       "horas": 1.1333,
+      "horas_disponiveis": 22.0,
       "falhas": 7,
       "por_turno": {
         "1": {
@@ -121,6 +127,7 @@
     {
       "name": "MESPACK B",
       "horas": 1.1167,
+      "horas_disponiveis": 22.0,
       "falhas": 7,
       "por_turno": {
         "1": {
@@ -140,6 +147,7 @@
     {
       "name": "ENCHEDEIRA TOP DOWN",
       "horas": 0.6167,
+      "horas_disponiveis": 22.0,
       "falhas": 2,
       "por_turno": {
         "1": {
@@ -159,6 +167,7 @@
     {
       "name": "ENCAIXOTAMENTO VEGETAIS",
       "horas": 0.5963,
+      "horas_disponiveis": 22.0,
       "falhas": 3,
       "por_turno": {
         "1": {
@@ -178,6 +187,7 @@
     {
       "name": "60L2",
       "horas": 0.1167,
+      "horas_disponiveis": 22.0,
       "falhas": 1,
       "por_turno": {
         "1": {
@@ -817,20 +827,32 @@
       "falhas": 417
     }
   ],
-  "horas_disp": {
-    "MESPACK A": 22.0,
-    "MESPACK B": 22.0,
-    "MESPACK C": 22.0,
-    "MESPACK D": 22.0,
-    "MESPACK E": 22.0,
-    "MESPACK F": 22.0,
-    "MESPACK R1": 22.0,
-    "MESPACK R2": 22.0,
-    "ENCHEDEIRA TOP DOWN": 22.0,
-    "ENCHEDEIRA COPO/LATA": 22.0,
-    "60L1": 22.0,
-    "60L2": 22.0,
-    "CONDOR": 22.0,
-    "ENCAIXOTAMENTO VEGETAIS": 22
+  "disponibilidade": {
+    "geral": {
+      "horas_disponiveis": 286.0,
+      "horas_paradas": 20.0463,
+      "disponibilidade_pct": 92.9908,
+      "indisponibilidade_pct": 7.0092
+    },
+    "departamentos": {
+      "Elétrica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 2.2333,
+        "disponibilidade_pct": 99.2191,
+        "indisponibilidade_pct": 0.7809
+      },
+      "Mecânica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 7.4833,
+        "disponibilidade_pct": 97.3834,
+        "indisponibilidade_pct": 2.6166
+      },
+      "Automação": {
+        "horas_disponiveis": 88.0,
+        "horas_paradas": 10.3296,
+        "disponibilidade_pct": 88.2618,
+        "indisponibilidade_pct": 11.7382
+      }
+    }
   }
 }

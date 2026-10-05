@@ -1,12 +1,13 @@
 {
   "date": "2026-09-30",
-  "updated_at": "2026-10-05T19:04",
+  "updated_at": "2026-10-05T20:20",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
-      "name": "60L1",
+      "name": "60l1",
       "horas": 4.3833,
+      "horas_disponiveis": 22.0,
       "falhas": 10,
       "por_turno": {
         "1": {
@@ -26,6 +27,7 @@
     {
       "name": "MESPACK R2",
       "horas": 4.2667,
+      "horas_disponiveis": 21.9833,
       "falhas": 38,
       "por_turno": {
         "1": {
@@ -45,6 +47,7 @@
     {
       "name": "MESPACK E",
       "horas": 4.0333,
+      "horas_disponiveis": 23.3333,
       "falhas": 26,
       "por_turno": {
         "1": {
@@ -64,6 +67,7 @@
     {
       "name": "MESPACK F",
       "horas": 3.65,
+      "horas_disponiveis": 23.3333,
       "falhas": 22,
       "por_turno": {
         "1": {
@@ -83,6 +87,7 @@
     {
       "name": "MESPACK R1",
       "horas": 2.3,
+      "horas_disponiveis": 21.9833,
       "falhas": 20,
       "por_turno": {
         "1": {
@@ -102,6 +107,7 @@
     {
       "name": "MESPACK A",
       "horas": 0.8833,
+      "horas_disponiveis": 24.0,
       "falhas": 6,
       "por_turno": {
         "1": {
@@ -121,6 +127,7 @@
     {
       "name": "MESPACK C",
       "horas": 0.6667,
+      "horas_disponiveis": 22.0,
       "falhas": 2,
       "por_turno": {
         "1": {
@@ -140,6 +147,7 @@
     {
       "name": "MESPACK B",
       "horas": 0.5667,
+      "horas_disponiveis": 24.0,
       "falhas": 2,
       "por_turno": {
         "1": {
@@ -159,6 +167,7 @@
     {
       "name": "MESPACK D",
       "horas": 0.2167,
+      "horas_disponiveis": 22.0,
       "falhas": 1,
       "por_turno": {
         "1": {
@@ -178,6 +187,7 @@
     {
       "name": "ENCHEDEIRA TOP DOWN",
       "horas": 0.0833,
+      "horas_disponiveis": 20.0,
       "falhas": 1,
       "por_turno": {
         "1": {
@@ -300,7 +310,7 @@
     {
       "tag": "30433",
       "componente": "CABEÇOTE SUPERIOR 60L1",
-      "equipamento": "60L1",
+      "equipamento": "60l1",
       "falhas": 10,
       "horas": 4.3833,
       "por_turno": {
@@ -470,7 +480,7 @@
     {
       "tag": "30433",
       "componente": "CABEÇOTE SUPERIOR 60L1",
-      "equipamento": "60L1",
+      "equipamento": "60l1",
       "falhas": 10,
       "horas": 4.3833,
       "por_turno": {
@@ -817,19 +827,32 @@
       "falhas": 417
     }
   ],
-  "horas_disp": {
-    "MESPACK A": 24.0,
-    "MESPACK B": 24.0,
-    "MESPACK C": 22.0,
-    "MESPACK D": 22.0,
-    "MESPACK E": 23.3333,
-    "MESPACK F": 23.3333,
-    "MESPACK R1": 21.9833,
-    "MESPACK R2": 21.9833,
-    "ENCHEDEIRA TOP DOWN": 20.0,
-    "ENCHEDEIRA COPO/LATA": 0.0,
-    "60L1": 23.9167,
-    "60L2": 23.9167,
-    "CONDOR": 0.0
+  "disponibilidade": {
+    "geral": {
+      "horas_disponiveis": 250.4667,
+      "horas_paradas": 21.05,
+      "disponibilidade_pct": 91.5957,
+      "indisponibilidade_pct": 8.4043
+    },
+    "departamentos": {
+      "Elétrica": {
+        "horas_disponiveis": 250.4667,
+        "horas_paradas": 2.9333,
+        "disponibilidade_pct": 98.8289,
+        "indisponibilidade_pct": 1.1711
+      },
+      "Mecânica": {
+        "horas_disponiveis": 250.4667,
+        "horas_paradas": 10.4667,
+        "disponibilidade_pct": 95.8211,
+        "indisponibilidade_pct": 4.1789
+      },
+      "Automação": {
+        "horas_disponiveis": 90.6333,
+        "horas_paradas": 7.65,
+        "disponibilidade_pct": 91.5594,
+        "indisponibilidade_pct": 8.4406
+      }
+    }
   }
 }
