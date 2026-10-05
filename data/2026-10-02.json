@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updated_at": "2026-10-05T12:41",
+  "updated_at": "2026-10-05T13:12",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -279,23 +279,23 @@
       }
     },
     {
-      "tag": "SRC",
-      "componente": "SERAC",
-      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "equipamento": "MESPACK R2",
       "falhas": 5,
-      "horas": 0.4667,
+      "horas": 0.4,
       "por_turno": {
         "1": {
+          "horas": 0.3,
+          "falhas": 4
+        },
+        "2": {
           "horas": 0.0,
           "falhas": 0
         },
-        "2": {
+        "3": {
           "horas": 0.1,
           "falhas": 1
-        },
-        "3": {
-          "horas": 0.3667,
-          "falhas": 4
         }
       }
     },
@@ -317,6 +317,27 @@
         "3": {
           "horas": 0.0,
           "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "SRC",
+      "componente": "SERAC",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 5,
+      "horas": 0.4667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.3667,
+          "falhas": 4
         }
       }
     },
@@ -384,40 +405,19 @@
       }
     },
     {
-      "tag": "20567",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
-      "equipamento": "MESPACK E",
-      "falhas": 1,
-      "horas": 0.0833,
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 0.1167,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0833,
-          "falhas": 1
-        }
-      }
-    },
-    {
-      "tag": "20565",
-      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK E ",
-      "equipamento": "MESPACK E",
-      "falhas": 1,
-      "horas": 0.1833,
-      "por_turno": {
-        "1": {
-          "horas": 0.1833,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.1167,
+          "falhas": 2
         },
         "3": {
           "horas": 0.0,
@@ -426,18 +426,18 @@
       }
     },
     {
-      "tag": "20552",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK D",
-      "equipamento": "MESPACK D",
+      "tag": "31190",
+      "componente": "CONJUNTO DE FACAS MESPACK R1",
+      "equipamento": "MESPACK R1",
       "falhas": 1,
-      "horas": 0.2333,
+      "horas": 0.1,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.2333,
+          "horas": 0.1,
           "falhas": 1
         },
         "3": {
@@ -638,6 +638,27 @@
       }
     },
     {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 5,
+      "horas": 0.4,
+      "por_turno": {
+        "1": {
+          "horas": 0.3,
+          "falhas": 4
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1,
+          "falhas": 1
+        }
+      }
+    },
+    {
       "tag": "20572",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK E",
       "equipamento": "MESPACK F",
@@ -741,27 +762,6 @@
           "falhas": 0
         }
       }
-    },
-    {
-      "tag": "31312",
-      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK F",
-      "equipamento": "MESPACK F",
-      "falhas": 1,
-      "horas": 0.15,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.15,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
     }
   ],
   "evolucao_mensal": [
@@ -795,7 +795,7 @@
     },
     {
       "mes": "outubro",
-      "falhas": 422
+      "falhas": 421
     }
   ],
   "horas_disp": {}
