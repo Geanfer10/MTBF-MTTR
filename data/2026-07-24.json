@@ -1,6 +1,6 @@
 {
   "date": "2026-07-24",
-  "updated_at": "2026-10-05T18:48",
+  "updated_at": "2026-10-05T19:04",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -119,25 +119,6 @@
       }
     },
     {
-      "name": "MESPACK B",
-      "horas": 1.4833,
-      "falhas": 7,
-      "por_turno": {
-        "1": {
-          "horas": 0.7,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.7833,
-          "falhas": 4
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "name": "MESPACK C",
       "horas": 1.45,
       "falhas": 8,
@@ -153,6 +134,25 @@
         "3": {
           "horas": 1.0,
           "falhas": 5
+        }
+      }
+    },
+    {
+      "name": "MESPACK B",
+      "horas": 1.4,
+      "falhas": 6,
+      "por_turno": {
+        "1": {
+          "horas": 0.7,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.7,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
         }
       }
     },
@@ -227,7 +227,7 @@
     },
     "Mecânica": {
       "1": 6.0167,
-      "2": 6.9167,
+      "2": 6.8333,
       "3": 1.3833
     }
   },
@@ -821,7 +821,7 @@
     },
     {
       "mes": "julho",
-      "falhas": 3646
+      "falhas": 3645
     },
     {
       "mes": "agosto",

@@ -1,6 +1,6 @@
 {
   "date": "2026-06-18",
-  "updated_at": "2026-10-05T18:48",
+  "updated_at": "2026-10-05T19:04",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -487,6 +487,27 @@
   ],
   "parada_componentes": [
     {
+      "tag": "20446",
+      "componente": "BOMBA DE EXTRAÇÃO TANQUE PULMÃO MESPACKS A/B/2KG",
+      "equipamento": "MESPACK A",
+      "falhas": 2,
+      "horas": 5.1,
+      "por_turno": {
+        "1": {
+          "horas": 5.1,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
       "tag": "30463",
       "componente": "CABEÇOTE SUPERIOR 60L2",
       "equipamento": "60L2",
@@ -529,27 +550,6 @@
       }
     },
     {
-      "tag": "20459",
-      "componente": "BOMBA DE EXTRAÇÃO TANQUE PULMÃO MESPACKS C/D",
-      "equipamento": "MESPACK B",
-      "falhas": 2,
-      "horas": 2.9833,
-      "por_turno": {
-        "1": {
-          "horas": 2.55,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.4333,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "20559",
       "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK E ",
       "equipamento": "MESPACK E",
@@ -567,27 +567,6 @@
         "3": {
           "horas": 0.5833,
           "falhas": 1
-        }
-      }
-    },
-    {
-      "tag": "20446",
-      "componente": "BOMBA DE EXTRAÇÃO TANQUE PULMÃO MESPACKS A/B/2KG",
-      "equipamento": "MESPACK A",
-      "falhas": 1,
-      "horas": 2.55,
-      "por_turno": {
-        "1": {
-          "horas": 2.55,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
         }
       }
     },
@@ -800,6 +779,27 @@
           "falhas": 1
         }
       }
+    },
+    {
+      "tag": "20487",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "equipamento": "MESPACK A",
+      "falhas": 3,
+      "horas": 0.6667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.4667,
+          "falhas": 2
+        }
+      }
     }
   ],
   "evolucao_mensal": [
@@ -821,7 +821,7 @@
     },
     {
       "mes": "julho",
-      "falhas": 3646
+      "falhas": 3645
     },
     {
       "mes": "agosto",
