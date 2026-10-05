@@ -1,17 +1,17 @@
 {
   "date": "2026-10-03",
-  "updated_at": "2026-10-05T17:18",
+  "updated_at": "2026-10-05T17:49",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK R2",
-      "horas": 6.2,
-      "falhas": 32,
+      "horas": 3.7333,
+      "falhas": 31,
       "por_turno": {
         "1": {
-          "horas": 3.5,
-          "falhas": 11
+          "horas": 1.0333,
+          "falhas": 10
         },
         "2": {
           "horas": 2.3333,
@@ -20,25 +20,6 @@
         "3": {
           "horas": 0.3667,
           "falhas": 3
-        }
-      }
-    },
-    {
-      "name": "MESPACK R1",
-      "horas": 4.85,
-      "falhas": 22,
-      "por_turno": {
-        "1": {
-          "horas": 3.9,
-          "falhas": 10
-        },
-        "2": {
-          "horas": 0.7833,
-          "falhas": 10
-        },
-        "3": {
-          "horas": 0.1667,
-          "falhas": 2
         }
       }
     },
@@ -58,6 +39,25 @@
         "3": {
           "horas": 0.2333,
           "falhas": 4
+        }
+      }
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 2.5,
+      "falhas": 21,
+      "por_turno": {
+        "1": {
+          "horas": 1.55,
+          "falhas": 9
+        },
+        "2": {
+          "horas": 0.7833,
+          "falhas": 10
+        },
+        "3": {
+          "horas": 0.1667,
+          "falhas": 2
         }
       }
     },
@@ -131,7 +131,7 @@
       "3": 0.45
     },
     "Mecânica": {
-      "1": 7.4833,
+      "1": 2.6667,
       "2": 0.9833,
       "3": 0.45
     }
@@ -264,6 +264,27 @@
       }
     },
     {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 3,
+      "horas": 0.2667,
+      "por_turno": {
+        "1": {
+          "horas": 0.2667,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
       "tag": "31396",
       "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK R2",
       "equipamento": "MESPACK R2",
@@ -285,19 +306,19 @@
       }
     },
     {
-      "tag": "31407",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 3,
-      "horas": 0.2667,
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 0.1,
       "por_turno": {
         "1": {
-          "horas": 0.2667,
-          "falhas": 3
+          "horas": 0.0333,
+          "falhas": 1
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.0667,
+          "falhas": 1
         },
         "3": {
           "horas": 0.0,
@@ -323,27 +344,6 @@
         "3": {
           "horas": 0.1167,
           "falhas": 1
-        }
-      }
-    },
-    {
-      "tag": "31909",
-      "componente": "MANCAL LADO  OPORSTO TRAÇÃO DE ACIONAMENTO ESTEIRA TRANSPORTE CADENA TP-BJ-8",
-      "equipamento": "MESPACK R1",
-      "falhas": 2,
-      "horas": 4.8167,
-      "por_turno": {
-        "1": {
-          "horas": 4.8167,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
         }
       }
     },
@@ -391,27 +391,6 @@
     }
   ],
   "parada_componentes": [
-    {
-      "tag": "31909",
-      "componente": "MANCAL LADO  OPORSTO TRAÇÃO DE ACIONAMENTO ESTEIRA TRANSPORTE CADENA TP-BJ-8",
-      "equipamento": "MESPACK R1",
-      "falhas": 2,
-      "horas": 4.8167,
-      "por_turno": {
-        "1": {
-          "horas": 4.8167,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
     {
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
@@ -705,6 +684,27 @@
           "falhas": 1
         }
       }
+    },
+    {
+      "tag": "31190",
+      "componente": "CONJUNTO DE FACAS MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 1,
+      "horas": 0.1333,
+      "por_turno": {
+        "1": {
+          "horas": 0.1333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     }
   ],
   "evolucao_mensal": [
@@ -738,8 +738,22 @@
     },
     {
       "mes": "outubro",
-      "falhas": 419
+      "falhas": 417
     }
   ],
-  "horas_disp": {}
+  "horas_disp": {
+    "MESPACK A": 0.0,
+    "MESPACK B": 0.0,
+    "MESPACK C": 19.0,
+    "MESPACK D": 19.0,
+    "MESPACK E": 19.5,
+    "MESPACK F": 19.5,
+    "MESPACK R1": 15.0833,
+    "MESPACK R2": 15.0833,
+    "ENCHEDEIRA TOP DOWN": 20.0,
+    "ENCHEDEIRA COPO/LATA": 0.0,
+    "60L1": 8.0,
+    "60L2": 8.0,
+    "CONDOR": 8.0833
+  }
 }
