@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updated_at": "2026-10-05T13:52",
+  "updated_at": "2026-10-05T13:57",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -327,19 +327,19 @@
       }
     },
     {
-      "tag": "RB09",
-      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "tag": "31909",
+      "componente": "MANCAL LADO  OPORSTO TRAÇÃO DE ACIONAMENTO ESTEIRA TRANSPORTE CADENA TP-BJ-8",
       "equipamento": "MESPACK R1",
       "falhas": 2,
-      "horas": 0.1,
+      "horas": 4.8167,
       "por_turno": {
         "1": {
-          "horas": 0.0333,
-          "falhas": 1
+          "horas": 4.8167,
+          "falhas": 2
         },
         "2": {
-          "horas": 0.0667,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,
@@ -392,6 +392,27 @@
   ],
   "parada_componentes": [
     {
+      "tag": "31909",
+      "componente": "MANCAL LADO  OPORSTO TRAÇÃO DE ACIONAMENTO ESTEIRA TRANSPORTE CADENA TP-BJ-8",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 4.8167,
+      "por_turno": {
+        "1": {
+          "horas": 4.8167,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
@@ -409,27 +430,6 @@
         "3": {
           "horas": 0.3667,
           "falhas": 3
-        }
-      }
-    },
-    {
-      "tag": "31909",
-      "componente": "MANCAL LADO  OPORSTO TRAÇÃO DE ACIONAMENTO ESTEIRA TRANSPORTE CADENA TP-BJ-8",
-      "equipamento": "MESPACK R1",
-      "falhas": 1,
-      "horas": 2.35,
-      "por_turno": {
-        "1": {
-          "horas": 2.35,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
         }
       }
     },
