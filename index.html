@@ -44,7 +44,8 @@
   .tab-content{display:none;}
   .tab-content.active{display:block; animation:fadeIn .25s ease;}
   @keyframes fadeIn{from{opacity:0; transform:translateY(4px);} to{opacity:1; transform:translateY(0);}}
-  .kpis{display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:22px;}
+  .kpis{display:grid; grid-template-columns:repeat(6,1fr); gap:12px; margin-bottom:22px;}
+  @media(max-width:1100px){.kpis{grid-template-columns:repeat(3,1fr);}}
   @media(max-width:820px){.kpis{grid-template-columns:repeat(2,1fr);}}
   .kpi{background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:16px 18px; position:relative; overflow:hidden; box-shadow:0 1px 3px rgba(20,60,40,0.06);}
   .kpi::before{content:''; position:absolute; top:0; left:0; width:3px; height:100%; background:var(--kpi-accent, var(--cyan));}
@@ -55,6 +56,8 @@
   .kpi.crit-horas{--kpi-accent:var(--red);} .kpi.crit-horas .value{color:var(--red);}
   .kpi.crit-dias{--kpi-accent:var(--amber);} .kpi.crit-dias .value{color:var(--amber);}
   .kpi.crit-falhas{--kpi-accent:var(--blue);} .kpi.crit-falhas .value{color:var(--blue);}
+  .kpi.crit-disp{--kpi-accent:var(--green);} .kpi.crit-disp .value{color:var(--green);}
+  .kpi.crit-indisp{--kpi-accent:var(--red);} .kpi.crit-indisp .value{color:var(--red);}
   .section{margin-bottom:22px;}
   .section-head{display:flex; align-items:center; gap:10px; margin-bottom:12px;}
   .section-head h2{font-family:'Space Grotesk',sans-serif; font-size:14px; font-weight:600; letter-spacing:0.02em;}
@@ -301,7 +304,6 @@ async function init(){
     populateDateSelect(historyCache);
     populateMonthSelect(historyCache);
     const latest = await fetchJSON(DATA_DIR + 'latest.json');
-    window.__versaoMTBF = latest.updated_at;
     currentRawData = latest;
     currentBasePeriodHours = PERIOD_HOURS;
     currentIsPeriod = false;
@@ -368,7 +370,7 @@ function populateEquipSelect(data){
 async function loadDay(dateStr){
   try{
     const day = await fetchJSON(DATA_DIR + dateStr + '.json');
-    currentRawData = {...day, hdisp: day.horas_disp || null};
+    currentRawData = day;
     currentBasePeriodHours = PERIOD_HOURS;
     currentIsPeriod = false;
     currentDayCount = 1;
@@ -385,18 +387,38 @@ async function loadDates(dates, subtitleLabel){
 
   const equipMap = {};
   const turnos = {};
+  const dispAcc = { geral: {horas_disponiveis:0, horas_paradas:0}, departamentos: {} };
   validDays.forEach(day => {
     day.equip.forEach(e=>{
-      if(!equipMap[e.name]) equipMap[e.name] = {name:e.name, horas:0, falhas:0, por_turno:{}};
+      if(!equipMap[e.name]) equipMap[e.name] = {name:e.name, horas:0, falhas:0, horas_disponiveis:0, por_turno:{}};
       equipMap[e.name].horas += e.horas;
       equipMap[e.name].falhas += e.falhas;
+      equipMap[e.name].horas_disponiveis += (e.horas_disponiveis || 0);
       mergePorTurno(equipMap[e.name].por_turno, e.por_turno);
     });
     Object.entries(day.turnos).forEach(([dept, ts])=>{
       if(!turnos[dept]) turnos[dept] = {'1':0,'2':0,'3':0};
       ['1','2','3'].forEach(t => turnos[dept][t] += (ts[t]||0));
     });
+    if(day.disponibilidade){
+      dispAcc.geral.horas_disponiveis += day.disponibilidade.geral.horas_disponiveis || 0;
+      dispAcc.geral.horas_paradas += day.disponibilidade.geral.horas_paradas || 0;
+      Object.entries(day.disponibilidade.departamentos || {}).forEach(([dept, v])=>{
+        if(!dispAcc.departamentos[dept]) dispAcc.departamentos[dept] = {horas_disponiveis:0, horas_paradas:0};
+        dispAcc.departamentos[dept].horas_disponiveis += v.horas_disponiveis || 0;
+        dispAcc.departamentos[dept].horas_paradas += v.horas_paradas || 0;
+      });
+    }
   });
+  function fechaDisp(o){
+    const disp = o.horas_disponiveis > 0 ? Math.max(0,(1 - o.horas_paradas/o.horas_disponiveis))*100 : null;
+    return {horas_disponiveis: o.horas_disponiveis, horas_paradas: o.horas_paradas,
+      disponibilidade_pct: disp, indisponibilidade_pct: disp!=null ? 100-disp : null};
+  }
+  const disponibilidade = {
+    geral: fechaDisp(dispAcc.geral),
+    departamentos: Object.fromEntries(Object.entries(dispAcc.departamentos).map(([k,v])=>[k, fechaDisp(v)]))
+  };
 
   const topMap = {};
   validDays.forEach(day => {
@@ -412,18 +434,6 @@ async function loadDates(dates, subtitleLabel){
     });
   });
 
-  // horas disponíveis por máquina somadas no período (aba horas_disponiveis da planilha);
-  // dia sem a informação conta 24 h, como antes
-  let hdisp = null;
-  if(validDays.some(d => d.horas_disp && Object.keys(d.horas_disp).length)){
-    hdisp = {};
-    const nomes = new Set();
-    validDays.forEach(d => { Object.keys(d.horas_disp||{}).forEach(n=>nomes.add(n)); d.equip.forEach(e=>nomes.add(e.name.trim().toUpperCase())); });
-    validDays.forEach(d => {
-      const hd = d.horas_disp && Object.keys(d.horas_disp).length ? d.horas_disp : null;
-      nomes.forEach(n => { hdisp[n] = (hdisp[n]||0) + (hd ? (hd[n] ?? 0) : PERIOD_HOURS); });
-    });
-  }
   const lastDay = validDays[validDays.length-1];
   const todosItens = Object.values(topMap);
   currentRawData = {
@@ -431,12 +441,12 @@ async function loadDates(dates, subtitleLabel){
     updated_at: lastDay.updated_at,
     meta_mtbf: lastDay.meta_mtbf,
     dias_parados: validDays.length,
-    hdisp,
     equip: Object.values(equipMap).sort((a,b)=>b.horas-a.horas),
     turnos,
     top_falhas: [...todosItens].sort((a,b)=>b.falhas-a.falhas).slice(0,12),
     parada_componentes: [...todosItens].sort((a,b)=>b.horas-a.horas).slice(0,15),
-    evolucao_mensal: lastDay.evolucao_mensal
+    evolucao_mensal: lastDay.evolucao_mensal,
+    disponibilidade
   };
   currentBasePeriodHours = validDays.length * 24;
   currentIsPeriod = true;
@@ -497,7 +507,7 @@ function applyTurnoFilter(data, turno){
   const equip = data.equip
     .map(e => {
       const t = e.por_turno ? e.por_turno[turno] : null;
-      return {name: e.name, horas: t ? t.horas : 0, falhas: t ? t.falhas : 0};
+      return {name: e.name, horas: t ? t.horas : 0, falhas: t ? t.falhas : 0, horas_disponiveis: e.horas_disponiveis};
     })
     .filter(e => e.horas > 0 || e.falhas > 0)
     .sort((a,b)=>b.horas-a.horas);
@@ -555,15 +565,10 @@ function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipP
     document.getElementById('dateSelect').value = data.date;
   }
 
-  const fatorTurno = periodHours / (currentBasePeriodHours || periodHours);   // 1/3 quando filtrado por turno
-  const hDisp = e => {
-    const v = data.hdisp ? data.hdisp[e.name.trim().toUpperCase()] : undefined;
-    return (v === undefined || v === null) ? periodHours : v * fatorTurno;
-  };
   const EQUIP = data.equip.map(e => ({
-    name: e.name, horas: e.horas, falhas: e.falhas, hdisp: hDisp(e),
-    indisp: hDisp(e) ? e.horas/hDisp(e)*100 : 0,
-    mtbf_h: e.falhas ? Math.max(0, hDisp(e) - e.horas)/e.falhas : 0,
+    name: e.name, horas: e.horas, falhas: e.falhas, horas_disponiveis: e.horas_disponiveis,
+    indisp: e.horas/periodHours*100,
+    mtbf_h: e.falhas ? (periodHours - e.horas)/e.falhas : 0,
     mttr_h: e.falhas ? e.horas/e.falhas : 0
   }));
   const isSingleEquip = equipamentoFiltro && equipamentoFiltro !== 'all';
@@ -580,6 +585,20 @@ function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipP
   const diasParadosValue = isPeriod ? data.dias_parados : (TOTAL_HORAS > DIAS_PARADOS_LIMITE_HORAS ? 1 : 0);
   const diasParadosFoot = isPeriod ? 'dias com ocorrência de parada no período' : `1 = total do dia passou de ${DIAS_PARADOS_LIMITE_HORAS}h`;
 
+  // Disponibilidade/Indisponibilidade real, usando as horas programadas pelo PCP
+  // (aba horas_disponiveis) em vez de uma constante fixa — reage aos filtros de
+  // turno (divide por 3) e de máquina (usa a capacidade só daquele equipamento).
+  let horasDispBase = null;
+  if(isSingleEquip){
+    horasDispBase = EQUIP[0] ? EQUIP[0].horas_disponiveis : null;
+  }else if(currentRawData.disponibilidade && currentRawData.disponibilidade.geral){
+    horasDispBase = currentRawData.disponibilidade.geral.horas_disponiveis;
+  }
+  const horasDispDisplay = (horasDispBase != null) ? (turnoSel === 'all' ? horasDispBase : horasDispBase/3) : null;
+  const dispPct = (horasDispDisplay && horasDispDisplay > 0) ? Math.max(0, (1 - TOTAL_HORAS/horasDispDisplay))*100 : null;
+  const indispPct = dispPct != null ? (100 - dispPct) : null;
+  const dispFoot = isSingleEquip ? 'horas programadas do PCM para esta máquina' : 'horas programadas do PCM (todas as máquinas)';
+
   destroyCharts();
 
   const kpis = [
@@ -587,6 +606,8 @@ function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipP
     {label:'Horas paradas', value: hoursToHM(TOTAL_HORAS), cls:'crit-horas', foot:'acumulado do período'},
     {label:'Dias parados', value: diasParadosValue, cls:'crit-dias', foot: diasParadosFoot},
     {label:'Total de falhas', value: TOTAL_FALHAS, cls:'crit-falhas', foot:'registradas em todos os equipamentos'},
+    {label:'Disponibilidade', value: dispPct!=null ? dispPct.toFixed(2).replace('.',',')+'%' : '—', cls:'crit-disp', foot: dispFoot},
+    {label:'Indisponibilidade', value: indispPct!=null ? indispPct.toFixed(2).replace('.',',')+'%' : '—', cls:'crit-indisp', foot: dispFoot},
   ];
   document.getElementById('kpiRow').innerHTML = kpis.map(k => `
     <div class="kpi ${k.cls}"><div class="label">${k.label}</div><div class="value">${k.value}</div><div class="foot">${k.foot}</div></div>`).join('');
@@ -808,32 +829,6 @@ document.querySelectorAll('.tab-btn').forEach(btn=>{
 });
 
 init();
-/* ===== Atualização automática: verifica dados novos a cada 2 min ===== */
-(function(){
-  const INTERVALO = 120000, OCIOSO = 180000;
-  let ultimaAcao = Date.now();
-  ['click','keydown','wheel','touchstart'].forEach(ev => addEventListener(ev, () => { ultimaAcao = Date.now(); }, {passive:true}));
-  function faixa(){
-    if (document.getElementById('autoUpd')) return;
-    const b = document.createElement('button');
-    b.id = 'autoUpd'; b.type = 'button';
-    b.textContent = 'Dados novos disponíveis · Atualizar';
-    b.style.cssText = 'position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:9999;'+
-      'background:#1E7A3C;color:#fff;border:0;border-radius:999px;padding:10px 18px;font:600 14px system-ui,sans-serif;box-shadow:0 4px 14px rgba(0,0,0,.25);cursor:pointer';
-    b.onclick = () => location.reload();
-    document.body.appendChild(b);
-  }
-  async function verificar(){
-    try{
-      const atual = await (async()=>{const r=await fetch(DATA_DIR+'latest.json?_='+Date.now(),{cache:'no-store'});if(!r.ok)return null;return (await r.json()).updated_at})();
-      if (!atual || atual === (window.__versaoMTBF)) return;
-      if (Date.now() - ultimaAcao > OCIOSO) location.reload(); else faixa();
-    }catch(e){ /* sem rede ou fora do GitHub Pages: tenta de novo depois */ }
-  }
-  setInterval(verificar, INTERVALO);
-  document.addEventListener('visibilitychange', () => { if (!document.hidden) verificar(); });
-})();
-
 </script>
 </body>
 </html>
