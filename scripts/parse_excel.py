@@ -85,6 +85,51 @@ def calc_disponibilidade(sub, hd_df, target_date):
     }
 
 
+def calc_mensal(df, hd_df, target_date, meta_mtbf):
+    """Acumulado do mês (do dia 1 até target_date) de TODOS os departamentos
+    somados: falhas, horas paradas, horas disponíveis reais, MTBF mensal (min),
+    disponibilidade e status contra a meta. Mesma conta da aba IMPORTAÇÃO NECTAR
+    (H23:I29): MTBF = ((H disponíveis - H paradas) / falhas) * 60."""
+    inicio = pd.Timestamp(target_date.year, target_date.month, 1)
+    fim = pd.Timestamp(target_date) + pd.Timedelta(days=1)  # exclusivo
+
+    mes = df[(df["Data Inicio"] >= inicio) & (df["Data Inicio"] < fim)]
+    falhas = int(mes["Falhas"].sum())
+    horas_paradas = float(mes["Tempo Parada (h decimal)"].sum())
+
+    if hd_df is not None:
+        hd_mes = hd_df[(hd_df["Data"] >= inicio) & (hd_df["Data"] < fim)]
+        horas_disp = float(hd_mes["Minutos"].sum()) / 60.0
+    else:
+        horas_disp = 0.0
+
+    mtbf_min = None
+    disp_pct = None
+    if horas_disp > 0:
+        disp_pct = max(0.0, (1 - horas_paradas / horas_disp)) * 100
+        if falhas > 0:
+            mtbf_min = ((horas_disp - horas_paradas) / falhas) * 60
+
+    if mtbf_min is None:
+        status = None
+    else:
+        status = "atingida" if mtbf_min >= meta_mtbf else "abaixo"
+
+    return {
+        "mes": MONTH_ORDER[target_date.month - 1],
+        "ano": target_date.year,
+        "ate": target_date.isoformat(),
+        "falhas": falhas,
+        "horas_paradas": round(horas_paradas, 4),
+        "horas_disponiveis": round(horas_disp, 4),
+        "mtbf_min": round(mtbf_min, 4) if mtbf_min is not None else None,
+        "disponibilidade_pct": round(disp_pct, 4) if disp_pct is not None else None,
+        "indisponibilidade_pct": round(100 - disp_pct, 4) if disp_pct is not None else None,
+        "meta_mtbf": meta_mtbf,
+        "status": status,
+    }
+
+
 def horas_disponiveis_por_equip(hd_df, target_date):
     """dict {equipamento: horas disponíveis reais naquele dia}, com fallback de 22h
     para equipamentos sem linha na aba horas_disponiveis nessa data."""
@@ -207,6 +252,7 @@ def process_date(df, target_date, args, hd_df=None):
         "parada_componentes": parada_componentes,
         "evolucao_mensal": evolucao,
         "disponibilidade": disponibilidade,
+        "mensal": calc_mensal(df, hd_df, target_date, args.meta_mtbf),
     }
 
 
@@ -215,7 +261,7 @@ def main():
     ap.add_argument("--file", required=True, help="Caminho do arquivo .xlsm/.xlsx")
     ap.add_argument("--date", default=None, help="Data AAAA-MM-DD, 'all' para reprocessar todo o histórico, ou omitido para a última data da planilha.")
     ap.add_argument("--outdir", default="data", help="Pasta de saida dos JSON")
-    ap.add_argument("--meta-mtbf", type=float, default=300, help="Meta MTBF mensal (h)")
+    ap.add_argument("--meta-mtbf", type=float, default=300, help="Meta MTBF mensal (minutos)")
     ap.add_argument("--dias-parados", type=int, default=0, help="KPI Dias Parados (definido manualmente)")
     args = ap.parse_args()
 
