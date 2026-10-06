@@ -56,6 +56,11 @@
   .kpi.crit-horas{--kpi-accent:var(--red);} .kpi.crit-horas .value{color:var(--red);}
   .kpi.crit-dias{--kpi-accent:var(--amber);} .kpi.crit-dias .value{color:var(--amber);}
   .kpi.crit-falhas{--kpi-accent:var(--blue);} .kpi.crit-falhas .value{color:var(--blue);}
+  .kpi.crit-mtbf-ok{--kpi-accent:var(--green);} .kpi.crit-mtbf-ok .value{color:var(--green);}
+  .kpi.crit-mtbf-bad{--kpi-accent:var(--red);} .kpi.crit-mtbf-bad .value{color:var(--red);}
+  .kpi .status{display:inline-block; margin-top:8px; padding:2px 8px; border-radius:999px; font-size:11px; font-weight:600;}
+  .kpi.crit-mtbf-ok .status{background:#E3F4E9; color:var(--green);}
+  .kpi.crit-mtbf-bad .status{background:#FBE7E6; color:var(--red);}
   .kpi.crit-disp{--kpi-accent:var(--green);} .kpi.crit-disp .value{color:var(--green);}
   .kpi.crit-indisp{--kpi-accent:var(--red);} .kpi.crit-indisp .value{color:var(--red);}
   .section{margin-bottom:22px;}
@@ -446,7 +451,8 @@ async function loadDates(dates, subtitleLabel){
     top_falhas: [...todosItens].sort((a,b)=>b.falhas-a.falhas).slice(0,12),
     parada_componentes: [...todosItens].sort((a,b)=>b.horas-a.horas).slice(0,15),
     evolucao_mensal: lastDay.evolucao_mensal,
-    disponibilidade
+    disponibilidade,
+    mensal: lastDay.mensal
   };
   currentBasePeriodHours = validDays.length * 24;
   currentIsPeriod = true;
@@ -597,12 +603,27 @@ function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipP
   const horasDispDisplay = (horasDispBase != null) ? (turnoSel === 'all' ? horasDispBase : horasDispBase/3) : null;
   const dispPct = (horasDispDisplay && horasDispDisplay > 0) ? Math.max(0, (1 - TOTAL_HORAS/horasDispDisplay))*100 : null;
   const indispPct = dispPct != null ? (100 - dispPct) : null;
-  const dispFoot = isSingleEquip ? 'horas programadas do PCP para esta máquina' : 'horas programadas do PCP (todas as máquinas)';
+  const dispFoot = isSingleEquip ? 'horas programadas do PCM para esta máquina' : 'horas programadas do PCM (todas as máquinas)';
 
   destroyCharts();
 
+  // Meta mensal de MTBF: MTBF do mês (todos os departamentos somados, horas reais do PCP)
+  // contra a meta e status. Não reage aos filtros de turno/máquina (é do mês inteiro).
+  const M = currentRawData.mensal;
+  let metaCard;
+  if(M && M.mtbf_min != null){
+    const ok = M.status === 'atingida';
+    const dispMes = M.disponibilidade_pct != null ? ' · disp. do mês ' + M.disponibilidade_pct.toFixed(2).replace('.',',') + '%' : '';
+    metaCard = {label:`MTBF mensal · ${M.mes}`, cls: ok ? 'crit-mtbf-ok' : 'crit-mtbf-bad',
+      value: Math.round(M.mtbf_min) + ' min',
+      foot: `meta ${M.meta_mtbf} min · acumulado até ${fmtDateBR(M.ate)}${dispMes}`,
+      status: ok ? '✅ Meta atingida' : '⚠️ Abaixo da meta'};
+  }else{
+    metaCard = {label:'Meta MTBF mensal', value: data.meta_mtbf, cls:'crit-meta', foot:'referência definida pelo PCM'};
+  }
+
   const kpis = [
-    {label:'Meta MTBF mensal', value: data.meta_mtbf, cls:'crit-meta', foot:'META >300'},
+    metaCard,
     {label:'Horas paradas', value: hoursToHM(TOTAL_HORAS), cls:'crit-horas', foot:'acumulado do período'},
     {label:'Dias parados', value: diasParadosValue, cls:'crit-dias', foot: diasParadosFoot},
     {label:'Total de falhas', value: TOTAL_FALHAS, cls:'crit-falhas', foot:'registradas em todos os equipamentos'},
@@ -610,7 +631,7 @@ function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipP
     {label:'Indisponibilidade', value: indispPct!=null ? indispPct.toFixed(2).replace('.',',')+'%' : '—', cls:'crit-indisp', foot: dispFoot},
   ];
   document.getElementById('kpiRow').innerHTML = kpis.map(k => `
-    <div class="kpi ${k.cls}"><div class="label">${k.label}</div><div class="value">${k.value}</div><div class="foot">${k.foot}</div></div>`).join('');
+    <div class="kpi ${k.cls}"><div class="label">${k.label}</div><div class="value">${k.value}</div><div class="foot">${k.foot}</div>${k.status ? `<div class="status">${k.status}</div>` : ''}</div>`).join('');
 
   const equipByHoras = [...EQUIP].sort((a,b)=>b.horas-a.horas);
   charts.horas = new Chart(document.getElementById('chartHoras'), {
