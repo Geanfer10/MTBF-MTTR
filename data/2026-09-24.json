@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "updated_at": "2026-10-06T11:07",
+  "updated_at": "2026-10-06T11:46",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -205,7 +205,7 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
       "falhas": 18,
       "horas": 1.4,
@@ -226,7 +226,7 @@
     },
     {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
       "equipamento": "MESPACK E",
       "falhas": 11,
       "horas": 0.9333,
@@ -246,8 +246,29 @@
       }
     },
     {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 10,
+      "horas": 1.0333,
+      "por_turno": {
+        "1": {
+          "horas": 0.2167,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.75,
+          "falhas": 7
+        },
+        "3": {
+          "horas": 0.0667,
+          "falhas": 1
+        }
+      }
+    },
+    {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
       "equipamento": "MESPACK F",
       "falhas": 9,
       "horas": 0.5,
@@ -267,29 +288,29 @@
       }
     },
     {
-      "tag": "31407",
-      "componente": "AJUSTE NAS PINÇAS",
-      "equipamento": "MESPACK R2",
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "equipamento": "MESPACK R1",
       "falhas": 6,
-      "horas": 0.7167,
+      "horas": 0.65,
       "por_turno": {
         "1": {
-          "horas": 0.15,
-          "falhas": 1
+          "horas": 0.5667,
+          "falhas": 5
         },
         "2": {
-          "horas": 0.5,
-          "falhas": 4
+          "horas": 0.0833,
+          "falhas": 1
         },
         "3": {
-          "horas": 0.0667,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         }
       }
     },
     {
       "tag": "20367",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
       "equipamento": "ENCHEDEIRA TOP DOWN",
       "falhas": 5,
       "horas": 2.9833,
@@ -309,40 +330,19 @@
       }
     },
     {
-      "tag": "31194",
-      "componente": "AJUSTE NAS PINÇAS",
+      "tag": "31191",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
       "equipamento": "MESPACK R1",
       "falhas": 5,
-      "horas": 0.45,
-      "por_turno": {
-        "1": {
-          "horas": 0.3667,
-          "falhas": 4
-        },
-        "2": {
-          "horas": 0.0833,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "31191",
-      "componente": "AJUSTE DE VENTOSAS",
-      "equipamento": "MESPACK R1",
-      "falhas": 4,
-      "horas": 0.25,
+      "horas": 0.3167,
       "por_turno": {
         "1": {
           "horas": 0.0667,
           "falhas": 1
         },
         "2": {
-          "horas": 0.15,
-          "falhas": 2
+          "horas": 0.2167,
+          "falhas": 3
         },
         "3": {
           "horas": 0.0333,
@@ -352,7 +352,7 @@
     },
     {
       "tag": "31306",
-      "componente": "AJUSTE NA MORDAÇA SUPERIOR",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK F",
       "equipamento": "MESPACK F",
       "falhas": 3,
       "horas": 0.1667,
@@ -372,29 +372,8 @@
       }
     },
     {
-      "tag": "31198",
-      "componente": "BICO DOSADOR ENTUPIDO",
-      "equipamento": "MESPACK R1",
-      "falhas": 3,
-      "horas": 0.1,
-      "por_turno": {
-        "1": {
-          "horas": 0.1,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "20665",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "TRATAMENTO DE AR COMPRIMIDO (TOLVA) - MESPACK E",
       "equipamento": "MESPACK E",
       "falhas": 3,
       "horas": 4.7333,
@@ -414,19 +393,19 @@
       }
     },
     {
-      "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
       "equipamento": "MESPACK R1",
       "falhas": 3,
-      "horas": 0.15,
+      "horas": 0.1,
       "por_turno": {
         "1": {
-          "horas": 0.05,
-          "falhas": 1
+          "horas": 0.1,
+          "falhas": 3
         },
         "2": {
-          "horas": 0.1,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,
@@ -435,8 +414,29 @@
       }
     },
     {
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 3,
+      "horas": 0.15,
+      "por_turno": {
+        "1": {
+          "horas": 0.05,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0667,
+          "falhas": 1
+        }
+      }
+    },
+    {
       "tag": "31405",
-      "componente": "AJUSTE DO ESTICADOR",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK R2",
       "equipamento": "MESPACK R2",
       "falhas": 3,
       "horas": 0.1333,
@@ -459,7 +459,7 @@
   "parada_componentes": [
     {
       "tag": "20665",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "TRATAMENTO DE AR COMPRIMIDO (TOLVA) - MESPACK E",
       "equipamento": "MESPACK E",
       "falhas": 3,
       "horas": 4.7333,
@@ -480,7 +480,7 @@
     },
     {
       "tag": "20367",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
       "equipamento": "ENCHEDEIRA TOP DOWN",
       "falhas": 5,
       "horas": 2.9833,
@@ -501,7 +501,7 @@
     },
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
       "falhas": 18,
       "horas": 1.4,
@@ -522,7 +522,7 @@
     },
     {
       "tag": "TRS01",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "TRANSFER DE BANDEJA ",
       "equipamento": "MESPACK R2",
       "falhas": 1,
       "horas": 1.2,
@@ -543,7 +543,7 @@
     },
     {
       "tag": "31396",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK R2",
       "equipamento": "MESPACK R1",
       "falhas": 2,
       "horas": 1.1833,
@@ -563,8 +563,29 @@
       }
     },
     {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 10,
+      "horas": 1.0333,
+      "por_turno": {
+        "1": {
+          "horas": 0.2167,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.75,
+          "falhas": 7
+        },
+        "3": {
+          "horas": 0.0667,
+          "falhas": 1
+        }
+      }
+    },
+    {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
       "equipamento": "MESPACK E",
       "falhas": 11,
       "horas": 0.9333,
@@ -585,7 +606,7 @@
     },
     {
       "tag": "31185",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK R1",
       "equipamento": "MESPACK R1",
       "falhas": 2,
       "horas": 0.7833,
@@ -605,29 +626,29 @@
       }
     },
     {
-      "tag": "31407",
-      "componente": "AJUSTE NAS PINÇAS",
-      "equipamento": "MESPACK R2",
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "equipamento": "MESPACK R1",
       "falhas": 6,
-      "horas": 0.7167,
+      "horas": 0.65,
       "por_turno": {
         "1": {
-          "horas": 0.15,
-          "falhas": 1
+          "horas": 0.5667,
+          "falhas": 5
         },
         "2": {
-          "horas": 0.5,
-          "falhas": 4
+          "horas": 0.0833,
+          "falhas": 1
         },
         "3": {
-          "horas": 0.0667,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         }
       }
     },
     {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
       "equipamento": "MESPACK F",
       "falhas": 9,
       "horas": 0.5,
@@ -648,7 +669,7 @@
     },
     {
       "tag": "20496",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "CONJUNTO DESBOBINADOR MESPACK B ",
       "equipamento": "MESPACK B",
       "falhas": 1,
       "horas": 0.4833,
@@ -668,29 +689,8 @@
       }
     },
     {
-      "tag": "31194",
-      "componente": "AJUSTE NAS PINÇAS",
-      "equipamento": "MESPACK R1",
-      "falhas": 5,
-      "horas": 0.45,
-      "por_turno": {
-        "1": {
-          "horas": 0.3667,
-          "falhas": 4
-        },
-        "2": {
-          "horas": 0.0833,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "20162",
-      "componente": "MANUTENÇÃO MECÂNICA",
+      "componente": "VÁLVULA DE PRODUTO ENCHEDEIRA COPO/LATA",
       "equipamento": "ENCHEDEIRA COPO/LATA",
       "falhas": 1,
       "horas": 0.45,
@@ -710,8 +710,29 @@
       }
     },
     {
+      "tag": "31191",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 5,
+      "horas": 0.3167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.2167,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0333,
+          "falhas": 1
+        }
+      }
+    },
+    {
       "tag": "RD01",
-      "componente": "MANUTENÇÃO ELÉTRICA",
+      "componente": "REDLER",
       "equipamento": "MESPACK R1",
       "falhas": 1,
       "horas": 0.2833,
@@ -732,7 +753,7 @@
     },
     {
       "tag": "TF-BJ5",
-      "componente": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
+      "componente": "TRANSFERIDO DE BANDEJA TF-BJ5",
       "equipamento": "MESPACK R2",
       "falhas": 2,
       "horas": 0.2833,
@@ -747,27 +768,6 @@
         },
         "3": {
           "horas": 0.15,
-          "falhas": 1
-        }
-      }
-    },
-    {
-      "tag": "31191",
-      "componente": "AJUSTE DE VENTOSAS",
-      "equipamento": "MESPACK R1",
-      "falhas": 4,
-      "horas": 0.25,
-      "por_turno": {
-        "1": {
-          "horas": 0.0667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.15,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0333,
           "falhas": 1
         }
       }
@@ -804,7 +804,7 @@
     },
     {
       "mes": "outubro",
-      "falhas": 417
+      "falhas": 526
     }
   ],
   "disponibilidade": {
