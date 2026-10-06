@@ -597,12 +597,12 @@ function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipP
   const horasDispDisplay = (horasDispBase != null) ? (turnoSel === 'all' ? horasDispBase : horasDispBase/3) : null;
   const dispPct = (horasDispDisplay && horasDispDisplay > 0) ? Math.max(0, (1 - TOTAL_HORAS/horasDispDisplay))*100 : null;
   const indispPct = dispPct != null ? (100 - dispPct) : null;
-  const dispFoot = isSingleEquip ? 'horas programadas do PCM para esta máquina' : 'horas programadas do PCM (todas as máquinas)';
+  const dispFoot = isSingleEquip ? 'horas programadas do PCP para esta máquina' : 'horas programadas do PCP (todas as máquinas)';
 
   destroyCharts();
 
   const kpis = [
-    {label:'Meta MTBF mensal', value: data.meta_mtbf, cls:'crit-meta', foot:'referência definida pelo PCM'},
+    {label:'Meta MTBF mensal', value: data.meta_mtbf, cls:'crit-meta', foot:'META >300'},
     {label:'Horas paradas', value: hoursToHM(TOTAL_HORAS), cls:'crit-horas', foot:'acumulado do período'},
     {label:'Dias parados', value: diasParadosValue, cls:'crit-dias', foot: diasParadosFoot},
     {label:'Total de falhas', value: TOTAL_FALHAS, cls:'crit-falhas', foot:'registradas em todos os equipamentos'},
