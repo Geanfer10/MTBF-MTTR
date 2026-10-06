@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "updated_at": "2026-10-05T20:20",
+  "updated_at": "2026-10-06T11:07",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -60,7 +60,7 @@
   "top_falhas": [
     {
       "tag": "20487",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "componente": "AJUSTE NAS PINÇAS",
       "equipamento": "MESPACK A",
       "falhas": 4,
       "horas": 0.7,
@@ -81,14 +81,14 @@
     },
     {
       "tag": "20479",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A ",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "MESPACK A",
-      "falhas": 3,
-      "horas": 0.8667,
+      "falhas": 2,
+      "horas": 0.2,
       "por_turno": {
         "1": {
-          "horas": 0.75,
-          "falhas": 2
+          "horas": 0.0833,
+          "falhas": 1
         },
         "2": {
           "horas": 0.1167,
@@ -101,29 +101,8 @@
       }
     },
     {
-      "tag": "20507",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
-      "equipamento": "MESPACK B",
-      "falhas": 3,
-      "horas": 0.4667,
-      "por_turno": {
-        "1": {
-          "horas": 0.2333,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.2333,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "20478",
-      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK A ",
+      "componente": "AJUSTE NA MORDAÇA INFERIOR",
       "equipamento": "MESPACK A",
       "falhas": 1,
       "horas": 0.0833,
@@ -143,8 +122,92 @@
       }
     },
     {
+      "tag": "20479",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.6667,
+      "por_turno": {
+        "1": {
+          "horas": 0.6667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20507",
+      "componente": "AJUSTE NAS PINÇAS",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.1167,
+      "por_turno": {
+        "1": {
+          "horas": 0.1167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20507",
+      "componente": "AJUSTE NO GUIA DE EMBALAGEM",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.1167,
+      "por_turno": {
+        "1": {
+          "horas": 0.1167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20507",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.2333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
       "tag": "20576",
-      "componente": "REDUTOR DE TRAÇÃO ESTEIRA DE SAIDA DE EMBALAGENS MESPACK A",
+      "componente": "ESTEIRA SAÍDA MESPACK QUEBRADA",
       "equipamento": "MESPACK A",
       "falhas": 1,
       "horas": 0.3333,
@@ -165,7 +228,7 @@
     },
     {
       "tag": "ELETRICA01",
-      "componente": "AGUARDANDO ELETRICA",
+      "componente": "AGUARDANDO ELETRICISTA",
       "equipamento": "MESPACK B",
       "falhas": 1,
       "horas": 0.1,
@@ -186,7 +249,7 @@
     },
     {
       "tag": "INK02",
-      "componente": "INKJET MESPACK B",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "MESPACK B",
       "falhas": 1,
       "horas": 0.05,
@@ -207,7 +270,7 @@
     },
     {
       "tag": "MECANICA01",
-      "componente": "AGUARDANDO MECANICO",
+      "componente": "AGUARDANDO MECÂNICO",
       "equipamento": "MESPACK A",
       "falhas": 1,
       "horas": 0.1667,
@@ -229,29 +292,8 @@
   ],
   "parada_componentes": [
     {
-      "tag": "20479",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A ",
-      "equipamento": "MESPACK A",
-      "falhas": 3,
-      "horas": 0.8667,
-      "por_turno": {
-        "1": {
-          "horas": 0.75,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.1167,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "20487",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "componente": "AJUSTE NAS PINÇAS",
       "equipamento": "MESPACK A",
       "falhas": 4,
       "horas": 0.7,
@@ -271,19 +313,19 @@
       }
     },
     {
-      "tag": "20507",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
-      "equipamento": "MESPACK B",
-      "falhas": 3,
-      "horas": 0.4667,
+      "tag": "20479",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.6667,
       "por_turno": {
         "1": {
-          "horas": 0.2333,
-          "falhas": 2
+          "horas": 0.6667,
+          "falhas": 1
         },
         "2": {
-          "horas": 0.2333,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,
@@ -293,7 +335,7 @@
     },
     {
       "tag": "20576",
-      "componente": "REDUTOR DE TRAÇÃO ESTEIRA DE SAIDA DE EMBALAGENS MESPACK A",
+      "componente": "ESTEIRA SAÍDA MESPACK QUEBRADA",
       "equipamento": "MESPACK A",
       "falhas": 1,
       "horas": 0.3333,
@@ -313,8 +355,50 @@
       }
     },
     {
+      "tag": "20507",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.2333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20479",
+      "componente": "MANUTENÇÃO ELÉTRICA",
+      "equipamento": "MESPACK A",
+      "falhas": 2,
+      "horas": 0.2,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.1167,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
       "tag": "MECANICA01",
-      "componente": "AGUARDANDO MECANICO",
+      "componente": "AGUARDANDO MECÂNICO",
       "equipamento": "MESPACK A",
       "falhas": 1,
       "horas": 0.1667,
@@ -334,8 +418,50 @@
       }
     },
     {
+      "tag": "20507",
+      "componente": "AJUSTE NO GUIA DE EMBALAGEM",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.1167,
+      "por_turno": {
+        "1": {
+          "horas": 0.1167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20507",
+      "componente": "AJUSTE NAS PINÇAS",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.1167,
+      "por_turno": {
+        "1": {
+          "horas": 0.1167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
       "tag": "ELETRICA01",
-      "componente": "AGUARDANDO ELETRICA",
+      "componente": "AGUARDANDO ELETRICISTA",
       "equipamento": "MESPACK B",
       "falhas": 1,
       "horas": 0.1,
@@ -356,7 +482,7 @@
     },
     {
       "tag": "20478",
-      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK A ",
+      "componente": "AJUSTE NA MORDAÇA INFERIOR",
       "equipamento": "MESPACK A",
       "falhas": 1,
       "horas": 0.0833,
@@ -377,7 +503,7 @@
     },
     {
       "tag": "INK02",
-      "componente": "INKJET MESPACK B",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "MESPACK B",
       "falhas": 1,
       "horas": 0.05,

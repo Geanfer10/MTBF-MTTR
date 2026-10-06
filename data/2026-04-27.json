@@ -1,6 +1,6 @@
 {
   "date": "2026-04-27",
-  "updated_at": "2026-10-05T20:20",
+  "updated_at": "2026-10-06T11:07",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -100,10 +100,10 @@
   "top_falhas": [
     {
       "tag": "20532",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK C",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "MESPACK C",
-      "falhas": 4,
-      "horas": 0.4333,
+      "falhas": 3,
+      "horas": 0.2667,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -114,77 +114,14 @@
           "falhas": 3
         },
         "3": {
-          "horas": 0.1667,
-          "falhas": 1
-        }
-      }
-    },
-    {
-      "tag": "20527",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
-      "equipamento": "MESPACK C",
-      "falhas": 3,
-      "horas": 1.0667,
-      "por_turno": {
-        "1": {
-          "horas": 1.0667,
-          "falhas": 3
-        },
-        "2": {
           "horas": 0.0,
           "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "20547",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
-      "equipamento": "MESPACK D",
-      "falhas": 3,
-      "horas": 0.2333,
-      "por_turno": {
-        "1": {
-          "horas": 0.0833,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.15,
-          "falhas": 2
-        }
-      }
-    },
-    {
-      "tag": "20478",
-      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK A ",
-      "equipamento": "MESPACK A",
-      "falhas": 2,
-      "horas": 0.5167,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.5167,
-          "falhas": 2
         }
       }
     },
     {
       "tag": "20507",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "componente": "AJUSTE NAS PINÇAS",
       "equipamento": "MESPACK B",
       "falhas": 2,
       "horas": 0.15,
@@ -204,14 +141,35 @@
       }
     },
     {
-      "tag": "20512",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
-      "equipamento": "MESPACK B",
+      "tag": "20547",
+      "componente": "AJUSTE NAS PINÇAS",
+      "equipamento": "MESPACK D",
       "falhas": 2,
-      "horas": 0.1667,
+      "horas": 0.15,
       "por_turno": {
         "1": {
-          "horas": 0.1667,
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0667,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20527",
+      "componente": "AJUSTE NAS PINÇAS",
+      "equipamento": "MESPACK C",
+      "falhas": 2,
+      "horas": 0.3333,
+      "por_turno": {
+        "1": {
+          "horas": 0.3333,
           "falhas": 2
         },
         "2": {
@@ -225,29 +183,50 @@
       }
     },
     {
-      "tag": "20544",
-      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK D ",
-      "equipamento": "MESPACK D",
-      "falhas": 2,
-      "horas": 0.85,
+      "tag": "20478",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.4,
       "por_turno": {
         "1": {
-          "horas": 0.1667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.6833,
-          "falhas": 1
-        },
-        "3": {
           "horas": 0.0,
           "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.4,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20478",
+      "componente": "MANUTENÇÃO ELÉTRICA",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.1167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1167,
+          "falhas": 1
         }
       }
     },
     {
       "tag": "20519",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
+      "componente": "MANUTENÇÃO MECÂNICA",
       "equipamento": "MESPACK C",
       "falhas": 1,
       "horas": 0.1333,
@@ -268,7 +247,7 @@
     },
     {
       "tag": "20522",
-      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK C ",
+      "componente": "AJUSTE NO ARRASTE",
       "equipamento": "MESPACK C",
       "falhas": 1,
       "horas": 0.25,
@@ -288,11 +267,53 @@
       }
     },
     {
-      "tag": "20545",
-      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK D ",
-      "equipamento": "MESPACK D",
+      "tag": "20512",
+      "componente": "TROCA DE BICO",
+      "equipamento": "MESPACK B",
       "falhas": 1,
-      "horas": 0.0667,
+      "horas": 0.1333,
+      "por_turno": {
+        "1": {
+          "horas": 0.1333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20512",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.0333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20532",
+      "componente": "AJUSTE NO BICO DE DOSAGEM",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.1667,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -303,41 +324,20 @@
           "falhas": 0
         },
         "3": {
-          "horas": 0.0667,
+          "horas": 0.1667,
           "falhas": 1
         }
       }
     },
     {
-      "tag": "20552",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK D",
-      "equipamento": "MESPACK D",
+      "tag": "20527",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "equipamento": "MESPACK C",
       "falhas": 1,
-      "horas": 0.1,
+      "horas": 0.7333,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.1,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "PS04",
-      "componente": "PASTEURIZADOR C-D",
-      "equipamento": "MESPACK D",
-      "falhas": 1,
-      "horas": 0.8833,
-      "por_turno": {
-        "1": {
-          "horas": 0.8833,
+          "horas": 0.7333,
           "falhas": 1
         },
         "2": {
@@ -353,29 +353,8 @@
   ],
   "parada_componentes": [
     {
-      "tag": "20527",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
-      "equipamento": "MESPACK C",
-      "falhas": 3,
-      "horas": 1.0667,
-      "por_turno": {
-        "1": {
-          "horas": 1.0667,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "PS04",
-      "componente": "PASTEURIZADOR C-D",
+      "componente": "MANUTENÇÃO MECÂNICA",
       "equipamento": "MESPACK D",
       "falhas": 1,
       "horas": 0.8833,
@@ -395,15 +374,36 @@
       }
     },
     {
-      "tag": "20544",
-      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK D ",
-      "equipamento": "MESPACK D",
-      "falhas": 2,
-      "horas": 0.85,
+      "tag": "20527",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.7333,
       "por_turno": {
         "1": {
-          "horas": 0.1667,
+          "horas": 0.7333,
           "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20544",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "equipamento": "MESPACK D",
+      "falhas": 1,
+      "horas": 0.6833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
         },
         "2": {
           "horas": 0.6833,
@@ -417,10 +417,10 @@
     },
     {
       "tag": "20478",
-      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK A ",
+      "componente": "MANUTENÇÃO MECÂNICA",
       "equipamento": "MESPACK A",
-      "falhas": 2,
-      "horas": 0.5167,
+      "falhas": 1,
+      "horas": 0.4,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -431,17 +431,38 @@
           "falhas": 0
         },
         "3": {
-          "horas": 0.5167,
+          "horas": 0.4,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20527",
+      "componente": "AJUSTE NAS PINÇAS",
+      "equipamento": "MESPACK C",
+      "falhas": 2,
+      "horas": 0.3333,
+      "por_turno": {
+        "1": {
+          "horas": 0.3333,
           "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
         }
       }
     },
     {
       "tag": "20532",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK C",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "MESPACK C",
-      "falhas": 4,
-      "horas": 0.4333,
+      "falhas": 3,
+      "horas": 0.2667,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -452,14 +473,14 @@
           "falhas": 3
         },
         "3": {
-          "horas": 0.1667,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         }
       }
     },
     {
       "tag": "20522",
-      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK C ",
+      "componente": "AJUSTE NO ARRASTE",
       "equipamento": "MESPACK C",
       "falhas": 1,
       "horas": 0.25,
@@ -479,11 +500,53 @@
       }
     },
     {
-      "tag": "20547",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "tag": "20532",
+      "componente": "AJUSTE NO BICO DE DOSAGEM",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.1667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1667,
+          "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20544",
+      "componente": "AJUSTE DE VENTOSAS",
       "equipamento": "MESPACK D",
-      "falhas": 3,
-      "horas": 0.2333,
+      "falhas": 1,
+      "horas": 0.1667,
+      "por_turno": {
+        "1": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20547",
+      "componente": "AJUSTE NAS PINÇAS",
+      "equipamento": "MESPACK D",
+      "falhas": 2,
+      "horas": 0.15,
       "por_turno": {
         "1": {
           "horas": 0.0833,
@@ -494,35 +557,14 @@
           "falhas": 0
         },
         "3": {
-          "horas": 0.15,
-          "falhas": 2
-        }
-      }
-    },
-    {
-      "tag": "20512",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
-      "equipamento": "MESPACK B",
-      "falhas": 2,
-      "horas": 0.1667,
-      "por_turno": {
-        "1": {
-          "horas": 0.1667,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.0667,
+          "falhas": 1
         }
       }
     },
     {
       "tag": "20507",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "componente": "AJUSTE NAS PINÇAS",
       "equipamento": "MESPACK B",
       "falhas": 2,
       "horas": 0.15,
@@ -543,7 +585,7 @@
     },
     {
       "tag": "20519",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
+      "componente": "MANUTENÇÃO MECÂNICA",
       "equipamento": "MESPACK C",
       "falhas": 1,
       "horas": 0.1333,
@@ -563,8 +605,50 @@
       }
     },
     {
+      "tag": "20512",
+      "componente": "TROCA DE BICO",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.1333,
+      "por_turno": {
+        "1": {
+          "horas": 0.1333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20478",
+      "componente": "MANUTENÇÃO ELÉTRICA",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.1167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1167,
+          "falhas": 1
+        }
+      }
+    },
+    {
       "tag": "20552",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK D",
+      "componente": "MANUTENÇÃO MECÂNICA",
       "equipamento": "MESPACK D",
       "falhas": 1,
       "horas": 0.1,
@@ -580,27 +664,6 @@
         "3": {
           "horas": 0.0,
           "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "20545",
-      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK D ",
-      "equipamento": "MESPACK D",
-      "falhas": 1,
-      "horas": 0.0667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0667,
-          "falhas": 1
         }
       }
     }

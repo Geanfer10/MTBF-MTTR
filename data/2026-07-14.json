@@ -1,6 +1,6 @@
 {
   "date": "2026-07-14",
-  "updated_at": "2026-10-05T20:20",
+  "updated_at": "2026-10-06T11:07",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -245,39 +245,39 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA R2",
+      "componente": "FALTA DE GRELHA (BANDEJA)",
       "equipamento": "MESPACK R2",
-      "falhas": 31,
-      "horas": 5.4833,
+      "falhas": 28,
+      "horas": 5.2333,
       "por_turno": {
         "1": {
-          "horas": 0.9333,
-          "falhas": 9
+          "horas": 0.8667,
+          "falhas": 8
         },
         "2": {
-          "horas": 1.5667,
-          "falhas": 14
+          "horas": 1.5,
+          "falhas": 13
         },
         "3": {
-          "horas": 2.9833,
-          "falhas": 8
+          "horas": 2.8667,
+          "falhas": 7
         }
       }
     },
     {
       "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA R1",
+      "componente": "FALTA DE GRELHA (BANDEJA)",
       "equipamento": "MESPACK R1",
-      "falhas": 21,
-      "horas": 1.6333,
+      "falhas": 18,
+      "horas": 1.4833,
       "por_turno": {
         "1": {
-          "horas": 0.7667,
-          "falhas": 10
+          "horas": 0.6833,
+          "falhas": 8
         },
         "2": {
-          "horas": 0.4333,
-          "falhas": 6
+          "horas": 0.3667,
+          "falhas": 5
         },
         "3": {
           "horas": 0.4333,
@@ -287,7 +287,7 @@
     },
     {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
       "equipamento": "MESPACK E",
       "falhas": 16,
       "horas": 1.55,
@@ -308,7 +308,7 @@
     },
     {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
       "equipamento": "MESPACK F",
       "falhas": 8,
       "horas": 0.5667,
@@ -329,7 +329,7 @@
     },
     {
       "tag": "20490",
-      "componente": "CONJUNTO TANQUE DE PRODUTO MESPACK A ",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "MESPACK A",
       "falhas": 6,
       "horas": 1.1667,
@@ -349,71 +349,8 @@
       }
     },
     {
-      "tag": "20542",
-      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK D ",
-      "equipamento": "MESPACK D",
-      "falhas": 4,
-      "horas": 2.1333,
-      "por_turno": {
-        "1": {
-          "horas": 1.65,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.4833,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "20527",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
-      "equipamento": "MESPACK C",
-      "falhas": 4,
-      "horas": 0.25,
-      "por_turno": {
-        "1": {
-          "horas": 0.1167,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.1333,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "32065",
-      "componente": "SISTEMA DE SENSORES ELEVADOR DE BANDEJA TF-BJ1-1",
-      "equipamento": "MESPACK R2",
-      "falhas": 3,
-      "horas": 1.1667,
-      "por_turno": {
-        "1": {
-          "horas": 1.1667,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "20524",
-      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK C ",
+      "componente": "AJUSTE DE VENTOSAS",
       "equipamento": "MESPACK C",
       "falhas": 3,
       "horas": 0.2167,
@@ -433,11 +370,32 @@
       }
     },
     {
-      "tag": "20567",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
-      "equipamento": "MESPACK E",
+      "tag": "32065",
+      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "equipamento": "MESPACK R2",
       "falhas": 3,
-      "horas": 0.7833,
+      "horas": 1.1667,
+      "por_turno": {
+        "1": {
+          "horas": 1.1667,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20567",
+      "componente": "AJUSTE NAS PINÇAS",
+      "equipamento": "MESPACK E",
+      "falhas": 2,
+      "horas": 0.7167,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -448,24 +406,45 @@
           "falhas": 1
         },
         "3": {
-          "horas": 0.15,
-          "falhas": 2
+          "horas": 0.0833,
+          "falhas": 1
         }
       }
     },
     {
-      "tag": "31405",
-      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 3,
-      "horas": 0.4,
+      "tag": "20527",
+      "componente": "AJUSTE NO GUIA DE EMBALAGEM",
+      "equipamento": "MESPACK C",
+      "falhas": 2,
+      "horas": 0.1167,
       "por_turno": {
         "1": {
           "horas": 0.1167,
-          "falhas": 1
+          "falhas": 2
         },
         "2": {
-          "horas": 0.2833,
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20542",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "equipamento": "MESPACK D",
+      "falhas": 2,
+      "horas": 0.4833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4833,
           "falhas": 2
         },
         "3": {
@@ -475,14 +454,14 @@
       }
     },
     {
-      "tag": "RB09",
-      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
-      "equipamento": "MESPACK R1",
+      "tag": "20499",
+      "componente": "AJUSTE NA MORDAÇA SUPERIOR",
+      "equipamento": "MESPACK B",
       "falhas": 2,
-      "horas": 0.1333,
+      "horas": 0.3833,
       "por_turno": {
         "1": {
-          "horas": 0.1333,
+          "horas": 0.3833,
           "falhas": 2
         },
         "2": {
@@ -492,6 +471,27 @@
         "3": {
           "horas": 0.0,
           "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20507",
+      "componente": "AJUSTE NAS PINÇAS",
+      "equipamento": "MESPACK B",
+      "falhas": 2,
+      "horas": 0.1833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1833,
+          "falhas": 2
         }
       }
     }
@@ -499,28 +499,28 @@
   "parada_componentes": [
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA R2",
+      "componente": "FALTA DE GRELHA (BANDEJA)",
       "equipamento": "MESPACK R2",
-      "falhas": 31,
-      "horas": 5.4833,
+      "falhas": 28,
+      "horas": 5.2333,
       "por_turno": {
         "1": {
-          "horas": 0.9333,
-          "falhas": 9
+          "horas": 0.8667,
+          "falhas": 8
         },
         "2": {
-          "horas": 1.5667,
-          "falhas": 14
+          "horas": 1.5,
+          "falhas": 13
         },
         "3": {
-          "horas": 2.9833,
-          "falhas": 8
+          "horas": 2.8667,
+          "falhas": 7
         }
       }
     },
     {
       "tag": "20641",
-      "componente": "BOMBA DE EXTRAÇÃO TANQUE PASTEURIZADOR KETCHUP",
+      "componente": "MANUTENÇÃO MECÂNICA",
       "equipamento": "ENCHEDEIRA TOP DOWN",
       "falhas": 1,
       "horas": 4.0,
@@ -541,18 +541,18 @@
     },
     {
       "tag": "20542",
-      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK D ",
+      "componente": "AJUSTE NO ARRASTE",
       "equipamento": "MESPACK D",
-      "falhas": 4,
-      "horas": 2.1333,
+      "falhas": 2,
+      "horas": 1.65,
       "por_turno": {
         "1": {
           "horas": 1.65,
           "falhas": 2
         },
         "2": {
-          "horas": 0.4833,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,
@@ -561,29 +561,8 @@
       }
     },
     {
-      "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA R1",
-      "equipamento": "MESPACK R1",
-      "falhas": 21,
-      "horas": 1.6333,
-      "por_turno": {
-        "1": {
-          "horas": 0.7667,
-          "falhas": 10
-        },
-        "2": {
-          "horas": 0.4333,
-          "falhas": 6
-        },
-        "3": {
-          "horas": 0.4333,
-          "falhas": 5
-        }
-      }
-    },
-    {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
       "equipamento": "MESPACK E",
       "falhas": 16,
       "horas": 1.55,
@@ -603,8 +582,29 @@
       }
     },
     {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "equipamento": "MESPACK R1",
+      "falhas": 18,
+      "horas": 1.4833,
+      "por_turno": {
+        "1": {
+          "horas": 0.6833,
+          "falhas": 8
+        },
+        "2": {
+          "horas": 0.3667,
+          "falhas": 5
+        },
+        "3": {
+          "horas": 0.4333,
+          "falhas": 5
+        }
+      }
+    },
+    {
       "tag": "20490",
-      "componente": "CONJUNTO TANQUE DE PRODUTO MESPACK A ",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "MESPACK A",
       "falhas": 6,
       "horas": 1.1667,
@@ -625,7 +625,7 @@
     },
     {
       "tag": "32065",
-      "componente": "SISTEMA DE SENSORES ELEVADOR DE BANDEJA TF-BJ1-1",
+      "componente": "FALTA DE GRELHA (BANDEJA)",
       "equipamento": "MESPACK R2",
       "falhas": 3,
       "horas": 1.1667,
@@ -646,10 +646,10 @@
     },
     {
       "tag": "20567",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "componente": "AJUSTE NAS PINÇAS",
       "equipamento": "MESPACK E",
-      "falhas": 3,
-      "horas": 0.7833,
+      "falhas": 2,
+      "horas": 0.7167,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -660,35 +660,14 @@
           "falhas": 1
         },
         "3": {
-          "horas": 0.15,
-          "falhas": 2
-        }
-      }
-    },
-    {
-      "tag": "20496",
-      "componente": "CONJUNTO DESBOBINADOR MESPACK B ",
-      "equipamento": "MESPACK B",
-      "falhas": 2,
-      "horas": 0.6,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.6,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.0833,
+          "falhas": 1
         }
       }
     },
     {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
       "equipamento": "MESPACK F",
       "falhas": 8,
       "horas": 0.5667,
@@ -709,7 +688,7 @@
     },
     {
       "tag": "20559",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK E ",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "MESPACK E",
       "falhas": 1,
       "horas": 0.5333,
@@ -730,7 +709,7 @@
     },
     {
       "tag": "30898",
-      "componente": "MESA HIDRAULICA DESENCESTADOR SHIRINKADEIRA 02",
+      "componente": "MANUTENÇÃO MECÂNICA",
       "equipamento": "60L1",
       "falhas": 1,
       "horas": 0.5,
@@ -751,7 +730,7 @@
     },
     {
       "tag": "30433",
-      "componente": "CABEÇOTE SUPERIOR 60L1",
+      "componente": "MANUTENÇÃO MECÂNICA",
       "equipamento": "60L1",
       "falhas": 1,
       "horas": 0.5,
@@ -771,8 +750,29 @@
       }
     },
     {
+      "tag": "20542",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "equipamento": "MESPACK D",
+      "falhas": 2,
+      "horas": 0.4833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
       "tag": "31517",
-      "componente": "IHM DO ROBO MESPACK RETORT 02 COLETA DE SACHE",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "MESPACK R2",
       "falhas": 1,
       "horas": 0.4167,
@@ -792,19 +792,19 @@
       }
     },
     {
-      "tag": "31405",
-      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 3,
+      "tag": "20496",
+      "componente": "TROCA DE FACA",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
       "horas": 0.4,
       "por_turno": {
         "1": {
-          "horas": 0.1167,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "2": {
-          "horas": 0.2833,
-          "falhas": 2
+          "horas": 0.4,
+          "falhas": 1
         },
         "3": {
           "horas": 0.0,

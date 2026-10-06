@@ -1,6 +1,6 @@
 {
   "date": "2026-07-01",
-  "updated_at": "2026-10-05T20:20",
+  "updated_at": "2026-10-06T11:07",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -245,18 +245,18 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA R2",
+      "componente": "FALTA DE GRELHA (BANDEJA)",
       "equipamento": "MESPACK R2",
-      "falhas": 26,
-      "horas": 2.9,
+      "falhas": 23,
+      "horas": 2.4167,
       "por_turno": {
         "1": {
-          "horas": 1.6167,
-          "falhas": 15
+          "horas": 1.2667,
+          "falhas": 14
         },
         "2": {
-          "horas": 1.05,
-          "falhas": 9
+          "horas": 0.9167,
+          "falhas": 7
         },
         "3": {
           "horas": 0.2333,
@@ -265,36 +265,15 @@
       }
     },
     {
-      "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA R1",
-      "equipamento": "MESPACK R1",
-      "falhas": 9,
-      "horas": 1.1667,
-      "por_turno": {
-        "1": {
-          "horas": 0.65,
-          "falhas": 5
-        },
-        "2": {
-          "horas": 0.3333,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.1833,
-          "falhas": 2
-        }
-      }
-    },
-    {
       "tag": "20367",
-      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
+      "componente": "OUTROS MOTIVOS ",
       "equipamento": "ENCHEDEIRA TOP DOWN",
-      "falhas": 9,
-      "horas": 1.2833,
+      "falhas": 7,
+      "horas": 1.05,
       "por_turno": {
         "1": {
-          "horas": 0.5167,
-          "falhas": 4
+          "horas": 0.2833,
+          "falhas": 2
         },
         "2": {
           "horas": 0.0,
@@ -308,7 +287,7 @@
     },
     {
       "tag": "30777",
-      "componente": "CABEÇOTE SUPERIOR MOCOCA M3",
+      "componente": "MANUTENÇÃO MECÂNICA",
       "equipamento": "ENCHEDEIRA COPO/LATA",
       "falhas": 7,
       "horas": 2.0833,
@@ -329,7 +308,7 @@
     },
     {
       "tag": "RL01",
-      "componente": " ROTULADEIRA TOPDONW",
+      "componente": "OUTROS MOTIVOS ",
       "equipamento": "ENCHEDEIRA TOP DOWN",
       "falhas": 6,
       "horas": 0.85,
@@ -349,50 +328,29 @@
       }
     },
     {
-      "tag": "20512",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
-      "equipamento": "MESPACK B",
-      "falhas": 4,
-      "horas": 0.6333,
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "equipamento": "MESPACK R1",
+      "falhas": 6,
+      "horas": 0.4333,
       "por_turno": {
         "1": {
-          "horas": 0.5833,
+          "horas": 0.1667,
           "falhas": 3
         },
         "2": {
-          "horas": 0.05,
+          "horas": 0.0833,
           "falhas": 1
         },
         "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "20394",
-      "componente": "REDUTOR ESTEIRA DE SAIDA ROTULADEIRA TOPDOWN",
-      "equipamento": "ENCHEDEIRA TOP DOWN",
-      "falhas": 4,
-      "horas": 0.4167,
-      "por_turno": {
-        "1": {
-          "horas": 0.4167,
-          "falhas": 4
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.1833,
+          "falhas": 2
         }
       }
     },
     {
       "tag": "31432",
-      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM R2",
+      "componente": "AJUSTE DE VENTOSAS",
       "equipamento": "MESPACK R2",
       "falhas": 4,
       "horas": 0.7167,
@@ -412,40 +370,19 @@
       }
     },
     {
-      "tag": "20547",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
-      "equipamento": "MESPACK D",
-      "falhas": 3,
-      "horas": 0.2667,
+      "tag": "20394",
+      "componente": "AJUSTE NA SELADORA",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 4,
+      "horas": 0.4167,
       "por_turno": {
         "1": {
-          "horas": 0.05,
-          "falhas": 1
+          "horas": 0.4167,
+          "falhas": 4
         },
         "2": {
-          "horas": 0.0667,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.15,
-          "falhas": 1
-        }
-      }
-    },
-    {
-      "tag": "30433",
-      "componente": "CABEÇOTE SUPERIOR 60L1",
-      "equipamento": "60L1",
-      "falhas": 3,
-      "horas": 0.1167,
-      "por_turno": {
-        "1": {
-          "horas": 0.0167,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.1,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,
@@ -455,7 +392,7 @@
     },
     {
       "tag": "INK10",
-      "componente": "INKJET RECRAVADEIRA 60L1",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "60L1",
       "falhas": 3,
       "horas": 3.55,
@@ -475,19 +412,82 @@
       }
     },
     {
-      "tag": "RB09",
-      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 2,
+      "tag": "30433",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "equipamento": "60L1",
+      "falhas": 3,
       "horas": 0.1167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.1,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20367",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 2,
+      "horas": 0.2333,
+      "por_turno": {
+        "1": {
+          "horas": 0.2333,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA04",
+      "componente": "OUTROS MOTIVOS ",
+      "equipamento": "MESPACK R2",
+      "falhas": 2,
+      "horas": 0.1333,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.1167,
+          "horas": 0.1333,
           "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 0.6667,
+      "por_turno": {
+        "1": {
+          "horas": 0.4167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.25,
+          "falhas": 1
         },
         "3": {
           "horas": 0.0,
@@ -499,7 +499,7 @@
   "parada_componentes": [
     {
       "tag": "INK10",
-      "componente": "INKJET RECRAVADEIRA 60L1",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "60L1",
       "falhas": 3,
       "horas": 3.55,
@@ -520,18 +520,18 @@
     },
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA R2",
+      "componente": "FALTA DE GRELHA (BANDEJA)",
       "equipamento": "MESPACK R2",
-      "falhas": 26,
-      "horas": 2.9,
+      "falhas": 23,
+      "horas": 2.4167,
       "por_turno": {
         "1": {
-          "horas": 1.6167,
-          "falhas": 15
+          "horas": 1.2667,
+          "falhas": 14
         },
         "2": {
-          "horas": 1.05,
-          "falhas": 9
+          "horas": 0.9167,
+          "falhas": 7
         },
         "3": {
           "horas": 0.2333,
@@ -541,7 +541,7 @@
     },
     {
       "tag": "30777",
-      "componente": "CABEÇOTE SUPERIOR MOCOCA M3",
+      "componente": "MANUTENÇÃO MECÂNICA",
       "equipamento": "ENCHEDEIRA COPO/LATA",
       "falhas": 7,
       "horas": 2.0833,
@@ -562,14 +562,14 @@
     },
     {
       "tag": "20367",
-      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
+      "componente": "OUTROS MOTIVOS ",
       "equipamento": "ENCHEDEIRA TOP DOWN",
-      "falhas": 9,
-      "horas": 1.2833,
+      "falhas": 7,
+      "horas": 1.05,
       "por_turno": {
         "1": {
-          "horas": 0.5167,
-          "falhas": 4
+          "horas": 0.2833,
+          "falhas": 2
         },
         "2": {
           "horas": 0.0,
@@ -582,29 +582,8 @@
       }
     },
     {
-      "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA R1",
-      "equipamento": "MESPACK R1",
-      "falhas": 9,
-      "horas": 1.1667,
-      "por_turno": {
-        "1": {
-          "horas": 0.65,
-          "falhas": 5
-        },
-        "2": {
-          "horas": 0.3333,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.1833,
-          "falhas": 2
-        }
-      }
-    },
-    {
       "tag": "RL01",
-      "componente": " ROTULADEIRA TOPDONW",
+      "componente": "OUTROS MOTIVOS ",
       "equipamento": "ENCHEDEIRA TOP DOWN",
       "falhas": 6,
       "horas": 0.85,
@@ -625,7 +604,7 @@
     },
     {
       "tag": "30297",
-      "componente": "IHM",
+      "componente": "OUTROS MOTIVOS ",
       "equipamento": "ENCHEDEIRA TOP DOWN",
       "falhas": 1,
       "horas": 0.7333,
@@ -646,7 +625,7 @@
     },
     {
       "tag": "31432",
-      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM R2",
+      "componente": "AJUSTE DE VENTOSAS",
       "equipamento": "MESPACK R2",
       "falhas": 4,
       "horas": 0.7167,
@@ -666,8 +645,29 @@
       }
     },
     {
+      "tag": "ROBOTICA03",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 0.6667,
+      "por_turno": {
+        "1": {
+          "horas": 0.4167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.25,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
       "tag": "INK12",
-      "componente": "INKJET RECRAVADEIRA CONDOR",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "CONDOR",
       "falhas": 1,
       "horas": 0.6667,
@@ -687,29 +687,8 @@
       }
     },
     {
-      "tag": "20512",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
-      "equipamento": "MESPACK B",
-      "falhas": 4,
-      "horas": 0.6333,
-      "por_turno": {
-        "1": {
-          "horas": 0.5833,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.05,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "20558",
-      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK E ",
+      "componente": "MANUTENÇÃO MECÂNICA",
       "equipamento": "MESPACK R1",
       "falhas": 1,
       "horas": 0.5833,
@@ -729,8 +708,29 @@
       }
     },
     {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA (BANDEJA)",
+      "equipamento": "MESPACK R1",
+      "falhas": 6,
+      "horas": 0.4333,
+      "por_turno": {
+        "1": {
+          "horas": 0.1667,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.1833,
+          "falhas": 2
+        }
+      }
+    },
+    {
       "tag": "20394",
-      "componente": "REDUTOR ESTEIRA DE SAIDA ROTULADEIRA TOPDOWN",
+      "componente": "AJUSTE NA SELADORA",
       "equipamento": "ENCHEDEIRA TOP DOWN",
       "falhas": 4,
       "horas": 0.4167,
@@ -750,8 +750,29 @@
       }
     },
     {
+      "tag": "20512",
+      "componente": "MANUTENÇÃO ELÉTRICA",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.4167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
       "tag": "20540",
-      "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK D ",
+      "componente": "AJUSTE NA MORDAÇA VERTICAL",
       "equipamento": "MESPACK D",
       "falhas": 1,
       "horas": 0.3667,
@@ -771,44 +792,23 @@
       }
     },
     {
-      "tag": "31411",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "tag": "ROBOTICA04",
+      "componente": "MANUTENÇÃO MECÂNICA",
       "equipamento": "MESPACK R2",
       "falhas": 1,
       "horas": 0.35,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
           "horas": 0.35,
           "falhas": 1
         },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "20542",
-      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK D ",
-      "equipamento": "MESPACK D",
-      "falhas": 2,
-      "horas": 0.3167,
-      "por_turno": {
-        "1": {
-          "horas": 0.1833,
-          "falhas": 1
-        },
         "2": {
           "horas": 0.0,
           "falhas": 0
         },
         "3": {
-          "horas": 0.1333,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         }
       }
     }

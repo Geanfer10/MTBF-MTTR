@@ -1,6 +1,6 @@
 {
   "date": "2026-05-21",
-  "updated_at": "2026-10-05T20:20",
+  "updated_at": "2026-10-06T11:07",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -285,7 +285,7 @@
   "top_falhas": [
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA R2",
+      "componente": "FALTA DE GRELHA (BANDEJA)",
       "equipamento": "MESPACK R2",
       "falhas": 60,
       "horas": 7.0833,
@@ -306,7 +306,7 @@
     },
     {
       "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA R1",
+      "componente": "FALTA DE GRELHA (BANDEJA)",
       "equipamento": "MESPACK R1",
       "falhas": 21,
       "horas": 1.3667,
@@ -327,7 +327,7 @@
     },
     {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
       "equipamento": "MESPACK E",
       "falhas": 20,
       "horas": 1.9667,
@@ -348,7 +348,7 @@
     },
     {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
       "equipamento": "MESPACK F",
       "falhas": 16,
       "horas": 1.3167,
@@ -364,27 +364,6 @@
         "3": {
           "horas": 0.2167,
           "falhas": 4
-        }
-      }
-    },
-    {
-      "tag": "20519",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
-      "equipamento": "MESPACK C",
-      "falhas": 8,
-      "horas": 2.3667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0667,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 2.3,
-          "falhas": 7
         }
       }
     },
@@ -410,50 +389,29 @@
       }
     },
     {
-      "tag": "31314",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
-      "equipamento": "MESPACK F",
-      "falhas": 5,
-      "horas": 1.1167,
+      "tag": "20519",
+      "componente": "AJUSTE NA MORDAÇA SUPERIOR",
+      "equipamento": "MESPACK C",
+      "falhas": 7,
+      "horas": 2.3,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 1.0167,
-          "falhas": 4
-        },
-        "3": {
-          "horas": 0.1,
-          "falhas": 1
-        }
-      }
-    },
-    {
-      "tag": "20567",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
-      "equipamento": "MESPACK E",
-      "falhas": 5,
-      "horas": 0.5833,
-      "por_turno": {
-        "1": {
-          "horas": 0.15,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.4333,
-          "falhas": 3
-        },
-        "3": {
           "horas": 0.0,
           "falhas": 0
+        },
+        "3": {
+          "horas": 2.3,
+          "falhas": 7
         }
       }
     },
     {
       "tag": "20572",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK E",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "MESPACK E",
       "falhas": 4,
       "horas": 0.5833,
@@ -474,7 +432,7 @@
     },
     {
       "tag": "INK03",
-      "componente": "INKJET MESPACK C",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "MESPACK C",
       "falhas": 4,
       "horas": 0.9667,
@@ -494,29 +452,29 @@
       }
     },
     {
-      "tag": "32285",
-      "componente": "MOTOR 01 DE TRACIONAMENTO DAS CORREIAS FECH ATOMATADOS",
+      "tag": "31314",
+      "componente": "TROCA DE MOLA DAS PINÇAS",
       "equipamento": "MESPACK F",
       "falhas": 3,
-      "horas": 3.7333,
+      "horas": 0.9167,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.8167,
+          "falhas": 2
         },
         "3": {
-          "horas": 3.7333,
-          "falhas": 3
+          "horas": 0.1,
+          "falhas": 1
         }
       }
     },
     {
       "tag": "MECANICA01",
-      "componente": "AGUARDANDO MECANICO",
+      "componente": "AGUARDANDO MECÂNICO",
       "equipamento": "MESPACK F",
       "falhas": 3,
       "horas": 0.1667,
@@ -534,12 +492,54 @@
           "falhas": 2
         }
       }
+    },
+    {
+      "tag": "31319",
+      "componente": "LIMPEZA ELETROVÁLVULA",
+      "equipamento": "MESPACK F",
+      "falhas": 2,
+      "horas": 0.25,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.25,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "30538",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "equipamento": "60L2",
+      "falhas": 2,
+      "horas": 0.2167,
+      "por_turno": {
+        "1": {
+          "horas": 0.2167,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
     }
   ],
   "parada_componentes": [
     {
       "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA R2",
+      "componente": "FALTA DE GRELHA (BANDEJA)",
       "equipamento": "MESPACK R2",
       "falhas": 60,
       "horas": 7.0833,
@@ -560,10 +560,10 @@
     },
     {
       "tag": "32285",
-      "componente": "MOTOR 01 DE TRACIONAMENTO DAS CORREIAS FECH ATOMATADOS",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "MESPACK F",
-      "falhas": 3,
-      "horas": 3.7333,
+      "falhas": 2,
+      "horas": 2.5333,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -574,25 +574,25 @@
           "falhas": 0
         },
         "3": {
-          "horas": 3.7333,
-          "falhas": 3
+          "horas": 2.5333,
+          "falhas": 2
         }
       }
     },
     {
       "tag": "20519",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
+      "componente": "AJUSTE NA MORDAÇA SUPERIOR",
       "equipamento": "MESPACK C",
-      "falhas": 8,
-      "horas": 2.3667,
+      "falhas": 7,
+      "horas": 2.3,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.0667,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 2.3,
@@ -602,7 +602,7 @@
     },
     {
       "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
       "equipamento": "MESPACK E",
       "falhas": 20,
       "horas": 1.9667,
@@ -623,7 +623,7 @@
     },
     {
       "tag": "20394",
-      "componente": "REDUTOR ESTEIRA DE SAIDA ROTULADEIRA TOPDOWN",
+      "componente": "MANUTENÇÃO MECÂNICA",
       "equipamento": "ENCHEDEIRA TOP DOWN",
       "falhas": 2,
       "horas": 1.8667,
@@ -644,7 +644,7 @@
     },
     {
       "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA R1",
+      "componente": "FALTA DE GRELHA (BANDEJA)",
       "equipamento": "MESPACK R1",
       "falhas": 21,
       "horas": 1.3667,
@@ -665,7 +665,7 @@
     },
     {
       "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
       "equipamento": "MESPACK F",
       "falhas": 16,
       "horas": 1.3167,
@@ -685,29 +685,29 @@
       }
     },
     {
-      "tag": "31314",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "tag": "32285",
+      "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
       "equipamento": "MESPACK F",
-      "falhas": 5,
-      "horas": 1.1167,
+      "falhas": 1,
+      "horas": 1.2,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 1.0167,
-          "falhas": 4
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
-          "horas": 0.1,
+          "horas": 1.2,
           "falhas": 1
         }
       }
     },
     {
       "tag": "20532",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK C",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "MESPACK C",
       "falhas": 1,
       "horas": 1.1167,
@@ -728,7 +728,7 @@
     },
     {
       "tag": "INK03",
-      "componente": "INKJET MESPACK C",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "MESPACK C",
       "falhas": 4,
       "horas": 0.9667,
@@ -769,8 +769,29 @@
       }
     },
     {
+      "tag": "31314",
+      "componente": "TROCA DE MOLA DAS PINÇAS",
+      "equipamento": "MESPACK F",
+      "falhas": 3,
+      "horas": 0.9167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.8167,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.1,
+          "falhas": 1
+        }
+      }
+    },
+    {
       "tag": "30138",
-      "componente": "REDUTOR DA ROSCA DE ALIMENTACAO DO TRITURADOR 001",
+      "componente": "MANUTENÇÃO MECÂNICA",
       "equipamento": "BENEFICIAMENTO  MILHO",
       "falhas": 1,
       "horas": 0.6667,
@@ -791,7 +812,7 @@
     },
     {
       "tag": "20572",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK E",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "MESPACK E",
       "falhas": 4,
       "horas": 0.5833,
@@ -811,29 +832,8 @@
       }
     },
     {
-      "tag": "20567",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
-      "equipamento": "MESPACK E",
-      "falhas": 5,
-      "horas": 0.5833,
-      "por_turno": {
-        "1": {
-          "horas": 0.15,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.4333,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "INK11",
-      "componente": "INKJET RECRAVADEIRA 60L2",
+      "componente": "MANUTENÇÃO ELÉTRICA",
       "equipamento": "60L2",
       "falhas": 1,
       "horas": 0.5167,
