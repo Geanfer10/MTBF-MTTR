@@ -1,13 +1,13 @@
 {
   "date": "2026-10-03",
-  "updated_at": "2026-10-07T12:11",
+  "updated_at": "2026-10-07T13:26",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK R2",
       "horas": 3.7333,
-      "horas_disponiveis": 15.0833,
+      "horas_disponiveis": 14.4167,
       "falhas": 31,
       "por_turno": {
         "1": {
@@ -47,7 +47,7 @@
     {
       "name": "MESPACK R1",
       "horas": 2.5,
-      "horas_disponiveis": 15.0833,
+      "horas_disponiveis": 14.4167,
       "falhas": 21,
       "por_turno": {
         "1": {
@@ -749,29 +749,29 @@
   ],
   "disponibilidade": {
     "geral": {
-      "horas_disponiveis": 151.25,
+      "horas_disponiveis": 149.9167,
       "horas_paradas": 11.65,
-      "disponibilidade_pct": 92.2975,
-      "indisponibilidade_pct": 7.7025
+      "disponibilidade_pct": 92.229,
+      "indisponibilidade_pct": 7.771
     },
     "departamentos": {
       "Elétrica": {
-        "horas_disponiveis": 151.25,
+        "horas_disponiveis": 149.9167,
         "horas_paradas": 1.3167,
-        "disponibilidade_pct": 99.1295,
-        "indisponibilidade_pct": 0.8705
+        "disponibilidade_pct": 99.1217,
+        "indisponibilidade_pct": 0.8783
       },
       "Mecânica": {
-        "horas_disponiveis": 151.25,
+        "horas_disponiveis": 149.9167,
         "horas_paradas": 4.1,
-        "disponibilidade_pct": 97.2893,
-        "indisponibilidade_pct": 2.7107
+        "disponibilidade_pct": 97.2651,
+        "indisponibilidade_pct": 2.7349
       },
       "Automação": {
-        "horas_disponiveis": 69.1667,
+        "horas_disponiveis": 67.8333,
         "horas_paradas": 6.2333,
-        "disponibilidade_pct": 90.988,
-        "indisponibilidade_pct": 9.012
+        "disponibilidade_pct": 90.8108,
+        "indisponibilidade_pct": 9.1892
       }
     }
   },
@@ -781,10 +781,10 @@
     "ate": "2026-10-03",
     "falhas": 350,
     "horas_paradas": 55.9743,
-    "horas_disponiveis": 586.9333,
-    "mtbf_min": 91.0215,
-    "disponibilidade_pct": 90.4633,
-    "indisponibilidade_pct": 9.5367,
+    "horas_disponiveis": 585.6,
+    "mtbf_min": 90.793,
+    "disponibilidade_pct": 90.4415,
+    "indisponibilidade_pct": 9.5585,
     "meta_mtbf": 300,
     "status": "abaixo"
   }
