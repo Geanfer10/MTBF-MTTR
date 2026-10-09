@@ -38,8 +38,35 @@ FALLBACK_HORAS_POR_EQUIP = 22.0
 FALLBACK_TOTAL_EQUIPS = 13
 
 
-# Limite de ocorrências gravadas por componente em cada dia (mantém o JSON leve)
+# Limite de ocorrências gravadas por componente / por equipamento em cada dia (mantém o JSON leve)
 MAX_OCORRENCIAS_POR_COMPONENTE = 60
+MAX_OCORRENCIAS_POR_EQUIP = 300
+
+
+def _lista_ocorrencias(g, limite, com_componente=False):
+    """Linhas da BASE_PCM -> lista de ocorrências para o histórico do painel."""
+    if g is None or len(g) == 0:
+        return []
+    g = g.sort_values(["Hora Inicio"], key=lambda s: s.map(_fmt_hora))
+    out = []
+    for _, o in g.head(limite).iterrows():
+        obs = o.get("Observação")
+        item = {
+            "data": o["Data Inicio"].date().isoformat(),
+            "inicio": _fmt_hora(o.get("Hora Inicio")),
+            "fim": _fmt_hora(o.get("Hora Fim")),
+            "turno": int(o["Turno"]) if pd.notna(o["Turno"]) else None,
+            "departamento": o["Departamento"] if pd.notna(o["Departamento"]) else "—",
+            "falhas": int(o["Falhas"]) if pd.notna(o["Falhas"]) else 1,
+            "horas": round(float(o["Tempo Parada (h decimal)"]), 4) if pd.notna(o["Tempo Parada (h decimal)"]) else 0.0,
+            "motivo": str(o["MOTIVO"]) if pd.notna(o["MOTIVO"]) else "",
+            "obs": str(obs)[:160] if pd.notna(obs) else "",
+        }
+        if com_componente:
+            item["tag"] = str(o["TAG"]) if pd.notna(o["TAG"]) else ""
+            item["componente"] = str(o["Componente"]) if pd.notna(o["Componente"]) else ""
+        out.append(item)
+    return out
 
 
 def _fmt_hora(v):
@@ -164,6 +191,12 @@ def process_date(df, target_date, args, hd_df=None):
 
     hd_equip = horas_disponiveis_por_equip(hd_df, target_date)
 
+    # Componente depende de um VLOOKUP externo que pode estar quebrado (link externo no Excel).
+    # Quando isso acontece, cai para a coluna MOTIVO como alternativa, pra não perder os dados de falha.
+    sub_c = sub.copy()
+    sub_c["Componente"] = sub_c["Componente"].fillna(sub_c["MOTIVO"])
+    ocorr_por_equip = {k: g for k, g in sub_c.groupby("Equipamento")}
+
     g = (
         sub.groupby("Equipamento")
         .agg(horas=("Tempo Parada (h decimal)", "sum"), falhas=("Falhas", "sum"))
@@ -194,6 +227,7 @@ def process_date(df, target_date, args, hd_df=None):
             "horas_disponiveis": round(float(hd_equip.get(r["Equipamento"], FALLBACK_HORAS_POR_EQUIP)), 4),
             "falhas": int(r["falhas"]),
             "por_turno": por_turno,
+            "ocorrencias": _lista_ocorrencias(ocorr_por_equip.get(r["Equipamento"]), MAX_OCORRENCIAS_POR_EQUIP, com_componente=True),
         })
 
     piv = sub.groupby(["Departamento", "Turno"])["Tempo Parada (h decimal)"].sum().reset_index()
@@ -204,10 +238,7 @@ def process_date(df, target_date, args, hd_df=None):
             val = piv[(piv["Departamento"] == dept) & (piv["Turno"] == turno)]["Tempo Parada (h decimal)"]
             turnos[dept][str(turno)] = round(float(val.values[0]), 4) if len(val) else 0.0
 
-    gc_source = sub.copy()
-    # Componente depende de um VLOOKUP externo que pode estar quebrado (link externo no Excel).
-    # Quando isso acontece, cai para a coluna MOTIVO como alternativa, pra não perder os dados de falha.
-    gc_source["Componente"] = gc_source["Componente"].fillna(gc_source["MOTIVO"])
+    gc_source = sub_c
     gc = (
         gc_source.groupby(["TAG", "Componente"])
         .agg(falhas=("Falhas", "sum"), horas=("Tempo Parada (h decimal)", "sum"))
@@ -226,25 +257,7 @@ def process_date(df, target_date, args, hd_df=None):
     grupos_ocorrencias = {k: g for k, g in gc_source.groupby(["TAG", "Componente"])}
 
     def _ocorrencias(tag, componente):
-        g = grupos_ocorrencias.get((tag, componente))
-        if g is None:
-            return []
-        g = g.sort_values(["Hora Inicio"], key=lambda s: s.map(_fmt_hora))
-        out = []
-        for _, o in g.head(MAX_OCORRENCIAS_POR_COMPONENTE).iterrows():
-            obs = o.get("Observação")
-            out.append({
-                "data": o["Data Inicio"].date().isoformat(),
-                "inicio": _fmt_hora(o.get("Hora Inicio")),
-                "fim": _fmt_hora(o.get("Hora Fim")),
-                "turno": int(o["Turno"]) if pd.notna(o["Turno"]) else None,
-                "departamento": o["Departamento"] if pd.notna(o["Departamento"]) else "—",
-                "falhas": int(o["Falhas"]) if pd.notna(o["Falhas"]) else 1,
-                "horas": round(float(o["Tempo Parada (h decimal)"]), 4) if pd.notna(o["Tempo Parada (h decimal)"]) else 0.0,
-                "motivo": str(o["MOTIVO"]) if pd.notna(o["MOTIVO"]) else "",
-                "obs": str(obs)[:160] if pd.notna(obs) else "",
-            })
-        return out
+        return _lista_ocorrencias(grupos_ocorrencias.get((tag, componente)), MAX_OCORRENCIAS_POR_COMPONENTE)
 
     def _monta_lista(df_ordenado):
         lista = []
