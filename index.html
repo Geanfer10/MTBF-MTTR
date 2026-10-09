@@ -129,6 +129,7 @@
   .hist-row{display:grid; grid-template-columns:90px 1fr 80px; gap:8px; align-items:center; font-size:12px; margin-bottom:7px;}
   .hist-row .bar{height:10px; background:var(--panel-2); border-radius:5px; overflow:hidden;}
   .hist-row .bar i{display:block; height:100%; background:var(--green); border-radius:5px;}
+  .hist-comp .hist-row{grid-template-columns:minmax(140px,260px) 1fr 90px;}
   .hist-row .n{font-family:'JetBrains Mono',monospace; font-weight:600; text-align:right;}
   .hist-table-wrap{max-height:36vh; overflow:auto; border:1px solid var(--border); border-radius:10px;}
   .hist-table{width:100%; border-collapse:collapse; font-size:12px;}
@@ -423,7 +424,8 @@ async function loadDates(dates, subtitleLabel){
   const dispAcc = { geral: {horas_disponiveis:0, horas_paradas:0}, departamentos: {} };
   validDays.forEach(day => {
     day.equip.forEach(e=>{
-      if(!equipMap[e.name]) equipMap[e.name] = {name:e.name, horas:0, falhas:0, horas_disponiveis:0, por_turno:{}};
+      if(!equipMap[e.name]) equipMap[e.name] = {name:e.name, horas:0, falhas:0, horas_disponiveis:0, por_turno:{}, ocorrencias:[]};
+      equipMap[e.name].ocorrencias.push(...(e.ocorrencias||[]));
       equipMap[e.name].horas += e.horas;
       equipMap[e.name].falhas += e.falhas;
       equipMap[e.name].horas_disponiveis += (e.horas_disponiveis || 0);
@@ -542,7 +544,7 @@ function applyTurnoFilter(data, turno){
   const equip = data.equip
     .map(e => {
       const t = e.por_turno ? e.por_turno[turno] : null;
-      return {name: e.name, horas: t ? t.horas : 0, falhas: t ? t.falhas : 0, horas_disponiveis: e.horas_disponiveis};
+      return {name: e.name, horas: t ? t.horas : 0, falhas: t ? t.falhas : 0, horas_disponiveis: e.horas_disponiveis, ocorrencias: e.ocorrencias};
     })
     .filter(e => e.horas > 0 || e.falhas > 0)
     .sort((a,b)=>b.horas-a.horas);
@@ -601,7 +603,7 @@ function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipP
   }
 
   const EQUIP = data.equip.map(e => ({
-    name: e.name, horas: e.horas, falhas: e.falhas, horas_disponiveis: e.horas_disponiveis,
+    name: e.name, horas: e.horas, falhas: e.falhas, horas_disponiveis: e.horas_disponiveis, ocorrencias: e.ocorrencias,
     indisp: e.horas/periodHours*100,
     mtbf_h: e.falhas ? (periodHours - e.horas)/e.falhas : 0,
     mttr_h: e.falhas ? e.horas/e.falhas : 0
@@ -667,6 +669,8 @@ function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipP
     type:'bar',
     data:{ labels: equipByHoras.map(e=>e.name), datasets:[{data: equipByHoras.map(e=>e.horas), backgroundColor:'#1E9350', borderRadius:4, maxBarThickness:16}] },
     options:{ maintainAspectRatio:false, indexAxis:'y', layout:{padding:{right:36}},
+      onClick:(evt, els)=>{ if(els && els.length) abrirHistoricoEquip(equipByHoras[els[0].index]); },
+      onHover:cursorMao,
       plugins:{ legend:{display:false}, tooltip:{callbacks:{label:(ctx)=> hoursToHM(equipByHoras[ctx.dataIndex].horas)}},
         datalabels:{display:true, anchor:'end', align:'right', clamp:true, color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:10.5, weight:600}, formatter:(v,ctx)=> hoursToHM(equipByHoras[ctx.dataIndex].horas)} },
       scales:{ x:{grid:{color:'#E7F1EA'}, ticks:{callback:(v)=>v.toFixed(0)+'h'}}, y:{grid:{display:false}, ticks:{color:'#12271A', font:{size:10.5}}} }
@@ -678,6 +682,8 @@ function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipP
     type:'bar',
     data:{ labels: equipByFalhas.map(e=>e.name), datasets:[{data: equipByFalhas.map(e=>e.falhas), backgroundColor:'#D8433F', borderRadius:4, maxBarThickness:16}] },
     options:{ maintainAspectRatio:false, indexAxis:'y', layout:{padding:{right:26}},
+      onClick:(evt, els)=>{ if(els && els.length) abrirHistoricoEquip(equipByFalhas[els[0].index]); },
+      onHover:cursorMao,
       plugins:{ legend:{display:false}, datalabels:{display:true, anchor:'end', align:'right', clamp:true, color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:10.5, weight:600}} },
       scales:{ x:{grid:{color:'#E7F1EA'}, ticks:{precision:0}}, y:{grid:{display:false}, ticks:{color:'#12271A', font:{size:10.5}}} }
     }
@@ -825,7 +831,7 @@ function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipP
     data:{ labels: topFalhas.map(f=>f.componente), datasets:[{data: topFalhas.map(f=>f.falhas), backgroundColor:'#E08A1E', borderRadius:4, maxBarThickness:18}] },
     options:{ maintainAspectRatio:false, indexAxis:'y', layout:{padding:{right:26}},
       onClick:(evt, els)=>{ if(els && els.length) abrirHistorico(topFalhas[els[0].index]); },
-      onHover:(evt, els)=>{ if(evt.native && evt.native.target) evt.native.target.style.cursor = (els && els.length) ? 'pointer' : 'default'; },
+      onHover:cursorMao,
       plugins:{ legend:{display:false}, datalabels:{display:true, anchor:'end', align:'right', clamp:true, color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:10.5, weight:600}} },
       scales:{ x:{grid:{color:'#E7F1EA'}, ticks:{precision:0}}, y:{grid:{display:false}, ticks:{color:'#12271A', font:{size:10}}} }
     }
@@ -907,8 +913,20 @@ function linhasBarra(grupos, ordemChaves, rotulo){
   }).join('');
 }
 
-function abrirHistorico(item){
+function cursorMao(evt, els){
+  if(evt.native && evt.native.target) evt.native.target.style.cursor = (els && els.length) ? 'pointer' : 'default';
+}
+
+// Histórico de uma máquina inteira (clique nos gráficos por equipamento)
+function abrirHistoricoEquip(e){
+  if(!e) return;
+  abrirHistorico({componente: e.name, tag: '', equipamento: '', falhas: e.falhas, horas: e.horas, ocorrencias: e.ocorrencias},
+    {sub: 'Todas as paradas do equipamento', porComponente: true});
+}
+
+function abrirHistorico(item, opts){
   if(!item) return;
+  opts = opts || {};
   ensureHistModal();
   const turnoSel = document.getElementById('turnoSelect').value;
   let oc = item.ocorrencias || [];
@@ -924,10 +942,20 @@ function abrirHistorico(item){
   const mostraData = datas.size > 1;
 
   document.getElementById('histTitle').textContent = item.componente;
-  document.getElementById('histSub').textContent = `${item.tag}${item.equipamento ? ' · ' + item.equipamento : ''}${turnoSel !== 'all' ? ' · Turno ' + turnoSel : ''}`;
+  document.getElementById('histSub').textContent = `${opts.sub || (item.tag + (item.equipamento ? ' · ' + item.equipamento : ''))}${turnoSel !== 'all' ? ' · Turno ' + turnoSel : ''}`;
+
+  let boxComp = '';
+  if(opts.porComponente){
+    const porComp = agrupa(oc, o=>o.componente || o.motivo || '—');
+    const comps = Object.keys(porComp).sort((a,b)=>porComp[b].falhas-porComp[a].falhas || porComp[b].horas-porComp[a].horas);
+    const top = comps.slice(0, 10);
+    boxComp = `<div class="hist-box" style="margin-bottom:16px"><h4>Por componente${comps.length > top.length ? ` (top ${top.length} de ${comps.length})` : ''}</h4>
+      <div class="hist-comp">${top.length ? linhasBarra(porComp, top, k=>k) : '<div class="hist-note">Sem detalhamento disponível.</div>'}</div></div>`;
+  }
 
   const linhas = oc.map(o=>`<tr>
       ${mostraData ? `<td class="mono">${fmtDateBR(o.data)}</td>` : ''}
+      ${opts.porComponente ? `<td>${esc(o.componente || '')}${o.tag ? '<br><span style="color:var(--text-faint);font-family:JetBrains Mono,monospace;font-size:10px">' + esc(o.tag) + '</span>' : ''}</td>` : ''}
       <td class="mono">${esc(o.inicio)}${o.fim ? '–' + esc(o.fim) : ''}</td>
       <td>${o.turno != null ? 'T' + o.turno : '—'}</td>
       <td>${esc(o.departamento)}</td>
@@ -946,8 +974,9 @@ function abrirHistorico(item){
       <div class="hist-box"><h4>Por turno</h4>${linhasBarra(porTurno, ['1','2','3'], k=>'Turno '+k)}</div>
       <div class="hist-box"><h4>Por departamento</h4>${deptos.length ? linhasBarra(porDepto, deptos, k=>k) : '<div class="hist-note">Sem detalhamento disponível.</div>'}</div>
     </div>
+    ${boxComp}
     <h4 style="font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--text-dim);margin-bottom:8px">Ocorrências</h4>
-    ${oc.length ? `<div class="hist-table-wrap"><table class="hist-table"><thead><tr>${mostraData ? '<th>Data</th>' : ''}<th>Horário</th><th>Turno</th><th>Depto</th><th>Duração</th><th>Motivo / observação</th></tr></thead><tbody>${linhas}</tbody></table></div>` : '<div class="hist-note">Sem ocorrências detalhadas para este período. Rode o robô "Processar planilha PCM" para gerar o histórico.</div>'}
+    ${oc.length ? `<div class="hist-table-wrap"><table class="hist-table"><thead><tr>${mostraData ? '<th>Data</th>' : ''}${opts.porComponente ? '<th>Componente</th>' : ''}<th>Horário</th><th>Turno</th><th>Depto</th><th>Duração</th><th>Motivo / observação</th></tr></thead><tbody>${linhas}</tbody></table></div>` : '<div class="hist-note">Sem ocorrências detalhadas para este período. Rode o robô "Processar planilha PCM" para gerar o histórico.</div>'}
     ${truncado && oc.length ? `<div class="hist-note">Mostrando ${oc.length} de ${totalFalhas} ocorrências (limite de registros por dia).</div>` : ''}`;
   document.getElementById('histOverlay').classList.add('open');
 }
