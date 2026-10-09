@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "updated_at": "2026-10-09T12:17",
+  "updated_at": "2026-10-09T13:32",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -65,26 +65,6 @@
       }
     },
     {
-      "name": "MESPACK E",
-      "horas": 3.6333,
-      "horas_disponiveis": 20.0,
-      "falhas": 20,
-      "por_turno": {
-        "1": {
-          "horas": 0.6167,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 1.6,
-          "falhas": 9
-        },
-        "3": {
-          "horas": 1.4167,
-          "falhas": 10
-        }
-      }
-    },
-    {
       "name": "MESPACK C",
       "horas": 2.5833,
       "horas_disponiveis": 20.0,
@@ -121,6 +101,26 @@
         "3": {
           "horas": 0.9167,
           "falhas": 7
+        }
+      }
+    },
+    {
+      "name": "MESPACK E",
+      "horas": 2.2667,
+      "horas_disponiveis": 20.0,
+      "falhas": 18,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.85,
+          "falhas": 8
+        },
+        "3": {
+          "horas": 1.4167,
+          "falhas": 10
         }
       }
     },
@@ -192,13 +192,13 @@
       "3": 3.5833
     },
     "Elétrica": {
-      "1": 1.2,
+      "1": 0.5833,
       "2": 4.5167,
       "3": 4.9833
     },
     "Mecânica": {
       "1": 0.6167,
-      "2": 3.85,
+      "2": 3.1,
       "3": 3.0333
     }
   },
@@ -246,27 +246,6 @@
       }
     },
     {
-      "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA R1",
-      "equipamento": "MESPACK R1",
-      "falhas": 13,
-      "horas": 1.6167,
-      "por_turno": {
-        "1": {
-          "horas": 0.1667,
-          "falhas": 4
-        },
-        "2": {
-          "horas": 0.3167,
-          "falhas": 4
-        },
-        "3": {
-          "horas": 1.1333,
-          "falhas": 5
-        }
-      }
-    },
-    {
       "tag": "ROBOTICA01",
       "componente": "ESTEIRÃO PARADO MESPACK E",
       "equipamento": "MESPACK E",
@@ -284,6 +263,27 @@
         "3": {
           "horas": 0.6667,
           "falhas": 8
+        }
+      }
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 13,
+      "horas": 1.6167,
+      "por_turno": {
+        "1": {
+          "horas": 0.1667,
+          "falhas": 4
+        },
+        "2": {
+          "horas": 0.3167,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 1.1333,
+          "falhas": 5
         }
       }
     },
@@ -372,27 +372,6 @@
       }
     },
     {
-      "tag": "20567",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
-      "equipamento": "MESPACK E",
-      "falhas": 3,
-      "horas": 0.35,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.35,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "RB09",
       "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
       "equipamento": "MESPACK R2",
@@ -406,6 +385,27 @@
         "2": {
           "horas": 0.25,
           "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      }
+    },
+    {
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 3,
+      "horas": 0.35,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.35,
+          "falhas": 3
         },
         "3": {
           "horas": 0.0,
@@ -435,23 +435,23 @@
       }
     },
     {
-      "tag": "20374",
-      "componente": "VÁLVULA DE PRODUTO ENCHEDEIRA TOPDOWN",
-      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "tag": "32287",
+      "componente": "BOMBA DE VACUO MESPACK C",
+      "equipamento": "MESPACK C",
       "falhas": 2,
-      "horas": 1.5,
+      "horas": 2.45,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 2.45,
+          "falhas": 2
         },
         "3": {
-          "horas": 1.5,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 0
         }
       }
     }
@@ -689,27 +689,6 @@
       }
     },
     {
-      "tag": "32269",
-      "componente": "BOMBA DE VACUO MESPACK E",
-      "equipamento": "MESPACK E",
-      "falhas": 1,
-      "horas": 0.75,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.75,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "20572",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK E",
       "equipamento": "MESPACK E",
@@ -731,27 +710,6 @@
       }
     },
     {
-      "tag": "INK05",
-      "componente": "INKJET MESPACK E",
-      "equipamento": "MESPACK E",
-      "falhas": 1,
-      "horas": 0.6167,
-      "por_turno": {
-        "1": {
-          "horas": 0.6167,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
       "tag": "31411",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
       "equipamento": "MESPACK R2",
@@ -769,6 +727,48 @@
         "3": {
           "horas": 0.5,
           "falhas": 1
+        }
+      }
+    },
+    {
+      "tag": "20499",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 3,
+      "horas": 0.4667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.3833,
+          "falhas": 2
+        }
+      }
+    },
+    {
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 3,
+      "horas": 0.35,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.35,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
         }
       }
     }
@@ -804,28 +804,28 @@
     },
     {
       "mes": "outubro",
-      "falhas": 841
+      "falhas": 839
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 220.0,
-      "horas_paradas": 26.9429,
-      "disponibilidade_pct": 87.7532,
-      "indisponibilidade_pct": 12.2468
+      "horas_paradas": 25.5763,
+      "disponibilidade_pct": 88.3744,
+      "indisponibilidade_pct": 11.6256
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 220.0,
-        "horas_paradas": 10.7,
-        "disponibilidade_pct": 95.1364,
-        "indisponibilidade_pct": 4.8636
+        "horas_paradas": 10.0833,
+        "disponibilidade_pct": 95.4167,
+        "indisponibilidade_pct": 4.5833
       },
       "Mecânica": {
         "horas_disponiveis": 220.0,
-        "horas_paradas": 7.5,
-        "disponibilidade_pct": 96.5909,
-        "indisponibilidade_pct": 3.4091
+        "horas_paradas": 6.75,
+        "disponibilidade_pct": 96.9318,
+        "indisponibilidade_pct": 3.0682
       },
       "Automação": {
         "horas_disponiveis": 88.0,
@@ -839,12 +839,12 @@
     "mes": "outubro",
     "ano": 2026,
     "ate": "2026-10-08",
-    "falhas": 841,
-    "horas_paradas": 152.0672,
+    "falhas": 839,
+    "horas_paradas": 150.7006,
     "horas_disponiveis": 1636.65,
-    "mtbf_min": 105.9155,
-    "disponibilidade_pct": 90.7086,
-    "indisponibilidade_pct": 9.2914,
+    "mtbf_min": 106.2658,
+    "disponibilidade_pct": 90.7921,
+    "indisponibilidade_pct": 9.2079,
     "meta_mtbf": 300,
     "status": "abaixo"
   }
