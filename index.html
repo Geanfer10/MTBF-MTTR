@@ -108,6 +108,34 @@
   .tag.altoimpacto{background:rgba(46,125,107,0.12); color:var(--blue);}
   .tag.baixo{background:var(--green-dim); color:var(--green);}
   .comp-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(150px,1fr)); gap:12px;}
+  .comp-card{cursor:pointer; transition:transform .15s, box-shadow .15s;}
+  .comp-card:hover{transform:translateY(-2px); box-shadow:0 4px 12px rgba(20,60,40,0.14);}
+  .hist-overlay{position:fixed; inset:0; background:rgba(10,30,20,0.55); display:none; align-items:center; justify-content:center; z-index:1000; padding:16px;}
+  .hist-overlay.open{display:flex;}
+  .hist-modal{background:var(--panel); border-radius:14px; width:min(860px,100%); max-height:90vh; display:flex; flex-direction:column; box-shadow:0 20px 50px rgba(0,0,0,.35); overflow:hidden;}
+  .hist-head{display:flex; align-items:flex-start; justify-content:space-between; gap:12px; padding:18px 22px 12px; border-bottom:1px solid var(--border);}
+  .hist-head h3{font-family:'Space Grotesk',sans-serif; font-size:17px; line-height:1.25;}
+  .hist-head .sub{font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--text-faint); margin-top:4px;}
+  .hist-close{border:0; background:var(--panel-2); border-radius:8px; width:32px; height:32px; font-size:18px; cursor:pointer; color:var(--text-dim);}
+  .hist-body{padding:16px 22px 22px; overflow:auto;}
+  .hist-chips{display:flex; gap:10px; flex-wrap:wrap; margin-bottom:16px;}
+  .hist-chip{background:var(--panel-2); border:1px solid var(--border); border-radius:10px; padding:10px 14px; min-width:110px;}
+  .hist-chip .l{font-size:10.5px; color:var(--text-dim); text-transform:uppercase; letter-spacing:.05em;}
+  .hist-chip .v{font-family:'JetBrains Mono',monospace; font-size:22px; font-weight:700; margin-top:4px;}
+  .hist-grid{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:16px;}
+  @media(max-width:700px){.hist-grid{grid-template-columns:1fr;}}
+  .hist-box{border:1px solid var(--border); border-radius:10px; padding:12px 14px;}
+  .hist-box h4{font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:var(--text-dim); margin-bottom:10px;}
+  .hist-row{display:grid; grid-template-columns:90px 1fr 80px; gap:8px; align-items:center; font-size:12px; margin-bottom:7px;}
+  .hist-row .bar{height:10px; background:var(--panel-2); border-radius:5px; overflow:hidden;}
+  .hist-row .bar i{display:block; height:100%; background:var(--green); border-radius:5px;}
+  .hist-row .n{font-family:'JetBrains Mono',monospace; font-weight:600; text-align:right;}
+  .hist-table-wrap{max-height:36vh; overflow:auto; border:1px solid var(--border); border-radius:10px;}
+  .hist-table{width:100%; border-collapse:collapse; font-size:12px;}
+  .hist-table th{position:sticky; top:0; background:var(--panel-2); text-align:left; padding:8px 10px; font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--text-dim);}
+  .hist-table td{padding:7px 10px; border-top:1px solid var(--border); vertical-align:top;}
+  .hist-table td.mono{font-family:'JetBrains Mono',monospace; white-space:nowrap;}
+  .hist-note{font-size:11px; color:var(--text-faint); margin-top:8px;}
   .comp-card{background:var(--panel-2); border:1px solid var(--border); border-radius:10px; padding:12px; text-align:center;}
   .comp-card .time{font-family:'JetBrains Mono',monospace; font-size:13px; font-weight:700; color:var(--amber); background:var(--amber-dim); border-radius:6px; padding:3px 6px; display:inline-block; margin-bottom:8px;}
   .comp-card .bars{height:70px; display:flex; align-items:flex-end; justify-content:center; margin-bottom:8px;}
@@ -432,7 +460,8 @@ async function loadDates(dates, subtitleLabel){
       const key = f.tag + '|' + f.componente;
       if(seenHoje.has(key)) return;
       seenHoje.add(key);
-      if(!topMap[key]) topMap[key] = {tag:f.tag, componente:f.componente, equipamento:f.equipamento||'', falhas:0, horas:0, por_turno:{}};
+      if(!topMap[key]) topMap[key] = {tag:f.tag, componente:f.componente, equipamento:f.equipamento||'', falhas:0, horas:0, por_turno:{}, ocorrencias:[]};
+      topMap[key].ocorrencias.push(...(f.ocorrencias||[]));
       topMap[key].falhas += f.falhas;
       topMap[key].horas += f.horas;
       mergePorTurno(topMap[key].por_turno, f.por_turno);
@@ -520,14 +549,14 @@ function applyTurnoFilter(data, turno){
   const top_falhas = (data.top_falhas||[])
     .map(f => {
       const t = f.por_turno ? f.por_turno[turno] : null;
-      return {tag:f.tag, componente:f.componente, equipamento:f.equipamento, horas: t ? t.horas : 0, falhas: t ? t.falhas : 0};
+      return {tag:f.tag, componente:f.componente, equipamento:f.equipamento, horas: t ? t.horas : 0, falhas: t ? t.falhas : 0, ocorrencias: f.ocorrencias};
     })
     .filter(f => f.horas > 0 || f.falhas > 0)
     .sort((a,b)=>b.falhas-a.falhas);
   const parada_componentes = (data.parada_componentes||[])
     .map(f => {
       const t = f.por_turno ? f.por_turno[turno] : null;
-      return {tag:f.tag, componente:f.componente, equipamento:f.equipamento, horas: t ? t.horas : 0, falhas: t ? t.falhas : 0};
+      return {tag:f.tag, componente:f.componente, equipamento:f.equipamento, horas: t ? t.horas : 0, falhas: t ? t.falhas : 0, ocorrencias: f.ocorrencias};
     })
     .filter(f => f.horas > 0 || f.falhas > 0)
     .sort((a,b)=>b.horas-a.horas);
@@ -795,6 +824,8 @@ function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipP
     type:'bar',
     data:{ labels: topFalhas.map(f=>f.componente), datasets:[{data: topFalhas.map(f=>f.falhas), backgroundColor:'#E08A1E', borderRadius:4, maxBarThickness:18}] },
     options:{ maintainAspectRatio:false, indexAxis:'y', layout:{padding:{right:26}},
+      onClick:(evt, els)=>{ if(els && els.length) abrirHistorico(topFalhas[els[0].index]); },
+      onHover:(evt, els)=>{ if(evt.native && evt.native.target) evt.native.target.style.cursor = (els && els.length) ? 'pointer' : 'default'; },
       plugins:{ legend:{display:false}, datalabels:{display:true, anchor:'end', align:'right', clamp:true, color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:10.5, weight:600}} },
       scales:{ x:{grid:{color:'#E7F1EA'}, ticks:{precision:0}}, y:{grid:{display:false}, ticks:{color:'#12271A', font:{size:10}}} }
     }
@@ -802,10 +833,11 @@ function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipP
 
   const paradaComponentes = data.parada_componentes || [];
   const maxCompFalhas = Math.max(...paradaComponentes.map(c=>c.falhas), 1);
-  document.getElementById('compGrid').innerHTML = paradaComponentes.map(c => {
+  currentComps = paradaComponentes;
+  document.getElementById('compGrid').innerHTML = paradaComponentes.map((c, i) => {
     const h = 20 + (c.falhas/maxCompFalhas)*50;
     return `
-    <div class="comp-card">
+    <div class="comp-card" data-idx="${i}" title="Clique para ver o histórico desta parada">
       <div class="time">${hoursToHM(c.horas)}</div>
       <div class="bars"><div class="falhas-num" style="height:${h}px;">${c.falhas}</div></div>
       <div class="code">${c.tag}</div>
@@ -834,6 +866,96 @@ function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipP
     }
   });
 }
+
+// ---------- Histórico da parada (janela aberta ao clicar no cartão / barra) ----------
+let currentComps = [];
+let currentTopFalhas = [];
+
+function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+function ensureHistModal(){
+  let el = document.getElementById('histOverlay');
+  if(el) return el;
+  el = document.createElement('div');
+  el.id = 'histOverlay';
+  el.className = 'hist-overlay';
+  el.innerHTML = '<div class="hist-modal" role="dialog" aria-modal="true"><div class="hist-head"><div><h3 id="histTitle"></h3><div class="sub" id="histSub"></div></div><button class="hist-close" id="histClose" aria-label="Fechar">×</button></div><div class="hist-body" id="histBody"></div></div>';
+  document.body.appendChild(el);
+  el.addEventListener('click', e=>{ if(e.target === el) fecharHistorico(); });
+  document.getElementById('histClose').addEventListener('click', fecharHistorico);
+  document.addEventListener('keydown', e=>{ if(e.key === 'Escape') fecharHistorico(); });
+  return el;
+}
+function fecharHistorico(){ const el = document.getElementById('histOverlay'); if(el) el.classList.remove('open'); }
+
+function agrupa(oc, chave){
+  const m = {};
+  oc.forEach(o=>{
+    const k = chave(o);
+    if(!m[k]) m[k] = {falhas:0, horas:0};
+    m[k].falhas += (o.falhas||1);
+    m[k].horas += (o.horas||0);
+  });
+  return m;
+}
+
+function linhasBarra(grupos, ordemChaves, rotulo){
+  const max = Math.max(...ordemChaves.map(k => (grupos[k]||{falhas:0}).falhas), 1);
+  return ordemChaves.map(k=>{
+    const g = grupos[k] || {falhas:0, horas:0};
+    return `<div class="hist-row"><div>${esc(rotulo(k))}</div><div class="bar"><i style="width:${g.falhas/max*100}%"></i></div><div class="n">${g.falhas}× <span style="color:var(--text-faint);font-weight:400">${hoursToHM(g.horas)}</span></div></div>`;
+  }).join('');
+}
+
+function abrirHistorico(item){
+  if(!item) return;
+  ensureHistModal();
+  const turnoSel = document.getElementById('turnoSelect').value;
+  let oc = item.ocorrencias || [];
+  if(turnoSel !== 'all') oc = oc.filter(o => String(o.turno) === turnoSel);
+  oc = [...oc].sort((a,b)=> (a.data+a.inicio).localeCompare(b.data+b.inicio));
+
+  const totalFalhas = item.falhas;
+  const mttrMin = totalFalhas ? (item.horas/totalFalhas*60) : 0;
+  const porTurno = agrupa(oc, o=>String(o.turno));
+  const porDepto = agrupa(oc, o=>o.departamento || '—');
+  const deptos = Object.keys(porDepto).sort((a,b)=>porDepto[b].falhas-porDepto[a].falhas);
+  const datas = new Set(oc.map(o=>o.data));
+  const mostraData = datas.size > 1;
+
+  document.getElementById('histTitle').textContent = item.componente;
+  document.getElementById('histSub').textContent = `${item.tag}${item.equipamento ? ' · ' + item.equipamento : ''}${turnoSel !== 'all' ? ' · Turno ' + turnoSel : ''}`;
+
+  const linhas = oc.map(o=>`<tr>
+      ${mostraData ? `<td class="mono">${fmtDateBR(o.data)}</td>` : ''}
+      <td class="mono">${esc(o.inicio)}${o.fim ? '–' + esc(o.fim) : ''}</td>
+      <td>${o.turno != null ? 'T' + o.turno : '—'}</td>
+      <td>${esc(o.departamento)}</td>
+      <td class="mono">${hoursToHM(o.horas)}</td>
+      <td>${esc(o.motivo)}${o.obs ? '<br><span style="color:var(--text-faint)">' + esc(o.obs) + '</span>' : ''}</td>
+    </tr>`).join('');
+
+  const truncado = oc.length < totalFalhas;
+  document.getElementById('histBody').innerHTML = `
+    <div class="hist-chips">
+      <div class="hist-chip"><div class="l">Paradas</div><div class="v">${totalFalhas}</div></div>
+      <div class="hist-chip"><div class="l">Tempo parado</div><div class="v">${hoursToHM(item.horas)}</div></div>
+      <div class="hist-chip"><div class="l">Tempo médio (MTTR)</div><div class="v">${mttrMin.toFixed(1).replace('.',',')} min</div></div>
+    </div>
+    <div class="hist-grid">
+      <div class="hist-box"><h4>Por turno</h4>${linhasBarra(porTurno, ['1','2','3'], k=>'Turno '+k)}</div>
+      <div class="hist-box"><h4>Por departamento</h4>${deptos.length ? linhasBarra(porDepto, deptos, k=>k) : '<div class="hist-note">Sem detalhamento disponível.</div>'}</div>
+    </div>
+    <h4 style="font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--text-dim);margin-bottom:8px">Ocorrências</h4>
+    ${oc.length ? `<div class="hist-table-wrap"><table class="hist-table"><thead><tr>${mostraData ? '<th>Data</th>' : ''}<th>Horário</th><th>Turno</th><th>Depto</th><th>Duração</th><th>Motivo / observação</th></tr></thead><tbody>${linhas}</tbody></table></div>` : '<div class="hist-note">Sem ocorrências detalhadas para este período. Rode o robô "Processar planilha PCM" para gerar o histórico.</div>'}
+    ${truncado && oc.length ? `<div class="hist-note">Mostrando ${oc.length} de ${totalFalhas} ocorrências (limite de registros por dia).</div>` : ''}`;
+  document.getElementById('histOverlay').classList.add('open');
+}
+
+document.addEventListener('click', e=>{
+  const card = e.target.closest && e.target.closest('.comp-card');
+  if(card && card.dataset.idx != null) abrirHistorico(currentComps[Number(card.dataset.idx)]);
+});
 
 function destroyCharts(){
   Object.values(charts).forEach(c => c && c.destroy());
