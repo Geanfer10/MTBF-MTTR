@@ -38,6 +38,22 @@ FALLBACK_HORAS_POR_EQUIP = 22.0
 FALLBACK_TOTAL_EQUIPS = 13
 
 
+# Limite de ocorrências gravadas por componente em cada dia (mantém o JSON leve)
+MAX_OCORRENCIAS_POR_COMPONENTE = 60
+
+
+def _fmt_hora(v):
+    """Hora (datetime.time, datetime, número do Excel ou texto) -> 'HH:MM'."""
+    if v is None or (not isinstance(v, str) and pd.isna(v)):
+        return ""
+    if hasattr(v, "strftime"):
+        return v.strftime("%H:%M")
+    if isinstance(v, (int, float)):
+        minutos = int(round((float(v) % 1) * 24 * 60))
+        return f"{minutos // 60:02d}:{minutos % 60:02d}"
+    return str(v)[:5]
+
+
 def calc_disponibilidade(sub, hd_df, target_date):
     """Disponibilidade/Indisponibilidade geral e por departamento, usando as
     horas disponíveis REAIS da aba horas_disponiveis (programação do PCP),
@@ -206,6 +222,30 @@ def process_date(df, target_date, args, hd_df=None):
         horas=("Tempo Parada (h decimal)", "sum"), falhas=("Falhas", "sum")
     ).reset_index()
 
+    # ocorrências individuais de cada TAG+componente (histórico exibido ao clicar no cartão)
+    grupos_ocorrencias = {k: g for k, g in gc_source.groupby(["TAG", "Componente"])}
+
+    def _ocorrencias(tag, componente):
+        g = grupos_ocorrencias.get((tag, componente))
+        if g is None:
+            return []
+        g = g.sort_values(["Hora Inicio"], key=lambda s: s.map(_fmt_hora))
+        out = []
+        for _, o in g.head(MAX_OCORRENCIAS_POR_COMPONENTE).iterrows():
+            obs = o.get("Observação")
+            out.append({
+                "data": o["Data Inicio"].date().isoformat(),
+                "inicio": _fmt_hora(o.get("Hora Inicio")),
+                "fim": _fmt_hora(o.get("Hora Fim")),
+                "turno": int(o["Turno"]) if pd.notna(o["Turno"]) else None,
+                "departamento": o["Departamento"] if pd.notna(o["Departamento"]) else "—",
+                "falhas": int(o["Falhas"]) if pd.notna(o["Falhas"]) else 1,
+                "horas": round(float(o["Tempo Parada (h decimal)"]), 4) if pd.notna(o["Tempo Parada (h decimal)"]) else 0.0,
+                "motivo": str(o["MOTIVO"]) if pd.notna(o["MOTIVO"]) else "",
+                "obs": str(obs)[:160] if pd.notna(obs) else "",
+            })
+        return out
+
     def _monta_lista(df_ordenado):
         lista = []
         for _, r in df_ordenado.iterrows():
@@ -228,6 +268,7 @@ def process_date(df, target_date, args, hd_df=None):
                 "falhas": int(r["falhas"]),
                 "horas": round(float(r["horas"]), 4),
                 "por_turno": por_turno,
+                "ocorrencias": _ocorrencias(r["TAG"], r["Componente"]),
             })
         return lista
 
