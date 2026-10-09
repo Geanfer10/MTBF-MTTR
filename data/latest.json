@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "updated_at": "2026-10-09T12:02",
+  "updated_at": "2026-10-09T12:17",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -207,16 +207,16 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 21,
-      "horas": 3.7167,
+      "falhas": 25,
+      "horas": 4.1333,
       "por_turno": {
         "1": {
-          "horas": 1.0333,
-          "falhas": 9
+          "horas": 1.2333,
+          "falhas": 11
         },
         "2": {
-          "horas": 1.2,
-          "falhas": 6
+          "horas": 1.4167,
+          "falhas": 8
         },
         "3": {
           "horas": 1.4833,
@@ -228,16 +228,16 @@
       "tag": "ROBOTICA02",
       "componente": "ESTEIRÃO PARADO MESPACK F",
       "equipamento": "MESPACK F",
-      "falhas": 13,
-      "horas": 0.9167,
+      "falhas": 14,
+      "horas": 1.0096,
       "por_turno": {
         "1": {
           "horas": 0.3,
           "falhas": 5
         },
         "2": {
-          "horas": 0.45,
-          "falhas": 5
+          "horas": 0.5429,
+          "falhas": 6
         },
         "3": {
           "horas": 0.1667,
@@ -288,6 +288,27 @@
       }
     },
     {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 8,
+      "horas": 0.8667,
+      "por_turno": {
+        "1": {
+          "horas": 0.1167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.5167,
+          "falhas": 6
+        },
+        "3": {
+          "horas": 0.2333,
+          "falhas": 1
+        }
+      }
+    },
+    {
       "tag": "20476",
       "componente": "CONJUNTO DESBOBINADOR MESPACK A ",
       "equipamento": "MESPACK A",
@@ -309,27 +330,6 @@
       }
     },
     {
-      "tag": "31407",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 5,
-      "horas": 0.6333,
-      "por_turno": {
-        "1": {
-          "horas": 0.1167,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.2833,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.2333,
-          "falhas": 1
-        }
-      }
-    },
-    {
       "tag": "31319",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK F",
       "equipamento": "MESPACK F",
@@ -347,6 +347,27 @@
         "3": {
           "horas": 0.65,
           "falhas": 3
+        }
+      }
+    },
+    {
+      "tag": "TRS01",
+      "componente": "TRANSFER DE BANDEJA ",
+      "equipamento": "MESPACK R1",
+      "falhas": 4,
+      "horas": 3.2333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 3.2333,
+          "falhas": 4
         }
       }
     },
@@ -414,32 +435,11 @@
       }
     },
     {
-      "tag": "32287",
-      "componente": "BOMBA DE VACUO MESPACK C",
-      "equipamento": "MESPACK C",
+      "tag": "20374",
+      "componente": "VÁLVULA DE PRODUTO ENCHEDEIRA TOPDOWN",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
       "falhas": 2,
-      "horas": 2.45,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 2.45,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "TRS01",
-      "componente": "TRANSFER DE BANDEJA ",
-      "equipamento": "MESPACK R1",
-      "falhas": 2,
-      "horas": 1.65,
+      "horas": 1.5,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -450,7 +450,7 @@
           "falhas": 0
         },
         "3": {
-          "horas": 1.65,
+          "horas": 1.5,
           "falhas": 2
         }
       }
@@ -461,20 +461,41 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 21,
-      "horas": 3.7167,
+      "falhas": 25,
+      "horas": 4.1333,
       "por_turno": {
         "1": {
-          "horas": 1.0333,
-          "falhas": 9
+          "horas": 1.2333,
+          "falhas": 11
         },
         "2": {
-          "horas": 1.2,
-          "falhas": 6
+          "horas": 1.4167,
+          "falhas": 8
         },
         "3": {
           "horas": 1.4833,
           "falhas": 6
+        }
+      }
+    },
+    {
+      "tag": "TRS01",
+      "componente": "TRANSFER DE BANDEJA ",
+      "equipamento": "MESPACK R1",
+      "falhas": 4,
+      "horas": 3.2333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 3.2333,
+          "falhas": 4
         }
       }
     },
@@ -517,27 +538,6 @@
         "3": {
           "horas": 0.0,
           "falhas": 0
-        }
-      }
-    },
-    {
-      "tag": "TRS01",
-      "componente": "TRANSFER DE BANDEJA ",
-      "equipamento": "MESPACK R1",
-      "falhas": 2,
-      "horas": 1.65,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 1.65,
-          "falhas": 2
         }
       }
     },
@@ -605,6 +605,27 @@
       }
     },
     {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 14,
+      "horas": 1.0096,
+      "por_turno": {
+        "1": {
+          "horas": 0.3,
+          "falhas": 5
+        },
+        "2": {
+          "horas": 0.5429,
+          "falhas": 6
+        },
+        "3": {
+          "horas": 0.1667,
+          "falhas": 3
+        }
+      }
+    },
+    {
       "tag": "20476",
       "componente": "CONJUNTO DESBOBINADOR MESPACK A ",
       "equipamento": "MESPACK A",
@@ -626,27 +647,6 @@
       }
     },
     {
-      "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO MESPACK F",
-      "equipamento": "MESPACK F",
-      "falhas": 13,
-      "horas": 0.9167,
-      "por_turno": {
-        "1": {
-          "horas": 0.3,
-          "falhas": 5
-        },
-        "2": {
-          "horas": 0.45,
-          "falhas": 5
-        },
-        "3": {
-          "horas": 0.1667,
-          "falhas": 3
-        }
-      }
-    },
-    {
       "tag": "31319",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK F",
       "equipamento": "MESPACK F",
@@ -664,6 +664,27 @@
         "3": {
           "horas": 0.65,
           "falhas": 3
+        }
+      }
+    },
+    {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 8,
+      "horas": 0.8667,
+      "por_turno": {
+        "1": {
+          "horas": 0.1167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.5167,
+          "falhas": 6
+        },
+        "3": {
+          "horas": 0.2333,
+          "falhas": 1
         }
       }
     },
@@ -710,27 +731,6 @@
       }
     },
     {
-      "tag": "31407",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 5,
-      "horas": 0.6333,
-      "por_turno": {
-        "1": {
-          "horas": 0.1167,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.2833,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.2333,
-          "falhas": 1
-        }
-      }
-    },
-    {
       "tag": "INK05",
       "componente": "INKJET MESPACK E",
       "equipamento": "MESPACK E",
@@ -752,23 +752,23 @@
       }
     },
     {
-      "tag": "20499",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B ",
-      "equipamento": "MESPACK B",
-      "falhas": 3,
-      "horas": 0.4667,
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 1,
+      "horas": 0.5,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.0833,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
-          "horas": 0.3833,
-          "falhas": 2
+          "horas": 0.5,
+          "falhas": 1
         }
       }
     }
