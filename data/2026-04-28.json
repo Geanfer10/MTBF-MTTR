@@ -1,6 +1,6 @@
 {
   "date": "2026-04-28",
-  "updated_at": "2026-10-09T13:32",
+  "updated_at": "2026-10-09T13:47",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -117,7 +117,75 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-28",
+          "inicio": "08:48",
+          "fim": "08:50",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "faca\n"
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "09:22",
+          "fim": "09:32",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste rotacionador "
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "13:22",
+          "fim": "13:29",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no arraste "
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "13:34",
+          "fim": "13:53",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "araste \n"
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "13:58",
+          "fim": "14:07",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "araste"
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "15:40",
+          "fim": "15:50",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "aperto do PT100"
+        }
+      ]
     },
     {
       "tag": "20532",
@@ -138,7 +206,53 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-28",
+          "inicio": "08:12",
+          "fim": "08:18",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "alimento de bico \n"
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "08:40",
+          "fim": "08:45",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "bico"
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "13:06",
+          "fim": "13:09",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "alinhamento de bico "
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "15:13",
+          "fim": "15:19",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico 2"
+        }
+      ]
     },
     {
       "tag": "20547",
@@ -159,7 +273,31 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-28",
+          "inicio": "13:55",
+          "fim": "14:04",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "15:39",
+          "fim": "16:04",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste do esticador ,troca da mola da pinça,troca da conexão da mordaça de descarte "
+        }
+      ]
     },
     {
       "tag": "20516",
@@ -180,7 +318,31 @@
           "horas": 0.1,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-28",
+          "inicio": "03:31",
+          "fim": "03:37",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NO PERFURADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "21:55",
+          "fim": "21:59",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20492",
@@ -201,7 +363,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-28",
+          "inicio": "20:50",
+          "fim": "20:54",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "calibração da fotocélula "
+        }
+      ]
     },
     {
       "tag": "20523",
@@ -222,7 +397,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-28",
+          "inicio": "20:10",
+          "fim": "20:54",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.7333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção no conjunto de facas "
+        }
+      ]
     },
     {
       "tag": "20507",
@@ -243,7 +431,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-28",
+          "inicio": "10:20",
+          "fim": "10:23",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20524",
@@ -264,7 +465,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-28",
+          "inicio": "08:28",
+          "fim": "08:35",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ventosa "
+        }
+      ]
     },
     {
       "tag": "ink01",
@@ -285,7 +499,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-28",
+          "inicio": "21:17",
+          "fim": "21:21",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no sensor de inkjet "
+        }
+      ]
     }
   ],
   "parada_componentes": [
@@ -308,7 +535,75 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-28",
+          "inicio": "08:48",
+          "fim": "08:50",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "faca\n"
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "09:22",
+          "fim": "09:32",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste rotacionador "
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "13:22",
+          "fim": "13:29",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no arraste "
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "13:34",
+          "fim": "13:53",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "araste \n"
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "13:58",
+          "fim": "14:07",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "araste"
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "15:40",
+          "fim": "15:50",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "aperto do PT100"
+        }
+      ]
     },
     {
       "tag": "20523",
@@ -329,7 +624,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-28",
+          "inicio": "20:10",
+          "fim": "20:54",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.7333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção no conjunto de facas "
+        }
+      ]
     },
     {
       "tag": "20547",
@@ -350,7 +658,31 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-28",
+          "inicio": "13:55",
+          "fim": "14:04",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "15:39",
+          "fim": "16:04",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste do esticador ,troca da mola da pinça,troca da conexão da mordaça de descarte "
+        }
+      ]
     },
     {
       "tag": "20532",
@@ -371,7 +703,53 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-28",
+          "inicio": "08:12",
+          "fim": "08:18",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "alimento de bico \n"
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "08:40",
+          "fim": "08:45",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "bico"
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "13:06",
+          "fim": "13:09",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "alinhamento de bico "
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "15:13",
+          "fim": "15:19",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico 2"
+        }
+      ]
     },
     {
       "tag": "20516",
@@ -392,7 +770,31 @@
           "horas": 0.1,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-28",
+          "inicio": "03:31",
+          "fim": "03:37",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NO PERFURADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-28",
+          "inicio": "21:55",
+          "fim": "21:59",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20524",
@@ -413,7 +815,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-28",
+          "inicio": "08:28",
+          "fim": "08:35",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ventosa "
+        }
+      ]
     },
     {
       "tag": "20492",
@@ -434,7 +849,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-28",
+          "inicio": "20:50",
+          "fim": "20:54",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "calibração da fotocélula "
+        }
+      ]
     },
     {
       "tag": "ink01",
@@ -455,7 +883,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-28",
+          "inicio": "21:17",
+          "fim": "21:21",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no sensor de inkjet "
+        }
+      ]
     },
     {
       "tag": "20507",
@@ -476,7 +917,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-28",
+          "inicio": "10:20",
+          "fim": "10:23",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
     }
   ],
   "evolucao_mensal": [

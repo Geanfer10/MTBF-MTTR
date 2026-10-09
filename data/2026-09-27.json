@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updated_at": "2026-10-09T13:32",
+  "updated_at": "2026-10-09T13:47",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -97,7 +97,20 @@
           "horas": 0.1667,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-27",
+          "inicio": "00:35",
+          "fim": "00:45",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no rolete do desbobinador "
+        }
+      ]
     },
     {
       "tag": "20479",
@@ -118,7 +131,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-27",
+          "inicio": "17:38",
+          "fim": "17:45",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da mola da mordaça de selagem superior."
+        }
+      ]
     },
     {
       "tag": "20492",
@@ -139,7 +165,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-27",
+          "inicio": "15:30",
+          "fim": "17:15",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.75,
+          "motivo": "AJUSTE NAS VÁLVULAS DE DOSAGEM",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20493",
@@ -160,7 +199,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-27",
+          "inicio": "10:24",
+          "fim": "10:30",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "alarme da temperatura alta e baixa"
+        }
+      ]
     },
     {
       "tag": "20512",
@@ -181,7 +233,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-27",
+          "inicio": "10:40",
+          "fim": "10:50",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "TROCA DE BICO",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20542",
@@ -202,7 +267,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-27",
+          "inicio": "16:30",
+          "fim": "16:39",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "calibragem da fotocélula "
+        }
+      ]
     },
     {
       "tag": "PS03",
@@ -223,7 +301,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-27",
+          "inicio": "06:30",
+          "fim": "10:05",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 3.5833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "soldando a tubulação do pasteurizador e foi feito setup"
+        }
+      ]
     }
   ],
   "parada_componentes": [
@@ -246,7 +337,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-27",
+          "inicio": "06:30",
+          "fim": "10:05",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 3.5833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "soldando a tubulação do pasteurizador e foi feito setup"
+        }
+      ]
     },
     {
       "tag": "20492",
@@ -267,7 +371,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-27",
+          "inicio": "15:30",
+          "fim": "17:15",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.75,
+          "motivo": "AJUSTE NAS VÁLVULAS DE DOSAGEM",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20512",
@@ -288,7 +405,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-27",
+          "inicio": "10:40",
+          "fim": "10:50",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "TROCA DE BICO",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20476",
@@ -309,7 +439,20 @@
           "horas": 0.1667,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-27",
+          "inicio": "00:35",
+          "fim": "00:45",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no rolete do desbobinador "
+        }
+      ]
     },
     {
       "tag": "20542",
@@ -330,7 +473,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-27",
+          "inicio": "16:30",
+          "fim": "16:39",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "calibragem da fotocélula "
+        }
+      ]
     },
     {
       "tag": "20479",
@@ -351,7 +507,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-27",
+          "inicio": "17:38",
+          "fim": "17:45",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da mola da mordaça de selagem superior."
+        }
+      ]
     },
     {
       "tag": "20493",
@@ -372,7 +541,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-27",
+          "inicio": "10:24",
+          "fim": "10:30",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "alarme da temperatura alta e baixa"
+        }
+      ]
     }
   ],
   "evolucao_mensal": [

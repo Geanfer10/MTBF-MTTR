@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "updated_at": "2026-10-09T13:32",
+  "updated_at": "2026-10-09T13:47",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -77,7 +77,53 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-20",
+          "inicio": "16:18",
+          "fim": "16:39",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.35,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-20",
+          "inicio": "17:29",
+          "fim": "17:40",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-20",
+          "inicio": "18:18",
+          "fim": "18:22",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-20",
+          "inicio": "21:36",
+          "fim": "21:42",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20479",
@@ -98,7 +144,42 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-20",
+          "inicio": "06:30",
+          "fim": "07:10",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.6667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste mecânico mordaça.pinca .guia "
+        },
+        {
+          "data": "2026-09-20",
+          "inicio": "09:36",
+          "fim": "09:41",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "acompanhamento elétrico na temperatura da soda."
+        },
+        {
+          "data": "2026-09-20",
+          "inicio": "21:42",
+          "fim": "21:49",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste na mordaça superior "
+        }
+      ]
     },
     {
       "tag": "20507",
@@ -119,7 +200,42 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-20",
+          "inicio": "07:41",
+          "fim": "07:48",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-20",
+          "inicio": "07:51",
+          "fim": "07:58",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-20",
+          "inicio": "16:06",
+          "fim": "16:20",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no guia e apoio sobre"
+        }
+      ]
     },
     {
       "tag": "20478",
@@ -140,7 +256,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-20",
+          "inicio": "08:36",
+          "fim": "08:41",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20576",
@@ -161,7 +290,20 @@
           "horas": 0.3333,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-20",
+          "inicio": "00:00",
+          "fim": "00:20",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3333,
+          "motivo": "ESTEIRA SAÍDA MESPACK QUEBRADA",
+          "obs": "ajuste na esteira "
+        }
+      ]
     },
     {
       "tag": "ELETRICA01",
@@ -182,7 +324,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-20",
+          "inicio": "20:06",
+          "fim": "20:12",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AGUARDANDO ELETRICISTA",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "INK02",
@@ -203,7 +358,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-20",
+          "inicio": "20:12",
+          "fim": "20:15",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no vídeo jet"
+        }
+      ]
     },
     {
       "tag": "MECANICA01",
@@ -224,7 +392,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-20",
+          "inicio": "08:26",
+          "fim": "08:36",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        }
+      ]
     }
   ],
   "parada_componentes": [
@@ -247,7 +428,42 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-20",
+          "inicio": "06:30",
+          "fim": "07:10",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.6667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste mecânico mordaça.pinca .guia "
+        },
+        {
+          "data": "2026-09-20",
+          "inicio": "09:36",
+          "fim": "09:41",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "acompanhamento elétrico na temperatura da soda."
+        },
+        {
+          "data": "2026-09-20",
+          "inicio": "21:42",
+          "fim": "21:49",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste na mordaça superior "
+        }
+      ]
     },
     {
       "tag": "20487",
@@ -268,7 +484,53 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-20",
+          "inicio": "16:18",
+          "fim": "16:39",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.35,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-20",
+          "inicio": "17:29",
+          "fim": "17:40",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-20",
+          "inicio": "18:18",
+          "fim": "18:22",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-20",
+          "inicio": "21:36",
+          "fim": "21:42",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20507",
@@ -289,7 +551,42 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-20",
+          "inicio": "07:41",
+          "fim": "07:48",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-20",
+          "inicio": "07:51",
+          "fim": "07:58",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-20",
+          "inicio": "16:06",
+          "fim": "16:20",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no guia e apoio sobre"
+        }
+      ]
     },
     {
       "tag": "20576",
@@ -310,7 +607,20 @@
           "horas": 0.3333,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-20",
+          "inicio": "00:00",
+          "fim": "00:20",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3333,
+          "motivo": "ESTEIRA SAÍDA MESPACK QUEBRADA",
+          "obs": "ajuste na esteira "
+        }
+      ]
     },
     {
       "tag": "MECANICA01",
@@ -331,7 +641,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-20",
+          "inicio": "08:26",
+          "fim": "08:36",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "ELETRICA01",
@@ -352,7 +675,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-20",
+          "inicio": "20:06",
+          "fim": "20:12",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AGUARDANDO ELETRICISTA",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20478",
@@ -373,7 +709,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-20",
+          "inicio": "08:36",
+          "fim": "08:41",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "INK02",
@@ -394,7 +743,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-20",
+          "inicio": "20:12",
+          "fim": "20:15",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no vídeo jet"
+        }
+      ]
     }
   ],
   "evolucao_mensal": [

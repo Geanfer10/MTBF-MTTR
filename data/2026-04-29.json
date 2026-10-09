@@ -1,6 +1,6 @@
 {
   "date": "2026-04-29",
-  "updated_at": "2026-10-09T13:32",
+  "updated_at": "2026-10-09T13:47",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -112,7 +112,31 @@
           "horas": 0.2833,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-29",
+          "inicio": "15:11",
+          "fim": "15:26",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Troca do rolamento da régua fixa. "
+        },
+        {
+          "data": "2026-04-29",
+          "inicio": "22:55",
+          "fim": "23:12",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": "conjunto de esticador "
+        }
+      ]
     },
     {
       "tag": "20547",
@@ -133,7 +157,31 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-29",
+          "inicio": "12:27",
+          "fim": "12:54",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.45,
+          "motivo": "AJUSTE NA RÉGUA",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-29",
+          "inicio": "15:39",
+          "fim": "18:12",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 2.55,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção dos parafusos da base do mancal do rolamento do eixo árvore "
+        }
+      ]
     },
     {
       "tag": "20527",
@@ -154,7 +202,31 @@
           "horas": 0.1167,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-29",
+          "inicio": "04:45",
+          "fim": "04:52",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Ajuste nas ventosas e pinça."
+        },
+        {
+          "data": "2026-04-29",
+          "inicio": "10:29",
+          "fim": "10:42",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20487",
@@ -175,7 +247,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-29",
+          "inicio": "19:50",
+          "fim": "20:04",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20507",
@@ -196,7 +281,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-29",
+          "inicio": "07:26",
+          "fim": "07:33",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "TROCA DE PINÇAS",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20516",
@@ -217,7 +315,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-29",
+          "inicio": "18:12",
+          "fim": "18:29",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "AJUSTE NO PERFURADOR",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20512",
@@ -238,7 +349,20 @@
           "horas": 0.0667,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-29",
+          "inicio": "23:31",
+          "fim": "23:35",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20522",
@@ -259,7 +383,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-29",
+          "inicio": "11:59",
+          "fim": "12:03",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NO ARRASTE",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20544",
@@ -280,7 +417,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-29",
+          "inicio": "08:00",
+          "fim": "08:15",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        }
+      ]
     }
   ],
   "parada_componentes": [
@@ -303,7 +453,31 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-29",
+          "inicio": "12:27",
+          "fim": "12:54",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.45,
+          "motivo": "AJUSTE NA RÉGUA",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-29",
+          "inicio": "15:39",
+          "fim": "18:12",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 2.55,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção dos parafusos da base do mancal do rolamento do eixo árvore "
+        }
+      ]
     },
     {
       "tag": "20505",
@@ -324,7 +498,31 @@
           "horas": 0.2833,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-29",
+          "inicio": "15:11",
+          "fim": "15:26",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Troca do rolamento da régua fixa. "
+        },
+        {
+          "data": "2026-04-29",
+          "inicio": "22:55",
+          "fim": "23:12",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": "conjunto de esticador "
+        }
+      ]
     },
     {
       "tag": "20527",
@@ -345,7 +543,31 @@
           "horas": 0.1167,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-29",
+          "inicio": "04:45",
+          "fim": "04:52",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Ajuste nas ventosas e pinça."
+        },
+        {
+          "data": "2026-04-29",
+          "inicio": "10:29",
+          "fim": "10:42",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20516",
@@ -366,7 +588,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-29",
+          "inicio": "18:12",
+          "fim": "18:29",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "AJUSTE NO PERFURADOR",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20544",
@@ -387,7 +622,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-29",
+          "inicio": "08:00",
+          "fim": "08:15",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20487",
@@ -408,7 +656,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-29",
+          "inicio": "19:50",
+          "fim": "20:04",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20507",
@@ -429,7 +690,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-29",
+          "inicio": "07:26",
+          "fim": "07:33",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "TROCA DE PINÇAS",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20522",
@@ -450,7 +724,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-29",
+          "inicio": "11:59",
+          "fim": "12:03",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NO ARRASTE",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20512",
@@ -471,7 +758,20 @@
           "horas": 0.0667,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-29",
+          "inicio": "23:31",
+          "fim": "23:35",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": ""
+        }
+      ]
     }
   ],
   "evolucao_mensal": [

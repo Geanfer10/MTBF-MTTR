@@ -1,6 +1,6 @@
 {
   "date": "2026-04-27",
-  "updated_at": "2026-10-09T13:32",
+  "updated_at": "2026-10-09T13:47",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -117,7 +117,53 @@
           "horas": 0.1667,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "01:10",
+          "fim": "01:20",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "16:50",
+          "fim": "16:56",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "calibração da fotocélula "
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "17:09",
+          "fim": "17:14",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "calibração da fotocélula "
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "19:45",
+          "fim": "19:50",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "calibração da fotocélula "
+        }
+      ]
     },
     {
       "tag": "20527",
@@ -138,7 +184,42 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "11:44",
+          "fim": "11:56",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "12:52",
+          "fim": "13:00",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "13:10",
+          "fim": "13:54",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.7333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste de pinça ajuste de bico e ajuste no arraste."
+        }
+      ]
     },
     {
       "tag": "20547",
@@ -159,7 +240,42 @@
           "horas": 0.15,
           "falhas": 2
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "11:42",
+          "fim": "11:47",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "23:24",
+          "fim": "23:29",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "23:35",
+          "fim": "23:39",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20478",
@@ -180,7 +296,31 @@
           "horas": 0.5167,
           "falhas": 2
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "04:05",
+          "fim": "04:29",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do parafuso da mordaça inferior de selagem "
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "04:55",
+          "fim": "05:02",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no conector da mordaça inferior traseira de selagem "
+        }
+      ]
     },
     {
       "tag": "20507",
@@ -201,7 +341,31 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "16:44",
+          "fim": "16:49",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "ajuste de pinças e troca de mola de pinças "
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "17:08",
+          "fim": "17:12",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20512",
@@ -222,7 +386,31 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "10:57",
+          "fim": "10:59",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico 02"
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "13:16",
+          "fim": "13:24",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "TROCA DE BICO",
+          "obs": "troca do bico 02"
+        }
+      ]
     },
     {
       "tag": "20544",
@@ -243,7 +431,31 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "12:39",
+          "fim": "12:49",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "18:24",
+          "fim": "19:05",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.6833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção no conjunto de ventosa"
+        }
+      ]
     },
     {
       "tag": "20519",
@@ -264,7 +476,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "19:09",
+          "fim": "19:17",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste de pinça e ajuste no eixo das mordaça superior "
+        }
+      ]
     },
     {
       "tag": "20522",
@@ -285,7 +510,20 @@
           "horas": 0.25,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "22:35",
+          "fim": "22:50",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "AJUSTE NO ARRASTE",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20545",
@@ -306,7 +544,20 @@
           "horas": 0.0667,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "02:44",
+          "fim": "02:48",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20552",
@@ -327,7 +578,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "17:58",
+          "fim": "18:04",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico 1 e 2"
+        }
+      ]
     },
     {
       "tag": "PS04",
@@ -348,7 +612,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "10:31",
+          "fim": "11:24",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.8833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção na tubulação "
+        }
+      ]
     }
   ],
   "parada_componentes": [
@@ -371,7 +648,42 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "11:44",
+          "fim": "11:56",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "12:52",
+          "fim": "13:00",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "13:10",
+          "fim": "13:54",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.7333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste de pinça ajuste de bico e ajuste no arraste."
+        }
+      ]
     },
     {
       "tag": "PS04",
@@ -392,7 +704,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "10:31",
+          "fim": "11:24",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.8833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção na tubulação "
+        }
+      ]
     },
     {
       "tag": "20544",
@@ -413,7 +738,31 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "12:39",
+          "fim": "12:49",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "18:24",
+          "fim": "19:05",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.6833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção no conjunto de ventosa"
+        }
+      ]
     },
     {
       "tag": "20478",
@@ -434,7 +783,31 @@
           "horas": 0.5167,
           "falhas": 2
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "04:05",
+          "fim": "04:29",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do parafuso da mordaça inferior de selagem "
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "04:55",
+          "fim": "05:02",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no conector da mordaça inferior traseira de selagem "
+        }
+      ]
     },
     {
       "tag": "20532",
@@ -455,7 +828,53 @@
           "horas": 0.1667,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "01:10",
+          "fim": "01:20",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "16:50",
+          "fim": "16:56",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "calibração da fotocélula "
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "17:09",
+          "fim": "17:14",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "calibração da fotocélula "
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "19:45",
+          "fim": "19:50",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "calibração da fotocélula "
+        }
+      ]
     },
     {
       "tag": "20522",
@@ -476,7 +895,20 @@
           "horas": 0.25,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "22:35",
+          "fim": "22:50",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "AJUSTE NO ARRASTE",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20547",
@@ -497,7 +929,42 @@
           "horas": 0.15,
           "falhas": 2
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "11:42",
+          "fim": "11:47",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "23:24",
+          "fim": "23:29",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "23:35",
+          "fim": "23:39",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20512",
@@ -518,7 +985,31 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "10:57",
+          "fim": "10:59",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico 02"
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "13:16",
+          "fim": "13:24",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "TROCA DE BICO",
+          "obs": "troca do bico 02"
+        }
+      ]
     },
     {
       "tag": "20507",
@@ -539,7 +1030,31 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "16:44",
+          "fim": "16:49",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "ajuste de pinças e troca de mola de pinças "
+        },
+        {
+          "data": "2026-04-27",
+          "inicio": "17:08",
+          "fim": "17:12",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
     },
     {
       "tag": "20519",
@@ -560,7 +1075,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "19:09",
+          "fim": "19:17",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste de pinça e ajuste no eixo das mordaça superior "
+        }
+      ]
     },
     {
       "tag": "20552",
@@ -581,7 +1109,20 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "17:58",
+          "fim": "18:04",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico 1 e 2"
+        }
+      ]
     },
     {
       "tag": "20545",
@@ -602,7 +1143,20 @@
           "horas": 0.0667,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-27",
+          "inicio": "02:44",
+          "fim": "02:48",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": ""
+        }
+      ]
     }
   ],
   "evolucao_mensal": [
