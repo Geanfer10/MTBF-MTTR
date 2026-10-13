@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updated_at": "2026-10-09T13:47",
+  "updated_at": "2026-10-13T13:02",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -22,7 +22,360 @@
           "horas": 2.5667,
           "falhas": 13
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-13",
+          "inicio": "00:03",
+          "fim": "00:09",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "31314",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "00:52",
+          "fim": "00:54",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "01:07",
+          "fim": "01:09",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "01:13",
+          "fim": "01:33",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.3333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza no canhão do inkjet e ajuste no inkjet ",
+          "tag": "INK06",
+          "componente": "INKJET MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "02:25",
+          "fim": "02:49",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.4,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza no canhão do inkjet e ajuste no inkjet ",
+          "tag": "INK06",
+          "componente": "INKJET MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "03:13",
+          "fim": "03:18",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "04:18",
+          "fim": "04:21",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "04:25",
+          "fim": "04:28",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "04:30",
+          "fim": "05:09",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.65,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "05:35",
+          "fim": "05:49",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "reposição da tinta injket",
+          "tag": "INK06",
+          "componente": "INKJET MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "05:51",
+          "fim": "05:58",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": "",
+          "tag": "31314",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "06:30",
+          "fim": "06:34",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "06:42",
+          "fim": "06:48",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "06:55",
+          "fim": "07:00",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "08:39",
+          "fim": "08:43",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "09:23",
+          "fim": "09:26",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "10:03",
+          "fim": "10:06",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "10:35",
+          "fim": "10:41",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "11:17",
+          "fim": "11:19",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "11:35",
+          "fim": "11:37",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "12:13",
+          "fim": "12:15",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "12:37",
+          "fim": "12:40",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "13:06",
+          "fim": "13:11",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no inkjet ",
+          "tag": "INK06",
+          "componente": "INKJET MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "17:31",
+          "fim": "18:05",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.5667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no conjunto de ventosas ",
+          "tag": "31311",
+          "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "18:46",
+          "fim": "19:15",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "31314",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "19:22",
+          "fim": "19:27",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "TROCA DE PINÇAS",
+          "obs": "",
+          "tag": "31314",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK F"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "23:29",
+          "fim": "23:54",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico dosador 6 e 8",
+          "tag": "31319",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK F"
+        }
+      ]
     },
     {
       "name": "MESPACK E",
@@ -42,7 +395,308 @@
           "horas": 0.8667,
           "falhas": 7
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-13",
+          "inicio": "01:08",
+          "fim": "01:12",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "02:19",
+          "fim": "02:52",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.55,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "substituição das mangueiras da bomba de vácuo ",
+          "tag": "20556",
+          "componente": "CONJUNTO DESBOBINADOR MESPACK E "
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "03:46",
+          "fim": "03:49",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "04:02",
+          "fim": "04:04",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "04:19",
+          "fim": "04:22",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "04:46",
+          "fim": "04:48",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "06:33",
+          "fim": "06:45",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "06:55",
+          "fim": "07:00",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "20567",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK E "
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "08:01",
+          "fim": "08:08",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "08:28",
+          "fim": "08:30",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "09:08",
+          "fim": "09:10",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "09:25",
+          "fim": "09:29",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "11:18",
+          "fim": "11:22",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "11:30",
+          "fim": "11:36",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "20567",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK E "
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "12:47",
+          "fim": "12:55",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "\n\ntroca da mangueira de ar comprimido de eletro válvula do perfurador.",
+          "tag": "20556",
+          "componente": "CONJUNTO DESBOBINADOR MESPACK E "
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "13:35",
+          "fim": "13:43",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "14:30",
+          "fim": "14:35",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "17:23",
+          "fim": "17:26",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "18:39",
+          "fim": "18:41",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": "",
+          "tag": "MECANICA01",
+          "componente": "AGUARDANDO MECANICO"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "18:41",
+          "fim": "18:50",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": "",
+          "tag": "20565",
+          "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK E "
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "20:13",
+          "fim": "20:18",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "20:43",
+          "fim": "20:45",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "22:56",
+          "fim": "23:01",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        }
+      ]
     },
     {
       "name": "MESPACK B",
@@ -62,7 +716,35 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-13",
+          "inicio": "09:55",
+          "fim": "09:59",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": "no bico 1",
+          "tag": "20512",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "20:55",
+          "fim": "21:46",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.85,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "troca da seladora ",
+          "tag": "20496",
+          "componente": "CONJUNTO DESBOBINADOR MESPACK B "
+        }
+      ]
     },
     {
       "name": "MESPACK A",
@@ -82,7 +764,48 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-13",
+          "inicio": "07:25",
+          "fim": "07:30",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do bico 01",
+          "tag": "20492",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK A"
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "16:56",
+          "fim": "17:02",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": "",
+          "tag": "20487",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK A "
+        },
+        {
+          "data": "2026-09-13",
+          "inicio": "17:54",
+          "fim": "18:05",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "AJUSTE NO PERFURADOR",
+          "obs": "",
+          "tag": "20476",
+          "componente": "CONJUNTO DESBOBINADOR MESPACK A "
+        }
+      ]
     },
     {
       "name": "ENCHEDEIRA COPO/LATA",
@@ -102,7 +825,22 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-13",
+          "inicio": "17:30",
+          "fim": "17:45",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "",
+          "tag": "30777",
+          "componente": "CABEÇOTE SUPERIOR MOCOCA M3"
+        }
+      ]
     },
     {
       "name": "MESPACK D",
@@ -122,7 +860,22 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-13",
+          "inicio": "17:43",
+          "fim": "17:49",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "20547",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK D "
+        }
+      ]
     },
     {
       "name": "MESPACK C",
@@ -142,7 +895,22 @@
           "horas": 0.05,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-13",
+          "inicio": "01:07",
+          "fim": "01:10",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NA PRESÃO DE DOSAGEM ",
+          "obs": "",
+          "tag": "20532",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK C"
+        }
+      ]
     }
   ],
   "turnos": {
@@ -1995,7 +2763,7 @@
     },
     {
       "mes": "outubro",
-      "falhas": 839
+      "falhas": 1067
     }
   ],
   "disponibilidade": {

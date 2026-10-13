@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updated_at": "2026-10-09T13:47",
+  "updated_at": "2026-10-13T13:02",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -22,7 +22,74 @@
           "horas": 0.1667,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-27",
+          "inicio": "00:35",
+          "fim": "00:45",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no rolete do desbobinador ",
+          "tag": "20476",
+          "componente": "CONJUNTO DESBOBINADOR MESPACK A "
+        },
+        {
+          "data": "2026-09-27",
+          "inicio": "06:30",
+          "fim": "10:05",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 3.5833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "soldando a tubulação do pasteurizador e foi feito setup",
+          "tag": "PS03",
+          "componente": "PASTEURIZADOR A-B"
+        },
+        {
+          "data": "2026-09-27",
+          "inicio": "10:24",
+          "fim": "10:30",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "alarme da temperatura alta e baixa",
+          "tag": "20493",
+          "componente": "PAINEL OPERACIONAL MESPACK A"
+        },
+        {
+          "data": "2026-09-27",
+          "inicio": "15:30",
+          "fim": "17:15",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.75,
+          "motivo": "AJUSTE NAS VÁLVULAS DE DOSAGEM",
+          "obs": "",
+          "tag": "20492",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK A"
+        },
+        {
+          "data": "2026-09-27",
+          "inicio": "17:38",
+          "fim": "17:45",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da mola da mordaça de selagem superior.",
+          "tag": "20479",
+          "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A "
+        }
+      ]
     },
     {
       "name": "MESPACK B",
@@ -42,7 +109,22 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-27",
+          "inicio": "10:40",
+          "fim": "10:50",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "TROCA DE BICO",
+          "obs": "",
+          "tag": "20512",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B"
+        }
+      ]
     },
     {
       "name": "MESPACK D",
@@ -62,7 +144,22 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-27",
+          "inicio": "16:30",
+          "fim": "16:39",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "calibragem da fotocélula ",
+          "tag": "20542",
+          "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK D "
+        }
+      ]
     }
   ],
   "turnos": {
@@ -588,7 +685,7 @@
     },
     {
       "mes": "outubro",
-      "falhas": 839
+      "falhas": 1067
     }
   ],
   "disponibilidade": {

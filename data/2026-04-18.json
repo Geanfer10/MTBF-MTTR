@@ -1,6 +1,6 @@
 {
   "date": "2026-04-18",
-  "updated_at": "2026-10-09T13:47",
+  "updated_at": "2026-10-13T13:02",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -22,7 +22,347 @@
           "horas": 0.2,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-18",
+          "inicio": "06:30",
+          "fim": "06:42",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "Refazimento da cadena 2",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "07:05",
+          "fim": "07:16",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "07:16",
+          "fim": "07:28",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "AJUSTE NA MORDAÇA VERTICAL",
+          "obs": "Alinhamento do filme manual",
+          "tag": "31396",
+          "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "08:45",
+          "fim": "08:59",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "08:52",
+          "fim": "08:56",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": "",
+          "tag": "31407",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "09:05",
+          "fim": "09:08",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "11:29",
+          "fim": "11:38",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "11:39",
+          "fim": "11:45",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "12:02",
+          "fim": "12:05",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "12:08",
+          "fim": "12:24",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "12:26",
+          "fim": "13:24",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.9667,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "13:32",
+          "fim": "13:36",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "13:55",
+          "fim": "14:01",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "15:24",
+          "fim": "15:29",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "15:49",
+          "fim": "15:53",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": "",
+          "tag": "RB09",
+          "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "15:54",
+          "fim": "16:00",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "16:09",
+          "fim": "16:17",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "16:19",
+          "fim": "16:24",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "16:32",
+          "fim": "16:37",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "17:45",
+          "fim": "17:56",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "17:57",
+          "fim": "18:23",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4333,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": "e ajuste no guia",
+          "tag": "31405",
+          "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "18:26",
+          "fim": "18:37",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": "",
+          "tag": "31407",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "18:44",
+          "fim": "18:50",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "21:13",
+          "fim": "21:17",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "21:19",
+          "fim": "21:22",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "21:58",
+          "fim": "22:04",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
+        }
+      ]
     },
     {
       "name": "MESPACK R1",
@@ -42,7 +382,243 @@
           "horas": 0.15,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-18",
+          "inicio": "06:30",
+          "fim": "06:39",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "refazeamento da cadena2",
+          "tag": "ROBOTICA03",
+          "componente": "FALTA DE GRELHA R1"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "06:40",
+          "fim": "06:43",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "31194",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK R1"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "07:05",
+          "fim": "07:16",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA03",
+          "componente": "FALTA DE GRELHA R1"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "08:50",
+          "fim": "08:56",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA03",
+          "componente": "FALTA DE GRELHA R1"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "11:07",
+          "fim": "11:09",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA03",
+          "componente": "FALTA DE GRELHA R1"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "11:28",
+          "fim": "11:35",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA03",
+          "componente": "FALTA DE GRELHA R1"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "11:38",
+          "fim": "11:45",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA03",
+          "componente": "FALTA DE GRELHA R1"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "11:59",
+          "fim": "12:01",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
+          "obs": "",
+          "tag": "ROBOTICA03",
+          "componente": "FALTA DE GRELHA R1"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "12:02",
+          "fim": "12:04",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": "",
+          "tag": "ROBOTICA03",
+          "componente": "FALTA DE GRELHA R1"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "12:07",
+          "fim": "13:20",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 1.2167,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA03",
+          "componente": "FALTA DE GRELHA R1"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "13:55",
+          "fim": "13:57",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA03",
+          "componente": "FALTA DE GRELHA R1"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "14:45",
+          "fim": "14:55",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no inkijet ",
+          "tag": "INK07",
+          "componente": "INKJET MESPACK R1"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "15:19",
+          "fim": "15:25",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA03",
+          "componente": "FALTA DE GRELHA R1"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "15:48",
+          "fim": "15:50",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": "",
+          "tag": "RB09",
+          "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "15:51",
+          "fim": "16:00",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "ajuste de pinça ajuste no dosador do bico 1 ",
+          "tag": "31194",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK R1"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "16:08",
+          "fim": "16:12",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA03",
+          "componente": "FALTA DE GRELHA R1"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "18:43",
+          "fim": "18:45",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ROBOTICA03",
+          "componente": "FALTA DE GRELHA R1"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "22:09",
+          "fim": "22:15",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "31194",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK R1"
+        }
+      ]
     },
     {
       "name": "MESPACK F",
@@ -62,7 +638,295 @@
           "horas": 0.0333,
           "falhas": 1
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-18",
+          "inicio": "01:42",
+          "fim": "01:44",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "07:06",
+          "fim": "07:17",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "07:20",
+          "fim": "07:22",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "08:11",
+          "fim": "08:19",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "10:52",
+          "fim": "10:54",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "11:15",
+          "fim": "11:17",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "11:22",
+          "fim": "11:29",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "11:35",
+          "fim": "11:37",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "12:07",
+          "fim": "12:10",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "12:27",
+          "fim": "12:30",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "13:27",
+          "fim": "13:29",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "13:47",
+          "fim": "13:52",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "14:50",
+          "fim": "15:53",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 1.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "15:19",
+          "fim": "15:22",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "15:56",
+          "fim": "15:59",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "17:44",
+          "fim": "17:46",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "18:12",
+          "fim": "18:20",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "31314",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "18:24",
+          "fim": "18:28",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": "",
+          "tag": "31314",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "18:32",
+          "fim": "18:35",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "31314",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "19:04",
+          "fim": "19:07",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "19:36",
+          "fim": "19:41",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": "",
+          "tag": "31312",
+          "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK F"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "23:07",
+          "fim": "23:10",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
+        }
+      ]
     },
     {
       "name": "MESPACK E",
@@ -82,7 +946,230 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-18",
+          "inicio": "07:07",
+          "fim": "07:16",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "07:20",
+          "fim": "07:23",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "08:10",
+          "fim": "08:27",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "08:32",
+          "fim": "08:39",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "20567",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK E "
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "09:16",
+          "fim": "09:21",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "09:39",
+          "fim": "09:42",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "10:32",
+          "fim": "10:35",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "TROCA DE VENTOSAS",
+          "obs": "",
+          "tag": "20564",
+          "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK E "
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "10:47",
+          "fim": "10:49",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "11:29",
+          "fim": "11:35",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "11:45",
+          "fim": "11:50",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "12:06",
+          "fim": "12:09",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "12:12",
+          "fim": "12:14",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "12:37",
+          "fim": "12:39",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "12:48",
+          "fim": "12:51",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "13:03",
+          "fim": "13:05",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "13:27",
+          "fim": "13:30",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "14:18",
+          "fim": "14:22",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
+        }
+      ]
     },
     {
       "name": "MESPACK A",
@@ -102,7 +1189,48 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-18",
+          "inicio": "06:56",
+          "fim": "07:25",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca de bico 01 ajuste no guia ",
+          "tag": "20492",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK A"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "08:00",
+          "fim": "08:35",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.5833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "troca de placa é do cabo do medido no bico 01",
+          "tag": "20492",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK A"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "19:59",
+          "fim": "20:01",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": "",
+          "tag": "20487",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK A "
+        }
+      ]
     },
     {
       "name": "MESPACK B",
@@ -122,7 +1250,74 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-18",
+          "inicio": "06:58",
+          "fim": "07:07",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": "",
+          "tag": "20507",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK B "
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "08:15",
+          "fim": "08:18",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "20507",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK B "
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "11:55",
+          "fim": "12:11",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza no sensor do tova",
+          "tag": "20512",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "18:58",
+          "fim": "19:07",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "TROCA DE BICO",
+          "obs": "dosador 2. ",
+          "tag": "20507",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK B "
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "19:08",
+          "fim": "19:18",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "LIMPEZA ELETROVÁLVULA",
+          "obs": "do bico dosador 2",
+          "tag": "20512",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B"
+        }
+      ]
     },
     {
       "name": "ENCAIXOTAMENTO VEGETAIS",
@@ -142,7 +1337,48 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-18",
+          "inicio": "08:10",
+          "fim": "08:23",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "E quebra do parafuso do braço de freio ",
+          "tag": "ROBOTICA03",
+          "componente": "FALTA DE GRELHA R1"
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "08:40",
+          "fim": "08:44",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
+          "obs": "",
+          "tag": "RB010",
+          "componente": "ROBO  DESEMPILHADOR DE BANDEJA "
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "12:14",
+          "fim": "12:21",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
+          "obs": "",
+          "tag": "RB010",
+          "componente": "ROBO  DESEMPILHADOR DE BANDEJA "
+        }
+      ]
     },
     {
       "name": "60L2",
@@ -162,7 +1398,22 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-18",
+          "inicio": "15:50",
+          "fim": "16:07",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "problema no branqueador ",
+          "tag": "30423",
+          "componente": "MOTOR ELETRICO DO REDUTOR DA ENCHEDEIRA 60L1"
+        }
+      ]
     },
     {
       "name": "60L1",
@@ -182,7 +1433,22 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-18",
+          "inicio": "15:50",
+          "fim": "16:07",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "problema no branqueador ",
+          "tag": "30423",
+          "componente": "MOTOR ELETRICO DO REDUTOR DA ENCHEDEIRA 60L1"
+        }
+      ]
     },
     {
       "name": "MESPACK D",
@@ -202,7 +1468,22 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-18",
+          "inicio": "17:32",
+          "fim": "17:48",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do rolamento do nutr-15 do came inferior",
+          "tag": "20538",
+          "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK D "
+        }
+      ]
     },
     {
       "name": "MESPACK C",
@@ -222,7 +1503,35 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-18",
+          "inicio": "11:55",
+          "fim": "11:59",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": "",
+          "tag": "20527",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK C "
+        },
+        {
+          "data": "2026-04-18",
+          "inicio": "15:05",
+          "fim": "15:11",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção no eixo da mordaça superior ",
+          "tag": "20519",
+          "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C "
+        }
+      ]
     }
   ],
   "turnos": {
@@ -2845,7 +4154,7 @@
     },
     {
       "mes": "outubro",
-      "falhas": 839
+      "falhas": 1067
     }
   ],
   "disponibilidade": {

@@ -1,6 +1,6 @@
 {
   "date": "2026-04-30",
-  "updated_at": "2026-10-09T13:47",
+  "updated_at": "2026-10-13T13:02",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -22,7 +22,61 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-30",
+          "inicio": "07:34",
+          "fim": "07:43",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "20527",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK C "
+        },
+        {
+          "data": "2026-04-30",
+          "inicio": "08:44",
+          "fim": "08:56",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Troca do triângulo formador.",
+          "tag": "20516",
+          "componente": "CONJUNTO DESBOBINADOR MESPACK C "
+        },
+        {
+          "data": "2026-04-30",
+          "inicio": "09:05",
+          "fim": "09:09",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Ajuste na bailarina.",
+          "tag": "20527",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK C "
+        },
+        {
+          "data": "2026-04-30",
+          "inicio": "11:48",
+          "fim": "11:52",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "20527",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK C "
+        }
+      ]
     },
     {
       "name": "MESPACK A",
@@ -42,7 +96,22 @@
           "horas": 0.0,
           "falhas": 0
         }
-      }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-30",
+          "inicio": "14:57",
+          "fim": "15:24",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.45,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "temperatura da mordaça com variação de temperatura baixa a traseira inferno ",
+          "tag": "20479",
+          "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A "
+        }
+      ]
     }
   ],
   "turnos": {
@@ -340,7 +409,7 @@
     },
     {
       "mes": "outubro",
-      "falhas": 839
+      "falhas": 1067
     }
   ],
   "disponibilidade": {
