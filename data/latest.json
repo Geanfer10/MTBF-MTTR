@@ -1,135 +1,9 @@
 {
   "date": "2026-10-13",
-  "updated_at": "2026-10-14T14:07",
+  "updated_at": "2026-10-14T19:14",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
-    {
-      "name": "60l1",
-      "horas": 9.3624,
-      "horas_disponiveis": 22.0,
-      "falhas": 8,
-      "por_turno": {
-        "1": {
-          "horas": 4.1667,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 5.1458,
-          "falhas": 5
-        },
-        "3": {
-          "horas": 0.05,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-13",
-          "inicio": "03:30",
-          "fim": "03:33",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "Polimento no cabeçote 1,3 e 4.",
-          "tag": "30433",
-          "componente": "CABEÇOTE SUPERIOR 60L1"
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "08:30",
-          "fim": "11:40",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 3.1667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "",
-          "tag": "30433",
-          "componente": "CABEÇOTE SUPERIOR 60L1"
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "13:10",
-          "fim": "14:10",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 1.0,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "",
-          "tag": "30433",
-          "componente": "CABEÇOTE SUPERIOR 60L1"
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "20:22",
-          "fim": "22:50",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 2.4778,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento cabeçote 4",
-          "tag": "30433",
-          "componente": "CABEÇOTE SUPERIOR 60L1"
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "20:35",
-          "fim": "20:59",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.4,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento todas as placas ",
-          "tag": "30433",
-          "componente": "CABEÇOTE SUPERIOR 60L1"
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "21:07",
-          "fim": "22:53",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 1.768,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento placa 1 e4",
-          "tag": "30433",
-          "componente": "CABEÇOTE SUPERIOR 60L1"
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "21:34",
-          "fim": "21:45",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento placa 1 e 4",
-          "tag": "30433",
-          "componente": "CABEÇOTE SUPERIOR 60L1"
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "21:48",
-          "fim": "22:07",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca de placa 1e2 cabeçote 4",
-          "tag": "30433",
-          "componente": "CABEÇOTE SUPERIOR 60L1"
-        }
-      ]
-    },
     {
       "name": "MESPACK R2",
       "horas": 7.8833,
@@ -2100,6 +1974,41 @@
       ]
     },
     {
+      "name": "60l1",
+      "horas": 1.768,
+      "horas_disponiveis": 22.0,
+      "falhas": 1,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.768,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-13",
+          "inicio": "21:07",
+          "fim": "22:53",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.768,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento placa 1 e4",
+          "tag": "30433",
+          "componente": "CABEÇOTE SUPERIOR 60L1"
+        }
+      ]
+    },
+    {
       "name": "MESPACK A",
       "horas": 0.6667,
       "horas_disponiveis": 19.0,
@@ -2208,9 +2117,9 @@
       "3": 2.3167
     },
     "Mecânica": {
-      "1": 8.75,
-      "2": 8.2458,
-      "3": 1.0833
+      "1": 4.5833,
+      "2": 4.868,
+      "3": 1.0333
     }
   },
   "top_falhas": [
@@ -3133,117 +3042,6 @@
       ]
     },
     {
-      "tag": "30433",
-      "componente": "CABEÇOTE SUPERIOR 60L1",
-      "equipamento": "60l1",
-      "falhas": 8,
-      "horas": 9.3624,
-      "por_turno": {
-        "1": {
-          "horas": 4.1667,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 5.1458,
-          "falhas": 5
-        },
-        "3": {
-          "horas": 0.05,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-13",
-          "inicio": "03:30",
-          "fim": "03:33",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "Polimento no cabeçote 1,3 e 4."
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "08:30",
-          "fim": "11:40",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 3.1667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "13:10",
-          "fim": "14:10",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 1.0,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "20:22",
-          "fim": "22:50",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 2.4778,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento cabeçote 4"
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "20:35",
-          "fim": "20:59",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.4,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento todas as placas "
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "21:07",
-          "fim": "22:53",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 1.768,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento placa 1 e4"
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "21:34",
-          "fim": "21:45",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento placa 1 e 4"
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "21:48",
-          "fim": "22:07",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca de placa 1e2 cabeçote 4"
-        }
-      ]
-    },
-    {
       "tag": "ROBOTICA03",
       "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
@@ -3589,6 +3387,84 @@
       ]
     },
     {
+      "tag": "TP-BJ5",
+      "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ-5",
+      "equipamento": "MESPACK R2",
+      "falhas": 5,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.1333,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.25,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-13",
+          "inicio": "05:26",
+          "fim": "05:36",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no sensor do elevador de transferência TFBJ5GO13"
+        },
+        {
+          "data": "2026-10-13",
+          "inicio": "05:31",
+          "fim": "05:36",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no sensor do elevador de transferência tfbj5 g013"
+        },
+        {
+          "data": "2026-10-13",
+          "inicio": "09:07",
+          "fim": "09:11",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-13",
+          "inicio": "10:01",
+          "fim": "10:05",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-13",
+          "inicio": "17:02",
+          "fim": "17:04",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "INK06",
       "componente": "INKJET MESPACK F",
       "equipamento": "MESPACK F",
@@ -3667,196 +3543,74 @@
       ]
     },
     {
-      "tag": "TP-BJ5",
-      "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ-5",
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
       "equipamento": "MESPACK R2",
-      "falhas": 5,
-      "horas": 0.4167,
+      "falhas": 4,
+      "horas": 0.3,
       "por_turno": {
         "1": {
-          "horas": 0.1333,
-          "falhas": 2
+          "horas": 0.2667,
+          "falhas": 3
         },
         "2": {
-          "horas": 0.0333,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
-          "horas": 0.25,
-          "falhas": 2
+          "horas": 0.0333,
+          "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-10-13",
-          "inicio": "05:26",
-          "fim": "05:36",
+          "inicio": "03:19",
+          "fim": "03:21",
           "turno": 3,
-          "departamento": "Elétrica",
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste no sensor do elevador de transferência TFBJ5GO13"
+          "horas": 0.0333,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": "garras do robô empilhador travada"
         },
         {
           "data": "2026-10-13",
-          "inicio": "05:31",
-          "fim": "05:36",
-          "turno": 3,
-          "departamento": "Elétrica",
+          "inicio": "12:13",
+          "fim": "12:16",
+          "turno": 1,
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste no sensor do elevador de transferência tfbj5 g013"
+          "horas": 0.05,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": ""
         },
         {
           "data": "2026-10-13",
-          "inicio": "09:07",
-          "fim": "09:11",
+          "inicio": "12:13",
+          "fim": "12:17",
           "turno": 1,
           "departamento": "Automação",
           "falhas": 1,
           "horas": 0.0667,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "motivo": "ROBO EMPILHADOR EM FALHA",
           "obs": ""
         },
         {
           "data": "2026-10-13",
-          "inicio": "10:01",
-          "fim": "10:05",
+          "inicio": "13:47",
+          "fim": "13:56",
           "turno": 1,
-          "departamento": "Mecânica",
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "17:02",
-          "fim": "17:04",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "horas": 0.15,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
           "obs": ""
         }
       ]
     }
   ],
   "parada_componentes": [
-    {
-      "tag": "30433",
-      "componente": "CABEÇOTE SUPERIOR 60L1",
-      "equipamento": "60l1",
-      "falhas": 8,
-      "horas": 9.3624,
-      "por_turno": {
-        "1": {
-          "horas": 4.1667,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 5.1458,
-          "falhas": 5
-        },
-        "3": {
-          "horas": 0.05,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-13",
-          "inicio": "03:30",
-          "fim": "03:33",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "Polimento no cabeçote 1,3 e 4."
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "08:30",
-          "fim": "11:40",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 3.1667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "13:10",
-          "fim": "14:10",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 1.0,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "20:22",
-          "fim": "22:50",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 2.4778,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento cabeçote 4"
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "20:35",
-          "fim": "20:59",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.4,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento todas as placas "
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "21:07",
-          "fim": "22:53",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 1.768,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento placa 1 e4"
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "21:34",
-          "fim": "21:45",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento placa 1 e 4"
-        },
-        {
-          "data": "2026-10-13",
-          "inicio": "21:48",
-          "fim": "22:07",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca de placa 1e2 cabeçote 4"
-        }
-      ]
-    },
     {
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
@@ -4230,6 +3984,40 @@
           "horas": 0.0333,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "30433",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
+      "equipamento": "60l1",
+      "falhas": 1,
+      "horas": 1.768,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.768,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-13",
+          "inicio": "21:07",
+          "fim": "22:53",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.768,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento placa 1 e4"
         }
       ]
     },
@@ -5256,15 +5044,15 @@
     },
     {
       "mes": "outubro",
-      "falhas": 1222
+      "falhas": 1215
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 196.0,
-      "horas_paradas": 31.7458,
-      "disponibilidade_pct": 83.8032,
-      "indisponibilidade_pct": 16.1968
+      "horas_paradas": 24.1513,
+      "disponibilidade_pct": 87.6779,
+      "indisponibilidade_pct": 12.3221
     },
     "departamentos": {
       "Elétrica": {
@@ -5275,9 +5063,9 @@
       },
       "Mecânica": {
         "horas_disponiveis": 196.0,
-        "horas_paradas": 18.0791,
-        "disponibilidade_pct": 90.776,
-        "indisponibilidade_pct": 9.224
+        "horas_paradas": 10.4847,
+        "disponibilidade_pct": 94.6507,
+        "indisponibilidade_pct": 5.3493
       },
       "Automação": {
         "horas_disponiveis": 79.0,
@@ -5291,12 +5079,12 @@
     "mes": "outubro",
     "ano": 2026,
     "ate": "2026-10-13",
-    "falhas": 1222,
-    "horas_paradas": 216.2253,
+    "falhas": 1215,
+    "horas_paradas": 208.6309,
     "horas_disponiveis": 2333.0667,
-    "mtbf_min": 103.9366,
-    "disponibilidade_pct": 90.7321,
-    "indisponibilidade_pct": 9.2679,
+    "mtbf_min": 104.9104,
+    "disponibilidade_pct": 91.0577,
+    "indisponibilidade_pct": 8.9423,
     "meta_mtbf": 300,
     "status": "abaixo"
   }
