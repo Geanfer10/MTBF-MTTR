@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updated_at": "2026-10-15T13:17",
+  "updated_at": "2026-10-15T13:32",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -437,8 +437,8 @@
           "horas": 0.1,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": "",
-          "tag": "",
-          "componente": "FALTA DE GRELHA (BANDEJA)"
+          "tag": "ROBOTICA04",
+          "componente": "FALTA DE GRELHA R2"
         },
         {
           "data": "2026-10-14",
@@ -450,8 +450,8 @@
           "horas": 0.1667,
           "motivo": "AJUSTE NA PRESÃO DE DOSAGEM ",
           "obs": "Bico 3 ",
-          "tag": "",
-          "componente": "AJUSTE NA PRESÃO DE DOSAGEM "
+          "tag": "31411",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2"
         },
         {
           "data": "2026-10-14",
@@ -2558,106 +2558,6 @@
       ]
     },
     {
-      "tag": "30777",
-      "componente": "CABEÇOTE SUPERIOR MOCOCA M3",
-      "equipamento": "ENCHEDEIRA COPO/LATA",
-      "falhas": 7,
-      "horas": 1.5167,
-      "por_turno": {
-        "1": {
-          "horas": 1.0667,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.45,
-          "falhas": 4
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-14",
-          "inicio": "01:19",
-          "fim": "01:22",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AGUARDANDO MECÂNICO",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-14",
-          "inicio": "01:22",
-          "fim": "01:28",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-14",
-          "inicio": "04:58",
-          "fim": "05:11",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-14",
-          "inicio": "05:45",
-          "fim": "05:50",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-14",
-          "inicio": "07:05",
-          "fim": "07:15",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "manutenção na recravadeira "
-        },
-        {
-          "data": "2026-10-14",
-          "inicio": "07:20",
-          "fim": "08:09",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.8167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca de disco da recravadeira manutenção "
-        },
-        {
-          "data": "2026-10-14",
-          "inicio": "08:11",
-          "fim": "08:16",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "manutenção na recravadeira "
-        }
-      ]
-    },
-    {
       "tag": "ROBOTICA03",
       "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
@@ -2754,6 +2654,106 @@
           "horas": 0.5167,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "30777",
+      "componente": "CABEÇOTE SUPERIOR MOCOCA M3",
+      "equipamento": "ENCHEDEIRA COPO/LATA",
+      "falhas": 7,
+      "horas": 1.5167,
+      "por_turno": {
+        "1": {
+          "horas": 1.0667,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.45,
+          "falhas": 4
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-14",
+          "inicio": "01:19",
+          "fim": "01:22",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-14",
+          "inicio": "01:22",
+          "fim": "01:28",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-14",
+          "inicio": "04:58",
+          "fim": "05:11",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-14",
+          "inicio": "05:45",
+          "fim": "05:50",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-14",
+          "inicio": "07:05",
+          "fim": "07:15",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção na recravadeira "
+        },
+        {
+          "data": "2026-10-14",
+          "inicio": "07:20",
+          "fim": "08:09",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.8167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca de disco da recravadeira manutenção "
+        },
+        {
+          "data": "2026-10-14",
+          "inicio": "08:11",
+          "fim": "08:16",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção na recravadeira "
         }
       ]
     },
@@ -3059,62 +3059,6 @@
       ]
     },
     {
-      "tag": "31309",
-      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK F",
-      "equipamento": "MESPACK F",
-      "falhas": 3,
-      "horas": 0.3667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.25,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.1167,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-14",
-          "inicio": "03:32",
-          "fim": "03:39",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "AJUSTE NO ARRASTE",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-14",
-          "inicio": "19:07",
-          "fim": "19:13",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "calibragem sensor de fotocélula da máquina "
-        },
-        {
-          "data": "2026-10-14",
-          "inicio": "19:40",
-          "fim": "19:49",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "calibragem do sensor de fotocélula "
-        }
-      ]
-    },
-    {
       "tag": "20519",
       "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
       "equipamento": "MESPACK C",
@@ -3167,6 +3111,62 @@
           "horas": 0.1167,
           "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
           "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31309",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 3,
+      "horas": 0.3667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.25,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.1167,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-14",
+          "inicio": "03:32",
+          "fim": "03:39",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "AJUSTE NO ARRASTE",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-14",
+          "inicio": "19:07",
+          "fim": "19:13",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "calibragem sensor de fotocélula da máquina "
+        },
+        {
+          "data": "2026-10-14",
+          "inicio": "19:40",
+          "fim": "19:49",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "calibragem do sensor de fotocélula "
         }
       ]
     },
@@ -4520,36 +4520,36 @@
       ]
     },
     {
-      "tag": "INK06",
-      "componente": "INKJET MESPACK F",
-      "equipamento": "MESPACK F",
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "equipamento": "MESPACK R2",
       "falhas": 1,
-      "horas": 0.1167,
+      "horas": 0.1667,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.1667,
+          "falhas": 1
         },
         "3": {
-          "horas": 0.1167,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         }
       },
       "ocorrencias": [
         {
           "data": "2026-10-14",
-          "inicio": "03:25",
-          "fim": "03:32",
-          "turno": 3,
-          "departamento": "Elétrica",
+          "inicio": "15:04",
+          "fim": "15:14",
+          "turno": 2,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": ""
+          "horas": 0.1667,
+          "motivo": "AJUSTE NA PRESÃO DE DOSAGEM ",
+          "obs": "Bico 3 "
         }
       ]
     }
