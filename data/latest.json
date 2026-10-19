@@ -1,13 +1,13 @@
 {
   "date": "2026-10-18",
-  "updated_at": "2026-10-19T11:42",
+  "updated_at": "2026-10-19T11:56",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK R2",
       "horas": 15.3333,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 22.1667,
       "falhas": 39,
       "por_turno": {
         "1": {
@@ -536,7 +536,7 @@
     {
       "name": "MESPACK R1",
       "horas": 3.15,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 22.1667,
       "falhas": 24,
       "por_turno": {
         "1": {
@@ -870,7 +870,7 @@
     {
       "name": "MESPACK B",
       "horas": 1.3833,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 23.3333,
       "falhas": 9,
       "por_turno": {
         "1": {
@@ -897,8 +897,8 @@
           "horas": 0.05,
           "motivo": "AJUSTE DO ESTICADOR",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE DO ESTICADOR"
+          "tag": "20505",
+          "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK B "
         },
         {
           "data": "2026-10-18",
@@ -910,8 +910,8 @@
           "horas": 0.35,
           "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
           "obs": "ajuste na mordaça superior ",
-          "tag": "",
-          "componente": "AJUSTE NA MORDAÇA SUPERIOR"
+          "tag": "20499",
+          "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B "
         },
         {
           "data": "2026-10-18",
@@ -923,8 +923,8 @@
           "horas": 0.0833,
           "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NO GUIA DE EMBALAGEM"
+          "tag": "20507",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK B "
         },
         {
           "data": "2026-10-18",
@@ -936,8 +936,8 @@
           "horas": 0.1333,
           "motivo": "TROCA DE MOLA DAS PINÇAS",
           "obs": "",
-          "tag": "",
-          "componente": "TROCA DE MOLA DAS PINÇAS"
+          "tag": "20507",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK B "
         },
         {
           "data": "2026-10-18",
@@ -949,8 +949,8 @@
           "horas": 0.0667,
           "motivo": "AJUSTE NAS PINÇAS",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NAS PINÇAS"
+          "tag": "20507",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK B "
         },
         {
           "data": "2026-10-18",
@@ -962,8 +962,8 @@
           "horas": 0.2667,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "Troca da mola da mordaça superior e ajuste no guia da embalagem.",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "20499",
+          "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B "
         },
         {
           "data": "2026-10-18",
@@ -975,8 +975,8 @@
           "horas": 0.0833,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "Troca da mola da mordaça superior.",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "20499",
+          "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B "
         },
         {
           "data": "2026-10-18",
@@ -988,8 +988,8 @@
           "horas": 0.2667,
           "motivo": "LIMPEZA ELETROVÁLVULA",
           "obs": "",
-          "tag": "",
-          "componente": "LIMPEZA ELETROVÁLVULA"
+          "tag": "20512",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B"
         },
         {
           "data": "2026-10-18",
@@ -1001,8 +1001,8 @@
           "horas": 0.0833,
           "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NO GUIA DE EMBALAGEM"
+          "tag": "20507",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK B "
         }
       ]
     },
@@ -1044,7 +1044,7 @@
     {
       "name": "MESPACK A",
       "horas": 0.7333,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 23.3333,
       "falhas": 2,
       "por_turno": {
         "1": {
@@ -1192,6 +1192,163 @@
   },
   "top_falhas": [
     {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 4,
+      "horas": 0.3667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.2833,
+          "falhas": 3
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-18",
+          "inicio": "03:30",
+          "fim": "03:35",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-18",
+          "inicio": "03:47",
+          "fim": "03:55",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-18",
+          "inicio": "04:00",
+          "fim": "04:04",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-18",
+          "inicio": "17:03",
+          "fim": "17:08",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20499",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 3,
+      "horas": 0.7,
+      "por_turno": {
+        "1": {
+          "horas": 0.35,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.35,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-18",
+          "inicio": "02:57",
+          "fim": "03:18",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.35,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "obs": "ajuste na mordaça superior "
+        },
+        {
+          "data": "2026-10-18",
+          "inicio": "08:35",
+          "fim": "08:51",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Troca da mola da mordaça superior e ajuste no guia da embalagem."
+        },
+        {
+          "data": "2026-10-18",
+          "inicio": "12:28",
+          "fim": "12:33",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Troca da mola da mordaça superior."
+        }
+      ]
+    },
+    {
+      "tag": "20492",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK A",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.5,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.5,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-18",
+          "inicio": "23:48",
+          "fim": "00:18",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.5,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "20478",
       "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK A ",
       "equipamento": "MESPACK A",
@@ -1226,11 +1383,11 @@
       ]
     },
     {
-      "tag": "20492",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK A",
-      "equipamento": "MESPACK A",
+      "tag": "20505",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK B ",
+      "equipamento": "MESPACK B",
       "falhas": 1,
-      "horas": 0.5,
+      "horas": 0.05,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -1241,20 +1398,54 @@
           "falhas": 0
         },
         "3": {
-          "horas": 0.5,
+          "horas": 0.05,
           "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-10-18",
-          "inicio": "23:48",
-          "fim": "00:18",
+          "inicio": "00:22",
+          "fim": "00:25",
           "turno": 3,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.5,
-          "motivo": "MANUTENÇÃO MECÂNICA",
+          "horas": 0.05,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.2667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-18",
+          "inicio": "15:38",
+          "fim": "15:54",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "LIMPEZA ELETROVÁLVULA",
           "obs": ""
         }
       ]
@@ -1262,6 +1453,62 @@
   ],
   "parada_componentes": [
     {
+      "tag": "20499",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 3,
+      "horas": 0.7,
+      "por_turno": {
+        "1": {
+          "horas": 0.35,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.35,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-18",
+          "inicio": "02:57",
+          "fim": "03:18",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.35,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "obs": "ajuste na mordaça superior "
+        },
+        {
+          "data": "2026-10-18",
+          "inicio": "08:35",
+          "fim": "08:51",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Troca da mola da mordaça superior e ajuste no guia da embalagem."
+        },
+        {
+          "data": "2026-10-18",
+          "inicio": "12:28",
+          "fim": "12:33",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Troca da mola da mordaça superior."
+        }
+      ]
+    },
+    {
       "tag": "20492",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK A",
       "equipamento": "MESPACK A",
@@ -1296,6 +1543,107 @@
       ]
     },
     {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 4,
+      "horas": 0.3667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.2833,
+          "falhas": 3
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-18",
+          "inicio": "03:30",
+          "fim": "03:35",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-18",
+          "inicio": "03:47",
+          "fim": "03:55",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-18",
+          "inicio": "04:00",
+          "fim": "04:04",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-18",
+          "inicio": "17:03",
+          "fim": "17:08",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.2667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-18",
+          "inicio": "15:38",
+          "fim": "15:54",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "LIMPEZA ELETROVÁLVULA",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "20478",
       "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK A ",
       "equipamento": "MESPACK A",
@@ -1325,6 +1673,40 @@
           "falhas": 1,
           "horas": 0.2333,
           "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20505",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.05,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.05,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-18",
+          "inicio": "00:22",
+          "fim": "00:25",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE DO ESTICADOR",
           "obs": ""
         }
       ]
@@ -1361,34 +1743,34 @@
     },
     {
       "mes": "outubro",
-      "falhas": 1882
+      "falhas": 1881
     }
   ],
   "disponibilidade": {
     "geral": {
-      "horas_disponiveis": 286.0,
+      "horas_disponiveis": 113.0,
       "horas_paradas": 22.3205,
-      "disponibilidade_pct": 92.1956,
-      "indisponibilidade_pct": 7.8044
+      "disponibilidade_pct": 80.2474,
+      "indisponibilidade_pct": 19.7526
     },
     "departamentos": {
       "Elétrica": {
-        "horas_disponiveis": 286.0,
+        "horas_disponiveis": 113.0,
         "horas_paradas": 2.6333,
-        "disponibilidade_pct": 99.0793,
-        "indisponibilidade_pct": 0.9207
+        "disponibilidade_pct": 97.6696,
+        "indisponibilidade_pct": 2.3304
       },
       "Mecânica": {
-        "horas_disponiveis": 286.0,
+        "horas_disponiveis": 113.0,
         "horas_paradas": 16.4871,
-        "disponibilidade_pct": 94.2353,
-        "indisponibilidade_pct": 5.7647
+        "disponibilidade_pct": 85.4096,
+        "indisponibilidade_pct": 14.5904
       },
       "Automação": {
-        "horas_disponiveis": 88.0,
+        "horas_disponiveis": 44.3333,
         "horas_paradas": 3.2,
-        "disponibilidade_pct": 96.3636,
-        "indisponibilidade_pct": 3.6364
+        "disponibilidade_pct": 92.782,
+        "indisponibilidade_pct": 7.218
       }
     }
   },
@@ -1396,12 +1778,12 @@
     "mes": "outubro",
     "ano": 2026,
     "ate": "2026-10-18",
-    "falhas": 1882,
-    "horas_paradas": 326.722,
-    "horas_disponiveis": 2801.2333,
-    "mtbf_min": 78.8898,
-    "disponibilidade_pct": 88.3365,
-    "indisponibilidade_pct": 11.6635,
+    "falhas": 1881,
+    "horas_paradas": 325.0553,
+    "horas_disponiveis": 3308.1667,
+    "mtbf_min": 95.1551,
+    "disponibilidade_pct": 90.1742,
+    "indisponibilidade_pct": 9.8258,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

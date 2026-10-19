@@ -1,13 +1,13 @@
 {
   "date": "2026-10-17",
-  "updated_at": "2026-10-19T11:42",
+  "updated_at": "2026-10-19T11:56",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK R2",
       "horas": 7.55,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 21.9833,
       "falhas": 48,
       "por_turno": {
         "1": {
@@ -777,109 +777,9 @@
       ]
     },
     {
-      "name": "MESPACK B",
-      "horas": 2.85,
-      "horas_disponiveis": 22.0,
-      "falhas": 6,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 2.4333,
-          "falhas": 4
-        },
-        "3": {
-          "horas": 0.4167,
-          "falhas": 2
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-17",
-          "inicio": "02:20",
-          "fim": "02:28",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
-          "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NA MORDAÇA INFERIOR"
-        },
-        {
-          "data": "2026-10-17",
-          "inicio": "16:15",
-          "fim": "17:55",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 1.6667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste geral e continuação do setup ",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
-        },
-        {
-          "data": "2026-10-17",
-          "inicio": "18:17",
-          "fim": "18:51",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.5667,
-          "motivo": "AGUARDANDO ELETRICISTA",
-          "obs": "",
-          "tag": "",
-          "componente": "AGUARDANDO ELETRICISTA"
-        },
-        {
-          "data": "2026-10-17",
-          "inicio": "18:51",
-          "fim": "18:53",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "",
-          "tag": "",
-          "componente": "MANUTENÇÃO ELÉTRICA"
-        },
-        {
-          "data": "2026-10-17",
-          "inicio": "19:05",
-          "fim": "19:15",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca do bico 2 ",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
-        },
-        {
-          "data": "2026-10-17",
-          "inicio": "23:51",
-          "fim": "00:08",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2833,
-          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
-          "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NA MORDAÇA INFERIOR"
-        }
-      ]
-    },
-    {
       "name": "MESPACK R1",
       "horas": 2.6833,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 21.9833,
       "falhas": 23,
       "por_turno": {
         "1": {
@@ -1200,7 +1100,7 @@
     {
       "name": "MESPACK F",
       "horas": 2.05,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 15.5,
       "falhas": 21,
       "por_turno": {
         "1": {
@@ -1495,7 +1395,7 @@
     {
       "name": "MESPACK E",
       "horas": 2.0167,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 15.5,
       "falhas": 21,
       "por_turno": {
         "1": {
@@ -1522,8 +1422,8 @@
           "horas": 0.1167,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
         },
         {
           "data": "2026-10-17",
@@ -1535,8 +1435,8 @@
           "horas": 0.05,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
         },
         {
           "data": "2026-10-17",
@@ -1548,8 +1448,8 @@
           "horas": 0.05,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
         },
         {
           "data": "2026-10-17",
@@ -1561,8 +1461,8 @@
           "horas": 0.05,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
         },
         {
           "data": "2026-10-17",
@@ -1574,8 +1474,8 @@
           "horas": 0.05,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
         },
         {
           "data": "2026-10-17",
@@ -1587,8 +1487,8 @@
           "horas": 0.0667,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
         },
         {
           "data": "2026-10-17",
@@ -1600,8 +1500,8 @@
           "horas": 0.0667,
           "motivo": "TROCA DE MOLA DAS PINÇAS",
           "obs": "",
-          "tag": "",
-          "componente": "TROCA DE MOLA DAS PINÇAS"
+          "tag": "20567",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK E "
         },
         {
           "data": "2026-10-17",
@@ -1613,8 +1513,8 @@
           "horas": 0.0833,
           "motivo": "TROCA DE BICO",
           "obs": "bico dosador n• 8.",
-          "tag": "",
-          "componente": "TROCA DE BICO"
+          "tag": "20572",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK E"
         },
         {
           "data": "2026-10-17",
@@ -1626,8 +1526,8 @@
           "horas": 0.25,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "foi feito reset geral na máquina devido falha na boquilha 8 .",
-          "tag": "",
-          "componente": "MANUTENÇÃO ELÉTRICA"
+          "tag": "20572",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK E"
         },
         {
           "data": "2026-10-17",
@@ -1639,8 +1539,8 @@
           "horas": 0.0667,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
         },
         {
           "data": "2026-10-17",
@@ -1652,8 +1552,8 @@
           "horas": 0.0833,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
         },
         {
           "data": "2026-10-17",
@@ -1665,8 +1565,8 @@
           "horas": 0.05,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
         },
         {
           "data": "2026-10-17",
@@ -1678,8 +1578,8 @@
           "horas": 0.1833,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
         },
         {
           "data": "2026-10-17",
@@ -1691,8 +1591,8 @@
           "horas": 0.0833,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
         },
         {
           "data": "2026-10-17",
@@ -1704,8 +1604,8 @@
           "horas": 0.1,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
         },
         {
           "data": "2026-10-17",
@@ -1717,8 +1617,8 @@
           "horas": 0.1667,
           "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NO GUIA DE EMBALAGEM"
+          "tag": "20567",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK E "
         },
         {
           "data": "2026-10-17",
@@ -1730,8 +1630,8 @@
           "horas": 0.1333,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
         },
         {
           "data": "2026-10-17",
@@ -1743,8 +1643,8 @@
           "horas": 0.0667,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
         },
         {
           "data": "2026-10-17",
@@ -1756,8 +1656,8 @@
           "horas": 0.1833,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
         },
         {
           "data": "2026-10-17",
@@ -1769,8 +1669,8 @@
           "horas": 0.05,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
         },
         {
           "data": "2026-10-17",
@@ -1782,8 +1682,8 @@
           "horas": 0.0667,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA01",
+          "componente": "ESTEIRÃO PARADO MESPACK E"
         }
       ]
     },
@@ -1849,9 +1749,96 @@
       ]
     },
     {
+      "name": "MESPACK B",
+      "horas": 1.1833,
+      "horas_disponiveis": 20.0,
+      "falhas": 5,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.7667,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.4167,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-17",
+          "inicio": "02:20",
+          "fim": "02:28",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "obs": "",
+          "tag": "20498",
+          "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK B "
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "18:17",
+          "fim": "18:51",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.5667,
+          "motivo": "AGUARDANDO ELETRICISTA",
+          "obs": "",
+          "tag": "ELETRICA01",
+          "componente": "AGUARDANDO ELETRICA"
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "18:51",
+          "fim": "18:53",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "",
+          "tag": "INK02",
+          "componente": "INKJET MESPACK B"
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "19:05",
+          "fim": "19:15",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do bico 2 ",
+          "tag": "20512",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B"
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "23:51",
+          "fim": "00:08",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "obs": "",
+          "tag": "20498",
+          "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK B "
+        }
+      ]
+    },
+    {
       "name": "MESPACK A",
       "horas": 1.1167,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 20.0,
       "falhas": 5,
       "por_turno": {
         "1": {
@@ -2116,7 +2103,7 @@
     {
       "name": "60L1",
       "horas": 0.8167,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 24.0,
       "falhas": 6,
       "por_turno": {
         "1": {
@@ -2349,51 +2336,272 @@
     },
     "Mecânica": {
       "1": 1.2,
-      "2": 3.1167,
+      "2": 1.45,
       "3": 2.2667
     }
   },
   "top_falhas": [
     {
-      "tag": "20479",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A ",
-      "equipamento": "MESPACK A",
-      "falhas": 1,
-      "horas": 0.7167,
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "equipamento": "MESPACK E",
+      "falhas": 17,
+      "horas": 1.45,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.2167,
+          "falhas": 4
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.95,
+          "falhas": 9
         },
         "3": {
-          "horas": 0.7167,
-          "falhas": 1
+          "horas": 0.2833,
+          "falhas": 4
         }
       },
       "ocorrencias": [
         {
           "data": "2026-10-17",
-          "inicio": "23:10",
-          "fim": "23:53",
+          "inicio": "00:16",
+          "fim": "00:23",
           "turno": 3,
-          "departamento": "Mecânica",
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.7167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
+          "horas": 0.1167,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "01:06",
+          "fim": "01:09",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "08:03",
+          "fim": "08:06",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "08:12",
+          "fim": "08:15",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "08:20",
+          "fim": "08:23",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "08:25",
+          "fim": "08:29",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "14:45",
+          "fim": "14:49",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "15:44",
+          "fim": "15:49",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "17:49",
+          "fim": "17:52",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "18:37",
+          "fim": "18:48",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "19:20",
+          "fim": "19:25",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "19:57",
+          "fim": "20:03",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "21:10",
+          "fim": "21:18",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "21:49",
+          "fim": "21:53",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "21:56",
+          "fim": "22:07",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "23:20",
+          "fim": "23:23",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "23:36",
+          "fim": "23:40",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": ""
         }
       ]
     },
     {
-      "tag": "20482",
-      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK A ",
-      "equipamento": "MESPACK A",
-      "falhas": 1,
-      "horas": 0.0667,
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 2,
+      "horas": 0.2333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-17",
+          "inicio": "10:37",
+          "fim": "10:41",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "21:00",
+          "fim": "21:10",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20498",
+      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 2,
+      "horas": 0.4167,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -2404,20 +2612,110 @@
           "falhas": 0
         },
         "3": {
-          "horas": 0.0667,
+          "horas": 0.4167,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-17",
+          "inicio": "02:20",
+          "fim": "02:28",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "23:51",
+          "fim": "00:08",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20572",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK E",
+      "equipamento": "MESPACK E",
+      "falhas": 2,
+      "horas": 0.3333,
+      "por_turno": {
+        "1": {
+          "horas": 0.3333,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-17",
+          "inicio": "14:10",
+          "fim": "14:15",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "TROCA DE BICO",
+          "obs": "bico dosador n• 8."
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "14:15",
+          "fim": "14:30",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "foi feito reset geral na máquina devido falha na boquilha 8 ."
+        }
+      ]
+    },
+    {
+      "tag": "20487",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.0833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0833,
           "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-10-17",
-          "inicio": "00:02",
-          "fim": "00:06",
+          "inicio": "00:19",
+          "fim": "00:24",
           "turno": 3,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE NO ARRASTE",
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
           "obs": ""
         }
       ]
@@ -2457,11 +2755,11 @@
       ]
     },
     {
-      "tag": "20487",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "tag": "20482",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK A ",
       "equipamento": "MESPACK A",
       "falhas": 1,
-      "horas": 0.0833,
+      "horas": 0.0667,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -2472,21 +2770,89 @@
           "falhas": 0
         },
         "3": {
-          "horas": 0.0833,
+          "horas": 0.0667,
           "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-10-17",
-          "inicio": "00:19",
-          "fim": "00:24",
+          "inicio": "00:02",
+          "fim": "00:06",
           "turno": 3,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NAS PINÇAS",
+          "horas": 0.0667,
+          "motivo": "AJUSTE NO ARRASTE",
           "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20479",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A ",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.7167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.7167,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-17",
+          "inicio": "23:10",
+          "fim": "23:53",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.7167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.1667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-17",
+          "inicio": "19:05",
+          "fim": "19:15",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do bico 2 "
         }
       ]
     },
@@ -2520,6 +2886,74 @@
           "falhas": 1,
           "horas": 0.1,
           "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "ELETRICA01",
+      "componente": "AGUARDANDO ELETRICA",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.5667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.5667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-17",
+          "inicio": "18:17",
+          "fim": "18:51",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.5667,
+          "motivo": "AGUARDANDO ELETRICISTA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "INK02",
+      "componente": "INKJET MESPACK B",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.0333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-17",
+          "inicio": "18:51",
+          "fim": "18:53",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": ""
         }
       ]
@@ -2527,6 +2961,216 @@
   ],
   "parada_componentes": [
     {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "equipamento": "MESPACK E",
+      "falhas": 17,
+      "horas": 1.45,
+      "por_turno": {
+        "1": {
+          "horas": 0.2167,
+          "falhas": 4
+        },
+        "2": {
+          "horas": 0.95,
+          "falhas": 9
+        },
+        "3": {
+          "horas": 0.2833,
+          "falhas": 4
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-17",
+          "inicio": "00:16",
+          "fim": "00:23",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "01:06",
+          "fim": "01:09",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "08:03",
+          "fim": "08:06",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "08:12",
+          "fim": "08:15",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "08:20",
+          "fim": "08:23",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "08:25",
+          "fim": "08:29",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "14:45",
+          "fim": "14:49",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "15:44",
+          "fim": "15:49",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "17:49",
+          "fim": "17:52",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "18:37",
+          "fim": "18:48",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "19:20",
+          "fim": "19:25",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "19:57",
+          "fim": "20:03",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "21:10",
+          "fim": "21:18",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "21:49",
+          "fim": "21:53",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "21:56",
+          "fim": "22:07",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "23:20",
+          "fim": "23:23",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "23:36",
+          "fim": "23:40",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "20479",
       "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A ",
       "equipamento": "MESPACK A",
@@ -2557,6 +3201,209 @@
           "horas": 0.7167,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "ELETRICA01",
+      "componente": "AGUARDANDO ELETRICA",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.5667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.5667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-17",
+          "inicio": "18:17",
+          "fim": "18:51",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.5667,
+          "motivo": "AGUARDANDO ELETRICISTA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20498",
+      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 2,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.4167,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-17",
+          "inicio": "02:20",
+          "fim": "02:28",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "23:51",
+          "fim": "00:08",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20572",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK E",
+      "equipamento": "MESPACK E",
+      "falhas": 2,
+      "horas": 0.3333,
+      "por_turno": {
+        "1": {
+          "horas": 0.3333,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-17",
+          "inicio": "14:10",
+          "fim": "14:15",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "TROCA DE BICO",
+          "obs": "bico dosador n• 8."
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "14:15",
+          "fim": "14:30",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "foi feito reset geral na máquina devido falha na boquilha 8 ."
+        }
+      ]
+    },
+    {
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 2,
+      "horas": 0.2333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-17",
+          "inicio": "10:37",
+          "fim": "10:41",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "21:00",
+          "fim": "21:10",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.1667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-17",
+          "inicio": "19:05",
+          "fim": "19:15",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do bico 2 "
         }
       ]
     },
@@ -2692,6 +3539,40 @@
           "falhas": 1,
           "horas": 0.0667,
           "motivo": "AJUSTE NO ARRASTE",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "INK02",
+      "componente": "INKJET MESPACK B",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.0333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-17",
+          "inicio": "18:51",
+          "fim": "18:53",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": ""
         }
       ]
@@ -2728,34 +3609,34 @@
     },
     {
       "mes": "outubro",
-      "falhas": 1882
+      "falhas": 1881
     }
   ],
   "disponibilidade": {
     "geral": {
-      "horas_disponiveis": 286.0,
-      "horas_paradas": 25.5341,
-      "disponibilidade_pct": 91.072,
-      "indisponibilidade_pct": 8.928
+      "horas_disponiveis": 184.9667,
+      "horas_paradas": 23.8675,
+      "disponibilidade_pct": 87.0963,
+      "indisponibilidade_pct": 12.9037
     },
     "departamentos": {
       "Elétrica": {
-        "horas_disponiveis": 286.0,
+        "horas_disponiveis": 184.9667,
         "horas_paradas": 5.5333,
-        "disponibilidade_pct": 98.0653,
-        "indisponibilidade_pct": 1.9347
+        "disponibilidade_pct": 97.0085,
+        "indisponibilidade_pct": 2.9915
       },
       "Mecânica": {
-        "horas_disponiveis": 286.0,
-        "horas_paradas": 6.5833,
-        "disponibilidade_pct": 97.6981,
-        "indisponibilidade_pct": 2.3019
+        "horas_disponiveis": 184.9667,
+        "horas_paradas": 4.9167,
+        "disponibilidade_pct": 97.3419,
+        "indisponibilidade_pct": 2.6581
       },
       "Automação": {
-        "horas_disponiveis": 88.0,
+        "horas_disponiveis": 74.9667,
         "horas_paradas": 13.4175,
-        "disponibilidade_pct": 84.7529,
-        "indisponibilidade_pct": 15.2471
+        "disponibilidade_pct": 82.1021,
+        "indisponibilidade_pct": 17.8979
       }
     }
   },
@@ -2763,12 +3644,12 @@
     "mes": "outubro",
     "ano": 2026,
     "ate": "2026-10-17",
-    "falhas": 1804,
-    "horas_paradas": 304.4015,
-    "horas_disponiveis": 2801.2333,
-    "mtbf_min": 83.0432,
-    "disponibilidade_pct": 89.1333,
-    "indisponibilidade_pct": 10.8667,
+    "falhas": 1803,
+    "horas_paradas": 302.7349,
+    "horas_disponiveis": 3195.1667,
+    "mtbf_min": 96.254,
+    "disponibilidade_pct": 90.5252,
+    "indisponibilidade_pct": 9.4748,
     "meta_mtbf": 300,
     "status": "abaixo"
   }
