@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updated_at": "2026-10-19T11:56",
+  "updated_at": "2026-10-19T12:09",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1036,8 +1036,8 @@
           "horas": 1.0,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "manutenção na bomba de água quente do pasteurizador.",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "20414",
+          "componente": "BOMBA DE CIRCULAÇÃO DE ÁGUA QUENTE PASTEURIZADOR COPO/LATA"
         }
       ]
     },
@@ -1315,6 +1315,40 @@
       ]
     },
     {
+      "tag": "20414",
+      "componente": "BOMBA DE CIRCULAÇÃO DE ÁGUA QUENTE PASTEURIZADOR COPO/LATA",
+      "equipamento": "ENCHEDEIRA COPO/LATA",
+      "falhas": 1,
+      "horas": 1.0,
+      "por_turno": {
+        "1": {
+          "horas": 1.0,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-18",
+          "inicio": "07:56",
+          "fim": "08:56",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.0,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção na bomba de água quente do pasteurizador."
+        }
+      ]
+    },
+    {
       "tag": "20492",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK A",
       "equipamento": "MESPACK A",
@@ -1452,6 +1486,40 @@
     }
   ],
   "parada_componentes": [
+    {
+      "tag": "20414",
+      "componente": "BOMBA DE CIRCULAÇÃO DE ÁGUA QUENTE PASTEURIZADOR COPO/LATA",
+      "equipamento": "ENCHEDEIRA COPO/LATA",
+      "falhas": 1,
+      "horas": 1.0,
+      "por_turno": {
+        "1": {
+          "horas": 1.0,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-18",
+          "inicio": "07:56",
+          "fim": "08:56",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.0,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção na bomba de água quente do pasteurizador."
+        }
+      ]
+    },
     {
       "tag": "20499",
       "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B ",
