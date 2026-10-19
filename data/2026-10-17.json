@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "updated_at": "2026-10-19T12:41",
+  "updated_at": "2026-10-19T12:54",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -42,13 +42,13 @@
           "inicio": "01:07",
           "fim": "01:10",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
           "obs": "",
-          "tag": "",
-          "componente": "BASE PRESA NAS CADENAS E TRANSFERIDORES"
+          "tag": "TF-BJ4",
+          "componente": "TRANSFERIDO DE BANDEJA TF-BJ4"
         },
         {
           "data": "2026-10-17",
@@ -651,92 +651,18 @@
       ]
     },
     {
-      "name": "ROBO 010 DESEMPILHADOR DE BANDEJA ",
-      "horas": 2.7341,
-      "horas_disponiveis": 22.0,
-      "falhas": 4,
-      "por_turno": {
-        "1": {
-          "horas": 0.3,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 2.4341,
-          "falhas": 2
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-17",
-          "inicio": "00:00",
-          "fim": "00:24",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.4,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "",
-          "tag": "",
-          "componente": "ERRO DE ETHERCAT"
-        },
-        {
-          "data": "2026-10-17",
-          "inicio": "02:04",
-          "fim": "04:06",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 2.0341,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "",
-          "tag": "",
-          "componente": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO"
-        },
-        {
-          "data": "2026-10-17",
-          "inicio": "08:39",
-          "fim": "08:53",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "substituição da conexão do elevador é do sensor stop tppl1",
-          "tag": "",
-          "componente": "MANUTENÇÃO ELÉTRICA"
-        },
-        {
-          "data": "2026-10-17",
-          "inicio": "10:39",
-          "fim": "10:43",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "GARRAS TRAVADAS",
-          "obs": "",
-          "tag": "",
-          "componente": "GARRAS TRAVADAS"
-        }
-      ]
-    },
-    {
       "name": "MESPACK R1",
-      "horas": 2.6833,
+      "horas": 2.6167,
       "horas_disponiveis": 21.9833,
-      "falhas": 23,
+      "falhas": 22,
       "por_turno": {
         "1": {
           "horas": 0.6833,
           "falhas": 12
         },
         "2": {
-          "horas": 1.4,
-          "falhas": 9
+          "horas": 1.3333,
+          "falhas": 8
         },
         "3": {
           "horas": 0.6,
@@ -977,19 +903,6 @@
           "obs": "",
           "tag": "ROBOTICA03",
           "componente": "FALTA DE GRELHA R1"
-        },
-        {
-          "data": "2026-10-17",
-          "inicio": "17:31",
-          "fim": "17:35",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
         },
         {
           "data": "2026-10-17",
@@ -1636,54 +1549,6 @@
       ]
     },
     {
-      "name": "ROBO 012 ENCAIXOTAMENTO VEGETAIS LADO DIREITO",
-      "horas": 1.7333,
-      "horas_disponiveis": 22.0,
-      "falhas": 2,
-      "por_turno": {
-        "1": {
-          "horas": 1.0667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.6667,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-17",
-          "inicio": "02:56",
-          "fim": "03:36",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.6667,
-          "motivo": "TROCA DE VENTOSAS",
-          "obs": "",
-          "tag": "",
-          "componente": "TROCA DE VENTOSAS"
-        },
-        {
-          "data": "2026-10-17",
-          "inicio": "12:50",
-          "fim": "13:54",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 1.0667,
-          "motivo": "TROCA ELETROVALVULA",
-          "obs": "",
-          "tag": "",
-          "componente": "TROCA ELETROVALVULA"
-        }
-      ]
-    },
-    {
       "name": "MESPACK B",
       "horas": 1.1833,
       "horas_disponiveis": 20.0,
@@ -2212,19 +2077,19 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 3.75,
-      "2": 4.2,
-      "3": 4.9675
+      "1": 3.6833,
+      "2": 4.1333,
+      "3": 2.4833
     },
     "Elétrica": {
-      "1": 3.05,
+      "1": 1.75,
       "2": 1.2833,
       "3": 1.2
     },
     "Mecânica": {
       "1": 1.3,
       "2": 1.45,
-      "3": 2.2667
+      "3": 1.65
     }
   },
   "top_falhas": [
@@ -2916,46 +2781,46 @@
       ]
     },
     {
-      "tag": "20498",
-      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK B ",
-      "equipamento": "MESPACK B",
+      "tag": "TF-BJ4",
+      "componente": "TRANSFERIDO DE BANDEJA TF-BJ4",
+      "equipamento": "MESPACK R1",
       "falhas": 2,
-      "horas": 0.4167,
+      "horas": 0.1,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.05,
+          "falhas": 1
         },
         "2": {
           "horas": 0.0,
           "falhas": 0
         },
         "3": {
-          "horas": 0.4167,
-          "falhas": 2
+          "horas": 0.05,
+          "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-10-17",
-          "inicio": "02:20",
-          "fim": "02:28",
+          "inicio": "01:07",
+          "fim": "01:10",
           "turno": 3,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "horas": 0.05,
+          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
           "obs": ""
         },
         {
           "data": "2026-10-17",
-          "inicio": "23:51",
-          "fim": "00:08",
-          "turno": 3,
+          "inicio": "13:02",
+          "fim": "13:05",
+          "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.2833,
-          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "horas": 0.05,
+          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
           "obs": ""
         }
       ]
@@ -3096,36 +2961,47 @@
       ]
     },
     {
-      "tag": "20414",
-      "componente": "BOMBA DE CIRCULAÇÃO DE ÁGUA QUENTE PASTEURIZADOR COPO/LATA",
-      "equipamento": "ENCHEDEIRA COPO/LATA",
-      "falhas": 1,
-      "horas": 0.1833,
+      "tag": "20498",
+      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 2,
+      "horas": 0.4167,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.1833,
-          "falhas": 1
-        },
-        "3": {
           "horas": 0.0,
           "falhas": 0
+        },
+        "3": {
+          "horas": 0.4167,
+          "falhas": 2
         }
       },
       "ocorrencias": [
         {
           "data": "2026-10-17",
-          "inicio": "17:55",
-          "fim": "18:06",
-          "turno": 2,
+          "inicio": "02:20",
+          "fim": "02:28",
+          "turno": 3,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "chuveiro lavador de lata, corpo estranho no rotor da bomba\n"
+          "horas": 0.1333,
+          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-17",
+          "inicio": "23:51",
+          "fim": "00:08",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "obs": ""
         }
       ]
     },
@@ -4302,34 +4178,34 @@
     },
     {
       "mes": "outubro",
-      "falhas": 1870
+      "falhas": 1856
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 184.9667,
-      "horas_paradas": 23.4675,
-      "disponibilidade_pct": 87.3126,
-      "indisponibilidade_pct": 12.6874
+      "horas_paradas": 18.9333,
+      "disponibilidade_pct": 89.7639,
+      "indisponibilidade_pct": 10.2361
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 184.9667,
-        "horas_paradas": 5.5333,
-        "disponibilidade_pct": 97.0085,
-        "indisponibilidade_pct": 2.9915
+        "horas_paradas": 4.2333,
+        "disponibilidade_pct": 97.7113,
+        "indisponibilidade_pct": 2.2887
       },
       "Mecânica": {
         "horas_disponiveis": 184.9667,
-        "horas_paradas": 5.0167,
-        "disponibilidade_pct": 97.2878,
-        "indisponibilidade_pct": 2.7122
+        "horas_paradas": 4.4,
+        "disponibilidade_pct": 97.6212,
+        "indisponibilidade_pct": 2.3788
       },
       "Automação": {
         "horas_disponiveis": 74.9667,
-        "horas_paradas": 12.9175,
-        "disponibilidade_pct": 82.7691,
-        "indisponibilidade_pct": 17.2309
+        "horas_paradas": 10.3,
+        "disponibilidade_pct": 86.2606,
+        "indisponibilidade_pct": 13.7394
       }
     }
   },
@@ -4337,12 +4213,12 @@
     "mes": "outubro",
     "ano": 2026,
     "ate": "2026-10-17",
-    "falhas": 1793,
-    "horas_paradas": 302.1682,
+    "falhas": 1781,
+    "horas_paradas": 296.1825,
     "horas_disponiveis": 3195.1667,
-    "mtbf_min": 96.8098,
-    "disponibilidade_pct": 90.543,
-    "indisponibilidade_pct": 9.457,
+    "mtbf_min": 97.6637,
+    "disponibilidade_pct": 90.7303,
+    "indisponibilidade_pct": 9.2697,
     "meta_mtbf": 300,
     "status": "abaixo"
   }
