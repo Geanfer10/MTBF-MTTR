@@ -619,8 +619,11 @@ function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipP
   const CRITICO = EQUIP.length ? [...EQUIP].sort((a,b)=>b.horas-a.horas)[0] : {name:'—', horas:0, falhas:0};
   const DEPT_CRITICO_NAME = deptNames.length ? Object.entries(DEPT_TOTAL).sort((a,b)=>b[1]-a[1])[0][0] : '—';
 
-  const diasParadosValue = isPeriod ? data.dias_parados : (TOTAL_HORAS > DIAS_PARADOS_LIMITE_HORAS ? 1 : 0);
-  const diasParadosFoot = isPeriod ? 'dias com ocorrência de parada no período' : `1 = total do dia passou de ${DIAS_PARADOS_LIMITE_HORAS}h`;
+  // Dias parados = total de horas paradas convertido em dias de 24h (parte inteira, igual ao Excel).
+  // Segue os filtros de período, turno e máquina, pois usa o mesmo TOTAL_HORAS do cartão "Horas paradas".
+  const diasParadosExato = TOTAL_HORAS / DIAS_PARADOS_LIMITE_HORAS;
+  const diasParadosValue = Math.trunc(diasParadosExato);
+  const diasParadosFoot = `${hoursToHM(TOTAL_HORAS)} ÷ ${DIAS_PARADOS_LIMITE_HORAS}h = ${diasParadosExato.toFixed(2).replace('.',',')} dias`;
 
   // Disponibilidade/Indisponibilidade real, usando as horas programadas pelo PCP
   // (aba horas_disponiveis) em vez de uma constante fixa — reage aos filtros de
