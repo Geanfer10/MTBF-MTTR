@@ -319,7 +319,7 @@ def build_componentes(df):
     """Todos os componentes de todos os dias, por máquina e turno, em formato compacto.
 
     meta: lista de [tag, componente, tipo]  (tipo = "peca" ou "evento")
-    dias: {data: [[idx_meta, equipamento, falhas, horas, f_t1, h_t1, f_t2, h_t2, f_t3, h_t3], ...]}
+    dias: {data: [[idx_meta, equipamento, falhas, horas, f_t1, h_t1, f_t2, h_t2, f_t3, h_t3, departamento], ...]}
     """
     d = df.copy()
     d["Componente"] = d["Componente"].fillna(d["MOTIVO"])
@@ -330,10 +330,11 @@ def build_componentes(df):
     d["_h"] = pd.to_numeric(d["Tempo Parada (h decimal)"], errors="coerce").fillna(0.0)
     d["_f"] = pd.to_numeric(d["Falhas"], errors="coerce").fillna(1)
     d["_t"] = pd.to_numeric(d["Turno"], errors="coerce")
+    d["_dep"] = d["Departamento"].fillna("").astype(str).str.strip()
 
     meta, idx = [], {}
     dias = {}
-    for (data, tag, comp, eq), g in d.groupby(["_data", "_tag", "_comp", "_eq"], sort=True):
+    for (data, tag, comp, eq, dep), g in d.groupby(["_data", "_tag", "_comp", "_eq", "_dep"], sort=True):
         k = (tag, comp)
         if k not in idx:
             idx[k] = len(meta)
@@ -342,6 +343,7 @@ def build_componentes(df):
         for t in (1, 2, 3):
             gt = g[g["_t"] == t]
             linha += [int(gt["_f"].sum()), round(float(gt["_h"].sum()), 4)]
+        linha.append(dep)
         dias.setdefault(data, []).append(linha)
     return {"gerado_em": datetime.now().isoformat(timespec="minutes"), "meta": meta, "dias": dias}
 

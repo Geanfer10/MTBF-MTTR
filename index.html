@@ -101,6 +101,17 @@
   .highlight.crit .name{color:var(--red);} .highlight.dept .name{color:var(--amber);}
   .highlight .stats{display:flex; gap:18px; font-size:11.5px; color:var(--text-dim);}
   .highlight .stats b{color:var(--text); font-family:'JetBrains Mono',monospace; font-weight:600;}
+  .dept-row .cmp{font-size:11px; color:var(--text-faint); margin-top:2px; font-family:'JetBrains Mono',monospace;}
+  #turnoCmp{margin-top:14px;}
+  .tcmp-title{font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--text-dim); margin-bottom:6px; font-weight:600;}
+  .tcmp{width:100%; border-collapse:collapse; font-size:12px;}
+  .tcmp th{background:var(--panel-2); padding:6px 8px; font-size:10.5px; text-transform:uppercase; letter-spacing:.04em; color:var(--text-dim); text-align:right;}
+  .tcmp th:first-child, .tcmp td:first-child{text-align:left;}
+  .tcmp td{padding:6px 8px; border-top:1px solid var(--border); text-align:right; vertical-align:top;}
+  .tcmp .v{font-family:'JetBrains Mono',monospace; font-weight:700; font-size:13px;}
+  .tcmp .a{font-size:10.5px; color:var(--text-faint); font-family:'JetBrains Mono',monospace;}
+  .tcmp .d{font-size:11px; font-family:'JetBrains Mono',monospace;}
+  .tcmp tr.tot td{background:#F6FAF7; font-weight:600;}
   .comp-head{display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;}
   .comp-sub{font-size:11.5px; color:var(--text-faint); margin:4px 0 10px; font-weight:400; text-transform:none; letter-spacing:0;}
   .seg{display:inline-flex; border:1px solid var(--border); border-radius:8px; overflow:hidden;}
@@ -248,7 +259,7 @@
     <div class="section">
       <div class="section-head"><h2 id="turnoSectionTitle">Paradas por turno e departamento</h2><div class="idx">02</div><div class="line"></div></div>
       <div class="grid-2">
-        <div class="card"><h3 id="turnoChartTitle">Análise de paradas por turno</h3><div class="chart-box turno"><canvas id="chartTurno"></canvas></div></div>
+        <div class="card"><h3 id="turnoChartTitle">Análise de paradas por turno</h3><div class="chart-box turno"><canvas id="chartTurno"></canvas></div><div id="turnoCmp"></div></div>
         <div class="card"><h3 id="deptListTitle">Horas paradas por departamento</h3><div class="dept-list" id="deptList"></div></div>
       </div>
     </div>
@@ -800,10 +811,11 @@ function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipP
   currentEquipFiltro = isSingleEquip ? equipamentoFiltro : null;
 
   const deptSorted = Object.entries(DEPT_TOTAL).sort((a,b)=>b[1]-a[1]);
+  setTimeout(renderComparativoTurnos, 0);
   document.getElementById('deptList').innerHTML = deptSorted.map(([name, horas]) => `
     <div class="dept-row" data-dept="${esc(name)}" title="Clique para ver o histórico do departamento">
       <div class="icon" style="background:${DEPT_COLOR[name]}22; color:${DEPT_COLOR[name]}">${DEPT_ICON[name]||'●'}</div>
-      <div class="info"><div class="name">${name}</div></div>
+      <div class="info"><div class="name">${name}</div><div class="cmp" data-cmp="${esc(name)}"></div></div>
       <div class="val" style="color:${DEPT_COLOR[name]}">${hoursToHM(horas)}</div>
     </div>`).join('');
 
@@ -1092,6 +1104,65 @@ document.addEventListener('click', e=>{
   if(card && card.dataset.idx != null) abrirHistorico(currentComps[Number(card.dataset.idx)]);
 });
 
+// ---------- Comparativo turno x departamento com o período anterior ----------
+function agregaDeptTurno(datas, equip){
+  const out = {};
+  if(!compBase) return out;
+  const zero = () => ({'1':{f:0,h:0}, '2':{f:0,h:0}, '3':{f:0,h:0}, tot:{f:0,h:0}});
+  datas.forEach(dt => (compBase.dias[dt] || []).forEach(r => {
+    if(equip !== 'all' && r[1] !== equip) return;
+    const dep = r[10];
+    if(!dep) return;
+    if(!out[dep]) out[dep] = zero();
+    [['1',4],['2',6],['3',8]].forEach(([t,i]) => { out[dep][t].f += r[i]; out[dep][t].h += r[i+1]; });
+    out[dep].tot.f += r[2]; out[dep].tot.h += r[3];
+  }));
+  return out;
+}
+
+function deltaHoras(atual, anterior){
+  const d = atual - anterior;
+  if(Math.abs(d) < 1/120) return '<span class="delta-eq">= igual</span>';
+  return d > 0 ? `<span class="delta-up">▲ +${hoursToHM(d)}</span>` : `<span class="delta-down">▼ −${hoursToHM(-d)}</span>`;
+}
+
+function renderComparativoTurnos(){
+  const box = document.getElementById('turnoCmp');
+  if(!box) return;
+  if(!compBase){ carregaCompBase().then(b => { if(b) renderComparativoTurnos(); }); return; }
+  const turnoSel = document.getElementById('turnoSelect').value;
+  const equip = document.getElementById('equipSelect').value;
+  const datas = currentDates.filter(d => compBase.dias[d]);
+  const ant = periodoAnterior(datas).filter(d => compBase.dias[d]);
+  if(!datas.length){ box.innerHTML = ''; return; }
+  const rot = rotulosPeriodo(datas, ant);
+  const temAnt = ant.length > 0;
+
+  // cartões de departamento (mesma base dos cartões: todas as máquinas, turno filtrado)
+  const cAt = agregaDeptTurno(datas, 'all'), cAn = agregaDeptTurno(ant, 'all');
+  const valT = (o, dep) => !o[dep] ? 0 : (turnoSel === 'all' ? o[dep].tot.h : o[dep][turnoSel].h);
+  document.querySelectorAll('.dept-row .cmp[data-cmp]').forEach(el => {
+    const dep = el.dataset.cmp;
+    el.innerHTML = temAnt ? `${esc(rot.anterior)}: ${hoursToHM(valT(cAn, dep))} · ${deltaHoras(valT(cAt, dep), valT(cAn, dep))}` : 'sem período anterior';
+  });
+
+  // tabela turno x departamento (segue o filtro de máquina)
+  const at = agregaDeptTurno(datas, equip), an = agregaDeptTurno(ant, equip);
+  const deps = ['Mecânica','Automação','Elétrica'].filter(d => at[d] || an[d]).concat(Object.keys(at).filter(d => !['Mecânica','Automação','Elétrica'].includes(d)));
+  const turnos = turnoSel === 'all' ? ['1','2','3'] : [turnoSel];
+  const cel = (a, b) => `<div class="v">${hoursToHM(a)}</div>${temAnt ? `<div class="a">${esc(rot.curto || rot.anterior)}: ${hoursToHM(b)}</div><div class="d">${deltaHoras(a, b)}</div>` : ''}`;
+  const g = (o, dep, t) => (o[dep] ? o[dep][t].h : 0);
+  const linhas = deps.map(dep => `<tr><td><span style="color:${DEPT_COLOR[dep]||'#555'}; font-weight:600">${esc(dep)}</span></td>
+      ${turnos.map(t => `<td>${cel(g(at,dep,t), g(an,dep,t))}</td>`).join('')}
+      ${turnos.length > 1 ? `<td>${cel(at[dep] ? at[dep].tot.h : 0, an[dep] ? an[dep].tot.h : 0)}</td>` : ''}</tr>`).join('');
+  const somaT = (o, t) => deps.reduce((s, dep) => s + g(o, dep, t), 0);
+  const somaTot = o => deps.reduce((s, dep) => s + (o[dep] ? o[dep].tot.h : 0), 0);
+  const total = `<tr class="tot"><td>Total</td>${turnos.map(t => `<td>${cel(somaT(at,t), somaT(an,t))}</td>`).join('')}${turnos.length > 1 ? `<td>${cel(somaTot(at), somaTot(an))}</td>` : ''}</tr>`;
+  box.innerHTML = `<div class="tcmp-title">Comparação: ${esc(rot.atual)} × ${temAnt ? esc(rot.anterior) : 'sem período anterior'}${equip !== 'all' ? ' · ' + esc(equip) : ''}</div>
+    <table class="tcmp"><thead><tr><th>Departamento</th>${turnos.map(t => `<th>Turno ${t}</th>`).join('')}${turnos.length > 1 ? '<th>Total</th>' : ''}</tr></thead>
+    <tbody>${linhas}${total}</tbody></table>`;
+}
+
 // ---------- Componentes: Pareto de peças, eventos, matriz e reincidência ----------
 let currentDates = [];
 let currentPeriodoTipo = 'day';   // 'day' | 'month' | 'range'
@@ -1182,13 +1253,15 @@ function rotulosPeriodo(datas, ant){
     const mAnt = m === 1 ? 12 : m - 1;
     return {
       atual: NOMES_MES[m-1] + (parcial ? ` (1 a ${ultimo})` : ''),
-      anterior: NOMES_MES[mAnt-1] + (parcial ? ` (1 a ${ultimo})` : '')
+      anterior: NOMES_MES[mAnt-1] + (parcial ? ` (1 a ${ultimo})` : ''),
+      curto: NOMES_MES[mAnt-1].slice(0,3)
     };
   }
   if(currentPeriodoTipo === 'day'){
-    return {atual: fmtDateBR(datas[0]).slice(0,5), anterior: ant.length ? fmtDateBR(ant[ant.length-1]).slice(0,5) : 'Anterior'};
+    const a = ant.length ? fmtDateBR(ant[ant.length-1]).slice(0,5) : 'Anterior';
+    return {atual: fmtDateBR(datas[0]).slice(0,5), anterior: a, curto: a};
   }
-  return {atual:'Período', anterior: ant.length ? `${fmtDateBR(ant[0]).slice(0,5)} a ${fmtDateBR(ant[ant.length-1]).slice(0,5)}` : 'Anterior'};
+  return {atual:'Período', anterior: ant.length ? `${fmtDateBR(ant[0]).slice(0,5)} a ${fmtDateBR(ant[ant.length-1]).slice(0,5)}` : 'Anterior', curto:'Ant.'};
 }
 
 function abrirHistoricoComp(item){
