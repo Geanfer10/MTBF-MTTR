@@ -1167,7 +1167,28 @@ function deltaHtml(atual, anterior, temAnterior, fmt){
   const d = atual - anterior;
   if(Math.abs(d) < 1e-9) return '<span class="delta-eq">=</span>';
   const txt = fmt ? fmt(Math.abs(d)) : Math.abs(d);
-  return d > 0 ? `<span class="delta-up">▲ ${txt}</span>` : `<span class="delta-down">▼ ${txt}</span>`;
+  return d > 0 ? `<span class="delta-up">▲ +${txt}</span>` : `<span class="delta-down">▼ −${txt}</span>`;
+}
+
+const NOMES_MES = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
+// rótulos das colunas "atual" e "anterior" conforme o tipo de período
+function rotulosPeriodo(datas, ant){
+  if(!datas.length) return {atual:'Falhas', anterior:'Anterior'};
+  if(currentPeriodoTipo === 'month'){
+    const [y, m] = datas[0].slice(0,7).split('-').map(Number);
+    const ultimo = Math.max(...datas.map(d => Number(d.slice(8,10))));
+    const diasMes = new Date(y, m, 0).getDate();
+    const parcial = ultimo < diasMes;
+    const mAnt = m === 1 ? 12 : m - 1;
+    return {
+      atual: NOMES_MES[m-1] + (parcial ? ` (1 a ${ultimo})` : ''),
+      anterior: NOMES_MES[mAnt-1] + (parcial ? ` (1 a ${ultimo})` : '')
+    };
+  }
+  if(currentPeriodoTipo === 'day'){
+    return {atual: fmtDateBR(datas[0]).slice(0,5), anterior: ant.length ? fmtDateBR(ant[ant.length-1]).slice(0,5) : 'Anterior'};
+  }
+  return {atual:'Período', anterior: ant.length ? `${fmtDateBR(ant[0]).slice(0,5)} a ${fmtDateBR(ant[ant.length-1]).slice(0,5)}` : 'Anterior'};
 }
 
 function abrirHistoricoComp(item){
@@ -1230,6 +1251,7 @@ function renderComponentes(){
         yPct:{position:'right', min:0, max:110, grid:{display:false}, ticks:{callback:(v)=> v <= 100 ? v+'%' : ''}} } }
   });
 
+  const rot = rotulosPeriodo(datas, ant);
   const linhaTabela = (p, i, lista) => {
     const a = anterior[p.k];
     const mttr = p.falhas ? p.horas/p.falhas*60 : 0;
@@ -1238,6 +1260,7 @@ function renderComponentes(){
       <td>${esc(p.componente)}<div class="tag">${esc(p.tag)}</div></td>
       <td class="maq">${esc(nomeMaquinas(p))}</td>
       <td class="n">${p.falhas}</td>
+      <td class="n">${temAnt ? (a ? a.falhas : 0) : '—'}</td>
       <td class="n">${deltaHtml(p.falhas, a ? a.falhas : 0, temAnt)}</td>
       <td class="n">${hoursToHM(p.horas)}</td>
       <td class="n">${mttr.toFixed(1).replace('.',',')} min</td>
@@ -1245,16 +1268,16 @@ function renderComponentes(){
     </tr>`;
   };
   document.getElementById('tableComp').innerHTML =
-    `<thead><tr><th class="n">#</th><th>Componente</th><th>Máquina(s)</th><th class="n">Falhas</th><th class="n">vs anterior</th><th class="n">Horas</th><th class="n">MTTR</th><th class="n">% acum.</th></tr></thead>
-     <tbody>${pecas.length ? pecas.map((p,i)=>linhaTabela(p,i,'pecas')).join('') : '<tr><td colspan="8">Sem paradas de peças no período.</td></tr>'}</tbody>`;
+    `<thead><tr><th class="n">#</th><th>Componente</th><th>Máquina(s)</th><th class="n">Falhas<br>${esc(rot.atual)}</th><th class="n">Falhas<br>${esc(rot.anterior)}</th><th class="n">Diferença</th><th class="n">Horas</th><th class="n">MTTR</th><th class="n">% acum.</th></tr></thead>
+     <tbody>${pecas.length ? pecas.map((p,i)=>linhaTabela(p,i,'pecas')).join('') : '<tr><td colspan="9">Sem paradas de peças no período.</td></tr>'}</tbody>`;
 
   // ---- Eventos ----
   eventos.sort((a,b)=> b.horas-a.horas);
   eventos.forEach(e => delete e.acum);
   compEventos = eventos;
   document.getElementById('tableEventos').innerHTML =
-    `<thead><tr><th class="n">#</th><th>Evento</th><th>Máquina(s)</th><th class="n">Falhas</th><th class="n">vs anterior</th><th class="n">Horas</th><th class="n">MTTR</th></tr></thead>
-     <tbody>${eventos.length ? eventos.map((p,i)=>linhaTabela(p,i,'eventos')).join('') : '<tr><td colspan="7">Sem eventos no período.</td></tr>'}</tbody>`;
+    `<thead><tr><th class="n">#</th><th>Evento</th><th>Máquina(s)</th><th class="n">Falhas<br>${esc(rot.atual)}</th><th class="n">Falhas<br>${esc(rot.anterior)}</th><th class="n">Diferença</th><th class="n">Horas</th><th class="n">MTTR</th></tr></thead>
+     <tbody>${eventos.length ? eventos.map((p,i)=>linhaTabela(p,i,'eventos')).join('') : '<tr><td colspan="8">Sem eventos no período.</td></tr>'}</tbody>`;
 
   renderMatrizComp(pecas);
   renderReincidencia(turno, equip);
