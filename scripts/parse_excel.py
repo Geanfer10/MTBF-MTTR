@@ -310,6 +310,42 @@ def process_date(df, target_date, args, hd_df=None):
     }
 
 
+# TAGs que não são peças: eventos de processo (robótica) e tempo de espera.
+# Ficam fora do ranking de componentes e aparecem num bloco próprio no painel.
+EVENTO_TAGS = {"ROBOTICA01", "ROBOTICA02", "ROBOTICA03", "ROBOTICA04", "MECANICA01", "ELETRICA01", "FEL01"}
+
+
+def build_componentes(df):
+    """Todos os componentes de todos os dias, por máquina e turno, em formato compacto.
+
+    meta: lista de [tag, componente, tipo]  (tipo = "peca" ou "evento")
+    dias: {data: [[idx_meta, equipamento, falhas, horas, f_t1, h_t1, f_t2, h_t2, f_t3, h_t3], ...]}
+    """
+    d = df.copy()
+    d["Componente"] = d["Componente"].fillna(d["MOTIVO"])
+    d["_tag"] = d["TAG"].astype(str).str.strip().str.upper().replace({"NAN": "", "NONE": ""})
+    d["_comp"] = d["Componente"].astype(str).str.strip().str.upper().replace({"NAN": "SEM COMPONENTE"})
+    d["_eq"] = d["Equipamento"].astype(str).str.strip()
+    d["_data"] = d["Data Inicio"].dt.date.astype(str)
+    d["_h"] = pd.to_numeric(d["Tempo Parada (h decimal)"], errors="coerce").fillna(0.0)
+    d["_f"] = pd.to_numeric(d["Falhas"], errors="coerce").fillna(1)
+    d["_t"] = pd.to_numeric(d["Turno"], errors="coerce")
+
+    meta, idx = [], {}
+    dias = {}
+    for (data, tag, comp, eq), g in d.groupby(["_data", "_tag", "_comp", "_eq"], sort=True):
+        k = (tag, comp)
+        if k not in idx:
+            idx[k] = len(meta)
+            meta.append([tag, comp, "evento" if tag in EVENTO_TAGS else "peca"])
+        linha = [idx[k], eq, int(g["_f"].sum()), round(float(g["_h"].sum()), 4)]
+        for t in (1, 2, 3):
+            gt = g[g["_t"] == t]
+            linha += [int(gt["_f"].sum()), round(float(gt["_h"].sum()), 4)]
+        dias.setdefault(data, []).append(linha)
+    return {"gerado_em": datetime.now().isoformat(timespec="minutes"), "meta": meta, "dias": dias}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--file", required=True, help="Caminho do arquivo .xlsm/.xlsx")
@@ -392,6 +428,13 @@ def main():
         latest_path = os.path.join(args.outdir, "latest.json")
         with open(latest_path, "w", encoding="utf-8") as f:
             json.dump(last_out, f, ensure_ascii=False, indent=2)
+
+    # Base completa de componentes (todos os dias, todos os componentes, sem corte de top N)
+    comp = build_componentes(df)
+    comp_path = os.path.join(args.outdir, "componentes.json")
+    with open(comp_path, "w", encoding="utf-8") as f:
+        json.dump(comp, f, ensure_ascii=False, separators=(",", ":"))
+    print(f"OK: {comp_path} gerado ({len(comp['meta'])} componentes, {len(comp['dias'])} dias)")
 
 
 if __name__ == "__main__":

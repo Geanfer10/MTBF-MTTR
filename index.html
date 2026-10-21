@@ -101,6 +101,40 @@
   .highlight.crit .name{color:var(--red);} .highlight.dept .name{color:var(--amber);}
   .highlight .stats{display:flex; gap:18px; font-size:11.5px; color:var(--text-dim);}
   .highlight .stats b{color:var(--text); font-family:'JetBrains Mono',monospace; font-weight:600;}
+  .comp-head{display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;}
+  .comp-sub{font-size:11.5px; color:var(--text-faint); margin:4px 0 10px; font-weight:400; text-transform:none; letter-spacing:0;}
+  .seg{display:inline-flex; border:1px solid var(--border); border-radius:8px; overflow:hidden;}
+  .seg button{border:0; background:var(--panel); padding:6px 12px; font-size:12px; cursor:pointer; color:var(--text-dim); font-weight:600;}
+  .seg button.on{background:var(--green); color:#fff;}
+  .comp-table-wrap{max-height:420px; overflow:auto; margin-top:12px; border:1px solid var(--border); border-radius:10px;}
+  .comp-table{width:100%; border-collapse:collapse; font-size:12px;}
+  .comp-table th{position:sticky; top:0; background:var(--panel-2); text-align:left; padding:8px 10px; font-size:10.5px; text-transform:uppercase; letter-spacing:.04em; color:var(--text-dim); z-index:1;}
+  .comp-table td{padding:7px 10px; border-top:1px solid var(--border); vertical-align:top;}
+  .comp-table td.n{font-family:'JetBrains Mono',monospace; text-align:right; white-space:nowrap;}
+  .comp-table th.n{text-align:right;}
+  .comp-table tr.click{cursor:pointer;} .comp-table tr.click:hover td{background:#F1F8F3;}
+  .comp-table .tag{font-family:'JetBrains Mono',monospace; font-size:10px; color:var(--text-faint);}
+  .comp-table .maq{font-size:11px; color:var(--text-dim);}
+  .delta-up{color:var(--red); font-weight:600;} .delta-down{color:var(--green); font-weight:600;} .delta-eq{color:var(--text-faint);}
+  .acum80 td{background:#FBFDF9;}
+  .quad-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-top:12px;}
+  @media(max-width:1000px){.quad-grid{grid-template-columns:repeat(2,1fr);}}
+  .quad{border-radius:10px; padding:10px 12px; font-size:11.5px; border:1px solid var(--border);}
+  .quad h5{font-size:11px; text-transform:uppercase; letter-spacing:.04em; margin-bottom:4px;}
+  .quad .what{color:var(--text-dim); margin-bottom:6px;}
+  .quad ul{margin:0; padding-left:16px;} .quad li{margin-bottom:2px; cursor:pointer;} .quad li:hover{text-decoration:underline;}
+  .reinc-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:12px;}
+  .reinc{border:1px solid var(--border); border-left:4px solid var(--red); border-radius:10px; padding:12px; cursor:pointer; background:var(--panel);}
+  .reinc:hover{box-shadow:0 4px 12px rgba(20,60,40,0.14);}
+  .reinc .t{font-weight:600; font-size:12.5px; line-height:1.3;}
+  .reinc .m{font-size:11px; color:var(--text-faint); margin:2px 0 8px; font-family:'JetBrains Mono',monospace;}
+  .reinc .big{font-family:'JetBrains Mono',monospace; font-size:22px; font-weight:700; color:var(--red);}
+  .reinc .big small{font-size:11px; color:var(--text-dim); font-weight:500;}
+  .spark{display:flex; align-items:flex-end; gap:3px; height:34px; margin-top:8px;}
+  .spark div{flex:1; background:#F3C9C7; border-radius:2px 2px 0 0; min-height:2px; position:relative;}
+  .spark div.on{background:var(--red);}
+  .spark-lbl{display:flex; gap:3px; font-size:9px; color:var(--text-faint); font-family:'JetBrains Mono',monospace;}
+  .spark-lbl span{flex:1; text-align:center;}
   .matrix-legend{display:flex; gap:10px; flex-wrap:wrap; margin-top:12px;}
   .matrix-legend .tag{font-size:10.5px; font-weight:600; padding:4px 10px; border-radius:20px;}
   .tag.critico{background:var(--red-dim); color:var(--red);}
@@ -278,17 +312,43 @@
     </div>
 
     <div class="section">
-      <div class="section-head"><h2>Top falhas por componente</h2><div class="idx">09</div><div class="line"></div></div>
-      <div class="card"><div class="chart-box top10"><canvas id="chartTop10"></canvas></div></div>
+      <div class="section-head"><h2>Ranking de componentes — Pareto</h2><div class="idx">09</div><div class="line"></div></div>
+      <div class="card">
+        <div class="comp-head">
+          <h3 id="compRankTitle" style="margin:0">Peças que mais falham</h3>
+          <div class="seg" id="compMetric">
+            <button data-m="falhas" class="on">Por falhas</button><button data-m="horas">Por horas paradas</button>
+          </div>
+        </div>
+        <div class="comp-sub" id="compRankSub"></div>
+        <div class="chart-box top10"><canvas id="chartCompPareto"></canvas></div>
+        <div class="comp-table-wrap"><table class="comp-table" id="tableComp"></table></div>
+      </div>
+      <div class="card" style="margin-top:14px">
+        <h3>Eventos de processo e espera <span class="comp-sub" style="display:inline">— falta de grelha, esteirão parado, aguardando mecânico/elétrica, falha de comunicação (fora do ranking de peças)</span></h3>
+        <div class="comp-table-wrap"><table class="comp-table" id="tableEventos"></table></div>
+      </div>
     </div>
 
     <div class="section">
-      <div class="section-head"><h2>Parada por componentes</h2><div class="idx">10</div><div class="line"></div></div>
-      <div class="card"><div class="comp-grid" id="compGrid"></div></div>
+      <div class="section-head"><h2>Matriz de criticidade dos componentes</h2><div class="idx">10</div><div class="line"></div></div>
+      <div class="card">
+        <h3>Frequência (falhas) x tempo médio de reparo — tamanho da bolha = horas paradas</h3>
+        <div class="chart-box matrix" style="height:420px"><canvas id="chartCompMatrix"></canvas></div>
+        <div class="quad-grid" id="compQuadrantes"></div>
+      </div>
     </div>
 
     <div class="section">
-      <div class="section-head"><h2>Pareto 80/20 — equipamentos críticos</h2><div class="idx">11</div><div class="line"></div></div>
+      <div class="section-head"><h2>Reincidência — 5 ou mais falhas em 7 dias</h2><div class="idx">11</div><div class="line"></div></div>
+      <div class="card">
+        <div class="comp-sub" id="reincSub" style="margin-bottom:12px"></div>
+        <div class="reinc-grid" id="reincGrid"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><h2>Pareto 80/20 — equipamentos críticos</h2><div class="idx">12</div><div class="line"></div></div>
       <div class="card"><h3>Horas paradas x % acumulado</h3><div class="chart-box top10"><canvas id="chartPareto"></canvas></div></div>
     </div>
   </div>
@@ -343,6 +403,8 @@ async function init(){
     populateMonthSelect(historyCache);
     const latest = await fetchJSON(DATA_DIR + 'latest.json');
     currentRawData = latest;
+    currentDates = [latest.date];
+    currentPeriodoTipo = 'day';
     currentBasePeriodHours = PERIOD_HOURS;
     currentIsPeriod = false;
     currentDayCount = 1;
@@ -409,6 +471,8 @@ async function loadDay(dateStr){
   try{
     const day = await fetchJSON(DATA_DIR + dateStr + '.json');
     currentRawData = day;
+    currentDates = [dateStr];
+    currentPeriodoTipo = 'day';
     currentBasePeriodHours = PERIOD_HOURS;
     currentIsPeriod = false;
     currentDayCount = 1;
@@ -492,12 +556,14 @@ async function loadDates(dates, subtitleLabel){
   currentBasePeriodHours = validDays.length * 24;
   currentIsPeriod = true;
   currentDayCount = validDays.length;
+  currentDates = validDays.map(d => d.date);
   populateEquipSelect(currentRawData);
   applyFiltersAndRender();
 }
 
 function loadMonth(monthPrefix){
   const dates = historyCache.map(h=>h.date).filter(d=>d.startsWith(monthPrefix));
+  currentPeriodoTipo = 'month';
   const monthNames = {'01':'Janeiro','02':'Fevereiro','03':'Março','04':'Abril','05':'Maio','06':'Junho','07':'Julho','08':'Agosto','09':'Setembro','10':'Outubro','11':'Novembro','12':'Dezembro'};
   const [y,mm] = monthPrefix.split('-');
   loadDates(dates, `${monthNames[mm]}/${y}`);
@@ -505,6 +571,7 @@ function loadMonth(monthPrefix){
 
 function loadRange(startDate, endDate){
   const dates = historyCache.map(h=>h.date).filter(d => d >= startDate && d <= endDate);
+  currentPeriodoTipo = 'range';
   loadDates(dates, `${fmtDateBR(startDate)} a ${fmtDateBR(endDate)}`);
 }
 
@@ -840,31 +907,8 @@ function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipP
     }
   });
 
-  const topFalhas = data.top_falhas || [];
-  charts.top10 = new Chart(document.getElementById('chartTop10'), {
-    type:'bar',
-    data:{ labels: topFalhas.map(f=>f.componente), datasets:[{data: topFalhas.map(f=>f.falhas), backgroundColor:'#E08A1E', borderRadius:4, maxBarThickness:18}] },
-    options:{ maintainAspectRatio:false, indexAxis:'y', layout:{padding:{right:26}},
-      onClick:(evt, els)=>{ if(els && els.length) abrirHistorico(topFalhas[els[0].index]); },
-      onHover:cursorMao,
-      plugins:{ legend:{display:false}, datalabels:{display:true, anchor:'end', align:'right', clamp:true, color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:10.5, weight:600}} },
-      scales:{ x:{grid:{color:'#E7F1EA'}, ticks:{precision:0}}, y:{grid:{display:false}, ticks:{color:'#12271A', font:{size:10}}} }
-    }
-  });
-
-  const paradaComponentes = data.parada_componentes || [];
-  const maxCompFalhas = Math.max(...paradaComponentes.map(c=>c.falhas), 1);
-  currentComps = paradaComponentes;
-  document.getElementById('compGrid').innerHTML = paradaComponentes.map((c, i) => {
-    const h = 20 + (c.falhas/maxCompFalhas)*50;
-    return `
-    <div class="comp-card" data-idx="${i}" title="Clique para ver o histórico desta parada">
-      <div class="time">${hoursToHM(c.horas)}</div>
-      <div class="bars"><div class="falhas-num" style="height:${h}px;">${c.falhas}</div></div>
-      <div class="code">${c.tag}</div>
-      <div class="desc">${c.componente}</div>
-    </div>`;
-  }).join('');
+  // Ranking Pareto de peças, eventos, matriz de criticidade e reincidência (base completa: componentes.json)
+  renderComponentes();
 
   const paretoSorted = [...EQUIP].sort((a,b)=>b.horas-a.horas);
   let acc = 0;
@@ -1047,6 +1091,290 @@ document.addEventListener('click', e=>{
   const card = e.target.closest && e.target.closest('.comp-card');
   if(card && card.dataset.idx != null) abrirHistorico(currentComps[Number(card.dataset.idx)]);
 });
+
+// ---------- Componentes: Pareto de peças, eventos, matriz e reincidência ----------
+let currentDates = [];
+let currentPeriodoTipo = 'day';   // 'day' | 'month' | 'range'
+let compBase = null;          // conteúdo de data/componentes.json
+let compBaseCarregando = null;
+let compMetric = 'falhas';    // 'falhas' | 'horas'
+let compLista = [];           // itens da tabela/gráfico (para clique)
+const REINC_MIN_FALHAS = 5;
+const REINC_DIAS = 7;
+
+function carregaCompBase(){
+  if(compBase) return Promise.resolve(compBase);
+  if(!compBaseCarregando){
+    compBaseCarregando = fetchJSON(DATA_DIR + 'componentes.json')
+      .then(b => (compBase = b))
+      .catch(err => { console.warn('componentes.json indisponível', err); compBaseCarregando = null; return null; });
+  }
+  return compBaseCarregando;
+}
+
+// soma todas as linhas de componentes nas datas pedidas, respeitando turno e máquina
+function agregaComp(datas, turno, equip){
+  const out = {};
+  if(!compBase) return out;
+  const tIdx = {'1':4, '2':6, '3':8};
+  datas.forEach(dt => {
+    (compBase.dias[dt] || []).forEach(r => {
+      if(equip !== 'all' && r[1] !== equip) return;
+      const f = turno === 'all' ? r[2] : r[tIdx[turno]];
+      const h = turno === 'all' ? r[3] : r[tIdx[turno]+1];
+      if(!f && !h) return;
+      const m = compBase.meta[r[0]];
+      const k = r[0];
+      if(!out[k]) out[k] = {k, tag: m[0], componente: m[1], tipo: m[2], falhas: 0, horas: 0, maquinas: {}};
+      out[k].falhas += f; out[k].horas += h;
+      out[k].maquinas[r[1]] = (out[k].maquinas[r[1]] || 0) + f;
+    });
+  });
+  return out;
+}
+
+function datasDisponiveis(){ return historyCache.map(h => h.date); }
+
+// período anterior: mês anterior no modo "por mês"; senão os N dias com dados imediatamente antes
+function periodoAnterior(datas){
+  if(!datas.length) return [];
+  const todas = datasDisponiveis();
+  if(currentPeriodoTipo === 'month'){
+    const [y, m] = datas[0].slice(0,7).split('-').map(Number);
+    const pm = m === 1 ? `${y-1}-12` : `${y}-${String(m-1).padStart(2,'0')}`;
+    // mesmo intervalo de dias do mês anterior (mês corrente ainda parcial não é comparado com mês cheio)
+    const ultimoDia = Math.max(...datas.map(d => Number(d.slice(8,10))));
+    return todas.filter(d => d.startsWith(pm) && Number(d.slice(8,10)) <= ultimoDia);
+  }
+  const i = todas.indexOf(datas[0]);
+  if(i <= 0) return [];
+  return todas.slice(Math.max(0, i - datas.length), i);
+}
+
+function addDias(iso, n){
+  const d = new Date(iso + 'T12:00:00'); d.setDate(d.getDate() + n);
+  return d.toISOString().slice(0,10);
+}
+
+function nomeMaquinas(item){
+  const m = {};
+  Object.entries(item.maquinas).forEach(([n, f]) => { const k = n.toUpperCase(); m[k] = (m[k] || 0) + f; });
+  return Object.entries(m).sort((a,b)=>b[1]-a[1]).map(([n])=>n).join(', ');
+}
+
+function deltaHtml(atual, anterior, temAnterior, fmt){
+  if(!temAnterior) return '<span class="delta-eq">—</span>';
+  const d = atual - anterior;
+  if(Math.abs(d) < 1e-9) return '<span class="delta-eq">=</span>';
+  const txt = fmt ? fmt(Math.abs(d)) : Math.abs(d);
+  return d > 0 ? `<span class="delta-up">▲ ${txt}</span>` : `<span class="delta-down">▼ ${txt}</span>`;
+}
+
+function abrirHistoricoComp(item){
+  if(!item) return;
+  const tag = String(item.tag).toUpperCase(), comp = String(item.componente).toUpperCase();
+  const oc = currentEquipOcorr.filter(o => String(o.tag||'').trim().toUpperCase() === tag && String(o.componente||'').trim().toUpperCase() === comp);
+  abrirHistorico({componente: item.componente, tag: item.tag, equipamento: nomeMaquinas(item), falhas: item.falhas, horas: item.horas, ocorrencias: oc},
+    {porMaquina: nomeMaquinas(item).includes(',')});
+}
+
+function renderComponentes(){
+  if(!compBase){
+    carregaCompBase().then(b => { if(b) renderComponentes(); else semBaseComp(); });
+    return;
+  }
+  ['compPareto','compMatrix'].forEach(c => { if(charts[c]){ charts[c].destroy(); delete charts[c]; } });
+  const turno = document.getElementById('turnoSelect').value;
+  const equip = document.getElementById('equipSelect').value;
+  const datas = currentDates.filter(d => compBase.dias[d]);
+  const ant = periodoAnterior(datas).filter(d => compBase.dias[d]);
+  const atual = agregaComp(datas, turno, equip);
+  const anterior = agregaComp(ant, turno, equip);
+  const temAnt = ant.length > 0;
+  const itens = Object.values(atual);
+  const pecas = itens.filter(i => i.tipo === 'peca');
+  const eventos = itens.filter(i => i.tipo === 'evento');
+  const totF = pecas.reduce((s,i)=>s+i.falhas,0), totH = pecas.reduce((s,i)=>s+i.horas,0);
+  const descAnt = !temAnt ? 'sem período anterior para comparar'
+    : (currentPeriodoTipo === 'month' ? `comparação com o mesmo período do mês anterior (dias 1 a ${Math.max(...datas.map(d => Number(d.slice(8,10))))})` : `comparação com os ${ant.length} dia(s) anteriores com dados`);
+
+  // ---- Pareto de peças ----
+  const key = compMetric;
+  pecas.sort((a,b)=> b[key]-a[key] || b.falhas-a.falhas);
+  compLista = pecas;
+  const total = key === 'falhas' ? totF : totH;
+  let acc = 0;
+  pecas.forEach(p => { acc += p[key]; p.acum = total ? acc/total*100 : 0; });
+  const n80 = pecas.findIndex(p => p.acum >= 80) + 1;
+  document.getElementById('compRankTitle').textContent = key === 'falhas' ? 'Peças que mais falham' : 'Peças com mais horas paradas';
+  document.getElementById('compRankSub').textContent =
+    `${pecas.length} peças · ${totF} falhas · ${hoursToHM(totH)} parado` + (n80 > 0 ? ` · ${n80} peça(s) = 80% ${key === 'falhas' ? 'das falhas' : 'das horas'}` : '') + ` · ${descAnt}`;
+
+  const top = pecas.slice(0, 15);
+  charts.compPareto = new Chart(document.getElementById('chartCompPareto'), {
+    data:{ labels: top.map(p => p.componente.length > 32 ? p.componente.slice(0,30)+'…' : p.componente),
+      datasets:[
+        { type:'bar', label: key === 'falhas' ? 'Falhas' : 'Horas paradas', data: top.map(p => p[key]), backgroundColor: top.map(p => p.acum <= 80 || p === top[0] ? '#1E9350' : '#9CCBAE'), borderRadius:4, maxBarThickness:40, yAxisID:'y', order:2,
+          datalabels:{ display:true, anchor:'end', align:'top', color:'#12271A', font:{family:"'JetBrains Mono',monospace", size:10, weight:600}, formatter:(v)=> key === 'falhas' ? v : hoursToHM(v) } },
+        { type:'line', label:'% acumulado', data: top.map(p => p.acum), borderColor:'#E08A1E', backgroundColor:'#E08A1E', borderWidth:2, tension:.25, pointRadius:3, yAxisID:'yPct', order:1,
+          datalabels:{ display:false } },
+        { type:'line', label:'80%', data: top.map(()=>80), borderColor:'#D8433F', borderDash:[6,4], borderWidth:1.5, pointRadius:0, yAxisID:'yPct', order:0, datalabels:{display:false} }
+      ] },
+    options:{ maintainAspectRatio:false, layout:{padding:{top:18}},
+      onClick:(evt, els)=>{ if(els && els.length) abrirHistoricoComp(top[els[0].index]); },
+      onHover:cursorMao,
+      plugins:{ legend:{position:'bottom', labels:{color:'#5C7266', boxWidth:9, boxHeight:9, usePointStyle:true, pointStyle:'circle'}},
+        tooltip:{callbacks:{ title:(it)=> top[it[0].dataIndex].componente, afterTitle:(it)=> top[it[0].dataIndex].tag + ' · ' + nomeMaquinas(top[it[0].dataIndex]) }} },
+      scales:{ x:{grid:{display:false}, ticks:{color:'#12271A', font:{size:9.5}, maxRotation:60, minRotation:40}},
+        y:{grid:{color:'#E7F1EA'}, ticks:{precision:0, callback:(v)=> key === 'falhas' ? v : v+'h'}},
+        yPct:{position:'right', min:0, max:110, grid:{display:false}, ticks:{callback:(v)=> v <= 100 ? v+'%' : ''}} } }
+  });
+
+  const linhaTabela = (p, i, lista) => {
+    const a = anterior[p.k];
+    const mttr = p.falhas ? p.horas/p.falhas*60 : 0;
+    return `<tr class="click${p.acum !== undefined && p.acum <= 80 ? ' acum80' : ''}" data-k="${p.k}" data-lista="${lista}">
+      <td class="n">${i+1}</td>
+      <td>${esc(p.componente)}<div class="tag">${esc(p.tag)}</div></td>
+      <td class="maq">${esc(nomeMaquinas(p))}</td>
+      <td class="n">${p.falhas}</td>
+      <td class="n">${deltaHtml(p.falhas, a ? a.falhas : 0, temAnt)}</td>
+      <td class="n">${hoursToHM(p.horas)}</td>
+      <td class="n">${mttr.toFixed(1).replace('.',',')} min</td>
+      ${p.acum !== undefined ? `<td class="n">${p.acum.toFixed(0)}%</td>` : ''}
+    </tr>`;
+  };
+  document.getElementById('tableComp').innerHTML =
+    `<thead><tr><th class="n">#</th><th>Componente</th><th>Máquina(s)</th><th class="n">Falhas</th><th class="n">vs anterior</th><th class="n">Horas</th><th class="n">MTTR</th><th class="n">% acum.</th></tr></thead>
+     <tbody>${pecas.length ? pecas.map((p,i)=>linhaTabela(p,i,'pecas')).join('') : '<tr><td colspan="8">Sem paradas de peças no período.</td></tr>'}</tbody>`;
+
+  // ---- Eventos ----
+  eventos.sort((a,b)=> b.horas-a.horas);
+  eventos.forEach(e => delete e.acum);
+  compEventos = eventos;
+  document.getElementById('tableEventos').innerHTML =
+    `<thead><tr><th class="n">#</th><th>Evento</th><th>Máquina(s)</th><th class="n">Falhas</th><th class="n">vs anterior</th><th class="n">Horas</th><th class="n">MTTR</th></tr></thead>
+     <tbody>${eventos.length ? eventos.map((p,i)=>linhaTabela(p,i,'eventos')).join('') : '<tr><td colspan="7">Sem eventos no período.</td></tr>'}</tbody>`;
+
+  renderMatrizComp(pecas);
+  renderReincidencia(turno, equip);
+}
+
+let compEventos = [];
+document.addEventListener('click', e => {
+  const b = e.target.closest && e.target.closest('#compMetric button');
+  if(b){
+    compMetric = b.dataset.m;
+    document.querySelectorAll('#compMetric button').forEach(x => x.classList.toggle('on', x === b));
+    if(charts.compPareto){ charts.compPareto.destroy(); }
+    if(charts.compMatrix){ charts.compMatrix.destroy(); }
+    renderComponentes();
+    return;
+  }
+  const tr = e.target.closest && e.target.closest('#tableComp tr[data-k], #tableEventos tr[data-k]');
+  if(tr){
+    const lista = tr.dataset.lista === 'eventos' ? compEventos : compLista;
+    abrirHistoricoComp(lista.find(p => String(p.k) === tr.dataset.k));
+    return;
+  }
+  const li = e.target.closest && e.target.closest('#compQuadrantes li[data-k]');
+  if(li){ abrirHistoricoComp(compLista.find(p => String(p.k) === li.dataset.k)); return; }
+  const rc = e.target.closest && e.target.closest('.reinc[data-k]');
+  if(rc){ abrirHistoricoComp(reincLista.find(p => String(p.k) === rc.dataset.k)); }
+});
+
+function renderMatrizComp(pecas){
+  // linhas de corte (peças com 2+ falhas no período): falhas = quartil superior (P75); MTTR = mediana
+  const base = pecas.filter(p => p.falhas >= 2);
+  const p75 = arr => { if(!arr.length) return 0; const s=[...arr].sort((a,b)=>a-b); const i=(s.length-1)*0.75, lo=Math.floor(i), hi=Math.ceil(i); return s[lo] + (s[hi]-s[lo])*(i-lo); };
+  const xLim = Math.max(2, Math.round(p75(base.map(p=>p.falhas))));
+  const mediana = arr => { if(!arr.length) return 0; const s=[...arr].sort((a,b)=>a-b); const m=Math.floor(s.length/2); return s.length%2 ? s[m] : (s[m-1]+s[m])/2; };
+  const yLim = mediana(base.map(p=>p.horas/p.falhas*60)) || 10;
+  const QUAD = {
+    critico:   {nome:'Crítico', cor:'#D8433F', bg:'#FBE7E6', what:'muitas falhas e reparo demorado — prioridade máxima'},
+    frequente: {nome:'Frequente', cor:'#E08A1E', bg:'#FDF0DF', what:'muitas falhas, reparo rápido — atacar a causa raiz'},
+    demorado:  {nome:'Reparo demorado', cor:'#2E6FD9', bg:'#E5EEFB', what:'poucas falhas, reparo longo — sobressalente / procedimento'},
+    baixo:     {nome:'Baixo impacto', cor:'#7A8F82', bg:'#EEF3EF', what:'poucas falhas, reparo rápido — monitorar'}
+  };
+  const quadDe = p => { const mt = p.horas/p.falhas*60; const hf = p.falhas >= xLim, hm = mt >= yLim;
+    return hf && hm ? 'critico' : hf ? 'frequente' : hm ? 'demorado' : 'baixo'; };
+  const pts = pecas.filter(p => p.falhas > 0).map(p => ({p, q: quadDe(p)}));
+  const maxH = Math.max(...pts.map(x=>x.p.horas), 0.01);
+  const rotulos = new Set([...pts].sort((a,b)=>b.p.horas-a.p.horas).slice(0,8).map(x=>x.p.k));
+  const linhas = {
+    id:'quadLinhas',
+    afterDatasetsDraw(chart){
+      const {ctx, chartArea:a, scales:{x, y}} = chart;
+      ctx.save(); ctx.strokeStyle = '#B9C7BE'; ctx.setLineDash([5,4]); ctx.lineWidth = 1;
+      const px = x.getPixelForValue(xLim), py = y.getPixelForValue(yLim);
+      if(px > a.left && px < a.right){ ctx.beginPath(); ctx.moveTo(px, a.top); ctx.lineTo(px, a.bottom); ctx.stroke(); }
+      if(py > a.top && py < a.bottom){ ctx.beginPath(); ctx.moveTo(a.left, py); ctx.lineTo(a.right, py); ctx.stroke(); }
+      ctx.setLineDash([]); ctx.font = "600 10px 'Inter',sans-serif";
+      ctx.fillStyle = QUAD.critico.cor; ctx.textAlign = 'right'; ctx.fillText('CRÍTICO', a.right - 6, a.top + 12);
+      ctx.fillStyle = QUAD.demorado.cor; ctx.textAlign = 'left'; ctx.fillText('REPARO DEMORADO', a.left + 6, a.top + 12);
+      ctx.fillStyle = QUAD.frequente.cor; ctx.textAlign = 'right'; ctx.fillText('FREQUENTE', a.right - 6, a.bottom - 6);
+      ctx.fillStyle = QUAD.baixo.cor; ctx.textAlign = 'left'; ctx.fillText('BAIXO IMPACTO', a.left + 6, a.bottom - 6);
+      ctx.restore();
+    }
+  };
+  charts.compMatrix = new Chart(document.getElementById('chartCompMatrix'), {
+    type:'bubble',
+    data:{ datasets: Object.keys(QUAD).map(q => ({
+      label: QUAD[q].nome,
+      data: pts.filter(x=>x.q===q).map(x => ({x: x.p.falhas, y: x.p.horas/x.p.falhas*60, r: 4 + Math.sqrt(x.p.horas/maxH)*18, item: x.p})),
+      backgroundColor: QUAD[q].cor + '99', borderColor: QUAD[q].cor, borderWidth: 1
+    })) },
+    plugins:[linhas],
+    options:{ maintainAspectRatio:false, layout:{padding:{top:8, right:12}},
+      onClick:(evt, els)=>{ if(els && els.length){ const d = charts.compMatrix.data.datasets[els[0].datasetIndex].data[els[0].index]; abrirHistoricoComp(d.item); } },
+      onHover:cursorMao,
+      plugins:{ legend:{position:'bottom', labels:{color:'#5C7266', boxWidth:9, boxHeight:9, usePointStyle:true, pointStyle:'circle'}},
+        tooltip:{callbacks:{ label:(c)=>{ const it = c.raw.item; return [it.componente, `${it.falhas} falhas · MTTR ${(it.horas/it.falhas*60).toFixed(1).replace('.',',')} min · ${hoursToHM(it.horas)}`, nomeMaquinas(it)]; } }},
+        datalabels:{ display:(c)=> rotulos.has(c.dataset.data[c.dataIndex].item.k), align:'top', offset:6, color:'#12271A', font:{size:9.5, weight:600},
+          formatter:(v)=> v.item.componente.length > 26 ? v.item.componente.slice(0,24)+'…' : v.item.componente } },
+      scales:{ x:{type:'logarithmic', title:{display:true, text:'Falhas no período (escala log)'}, grid:{color:'#E7F1EA'}, ticks:{callback:(v)=> [1,2,5,10,20,50,100,200,500].includes(v) ? v : ''}},
+        y:{type:'logarithmic', title:{display:true, text:'Tempo médio de reparo — min (escala log)'}, grid:{color:'#E7F1EA'}, ticks:{callback:(v)=> [1,2,5,10,20,30,60,120,240,480].includes(v) ? v : ''}} } }
+  });
+  const porQuad = {critico:[], frequente:[], demorado:[], baixo:[]};
+  pts.forEach(x => porQuad[x.q].push(x.p));
+  document.getElementById('compQuadrantes').innerHTML = Object.keys(QUAD).map(q => {
+    const lst = porQuad[q].sort((a,b)=>b.horas-a.horas);
+    return `<div class="quad" style="background:${QUAD[q].bg}; border-color:${QUAD[q].cor}55">
+      <h5 style="color:${QUAD[q].cor}">${QUAD[q].nome} · ${lst.length}</h5>
+      <div class="what">${QUAD[q].what}</div>
+      <ul>${lst.slice(0,5).map(p => `<li data-k="${p.k}">${esc(p.componente)} <span style="color:var(--text-faint)">(${p.falhas}× · ${hoursToHM(p.horas)})</span></li>`).join('') || '<li style="list-style:none;cursor:default">—</li>'}</ul>
+    </div>`;
+  }).join('') + `<div class="comp-sub" style="grid-column:1/-1">Linhas de corte: ${xLim} falhas e ${yLim.toFixed(1).replace('.',',')} min de MTTR (falhas: 25% que mais falham; MTTR: mediana — base: peças com 2+ falhas no período).</div>`;
+}
+
+let reincLista = [];
+function renderReincidencia(turno, equip){
+  const todas = datasDisponiveis();
+  const ultima = currentDates.length ? currentDates[currentDates.length-1] : (todas[todas.length-1] || null);
+  if(!ultima){ document.getElementById('reincGrid').innerHTML = ''; return; }
+  const janela = Array.from({length: REINC_DIAS}, (_,i) => addDias(ultima, i - (REINC_DIAS-1)));
+  const porDia = janela.map(dt => agregaComp([dt], turno, equip));
+  const total = agregaComp(janela, turno, equip);
+  reincLista = Object.values(total).filter(p => p.tipo === 'peca' && p.falhas >= REINC_MIN_FALHAS)
+    .map(p => ({...p, serie: porDia.map(d => d[p.k] ? d[p.k].falhas : 0)}))
+    .map(p => ({...p, diasCom: p.serie.filter(v=>v>0).length}))
+    .sort((a,b)=> b.falhas-a.falhas || b.diasCom-a.diasCom);
+  document.getElementById('reincSub').textContent =
+    `Janela de ${REINC_DIAS} dias: ${fmtDateBR(janela[0])} a ${fmtDateBR(ultima)} · peças com ${REINC_MIN_FALHAS} ou mais falhas · ${reincLista.length} componente(s) em alerta`;
+  const maxS = Math.max(1, ...reincLista.flatMap(p => p.serie));
+  document.getElementById('reincGrid').innerHTML = reincLista.length ? reincLista.map(p => `
+    <div class="reinc" data-k="${p.k}" title="Clique para ver o histórico">
+      <div class="t">${esc(p.componente)}</div>
+      <div class="m">${esc(p.tag)} · ${esc(nomeMaquinas(p))}</div>
+      <div class="big">${p.falhas} <small>falhas · ${p.diasCom} de ${REINC_DIAS} dias · ${hoursToHM(p.horas)}</small></div>
+      <div class="spark">${p.serie.map(v => `<div class="${v ? 'on' : ''}" style="height:${Math.max(2, v/maxS*34)}px" title="${v} falha(s)"></div>`).join('')}</div>
+      <div class="spark-lbl">${janela.map(d => `<span>${d.slice(8,10)}</span>`).join('')}</div>
+    </div>`).join('') : '<div class="comp-sub">Nenhuma peça com reincidência nessa janela.</div>';
+}
+
+function semBaseComp(){
+  ['tableComp','tableEventos'].forEach(id => document.getElementById(id).innerHTML = '<tbody><tr><td>Base de componentes ainda não gerada — rode o robô "Processar planilha PCM".</td></tr></tbody>');
+}
 
 function destroyCharts(){
   Object.values(charts).forEach(c => c && c.destroy());
