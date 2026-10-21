@@ -103,6 +103,9 @@
   .highlight .stats b{color:var(--text); font-family:'JetBrains Mono',monospace; font-weight:600;}
   .dept-row .cmp{font-size:11px; color:var(--text-faint); margin-top:2px; font-family:'JetBrains Mono',monospace;}
   #turnoCmp{margin-top:14px;}
+  .tcel{cursor:pointer; border-radius:6px; padding:2px 4px; margin:-2px -4px;}
+  .tcel:hover{background:#E3F4E9;}
+  .imp-h{font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:var(--text-dim); margin-bottom:8px;}
   .tcmp-title{font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--text-dim); margin-bottom:6px; font-weight:600;}
   .tcmp{width:100%; border-collapse:collapse; font-size:12px;}
   .tcmp th{background:var(--panel-2); padding:6px 8px; font-size:10.5px; text-transform:uppercase; letter-spacing:.04em; color:var(--text-dim); text-align:right;}
@@ -1150,18 +1153,108 @@ function renderComparativoTurnos(){
   const at = agregaDeptTurno(datas, equip), an = agregaDeptTurno(ant, equip);
   const deps = ['Mecânica','Automação','Elétrica'].filter(d => at[d] || an[d]).concat(Object.keys(at).filter(d => !['Mecânica','Automação','Elétrica'].includes(d)));
   const turnos = turnoSel === 'all' ? ['1','2','3'] : [turnoSel];
-  const cel = (a, b) => `<div class="v">${hoursToHM(a)}</div>${temAnt ? `<div class="a">${esc(rot.curto || rot.anterior)}: ${hoursToHM(b)}</div><div class="d">${deltaHoras(a, b)}</div>` : ''}`;
+  const cel = (a, b, dep, t) => `<div class="tcel" data-dep="${esc(dep)}" data-t="${t}" title="Clique para ver onde mudou"><div class="v">${hoursToHM(a)}</div>${temAnt ? `<div class="a">${esc(rot.curto || rot.anterior)}: ${hoursToHM(b)}</div><div class="d">${deltaHoras(a, b)}</div>` : ''}</div>`;
   const g = (o, dep, t) => (o[dep] ? o[dep][t].h : 0);
   const linhas = deps.map(dep => `<tr><td><span style="color:${DEPT_COLOR[dep]||'#555'}; font-weight:600">${esc(dep)}</span></td>
-      ${turnos.map(t => `<td>${cel(g(at,dep,t), g(an,dep,t))}</td>`).join('')}
-      ${turnos.length > 1 ? `<td>${cel(at[dep] ? at[dep].tot.h : 0, an[dep] ? an[dep].tot.h : 0)}</td>` : ''}</tr>`).join('');
+      ${turnos.map(t => `<td>${cel(g(at,dep,t), g(an,dep,t), dep, t)}</td>`).join('')}
+      ${turnos.length > 1 ? `<td>${cel(at[dep] ? at[dep].tot.h : 0, an[dep] ? an[dep].tot.h : 0, dep, 'tot')}</td>` : ''}</tr>`).join('');
   const somaT = (o, t) => deps.reduce((s, dep) => s + g(o, dep, t), 0);
   const somaTot = o => deps.reduce((s, dep) => s + (o[dep] ? o[dep].tot.h : 0), 0);
-  const total = `<tr class="tot"><td>Total</td>${turnos.map(t => `<td>${cel(somaT(at,t), somaT(an,t))}</td>`).join('')}${turnos.length > 1 ? `<td>${cel(somaTot(at), somaTot(an))}</td>` : ''}</tr>`;
+  const total = `<tr class="tot"><td>Total</td>${turnos.map(t => `<td>${cel(somaT(at,t), somaT(an,t), '*', t)}</td>`).join('')}${turnos.length > 1 ? `<td>${cel(somaTot(at), somaTot(an), '*', 'tot')}</td>` : ''}</tr>`;
   box.innerHTML = `<div class="tcmp-title">Comparação: ${esc(rot.atual)} × ${temAnt ? esc(rot.anterior) : 'sem período anterior'}${equip !== 'all' ? ' · ' + esc(equip) : ''}</div>
     <table class="tcmp"><thead><tr><th>Departamento</th>${turnos.map(t => `<th>Turno ${t}</th>`).join('')}${turnos.length > 1 ? '<th>Total</th>' : ''}</tr></thead>
-    <tbody>${linhas}${total}</tbody></table>`;
+    <tbody>${linhas}${total}</tbody></table>
+    ${temAnt ? '<div class="comp-sub" style="margin-top:6px">Clique em qualquer valor para ver em quais máquinas e componentes o tempo mudou.</div>' : ''}`;
 }
+
+// ---------- "Onde mudou": decompõe a diferença de uma célula turno x departamento ----------
+function agregaImpacto(datas, dep, turno, equip){
+  const tIdx = {'1':4, '2':6, '3':8};
+  const maq = {}, comp = {};
+  let H = 0, F = 0;
+  datas.forEach(dt => (compBase.dias[dt] || []).forEach(r => {
+    if(equip !== 'all' && r[1] !== equip) return;
+    if(!r[10]) return;
+    if(dep !== '*' && r[10] !== dep) return;
+    const f = turno === 'all' ? r[2] : r[tIdx[turno]];
+    const h = turno === 'all' ? r[3] : r[tIdx[turno]+1];
+    if(!f && !h) return;
+    H += h; F += f;
+    const m = r[1].toUpperCase();
+    if(!maq[m]) maq[m] = {h:0, f:0};
+    maq[m].h += h; maq[m].f += f;
+    if(!comp[r[0]]){ const mt = compBase.meta[r[0]]; comp[r[0]] = {k:r[0], tag:mt[0], componente:mt[1], tipo:mt[2], h:0, f:0, maquinas:{}}; }
+    comp[r[0]].h += h; comp[r[0]].f += f; comp[r[0]].maquinas[r[1]] = (comp[r[0]].maquinas[r[1]] || 0) + f;
+  }));
+  return {H, F, maq, comp};
+}
+
+let impactoComps = [];
+function abrirImpacto(dep, t){
+  if(!compBase) return;
+  const turnoSel = document.getElementById('turnoSelect').value;
+  const equip = document.getElementById('equipSelect').value;
+  const turno = t === 'tot' ? turnoSel : t;          // 'all' ou '1'/'2'/'3'
+  const datas = currentDates.filter(d => compBase.dias[d]);
+  const ant = periodoAnterior(datas).filter(d => compBase.dias[d]);
+  const rot = rotulosPeriodo(datas, ant);
+  const A = agregaImpacto(datas, dep, turno, equip), B = agregaImpacto(ant, dep, turno, equip);
+  const dif = A.H - B.H;
+  const lbl = `${turno === 'all' ? 'Todos os turnos' : 'Turno ' + turno} · ${dep === '*' ? 'Todos os departamentos' : dep}${equip !== 'all' ? ' · ' + equip : ''}`;
+
+  const juntar = (a, b, chave) => {
+    const ks = new Set([...Object.keys(a), ...Object.keys(b)]);
+    return [...ks].map(k => ({k, nome: chave(k, a[k] || b[k]), a: a[k] || {h:0,f:0}, b: b[k] || {h:0,f:0}, item: a[k] || b[k]}))
+      .map(x => ({...x, d: x.a.h - x.b.h, df: x.a.f - x.b.f}));
+  };
+  const maqs = juntar(A.maq, B.maq, k => k).sort((x,y) => y.d - x.d);
+  const comps = juntar(A.comp, B.comp, (k, it) => it.componente);
+  const subiu = comps.filter(c => c.d > 1/120).sort((x,y) => y.d - x.d).slice(0, 10);
+  const caiu = comps.filter(c => c.d < -1/120).sort((x,y) => x.d - y.d).slice(0, 5);
+  impactoComps = [...subiu, ...caiu];
+  const somaPos = maqs.filter(m => m.d > 0).reduce((s,m) => s + m.d, 0);
+  const somaPosC = comps.filter(c => c.d > 0).reduce((s,c) => s + c.d, 0);
+
+  const fmtCel = v => `${hoursToHM(v.h)} <span style="color:var(--text-faint)">· ${v.f}×</span>`;
+  const difCel = x => `${deltaHoras(x.a.h, x.b.h)} <span style="color:var(--text-faint)">(${x.df > 0 ? '+' : ''}${x.df}×)</span>`;
+  const tabMaq = `<table class="hist-table"><thead><tr><th>Máquina</th><th>${esc(rot.atual)}</th><th>${esc(rot.anterior)}</th><th>Diferença</th><th>Parte do aumento</th></tr></thead><tbody>
+    ${maqs.map(m => `<tr><td>${esc(m.nome)}</td><td class="mono">${fmtCel(m.a)}</td><td class="mono">${fmtCel(m.b)}</td><td class="mono">${difCel(m)}</td>
+      <td class="mono">${m.d > 0 && somaPos ? Math.round(m.d/somaPos*100) + '%' : '—'}</td></tr>`).join('')}</tbody></table>`;
+  const linhaC = c => `<tr class="click" data-ik="${c.k}"><td>${esc(c.nome)}<br><span style="color:var(--text-faint);font-size:10px">${esc(c.item.tag)} · ${esc(nomeMaquinas(c.item))}${c.item.tipo === 'evento' ? ' · evento' : ''}</span></td>
+      <td class="mono">${fmtCel(c.a)}</td><td class="mono">${fmtCel(c.b)}</td><td class="mono">${difCel(c)}</td>
+      <td class="mono">${c.d > 0 && somaPosC ? Math.round(c.d/somaPosC*100) + '%' : '—'}</td></tr>`;
+  const cab = `<thead><tr><th>Componente</th><th>${esc(rot.atual)}</th><th>${esc(rot.anterior)}</th><th>Diferença</th><th>Parte do aumento</th></tr></thead>`;
+
+  ensureHistModal();
+  document.getElementById('histTitle').textContent = (dif > 1/120 ? 'Onde aumentou — ' : dif < -1/120 ? 'Onde diminuiu — ' : 'Comparação — ') + lbl;
+  document.getElementById('histSub').textContent = `${rot.atual} × ${rot.anterior}`;
+  document.getElementById('histBody').innerHTML = `
+    <div class="hist-chips">
+      <div class="hist-chip"><div class="l">${esc(rot.atual)}</div><div class="v">${hoursToHM(A.H)}</div><div class="l" style="text-transform:none">${A.F} paradas</div></div>
+      <div class="hist-chip"><div class="l">${esc(rot.anterior)}</div><div class="v">${hoursToHM(B.H)}</div><div class="l" style="text-transform:none">${B.F} paradas</div></div>
+      <div class="hist-chip"><div class="l">Diferença</div><div class="v">${deltaHoras(A.H, B.H)}</div><div class="l" style="text-transform:none">${A.F - B.F > 0 ? '+' : ''}${A.F - B.F} paradas</div></div>
+    </div>
+    <h4 class="imp-h">Por máquina</h4>
+    <div class="hist-table-wrap" style="max-height:30vh; margin-bottom:16px">${maqs.length ? tabMaq : '<div class="hist-note" style="padding:10px">Sem paradas.</div>'}</div>
+    <h4 class="imp-h">Componentes que mais aumentaram</h4>
+    <div class="hist-table-wrap" style="max-height:34vh; margin-bottom:16px">${subiu.length ? `<table class="hist-table">${cab}<tbody>${subiu.map(linhaC).join('')}</tbody></table>` : '<div class="hist-note" style="padding:10px">Nenhum componente aumentou.</div>'}</div>
+    ${caiu.length ? `<h4 class="imp-h">Componentes que mais diminuíram</h4>
+    <div class="hist-table-wrap" style="max-height:24vh; margin-bottom:16px"><table class="hist-table">${cab.replace('Parte do aumento','')}<tbody>${caiu.map(linhaC).join('')}</tbody></table></div>` : ''}
+    <button class="hist-link" id="impOcorr">Ver as ocorrências de ${esc(rot.atual)}</button>`;
+  document.getElementById('histOverlay').classList.add('open');
+  document.getElementById('impOcorr').onclick = () => abrirHistoricoFiltro(lbl, `Ocorrências de ${rot.atual}`,
+    o => (dep === '*' || o.departamento === dep) && (turno === 'all' || String(o.turno) === turno), {caixas: dep === '*' ? ['turno','departamento'] : ['turno']});
+}
+
+document.addEventListener('click', e => {
+  const c = e.target.closest && e.target.closest('#turnoCmp .tcel');
+  if(c){ abrirImpacto(c.dataset.dep, c.dataset.t); return; }
+  const tr = e.target.closest && e.target.closest('#histBody tr[data-ik]');
+  if(tr){
+    const x = impactoComps.find(i => String(i.k) === tr.dataset.ik);
+    if(x){ const it = x.item; abrirHistoricoComp({k: it.k, tag: it.tag, componente: it.componente, tipo: it.tipo, falhas: x.a.f, horas: x.a.h, maquinas: it.maquinas}); }
+  }
+});
 
 // ---------- Componentes: Pareto de peças, eventos, matriz e reincidência ----------
 let currentDates = [];
