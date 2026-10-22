@@ -257,6 +257,11 @@
         <div class="card"><h3>Total de horas paradas por equipamento</h3><div class="chart-box"><canvas id="chartHoras"></canvas></div></div>
         <div class="card"><h3>Total de falhas por equipamento</h3><div class="chart-box"><canvas id="chartFalhas"></canvas></div></div>
       </div>
+      <div class="card" style="margin-top:14px">
+        <h3 id="maqCmpTitle">Comparativo por máquina</h3>
+        <div class="comp-sub" id="maqCmpSub"></div>
+        <div class="comp-table-wrap" style="max-height:none"><table class="comp-table" id="tableMaq"></table></div>
+      </div>
     </div>
 
     <div class="section">
@@ -815,6 +820,7 @@ function render(data, periodHours, isPeriod, dayCount, equipamentoFiltro, equipP
 
   const deptSorted = Object.entries(DEPT_TOTAL).sort((a,b)=>b[1]-a[1]);
   setTimeout(renderComparativoTurnos, 0);
+  setTimeout(renderComparativoMaquinas, 0);
   document.getElementById('deptList').innerHTML = deptSorted.map(([name, horas]) => `
     <div class="dept-row" data-dept="${esc(name)}" title="Clique para ver o histórico do departamento">
       <div class="icon" style="background:${DEPT_COLOR[name]}22; color:${DEPT_COLOR[name]}">${DEPT_ICON[name]||'●'}</div>
@@ -1107,6 +1113,93 @@ document.addEventListener('click', e=>{
   if(card && card.dataset.idx != null) abrirHistorico(currentComps[Number(card.dataset.idx)]);
 });
 
+// ---------- Comparativo por máquina (considera a programação do PCP) ----------
+let progBase = null, progCarregando = null, progFalhou = false;
+function carregaProg(){
+  if(progBase) return Promise.resolve(progBase);
+  if(!progCarregando){
+    progCarregando = fetchJSON(DATA_DIR + 'programacao.json').then(b => (progBase = b)).catch(() => { progFalhou = true; return null; });
+  }
+  return progCarregando;
+}
+
+function agregaMaquinas(datas, turno){
+  const tIdx = {'1':4, '2':6, '3':8};
+  const fr = turno === 'all' ? 1 : 1/3;   // programação é por dia; num turno só, ~1/3 das horas
+  const out = {};
+  const get = m => out[m] || (out[m] = {h:0, f:0, progH:0, diasProg:0, semProgF:0, semProgH:0});
+  datas.forEach(dt => {
+    const prog = (progBase && progBase.dias[dt]) || null;
+    if(prog) Object.entries(prog).forEach(([m, min]) => { if(min > 0){ const o = get(m); o.progH += min/60*fr; o.diasProg += 1; } });
+    (compBase.dias[dt] || []).forEach(r => {
+      const f = turno === 'all' ? r[2] : r[tIdx[turno]];
+      const h = turno === 'all' ? r[3] : r[tIdx[turno]+1];
+      if(!f && !h) return;
+      const m = r[1].toUpperCase();
+      const o = get(m);
+      o.h += h; o.f += f;
+      if(prog && !(prog[m] > 0)){ o.semProgF += f; o.semProgH += h; }
+    });
+  });
+  return out;
+}
+
+function renderComparativoMaquinas(){
+  const tb = document.getElementById('tableMaq');
+  if(!tb) return;
+  if(!compBase || (!progBase && !progFalhou)){
+    Promise.all([carregaCompBase(), carregaProg()]).then(([c, p]) => { if(c && (p || progFalhou)) renderComparativoMaquinas(); });
+    if(!compBase) return;
+  }
+  const turno = document.getElementById('turnoSelect').value;
+  const equip = document.getElementById('equipSelect').value;
+  const datas = currentDates.filter(d => compBase.dias[d]);
+  const ant = periodoAnterior(datas).filter(d => compBase.dias[d]);
+  const rot = rotulosPeriodo(datas, ant);
+  const temAnt = ant.length > 0, temProg = !!progBase;
+  const A = agregaMaquinas(datas, turno), B = agregaMaquinas(ant, turno);
+  let maqs = [...new Set([...Object.keys(A), ...Object.keys(B)])];
+  if(equip !== 'all') maqs = maqs.filter(m => m === equip.toUpperCase());
+  const z = {h:0, f:0, progH:0, diasProg:0, semProgF:0, semProgH:0};
+  const linhas = maqs.map(m => ({m, a: A[m] || z, b: B[m] || z}))
+    .filter(x => x.a.h || x.b.h || x.a.progH || x.b.progH)
+    .sort((x, y) => y.a.h - x.a.h || y.b.h - x.b.h);
+  const pct = o => o.progH > 0 ? o.h / o.progH * 100 : null;
+  const fmtPct = v => v == null ? '<span class="delta-eq">sem prog.</span>' : v.toFixed(1).replace('.',',') + '%';
+  const difPct = (a, b) => {
+    if(a == null || b == null || !temAnt) return '<span class="delta-eq">—</span>';
+    const d = a - b;
+    if(Math.abs(d) < 0.05) return '<span class="delta-eq">=</span>';
+    return d > 0 ? `<span class="delta-up">▲ +${d.toFixed(1).replace('.',',')} p.p.</span>` : `<span class="delta-down">▼ −${(-d).toFixed(1).replace('.',',')} p.p.</span>`;
+  };
+  const ac = esc(rot.atualCurto || rot.atual), an = esc(rot.curto || rot.anterior);
+  const nDias = datas.length, nAnt = ant.length;
+  tb.innerHTML = `<thead><tr>
+      <th>Máquina</th>
+      <th class="n">Dias progr.<br>${ac} · ${an}</th>
+      <th class="n">Horas paradas<br>${ac}</th><th class="n">Horas paradas<br>${an}</th><th class="n">Diferença</th>
+      <th class="n">% parado<br>${ac}</th><th class="n">% parado<br>${an}</th><th class="n">Diferença</th>
+      <th class="n">Falhas<br>${ac}</th><th class="n">Falhas<br>${an}</th><th class="n">Diferença</th>
+      <th></th></tr></thead>
+    <tbody>${linhas.map(x => `<tr class="click" data-maq="${esc(x.m)}">
+      <td><b>${esc(x.m)}</b></td>
+      <td class="n">${temProg ? `${x.a.diasProg}/${nDias} · ${temAnt ? `${x.b.diasProg}/${nAnt}` : '—'}` : '—'}</td>
+      <td class="n">${hoursToHM(x.a.h)}</td><td class="n">${temAnt ? hoursToHM(x.b.h) : '—'}</td><td class="n">${temAnt ? deltaHoras(x.a.h, x.b.h) : '—'}</td>
+      <td class="n">${temProg ? fmtPct(pct(x.a)) : '—'}</td><td class="n">${temProg && temAnt ? fmtPct(pct(x.b)) : '—'}</td><td class="n">${temProg ? difPct(pct(x.a), pct(x.b)) : '—'}</td>
+      <td class="n">${x.a.f}</td><td class="n">${temAnt ? x.b.f : '—'}</td><td class="n">${deltaHtml(x.a.f, x.b.f, temAnt)}</td>
+      <td>${x.a.semProgF ? `<span title="${x.a.semProgF} parada(s) (${hoursToHM(x.a.semProgH)}) lançada(s) em dia sem programação do PCP" style="color:var(--amber); font-weight:600; white-space:nowrap">⚠ ${x.a.semProgF} sem progr.</span>` : ''}</td>
+    </tr>`).join('') || '<tr><td colspan="12">Sem dados no período.</td></tr>'}</tbody>`;
+  document.getElementById('maqCmpTitle').textContent = `Comparativo por máquina — ${rot.atual} × ${temAnt ? rot.anterior : 'sem período anterior'}`;
+  document.getElementById('maqCmpSub').innerHTML = temProg
+    ? `<b>% parado</b> = horas paradas ÷ horas programadas pelo PCP. Dias em que a máquina não estava programada não entram na conta, então a comparação é justa mesmo quando a máquina rodou menos dias. "Dias progr." = dias com programação / dias do período.${turno !== 'all' ? ' Com filtro de turno, considera 1/3 das horas programadas do dia.' : ''} Clique na máquina para ver onde mudou.`
+    : 'Programação do PCP ainda não disponível — rode o robô "Processar planilha PCM".';
+}
+
+document.addEventListener('click', e => {
+  const tr = e.target.closest && e.target.closest('#tableMaq tr[data-maq]');
+  if(tr) abrirImpacto('*', 'tot', tr.dataset.maq);
+});
+
 // ---------- Comparativo turno x departamento com o período anterior ----------
 function agregaDeptTurno(datas, equip){
   const out = {};
@@ -1173,7 +1266,7 @@ function agregaImpacto(datas, dep, turno, equip){
   const maq = {}, comp = {};
   let H = 0, F = 0;
   datas.forEach(dt => (compBase.dias[dt] || []).forEach(r => {
-    if(equip !== 'all' && r[1] !== equip) return;
+    if(equip !== 'all' && r[1].toUpperCase() !== equip.toUpperCase()) return;
     if(!r[10]) return;
     if(dep !== '*' && r[10] !== dep) return;
     const f = turno === 'all' ? r[2] : r[tIdx[turno]];
@@ -1190,10 +1283,10 @@ function agregaImpacto(datas, dep, turno, equip){
 }
 
 let impactoComps = [];
-function abrirImpacto(dep, t){
+function abrirImpacto(dep, t, maqFiltro){
   if(!compBase) return;
   const turnoSel = document.getElementById('turnoSelect').value;
-  const equip = document.getElementById('equipSelect').value;
+  const equip = maqFiltro || document.getElementById('equipSelect').value;
   const turno = t === 'tot' ? turnoSel : t;          // 'all' ou '1'/'2'/'3'
   const datas = currentDates.filter(d => compBase.dias[d]);
   const ant = periodoAnterior(datas).filter(d => compBase.dias[d]);
@@ -1347,14 +1440,15 @@ function rotulosPeriodo(datas, ant){
     return {
       atual: NOMES_MES[m-1] + (parcial ? ` (1 a ${ultimo})` : ''),
       anterior: NOMES_MES[mAnt-1] + (parcial ? ` (1 a ${ultimo})` : ''),
-      curto: NOMES_MES[mAnt-1].slice(0,3)
+      curto: NOMES_MES[mAnt-1].slice(0,3),
+      atualCurto: NOMES_MES[m-1].slice(0,3)
     };
   }
   if(currentPeriodoTipo === 'day'){
     const a = ant.length ? fmtDateBR(ant[ant.length-1]).slice(0,5) : 'Anterior';
-    return {atual: fmtDateBR(datas[0]).slice(0,5), anterior: a, curto: a};
+    return {atual: fmtDateBR(datas[0]).slice(0,5), anterior: a, curto: a, atualCurto: fmtDateBR(datas[0]).slice(0,5)};
   }
-  return {atual:'Período', anterior: ant.length ? `${fmtDateBR(ant[0]).slice(0,5)} a ${fmtDateBR(ant[ant.length-1]).slice(0,5)}` : 'Anterior', curto:'Ant.'};
+  return {atual:'Período', anterior: ant.length ? `${fmtDateBR(ant[0]).slice(0,5)} a ${fmtDateBR(ant[ant.length-1]).slice(0,5)}` : 'Anterior', curto:'Ant.', atualCurto:'Período'};
 }
 
 function abrirHistoricoComp(item){

@@ -431,6 +431,20 @@ def main():
         with open(latest_path, "w", encoding="utf-8") as f:
             json.dump(last_out, f, ensure_ascii=False, indent=2)
 
+    # Programação do PCP por máquina e dia (minutos; 0 = máquina não programada naquele dia)
+    if hd_df is not None:
+        prog = {}
+        h = hd_df.copy()
+        h["_eq"] = h["Equipamento"].astype(str).str.strip().str.upper()
+        h["_data"] = h["Data"].dt.date.astype(str)
+        h["Minutos"] = pd.to_numeric(h["Minutos"], errors="coerce").fillna(0)
+        for (data, eq), m in h.groupby(["_data", "_eq"])["Minutos"].sum().items():
+            prog.setdefault(data, {})[eq] = round(float(m), 1)
+        prog_path = os.path.join(args.outdir, "programacao.json")
+        with open(prog_path, "w", encoding="utf-8") as f:
+            json.dump({"gerado_em": datetime.now().isoformat(timespec="minutes"), "dias": prog}, f, ensure_ascii=False, separators=(",", ":"))
+        print(f"OK: {prog_path} gerado ({len(prog)} dias)")
+
     # Base completa de componentes (todos os dias, todos os componentes, sem corte de top N)
     comp = build_componentes(df)
     comp_path = os.path.join(args.outdir, "componentes.json")
