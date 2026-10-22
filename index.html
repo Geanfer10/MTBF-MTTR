@@ -1159,6 +1159,8 @@ function renderComparativoMaquinas(){
   const temAnt = ant.length > 0, temProg = !!progBase;
   const A = agregaMaquinas(datas, turno), B = agregaMaquinas(ant, turno);
   let maqs = [...new Set([...Object.keys(A), ...Object.keys(B)])];
+  // Encaixotamento Vegetais fica fora do comparativo (não é acompanhado por máquina)
+  maqs = maqs.filter(m => !(m.includes('ENCAIXOTAMENTO') && m.includes('VEGETAIS')));
   if(equip !== 'all') maqs = maqs.filter(m => m === equip.toUpperCase());
   const z = {h:0, f:0, progH:0, diasProg:0, semProgF:0, semProgH:0};
   const linhas = maqs.map(m => ({m, a: A[m] || z, b: B[m] || z}))
