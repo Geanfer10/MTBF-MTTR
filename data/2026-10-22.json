@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "updated_at": "2026-10-23T11:47",
+  "updated_at": "2026-10-23T18:03",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -493,7 +493,7 @@
           "inicio": "17:57",
           "fim": "21:05",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 3.1333,
           "motivo": "QUEBRA DE CORRENTE",
@@ -1116,7 +1116,7 @@
   "turnos": {
     "Automação": {
       "1": 0.4667,
-      "2": 3.4833,
+      "2": 0.35,
       "3": 0.1
     },
     "Elétrica": {
@@ -1126,7 +1126,7 @@
     },
     "Mecânica": {
       "1": 2.25,
-      "2": 7.3833,
+      "2": 10.5167,
       "3": 11.8
     }
   },
@@ -2152,7 +2152,7 @@
           "inicio": "17:57",
           "fim": "21:05",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 3.1333,
           "motivo": "QUEBRA DE CORRENTE",
@@ -2949,15 +2949,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 226.9667,
-        "horas_paradas": 21.4333,
-        "disponibilidade_pct": 90.5566,
-        "indisponibilidade_pct": 9.4434
+        "horas_paradas": 24.5667,
+        "disponibilidade_pct": 89.1761,
+        "indisponibilidade_pct": 10.8239
       },
       "Automação": {
         "horas_disponiveis": 87.9667,
-        "horas_paradas": 4.05,
-        "disponibilidade_pct": 95.396,
-        "indisponibilidade_pct": 4.604
+        "horas_paradas": 0.9167,
+        "disponibilidade_pct": 98.9579,
+        "indisponibilidade_pct": 1.0421
       }
     }
   },
