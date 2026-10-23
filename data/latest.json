@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "updated_at": "2026-10-23T11:32",
+  "updated_at": "2026-10-23T11:47",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -249,21 +249,21 @@
     },
     {
       "name": "MESPACK R2",
-      "horas": 7.0833,
+      "horas": 7.0167,
       "horas_disponiveis": 21.9833,
-      "falhas": 22,
+      "falhas": 20,
       "por_turno": {
         "1": {
-          "horas": 1.5667,
-          "falhas": 15
+          "horas": 1.5333,
+          "falhas": 14
         },
         "2": {
           "horas": 3.1333,
           "falhas": 1
         },
         "3": {
-          "horas": 2.3833,
-          "falhas": 6
+          "horas": 2.35,
+          "falhas": 5
         }
       },
       "ocorrencias": [
@@ -277,34 +277,21 @@
           "horas": 0.9167,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "manutenção no perfurador no conjunto do perfurador ",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "31391",
+          "componente": "CONJUNTO INFERIOR DESBOBINADOR MESPACK R2"
         },
         {
           "data": "2026-10-22",
           "inicio": "02:32",
           "fim": "02:36",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0667,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
           "obs": "",
-          "tag": "",
-          "componente": "BASE PRESA NAS CADENAS E TRANSFERIDORES"
-        },
-        {
-          "data": "2026-10-22",
-          "inicio": "05:36",
-          "fim": "05:38",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
-          "obs": "",
-          "tag": "",
-          "componente": "ALARME DE PRESSÃO DO LUBRIFICADOR"
+          "tag": "TP-BJ5",
+          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ-5"
         },
         {
           "data": "2026-10-22",
@@ -316,8 +303,8 @@
           "horas": 0.0667,
           "motivo": "TROCA DE VENTOSAS",
           "obs": "",
-          "tag": "",
-          "componente": "TROCA DE VENTOSAS"
+          "tag": "31404",
+          "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2"
         },
         {
           "data": "2026-10-22",
@@ -329,21 +316,8 @@
           "horas": 0.0667,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste nas ventosas do robo pegador de embalagem 2",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
-        },
-        {
-          "data": "2026-10-22",
-          "inicio": "07:46",
-          "fim": "07:48",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
-          "obs": "",
-          "tag": "",
-          "componente": "ALARME DE PRESSÃO DO LUBRIFICADOR"
+          "tag": "31404",
+          "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2"
         },
         {
           "data": "2026-10-22",
@@ -355,8 +329,8 @@
           "horas": 0.2167,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "devido quebra da corrente da cademia 5",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "31951",
+          "componente": "CORRENTE ESTEIRA TRANSPORTE CADENA TP-BJ-5"
         },
         {
           "data": "2026-10-22",
@@ -368,8 +342,8 @@
           "horas": 0.05,
           "motivo": "AJUSTE NAS PINÇAS",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NAS PINÇAS"
+          "tag": "31407",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK R2"
         },
         {
           "data": "2026-10-22",
@@ -381,8 +355,8 @@
           "horas": 0.05,
           "motivo": "BICO DOSADOR ENTUPIDO",
           "obs": "",
-          "tag": "",
-          "componente": "BICO DOSADOR ENTUPIDO"
+          "tag": "31411",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2"
         },
         {
           "data": "2026-10-22",
@@ -394,8 +368,8 @@
           "horas": 0.1167,
           "motivo": "AGUARDANDO MECÂNICO",
           "obs": "",
-          "tag": "",
-          "componente": "AGUARDANDO MECÂNICO"
+          "tag": "MECANICA01",
+          "componente": "AGUARDANDO MECANICO"
         },
         {
           "data": "2026-10-22",
@@ -407,8 +381,8 @@
           "horas": 0.0667,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "troca da ventosa e ajuste no bico de pato 1",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "31411",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2"
         },
         {
           "data": "2026-10-22",
@@ -420,8 +394,8 @@
           "horas": 0.05,
           "motivo": "AJUSTE DE VENTOSAS",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE DE VENTOSAS"
+          "tag": "31404",
+          "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2"
         },
         {
           "data": "2026-10-22",
@@ -433,8 +407,8 @@
           "horas": 0.0667,
           "motivo": "BICO DOSADOR ENTUPIDO",
           "obs": "",
-          "tag": "",
-          "componente": "BICO DOSADOR ENTUPIDO"
+          "tag": "31411",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2"
         },
         {
           "data": "2026-10-22",
@@ -446,8 +420,8 @@
           "horas": 0.0333,
           "motivo": "BICO DOSADOR ENTUPIDO",
           "obs": "",
-          "tag": "",
-          "componente": "BICO DOSADOR ENTUPIDO"
+          "tag": "31411",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2"
         },
         {
           "data": "2026-10-22",
@@ -459,8 +433,8 @@
           "horas": 0.1833,
           "motivo": "AJUSTE NAS PINÇAS",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NAS PINÇAS"
+          "tag": "31407",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK R2"
         },
         {
           "data": "2026-10-22",
@@ -472,8 +446,8 @@
           "horas": 0.0333,
           "motivo": "BICO DOSADOR ENTUPIDO",
           "obs": "",
-          "tag": "",
-          "componente": "BICO DOSADOR ENTUPIDO"
+          "tag": "31411",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2"
         },
         {
           "data": "2026-10-22",
@@ -485,8 +459,8 @@
           "horas": 0.0333,
           "motivo": "BICO DOSADOR ENTUPIDO",
           "obs": "",
-          "tag": "",
-          "componente": "BICO DOSADOR ENTUPIDO"
+          "tag": "31411",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2"
         },
         {
           "data": "2026-10-22",
@@ -498,8 +472,8 @@
           "horas": 0.5,
           "motivo": "AJUSTE NO BICO DE DOSAGEM",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NO BICO DE DOSAGEM"
+          "tag": "31411",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2"
         },
         {
           "data": "2026-10-22",
@@ -511,8 +485,8 @@
           "horas": 0.0667,
           "motivo": "AJUSTE NAS PINÇAS",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NAS PINÇAS"
+          "tag": "31407",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK R2"
         },
         {
           "data": "2026-10-22",
@@ -524,8 +498,8 @@
           "horas": 3.1333,
           "motivo": "QUEBRA DE CORRENTE",
           "obs": "corrente de transferência de bandeja do robô 2 quebrou ",
-          "tag": "",
-          "componente": "QUEBRA DE CORRENTE"
+          "tag": "31951",
+          "componente": "CORRENTE ESTEIRA TRANSPORTE CADENA TP-BJ-5"
         },
         {
           "data": "2026-10-22",
@@ -537,8 +511,8 @@
           "horas": 0.4167,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "repasse de máquina parada com manutenção no perfurador no desbobinador e repasse manual e refazeamentondo largato",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "31391",
+          "componente": "CONJUNTO INFERIOR DESBOBINADOR MESPACK R2"
         },
         {
           "data": "2026-10-22",
@@ -550,8 +524,8 @@
           "horas": 0.8833,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "troca da faca do perfurador e manutenção no desbobinador ",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "31391",
+          "componente": "CONJUNTO INFERIOR DESBOBINADOR MESPACK R2"
         }
       ]
     },
@@ -584,7 +558,7 @@
           "falhas": 1,
           "horas": 6.1,
           "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "manutenção mecânica eletrica",
+          "obs": "FALHA NO HOME ",
           "tag": "31189",
           "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK R1"
         }
@@ -1056,9 +1030,9 @@
       ]
     },
     {
-      "name": "ENCHEDEIRA RECRAVADEIRA 60L1",
+      "name": "60L1",
       "horas": 0.2833,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 22.5,
       "falhas": 2,
       "por_turno": {
         "1": {
@@ -1085,8 +1059,8 @@
           "horas": 0.1167,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "falha no inkejet ",
-          "tag": "",
-          "componente": "MANUTENÇÃO ELÉTRICA"
+          "tag": "INK10",
+          "componente": "INKJET RECRAVADEIRA 60L1"
         },
         {
           "data": "2026-10-22",
@@ -1098,8 +1072,8 @@
           "horas": 0.1667,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "lata virada na recravadeira",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "30433",
+          "componente": "CABEÇOTE SUPERIOR 60L1"
         }
       ]
     },
@@ -1141,9 +1115,9 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 0.5,
+      "1": 0.4667,
       "2": 3.4833,
-      "3": 0.2
+      "3": 0.1
     },
     "Elétrica": {
       "1": 0.0,
@@ -1153,7 +1127,7 @@
     "Mecânica": {
       "1": 2.25,
       "2": 7.3833,
-      "3": 11.7333
+      "3": 11.8
     }
   },
   "top_falhas": [
@@ -1253,6 +1227,106 @@
           "falhas": 1,
           "horas": 1.4833,
           "motivo": "AJUSTE CARRO MÓVEL",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 7,
+      "horas": 0.7833,
+      "por_turno": {
+        "1": {
+          "horas": 0.7833,
+          "falhas": 7
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "10:05",
+          "fim": "10:08",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "10:17",
+          "fim": "10:21",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da ventosa e ajuste no bico de pato 1"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "11:07",
+          "fim": "11:11",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "11:21",
+          "fim": "11:23",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "12:10",
+          "fim": "12:12",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "12:34",
+          "fim": "12:36",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "12:40",
+          "fim": "13:10",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.5,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
           "obs": ""
         }
       ]
@@ -1584,12 +1658,12 @@
       "tag": "MECANICA01",
       "componente": "AGUARDANDO MECANICO",
       "equipamento": "MESPACK A ",
-      "falhas": 3,
-      "horas": 0.1333,
+      "falhas": 4,
+      "horas": 0.25,
       "por_turno": {
         "1": {
-          "horas": 0.05,
-          "falhas": 1
+          "horas": 0.1667,
+          "falhas": 2
         },
         "2": {
           "horas": 0.0833,
@@ -1614,6 +1688,17 @@
         },
         {
           "data": "2026-10-22",
+          "inicio": "10:10",
+          "fim": "10:17",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
           "inicio": "15:04",
           "fim": "15:07",
           "turno": 2,
@@ -1632,6 +1717,174 @@
           "falhas": 1,
           "horas": 0.0333,
           "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31391",
+      "componente": "CONJUNTO INFERIOR DESBOBINADOR MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 3,
+      "horas": 2.2167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 2.2167,
+          "falhas": 3
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "01:31",
+          "fim": "02:26",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.9167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção no perfurador no conjunto do perfurador "
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "22:50",
+          "fim": "23:15",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "repasse de máquina parada com manutenção no perfurador no desbobinador e repasse manual e refazeamentondo largato"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "23:32",
+          "fim": "00:25",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.8833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da faca do perfurador e manutenção no desbobinador "
+        }
+      ]
+    },
+    {
+      "tag": "31404",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 3,
+      "horas": 0.1833,
+      "por_turno": {
+        "1": {
+          "horas": 0.1167,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0667,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "05:58",
+          "fim": "06:02",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "TROCA DE VENTOSAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "07:38",
+          "fim": "07:42",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste nas ventosas do robo pegador de embalagem 2"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "10:36",
+          "fim": "10:39",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 3,
+      "horas": 0.3,
+      "por_turno": {
+        "1": {
+          "horas": 0.3,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "08:11",
+          "fim": "08:14",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "11:47",
+          "fim": "11:58",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "13:19",
+          "fim": "13:23",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
           "obs": ""
         }
       ]
@@ -1723,164 +1976,6 @@
           "horas": 0.1833,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "20565",
-      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK E ",
-      "equipamento": "MESPACK E",
-      "falhas": 2,
-      "horas": 0.4833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.4833,
-          "falhas": 2
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-22",
-          "inicio": "01:17",
-          "fim": "01:43",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.4333,
-          "motivo": "AJUSTE DO ESTICADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-22",
-          "inicio": "03:07",
-          "fim": "03:10",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AJUSTE DO ESTICADOR",
-          "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "31306",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK F",
-      "equipamento": "MESPACK F",
-      "falhas": 2,
-      "horas": 1.2333,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 1.2333,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-22",
-          "inicio": "18:51",
-          "fim": "19:45",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.9,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": "ajuste das pinças ,no guia e na mordaça superior"
-        },
-        {
-          "data": "2026-10-22",
-          "inicio": "20:35",
-          "fim": "20:55",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3333,
-          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
-          "obs": "ajuste no guia,ajuste das pinças,troca de mola das pinças e ajuste da mordaça superior "
-        }
-      ]
-    },
-    {
-      "tag": "20482",
-      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK A ",
-      "equipamento": "MESPACK A ",
-      "falhas": 1,
-      "horas": 0.35,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.35,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-22",
-          "inicio": "15:07",
-          "fim": "15:28",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.35,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": "ajuste ver pinças ,troca de mola das pinças e ajuste no arraste "
-        }
-      ]
-    },
-    {
-      "tag": "31189",
-      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK R1",
-      "equipamento": "MESPACK R1",
-      "falhas": 1,
-      "horas": 6.1,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 6.1,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-22",
-          "inicio": "00:24",
-          "fim": "06:30",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 6.1,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "manutenção mecânica eletrica"
         }
       ]
     }
@@ -2016,7 +2111,108 @@
           "falhas": 1,
           "horas": 6.1,
           "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "manutenção mecânica eletrica"
+          "obs": "FALHA NO HOME "
+        }
+      ]
+    },
+    {
+      "tag": "31951",
+      "componente": "CORRENTE ESTEIRA TRANSPORTE CADENA TP-BJ-5",
+      "equipamento": "MESPACK R2",
+      "falhas": 2,
+      "horas": 3.35,
+      "por_turno": {
+        "1": {
+          "horas": 0.2167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 3.1333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "07:58",
+          "fim": "08:11",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "devido quebra da corrente da cademia 5"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "17:57",
+          "fim": "21:05",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 3.1333,
+          "motivo": "QUEBRA DE CORRENTE",
+          "obs": "corrente de transferência de bandeja do robô 2 quebrou "
+        }
+      ]
+    },
+    {
+      "tag": "31391",
+      "componente": "CONJUNTO INFERIOR DESBOBINADOR MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 3,
+      "horas": 2.2167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 2.2167,
+          "falhas": 3
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "01:31",
+          "fim": "02:26",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.9167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção no perfurador no conjunto do perfurador "
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "22:50",
+          "fim": "23:15",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "repasse de máquina parada com manutenção no perfurador no desbobinador e repasse manual e refazeamentondo largato"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "23:32",
+          "fim": "00:25",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.8833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da faca do perfurador e manutenção no desbobinador "
         }
       ]
     },
@@ -2062,6 +2258,106 @@
           "horas": 0.3333,
           "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
           "obs": "ajuste no guia,ajuste das pinças,troca de mola das pinças e ajuste da mordaça superior "
+        }
+      ]
+    },
+    {
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 7,
+      "horas": 0.7833,
+      "por_turno": {
+        "1": {
+          "horas": 0.7833,
+          "falhas": 7
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "10:05",
+          "fim": "10:08",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "10:17",
+          "fim": "10:21",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da ventosa e ajuste no bico de pato 1"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "11:07",
+          "fim": "11:11",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "11:21",
+          "fim": "11:23",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "12:10",
+          "fim": "12:12",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "12:34",
+          "fim": "12:36",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "12:40",
+          "fim": "13:10",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.5,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": ""
         }
       ]
     },
@@ -2469,6 +2765,62 @@
       ]
     },
     {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 3,
+      "horas": 0.3,
+      "por_turno": {
+        "1": {
+          "horas": 0.3,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "08:11",
+          "fim": "08:14",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "11:47",
+          "fim": "11:58",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "13:19",
+          "fim": "13:23",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "ROBOTICA01",
       "componente": "ESTEIRÃO PARADO MESPACK E",
       "equipamento": "MESPACK E",
@@ -2545,175 +2897,6 @@
           "obs": ""
         }
       ]
-    },
-    {
-      "tag": "31593",
-      "componente": "CABEÇOTE FECH. DE CIAXAS ATOMATADOS ",
-      "equipamento": "MESPACK E",
-      "falhas": 2,
-      "horas": 0.25,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.25,
-          "falhas": 2
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-22",
-          "inicio": "02:56",
-          "fim": "03:00",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-22",
-          "inicio": "03:34",
-          "fim": "03:45",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "20518",
-      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK C ",
-      "equipamento": "MESPACK C",
-      "falhas": 1,
-      "horas": 0.25,
-      "por_turno": {
-        "1": {
-          "horas": 0.25,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-22",
-          "inicio": "10:45",
-          "fim": "11:00",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.25,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "Teve manutenção mecânica no tirante da mordaça inferior."
-        }
-      ]
-    },
-    {
-      "tag": "20564",
-      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK E ",
-      "equipamento": "MESPACK E",
-      "falhas": 1,
-      "horas": 0.1667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.1667,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-22",
-          "inicio": "00:55",
-          "fim": "01:05",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste nas ventosas "
-        }
-      ]
-    },
-    {
-      "tag": "MECANICA01",
-      "componente": "AGUARDANDO MECANICO",
-      "equipamento": "MESPACK A ",
-      "falhas": 3,
-      "horas": 0.1333,
-      "por_turno": {
-        "1": {
-          "horas": 0.05,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0833,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-22",
-          "inicio": "09:07",
-          "fim": "09:10",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AGUARDANDO MECÂNICO",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-22",
-          "inicio": "15:04",
-          "fim": "15:07",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AGUARDANDO MECÂNICO",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-22",
-          "inicio": "20:58",
-          "fim": "21:00",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "AGUARDANDO MECÂNICO",
-          "obs": ""
-        }
-      ]
     }
   ],
   "evolucao_mensal": [
@@ -2747,15 +2930,15 @@
     },
     {
       "mes": "outubro",
-      "falhas": 2255
+      "falhas": 2253
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 226.9667,
-      "horas_paradas": 26.1833,
-      "disponibilidade_pct": 88.4638,
-      "indisponibilidade_pct": 11.5362
+      "horas_paradas": 26.1167,
+      "disponibilidade_pct": 88.4932,
+      "indisponibilidade_pct": 11.5068
     },
     "departamentos": {
       "Elétrica": {
@@ -2766,15 +2949,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 226.9667,
-        "horas_paradas": 21.3667,
-        "disponibilidade_pct": 90.586,
-        "indisponibilidade_pct": 9.414
+        "horas_paradas": 21.4333,
+        "disponibilidade_pct": 90.5566,
+        "indisponibilidade_pct": 9.4434
       },
       "Automação": {
         "horas_disponiveis": 87.9667,
-        "horas_paradas": 4.1833,
-        "disponibilidade_pct": 95.2444,
-        "indisponibilidade_pct": 4.7556
+        "horas_paradas": 4.05,
+        "disponibilidade_pct": 95.396,
+        "indisponibilidade_pct": 4.604
       }
     }
   },
@@ -2782,12 +2965,12 @@
     "mes": "outubro",
     "ano": 2026,
     "ate": "2026-10-22",
-    "falhas": 2255,
-    "horas_paradas": 394.0159,
+    "falhas": 2253,
+    "horas_paradas": 393.9492,
     "horas_disponiveis": 4105.3833,
-    "mtbf_min": 98.7504,
-    "disponibilidade_pct": 90.4025,
-    "indisponibilidade_pct": 9.5975,
+    "mtbf_min": 98.8398,
+    "disponibilidade_pct": 90.4041,
+    "indisponibilidade_pct": 9.5959,
     "meta_mtbf": 300,
     "status": "abaixo"
   }
