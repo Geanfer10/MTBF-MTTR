@@ -1,6 +1,6 @@
 {
   "date": "2026-06-23",
-  "updated_at": "2026-10-23T11:17",
+  "updated_at": "2026-10-23T11:32",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -2546,41 +2546,6 @@
           "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN"
         }
       ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO ATOMATADOS F",
-      "horas": 0.1,
-      "horas_disponiveis": 22.0,
-      "falhas": 1,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.1,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-23",
-          "inicio": "00:34",
-          "fim": "00:40",
-          "turno": 3,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "ARMADORA DE CAIXAS EM FALHA",
-          "obs": "",
-          "tag": "ARM02",
-          "componente": "ARMADORA DE CAIXA PACKFORM ATOMATADOS"
-        }
-      ]
     }
   ],
   "turnos": {
@@ -2592,7 +2557,7 @@
     "Elétrica": {
       "1": 0.2667,
       "2": 1.4667,
-      "3": 0.6333
+      "3": 0.5333
     },
     "Mecânica": {
       "1": 5.2167,
@@ -4128,73 +4093,6 @@
       ]
     },
     {
-      "tag": "31319",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK F",
-      "equipamento": "MESPACK F",
-      "falhas": 4,
-      "horas": 0.6167,
-      "por_turno": {
-        "1": {
-          "horas": 0.0833,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.5333,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-23",
-          "inicio": "10:47",
-          "fim": "10:52",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NO BICO DE DOSAGEM",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-23",
-          "inicio": "17:48",
-          "fim": "18:02",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2333,
-          "motivo": "TROCA DE BICO",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-23",
-          "inicio": "18:46",
-          "fim": "18:53",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "LIMPEZA ELETROVÁLVULA",
-          "obs": "do bico 4"
-        },
-        {
-          "data": "2026-06-23",
-          "inicio": "19:00",
-          "fim": "19:11",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "TROCA DE BICO",
-          "obs": "dosador 4."
-        }
-      ]
-    },
-    {
       "tag": "31411",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
       "equipamento": "MESPACK R2",
@@ -4258,6 +4156,73 @@
           "horas": 1.95,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31319",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 4,
+      "horas": 0.6167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.5333,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-23",
+          "inicio": "10:47",
+          "fim": "10:52",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-23",
+          "inicio": "17:48",
+          "fim": "18:02",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "TROCA DE BICO",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-23",
+          "inicio": "18:46",
+          "fim": "18:53",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "LIMPEZA ELETROVÁLVULA",
+          "obs": "do bico 4"
+        },
+        {
+          "data": "2026-06-23",
+          "inicio": "19:00",
+          "fim": "19:11",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "TROCA DE BICO",
+          "obs": "dosador 4."
         }
       ]
     },
@@ -6210,7 +6175,7 @@
     },
     {
       "mes": "junho",
-      "falhas": 3284
+      "falhas": 3283
     },
     {
       "mes": "julho",
@@ -6226,22 +6191,22 @@
     },
     {
       "mes": "outubro",
-      "falhas": 2258
+      "falhas": 2255
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 30.2987,
-      "disponibilidade_pct": 89.4061,
-      "indisponibilidade_pct": 10.5939
+      "horas_paradas": 30.1987,
+      "disponibilidade_pct": 89.441,
+      "indisponibilidade_pct": 10.559
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 2.3667,
-        "disponibilidade_pct": 99.1725,
-        "indisponibilidade_pct": 0.8275
+        "horas_paradas": 2.2667,
+        "disponibilidade_pct": 99.2075,
+        "indisponibilidade_pct": 0.7925
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
@@ -6261,12 +6226,12 @@
     "mes": "junho",
     "ano": 2026,
     "ate": "2026-06-23",
-    "falhas": 2565,
-    "horas_paradas": 459.7776,
+    "falhas": 2564,
+    "horas_paradas": 459.6776,
     "horas_disponiveis": 5720.0,
-    "mtbf_min": 123.0461,
-    "disponibilidade_pct": 91.9619,
-    "indisponibilidade_pct": 8.0381,
+    "mtbf_min": 123.0965,
+    "disponibilidade_pct": 91.9637,
+    "indisponibilidade_pct": 8.0363,
     "meta_mtbf": 300,
     "status": "abaixo"
   }
