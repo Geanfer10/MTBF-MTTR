@@ -1,0 +1,1861 @@
+{
+  "date": "2026-10-22",
+  "updated_at": "2026-10-23T11:18",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK E",
+      "horas": 7.9167,
+      "horas_disponiveis": 22.0,
+      "falhas": 17,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 5.4,
+          "falhas": 9
+        },
+        "3": {
+          "horas": 2.5167,
+          "falhas": 8
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "00:49",
+          "fim": "00:55",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NO GUIA DE EMBALAGEM"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "00:55",
+          "fim": "01:05",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste nas ventosas ",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "01:17",
+          "fim": "01:43",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4333,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE DO ESTICADOR"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "02:21",
+          "fim": "02:24",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "03:07",
+          "fim": "03:10",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE DO ESTICADOR"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "03:34",
+          "fim": "03:45",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "05:28",
+          "fim": "05:31",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "14:48",
+          "fim": "14:52",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "15:02",
+          "fim": "15:10",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza na eletrovalvula do perfurador ",
+          "tag": "",
+          "componente": "MANUTENÇÃO ELÉTRICA"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "15:19",
+          "fim": "15:31",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no pegador de embalagem e ajuste na pinça ",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "15:50",
+          "fim": "15:54",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "16:34",
+          "fim": "16:38",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "16:55",
+          "fim": "17:08",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "TROCA DE PINÇAS",
+          "obs": "",
+          "tag": "",
+          "componente": "TROCA DE PINÇAS"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "17:23",
+          "fim": "17:39",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NO GUIA DE EMBALAGEM"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "17:44",
+          "fim": "18:06",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3667,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NO GUIA DE EMBALAGEM"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "18:18",
+          "fim": "22:19",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 4.0167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste na mordaça de resfriamento superior ajuste nas pinças,guia  ajuste no pegador de embalagem   (obs 19:00 as 20:00 aguardando mecânico devido horário de ja",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "23:03",
+          "fim": "00:32",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.4833,
+          "motivo": "AJUSTE CARRO MÓVEL",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE CARRO MÓVEL"
+        }
+      ]
+    },
+    {
+      "name": "MESPACK R2",
+      "horas": 7.0833,
+      "horas_disponiveis": 22.0,
+      "falhas": 22,
+      "por_turno": {
+        "1": {
+          "horas": 1.5667,
+          "falhas": 15
+        },
+        "2": {
+          "horas": 3.1333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 2.3833,
+          "falhas": 6
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "01:31",
+          "fim": "02:26",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.9167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção no perfurador no conjunto do perfurador ",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "02:32",
+          "fim": "02:36",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
+          "obs": "",
+          "tag": "",
+          "componente": "BASE PRESA NAS CADENAS E TRANSFERIDORES"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "05:36",
+          "fim": "05:38",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
+          "obs": "",
+          "tag": "",
+          "componente": "ALARME DE PRESSÃO DO LUBRIFICADOR"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "05:58",
+          "fim": "06:02",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "TROCA DE VENTOSAS",
+          "obs": "",
+          "tag": "",
+          "componente": "TROCA DE VENTOSAS"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "07:38",
+          "fim": "07:42",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste nas ventosas do robo pegador de embalagem 2",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "07:46",
+          "fim": "07:48",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
+          "obs": "",
+          "tag": "",
+          "componente": "ALARME DE PRESSÃO DO LUBRIFICADOR"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "07:58",
+          "fim": "08:11",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "devido quebra da corrente da cademia 5",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "08:11",
+          "fim": "08:14",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NAS PINÇAS"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "10:05",
+          "fim": "10:08",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": "",
+          "tag": "",
+          "componente": "BICO DOSADOR ENTUPIDO"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "10:10",
+          "fim": "10:17",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": "",
+          "tag": "",
+          "componente": "AGUARDANDO MECÂNICO"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "10:17",
+          "fim": "10:21",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da ventosa e ajuste no bico de pato 1",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "10:36",
+          "fim": "10:39",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE DE VENTOSAS"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "11:07",
+          "fim": "11:11",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": "",
+          "tag": "",
+          "componente": "BICO DOSADOR ENTUPIDO"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "11:21",
+          "fim": "11:23",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": "",
+          "tag": "",
+          "componente": "BICO DOSADOR ENTUPIDO"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "11:47",
+          "fim": "11:58",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NAS PINÇAS"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "12:10",
+          "fim": "12:12",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": "",
+          "tag": "",
+          "componente": "BICO DOSADOR ENTUPIDO"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "12:34",
+          "fim": "12:36",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": "",
+          "tag": "",
+          "componente": "BICO DOSADOR ENTUPIDO"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "12:40",
+          "fim": "13:10",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.5,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NO BICO DE DOSAGEM"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "13:19",
+          "fim": "13:23",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NAS PINÇAS"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "17:57",
+          "fim": "21:05",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 3.1333,
+          "motivo": "QUEBRA DE CORRENTE",
+          "obs": "corrente de transferência de bandeja do robô 2 quebrou ",
+          "tag": "",
+          "componente": "QUEBRA DE CORRENTE"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "22:50",
+          "fim": "23:15",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "repasse de máquina parada com manutenção no perfurador no desbobinador e repasse manual e refazeamentondo largato",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "23:32",
+          "fim": "00:25",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.8833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da faca do perfurador e manutenção no desbobinador ",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        }
+      ]
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 6.1,
+      "horas_disponiveis": 22.0,
+      "falhas": 1,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 6.1,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "00:24",
+          "fim": "06:30",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 6.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção mecânica eletrica",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        }
+      ]
+    },
+    {
+      "name": "MESPACK F",
+      "horas": 3.1167,
+      "horas_disponiveis": 22.0,
+      "falhas": 18,
+      "por_turno": {
+        "1": {
+          "horas": 0.75,
+          "falhas": 7
+        },
+        "2": {
+          "horas": 1.6,
+          "falhas": 6
+        },
+        "3": {
+          "horas": 0.7667,
+          "falhas": 5
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "00:11",
+          "fim": "00:16",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NO GUIA DE EMBALAGEM"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "00:45",
+          "fim": "00:57",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NO GUIA DE EMBALAGEM"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "01:00",
+          "fim": "01:03",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NAS PINÇAS"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "01:57",
+          "fim": "02:19",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção no suporte do bico dosador 6",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "02:56",
+          "fim": "03:00",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "06:39",
+          "fim": "06:42",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "09:07",
+          "fim": "09:10",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": "",
+          "tag": "",
+          "componente": "AGUARDANDO MECÂNICO"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "09:10",
+          "fim": "09:13",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NAS PINÇAS"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "12:13",
+          "fim": "12:18",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "12:55",
+          "fim": "13:09",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "13:55",
+          "fim": "14:01",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "14:21",
+          "fim": "14:32",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NAS PINÇAS"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "14:57",
+          "fim": "15:02",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "15:02",
+          "fim": "15:10",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NAS PINÇAS"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "17:42",
+          "fim": "17:46",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "17:50",
+          "fim": "17:55",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NO ARRASTE",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NO ARRASTE"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "18:51",
+          "fim": "19:45",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.9,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "ajuste das pinças ,no guia e na mordaça superior",
+          "tag": "",
+          "componente": "AJUSTE NAS PINÇAS"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "20:35",
+          "fim": "20:55",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3333,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": "ajuste no guia,ajuste das pinças,troca de mola das pinças e ajuste da mordaça superior ",
+          "tag": "",
+          "componente": "AJUSTE NO GUIA DE EMBALAGEM"
+        }
+      ]
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 0.7333,
+      "horas_disponiveis": 22.0,
+      "falhas": 4,
+      "por_turno": {
+        "1": {
+          "horas": 0.35,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.3833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "10:00",
+          "fim": "10:06",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "20527",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK C "
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "10:45",
+          "fim": "11:00",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Teve manutenção mecânica no tirante da mordaça inferior.",
+          "tag": "20518",
+          "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK C "
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "15:09",
+          "fim": "15:22",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "bomba desarmou",
+          "tag": "20460",
+          "componente": "MOTOR ELÉTRICO BOMBA DE EXTRAÇÃO TANQUE PULMÃO MESPACKS C/D"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "18:31",
+          "fim": "18:41",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "manutenção na bomba mono ",
+          "tag": "20460",
+          "componente": "MOTOR ELÉTRICO BOMBA DE EXTRAÇÃO TANQUE PULMÃO MESPACKS C/D"
+        }
+      ]
+    },
+    {
+      "name": "ENCAIXOTAMENTO AUTOMATICO VEGETAIS",
+      "horas": 0.7,
+      "horas_disponiveis": 22.0,
+      "falhas": 1,
+      "por_turno": {
+        "1": {
+          "horas": 0.7,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "07:55",
+          "fim": "08:37",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.7,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Quebra da corrente da cadena 5",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        }
+      ]
+    },
+    {
+      "name": "MESPACK B",
+      "horas": 0.4667,
+      "horas_disponiveis": 22.0,
+      "falhas": 5,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.2167,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.1667,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "09:03",
+          "fim": "09:08",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "20507",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK B "
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "15:13",
+          "fim": "15:20",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da mola (pinça)",
+          "tag": "20507",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK B "
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "20:58",
+          "fim": "21:00",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": "",
+          "tag": "MECANICA01",
+          "componente": "AGUARDANDO MECANICO"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "21:00",
+          "fim": "21:04",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da mola (pinça)",
+          "tag": "20507",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK B "
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "23:18",
+          "fim": "23:28",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "20507",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK B "
+        }
+      ]
+    },
+    {
+      "name": "MESPACK A ",
+      "horas": 0.4,
+      "horas_disponiveis": 22.0,
+      "falhas": 2,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "15:04",
+          "fim": "15:07",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": "",
+          "tag": "MECANICA01",
+          "componente": "AGUARDANDO MECANICO"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "15:07",
+          "fim": "15:28",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.35,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "ajuste ver pinças ,troca de mola das pinças e ajuste no arraste ",
+          "tag": "20482",
+          "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK A "
+        }
+      ]
+    },
+    {
+      "name": "ENCHEDEIRA RECRAVADEIRA 60L1",
+      "horas": 0.2833,
+      "horas_disponiveis": 22.0,
+      "falhas": 2,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "16:45",
+          "fim": "16:52",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "falha no inkejet ",
+          "tag": "",
+          "componente": "MANUTENÇÃO ELÉTRICA"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "18:42",
+          "fim": "18:52",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "lata virada na recravadeira",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        }
+      ]
+    },
+    {
+      "name": "ENCAIXOTAMENTO AUTOMATICO MESPACK E",
+      "horas": 0.1833,
+      "horas_disponiveis": 22.0,
+      "falhas": 1,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1833,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "03:34",
+          "fim": "03:45",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "quebra da mola (seladora)",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        }
+      ]
+    },
+    {
+      "name": "MESPACK D",
+      "horas": 0.0833,
+      "horas_disponiveis": 22.0,
+      "falhas": 1,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "16:38",
+          "fim": "16:43",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "alinhamento da mordaça superior ",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        }
+      ]
+    },
+    {
+      "name": "ENCAIXOTAMENTO AUTOMATICO MESPACK F",
+      "horas": 0.0667,
+      "horas_disponiveis": 22.0,
+      "falhas": 1,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0667,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "02:56",
+          "fim": "03:00",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "quebra da mola.  (seladora)",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        }
+      ]
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 0.5,
+      "2": 3.4833,
+      "3": 0.45
+    },
+    "Elétrica": {
+      "1": 0.0,
+      "2": 0.6333,
+      "3": 0.0
+    },
+    "Mecânica": {
+      "1": 2.95,
+      "2": 7.3833,
+      "3": 11.7333
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 4,
+      "horas": 0.4333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.1667,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "09:03",
+          "fim": "09:08",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "15:13",
+          "fim": "15:20",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da mola (pinça)"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "21:00",
+          "fim": "21:04",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da mola (pinça)"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "23:18",
+          "fim": "23:28",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20460",
+      "componente": "MOTOR ELÉTRICO BOMBA DE EXTRAÇÃO TANQUE PULMÃO MESPACKS C/D",
+      "equipamento": "MESPACK C",
+      "falhas": 2,
+      "horas": 0.3833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.3833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "15:09",
+          "fim": "15:22",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "bomba desarmou"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "18:31",
+          "fim": "18:41",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "manutenção na bomba mono "
+        }
+      ]
+    },
+    {
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "equipamento": "MESPACK A ",
+      "falhas": 2,
+      "horas": 0.0833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "15:04",
+          "fim": "15:07",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "20:58",
+          "fim": "21:00",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20482",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK A ",
+      "equipamento": "MESPACK A ",
+      "falhas": 1,
+      "horas": 0.35,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.35,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "15:07",
+          "fim": "15:28",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.35,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "ajuste ver pinças ,troca de mola das pinças e ajuste no arraste "
+        }
+      ]
+    },
+    {
+      "tag": "20518",
+      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK C ",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.25,
+      "por_turno": {
+        "1": {
+          "horas": 0.25,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "10:45",
+          "fim": "11:00",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Teve manutenção mecânica no tirante da mordaça inferior."
+        }
+      ]
+    },
+    {
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.1,
+      "por_turno": {
+        "1": {
+          "horas": 0.1,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "10:00",
+          "fim": "10:06",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    }
+  ],
+  "parada_componentes": [
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 4,
+      "horas": 0.4333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.1667,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "09:03",
+          "fim": "09:08",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "15:13",
+          "fim": "15:20",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da mola (pinça)"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "21:00",
+          "fim": "21:04",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da mola (pinça)"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "23:18",
+          "fim": "23:28",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20460",
+      "componente": "MOTOR ELÉTRICO BOMBA DE EXTRAÇÃO TANQUE PULMÃO MESPACKS C/D",
+      "equipamento": "MESPACK C",
+      "falhas": 2,
+      "horas": 0.3833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.3833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "15:09",
+          "fim": "15:22",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "bomba desarmou"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "18:31",
+          "fim": "18:41",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "manutenção na bomba mono "
+        }
+      ]
+    },
+    {
+      "tag": "20482",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK A ",
+      "equipamento": "MESPACK A ",
+      "falhas": 1,
+      "horas": 0.35,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.35,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "15:07",
+          "fim": "15:28",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.35,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "ajuste ver pinças ,troca de mola das pinças e ajuste no arraste "
+        }
+      ]
+    },
+    {
+      "tag": "20518",
+      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK C ",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.25,
+      "por_turno": {
+        "1": {
+          "horas": 0.25,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "10:45",
+          "fim": "11:00",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Teve manutenção mecânica no tirante da mordaça inferior."
+        }
+      ]
+    },
+    {
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.1,
+      "por_turno": {
+        "1": {
+          "horas": 0.1,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "10:00",
+          "fim": "10:06",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "equipamento": "MESPACK A ",
+      "falhas": 2,
+      "horas": 0.0833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "15:04",
+          "fim": "15:07",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "20:58",
+          "fim": "21:00",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        }
+      ]
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3284
+    },
+    {
+      "mes": "julho",
+      "falhas": 3645
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 3676
+    },
+    {
+      "mes": "outubro",
+      "falhas": 2258
+    }
+  ],
+  "disponibilidade": {
+    "geral": {
+      "horas_disponiveis": 286.0,
+      "horas_paradas": 27.1333,
+      "disponibilidade_pct": 90.5128,
+      "indisponibilidade_pct": 9.4872
+    },
+    "departamentos": {
+      "Elétrica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 0.6333,
+        "disponibilidade_pct": 99.7786,
+        "indisponibilidade_pct": 0.2214
+      },
+      "Mecânica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 22.0667,
+        "disponibilidade_pct": 92.2844,
+        "indisponibilidade_pct": 7.7156
+      },
+      "Automação": {
+        "horas_disponiveis": 88.0,
+        "horas_paradas": 4.4333,
+        "disponibilidade_pct": 94.9621,
+        "indisponibilidade_pct": 5.0379
+      }
+    }
+  },
+  "mensal": {
+    "mes": "outubro",
+    "ano": 2026,
+    "ate": "2026-10-22",
+    "falhas": 2258,
+    "horas_paradas": 394.9659,
+    "horas_disponiveis": 3878.4167,
+    "mtbf_min": 92.5629,
+    "disponibilidade_pct": 89.8163,
+    "indisponibilidade_pct": 10.1837,
+    "meta_mtbf": 300,
+    "status": "abaixo"
+  }
+}
