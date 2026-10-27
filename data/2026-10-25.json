@@ -1,0 +1,276 @@
+{
+  "date": "2026-10-25",
+  "updated_at": "2026-10-27T17:33",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK E",
+      "horas": 1.8667,
+      "horas_disponiveis": 22.0,
+      "falhas": 9,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.8667,
+          "falhas": 9
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-25",
+          "inicio": "14:45",
+          "fim": "15:27",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.7,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "substituição do sensor do empurrando ",
+          "tag": "",
+          "componente": "MANUTENÇÃO ELÉTRICA"
+        },
+        {
+          "data": "2026-10-25",
+          "inicio": "15:27",
+          "fim": "15:55",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "vários ajustes pinça e guia ",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-25",
+          "inicio": "17:32",
+          "fim": "17:38",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-25",
+          "inicio": "17:52",
+          "fim": "18:05",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-25",
+          "inicio": "19:09",
+          "fim": "19:13",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-25",
+          "inicio": "19:17",
+          "fim": "19:19",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-25",
+          "inicio": "20:56",
+          "fim": "21:01",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-25",
+          "inicio": "21:03",
+          "fim": "21:09",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-25",
+          "inicio": "21:53",
+          "fim": "21:59",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        }
+      ]
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 0.4167,
+      "horas_disponiveis": 22.0,
+      "falhas": 1,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4167,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-25",
+          "inicio": "17:07",
+          "fim": "17:32",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do rolamento e carro fora do ponto. e ajuste no cab da mordaça inferior",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        }
+      ]
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 0.0,
+      "2": 0.7,
+      "3": 0.0
+    },
+    "Elétrica": {
+      "1": 0.0,
+      "2": 0.7,
+      "3": 0.0
+    },
+    "Mecânica": {
+      "1": 0.0,
+      "2": 0.8833,
+      "3": 0.0
+    }
+  },
+  "top_falhas": [],
+  "parada_componentes": [],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3283
+    },
+    {
+      "mes": "julho",
+      "falhas": 3645
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 3676
+    },
+    {
+      "mes": "outubro",
+      "falhas": 2560
+    }
+  ],
+  "disponibilidade": {
+    "geral": {
+      "horas_disponiveis": 286.0,
+      "horas_paradas": 2.2833,
+      "disponibilidade_pct": 99.2016,
+      "indisponibilidade_pct": 0.7984
+    },
+    "departamentos": {
+      "Elétrica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 0.7,
+        "disponibilidade_pct": 99.7552,
+        "indisponibilidade_pct": 0.2448
+      },
+      "Mecânica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 0.8833,
+        "disponibilidade_pct": 99.6911,
+        "indisponibilidade_pct": 0.3089
+      },
+      "Automação": {
+        "horas_disponiveis": 88.0,
+        "horas_paradas": 0.7,
+        "disponibilidade_pct": 99.2045,
+        "indisponibilidade_pct": 0.7955
+      }
+    }
+  },
+  "mensal": {
+    "mes": "outubro",
+    "ano": 2026,
+    "ate": "2026-10-25",
+    "falhas": 2458,
+    "horas_paradas": 443.1227,
+    "horas_disponiveis": 4105.3833,
+    "mtbf_min": 89.3961,
+    "disponibilidade_pct": 89.2063,
+    "indisponibilidade_pct": 10.7937,
+    "meta_mtbf": 300,
+    "status": "abaixo"
+  }
+}

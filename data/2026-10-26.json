@@ -1,0 +1,2076 @@
+{
+  "date": "2026-10-26",
+  "updated_at": "2026-10-27T17:33",
+  "meta_mtbf": 300,
+  "dias_parados": 0,
+  "equip": [
+    {
+      "name": "MESPACK R2",
+      "horas": 10.15,
+      "horas_disponiveis": 22.0,
+      "falhas": 40,
+      "por_turno": {
+        "1": {
+          "horas": 4.4167,
+          "falhas": 11
+        },
+        "2": {
+          "horas": 3.4333,
+          "falhas": 20
+        },
+        "3": {
+          "horas": 2.3,
+          "falhas": 9
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "00:25",
+          "fim": "00:28",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NAS PINÇAS"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "01:04",
+          "fim": "01:14",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "01:50",
+          "fim": "01:56",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": "",
+          "tag": "",
+          "componente": "BANDEJA ACAVALADA SOBRE A OUTRA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "03:11",
+          "fim": "03:40",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "solda na base do motor do exaustor ",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "03:40",
+          "fim": "04:11",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.5167,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ligando motor do exaustor de picotes ",
+          "tag": "",
+          "componente": "MANUTENÇÃO ELÉTRICA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "04:23",
+          "fim": "04:27",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": "bandeja acavalada no elevador de transferência ",
+          "tag": "",
+          "componente": "BANDEJA ACAVALADA SOBRE A OUTRA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "05:20",
+          "fim": "05:30",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "05:30",
+          "fim": "06:02",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.5333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca de mancal tipo u da faca e alinhamento da solda vertical manual ",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "09:30",
+          "fim": "10:38",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 1.1333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "motor do lavador de espiga queimado",
+          "tag": "",
+          "componente": "MANUTENÇÃO ELÉTRICA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "10:38",
+          "fim": "10:51",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "11:02",
+          "fim": "11:05",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": "",
+          "tag": "",
+          "componente": "AGUARDANDO MECÂNICO"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "11:05",
+          "fim": "11:13",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no perfurador ",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "11:27",
+          "fim": "12:26",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.9833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "toca do cilindro do perfurador ",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "12:27",
+          "fim": "12:32",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+          "obs": "",
+          "tag": "",
+          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "12:32",
+          "fim": "12:37",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": "",
+          "tag": "",
+          "componente": "BANDEJA ACAVALADA SOBRE A OUTRA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "12:57",
+          "fim": "13:55",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.9667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no perfurador ",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "13:55",
+          "fim": "14:00",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NO BICO DE DOSAGEM"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "14:00",
+          "fim": "14:21",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.35,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "14:25",
+          "fim": "14:45",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.3333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "14:45",
+          "fim": "14:57",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "AJUSTE NA PRESÃO DE DOSAGEM ",
+          "obs": "ajuste no bico 1",
+          "tag": "",
+          "componente": "AJUSTE NA PRESÃO DE DOSAGEM "
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "15:12",
+          "fim": "15:49",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.6167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "quebra da corrente do transfer",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "16:18",
+          "fim": "16:33",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "17:39",
+          "fim": "17:46",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "AJUSTE NA PRESÃO DE DOSAGEM ",
+          "obs": "bico 1",
+          "tag": "",
+          "componente": "AJUSTE NA PRESÃO DE DOSAGEM "
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "17:58",
+          "fim": "18:10",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "18:10",
+          "fim": "18:17",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": "",
+          "tag": "",
+          "componente": "ROBO EMPILHADOR EM FALHA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "18:20",
+          "fim": "18:26",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "18:48",
+          "fim": "18:51",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "18:59",
+          "fim": "19:32",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.55,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "19:34",
+          "fim": "19:36",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": "Bico 1",
+          "tag": "",
+          "componente": "BICO DOSADOR ENTUPIDO"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "19:38",
+          "fim": "19:41",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": "",
+          "tag": "",
+          "componente": "AGUARDANDO MECÂNICO"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "19:41",
+          "fim": "19:44",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE DE FACA",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE DE FACA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "19:47",
+          "fim": "19:49",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": "bico 1 ",
+          "tag": "",
+          "componente": "BICO DOSADOR ENTUPIDO"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "19:49",
+          "fim": "20:05",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "20:10",
+          "fim": "20:13",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": "bico 1 ",
+          "tag": "",
+          "componente": "BICO DOSADOR ENTUPIDO"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "20:21",
+          "fim": "20:26",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "20:55",
+          "fim": "21:05",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "21:40",
+          "fim": "21:55",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "21:56",
+          "fim": "22:06",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "22:41",
+          "fim": "22:46",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+          "obs": "",
+          "tag": "",
+          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "22:57",
+          "fim": "23:10",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        }
+      ]
+    },
+    {
+      "name": "MESPACK R1",
+      "horas": 3.8667,
+      "horas_disponiveis": 22.0,
+      "falhas": 29,
+      "por_turno": {
+        "1": {
+          "horas": 1.55,
+          "falhas": 14
+        },
+        "2": {
+          "horas": 2.05,
+          "falhas": 12
+        },
+        "3": {
+          "horas": 0.2667,
+          "falhas": 3
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "04:18",
+          "fim": "04:21",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": "",
+          "tag": "",
+          "componente": "BANDEJA ACAVALADA SOBRE A OUTRA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "05:17",
+          "fim": "05:22",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "09:30",
+          "fim": "09:38",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "motor da lavadora espiga queimado ",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "10:45",
+          "fim": "10:47",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": "",
+          "tag": "",
+          "componente": "BICO DOSADOR ENTUPIDO"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "10:53",
+          "fim": "10:56",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NAS PINÇAS"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "11:01",
+          "fim": "11:17",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": " ",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "11:23",
+          "fim": "11:38",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": "",
+          "tag": "",
+          "componente": "BICO DOSADOR ENTUPIDO"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "11:50",
+          "fim": "11:55",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico dosador ",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "12:03",
+          "fim": "12:06",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
+          "obs": "",
+          "tag": "",
+          "componente": "BASE PRESA NAS CADENAS E TRANSFERIDORES"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "12:17",
+          "fim": "12:23",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": "",
+          "tag": "",
+          "componente": "BANDEJA ACAVALADA SOBRE A OUTRA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "12:24",
+          "fim": "12:27",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+          "obs": "",
+          "tag": "",
+          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "12:32",
+          "fim": "12:35",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": "",
+          "tag": "",
+          "componente": "BANDEJA ACAVALADA SOBRE A OUTRA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "13:58",
+          "fim": "14:14",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "14:14",
+          "fim": "14:16",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": "",
+          "tag": "",
+          "componente": "BICO DOSADOR ENTUPIDO"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "14:22",
+          "fim": "14:25",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "14:28",
+          "fim": "14:36",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "15:08",
+          "fim": "15:42",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.5667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "quebra da corrente do transferi ",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "16:14",
+          "fim": "16:27",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "17:10",
+          "fim": "17:14",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NAS PINÇAS"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "17:45",
+          "fim": "17:50",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NAS PINÇAS"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "18:01",
+          "fim": "18:04",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "18:06",
+          "fim": "18:12",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": "",
+          "tag": "",
+          "componente": "ROBO EMPILHADOR EM FALHA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "18:54",
+          "fim": "19:07",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção na autoclave 3",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "19:17",
+          "fim": "19:24",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "cadena do transferi cheia",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "19:47",
+          "fim": "19:58",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "21:13",
+          "fim": "21:20",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "21:36",
+          "fim": "21:50",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "",
+          "componente": "FALTA DE GRELHA (BANDEJA)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "21:56",
+          "fim": "22:02",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": "",
+          "tag": "",
+          "componente": "BICO DOSADOR ENTUPIDO"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "23:34",
+          "fim": "23:42",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE DE FACA",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE DE FACA"
+        }
+      ]
+    },
+    {
+      "name": "60l1",
+      "horas": 1.1833,
+      "horas_disponiveis": 22.0,
+      "falhas": 3,
+      "por_turno": {
+        "1": {
+          "horas": 0.4167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.7667,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "00:09",
+          "fim": "00:43",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.5667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento e ajuste.",
+          "tag": "30433",
+          "componente": "CABEÇOTE SUPERIOR 60L1"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "09:05",
+          "fim": "09:30",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Solda no encestador",
+          "tag": "30511",
+          "componente": "REDUTOR ESTEIRA PULMÃO ENCESTADOR LINHA 60L1"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "23:15",
+          "fim": "23:27",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Polimento 2,3 e 4.",
+          "tag": "30433",
+          "componente": "CABEÇOTE SUPERIOR 60L1"
+        }
+      ]
+    },
+    {
+      "name": "MESPACK F",
+      "horas": 1.15,
+      "horas_disponiveis": 22.0,
+      "falhas": 10,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2167,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.9333,
+          "falhas": 8
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "01:30",
+          "fim": "01:37",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": "",
+          "tag": "",
+          "componente": "TROCA DE MOLA DAS PINÇAS"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "02:58",
+          "fim": "03:01",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "03:56",
+          "fim": "04:09",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": "",
+          "tag": "",
+          "componente": "AGUARDANDO MECÂNICO"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "04:09",
+          "fim": "04:17",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE NO ARRASTE",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NO ARRASTE"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "04:19",
+          "fim": "04:23",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NAS PINÇAS"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "04:23",
+          "fim": "04:29",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NO ARRASTE",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NO ARRASTE"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "05:39",
+          "fim": "05:51",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "AJUSTE NO ARRASTE",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NO ARRASTE"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "19:47",
+          "fim": "19:55",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "20:33",
+          "fim": "20:38",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "23:03",
+          "fim": "23:06",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NAS PINÇAS"
+        }
+      ]
+    },
+    {
+      "name": "MESPACK E",
+      "horas": 0.7833,
+      "horas_disponiveis": 22.0,
+      "falhas": 10,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.7833,
+          "falhas": 10
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "00:02",
+          "fim": "00:06",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "00:08",
+          "fim": "00:11",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NO GUIA DE EMBALAGEM"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "00:35",
+          "fim": "00:39",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "01:27",
+          "fim": "01:30",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "01:57",
+          "fim": "02:04",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Ajuste no esticador e nas pinças ",
+          "tag": "",
+          "componente": "MANUTENÇÃO MECÂNICA"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "02:31",
+          "fim": "02:37",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "04:33",
+          "fim": "04:39",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NO PERFURADOR",
+          "obs": "",
+          "tag": "",
+          "componente": "AJUSTE NO PERFURADOR"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "04:58",
+          "fim": "05:03",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "TROCA DE PINÇAS",
+          "obs": "",
+          "tag": "",
+          "componente": "TROCA DE PINÇAS"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "05:49",
+          "fim": "05:54",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "23:20",
+          "fim": "23:24",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": "",
+          "tag": "",
+          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+        }
+      ]
+    },
+    {
+      "name": "60L1",
+      "horas": 0.4667,
+      "horas_disponiveis": 22.0,
+      "falhas": 4,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4667,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "16:10",
+          "fim": "16:20",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no cabeçote 4",
+          "tag": "30433",
+          "componente": "CABEÇOTE SUPERIOR 60L1"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "16:46",
+          "fim": "16:51",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento da placa cabeçote 3",
+          "tag": "30433",
+          "componente": "CABEÇOTE SUPERIOR 60L1"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "17:03",
+          "fim": "17:14",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento da placa cabeçote 3",
+          "tag": "30433",
+          "componente": "CABEÇOTE SUPERIOR 60L1"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "17:42",
+          "fim": "17:44",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento da placa cabeçote 5",
+          "tag": "30433",
+          "componente": "CABEÇOTE SUPERIOR 60L1"
+        }
+      ]
+    },
+    {
+      "name": "MESPACK C",
+      "horas": 0.3833,
+      "horas_disponiveis": 22.0,
+      "falhas": 1,
+      "por_turno": {
+        "1": {
+          "horas": 0.3833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "12:04",
+          "fim": "12:27",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.3833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "Ajuste no sensor do Inkjet.",
+          "tag": "",
+          "componente": "MANUTENÇÃO ELÉTRICA"
+        }
+      ]
+    },
+    {
+      "name": "60l2",
+      "horas": 0.3667,
+      "horas_disponiveis": 22.0,
+      "falhas": 4,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.3667,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "15:34",
+          "fim": "15:39",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "tampa preza na recravadeira ",
+          "tag": "30463",
+          "componente": "CABEÇOTE SUPERIOR 60L2"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "15:41",
+          "fim": "15:44",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento na placa cabeçote 5 ",
+          "tag": "30463",
+          "componente": "CABEÇOTE SUPERIOR 60L2"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "18:48",
+          "fim": "18:55",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento na placa cabeçote 3 e 5",
+          "tag": "30463",
+          "componente": "CABEÇOTE SUPERIOR 60L2"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "21:12",
+          "fim": "21:19",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento na placa cabeçote 1 e polimento no rolete cabeçote 6 primeira e segunda operação ",
+          "tag": "30463",
+          "componente": "CABEÇOTE SUPERIOR 60L2"
+        }
+      ]
+    },
+    {
+      "name": "ENCHEDEIRA TOP DOWN",
+      "horas": 0.0833,
+      "horas_disponiveis": 22.0,
+      "falhas": 1,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0833,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "23:23",
+          "fim": "23:28",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no indjet",
+          "tag": "INK09",
+          "componente": "INKJET ROTULADEIRA TOPDONW"
+        }
+      ]
+    }
+  ],
+  "turnos": {
+    "Automação": {
+      "1": 1.7667,
+      "2": 3.5167,
+      "3": 1.3333
+    },
+    "Elétrica": {
+      "1": 1.5167,
+      "2": 0.0,
+      "3": 0.6
+    },
+    "Mecânica": {
+      "1": 3.4833,
+      "2": 3.0167,
+      "3": 3.2
+    }
+  },
+  "top_falhas": [
+    {
+      "tag": "30433",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
+      "equipamento": "60L1",
+      "falhas": 6,
+      "horas": 1.2333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4667,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.7667,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "00:09",
+          "fim": "00:43",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.5667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento e ajuste."
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "16:10",
+          "fim": "16:20",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no cabeçote 4"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "16:46",
+          "fim": "16:51",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento da placa cabeçote 3"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "17:03",
+          "fim": "17:14",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento da placa cabeçote 3"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "17:42",
+          "fim": "17:44",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento da placa cabeçote 5"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "23:15",
+          "fim": "23:27",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Polimento 2,3 e 4."
+        }
+      ]
+    },
+    {
+      "tag": "30463",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
+      "equipamento": "60l2",
+      "falhas": 4,
+      "horas": 0.3667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.3667,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "15:34",
+          "fim": "15:39",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "tampa preza na recravadeira "
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "15:41",
+          "fim": "15:44",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento na placa cabeçote 5 "
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "18:48",
+          "fim": "18:55",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento na placa cabeçote 3 e 5"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "21:12",
+          "fim": "21:19",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento na placa cabeçote 1 e polimento no rolete cabeçote 6 primeira e segunda operação "
+        }
+      ]
+    },
+    {
+      "tag": "30511",
+      "componente": "REDUTOR ESTEIRA PULMÃO ENCESTADOR LINHA 60L1",
+      "equipamento": "60l1",
+      "falhas": 1,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.4167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "09:05",
+          "fim": "09:30",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Solda no encestador"
+        }
+      ]
+    },
+    {
+      "tag": "INK09",
+      "componente": "INKJET ROTULADEIRA TOPDONW",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 1,
+      "horas": 0.0833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0833,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "23:23",
+          "fim": "23:28",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no indjet"
+        }
+      ]
+    }
+  ],
+  "parada_componentes": [
+    {
+      "tag": "30433",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
+      "equipamento": "60L1",
+      "falhas": 6,
+      "horas": 1.2333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4667,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.7667,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "00:09",
+          "fim": "00:43",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.5667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento e ajuste."
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "16:10",
+          "fim": "16:20",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no cabeçote 4"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "16:46",
+          "fim": "16:51",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento da placa cabeçote 3"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "17:03",
+          "fim": "17:14",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento da placa cabeçote 3"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "17:42",
+          "fim": "17:44",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento da placa cabeçote 5"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "23:15",
+          "fim": "23:27",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Polimento 2,3 e 4."
+        }
+      ]
+    },
+    {
+      "tag": "30511",
+      "componente": "REDUTOR ESTEIRA PULMÃO ENCESTADOR LINHA 60L1",
+      "equipamento": "60l1",
+      "falhas": 1,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.4167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "09:05",
+          "fim": "09:30",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Solda no encestador"
+        }
+      ]
+    },
+    {
+      "tag": "30463",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
+      "equipamento": "60l2",
+      "falhas": 4,
+      "horas": 0.3667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.3667,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "15:34",
+          "fim": "15:39",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "tampa preza na recravadeira "
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "15:41",
+          "fim": "15:44",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento na placa cabeçote 5 "
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "18:48",
+          "fim": "18:55",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento na placa cabeçote 3 e 5"
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "21:12",
+          "fim": "21:19",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento na placa cabeçote 1 e polimento no rolete cabeçote 6 primeira e segunda operação "
+        }
+      ]
+    },
+    {
+      "tag": "INK09",
+      "componente": "INKJET ROTULADEIRA TOPDONW",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 1,
+      "horas": 0.0833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0833,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "23:23",
+          "fim": "23:28",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no indjet"
+        }
+      ]
+    }
+  ],
+  "evolucao_mensal": [
+    {
+      "mes": "março",
+      "falhas": 180
+    },
+    {
+      "mes": "abril",
+      "falhas": 2228
+    },
+    {
+      "mes": "maio",
+      "falhas": 3154
+    },
+    {
+      "mes": "junho",
+      "falhas": 3283
+    },
+    {
+      "mes": "julho",
+      "falhas": 3645
+    },
+    {
+      "mes": "agosto",
+      "falhas": 3818
+    },
+    {
+      "mes": "setembro",
+      "falhas": 3676
+    },
+    {
+      "mes": "outubro",
+      "falhas": 2560
+    }
+  ],
+  "disponibilidade": {
+    "geral": {
+      "horas_disponiveis": 286.0,
+      "horas_paradas": 18.4333,
+      "disponibilidade_pct": 93.5548,
+      "indisponibilidade_pct": 6.4452
+    },
+    "departamentos": {
+      "Elétrica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 2.1167,
+        "disponibilidade_pct": 99.2599,
+        "indisponibilidade_pct": 0.7401
+      },
+      "Mecânica": {
+        "horas_disponiveis": 286.0,
+        "horas_paradas": 9.7,
+        "disponibilidade_pct": 96.6084,
+        "indisponibilidade_pct": 3.3916
+      },
+      "Automação": {
+        "horas_disponiveis": 88.0,
+        "horas_paradas": 6.6167,
+        "disponibilidade_pct": 92.4811,
+        "indisponibilidade_pct": 7.5189
+      }
+    }
+  },
+  "mensal": {
+    "mes": "outubro",
+    "ano": 2026,
+    "ate": "2026-10-26",
+    "falhas": 2560,
+    "horas_paradas": 461.556,
+    "horas_disponiveis": 4105.3833,
+    "mtbf_min": 85.4022,
+    "disponibilidade_pct": 88.7573,
+    "indisponibilidade_pct": 11.2427,
+    "meta_mtbf": 300,
+    "status": "abaixo"
+  }
+}
