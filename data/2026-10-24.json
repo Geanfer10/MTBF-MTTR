@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "updated_at": "2026-10-27T18:18",
+  "updated_at": "2026-10-27T18:33",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -663,8 +663,8 @@
           "horas": 0.0333,
           "motivo": "AJUSTE NAS PINÇAS",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NAS PINÇAS"
+          "tag": "31314",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK F"
         },
         {
           "data": "2026-10-24",
@@ -676,8 +676,8 @@
           "horas": 0.0333,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
         },
         {
           "data": "2026-10-24",
@@ -689,8 +689,8 @@
           "horas": 0.1167,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
         },
         {
           "data": "2026-10-24",
@@ -702,8 +702,8 @@
           "horas": 0.0333,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
         },
         {
           "data": "2026-10-24",
@@ -715,8 +715,8 @@
           "horas": 0.0667,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
         },
         {
           "data": "2026-10-24",
@@ -728,8 +728,8 @@
           "horas": 0.25,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
         },
         {
           "data": "2026-10-24",
@@ -741,8 +741,8 @@
           "horas": 0.05,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
         },
         {
           "data": "2026-10-24",
@@ -754,8 +754,8 @@
           "horas": 0.05,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
         },
         {
           "data": "2026-10-24",
@@ -767,8 +767,8 @@
           "horas": 0.1833,
           "motivo": "AJUSTE NAS PINÇAS",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NAS PINÇAS"
+          "tag": "31309",
+          "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK F"
         },
         {
           "data": "2026-10-24",
@@ -780,8 +780,8 @@
           "horas": 0.15,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
         },
         {
           "data": "2026-10-24",
@@ -793,8 +793,8 @@
           "horas": 0.0667,
           "motivo": "AJUSTE NAS PINÇAS",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NAS PINÇAS"
+          "tag": "31314",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK F"
         },
         {
           "data": "2026-10-24",
@@ -806,8 +806,8 @@
           "horas": 0.7333,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
         }
       ]
     },
@@ -1127,6 +1127,128 @@
   },
   "top_falhas": [
     {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 9,
+      "horas": 1.4833,
+      "por_turno": {
+        "1": {
+          "horas": 0.6,
+          "falhas": 7
+        },
+        "2": {
+          "horas": 0.8833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-24",
+          "inicio": "07:05",
+          "fim": "07:07",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "09:44",
+          "fim": "09:51",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "11:46",
+          "fim": "11:48",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "12:21",
+          "fim": "12:25",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "12:46",
+          "fim": "13:01",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "13:30",
+          "fim": "13:33",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "13:40",
+          "fim": "13:43",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "17:22",
+          "fim": "17:31",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "21:51",
+          "fim": "22:35",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.7333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "30433",
       "componente": "CABEÇOTE SUPERIOR 60L1",
       "equipamento": "60L1",
@@ -1327,6 +1449,51 @@
       ]
     },
     {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 2,
+      "horas": 0.1,
+      "por_turno": {
+        "1": {
+          "horas": 0.0333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-24",
+          "inicio": "06:38",
+          "fim": "06:40",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "19:56",
+          "fim": "20:00",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "20547",
       "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
       "equipamento": "MESPACK D",
@@ -1357,6 +1524,40 @@
           "horas": 0.9167,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste das ventosas pinças e régua fixa"
+        }
+      ]
+    },
+    {
+      "tag": "31309",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 1,
+      "horas": 0.1833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-24",
+          "inicio": "15:28",
+          "fim": "15:39",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
         }
       ]
     },
@@ -1508,6 +1709,128 @@
       ]
     },
     {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 9,
+      "horas": 1.4833,
+      "por_turno": {
+        "1": {
+          "horas": 0.6,
+          "falhas": 7
+        },
+        "2": {
+          "horas": 0.8833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-24",
+          "inicio": "07:05",
+          "fim": "07:07",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "09:44",
+          "fim": "09:51",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "11:46",
+          "fim": "11:48",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "12:21",
+          "fim": "12:25",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "12:46",
+          "fim": "13:01",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "13:30",
+          "fim": "13:33",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "13:40",
+          "fim": "13:43",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "17:22",
+          "fim": "17:31",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "21:51",
+          "fim": "22:35",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.7333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "30463",
       "componente": "CABEÇOTE SUPERIOR 60L2",
       "equipamento": "60l2",
@@ -1627,6 +1950,85 @@
           "horas": 0.9167,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste das ventosas pinças e régua fixa"
+        }
+      ]
+    },
+    {
+      "tag": "31309",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 1,
+      "horas": 0.1833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-24",
+          "inicio": "15:28",
+          "fim": "15:39",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 2,
+      "horas": 0.1,
+      "por_turno": {
+        "1": {
+          "horas": 0.0333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-24",
+          "inicio": "06:38",
+          "fim": "06:40",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "19:56",
+          "fim": "20:00",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
         }
       ]
     },

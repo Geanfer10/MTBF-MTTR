@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updated_at": "2026-10-27T18:18",
+  "updated_at": "2026-10-27T18:33",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1036,8 +1036,8 @@
           "horas": 0.1167,
           "motivo": "TROCA DE MOLA DAS PINÇAS",
           "obs": "",
-          "tag": "",
-          "componente": "TROCA DE MOLA DAS PINÇAS"
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
         },
         {
           "data": "2026-10-26",
@@ -1049,8 +1049,8 @@
           "horas": 0.05,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
         },
         {
           "data": "2026-10-26",
@@ -1062,8 +1062,8 @@
           "horas": 0.2167,
           "motivo": "AGUARDANDO MECÂNICO",
           "obs": "",
-          "tag": "",
-          "componente": "AGUARDANDO MECÂNICO"
+          "tag": "MECANICA01",
+          "componente": "AGUARDANDO MECANICO"
         },
         {
           "data": "2026-10-26",
@@ -1075,8 +1075,8 @@
           "horas": 0.1333,
           "motivo": "AJUSTE NO ARRASTE",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NO ARRASTE"
+          "tag": "31309",
+          "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK F"
         },
         {
           "data": "2026-10-26",
@@ -1088,8 +1088,8 @@
           "horas": 0.0667,
           "motivo": "AJUSTE NAS PINÇAS",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NAS PINÇAS"
+          "tag": "31314",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK F"
         },
         {
           "data": "2026-10-26",
@@ -1101,8 +1101,8 @@
           "horas": 0.1,
           "motivo": "AJUSTE NO ARRASTE",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NO ARRASTE"
+          "tag": "31309",
+          "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK F"
         },
         {
           "data": "2026-10-26",
@@ -1114,8 +1114,8 @@
           "horas": 0.2,
           "motivo": "AJUSTE NO ARRASTE",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NO ARRASTE"
+          "tag": "31309",
+          "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK F"
         },
         {
           "data": "2026-10-26",
@@ -1127,8 +1127,8 @@
           "horas": 0.1333,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
         },
         {
           "data": "2026-10-26",
@@ -1140,8 +1140,8 @@
           "horas": 0.0833,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": "",
-          "tag": "",
-          "componente": "ESTEIRÃO PARADO (AUTOMAÇÃO)"
+          "tag": "ROBOTICA02",
+          "componente": "ESTEIRÃO PARADO MESPACK F"
         },
         {
           "data": "2026-10-26",
@@ -1153,8 +1153,8 @@
           "horas": 0.05,
           "motivo": "AJUSTE NAS PINÇAS",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NAS PINÇAS"
+          "tag": "31314",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK F"
         }
       ]
     },
@@ -1726,6 +1726,73 @@
       ]
     },
     {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 4,
+      "horas": 0.3833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2167,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.1667,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "01:30",
+          "fim": "01:37",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "02:58",
+          "fim": "03:01",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "19:47",
+          "fim": "19:55",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "20:33",
+          "fim": "20:38",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "30463",
       "componente": "CABEÇOTE SUPERIOR 60L2",
       "equipamento": "60l2",
@@ -1793,6 +1860,62 @@
       ]
     },
     {
+      "tag": "31309",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 3,
+      "horas": 0.4333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.4333,
+          "falhas": 3
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "04:09",
+          "fim": "04:17",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE NO ARRASTE",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "04:23",
+          "fim": "04:29",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NO ARRASTE",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "05:39",
+          "fim": "05:51",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "AJUSTE NO ARRASTE",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "20567",
       "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
       "equipamento": "MESPACK E",
@@ -1849,6 +1972,51 @@
       ]
     },
     {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 2,
+      "horas": 0.1167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1167,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "04:19",
+          "fim": "04:23",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "23:03",
+          "fim": "23:06",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "20556",
       "componente": "CONJUNTO DESBOBINADOR MESPACK E ",
       "equipamento": "MESPACK E",
@@ -1879,6 +2047,40 @@
           "horas": 0.1,
           "motivo": "AJUSTE NO PERFURADOR",
           "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "INK03",
+      "componente": "INKJET MESPACK C",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.3833,
+      "por_turno": {
+        "1": {
+          "horas": 0.3833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "12:04",
+          "fim": "12:27",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.3833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "Ajuste no sensor do Inkjet."
         }
       ]
     },
@@ -1917,36 +2119,36 @@
       ]
     },
     {
-      "tag": "INK03",
-      "componente": "INKJET MESPACK C",
-      "equipamento": "MESPACK C",
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "equipamento": "MESPACK F",
       "falhas": 1,
-      "horas": 0.3833,
+      "horas": 0.2167,
       "por_turno": {
         "1": {
-          "horas": 0.3833,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "2": {
           "horas": 0.0,
           "falhas": 0
         },
         "3": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.2167,
+          "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-10-26",
-          "inicio": "12:04",
-          "fim": "12:27",
-          "turno": 1,
-          "departamento": "Elétrica",
+          "inicio": "03:56",
+          "fim": "04:09",
+          "turno": 3,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.3833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "Ajuste no sensor do Inkjet."
+          "horas": 0.2167,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
         }
       ]
     },
@@ -2165,6 +2367,62 @@
       ]
     },
     {
+      "tag": "31309",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 3,
+      "horas": 0.4333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.4333,
+          "falhas": 3
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "04:09",
+          "fim": "04:17",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE NO ARRASTE",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "04:23",
+          "fim": "04:29",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NO ARRASTE",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "05:39",
+          "fim": "05:51",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "AJUSTE NO ARRASTE",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "30511",
       "componente": "REDUTOR ESTEIRA PULMÃO ENCESTADOR LINHA 60L1",
       "equipamento": "60l1",
@@ -2229,6 +2487,73 @@
           "horas": 0.3833,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "Ajuste no sensor do Inkjet."
+        }
+      ]
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 4,
+      "horas": 0.3833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2167,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.1667,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "01:30",
+          "fim": "01:37",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "02:58",
+          "fim": "03:01",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "19:47",
+          "fim": "19:55",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "20:33",
+          "fim": "20:38",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
         }
       ]
     },
@@ -2351,6 +2676,85 @@
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "TROCA DE PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "equipamento": "MESPACK F",
+      "falhas": 1,
+      "horas": 0.2167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.2167,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "03:56",
+          "fim": "04:09",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 2,
+      "horas": 0.1167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1167,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "04:19",
+          "fim": "04:23",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-26",
+          "inicio": "23:03",
+          "fim": "23:06",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
           "obs": ""
         }
       ]
