@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "updated_at": "2026-10-27T18:03",
+  "updated_at": "2026-10-27T18:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -34,8 +34,8 @@
           "horas": 0.1,
           "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
           "obs": "",
-          "tag": "20567",
-          "componente": "CONJUNTO CARRO MOVEL MESPACK E "
+          "tag": "",
+          "componente": "AJUSTE NO GUIA DE EMBALAGEM"
         },
         {
           "data": "2026-10-22",
@@ -1132,106 +1132,6 @@
   },
   "top_falhas": [
     {
-      "tag": "20567",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
-      "equipamento": "MESPACK E",
-      "falhas": 7,
-      "horas": 6.65,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 5.0667,
-          "falhas": 5
-        },
-        "3": {
-          "horas": 1.5833,
-          "falhas": 2
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-22",
-          "inicio": "00:49",
-          "fim": "00:55",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-22",
-          "inicio": "15:19",
-          "fim": "15:31",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste no pegador de embalagem e ajuste na pinça "
-        },
-        {
-          "data": "2026-10-22",
-          "inicio": "16:55",
-          "fim": "17:08",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2167,
-          "motivo": "TROCA DE PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-22",
-          "inicio": "17:23",
-          "fim": "17:39",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2667,
-          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-22",
-          "inicio": "17:44",
-          "fim": "18:06",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3667,
-          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-22",
-          "inicio": "18:18",
-          "fim": "22:19",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 4.0167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste na mordaça de resfriamento superior ajuste nas pinças,guia  ajuste no pegador de embalagem   (obs 19:00 as 20:00 aguardando mecânico devido horário de ja"
-        },
-        {
-          "data": "2026-10-22",
-          "inicio": "23:03",
-          "fim": "00:32",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 1.4833,
-          "motivo": "AJUSTE CARRO MÓVEL",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "31411",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
       "equipamento": "MESPACK R2",
@@ -1416,6 +1316,95 @@
           "falhas": 1,
           "horas": 0.1333,
           "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 6,
+      "horas": 6.55,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 5.0667,
+          "falhas": 5
+        },
+        "3": {
+          "horas": 1.4833,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-22",
+          "inicio": "15:19",
+          "fim": "15:31",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no pegador de embalagem e ajuste na pinça "
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "16:55",
+          "fim": "17:08",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "TROCA DE PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "17:23",
+          "fim": "17:39",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "17:44",
+          "fim": "18:06",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3667,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "18:18",
+          "fim": "22:19",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 4.0167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste na mordaça de resfriamento superior ajuste nas pinças,guia  ajuste no pegador de embalagem   (obs 19:00 as 20:00 aguardando mecânico devido horário de ja"
+        },
+        {
+          "data": "2026-10-22",
+          "inicio": "23:03",
+          "fim": "00:32",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.4833,
+          "motivo": "AJUSTE CARRO MÓVEL",
           "obs": ""
         }
       ]
@@ -1985,8 +1974,8 @@
       "tag": "20567",
       "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
       "equipamento": "MESPACK E",
-      "falhas": 7,
-      "horas": 6.65,
+      "falhas": 6,
+      "horas": 6.55,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -1997,22 +1986,11 @@
           "falhas": 5
         },
         "3": {
-          "horas": 1.5833,
-          "falhas": 2
+          "horas": 1.4833,
+          "falhas": 1
         }
       },
       "ocorrencias": [
-        {
-          "data": "2026-10-22",
-          "inicio": "00:49",
-          "fim": "00:55",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
-          "obs": ""
-        },
         {
           "data": "2026-10-22",
           "inicio": "15:19",
