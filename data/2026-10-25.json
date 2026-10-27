@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "updated_at": "2026-10-27T17:33",
+  "updated_at": "2026-10-27T18:03",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -173,8 +173,8 @@
           "horas": 0.4167,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "troca do rolamento e carro fora do ponto. e ajuste no cab da mordaça inferior",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "20527",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK C "
         }
       ]
     }
@@ -196,8 +196,78 @@
       "3": 0.0
     }
   },
-  "top_falhas": [],
-  "parada_componentes": [],
+  "top_falhas": [
+    {
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4167,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-25",
+          "inicio": "17:07",
+          "fim": "17:32",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do rolamento e carro fora do ponto. e ajuste no cab da mordaça inferior"
+        }
+      ]
+    }
+  ],
+  "parada_componentes": [
+    {
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4167,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-25",
+          "inicio": "17:07",
+          "fim": "17:32",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do rolamento e carro fora do ponto. e ajuste no cab da mordaça inferior"
+        }
+      ]
+    }
+  ],
   "evolucao_mensal": [
     {
       "mes": "março",
@@ -266,10 +336,10 @@
     "ate": "2026-10-25",
     "falhas": 2458,
     "horas_paradas": 443.1227,
-    "horas_disponiveis": 4105.3833,
-    "mtbf_min": 89.3961,
-    "disponibilidade_pct": 89.2063,
-    "indisponibilidade_pct": 10.7937,
+    "horas_disponiveis": 4716.3167,
+    "mtbf_min": 104.309,
+    "disponibilidade_pct": 90.6045,
+    "indisponibilidade_pct": 9.3955,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

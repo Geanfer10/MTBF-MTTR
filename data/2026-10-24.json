@@ -1,13 +1,13 @@
 {
   "date": "2026-10-24",
-  "updated_at": "2026-10-27T17:33",
+  "updated_at": "2026-10-27T18:03",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK R2",
       "horas": 4.8667,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 14.7333,
       "falhas": 21,
       "por_turno": {
         "1": {
@@ -302,7 +302,7 @@
     {
       "name": "MESPACK R1",
       "horas": 2.6333,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 14.7333,
       "falhas": 24,
       "por_turno": {
         "1": {
@@ -636,7 +636,7 @@
     {
       "name": "MESPACK F",
       "horas": 1.7667,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 19.5,
       "falhas": 12,
       "por_turno": {
         "1": {
@@ -1001,7 +1001,7 @@
     {
       "name": "MESPACK D",
       "horas": 0.9167,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 19.5,
       "falhas": 1,
       "por_turno": {
         "1": {
@@ -1028,15 +1028,15 @@
           "horas": 0.9167,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste das ventosas pinças e régua fixa",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "20547",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK D "
         }
       ]
     },
     {
       "name": "60L1",
       "horas": 0.8,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 15.0833,
       "falhas": 4,
       "por_turno": {
         "1": {
@@ -1327,6 +1327,40 @@
       ]
     },
     {
+      "tag": "20547",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "equipamento": "MESPACK D",
+      "falhas": 1,
+      "horas": 0.9167,
+      "por_turno": {
+        "1": {
+          "horas": 0.9167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-24",
+          "inicio": "06:41",
+          "fim": "07:36",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.9167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste das ventosas pinças e régua fixa"
+        }
+      ]
+    },
+    {
       "tag": "MECANICA01",
       "componente": "AGUARDANDO MECANICO",
       "equipamento": "60l1",
@@ -1563,6 +1597,40 @@
       ]
     },
     {
+      "tag": "20547",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "equipamento": "MESPACK D",
+      "falhas": 1,
+      "horas": 0.9167,
+      "por_turno": {
+        "1": {
+          "horas": 0.9167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-24",
+          "inicio": "06:41",
+          "fim": "07:36",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.9167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste das ventosas pinças e régua fixa"
+        }
+      ]
+    },
+    {
       "tag": "MECANICA01",
       "componente": "AGUARDANDO MECANICO",
       "equipamento": "60l1",
@@ -1633,29 +1701,29 @@
   ],
   "disponibilidade": {
     "geral": {
-      "horas_disponiveis": 286.0,
+      "horas_disponiveis": 118.1333,
       "horas_paradas": 13.6902,
-      "disponibilidade_pct": 95.2132,
-      "indisponibilidade_pct": 4.7868
+      "disponibilidade_pct": 88.4113,
+      "indisponibilidade_pct": 11.5887
     },
     "departamentos": {
       "Elétrica": {
-        "horas_disponiveis": 286.0,
+        "horas_disponiveis": 118.1333,
         "horas_paradas": 0.9833,
-        "disponibilidade_pct": 99.6562,
-        "indisponibilidade_pct": 0.3438
+        "disponibilidade_pct": 99.1676,
+        "indisponibilidade_pct": 0.8324
       },
       "Mecânica": {
-        "horas_disponiveis": 286.0,
+        "horas_disponiveis": 118.1333,
         "horas_paradas": 8.9402,
-        "disponibilidade_pct": 96.8741,
-        "indisponibilidade_pct": 3.1259
+        "disponibilidade_pct": 92.4321,
+        "indisponibilidade_pct": 7.5679
       },
       "Automação": {
-        "horas_disponiveis": 88.0,
+        "horas_disponiveis": 48.9667,
         "horas_paradas": 3.7667,
-        "disponibilidade_pct": 95.7197,
-        "indisponibilidade_pct": 4.2803
+        "disponibilidade_pct": 92.3077,
+        "indisponibilidade_pct": 7.6923
       }
     }
   },
@@ -1665,10 +1733,10 @@
     "ate": "2026-10-24",
     "falhas": 2448,
     "horas_paradas": 440.8394,
-    "horas_disponiveis": 4105.3833,
-    "mtbf_min": 89.8173,
-    "disponibilidade_pct": 89.2619,
-    "indisponibilidade_pct": 10.7381,
+    "horas_disponiveis": 4430.3167,
+    "mtbf_min": 97.7813,
+    "disponibilidade_pct": 90.0495,
+    "indisponibilidade_pct": 9.9505,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

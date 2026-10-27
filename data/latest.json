@@ -1,13 +1,13 @@
 {
   "date": "2026-10-26",
-  "updated_at": "2026-10-27T17:33",
+  "updated_at": "2026-10-27T18:03",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK R2",
       "horas": 10.15,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 18.1667,
       "falhas": 40,
       "por_turno": {
         "1": {
@@ -549,7 +549,7 @@
     {
       "name": "MESPACK R1",
       "horas": 3.8667,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 18.1667,
       "falhas": 29,
       "por_turno": {
         "1": {
@@ -1009,7 +1009,7 @@
     {
       "name": "MESPACK F",
       "horas": 1.15,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 19.5,
       "falhas": 10,
       "por_turno": {
         "1": {
@@ -1161,7 +1161,7 @@
     {
       "name": "MESPACK E",
       "horas": 0.7833,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 19.5,
       "falhas": 10,
       "por_turno": {
         "1": {
@@ -1313,7 +1313,7 @@
     {
       "name": "60L1",
       "horas": 0.4667,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 19.5,
       "falhas": 4,
       "por_turno": {
         "1": {
@@ -1387,7 +1387,7 @@
     {
       "name": "MESPACK C",
       "horas": 0.3833,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 22.5,
       "falhas": 1,
       "por_turno": {
         "1": {
@@ -1414,8 +1414,8 @@
           "horas": 0.3833,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "Ajuste no sensor do Inkjet.",
-          "tag": "",
-          "componente": "MANUTENÇÃO ELÉTRICA"
+          "tag": "INK03",
+          "componente": "INKJET MESPACK C"
         }
       ]
     },
@@ -1496,7 +1496,7 @@
     {
       "name": "ENCHEDEIRA TOP DOWN",
       "horas": 0.0833,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 21.0,
       "falhas": 1,
       "por_turno": {
         "1": {
@@ -1738,6 +1738,40 @@
       ]
     },
     {
+      "tag": "INK03",
+      "componente": "INKJET MESPACK C",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.3833,
+      "por_turno": {
+        "1": {
+          "horas": 0.3833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "12:04",
+          "fim": "12:27",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.3833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "Ajuste no sensor do Inkjet."
+        }
+      ]
+    },
+    {
       "tag": "INK09",
       "componente": "INKJET ROTULADEIRA TOPDONW",
       "equipamento": "ENCHEDEIRA TOP DOWN",
@@ -1897,6 +1931,40 @@
       ]
     },
     {
+      "tag": "INK03",
+      "componente": "INKJET MESPACK C",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.3833,
+      "por_turno": {
+        "1": {
+          "horas": 0.3833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-26",
+          "inicio": "12:04",
+          "fim": "12:27",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.3833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "Ajuste no sensor do Inkjet."
+        }
+      ]
+    },
+    {
       "tag": "30463",
       "componente": "CABEÇOTE SUPERIOR 60L2",
       "equipamento": "60l2",
@@ -2034,29 +2102,29 @@
   ],
   "disponibilidade": {
     "geral": {
-      "horas_disponiveis": 286.0,
+      "horas_disponiveis": 180.3333,
       "horas_paradas": 18.4333,
-      "disponibilidade_pct": 93.5548,
-      "indisponibilidade_pct": 6.4452
+      "disponibilidade_pct": 89.7782,
+      "indisponibilidade_pct": 10.2218
     },
     "departamentos": {
       "Elétrica": {
-        "horas_disponiveis": 286.0,
+        "horas_disponiveis": 180.3333,
         "horas_paradas": 2.1167,
-        "disponibilidade_pct": 99.2599,
-        "indisponibilidade_pct": 0.7401
+        "disponibilidade_pct": 98.8262,
+        "indisponibilidade_pct": 1.1738
       },
       "Mecânica": {
-        "horas_disponiveis": 286.0,
+        "horas_disponiveis": 180.3333,
         "horas_paradas": 9.7,
-        "disponibilidade_pct": 96.6084,
-        "indisponibilidade_pct": 3.3916
+        "disponibilidade_pct": 94.6211,
+        "indisponibilidade_pct": 5.3789
       },
       "Automação": {
-        "horas_disponiveis": 88.0,
+        "horas_disponiveis": 75.3333,
         "horas_paradas": 6.6167,
-        "disponibilidade_pct": 92.4811,
-        "indisponibilidade_pct": 7.5189
+        "disponibilidade_pct": 91.2168,
+        "indisponibilidade_pct": 8.7832
       }
     }
   },
@@ -2066,10 +2134,10 @@
     "ate": "2026-10-26",
     "falhas": 2560,
     "horas_paradas": 461.556,
-    "horas_disponiveis": 4105.3833,
-    "mtbf_min": 85.4022,
-    "disponibilidade_pct": 88.7573,
-    "indisponibilidade_pct": 11.2427,
+    "horas_disponiveis": 4896.65,
+    "mtbf_min": 103.9475,
+    "disponibilidade_pct": 90.574,
+    "indisponibilidade_pct": 9.426,
     "meta_mtbf": 300,
     "status": "abaixo"
   }
