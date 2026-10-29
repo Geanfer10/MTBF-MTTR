@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "updated_at": "2026-10-29T11:48",
+  "updated_at": "2026-10-29T12:03",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1535,8 +1535,8 @@
           "horas": 0.1,
           "motivo": "BICO DOSADOR ENTUPIDO",
           "obs": "",
-          "tag": "",
-          "componente": "BICO DOSADOR ENTUPIDO"
+          "tag": "31198",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1"
         },
         {
           "data": "2026-10-23",
@@ -1561,8 +1561,8 @@
           "horas": 0.05,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": "",
-          "tag": "",
-          "componente": "FALTA DE GRELHA (BANDEJA)"
+          "tag": "ROBOTICA03",
+          "componente": "FALTA DE GRELHA R1"
         },
         {
           "data": "2026-10-23",
@@ -1600,8 +1600,8 @@
           "horas": 0.2333,
           "motivo": "AJUSTE NAS PINÇAS",
           "obs": "ajuste de pinça e troca de teflon ",
-          "tag": "",
-          "componente": "AJUSTE NAS PINÇAS"
+          "tag": "31194",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK R1"
         },
         {
           "data": "2026-10-23",
@@ -1639,8 +1639,8 @@
           "horas": 0.0833,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": "",
-          "tag": "",
-          "componente": "FALTA DE GRELHA (BANDEJA)"
+          "tag": "ROBOTICA03",
+          "componente": "FALTA DE GRELHA R1"
         },
         {
           "data": "2026-10-23",
@@ -2762,9 +2762,9 @@
       ]
     },
     {
-      "tag": "31311",
-      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK F",
-      "equipamento": "MESPACK F",
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "equipamento": "MESPACK R1",
       "falhas": 2,
       "horas": 0.1333,
       "por_turno": {
@@ -2773,35 +2773,35 @@
           "falhas": 0
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.0833,
+          "falhas": 1
         },
         "3": {
-          "horas": 0.1333,
-          "falhas": 2
+          "horas": 0.05,
+          "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-10-23",
-          "inicio": "01:39",
-          "fim": "01:43",
+          "inicio": "03:44",
+          "fim": "03:47",
           "turno": 3,
-          "departamento": "Mecânica",
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE DE VENTOSAS",
+          "horas": 0.05,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": ""
         },
         {
           "data": "2026-10-23",
-          "inicio": "01:51",
-          "fim": "01:55",
-          "turno": 3,
-          "departamento": "Mecânica",
+          "inicio": "21:04",
+          "fim": "21:09",
+          "turno": 2,
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE DE VENTOSAS",
+          "horas": 0.0833,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": ""
         }
       ]
@@ -2852,6 +2852,51 @@
       ]
     },
     {
+      "tag": "31311",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 2,
+      "horas": 0.1333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1333,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-23",
+          "inicio": "01:39",
+          "fim": "01:43",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-23",
+          "inicio": "01:51",
+          "fim": "01:55",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "20547",
       "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
       "equipamento": "MESPACK D",
@@ -2893,40 +2938,6 @@
           "horas": 0.2833,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste e troca da mola da pinça "
-        }
-      ]
-    },
-    {
-      "tag": "20539",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK D ",
-      "equipamento": "MESPACK D",
-      "falhas": 1,
-      "horas": 0.3667,
-      "por_turno": {
-        "1": {
-          "horas": 0.3667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-23",
-          "inicio": "13:55",
-          "fim": "14:17",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3667,
-          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
-          "obs": ""
         }
       ]
     }
