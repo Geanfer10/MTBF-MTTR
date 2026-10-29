@@ -103,18 +103,26 @@
   .highlight .stats b{color:var(--text); font-family:'JetBrains Mono',monospace; font-weight:600;}
   .dept-row .cmp{font-size:11px; color:var(--text-faint); margin-top:2px; font-family:'JetBrains Mono',monospace;}
   #turnoCmp{margin-top:14px;}
-  .tcel{cursor:pointer; border-radius:6px; padding:2px 4px; margin:-2px -4px;}
-  .tcel:hover{background:#E3F4E9;}
-  .imp-h{font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:var(--text-dim); margin-bottom:8px;}
   .tcmp-title{font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--text-dim); margin-bottom:6px; font-weight:600;}
-  .tcmp{width:100%; border-collapse:collapse; font-size:12px;}
-  .tcmp th{background:var(--panel-2); padding:6px 8px; font-size:10.5px; text-transform:uppercase; letter-spacing:.04em; color:var(--text-dim); text-align:right;}
+  .tcmp{width:100%; border-collapse:collapse; font-size:12.5px;}
+  .tcmp th{background:var(--panel-2); padding:7px 10px; font-size:10.5px; text-transform:uppercase; letter-spacing:.04em; color:var(--text-dim); text-align:right; white-space:nowrap;}
   .tcmp th:first-child, .tcmp td:first-child{text-align:left;}
-  .tcmp td{padding:6px 8px; border-top:1px solid var(--border); text-align:right; vertical-align:top;}
-  .tcmp .v{font-family:'JetBrains Mono',monospace; font-weight:700; font-size:13px;}
-  .tcmp .a{font-size:10.5px; color:var(--text-faint); font-family:'JetBrains Mono',monospace;}
-  .tcmp .d{font-size:11px; font-family:'JetBrains Mono',monospace;}
-  .tcmp tr.tot td{background:#F6FAF7; font-weight:600;}
+  .tcmp td{padding:6px 10px; border-top:1px solid var(--border); text-align:right; font-family:'JetBrains Mono',monospace; font-variant-numeric:tabular-nums; white-space:nowrap;}
+  .tcmp td:first-child{font-family:inherit;}
+  .tcmp td.v{font-weight:700; font-size:13px;}
+  .tcmp td.a{color:var(--text-dim);}
+  .tcmp tr.tcel{cursor:pointer;}
+  .tcmp tr.tcel:hover td{background:#E3F4E9;}
+  .tcmp tr.tr-turno td{background:#F3F8F4; border-top:2px solid var(--border);}
+  .tcmp tr.tr-dep td:first-child{padding-left:24px;}
+  .tcmp tr.tr-total td{background:#E9F3EC; border-top:2px solid var(--green); font-weight:700;}
+  .tdot{display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:7px; vertical-align:middle;}
+  .tcmp .bcell{width:28%; min-width:110px;}
+  .tbar{position:relative; height:10px; background:linear-gradient(90deg, transparent calc(50% - .5px), #C9D6CD calc(50% - .5px), #C9D6CD calc(50% + .5px), transparent calc(50% + .5px));}
+  .tbar i{position:absolute; top:1px; height:8px; border-radius:4px;}
+  .tbar i.up{background:var(--red);} .tbar i.down{background:var(--green);}
+  #turnoCmp{overflow-x:auto;}
+  .imp-h{font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:var(--text-dim); margin-bottom:8px;}
   .comp-head{display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;}
   .comp-sub{font-size:11.5px; color:var(--text-faint); margin:4px 0 10px; font-weight:400; text-transform:none; letter-spacing:0;}
   .seg{display:inline-flex; border:1px solid var(--border); border-radius:8px; overflow:hidden;}
@@ -1218,10 +1226,13 @@ function agregaDeptTurno(datas, equip){
   return out;
 }
 
+// horas em h:mm arredondado ao minuto (sem segundos), para as comparações
+function hmMin(h){ const t = Math.round((h || 0) * 60); return Math.floor(t / 60) + ':' + String(t % 60).padStart(2, '0'); }
+
 function deltaHoras(atual, anterior){
   const d = atual - anterior;
   if(Math.abs(d) < 1/120) return '<span class="delta-eq">= igual</span>';
-  return d > 0 ? `<span class="delta-up">▲ +${hoursToHM(d)}</span>` : `<span class="delta-down">▼ −${hoursToHM(-d)}</span>`;
+  return d > 0 ? `<span class="delta-up">▲ +${hmMin(d)}</span>` : `<span class="delta-down">▼ −${hmMin(-d)}</span>`;
 }
 
 function renderComparativoTurnos(){
@@ -1241,24 +1252,39 @@ function renderComparativoTurnos(){
   const valT = (o, dep) => !o[dep] ? 0 : (turnoSel === 'all' ? o[dep].tot.h : o[dep][turnoSel].h);
   document.querySelectorAll('.dept-row .cmp[data-cmp]').forEach(el => {
     const dep = el.dataset.cmp;
-    el.innerHTML = temAnt ? `${esc(rot.anterior)}: ${hoursToHM(valT(cAn, dep))} · ${deltaHoras(valT(cAt, dep), valT(cAn, dep))}` : 'sem período anterior';
+    el.innerHTML = temAnt ? `${esc(rot.anterior)}: ${hmMin(valT(cAn, dep))} · ${deltaHoras(valT(cAt, dep), valT(cAn, dep))}` : 'sem período anterior';
   });
 
   // tabela turno x departamento (segue o filtro de máquina)
   const at = agregaDeptTurno(datas, equip), an = agregaDeptTurno(ant, equip);
   const deps = ['Mecânica','Automação','Elétrica'].filter(d => at[d] || an[d]).concat(Object.keys(at).filter(d => !['Mecânica','Automação','Elétrica'].includes(d)));
   const turnos = turnoSel === 'all' ? ['1','2','3'] : [turnoSel];
-  const cel = (a, b, dep, t) => `<div class="tcel" data-dep="${esc(dep)}" data-t="${t}" title="Clique para ver onde mudou"><div class="v">${hoursToHM(a)}</div>${temAnt ? `<div class="a">${esc(rot.curto || rot.anterior)}: ${hoursToHM(b)}</div><div class="d">${deltaHoras(a, b)}</div>` : ''}</div>`;
   const g = (o, dep, t) => (o[dep] ? o[dep][t].h : 0);
-  const linhas = deps.map(dep => `<tr><td><span style="color:${DEPT_COLOR[dep]||'#555'}; font-weight:600">${esc(dep)}</span></td>
-      ${turnos.map(t => `<td>${cel(g(at,dep,t), g(an,dep,t), dep, t)}</td>`).join('')}
-      ${turnos.length > 1 ? `<td>${cel(at[dep] ? at[dep].tot.h : 0, an[dep] ? an[dep].tot.h : 0, dep, 'tot')}</td>` : ''}</tr>`).join('');
   const somaT = (o, t) => deps.reduce((s, dep) => s + g(o, dep, t), 0);
-  const somaTot = o => deps.reduce((s, dep) => s + (o[dep] ? o[dep].tot.h : 0), 0);
-  const total = `<tr class="tot"><td>Total</td>${turnos.map(t => `<td>${cel(somaT(at,t), somaT(an,t), '*', t)}</td>`).join('')}${turnos.length > 1 ? `<td>${cel(somaTot(at), somaTot(an), '*', 'tot')}</td>` : ''}</tr>`;
+  // uma linha por turno (total do turno) e os departamentos logo abaixo; um número por célula
+  const linhasDados = [];
+  turnos.forEach(t => {
+    linhasDados.push({tipo:'turno', t, dep:'*', a: somaT(at, t), b: somaT(an, t), nome: `Turno ${t}`});
+    deps.forEach(dep => linhasDados.push({tipo:'dep', t, dep, a: g(at, dep, t), b: g(an, dep, t), nome: dep}));
+  });
+  if(turnos.length > 1){
+    const tA = deps.reduce((s, d) => s + (at[d] ? at[d].tot.h : 0), 0), tB = deps.reduce((s, d) => s + (an[d] ? an[d].tot.h : 0), 0);
+    linhasDados.push({tipo:'total', t:'tot', dep:'*', a: tA, b: tB, nome: 'Total'});
+  }
+  const maxDif = Math.max(1/60, ...linhasDados.map(x => Math.abs(x.a - x.b)));
+  const barra = (a, b) => {
+    if(!temAnt) return '';
+    const d = a - b, w = Math.min(50, Math.abs(d) / maxDif * 50);
+    return `<div class="tbar"><i class="${d > 0 ? 'up' : 'down'}" style="width:${w}%; ${d > 0 ? 'left:50%' : 'right:50%'}"></i></div>`;
+  };
+  const linha = x => `<tr class="tcel tr-${x.tipo}" data-dep="${esc(x.dep)}" data-t="${x.t}" title="Clique para ver onde mudou">
+      <td>${x.tipo === 'dep' ? `<span class="tdot" style="background:${DEPT_COLOR[x.dep]||'#888'}"></span>${esc(x.nome)}` : `<b>${esc(x.nome)}</b>`}</td>
+      <td class="v">${hmMin(x.a)}</td>
+      ${temAnt ? `<td class="a">${hmMin(x.b)}</td><td class="d">${deltaHoras(x.a, x.b)}</td><td class="bcell">${barra(x.a, x.b)}</td>` : ''}
+    </tr>`;
   box.innerHTML = `<div class="tcmp-title">Comparação: ${esc(rot.atual)} × ${temAnt ? esc(rot.anterior) : 'sem período anterior'}${equip !== 'all' ? ' · ' + esc(equip) : ''}</div>
-    <table class="tcmp"><thead><tr><th>Departamento</th>${turnos.map(t => `<th>Turno ${t}</th>`).join('')}${turnos.length > 1 ? '<th>Total</th>' : ''}</tr></thead>
-    <tbody>${linhas}${total}</tbody></table>
+    <table class="tcmp"><thead><tr><th>Turno / departamento</th><th>${esc(rot.atual)}</th>${temAnt ? `<th>${esc(rot.anterior)}</th><th>Diferença</th><th class="bcell"><span style="color:var(--green)">◀ melhorou</span> · <span style="color:var(--red)">piorou ▶</span></th>` : ''}</tr></thead>
+    <tbody>${linhasDados.map(linha).join('')}</tbody></table>
     ${temAnt ? '<div class="comp-sub" style="margin-top:6px">Clique em qualquer valor para ver em quais máquinas e componentes o tempo mudou.</div>' : ''}`;
 }
 

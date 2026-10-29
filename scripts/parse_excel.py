@@ -323,9 +323,10 @@ def build_componentes(df):
     """
     d = df.copy()
     d["Componente"] = d["Componente"].fillna(d["MOTIVO"])
-    d["_tag"] = d["TAG"].astype(str).str.strip().str.upper().replace({"NAN": "", "NONE": ""})
-    d["_comp"] = d["Componente"].astype(str).str.strip().str.upper().replace({"NAN": "SEM COMPONENTE"})
-    d["_eq"] = d["Equipamento"].astype(str).str.strip()
+    # fillna antes do astype: valor vazio (NaN) como chave faria o groupby descartar a linha inteira
+    d["_tag"] = d["TAG"].fillna("").astype(str).str.strip().str.upper().replace({"NAN": "", "NONE": ""})
+    d["_comp"] = d["Componente"].fillna("").astype(str).str.strip().str.upper().replace({"NAN": "SEM COMPONENTE", "": "SEM COMPONENTE"})
+    d["_eq"] = d["Equipamento"].fillna("SEM MÁQUINA").astype(str).str.strip()
     d["_data"] = d["Data Inicio"].dt.date.astype(str)
     d["_h"] = pd.to_numeric(d["Tempo Parada (h decimal)"], errors="coerce").fillna(0.0)
     d["_f"] = pd.to_numeric(d["Falhas"], errors="coerce").fillna(1)
@@ -334,7 +335,7 @@ def build_componentes(df):
 
     meta, idx = [], {}
     dias = {}
-    for (data, tag, comp, eq, dep), g in d.groupby(["_data", "_tag", "_comp", "_eq", "_dep"], sort=True):
+    for (data, tag, comp, eq, dep), g in d.groupby(["_data", "_tag", "_comp", "_eq", "_dep"], sort=True, dropna=False):
         k = (tag, comp)
         if k not in idx:
             idx[k] = len(meta)
