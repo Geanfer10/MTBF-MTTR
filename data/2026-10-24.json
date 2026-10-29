@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "updated_at": "2026-10-29T12:03",
+  "updated_at": "2026-10-29T12:48",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -420,8 +420,8 @@
           "horas": 0.05,
           "motivo": "ROBO EMPILHADOR EM FALHA",
           "obs": "",
-          "tag": "",
-          "componente": "ROBO EMPILHADOR EM FALHA"
+          "tag": "RB09",
+          "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS"
         },
         {
           "data": "2026-10-24",
@@ -446,8 +446,8 @@
           "horas": 0.0333,
           "motivo": "BICO DOSADOR ENTUPIDO",
           "obs": "",
-          "tag": "",
-          "componente": "BICO DOSADOR ENTUPIDO"
+          "tag": "31198",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1"
         },
         {
           "data": "2026-10-24",
@@ -550,7 +550,7 @@
           "horas": 0.0833,
           "motivo": "TROCA DE VENTOSAS",
           "obs": "",
-          "tag": "",
+          "tag": "31208",
           "componente": "TROCA DE VENTOSAS"
         },
         {
@@ -589,8 +589,8 @@
           "horas": 0.0667,
           "motivo": "AGUARDANDO MECÂNICO",
           "obs": "",
-          "tag": "",
-          "componente": "AGUARDANDO MECÂNICO"
+          "tag": "MECANICA01",
+          "componente": "AGUARDANDO MECANICO"
         },
         {
           "data": "2026-10-24",
@@ -615,7 +615,7 @@
           "horas": 0.6667,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "quebra da corrente do transferi do robô empilhador ",
-          "tag": "",
+          "tag": "20040",
           "componente": "MANUTENÇÃO MECÂNICA"
         },
         {
@@ -1460,95 +1460,6 @@
       ]
     },
     {
-      "tag": "30463",
-      "componente": "CABEÇOTE SUPERIOR 60L2",
-      "equipamento": "60l2",
-      "falhas": 6,
-      "horas": 1.4333,
-      "por_turno": {
-        "1": {
-          "horas": 0.8667,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.5667,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-24",
-          "inicio": "07:17",
-          "fim": "07:32",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.25,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento no rolete da placa 1"
-        },
-        {
-          "data": "2026-10-24",
-          "inicio": "09:00",
-          "fim": "09:06",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento na placa do cabo 2 e 6"
-        },
-        {
-          "data": "2026-10-24",
-          "inicio": "13:30",
-          "fim": "14:01",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.5167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste no cabeçote 6"
-        },
-        {
-          "data": "2026-10-24",
-          "inicio": "15:53",
-          "fim": "16:08",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.25,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "manutenção na esteira despaletizador "
-        },
-        {
-          "data": "2026-10-24",
-          "inicio": "16:30",
-          "fim": "16:46",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento na placa cabeçote 5"
-        },
-        {
-          "data": "2026-10-24",
-          "inicio": "19:56",
-          "fim": "19:59",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento na placa cabeçote 5 "
-        }
-      ]
-    },
-    {
       "tag": "31194",
       "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
       "equipamento": "MESPACK R1",
@@ -1638,15 +1549,104 @@
       ]
     },
     {
+      "tag": "30463",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
+      "equipamento": "60l2",
+      "falhas": 6,
+      "horas": 1.4333,
+      "por_turno": {
+        "1": {
+          "horas": 0.8667,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.5667,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-24",
+          "inicio": "07:17",
+          "fim": "07:32",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento no rolete da placa 1"
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "09:00",
+          "fim": "09:06",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento na placa do cabo 2 e 6"
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "13:30",
+          "fim": "14:01",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.5167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no cabeçote 6"
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "15:53",
+          "fim": "16:08",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção na esteira despaletizador "
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "16:30",
+          "fim": "16:46",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento na placa cabeçote 5"
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "19:56",
+          "fim": "19:59",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento na placa cabeçote 5 "
+        }
+      ]
+    },
+    {
       "tag": "31198",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
       "equipamento": "MESPACK R1",
-      "falhas": 4,
-      "horas": 0.2,
+      "falhas": 5,
+      "horas": 0.2333,
       "por_turno": {
         "1": {
-          "horas": 0.1667,
-          "falhas": 3
+          "horas": 0.2,
+          "falhas": 4
         },
         "2": {
           "horas": 0.0333,
@@ -1662,6 +1662,17 @@
           "data": "2026-10-24",
           "inicio": "07:17",
           "fim": "07:19",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "10:27",
+          "fim": "10:29",
           "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
@@ -1750,6 +1761,119 @@
       ]
     },
     {
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "equipamento": "60l1",
+      "falhas": 2,
+      "horas": 0.1333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0667,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-24",
+          "inicio": "17:54",
+          "fim": "17:58",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "23:04",
+          "fim": "23:08",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": "Aguardando mecânico."
+        }
+      ]
+    },
+    {
+      "tag": "31208",
+      "componente": "TROCA DE VENTOSAS",
+      "equipamento": "MESPACK R1",
+      "falhas": 1,
+      "horas": 0.0833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-24",
+          "inicio": "17:04",
+          "fim": "17:09",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "TROCA DE VENTOSAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20040",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "equipamento": "MESPACK R1",
+      "falhas": 1,
+      "horas": 0.6667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.6667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-24",
+          "inicio": "20:39",
+          "fim": "21:19",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.6667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "quebra da corrente do transferi do robô empilhador "
+        }
+      ]
+    },
+    {
       "tag": "20547",
       "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
       "equipamento": "MESPACK D",
@@ -1780,108 +1904,6 @@
           "horas": 0.9167,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste das ventosas pinças e régua fixa"
-        }
-      ]
-    },
-    {
-      "tag": "FEL01",
-      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-      "equipamento": "MESPACK R1",
-      "falhas": 1,
-      "horas": 0.0833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0833,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-24",
-          "inicio": "10:34",
-          "fim": "10:39",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "31309",
-      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK F",
-      "equipamento": "MESPACK F",
-      "falhas": 1,
-      "horas": 0.1833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.1833,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-24",
-          "inicio": "15:28",
-          "fim": "15:39",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "MECANICA01",
-      "componente": "AGUARDANDO MECANICO",
-      "equipamento": "60l1",
-      "falhas": 1,
-      "horas": 0.0667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0667,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-24",
-          "inicio": "23:04",
-          "fim": "23:08",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AGUARDANDO MECÂNICO",
-          "obs": "Aguardando mecânico."
         }
       ]
     },
@@ -2378,6 +2400,40 @@
       ]
     },
     {
+      "tag": "20040",
+      "componente": "MANUTENÇÃO MECÂNICA",
+      "equipamento": "MESPACK R1",
+      "falhas": 1,
+      "horas": 0.6667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.6667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-24",
+          "inicio": "20:39",
+          "fim": "21:19",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.6667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "quebra da corrente do transferi do robô empilhador "
+        }
+      ]
+    },
+    {
       "tag": "31194",
       "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
       "equipamento": "MESPACK R1",
@@ -2470,12 +2526,12 @@
       "tag": "31198",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
       "equipamento": "MESPACK R1",
-      "falhas": 4,
-      "horas": 0.2,
+      "falhas": 5,
+      "horas": 0.2333,
       "por_turno": {
         "1": {
-          "horas": 0.1667,
-          "falhas": 3
+          "horas": 0.2,
+          "falhas": 4
         },
         "2": {
           "horas": 0.0333,
@@ -2491,6 +2547,17 @@
           "data": "2026-10-24",
           "inicio": "07:17",
           "fim": "07:19",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "10:27",
+          "fim": "10:29",
           "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
@@ -2602,6 +2669,51 @@
       ]
     },
     {
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "equipamento": "60l1",
+      "falhas": 2,
+      "horas": 0.1333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0667,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-24",
+          "inicio": "17:54",
+          "fim": "17:58",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-24",
+          "inicio": "23:04",
+          "fim": "23:08",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": "Aguardando mecânico."
+        }
+      ]
+    },
+    {
       "tag": "31314",
       "componente": "CONJUNTO CARRO MOVEL MESPACK F",
       "equipamento": "MESPACK F",
@@ -2681,36 +2793,70 @@
       ]
     },
     {
-      "tag": "MECANICA01",
-      "componente": "AGUARDANDO MECANICO",
-      "equipamento": "60l1",
+      "tag": "31208",
+      "componente": "TROCA DE VENTOSAS",
+      "equipamento": "MESPACK R1",
       "falhas": 1,
-      "horas": 0.0667,
+      "horas": 0.0833,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.0833,
+          "falhas": 1
         },
         "3": {
-          "horas": 0.0667,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         }
       },
       "ocorrencias": [
         {
           "data": "2026-10-24",
-          "inicio": "23:04",
-          "fim": "23:08",
-          "turno": 3,
+          "inicio": "17:04",
+          "fim": "17:09",
+          "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AGUARDANDO MECÂNICO",
-          "obs": "Aguardando mecânico."
+          "horas": 0.0833,
+          "motivo": "TROCA DE VENTOSAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "equipamento": "MESPACK R1",
+      "falhas": 1,
+      "horas": 0.05,
+      "por_turno": {
+        "1": {
+          "horas": 0.05,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-24",
+          "inicio": "10:07",
+          "fim": "10:10",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": ""
         }
       ]
     }

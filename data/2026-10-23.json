@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "updated_at": "2026-10-29T12:03",
+  "updated_at": "2026-10-29T12:48",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1587,8 +1587,8 @@
           "horas": 0.3,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "no servo do motor",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "31189",
+          "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK R1"
         },
         {
           "data": "2026-10-23",
@@ -1626,8 +1626,8 @@
           "horas": 0.1667,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "",
-          "tag": "",
-          "componente": "MANUTENÇÃO ELÉTRICA"
+          "tag": "INK06",
+          "componente": "INKJET MESPACK F"
         },
         {
           "data": "2026-10-23",
@@ -2762,6 +2762,96 @@
       ]
     },
     {
+      "tag": "20547",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "equipamento": "MESPACK D",
+      "falhas": 2,
+      "horas": 0.45,
+      "por_turno": {
+        "1": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.2833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-23",
+          "inicio": "07:48",
+          "fim": "07:58",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-23",
+          "inicio": "14:58",
+          "fim": "15:15",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste e troca da mola da pinça "
+        }
+      ]
+    },
+    {
+      "tag": "31311",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 2,
+      "horas": 0.1333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1333,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-10-23",
+          "inicio": "01:39",
+          "fim": "01:43",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-10-23",
+          "inicio": "01:51",
+          "fim": "01:55",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "ROBOTICA03",
       "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
@@ -2848,96 +2938,6 @@
           "horas": 0.15,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "verificação do vacoustato, ajuste de pressão,e limpeza no sistema de dosagem "
-        }
-      ]
-    },
-    {
-      "tag": "31311",
-      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK F",
-      "equipamento": "MESPACK F",
-      "falhas": 2,
-      "horas": 0.1333,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.1333,
-          "falhas": 2
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-23",
-          "inicio": "01:39",
-          "fim": "01:43",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE DE VENTOSAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-23",
-          "inicio": "01:51",
-          "fim": "01:55",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE DE VENTOSAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "20547",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
-      "equipamento": "MESPACK D",
-      "falhas": 2,
-      "horas": 0.45,
-      "por_turno": {
-        "1": {
-          "horas": 0.1667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.2833,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-10-23",
-          "inicio": "07:48",
-          "fim": "07:58",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-10-23",
-          "inicio": "14:58",
-          "fim": "15:15",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste e troca da mola da pinça "
         }
       ]
     }
@@ -4113,47 +4113,36 @@
       ]
     },
     {
-      "tag": "31319",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK F",
-      "equipamento": "MESPACK F",
-      "falhas": 2,
-      "horas": 0.2667,
+      "tag": "31189",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 1,
+      "horas": 0.3,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.3,
+          "falhas": 1
         },
         "3": {
-          "horas": 0.2667,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 0
         }
       },
       "ocorrencias": [
         {
           "data": "2026-10-23",
-          "inicio": "01:59",
-          "fim": "02:06",
-          "turno": 3,
+          "inicio": "14:45",
+          "fim": "15:03",
+          "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "AJUSTE NO BICO DE DOSAGEM",
-          "obs": "ajuste no bico dosador 5"
-        },
-        {
-          "data": "2026-10-23",
-          "inicio": "02:45",
-          "fim": "02:54",
-          "turno": 3,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "verificação do vacoustato, ajuste de pressão,e limpeza no sistema de dosagem "
+          "horas": 0.3,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "no servo do motor"
         }
       ]
     }
