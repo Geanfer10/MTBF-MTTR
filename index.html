@@ -155,6 +155,9 @@
   .spark{display:flex; align-items:flex-end; gap:3px; height:34px; margin-top:8px;}
   .spark div{flex:1; background:#F3C9C7; border-radius:2px 2px 0 0; min-height:2px; position:relative;}
   .spark div.on{background:var(--red);}
+  .spark.rot{margin-top:22px;}
+  .spark.rot div b{position:absolute; left:50%; bottom:100%; transform:translateX(-50%); margin-bottom:3px; font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:700; color:var(--text); line-height:1;}
+  .spark.rot div b.zero{color:var(--text-faint); font-weight:500;}
   .spark-lbl{display:flex; gap:3px; font-size:9px; color:var(--text-faint); font-family:'JetBrains Mono',monospace;}
   .spark-lbl span{flex:1; text-align:center;}
   .matrix-legend{display:flex; gap:10px; flex-wrap:wrap; margin-top:12px;}
@@ -1709,7 +1712,7 @@ function renderReincidencia(turno, equip){
       <div class="t">${esc(p.componente)}</div>
       <div class="m">${esc(p.tag)} · ${esc(nomeMaquinas(p))}</div>
       <div class="big">${p.falhas} <small>falhas · ${p.diasCom} de ${REINC_DIAS} dias · ${hoursToHM(p.horas)}</small></div>
-      <div class="spark">${p.serie.map(v => `<div class="${v ? 'on' : ''}" style="height:${Math.max(2, v/maxS*34)}px" title="${v} falha(s)"></div>`).join('')}</div>
+      <div class="spark rot">${p.serie.map(v => `<div class="${v ? 'on' : ''}" style="height:${Math.max(2, v/maxS*34)}px" title="${v} falha(s)"><b class="${v ? '' : 'zero'}">${v}</b></div>`).join('')}</div>
       <div class="spark-lbl">${janela.map(d => `<span>${d.slice(8,10)}</span>`).join('')}</div>
     </div>`).join('') : '<div class="comp-sub">Nenhuma peça com reincidência nessa janela.</div>';
 }
@@ -1854,7 +1857,7 @@ function abrirAnaliseComp(k){
     </div>
     <h4 class="imp-h">Últimos 7 dias — ${serie7.reduce((a,b)=>a+b,0)} falha(s), ${serie7.filter(v=>v).length} de 7 dias com falha</h4>
     <div style="max-width:420px; margin-bottom:16px">
-      <div class="spark">${serie7.map(v => `<div class="${v ? 'on' : ''}" style="height:${Math.max(2, v/max7*34)}px" title="${v} falha(s)"></div>`).join('')}</div>
+      <div class="spark rot">${serie7.map(v => `<div class="${v ? 'on' : ''}" style="height:${Math.max(2, v/max7*34)}px" title="${v} falha(s)"><b class="${v ? '' : 'zero'}">${v}</b></div>`).join('')}</div>
       <div class="spark-lbl">${janela.map(d => `<span>${d.slice(8,10)}</span>`).join('')}</div>
     </div>
     <button class="hist-link" id="anaOcorr">Ver as ocorrências de ${esc(rot.atual)}</button>`;
