@@ -166,6 +166,30 @@
   .comp-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(150px,1fr)); gap:12px;}
   .comp-card{cursor:pointer; transition:transform .15s, box-shadow .15s;}
   .comp-card:hover{transform:translateY(-2px); box-shadow:0 4px 12px rgba(20,60,40,0.14);}
+  .busca{position:relative;}
+  .busca svg{position:absolute; left:9px; top:50%; transform:translateY(-50%); width:14px; height:14px; fill:none; stroke:var(--text-faint); stroke-width:2; pointer-events:none;}
+  .busca input{padding-left:28px; width:250px; text-align:left;}
+  .busca-lista{position:absolute; right:0; top:calc(100% + 4px); width:min(460px, 92vw); max-height:360px; overflow:auto; background:var(--panel); border:1px solid var(--border); border-radius:10px; box-shadow:0 12px 30px rgba(20,60,40,.18); z-index:900; text-align:left;}
+  .busca-item{display:grid; grid-template-columns:96px 1fr auto; gap:8px; align-items:center; padding:8px 12px; cursor:pointer; border-top:1px solid var(--border); font-family:'Inter',sans-serif; font-size:12px; color:var(--text);}
+  .busca-item:first-child{border-top:0;}
+  .busca-item:hover, .busca-item.sel{background:#E3F4E9;}
+  .busca-item .tg{font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--green); font-weight:600;}
+  .busca-item .nm small{display:block; color:var(--text-faint); font-size:10.5px;}
+  .busca-item .ct{font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--text-dim); text-align:right;}
+  .busca-item .ev{font-size:9.5px; background:#FDF0DF; color:#B26A12; border-radius:4px; padding:1px 5px; margin-left:4px;}
+  .busca-vazio{padding:12px; font-size:12px; color:var(--text-faint); font-family:'Inter',sans-serif;}
+  .ana-grid{display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:12px; margin-bottom:16px;}
+  @media(max-width:820px){.ana-grid{grid-template-columns:1fr;}}
+  .ana-box{border:1px solid var(--border); border-radius:10px; padding:10px 12px; min-width:0;}
+  .ana-box h4{font-size:11.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--text-dim); margin-bottom:8px;}
+  .ana-t{width:100%; border-collapse:collapse; font-size:12px;}
+  .ana-t th{font-size:10px; text-transform:uppercase; letter-spacing:.04em; color:var(--text-faint); text-align:right; padding:3px 4px; font-weight:600;}
+  .ana-t th:first-child, .ana-t td:first-child{text-align:left;}
+  .ana-t td{padding:5px 4px; border-top:1px solid var(--border); text-align:right; font-family:'JetBrains Mono',monospace; white-space:nowrap;}
+  .ana-t td:first-child{font-family:inherit; white-space:normal;}
+  .ana-t td small{display:block; color:var(--text-faint); font-size:10px;}
+  .ana-chart{position:relative; height:220px; margin-bottom:16px;}
+  .ana-note{font-size:11px; color:var(--text-faint); margin:-8px 0 14px;}
   .hist-overlay{position:fixed; inset:0; background:rgba(10,30,20,0.55); display:none; align-items:center; justify-content:center; z-index:1000; padding:16px;}
   .hist-overlay.open{display:flex;}
   .hist-modal{background:var(--panel); border-radius:14px; width:min(860px,100%); max-height:90vh; display:flex; flex-direction:column; box-shadow:0 20px 50px rgba(0,0,0,.35); overflow:hidden;}
@@ -243,6 +267,11 @@
         <select class="datepicker" id="equipSelect">
           <option value="all">Todas as máquinas</option>
         </select>
+        <div class="busca" id="buscaBox">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="buscaComp" class="datepicker" type="search" placeholder="Pesquisar TAG ou componente" autocomplete="off" aria-label="Pesquisar componente por TAG ou nome">
+          <div class="busca-lista" id="buscaLista" role="listbox" hidden></div>
+        </div>
       </div>
     </div>
   </header>
@@ -1051,6 +1080,7 @@ function abrirHistorico(item, opts){
   if(!item) return;
   opts = opts || {};
   ensureHistModal();
+  document.querySelector('#histOverlay .hist-modal').style.width = '';
   const turnoSel = document.getElementById('turnoSelect').value;
   let oc = item.ocorrencias || [];
   if(turnoSel !== 'all') oc = oc.filter(o => String(o.turno) === turnoSel);
@@ -1347,6 +1377,7 @@ function abrirImpacto(dep, t, maqFiltro){
   const cab = `<thead><tr><th>Componente</th><th>${esc(rot.atual)}</th><th>${esc(rot.anterior)}</th><th>Diferença</th><th>Parte do aumento</th></tr></thead>`;
 
   ensureHistModal();
+  document.querySelector('#histOverlay .hist-modal').style.width = '';
   document.getElementById('histTitle').textContent = (dif > 1/120 ? 'Onde aumentou — ' : dif < -1/120 ? 'Onde diminuiu — ' : 'Comparação — ') + lbl;
   document.getElementById('histSub').textContent = `${rot.atual} × ${rot.anterior}`;
   document.getElementById('histBody').innerHTML = `
@@ -1685,6 +1716,172 @@ function renderReincidencia(turno, equip){
 
 function semBaseComp(){
   ['tableComp','tableEventos'].forEach(id => document.getElementById(id).innerHTML = '<tbody><tr><td>Base de componentes ainda não gerada — rode o robô "Processar planilha PCM".</td></tr></tbody>');
+}
+
+
+// ---------- Pesquisa de componente por TAG / nome + análise completa ----------
+let buscaIndice = null, buscaSel = -1, buscaRes = [], anaChart = null;
+const semAcento = t => String(t||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toUpperCase().trim();
+
+function montaIndiceBusca(){
+  const tot = compBase.meta.map(() => ({f:0, h:0, ult:'', maq:{}}));
+  Object.entries(compBase.dias).forEach(([dt, rows]) => rows.forEach(r => {
+    const o = tot[r[0]]; o.f += r[2]; o.h += r[3]; if(dt > o.ult) o.ult = dt; o.maq[r[1].toUpperCase()] = 1;
+  }));
+  buscaIndice = compBase.meta.map((m, k) => ({k, tag: m[0], comp: m[1], tipo: m[2], tagN: semAcento(m[0]), compN: semAcento(m[1]), ...tot[k], maqs: Object.keys(tot[k].maq).join(', ')}))
+    .filter(x => x.f > 0);
+}
+
+function buscaFiltra(q){
+  const Q = semAcento(q);
+  if(!Q) return [];
+  const pont = x => x.tagN === Q ? 0 : x.tagN.startsWith(Q) ? 1 : x.tagN.includes(Q) ? 2 : x.compN.startsWith(Q) ? 3 : x.compN.includes(Q) ? 4 : 9;
+  return buscaIndice.map(x => ({x, p: pont(x)})).filter(o => o.p < 9)
+    .sort((a,b) => a.p - b.p || b.x.f - a.x.f).slice(0, 15).map(o => o.x);
+}
+
+function buscaMostra(){
+  const lista = document.getElementById('buscaLista');
+  const q = document.getElementById('buscaComp').value;
+  if(!q.trim()){ lista.hidden = true; return; }
+  buscaRes = buscaFiltra(q);
+  buscaSel = buscaRes.length ? 0 : -1;
+  lista.innerHTML = buscaRes.length ? buscaRes.map((x, i) => `
+    <div class="busca-item${i === buscaSel ? ' sel' : ''}" role="option" data-k="${x.k}">
+      <span class="tg">${esc(x.tag || '—')}</span>
+      <span class="nm">${esc(x.comp)}${x.tipo === 'evento' ? '<span class="ev">evento</span>' : ''}<small>${esc(x.maqs)}</small></span>
+      <span class="ct">${x.f} falhas<br>últ. ${fmtDateBR(x.ult).slice(0,5)}</span>
+    </div>`).join('') : '<div class="busca-vazio">Nenhum componente encontrado com essa TAG ou nome.</div>';
+  lista.hidden = false;
+}
+
+function buscaMarca(){
+  document.querySelectorAll('#buscaLista .busca-item').forEach((el, i) => el.classList.toggle('sel', i === buscaSel));
+  const el = document.querySelectorAll('#buscaLista .busca-item')[buscaSel];
+  if(el) el.scrollIntoView({block:'nearest'});
+}
+
+function buscaEscolhe(k){
+  document.getElementById('buscaLista').hidden = true;
+  document.getElementById('buscaComp').blur();
+  abrirAnaliseComp(Number(k));
+}
+
+document.getElementById('buscaComp').addEventListener('input', () => {
+  if(buscaIndice){ buscaMostra(); return; }
+  carregaCompBase().then(b => { if(b){ montaIndiceBusca(); buscaMostra(); } });
+});
+document.getElementById('buscaComp').addEventListener('keydown', e => {
+  const lista = document.getElementById('buscaLista');
+  if(e.key === 'ArrowDown' && buscaRes.length){ buscaSel = (buscaSel + 1) % buscaRes.length; buscaMarca(); e.preventDefault(); }
+  else if(e.key === 'ArrowUp' && buscaRes.length){ buscaSel = (buscaSel - 1 + buscaRes.length) % buscaRes.length; buscaMarca(); e.preventDefault(); }
+  else if(e.key === 'Enter' && buscaSel >= 0 && !lista.hidden){ buscaEscolhe(buscaRes[buscaSel].k); e.preventDefault(); }
+  else if(e.key === 'Escape'){ lista.hidden = true; }
+});
+document.getElementById('buscaComp').addEventListener('focus', () => { if(buscaIndice && document.getElementById('buscaComp').value.trim()) buscaMostra(); });
+document.addEventListener('click', e => {
+  const it = e.target.closest && e.target.closest('#buscaLista .busca-item');
+  if(it){ buscaEscolhe(it.dataset.k); return; }
+  if(!(e.target.closest && e.target.closest('#buscaBox'))) document.getElementById('buscaLista').hidden = true;
+});
+
+function abrirAnaliseComp(k){
+  if(!compBase) return;
+  const m = compBase.meta[k];
+  const datas = currentDates.filter(d => compBase.dias[d]);
+  const ant = periodoAnterior(datas).filter(d => compBase.dias[d]);
+  const rot = rotulosPeriodo(datas, ant);
+  const temAnt = ant.length > 0;
+  const setA = new Set(datas), setB = new Set(ant);
+  const vazio = () => ({f:0, h:0});
+  const P = {A:{f:0,h:0,dep:{},tur:{'1':vazio(),'2':vazio(),'3':vazio()},maq:{}}, B:{f:0,h:0,dep:{},tur:{'1':vazio(),'2':vazio(),'3':vazio()},maq:{}}};
+  const mes = {}, dia = {};
+  let totF = 0, totH = 0, primeira = '', ultima = '';
+  Object.entries(compBase.dias).forEach(([dt, rows]) => rows.forEach(r => {
+    if(r[0] !== k) return;
+    totF += r[2]; totH += r[3];
+    if(!primeira || dt < primeira) primeira = dt;
+    if(dt > ultima) ultima = dt;
+    const mk = dt.slice(0,7); if(!mes[mk]) mes[mk] = vazio(); mes[mk].f += r[2]; mes[mk].h += r[3];
+    if(!dia[dt]) dia[dt] = vazio(); dia[dt].f += r[2]; dia[dt].h += r[3];
+    const alvo = setA.has(dt) ? P.A : setB.has(dt) ? P.B : null;
+    if(!alvo) return;
+    alvo.f += r[2]; alvo.h += r[3];
+    const dep = r[10] || '—', mq = r[1].toUpperCase();
+    if(!alvo.dep[dep]) alvo.dep[dep] = vazio(); alvo.dep[dep].f += r[2]; alvo.dep[dep].h += r[3];
+    if(!alvo.maq[mq]) alvo.maq[mq] = vazio(); alvo.maq[mq].f += r[2]; alvo.maq[mq].h += r[3];
+    [['1',4],['2',6],['3',8]].forEach(([t,i]) => { alvo.tur[t].f += r[i]; alvo.tur[t].h += r[i+1]; });
+  }));
+
+  const todas = datasDisponiveis();
+  const ultDado = todas[todas.length-1];
+  const diasDesde = ultima ? Math.round((new Date(ultDado+'T12:00:00') - new Date(ultima+'T12:00:00')) / 86400000) : null;
+  const janela = Array.from({length:7}, (_,i) => addDias(ultDado, i-6));
+  const serie7 = janela.map(d => dia[d] ? dia[d].f : 0);
+  const max7 = Math.max(1, ...serie7);
+  const mttr = o => o.f ? o.h / o.f * 60 : 0;
+
+  const tabela = (titulo, chaves, rotulo, oA, oB) => {
+    const ks = chaves.filter(c => (oA[c] && (oA[c].f || oA[c].h)) || (oB[c] && (oB[c].f || oB[c].h)));
+    return `<div class="ana-box"><h4>${titulo}</h4>${ks.length ? `<table class="ana-t"><thead><tr><th></th><th>${esc(rot.atualCurto || rot.atual)}</th>${temAnt ? `<th>${esc(rot.curto || rot.anterior)}</th><th>Dif.</th>` : ''}</tr></thead><tbody>
+      ${ks.map(c => { const a = oA[c] || vazio(), b = oB[c] || vazio();
+        return `<tr><td>${esc(rotulo(c))}</td><td>${a.f}×<small>${hmMin(a.h)}</small></td>${temAnt ? `<td>${b.f}×<small>${hmMin(b.h)}</small></td><td>${deltaHtml(a.f, b.f, true)}<small>${deltaHoras(a.h, b.h)}</small></td>` : ''}</tr>`; }).join('')}
+      </tbody></table>` : '<div class="hist-note">Sem paradas nesses períodos.</div>'}</div>`;
+  };
+  const deps = [...new Set([...Object.keys(P.A.dep), ...Object.keys(P.B.dep)])].sort((a,b) => (P.A.dep[b]||vazio()).f - (P.A.dep[a]||vazio()).f);
+  const maqs = [...new Set([...Object.keys(P.A.maq), ...Object.keys(P.B.maq)])].sort((a,b) => (P.A.maq[b]||vazio()).f - (P.A.maq[a]||vazio()).f);
+  const maqNomes = [...new Set(Object.values(compBase.dias).flatMap(rows => rows.filter(r => r[0] === k).map(r => r[1].toUpperCase())))];
+
+  ensureHistModal();
+  document.querySelector('#histOverlay .hist-modal').style.width = 'min(1040px, 100%)';
+  document.getElementById('histTitle').textContent = m[1];
+  document.getElementById('histSub').textContent = `${m[0] || 'sem TAG'} · ${maqNomes.join(', ')}${m[2] === 'evento' ? ' · evento de processo' : ''}`;
+  document.getElementById('histBody').innerHTML = `
+    <div class="hist-chips">
+      <div class="hist-chip"><div class="l">Falhas · ${esc(rot.atualCurto || rot.atual)}</div><div class="v">${P.A.f}</div><div class="l" style="text-transform:none">${temAnt ? `${esc(rot.curto || rot.anterior)}: ${P.B.f} · ${deltaHtml(P.A.f, P.B.f, true)}` : ''}</div></div>
+      <div class="hist-chip"><div class="l">Tempo parado</div><div class="v">${hmMin(P.A.h)}</div><div class="l" style="text-transform:none">${temAnt ? `${esc(rot.curto || rot.anterior)}: ${hmMin(P.B.h)} · ${deltaHoras(P.A.h, P.B.h)}` : ''}</div></div>
+      <div class="hist-chip"><div class="l">MTTR</div><div class="v">${mttr(P.A).toFixed(1).replace('.',',')} min</div><div class="l" style="text-transform:none">${temAnt ? `${esc(rot.curto || rot.anterior)}: ${mttr(P.B).toFixed(1).replace('.',',')} min` : ''}</div></div>
+      <div class="hist-chip"><div class="l">Última falha</div><div class="v">${ultima ? fmtDateBR(ultima).slice(0,5) : '—'}</div><div class="l" style="text-transform:none">${diasDesde == null ? '' : diasDesde === 0 ? 'no último dia com dados' : `há ${diasDesde} dia(s)`}</div></div>
+      <div class="hist-chip"><div class="l">Histórico total</div><div class="v">${totF}×</div><div class="l" style="text-transform:none">${hmMin(totH)} · desde ${primeira ? fmtDateBR(primeira) : '—'}</div></div>
+    </div>
+    <div class="ana-note">Análise de ${esc(rot.atual)}${temAnt ? ' comparada com ' + esc(rot.anterior) : ''}, considerando todas as máquinas e todos os turnos.</div>
+    <h4 class="imp-h">Evolução mês a mês</h4>
+    <div class="ana-chart"><canvas id="anaChart"></canvas></div>
+    <div class="ana-grid">
+      ${tabela('Por departamento', deps, d => d, P.A.dep, P.B.dep)}
+      ${tabela('Por turno', ['1','2','3'], t => 'Turno ' + t, P.A.tur, P.B.tur)}
+      ${tabela('Por máquina', maqs, q => q, P.A.maq, P.B.maq)}
+    </div>
+    <h4 class="imp-h">Últimos 7 dias — ${serie7.reduce((a,b)=>a+b,0)} falha(s), ${serie7.filter(v=>v).length} de 7 dias com falha</h4>
+    <div style="max-width:420px; margin-bottom:16px">
+      <div class="spark">${serie7.map(v => `<div class="${v ? 'on' : ''}" style="height:${Math.max(2, v/max7*34)}px" title="${v} falha(s)"></div>`).join('')}</div>
+      <div class="spark-lbl">${janela.map(d => `<span>${d.slice(8,10)}</span>`).join('')}</div>
+    </div>
+    <button class="hist-link" id="anaOcorr">Ver as ocorrências de ${esc(rot.atual)}</button>`;
+  document.getElementById('histOverlay').classList.add('open');
+
+  const meses = Object.keys(mes).sort();
+  if(anaChart){ anaChart.destroy(); anaChart = null; }
+  const NM = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
+  anaChart = new Chart(document.getElementById('anaChart'), {
+    data:{ labels: meses.map(x => NM[Number(x.slice(5,7))-1] + '/' + x.slice(2,4)),
+      datasets:[
+        {type:'bar', label:'Falhas', data: meses.map(x => mes[x].f), backgroundColor:'#1E9350', borderRadius:4, maxBarThickness:34, yAxisID:'y',
+          datalabels:{display:true, anchor:'end', align:'top', color:'#12271A', font:{size:10, weight:600}}},
+        {type:'line', label:'Horas paradas', data: meses.map(x => mes[x].h), borderColor:'#E08A1E', backgroundColor:'#E08A1E', borderWidth:2, pointRadius:3, tension:.3, yAxisID:'yH', datalabels:{display:false}}
+      ]},
+    options:{ maintainAspectRatio:false, layout:{padding:{top:16}},
+      plugins:{ legend:{position:'bottom', labels:{boxWidth:9, boxHeight:9, usePointStyle:true}},
+        tooltip:{callbacks:{label:c => c.dataset.yAxisID === 'yH' ? `Horas: ${hmMin(c.raw)}` : `Falhas: ${c.raw}`}} },
+      scales:{ x:{grid:{display:false}}, y:{grid:{color:'#E7F1EA'}, ticks:{precision:0}, title:{display:true, text:'falhas'}},
+        yH:{position:'right', grid:{display:false}, ticks:{callback:v => v + 'h'}, title:{display:true, text:'horas'}} } }
+  });
+
+  document.getElementById('anaOcorr').onclick = () => {
+    document.querySelector('#histOverlay .hist-modal').style.width = '';
+    abrirHistoricoComp({k, tag: m[0], componente: m[1], tipo: m[2], falhas: P.A.f, horas: P.A.h,
+      maquinas: Object.fromEntries(Object.entries(P.A.maq).map(([q, o]) => [q, o.f]))});
+  };
 }
 
 function destroyCharts(){
