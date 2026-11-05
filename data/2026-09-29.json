@@ -1,6 +1,6 @@
 {
   "date": "2026-09-29",
-  "updated_at": "2026-11-05T12:08",
+  "updated_at": "2026-11-05T13:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -389,7 +389,7 @@
           "inicio": "02:08",
           "fim": "02:11",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
@@ -402,7 +402,7 @@
           "inicio": "04:19",
           "fim": "04:25",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
@@ -1545,7 +1545,7 @@
     "Automação": {
       "1": 2.05,
       "2": 5.1833,
-      "3": 0.7
+      "3": 0.55
     },
     "Elétrica": {
       "1": 2.6333,
@@ -1555,7 +1555,7 @@
     "Mecânica": {
       "1": 0.7667,
       "2": 1.4333,
-      "3": 6.6
+      "3": 6.75
     }
   },
   "top_falhas": [
@@ -2182,7 +2182,7 @@
           "inicio": "02:08",
           "fim": "02:11",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
@@ -2193,7 +2193,7 @@
           "inicio": "04:19",
           "fim": "04:25",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
@@ -3686,7 +3686,7 @@
           "inicio": "02:08",
           "fim": "02:11",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
@@ -3697,7 +3697,7 @@
           "inicio": "04:19",
           "fim": "04:25",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
@@ -4129,15 +4129,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 8.8,
-        "disponibilidade_pct": 96.9231,
-        "indisponibilidade_pct": 3.0769
+        "horas_paradas": 8.95,
+        "disponibilidade_pct": 96.8706,
+        "indisponibilidade_pct": 3.1294
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 7.9333,
-        "disponibilidade_pct": 90.9848,
-        "indisponibilidade_pct": 9.0152
+        "horas_paradas": 7.7833,
+        "disponibilidade_pct": 91.1553,
+        "indisponibilidade_pct": 8.8447
       }
     }
   },

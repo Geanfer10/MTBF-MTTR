@@ -1,6 +1,6 @@
 {
   "date": "2026-06-10",
-  "updated_at": "2026-11-05T12:07",
+  "updated_at": "2026-11-05T13:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -172,7 +172,7 @@
           "inicio": "05:21",
           "fim": "05:25",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0667,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
@@ -315,7 +315,7 @@
           "inicio": "10:25",
           "fim": "10:30",
           "turno": 1,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -549,7 +549,7 @@
           "inicio": "18:13",
           "fim": "18:16",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -653,7 +653,7 @@
           "inicio": "23:41",
           "fim": "23:46",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -2051,9 +2051,9 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 2.4333,
-      "2": 4.05,
-      "3": 0.9776
+      "1": 2.35,
+      "2": 4.0,
+      "3": 0.8276
     },
     "Elétrica": {
       "1": 0.0,
@@ -2061,9 +2061,9 @@
       "3": 1.75
     },
     "Mecânica": {
-      "1": 11.6667,
-      "2": 5.7167,
-      "3": 3.0667
+      "1": 11.75,
+      "2": 5.7667,
+      "3": 3.2167
     }
   },
   "top_falhas": [
@@ -2380,7 +2380,7 @@
           "inicio": "05:21",
           "fim": "05:25",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0667,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
@@ -2457,7 +2457,7 @@
           "inicio": "10:25",
           "fim": "10:30",
           "turno": 1,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -2534,7 +2534,7 @@
           "inicio": "18:13",
           "fim": "18:16",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -2589,7 +2589,7 @@
           "inicio": "23:41",
           "fim": "23:46",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -4147,7 +4147,7 @@
           "inicio": "05:21",
           "fim": "05:25",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0667,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
@@ -4224,7 +4224,7 @@
           "inicio": "10:25",
           "fim": "10:30",
           "turno": 1,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -4301,7 +4301,7 @@
           "inicio": "18:13",
           "fim": "18:16",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -4356,7 +4356,7 @@
           "inicio": "23:41",
           "fim": "23:46",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -5055,15 +5055,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 20.45,
-        "disponibilidade_pct": 92.8497,
-        "indisponibilidade_pct": 7.1503
+        "horas_paradas": 20.7333,
+        "disponibilidade_pct": 92.7506,
+        "indisponibilidade_pct": 7.2494
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 7.4609,
-        "disponibilidade_pct": 91.5217,
-        "indisponibilidade_pct": 8.4783
+        "horas_paradas": 7.1776,
+        "disponibilidade_pct": 91.8436,
+        "indisponibilidade_pct": 8.1564
       }
     }
   },

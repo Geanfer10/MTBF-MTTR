@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "updated_at": "2026-11-05T12:08",
+  "updated_at": "2026-11-05T13:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -632,7 +632,7 @@
           "inicio": "00:44",
           "fim": "00:47",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -723,7 +723,7 @@
           "inicio": "10:01",
           "fim": "10:09",
           "turno": 1,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1333,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -892,7 +892,7 @@
           "inicio": "18:17",
           "fim": "18:26",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.15,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -918,7 +918,7 @@
           "inicio": "19:27",
           "fim": "19:30",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -931,7 +931,7 @@
           "inicio": "19:39",
           "fim": "19:46",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1167,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -957,7 +957,7 @@
           "inicio": "20:17",
           "fim": "20:24",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1167,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -983,7 +983,7 @@
           "inicio": "20:59",
           "fim": "21:02",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -1925,9 +1925,9 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 1.2167,
-      "2": 2.9167,
-      "3": 0.9333
+      "1": 1.0833,
+      "2": 2.4333,
+      "3": 0.8833
     },
     "Elétrica": {
       "1": 0.7333,
@@ -1935,9 +1935,9 @@
       "3": 0.8167
     },
     "Mecânica": {
-      "1": 2.6667,
-      "2": 8.9833,
-      "3": 5.25
+      "1": 2.8,
+      "2": 9.4667,
+      "3": 5.3
     }
   },
   "top_falhas": [
@@ -3021,7 +3021,7 @@
           "inicio": "19:27",
           "fim": "19:30",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -3032,7 +3032,7 @@
           "inicio": "19:39",
           "fim": "19:46",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1167,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -3043,7 +3043,7 @@
           "inicio": "20:17",
           "fim": "20:24",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1167,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -4456,15 +4456,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 189.0,
-        "horas_paradas": 16.9,
-        "disponibilidade_pct": 91.0582,
-        "indisponibilidade_pct": 8.9418
+        "horas_paradas": 17.5667,
+        "disponibilidade_pct": 90.7055,
+        "indisponibilidade_pct": 9.2945
       },
       "Automação": {
         "horas_disponiveis": 87.1667,
-        "horas_paradas": 5.0667,
-        "disponibilidade_pct": 94.1874,
-        "indisponibilidade_pct": 5.8126
+        "horas_paradas": 4.4,
+        "disponibilidade_pct": 94.9522,
+        "indisponibilidade_pct": 5.0478
       }
     }
   },

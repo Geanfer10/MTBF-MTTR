@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-11-05T12:08",
+  "updated_at": "2026-11-05T13:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -29,7 +29,7 @@
           "inicio": "01:29",
           "fim": "01:35",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -1503,7 +1503,7 @@
     "Automação": {
       "1": 2.1333,
       "2": 1.4,
-      "3": 0.9333
+      "3": 0.8333
     },
     "Elétrica": {
       "1": 0.0,
@@ -1513,7 +1513,7 @@
     "Mecânica": {
       "1": 2.0,
       "2": 1.6,
-      "3": 2.6333
+      "3": 2.7333
     }
   },
   "top_falhas": [
@@ -3823,15 +3823,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 275.9333,
-        "horas_paradas": 6.2333,
-        "disponibilidade_pct": 97.741,
-        "indisponibilidade_pct": 2.259
+        "horas_paradas": 6.3333,
+        "disponibilidade_pct": 97.7048,
+        "indisponibilidade_pct": 2.2952
       },
       "Automação": {
         "horas_disponiveis": 91.9667,
-        "horas_paradas": 4.4667,
-        "disponibilidade_pct": 95.1432,
-        "indisponibilidade_pct": 4.8568
+        "horas_paradas": 4.3667,
+        "disponibilidade_pct": 95.2519,
+        "indisponibilidade_pct": 4.7481
       }
     }
   },

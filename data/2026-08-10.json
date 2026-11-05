@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "updated_at": "2026-11-05T12:08",
+  "updated_at": "2026-11-05T13:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -29,7 +29,7 @@
           "inicio": "00:51",
           "fim": "00:54",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -55,7 +55,7 @@
           "inicio": "01:51",
           "fim": "01:58",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1167,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -419,7 +419,7 @@
           "inicio": "16:28",
           "fim": "16:37",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.15,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -432,7 +432,7 @@
           "inicio": "17:11",
           "fim": "17:16",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -1879,8 +1879,8 @@
   "turnos": {
     "Automação": {
       "1": 2.7167,
-      "2": 3.8833,
-      "3": 2.55
+      "2": 3.65,
+      "3": 2.3833
     },
     "Elétrica": {
       "1": 0.7333,
@@ -1889,8 +1889,8 @@
     },
     "Mecânica": {
       "1": 0.6167,
-      "2": 3.6,
-      "3": 2.5167
+      "2": 3.8333,
+      "3": 2.6833
     }
   },
   "top_falhas": [
@@ -1920,7 +1920,7 @@
           "inicio": "00:51",
           "fim": "00:54",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -2140,7 +2140,7 @@
           "inicio": "16:28",
           "fim": "16:37",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.15,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -2151,7 +2151,7 @@
           "inicio": "17:11",
           "fim": "17:16",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -3408,7 +3408,7 @@
           "inicio": "00:51",
           "fim": "00:54",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -3628,7 +3628,7 @@
           "inicio": "16:28",
           "fim": "16:37",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.15,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -3639,7 +3639,7 @@
           "inicio": "17:11",
           "fim": "17:16",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -4981,15 +4981,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 6.7333,
-        "disponibilidade_pct": 97.6457,
-        "indisponibilidade_pct": 2.3543
+        "horas_paradas": 7.1333,
+        "disponibilidade_pct": 97.5058,
+        "indisponibilidade_pct": 2.4942
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 9.15,
-        "disponibilidade_pct": 89.6023,
-        "indisponibilidade_pct": 10.3977
+        "horas_paradas": 8.75,
+        "disponibilidade_pct": 90.0568,
+        "indisponibilidade_pct": 9.9432
       }
     }
   },

@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "updated_at": "2026-11-05T12:08",
+  "updated_at": "2026-11-05T13:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1048,7 +1048,7 @@
           "inicio": "20:26",
           "fim": "20:29",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -1061,7 +1061,7 @@
           "inicio": "22:30",
           "fim": "22:32",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0333,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -2043,7 +2043,7 @@
   "turnos": {
     "Automação": {
       "1": 2.6,
-      "2": 3.0,
+      "2": 2.9167,
       "3": 4.7333
     },
     "Elétrica": {
@@ -2053,7 +2053,7 @@
     },
     "Mecânica": {
       "1": 2.3,
-      "2": 7.9,
+      "2": 7.9833,
       "3": 3.4798
     }
   },
@@ -2933,7 +2933,7 @@
           "inicio": "20:26",
           "fim": "20:29",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -2944,7 +2944,7 @@
           "inicio": "22:30",
           "fim": "22:32",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0333,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -4510,7 +4510,7 @@
           "inicio": "20:26",
           "fim": "20:29",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -4521,7 +4521,7 @@
           "inicio": "22:30",
           "fim": "22:32",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0333,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
@@ -5233,15 +5233,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 13.6798,
-        "disponibilidade_pct": 95.2168,
-        "indisponibilidade_pct": 4.7832
+        "horas_paradas": 13.7632,
+        "disponibilidade_pct": 95.1877,
+        "indisponibilidade_pct": 4.8123
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 10.3333,
-        "disponibilidade_pct": 88.2576,
-        "indisponibilidade_pct": 11.7424
+        "horas_paradas": 10.25,
+        "disponibilidade_pct": 88.3523,
+        "indisponibilidade_pct": 11.6477
       }
     }
   },

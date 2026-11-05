@@ -1,6 +1,6 @@
 {
   "date": "2026-05-25",
-  "updated_at": "2026-11-05T12:07",
+  "updated_at": "2026-11-05T13:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -181,7 +181,7 @@
           "inicio": "02:16",
           "fim": "02:20",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0667,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
@@ -272,7 +272,7 @@
           "inicio": "10:11",
           "fim": "10:16",
           "turno": 1,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
@@ -2182,9 +2182,9 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 1.7,
+      "1": 1.6167,
       "2": 3.7333,
-      "3": 3.8667
+      "3": 3.8
     },
     "Elétrica": {
       "1": 1.6,
@@ -2192,9 +2192,9 @@
       "3": 0.7833
     },
     "Mecânica": {
-      "1": 2.3833,
+      "1": 2.4667,
       "2": 10.2333,
-      "3": 4.55
+      "3": 4.6167
     }
   },
   "top_falhas": [
@@ -3397,7 +3397,7 @@
           "inicio": "02:16",
           "fim": "02:20",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0667,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
@@ -3419,7 +3419,7 @@
           "inicio": "10:11",
           "fim": "10:16",
           "turno": 1,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
@@ -5296,15 +5296,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 17.1667,
-        "disponibilidade_pct": 93.9977,
-        "indisponibilidade_pct": 6.0023
+        "horas_paradas": 17.3167,
+        "disponibilidade_pct": 93.9452,
+        "indisponibilidade_pct": 6.0548
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 9.3,
-        "disponibilidade_pct": 89.4318,
-        "indisponibilidade_pct": 10.5682
+        "horas_paradas": 9.15,
+        "disponibilidade_pct": 89.6023,
+        "indisponibilidade_pct": 10.3977
       }
     }
   },
