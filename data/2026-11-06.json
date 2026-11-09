@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updated_at": "2026-11-09T14:04",
+  "updated_at": "2026-11-09T14:30",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1292,8 +1292,8 @@
           "horas": 1.1833,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste e troca do cilindro do bico 4",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "20367",
+          "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN"
         },
         {
           "data": "2026-11-06",
@@ -1305,8 +1305,8 @@
           "horas": 0.1667,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste no cilindro do bico 4",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "20367",
+          "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN"
         },
         {
           "data": "2026-11-06",
@@ -1318,8 +1318,8 @@
           "horas": 0.1167,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste no bico 4",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "20367",
+          "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN"
         },
         {
           "data": "2026-11-06",
@@ -1331,8 +1331,8 @@
           "horas": 0.0667,
           "motivo": "AGUARDANDO MECÂNICO",
           "obs": "",
-          "tag": "",
-          "componente": "AGUARDANDO MECÂNICO"
+          "tag": "20367",
+          "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN"
         },
         {
           "data": "2026-11-06",
@@ -1344,8 +1344,8 @@
           "horas": 0.05,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste na descida do bico 4",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "20367",
+          "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN"
         }
       ]
     },
@@ -1440,8 +1440,8 @@
           "horas": 0.1833,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "polimento na placa cabeçote 1",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "30787",
+          "componente": "CABEÇOTE SUPERIOR CONDOR 2KG"
         },
         {
           "data": "2026-11-06",
@@ -1453,8 +1453,8 @@
           "horas": 0.3,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "tampa presa",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "30787",
+          "componente": "CABEÇOTE SUPERIOR CONDOR 2KG"
         }
       ]
     },
@@ -1549,8 +1549,8 @@
           "horas": 0.3667,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "Troca de molas da mordaça superior",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "20479",
+          "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A "
         }
       ]
     },
@@ -1654,8 +1654,8 @@
           "horas": 0.0833,
           "motivo": "TROCA DE MOLA DAS PINÇAS",
           "obs": "",
-          "tag": "",
-          "componente": "TROCA DE MOLA DAS PINÇAS"
+          "tag": "20507",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK B "
         }
       ]
     },
@@ -1689,8 +1689,8 @@
           "horas": 0.05,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "polimento da placa do cabeçote 4 ",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "30463",
+          "componente": "CABEÇOTE SUPERIOR 60L2"
         }
       ]
     }
@@ -1712,8 +1712,460 @@
       "3": 3.55
     }
   },
-  "top_falhas": [],
-  "parada_componentes": [],
+  "top_falhas": [
+    {
+      "tag": "20367",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 5,
+      "horas": 1.5833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 1.5833,
+          "falhas": 5
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-06",
+          "inicio": "00:33",
+          "fim": "01:44",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.1833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste e troca do cilindro do bico 4"
+        },
+        {
+          "data": "2026-11-06",
+          "inicio": "02:05",
+          "fim": "02:15",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no cilindro do bico 4"
+        },
+        {
+          "data": "2026-11-06",
+          "inicio": "05:03",
+          "fim": "05:10",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico 4"
+        },
+        {
+          "data": "2026-11-06",
+          "inicio": "23:13",
+          "fim": "23:17",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-06",
+          "inicio": "23:17",
+          "fim": "23:20",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste na descida do bico 4"
+        }
+      ]
+    },
+    {
+      "tag": "30787",
+      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
+      "equipamento": "CONDOR",
+      "falhas": 2,
+      "horas": 0.4833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.4833,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-06",
+          "inicio": "00:32",
+          "fim": "00:43",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento na placa cabeçote 1"
+        },
+        {
+          "data": "2026-11-06",
+          "inicio": "04:59",
+          "fim": "05:17",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "tampa presa"
+        }
+      ]
+    },
+    {
+      "tag": "20479",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A ",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.3667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.3667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-06",
+          "inicio": "19:31",
+          "fim": "19:53",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Troca de molas da mordaça superior"
+        }
+      ]
+    },
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.0833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0833,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-06",
+          "inicio": "01:35",
+          "fim": "01:40",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "30463",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
+      "equipamento": "60l2",
+      "falhas": 1,
+      "horas": 0.05,
+      "por_turno": {
+        "1": {
+          "horas": 0.05,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-06",
+          "inicio": "08:10",
+          "fim": "08:13",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento da placa do cabeçote 4 "
+        }
+      ]
+    }
+  ],
+  "parada_componentes": [
+    {
+      "tag": "20367",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 5,
+      "horas": 1.5833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 1.5833,
+          "falhas": 5
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-06",
+          "inicio": "00:33",
+          "fim": "01:44",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.1833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste e troca do cilindro do bico 4"
+        },
+        {
+          "data": "2026-11-06",
+          "inicio": "02:05",
+          "fim": "02:15",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no cilindro do bico 4"
+        },
+        {
+          "data": "2026-11-06",
+          "inicio": "05:03",
+          "fim": "05:10",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico 4"
+        },
+        {
+          "data": "2026-11-06",
+          "inicio": "23:13",
+          "fim": "23:17",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-06",
+          "inicio": "23:17",
+          "fim": "23:20",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste na descida do bico 4"
+        }
+      ]
+    },
+    {
+      "tag": "30787",
+      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
+      "equipamento": "CONDOR",
+      "falhas": 2,
+      "horas": 0.4833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.4833,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-06",
+          "inicio": "00:32",
+          "fim": "00:43",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento na placa cabeçote 1"
+        },
+        {
+          "data": "2026-11-06",
+          "inicio": "04:59",
+          "fim": "05:17",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "tampa presa"
+        }
+      ]
+    },
+    {
+      "tag": "20479",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A ",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.3667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.3667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-06",
+          "inicio": "19:31",
+          "fim": "19:53",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Troca de molas da mordaça superior"
+        }
+      ]
+    },
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.0833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0833,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-06",
+          "inicio": "01:35",
+          "fim": "01:40",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "30463",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
+      "equipamento": "60l2",
+      "falhas": 1,
+      "horas": 0.05,
+      "por_turno": {
+        "1": {
+          "horas": 0.05,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-06",
+          "inicio": "08:10",
+          "fim": "08:13",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento da placa do cabeçote 4 "
+        }
+      ]
+    }
+  ],
   "evolucao_mensal": [
     {
       "mes": "março",
