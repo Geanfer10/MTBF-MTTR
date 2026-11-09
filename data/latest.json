@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "updated_at": "2026-11-09T14:45",
+  "updated_at": "2026-11-09T18:31",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -416,7 +416,7 @@
           "horas": 0.0833,
           "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
           "obs": "",
-          "tag": "",
+          "tag": "FEL01",
           "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
         },
         {
@@ -429,8 +429,8 @@
           "horas": 0.0333,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": "",
-          "tag": "",
-          "componente": "FALTA DE GRELHA (BANDEJA)"
+          "tag": "ROBOTICA03",
+          "componente": "FALTA DE GRELHA R1"
         },
         {
           "data": "2026-11-07",
@@ -442,8 +442,8 @@
           "horas": 0.0667,
           "motivo": "ROBO EMPILHADOR EM FALHA",
           "obs": "",
-          "tag": "",
-          "componente": "ROBO EMPILHADOR EM FALHA"
+          "tag": "RB09",
+          "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS"
         },
         {
           "data": "2026-11-07",
@@ -455,8 +455,8 @@
           "horas": 0.0333,
           "motivo": "ROBO EMPILHADOR EM FALHA",
           "obs": "",
-          "tag": "",
-          "componente": "ROBO EMPILHADOR EM FALHA"
+          "tag": "RB09",
+          "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS"
         },
         {
           "data": "2026-11-07",
@@ -468,8 +468,8 @@
           "horas": 0.0833,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "",
-          "tag": "",
-          "componente": "MANUTENÇÃO ELÉTRICA"
+          "tag": "INK07",
+          "componente": "INKJET MESPACK R1"
         },
         {
           "data": "2026-11-07",
@@ -481,8 +481,8 @@
           "horas": 0.25,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "",
-          "tag": "",
-          "componente": "MANUTENÇÃO ELÉTRICA"
+          "tag": "INK07",
+          "componente": "INKJET MESPACK R1"
         },
         {
           "data": "2026-11-07",
@@ -494,7 +494,7 @@
           "horas": 0.1167,
           "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
           "obs": "",
-          "tag": "",
+          "tag": "FEL01",
           "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
         },
         {
@@ -507,21 +507,21 @@
           "horas": 0.65,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "31198",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1"
         },
         {
           "data": "2026-11-07",
           "inicio": "13:10",
           "fim": "13:12",
           "turno": 1,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0333,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
           "obs": "",
-          "tag": "",
-          "componente": "BASE PRESA NAS CADENAS E TRANSFERIDORES"
+          "tag": "TP-BJ10",
+          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ-10"
         },
         {
           "data": "2026-11-07",
@@ -533,7 +533,7 @@
           "horas": 0.0333,
           "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
           "obs": "",
-          "tag": "",
+          "tag": "FEL01",
           "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
         },
         {
@@ -546,8 +546,8 @@
           "horas": 0.0833,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "falha no injekt ",
-          "tag": "",
-          "componente": "MANUTENÇÃO ELÉTRICA"
+          "tag": "INK07",
+          "componente": "INKJET MESPACK R1"
         }
       ]
     },
@@ -1029,7 +1029,7 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 3.1,
+      "1": 3.0667,
       "2": 0.0,
       "3": 0.0
     },
@@ -1039,7 +1039,7 @@
       "3": 0.0
     },
     "Mecânica": {
-      "1": 4.8167,
+      "1": 4.85,
       "2": 0.0,
       "3": 0.0
     }
@@ -1258,6 +1258,118 @@
       ]
     },
     {
+      "tag": "FEL01",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+      "equipamento": "MESPACK R1",
+      "falhas": 3,
+      "horas": 0.2333,
+      "por_turno": {
+        "1": {
+          "horas": 0.2333,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-07",
+          "inicio": "07:52",
+          "fim": "07:57",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-07",
+          "inicio": "11:44",
+          "fim": "11:51",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-07",
+          "inicio": "13:58",
+          "fim": "14:00",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "INK07",
+      "componente": "INKJET MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 3,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.4167,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-07",
+          "inicio": "10:50",
+          "fim": "10:55",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-07",
+          "inicio": "10:57",
+          "fim": "11:12",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-07",
+          "inicio": "14:19",
+          "fim": "14:24",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "falha no injekt "
+        }
+      ]
+    },
+    {
       "tag": "20367",
       "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
       "equipamento": "ENCHEDEIRA TOP DOWN",
@@ -1299,51 +1411,6 @@
           "horas": 0.2833,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste no bico dosador 4"
-        }
-      ]
-    },
-    {
-      "tag": "31319",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK F",
-      "equipamento": "MESPACK F",
-      "falhas": 2,
-      "horas": 1.7667,
-      "por_turno": {
-        "1": {
-          "horas": 1.7667,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-11-07",
-          "inicio": "08:39",
-          "fim": "09:48",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 1.15,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "falha no sinal de dosagem "
-        },
-        {
-          "data": "2026-11-07",
-          "inicio": "10:55",
-          "fim": "11:32",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.6167,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "falha no sensor de dosagem "
         }
       ]
     },
@@ -1393,6 +1460,96 @@
       ]
     },
     {
+      "tag": "31319",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 2,
+      "horas": 1.7667,
+      "por_turno": {
+        "1": {
+          "horas": 1.7667,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-07",
+          "inicio": "08:39",
+          "fim": "09:48",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 1.15,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "falha no sinal de dosagem "
+        },
+        {
+          "data": "2026-11-07",
+          "inicio": "10:55",
+          "fim": "11:32",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.6167,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "falha no sensor de dosagem "
+        }
+      ]
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 0.1,
+      "por_turno": {
+        "1": {
+          "horas": 0.1,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-07",
+          "inicio": "10:06",
+          "fim": "10:10",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-07",
+          "inicio": "10:23",
+          "fim": "10:25",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "20483",
       "componente": "CONJUNTO DE FACAS MESPACK A ",
       "equipamento": "MESPACK B",
@@ -1423,74 +1580,6 @@
           "horas": 0.2,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste no guia da faca"
-        }
-      ]
-    },
-    {
-      "tag": "20518",
-      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK C ",
-      "equipamento": "MESPACK C",
-      "falhas": 1,
-      "horas": 0.25,
-      "por_turno": {
-        "1": {
-          "horas": 0.25,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-11-07",
-          "inicio": "14:20",
-          "fim": "14:35",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.25,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "Troca do tirante da mordaça inferior."
-        }
-      ]
-    },
-    {
-      "tag": "20519",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
-      "equipamento": "MESPACK C",
-      "falhas": 1,
-      "horas": 0.2,
-      "por_turno": {
-        "1": {
-          "horas": 0.2,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-11-07",
-          "inicio": "11:35",
-          "fim": "11:47",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2,
-          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
-          "obs": ""
         }
       ]
     },
@@ -1529,14 +1618,14 @@
       ]
     },
     {
-      "tag": "20527",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
-      "equipamento": "MESPACK C",
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "equipamento": "MESPACK R1",
       "falhas": 1,
-      "horas": 0.0667,
+      "horas": 0.65,
       "por_turno": {
         "1": {
-          "horas": 0.0667,
+          "horas": 0.65,
           "falhas": 1
         },
         "2": {
@@ -1551,48 +1640,14 @@
       "ocorrencias": [
         {
           "data": "2026-11-07",
-          "inicio": "08:38",
-          "fim": "08:42",
+          "inicio": "12:18",
+          "fim": "12:57",
           "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE NAS PINÇAS",
+          "horas": 0.65,
+          "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "20541",
-      "componente": "CONJUNTO DE SELAGEM DE RESFRIAMENTO INFERIOR MESPACK D ",
-      "equipamento": "MESPACK D",
-      "falhas": 1,
-      "horas": 0.1833,
-      "por_turno": {
-        "1": {
-          "horas": 0.1833,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-11-07",
-          "inicio": "09:04",
-          "fim": "09:15",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
-          "obs": "troca do tirante da mordaça de resfriamento "
         }
       ]
     }
@@ -1718,6 +1773,96 @@
           "horas": 0.0667,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 1,
+      "horas": 0.65,
+      "por_turno": {
+        "1": {
+          "horas": 0.65,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-07",
+          "inicio": "12:18",
+          "fim": "12:57",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.65,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "INK07",
+      "componente": "INKJET MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 3,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.4167,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-07",
+          "inicio": "10:50",
+          "fim": "10:55",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-07",
+          "inicio": "10:57",
+          "fim": "11:12",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-07",
+          "inicio": "14:19",
+          "fim": "14:24",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "falha no injekt "
         }
       ]
     },
@@ -1980,6 +2125,62 @@
       ]
     },
     {
+      "tag": "FEL01",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+      "equipamento": "MESPACK R1",
+      "falhas": 3,
+      "horas": 0.2333,
+      "por_turno": {
+        "1": {
+          "horas": 0.2333,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-07",
+          "inicio": "07:52",
+          "fim": "07:57",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-07",
+          "inicio": "11:44",
+          "fim": "11:51",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-07",
+          "inicio": "13:58",
+          "fim": "14:00",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "20483",
       "componente": "CONJUNTO DE FACAS MESPACK A ",
       "equipamento": "MESPACK B",
@@ -2082,6 +2283,51 @@
       ]
     },
     {
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 0.1,
+      "por_turno": {
+        "1": {
+          "horas": 0.1,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-07",
+          "inicio": "10:06",
+          "fim": "10:10",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-07",
+          "inicio": "10:23",
+          "fim": "10:25",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "20547",
       "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
       "equipamento": "MESPACK D",
@@ -2106,40 +2352,6 @@
           "data": "2026-11-07",
           "inicio": "08:12",
           "fim": "08:16",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "20527",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
-      "equipamento": "MESPACK C",
-      "falhas": 1,
-      "horas": 0.0667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-11-07",
-          "inicio": "08:38",
-          "fim": "08:42",
           "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
@@ -2204,15 +2416,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 166.9667,
-        "horas_paradas": 4.8167,
-        "disponibilidade_pct": 97.1152,
-        "indisponibilidade_pct": 2.8848
+        "horas_paradas": 4.85,
+        "disponibilidade_pct": 97.0952,
+        "indisponibilidade_pct": 2.9048
       },
       "Automação": {
         "horas_disponiveis": 66.4667,
-        "horas_paradas": 3.1,
-        "disponibilidade_pct": 95.336,
-        "indisponibilidade_pct": 4.664
+        "horas_paradas": 3.0667,
+        "disponibilidade_pct": 95.3862,
+        "indisponibilidade_pct": 4.6138
       }
     }
   },
