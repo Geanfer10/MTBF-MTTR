@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "updated_at": "2026-11-11T11:30",
+  "updated_at": "2026-11-11T11:48",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -2044,8 +2044,8 @@
           "horas": 0.1833,
           "motivo": "AJUSTE DO ESTICADOR",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE DO ESTICADOR"
+          "tag": "20505",
+          "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK B "
         },
         {
           "data": "2026-11-10",
@@ -2057,8 +2057,8 @@
           "horas": 0.0833,
           "motivo": "AJUSTE NA RÉGUA",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NA RÉGUA"
+          "tag": "20507",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK B "
         },
         {
           "data": "2026-11-10",
@@ -2070,8 +2070,8 @@
           "horas": 0.0667,
           "motivo": "AJUSTE DO ESTICADOR",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE DO ESTICADOR"
+          "tag": "20505",
+          "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK B "
         }
       ]
     },
@@ -2271,6 +2271,51 @@
       ]
     },
     {
+      "tag": "20505",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 2,
+      "horas": 0.25,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.25,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "03:04",
+          "fim": "03:15",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-10",
+          "inicio": "22:50",
+          "fim": "22:54",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "20485",
       "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK A ",
       "equipamento": "MESPACK A",
@@ -2369,6 +2414,40 @@
           "horas": 0.1,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "Ajuste no bico 3."
+        }
+      ]
+    },
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.0833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "09:30",
+          "fim": "09:35",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NA RÉGUA",
+          "obs": ""
         }
       ]
     },
@@ -2590,6 +2669,51 @@
       ]
     },
     {
+      "tag": "20505",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 2,
+      "horas": 0.25,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.25,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "03:04",
+          "fim": "03:15",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-10",
+          "inicio": "22:50",
+          "fim": "22:54",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "30812",
       "componente": "BOMBA DE ENVIO DE SALMOURA QUENTE LINHA 02",
       "equipamento": "60l2",
@@ -2688,6 +2812,40 @@
           "horas": 0.1,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "Ajuste no bico 3."
+        }
+      ]
+    },
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.0833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "09:30",
+          "fim": "09:35",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NA RÉGUA",
+          "obs": ""
         }
       ]
     },

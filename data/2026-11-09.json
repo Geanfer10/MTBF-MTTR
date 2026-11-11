@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updated_at": "2026-11-11T11:30",
+  "updated_at": "2026-11-11T11:48",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1536,8 +1536,8 @@
           "horas": 0.3667,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "20499",
+          "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B "
         },
         {
           "data": "2026-11-09",
@@ -1549,8 +1549,8 @@
           "horas": 0.1,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste no bic0",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "20512",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B"
         },
         {
           "data": "2026-11-09",
@@ -1562,8 +1562,8 @@
           "horas": 0.25,
           "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NA MORDAÇA SUPERIOR"
+          "tag": "20499",
+          "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B "
         },
         {
           "data": "2026-11-09",
@@ -1575,8 +1575,8 @@
           "horas": 0.0833,
           "motivo": "TROCA DE BICO",
           "obs": "",
-          "tag": "",
-          "componente": "TROCA DE BICO"
+          "tag": "20512",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B"
         },
         {
           "data": "2026-11-09",
@@ -1588,8 +1588,8 @@
           "horas": 0.0833,
           "motivo": "TROCA DE MOLA DAS PINÇAS",
           "obs": "",
-          "tag": "",
-          "componente": "TROCA DE MOLA DAS PINÇAS"
+          "tag": "20507",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK B "
         },
         {
           "data": "2026-11-09",
@@ -1601,8 +1601,8 @@
           "horas": 0.05,
           "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NO GUIA DE EMBALAGEM"
+          "tag": "20507",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK B "
         },
         {
           "data": "2026-11-09",
@@ -1614,8 +1614,8 @@
           "horas": 0.05,
           "motivo": "AJUSTE DE VENTOSAS",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE DE VENTOSAS"
+          "tag": "20504",
+          "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK B "
         }
       ]
     },
@@ -1649,8 +1649,8 @@
           "horas": 0.0833,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "troca da mola da mordaça ",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "20519",
+          "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C "
         },
         {
           "data": "2026-11-09",
@@ -1662,8 +1662,8 @@
           "horas": 0.0667,
           "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NO GUIA DE EMBALAGEM"
+          "tag": "20527",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK C "
         },
         {
           "data": "2026-11-09",
@@ -1675,8 +1675,8 @@
           "horas": 0.2667,
           "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NA MORDAÇA SUPERIOR"
+          "tag": "20519",
+          "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C "
         },
         {
           "data": "2026-11-09",
@@ -1688,8 +1688,8 @@
           "horas": 0.1333,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "limpeza da eletrovalvula 3 ",
-          "tag": "",
-          "componente": "MANUTENÇÃO ELÉTRICA"
+          "tag": "20532",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK C"
         },
         {
           "data": "2026-11-09",
@@ -1701,8 +1701,8 @@
           "horas": 0.15,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "troca do bico 3 ",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "20532",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK C"
         }
       ]
     },
@@ -1933,6 +1933,265 @@
       ]
     },
     {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 2,
+      "horas": 0.1333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1333,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "23:40",
+          "fim": "23:45",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "23:45",
+          "fim": "23:48",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20532",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK C",
+      "equipamento": "MESPACK C",
+      "falhas": 2,
+      "horas": 0.2833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "20:16",
+          "fim": "20:24",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza da eletrovalvula 3 "
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "20:24",
+          "fim": "20:33",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do bico 3 "
+        }
+      ]
+    },
+    {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "equipamento": "MESPACK B",
+      "falhas": 2,
+      "horas": 0.1833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1833,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "23:10",
+          "fim": "23:16",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bic0"
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "23:35",
+          "fim": "23:40",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "TROCA DE BICO",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20499",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 2,
+      "horas": 0.6167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.3667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.25,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "18:40",
+          "fim": "19:02",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "23:20",
+          "fim": "23:35",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20519",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
+      "equipamento": "MESPACK C",
+      "falhas": 2,
+      "horas": 0.35,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0833,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "01:33",
+          "fim": "01:38",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da mola da mordaça "
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "16:17",
+          "fim": "16:33",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20504",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.05,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.05,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "23:48",
+          "fim": "23:51",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "20367",
       "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
       "equipamento": "ENCHEDEIRA TOP DOWN",
@@ -2001,6 +2260,40 @@
       ]
     },
     {
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.0667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "13:50",
+          "fim": "13:54",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "31596",
       "componente": "REJEITO DE CAIXAS FECH. DE CAIXAS ATOMATADOS ",
       "equipamento": "ENCHEDEIRA TOP DOWN",
@@ -2065,40 +2358,6 @@
           "horas": 0.2,
           "motivo": "AGUARDANDO ELETRICISTA",
           "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "INK01",
-      "componente": "INKJET MESPACK A",
-      "equipamento": "MESPACK A",
-      "falhas": 1,
-      "horas": 0.1667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.1667,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-11-09",
-          "inicio": "22:08",
-          "fim": "22:18",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste no sensor de inkjet"
         }
       ]
     }
@@ -2262,6 +2521,96 @@
       ]
     },
     {
+      "tag": "20499",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 2,
+      "horas": 0.6167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.3667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.25,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "18:40",
+          "fim": "19:02",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "23:20",
+          "fim": "23:35",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20519",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
+      "equipamento": "MESPACK C",
+      "falhas": 2,
+      "horas": 0.35,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0833,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "01:33",
+          "fim": "01:38",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da mola da mordaça "
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "16:17",
+          "fim": "16:33",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "20367",
       "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
       "equipamento": "ENCHEDEIRA TOP DOWN",
@@ -2292,6 +2641,51 @@
           "horas": 0.3,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "troca de cilindro da coluna de pico"
+        }
+      ]
+    },
+    {
+      "tag": "20532",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK C",
+      "equipamento": "MESPACK C",
+      "falhas": 2,
+      "horas": 0.2833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "20:16",
+          "fim": "20:24",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza da eletrovalvula 3 "
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "20:24",
+          "fim": "20:33",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do bico 3 "
         }
       ]
     },
@@ -2330,6 +2724,51 @@
       ]
     },
     {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "equipamento": "MESPACK B",
+      "falhas": 2,
+      "horas": 0.1833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1833,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "23:10",
+          "fim": "23:16",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bic0"
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "23:35",
+          "fim": "23:40",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "TROCA DE BICO",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "INK01",
       "componente": "INKJET MESPACK A",
       "equipamento": "MESPACK A",
@@ -2360,6 +2799,119 @@
           "horas": 0.1667,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "ajuste no sensor de inkjet"
+        }
+      ]
+    },
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 2,
+      "horas": 0.1333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1333,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "23:40",
+          "fim": "23:45",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "23:45",
+          "fim": "23:48",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "equipamento": "MESPACK C",
+      "falhas": 1,
+      "horas": 0.0667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "13:50",
+          "fim": "13:54",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20504",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.05,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.05,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "23:48",
+          "fim": "23:51",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
         }
       ]
     }
