@@ -1,18 +1,18 @@
 {
   "date": "2026-11-09",
-  "updated_at": "2026-11-11T11:07",
+  "updated_at": "2026-11-11T11:30",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK R2",
-      "horas": 6.3333,
-      "horas_disponiveis": 22.0,
-      "falhas": 37,
+      "horas": 6.15,
+      "horas_disponiveis": 18.1667,
+      "falhas": 36,
       "por_turno": {
         "1": {
-          "horas": 2.1333,
-          "falhas": 14
+          "horas": 1.95,
+          "falhas": 13
         },
         "2": {
           "horas": 1.8167,
@@ -286,19 +286,6 @@
         },
         {
           "data": "2026-11-09",
-          "inicio": "11:19",
-          "fim": "11:30",
-          "turno": 1,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "máquina parada por motivo de separação de filme arte antiga pra arte nova",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
           "inicio": "11:41",
           "fim": "11:45",
           "turno": 1,
@@ -508,239 +495,9 @@
       ]
     },
     {
-      "name": "ENCHEDEIRA SERAC TOPDOWN",
-      "horas": 4.0167,
-      "horas_disponiveis": 22.0,
-      "falhas": 16,
-      "por_turno": {
-        "1": {
-          "horas": 0.4,
-          "falhas": 4
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 3.6167,
-          "falhas": 12
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-11-09",
-          "inicio": "00:01",
-          "fim": "00:10",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "frasco enroscado",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "00:55",
-          "fim": "01:02",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "formadora de caixas parado",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "01:22",
-          "fim": "01:40",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.3,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "rotuladora parada",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "02:47",
-          "fim": "02:51",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "rotuladora parada",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "02:54",
-          "fim": "03:10",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.2667,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "formadora de caixas parada",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "03:23",
-          "fim": "03:35",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.2,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "formadora de caixas parada",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "03:55",
-          "fim": "03:59",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "formadora de caixas parada",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "04:23",
-          "fim": "04:35",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.2,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "04:43",
-          "fim": "06:35",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 1.8667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "acompanhamento mecânico na formadora de caixas",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "06:40",
-          "fim": "06:47",
-          "turno": 1,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "Ajuste na formadora de caixas.",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "07:00",
-          "fim": "07:06",
-          "turno": 1,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "Falta de tampa.",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "07:06",
-          "fim": "07:14",
-          "turno": 1,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "Ajuste as castanhas devido toca de fornecedor.",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "07:20",
-          "fim": "07:23",
-          "turno": 1,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "Ajuste na formadora de caixas.",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "23:13",
-          "fim": "23:20",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "encaixotadora parada",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "23:23",
-          "fim": "23:30",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "rotuladora parada",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "23:47",
-          "fim": "23:56",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "rotuladora parada",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        }
-      ]
-    },
-    {
       "name": "MESPACK F",
       "horas": 3.95,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 20.0,
       "falhas": 18,
       "por_turno": {
         "1": {
@@ -994,10 +751,71 @@
       ]
     },
     {
+      "name": "ENCHEDEIRA TOP DOWN",
+      "horas": 3.75,
+      "horas_disponiveis": 20.0,
+      "falhas": 3,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.5833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 2.1667,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "04:00",
+          "fim": "04:18",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca de cilindro da coluna de pico",
+          "tag": "20367",
+          "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN"
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "04:43",
+          "fim": "06:35",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.8667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "acompanhamento mecânico na formadora de caixas",
+          "tag": "31596",
+          "componente": "REJEITO DE CAIXAS FECH. DE CAIXAS ATOMATADOS "
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "15:05",
+          "fim": "16:40",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 1.5833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "manutenção no vapor da preparação ",
+          "tag": "20409",
+          "componente": "VALVULA REDUTORA DE VAPOR PASTEURIZADOR KETCHUP"
+        }
+      ]
+    },
+    {
       "name": "MESPACK R1",
-      "horas": 2.9833,
-      "horas_disponiveis": 22.0,
-      "falhas": 18,
+      "horas": 2.9,
+      "horas_disponiveis": 18.1667,
+      "falhas": 16,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -1008,24 +826,11 @@
           "falhas": 14
         },
         "3": {
-          "horas": 0.2333,
-          "falhas": 4
+          "horas": 0.15,
+          "falhas": 2
         }
       },
       "ocorrencias": [
-        {
-          "data": "2026-11-09",
-          "inicio": "00:32",
-          "fim": "00:37",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "falha no desbobinador e alinhamento de filme ",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
         {
           "data": "2026-11-09",
           "inicio": "01:24",
@@ -1051,19 +856,6 @@
           "obs": "",
           "tag": "",
           "componente": "FALTA DE GRELHA (BANDEJA)"
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "06:30",
-          "fim": "06:30",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
         },
         {
           "data": "2026-11-09",
@@ -1251,13 +1043,13 @@
     },
     {
       "name": "MESPACK E",
-      "horas": 2.1833,
-      "horas_disponiveis": 22.0,
-      "falhas": 18,
+      "horas": 1.9,
+      "horas_disponiveis": 20.0,
+      "falhas": 16,
       "por_turno": {
         "1": {
-          "horas": 1.0833,
-          "falhas": 8
+          "horas": 0.8,
+          "falhas": 7
         },
         "2": {
           "horas": 1.1,
@@ -1265,36 +1057,10 @@
         },
         "3": {
           "horas": 0.0,
-          "falhas": 1
+          "falhas": 0
         }
       },
       "ocorrencias": [
-        {
-          "data": "2026-11-09",
-          "inicio": "06:30",
-          "fim": "06:30",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "06:30",
-          "fim": "06:47",
-          "turno": 1,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.2833,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "Ajuste na formadora de caixas.",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
         {
           "data": "2026-11-09",
           "inicio": "10:41",
@@ -1508,8 +1274,8 @@
     {
       "name": "MESPACK D",
       "horas": 1.6833,
-      "horas_disponiveis": 22.0,
-      "falhas": 3,
+      "horas_disponiveis": 20.0,
+      "falhas": 2,
       "por_turno": {
         "1": {
           "horas": 1.6833,
@@ -1521,23 +1287,10 @@
         },
         "3": {
           "horas": 0.0,
-          "falhas": 1
+          "falhas": 0
         }
       },
       "ocorrencias": [
-        {
-          "data": "2026-11-09",
-          "inicio": "06:30",
-          "fim": "06:30",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "início de turno ",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
         {
           "data": "2026-11-09",
           "inicio": "10:43",
@@ -1561,41 +1314,6 @@
           "horas": 1.3167,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "limpeza do canhão e troca da impressora ",
-          "tag": "",
-          "componente": "MANUTENÇÃO ELÉTRICA"
-        }
-      ]
-    },
-    {
-      "name": "ENCHEDEIRA TOP DOWN",
-      "horas": 1.5833,
-      "horas_disponiveis": 22.0,
-      "falhas": 1,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 1.5833,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-11-09",
-          "inicio": "15:05",
-          "fim": "16:40",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 1.5833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "manutenção no vapor da preparação ",
           "tag": "",
           "componente": "MANUTENÇÃO ELÉTRICA"
         }
@@ -1631,8 +1349,8 @@
           "horas": 0.0333,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "polimento na placa",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "30463",
+          "componente": "CABEÇOTE SUPERIOR 60L2"
         },
         {
           "data": "2026-11-09",
@@ -1644,8 +1362,8 @@
           "horas": 0.05,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "30463",
+          "componente": "CABEÇOTE SUPERIOR 60L2"
         },
         {
           "data": "2026-11-09",
@@ -1657,8 +1375,8 @@
           "horas": 0.55,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "laminação recravadeira,troca de cabeçote 2,ajuste na altura do rolete1 e2",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "30463",
+          "componente": "CABEÇOTE SUPERIOR 60L2"
         },
         {
           "data": "2026-11-09",
@@ -1670,8 +1388,8 @@
           "horas": 0.0833,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste cabeçote 4 e 6",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "30463",
+          "componente": "CABEÇOTE SUPERIOR 60L2"
         },
         {
           "data": "2026-11-09",
@@ -1683,8 +1401,8 @@
           "horas": 0.4,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "30463",
+          "componente": "CABEÇOTE SUPERIOR 60L2"
         },
         {
           "data": "2026-11-09",
@@ -1696,82 +1414,8 @@
           "horas": 0.1667,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "polimento ",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
-        }
-      ]
-    },
-    {
-      "name": "ENCHEDEIRA LINHA TOPDOWN",
-      "horas": 1.05,
-      "horas_disponiveis": 22.0,
-      "falhas": 4,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.75,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.3,
-          "falhas": 2
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-11-09",
-          "inicio": "04:00",
-          "fim": "04:18",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca de cilindro da coluna de pico",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "06:30",
-          "fim": "06:30",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "Início de turno ",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "15:55",
-          "fim": "16:34",
-          "turno": 2,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.65,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "16:34",
-          "fim": "16:40",
-          "turno": 2,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "pico de energia ",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
+          "tag": "30463",
+          "componente": "CABEÇOTE SUPERIOR 60L2"
         }
       ]
     },
@@ -1779,7 +1423,7 @@
       "name": "ENCAIXOTAMENTO AUTOMATICO VEGETAIS",
       "horas": 1.05,
       "horas_disponiveis": 22.0,
-      "falhas": 6,
+      "falhas": 5,
       "por_turno": {
         "1": {
           "horas": 0.2333,
@@ -1791,23 +1435,10 @@
         },
         "3": {
           "horas": 0.0,
-          "falhas": 1
+          "falhas": 0
         }
       },
       "ocorrencias": [
-        {
-          "data": "2026-11-09",
-          "inicio": "06:30",
-          "fim": "06:30",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "início de turno ",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
         {
           "data": "2026-11-09",
           "inicio": "13:43",
@@ -1878,8 +1509,8 @@
     {
       "name": "MESPACK B",
       "horas": 0.9833,
-      "horas_disponiveis": 22.0,
-      "falhas": 8,
+      "horas_disponiveis": 20.0,
+      "falhas": 7,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -1891,23 +1522,10 @@
         },
         "3": {
           "horas": 0.6167,
-          "falhas": 7
+          "falhas": 6
         }
       },
       "ocorrencias": [
-        {
-          "data": "2026-11-09",
-          "inicio": "06:30",
-          "fim": "06:30",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "início de turno ",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
         {
           "data": "2026-11-09",
           "inicio": "18:40",
@@ -2004,8 +1622,8 @@
     {
       "name": "MESPACK C",
       "horas": 0.7,
-      "horas_disponiveis": 22.0,
-      "falhas": 6,
+      "horas_disponiveis": 20.0,
+      "falhas": 5,
       "por_turno": {
         "1": {
           "horas": 0.0667,
@@ -2017,7 +1635,7 @@
         },
         "3": {
           "horas": 0.0833,
-          "falhas": 2
+          "falhas": 1
         }
       },
       "ocorrencias": [
@@ -2033,19 +1651,6 @@
           "obs": "troca da mola da mordaça ",
           "tag": "",
           "componente": "MANUTENÇÃO MECÂNICA"
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "06:30",
-          "fim": "06:30",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "Início de turno.",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
         },
         {
           "data": "2026-11-09",
@@ -2102,154 +1707,6 @@
       ]
     },
     {
-      "name": "ENCHEDEIRA LINHA TOPDOWN 02",
-      "horas": 0.6667,
-      "horas_disponiveis": 22.0,
-      "falhas": 4,
-      "por_turno": {
-        "1": {
-          "horas": 0.6667,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-11-09",
-          "inicio": "06:30",
-          "fim": "06:30",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "início de turno",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "06:40",
-          "fim": "07:20",
-          "turno": 1,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.6667,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "falta de frasco",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "07:47",
-          "fim": "07:47",
-          "turno": 1,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "fim do produto",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "12:47",
-          "fim": "12:47",
-          "turno": 1,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "início do produto",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        }
-      ]
-    },
-    {
-      "name": "MESPACK A",
-      "horas": 0.5167,
-      "horas_disponiveis": 22.0,
-      "falhas": 4,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.5167,
-          "falhas": 4
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-11-09",
-          "inicio": "18:56",
-          "fim": "19:00",
-          "turno": 2,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "ajuste do perfurador ",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "19:05",
-          "fim": "19:10",
-          "turno": 2,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "ajuste do perfurador ",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "21:56",
-          "fim": "22:08",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2,
-          "motivo": "AGUARDANDO ELETRICISTA",
-          "obs": "",
-          "tag": "",
-          "componente": "AGUARDANDO ELETRICISTA"
-        },
-        {
-          "data": "2026-11-09",
-          "inicio": "22:08",
-          "fim": "22:18",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste no sensor de inkjet",
-          "tag": "",
-          "componente": "MANUTENÇÃO ELÉTRICA"
-        }
-      ]
-    },
-    {
       "name": "AUTOCLAVE FERLO 05",
       "horas": 0.3833,
       "horas_disponiveis": 22.0,
@@ -2281,6 +1738,54 @@
           "obs": "aguardando produto dó autoclave ",
           "tag": "",
           "componente": "CARRO DE TRANSPORTE EM FALHA"
+        }
+      ]
+    },
+    {
+      "name": "MESPACK A",
+      "horas": 0.3667,
+      "horas_disponiveis": 20.0,
+      "falhas": 2,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.3667,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "21:56",
+          "fim": "22:08",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "AGUARDANDO ELETRICISTA",
+          "obs": "",
+          "tag": "ELETRICA01",
+          "componente": "AGUARDANDO ELETRICA"
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "22:08",
+          "fim": "22:18",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no sensor de inkjet",
+          "tag": "INK01",
+          "componente": "INKJET MESPACK A"
         }
       ]
     },
@@ -2335,15 +1840,530 @@
       "1": 0.6833,
       "2": 5.8833,
       "3": 4.45
-    },
-    "OUTROS": {
-      "1": 1.5333,
-      "2": 0.9,
-      "3": 1.8333
     }
   },
-  "top_falhas": [],
-  "parada_componentes": [],
+  "top_falhas": [
+    {
+      "tag": "30463",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
+      "equipamento": "60l2",
+      "falhas": 6,
+      "horas": 1.2833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.0833,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.2,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "01:00",
+          "fim": "01:02",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento na placa"
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "16:11",
+          "fim": "16:14",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "17:25",
+          "fim": "17:58",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.55,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "laminação recravadeira,troca de cabeçote 2,ajuste na altura do rolete1 e2"
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "20:20",
+          "fim": "20:25",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste cabeçote 4 e 6"
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "21:58",
+          "fim": "22:22",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "23:25",
+          "fim": "23:35",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento "
+        }
+      ]
+    },
+    {
+      "tag": "20367",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 1,
+      "horas": 0.3,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.3,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "04:00",
+          "fim": "04:18",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca de cilindro da coluna de pico"
+        }
+      ]
+    },
+    {
+      "tag": "20409",
+      "componente": "VALVULA REDUTORA DE VAPOR PASTEURIZADOR KETCHUP",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 1,
+      "horas": 1.5833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.5833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "15:05",
+          "fim": "16:40",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 1.5833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "manutenção no vapor da preparação "
+        }
+      ]
+    },
+    {
+      "tag": "31596",
+      "componente": "REJEITO DE CAIXAS FECH. DE CAIXAS ATOMATADOS ",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 1,
+      "horas": 1.8667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 1.8667,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "04:43",
+          "fim": "06:35",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.8667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "acompanhamento mecânico na formadora de caixas"
+        }
+      ]
+    },
+    {
+      "tag": "ELETRICA01",
+      "componente": "AGUARDANDO ELETRICA",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.2,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "21:56",
+          "fim": "22:08",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "AGUARDANDO ELETRICISTA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "INK01",
+      "componente": "INKJET MESPACK A",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.1667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "22:08",
+          "fim": "22:18",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no sensor de inkjet"
+        }
+      ]
+    }
+  ],
+  "parada_componentes": [
+    {
+      "tag": "31596",
+      "componente": "REJEITO DE CAIXAS FECH. DE CAIXAS ATOMATADOS ",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 1,
+      "horas": 1.8667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 1.8667,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "04:43",
+          "fim": "06:35",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.8667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "acompanhamento mecânico na formadora de caixas"
+        }
+      ]
+    },
+    {
+      "tag": "20409",
+      "componente": "VALVULA REDUTORA DE VAPOR PASTEURIZADOR KETCHUP",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 1,
+      "horas": 1.5833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.5833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "15:05",
+          "fim": "16:40",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 1.5833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "manutenção no vapor da preparação "
+        }
+      ]
+    },
+    {
+      "tag": "30463",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
+      "equipamento": "60l2",
+      "falhas": 6,
+      "horas": 1.2833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.0833,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.2,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "01:00",
+          "fim": "01:02",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento na placa"
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "16:11",
+          "fim": "16:14",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "17:25",
+          "fim": "17:58",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.55,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "laminação recravadeira,troca de cabeçote 2,ajuste na altura do rolete1 e2"
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "20:20",
+          "fim": "20:25",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste cabeçote 4 e 6"
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "21:58",
+          "fim": "22:22",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-09",
+          "inicio": "23:25",
+          "fim": "23:35",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento "
+        }
+      ]
+    },
+    {
+      "tag": "20367",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 1,
+      "horas": 0.3,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.3,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "04:00",
+          "fim": "04:18",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca de cilindro da coluna de pico"
+        }
+      ]
+    },
+    {
+      "tag": "ELETRICA01",
+      "componente": "AGUARDANDO ELETRICA",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.2,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "21:56",
+          "fim": "22:08",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "AGUARDANDO ELETRICISTA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "INK01",
+      "componente": "INKJET MESPACK A",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.1667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-09",
+          "inicio": "22:08",
+          "fim": "22:18",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no sensor de inkjet"
+        }
+      ]
+    }
+  ],
   "evolucao_mensal": [
     {
       "mes": "março",
@@ -2379,34 +2399,34 @@
     },
     {
       "mes": "novembro",
-      "falhas": 758
+      "falhas": 716
     }
   ],
   "disponibilidade": {
     "geral": {
-      "horas_disponiveis": 286.0,
-      "horas_paradas": 29.4958,
-      "disponibilidade_pct": 89.6868,
-      "indisponibilidade_pct": 10.3132
+      "horas_disponiveis": 205.5,
+      "horas_paradas": 25.2291,
+      "disponibilidade_pct": 87.7231,
+      "indisponibilidade_pct": 12.2769
     },
     "departamentos": {
       "Elétrica": {
-        "horas_disponiveis": 286.0,
+        "horas_disponiveis": 205.5,
         "horas_paradas": 6.3167,
-        "disponibilidade_pct": 97.7914,
-        "indisponibilidade_pct": 2.2086
+        "disponibilidade_pct": 96.9262,
+        "indisponibilidade_pct": 3.0738
       },
       "Mecânica": {
-        "horas_disponiveis": 286.0,
+        "horas_disponiveis": 205.5,
         "horas_paradas": 11.0167,
-        "disponibilidade_pct": 96.148,
-        "indisponibilidade_pct": 3.852
+        "disponibilidade_pct": 94.6391,
+        "indisponibilidade_pct": 5.3609
       },
       "Automação": {
-        "horas_disponiveis": 88.0,
+        "horas_disponiveis": 76.3333,
         "horas_paradas": 7.8958,
-        "disponibilidade_pct": 91.0275,
-        "indisponibilidade_pct": 8.9725
+        "disponibilidade_pct": 89.6562,
+        "indisponibilidade_pct": 10.3438
       }
     }
   },
@@ -2414,12 +2434,12 @@
     "mes": "novembro",
     "ano": 2026,
     "ate": "2026-11-09",
-    "falhas": 605,
-    "horas_paradas": 102.6885,
-    "horas_disponiveis": 1112.5167,
-    "mtbf_min": 100.1482,
-    "disponibilidade_pct": 90.7697,
-    "indisponibilidade_pct": 9.2303,
+    "falhas": 572,
+    "horas_paradas": 98.4219,
+    "horas_disponiveis": 1318.0167,
+    "mtbf_min": 127.9295,
+    "disponibilidade_pct": 92.5326,
+    "indisponibilidade_pct": 7.4674,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

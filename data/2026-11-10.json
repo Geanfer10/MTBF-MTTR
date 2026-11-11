@@ -1,22 +1,22 @@
 {
   "date": "2026-11-10",
-  "updated_at": "2026-11-11T11:07",
+  "updated_at": "2026-11-11T11:30",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK R2",
-      "horas": 9.7148,
-      "horas_disponiveis": 22.0,
-      "falhas": 27,
+      "horas": 9.6148,
+      "horas_disponiveis": 23.0,
+      "falhas": 26,
       "por_turno": {
         "1": {
           "horas": 3.7284,
           "falhas": 8
         },
         "2": {
-          "horas": 4.0864,
-          "falhas": 14
+          "horas": 3.9864,
+          "falhas": 13
         },
         "3": {
           "horas": 1.9,
@@ -351,19 +351,6 @@
         },
         {
           "data": "2026-11-10",
-          "inicio": "21:45",
-          "fim": "21:51",
-          "turno": 2,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
-        {
-          "data": "2026-11-10",
           "inicio": "22:30",
           "fim": "22:40",
           "turno": 2,
@@ -379,21 +366,21 @@
     },
     {
       "name": "MESPACK R1",
-      "horas": 7.4,
-      "horas_disponiveis": 22.0,
-      "falhas": 37,
+      "horas": 7.15,
+      "horas_disponiveis": 23.0,
+      "falhas": 35,
       "por_turno": {
         "1": {
-          "horas": 2.3,
-          "falhas": 20
+          "horas": 2.1833,
+          "falhas": 19
         },
         "2": {
           "horas": 4.0167,
           "falhas": 12
         },
         "3": {
-          "horas": 1.0833,
-          "falhas": 5
+          "horas": 0.95,
+          "falhas": 4
         }
       },
       "ocorrencias": [
@@ -409,19 +396,6 @@
           "obs": "",
           "tag": "",
           "componente": "BASE PRESA NAS CADENAS E TRANSFERIDORES"
-        },
-        {
-          "data": "2026-11-10",
-          "inicio": "03:20",
-          "fim": "03:28",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "bobina com defeito repasse manual ",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
         },
         {
           "data": "2026-11-10",
@@ -617,19 +591,6 @@
           "obs": "",
           "tag": "",
           "componente": "BICO DOSADOR ENTUPIDO"
-        },
-        {
-          "data": "2026-11-10",
-          "inicio": "11:33",
-          "fim": "11:40",
-          "turno": 1,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "rendimento do produto ",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
         },
         {
           "data": "2026-11-10",
@@ -883,7 +844,7 @@
     {
       "name": "MESPACK F",
       "horas": 3.3667,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 24.0,
       "falhas": 37,
       "por_turno": {
         "1": {
@@ -1386,8 +1347,8 @@
     {
       "name": "MESPACK E",
       "horas": 2.6333,
-      "horas_disponiveis": 22.0,
-      "falhas": 16,
+      "horas_disponiveis": 24.0,
+      "falhas": 15,
       "por_turno": {
         "1": {
           "horas": 1.2667,
@@ -1399,23 +1360,10 @@
         },
         "3": {
           "horas": 0.0,
-          "falhas": 1
+          "falhas": 0
         }
       },
       "ocorrencias": [
-        {
-          "data": "2026-11-10",
-          "inicio": "06:30",
-          "fim": "06:30",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
         {
           "data": "2026-11-10",
           "inicio": "06:50",
@@ -1617,7 +1565,7 @@
       "name": "ENCAIXOTAMENTO AUTOMATICO VEGETAIS",
       "horas": 2.2099,
       "horas_disponiveis": 22.0,
-      "falhas": 9,
+      "falhas": 8,
       "por_turno": {
         "1": {
           "horas": 1.0,
@@ -1629,23 +1577,10 @@
         },
         "3": {
           "horas": 0.4167,
-          "falhas": 2
+          "falhas": 1
         }
       },
       "ocorrencias": [
-        {
-          "data": "2026-11-10",
-          "inicio": "06:30",
-          "fim": "06:30",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "início de turno ",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        },
         {
           "data": "2026-11-10",
           "inicio": "06:33",
@@ -1790,8 +1725,8 @@
     {
       "name": "MESPACK D",
       "horas": 1.1667,
-      "horas_disponiveis": 22.0,
-      "falhas": 8,
+      "horas_disponiveis": 24.0,
+      "falhas": 7,
       "por_turno": {
         "1": {
           "horas": 0.1833,
@@ -1803,7 +1738,7 @@
         },
         "3": {
           "horas": 0.2333,
-          "falhas": 4
+          "falhas": 3
         }
       },
       "ocorrencias": [
@@ -1832,19 +1767,6 @@
           "obs": "",
           "tag": "",
           "componente": "MANUTENÇÃO ELÉTRICA"
-        },
-        {
-          "data": "2026-11-10",
-          "inicio": "06:30",
-          "fim": "06:30",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "início de turno ",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
         },
         {
           "data": "2026-11-10",
@@ -1962,67 +1884,6 @@
       ]
     },
     {
-      "name": "ENCHEDEIRA LINHA TOPDOWN",
-      "horas": 0.75,
-      "horas_disponiveis": 22.0,
-      "falhas": 3,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.5167,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.2333,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-11-10",
-          "inicio": "03:21",
-          "fim": "03:35",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2333,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste no bico 02",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
-        },
-        {
-          "data": "2026-11-10",
-          "inicio": "20:29",
-          "fim": "20:40",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste no bico ",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
-        },
-        {
-          "data": "2026-11-10",
-          "inicio": "20:40",
-          "fim": "21:00",
-          "turno": 2,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.3333,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "limpeza das enchedeira ",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        }
-      ]
-    },
-    {
       "name": "60l2",
       "horas": 0.4333,
       "horas_disponiveis": 22.0,
@@ -2052,8 +1913,8 @@
           "horas": 0.25,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "elevador do desencestador parou",
-          "tag": "",
-          "componente": "MANUTENÇÃO ELÉTRICA"
+          "tag": "30545",
+          "componente": "MESA HIDRAULICA ENCESTADOR LINHA 60L2"
         },
         {
           "data": "2026-11-10",
@@ -2065,8 +1926,56 @@
           "horas": 0.1833,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "bomba da salmoura parou ",
-          "tag": "",
-          "componente": "MANUTENÇÃO ELÉTRICA"
+          "tag": "30812",
+          "componente": "BOMBA DE ENVIO DE SALMOURA QUENTE LINHA 02"
+        }
+      ]
+    },
+    {
+      "name": "ENCHEDEIRA TOP DOWN",
+      "horas": 0.4167,
+      "horas_disponiveis": 17.5,
+      "falhas": 2,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.2333,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "03:21",
+          "fim": "03:35",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico 02",
+          "tag": "20367",
+          "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN"
+        },
+        {
+          "data": "2026-11-10",
+          "inicio": "20:29",
+          "fim": "20:40",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico ",
+          "tag": "20367",
+          "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN"
         }
       ]
     },
@@ -2108,8 +2017,8 @@
     {
       "name": "MESPACK B",
       "horas": 0.3333,
-      "horas_disponiveis": 22.0,
-      "falhas": 4,
+      "horas_disponiveis": 24.0,
+      "falhas": 3,
       "por_turno": {
         "1": {
           "horas": 0.0833,
@@ -2121,7 +2030,7 @@
         },
         "3": {
           "horas": 0.25,
-          "falhas": 3
+          "falhas": 2
         }
       },
       "ocorrencias": [
@@ -2137,19 +2046,6 @@
           "obs": "",
           "tag": "",
           "componente": "AJUSTE DO ESTICADOR"
-        },
-        {
-          "data": "2026-11-10",
-          "inicio": "06:30",
-          "fim": "06:30",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "início de turno ",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
         },
         {
           "data": "2026-11-10",
@@ -2182,7 +2078,7 @@
     {
       "name": "CONDOR",
       "horas": 0.3333,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 10.0,
       "falhas": 1,
       "por_turno": {
         "1": {
@@ -2209,15 +2105,15 @@
           "horas": 0.3333,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "injekt ",
-          "tag": "",
-          "componente": "MANUTENÇÃO ELÉTRICA"
+          "tag": "INK12",
+          "componente": "INKJET RECRAVADEIRA CONDOR"
         }
       ]
     },
     {
       "name": "MESPACK A",
       "horas": 0.3167,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 24.0,
       "falhas": 3,
       "por_turno": {
         "1": {
@@ -2244,8 +2140,8 @@
           "horas": 0.15,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste de pinça é gia ",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "20487",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK A "
         },
         {
           "data": "2026-11-10",
@@ -2257,8 +2153,8 @@
           "horas": 0.0667,
           "motivo": "AJUSTE DO ESTICADOR",
           "obs": "Ajuste do esticador e ajuste no guia de embalagem ",
-          "tag": "",
-          "componente": "AJUSTE DO ESTICADOR"
+          "tag": "20485",
+          "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK A "
         },
         {
           "data": "2026-11-10",
@@ -2270,8 +2166,8 @@
           "horas": 0.1,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "Ajuste no bico 3.",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "20492",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK A"
         }
       ]
     },
@@ -2309,41 +2205,6 @@
           "componente": "MANUTENÇÃO MECÂNICA"
         }
       ]
-    },
-    {
-      "name": "MESPACK C",
-      "horas": 0.0,
-      "horas_disponiveis": 22.0,
-      "falhas": 1,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-11-10",
-          "inicio": "06:30",
-          "fim": "06:30",
-          "turno": 3,
-          "departamento": "OUTROS",
-          "falhas": 1,
-          "horas": 0.0,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "Início de turno.",
-          "tag": "",
-          "componente": "OUTROS MOTIVOS "
-        }
-      ]
     }
   ],
   "turnos": {
@@ -2361,15 +2222,510 @@
       "1": 3.95,
       "2": 5.5,
       "3": 2.8667
-    },
-    "OUTROS": {
-      "1": 0.1167,
-      "2": 0.4333,
-      "3": 0.1333
     }
   },
-  "top_falhas": [],
-  "parada_componentes": [],
+  "top_falhas": [
+    {
+      "tag": "20367",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 2,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.2333,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "03:21",
+          "fim": "03:35",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico 02"
+        },
+        {
+          "data": "2026-11-10",
+          "inicio": "20:29",
+          "fim": "20:40",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico "
+        }
+      ]
+    },
+    {
+      "tag": "20485",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK A ",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.0667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "15:01",
+          "fim": "15:05",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": "Ajuste do esticador e ajuste no guia de embalagem "
+        }
+      ]
+    },
+    {
+      "tag": "20487",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.15,
+      "por_turno": {
+        "1": {
+          "horas": 0.15,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "07:28",
+          "fim": "07:37",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste de pinça é gia "
+        }
+      ]
+    },
+    {
+      "tag": "20492",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK A",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.1,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "18:05",
+          "fim": "18:11",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Ajuste no bico 3."
+        }
+      ]
+    },
+    {
+      "tag": "30545",
+      "componente": "MESA HIDRAULICA ENCESTADOR LINHA 60L2",
+      "equipamento": "60l2",
+      "falhas": 1,
+      "horas": 0.25,
+      "por_turno": {
+        "1": {
+          "horas": 0.25,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "10:13",
+          "fim": "10:28",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "elevador do desencestador parou"
+        }
+      ]
+    },
+    {
+      "tag": "30812",
+      "componente": "BOMBA DE ENVIO DE SALMOURA QUENTE LINHA 02",
+      "equipamento": "60l2",
+      "falhas": 1,
+      "horas": 0.1833,
+      "por_turno": {
+        "1": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "13:40",
+          "fim": "13:51",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "bomba da salmoura parou "
+        }
+      ]
+    },
+    {
+      "tag": "INK12",
+      "componente": "INKJET RECRAVADEIRA CONDOR",
+      "equipamento": "CONDOR",
+      "falhas": 1,
+      "horas": 0.3333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.3333,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "23:30",
+          "fim": "23:50",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.3333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "injekt "
+        }
+      ]
+    }
+  ],
+  "parada_componentes": [
+    {
+      "tag": "20367",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 2,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.2333,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "03:21",
+          "fim": "03:35",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico 02"
+        },
+        {
+          "data": "2026-11-10",
+          "inicio": "20:29",
+          "fim": "20:40",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico "
+        }
+      ]
+    },
+    {
+      "tag": "INK12",
+      "componente": "INKJET RECRAVADEIRA CONDOR",
+      "equipamento": "CONDOR",
+      "falhas": 1,
+      "horas": 0.3333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.3333,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "23:30",
+          "fim": "23:50",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.3333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "injekt "
+        }
+      ]
+    },
+    {
+      "tag": "30545",
+      "componente": "MESA HIDRAULICA ENCESTADOR LINHA 60L2",
+      "equipamento": "60l2",
+      "falhas": 1,
+      "horas": 0.25,
+      "por_turno": {
+        "1": {
+          "horas": 0.25,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "10:13",
+          "fim": "10:28",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "elevador do desencestador parou"
+        }
+      ]
+    },
+    {
+      "tag": "30812",
+      "componente": "BOMBA DE ENVIO DE SALMOURA QUENTE LINHA 02",
+      "equipamento": "60l2",
+      "falhas": 1,
+      "horas": 0.1833,
+      "por_turno": {
+        "1": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "13:40",
+          "fim": "13:51",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "bomba da salmoura parou "
+        }
+      ]
+    },
+    {
+      "tag": "20487",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.15,
+      "por_turno": {
+        "1": {
+          "horas": 0.15,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "07:28",
+          "fim": "07:37",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste de pinça é gia "
+        }
+      ]
+    },
+    {
+      "tag": "20492",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK A",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.1,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "18:05",
+          "fim": "18:11",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Ajuste no bico 3."
+        }
+      ]
+    },
+    {
+      "tag": "20485",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK A ",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.0667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-10",
+          "inicio": "15:01",
+          "fim": "15:05",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": "Ajuste do esticador e ajuste no guia de embalagem "
+        }
+      ]
+    }
+  ],
   "evolucao_mensal": [
     {
       "mes": "março",
@@ -2405,34 +2761,34 @@
     },
     {
       "mes": "novembro",
-      "falhas": 758
+      "falhas": 716
     }
   ],
   "disponibilidade": {
     "geral": {
-      "horas_disponiveis": 286.0,
-      "horas_paradas": 31.5766,
-      "disponibilidade_pct": 88.9592,
-      "indisponibilidade_pct": 11.0408
+      "horas_disponiveis": 239.5,
+      "horas_paradas": 30.8933,
+      "disponibilidade_pct": 87.1009,
+      "indisponibilidade_pct": 12.8991
     },
     "departamentos": {
       "Elétrica": {
-        "horas_disponiveis": 286.0,
+        "horas_disponiveis": 239.5,
         "horas_paradas": 5.0167,
-        "disponibilidade_pct": 98.2459,
-        "indisponibilidade_pct": 1.7541
+        "disponibilidade_pct": 97.9054,
+        "indisponibilidade_pct": 2.0946
       },
       "Mecânica": {
-        "horas_disponiveis": 286.0,
+        "horas_disponiveis": 239.5,
         "horas_paradas": 12.3167,
-        "disponibilidade_pct": 95.6935,
-        "indisponibilidade_pct": 4.3065
+        "disponibilidade_pct": 94.8573,
+        "indisponibilidade_pct": 5.1427
       },
       "Automação": {
-        "horas_disponiveis": 88.0,
+        "horas_disponiveis": 94.0,
         "horas_paradas": 13.5599,
-        "disponibilidade_pct": 84.591,
-        "indisponibilidade_pct": 15.409
+        "disponibilidade_pct": 85.5745,
+        "indisponibilidade_pct": 14.4255
       }
     }
   },
@@ -2440,12 +2796,12 @@
     "mes": "novembro",
     "ano": 2026,
     "ate": "2026-11-10",
-    "falhas": 758,
-    "horas_paradas": 134.2651,
-    "horas_disponiveis": 1112.5167,
-    "mtbf_min": 77.4342,
-    "disponibilidade_pct": 87.9314,
-    "indisponibilidade_pct": 12.0686,
+    "falhas": 716,
+    "horas_paradas": 129.3151,
+    "horas_disponiveis": 1557.5167,
+    "mtbf_min": 119.6817,
+    "disponibilidade_pct": 91.6974,
+    "indisponibilidade_pct": 8.3026,
     "meta_mtbf": 300,
     "status": "abaixo"
   }
