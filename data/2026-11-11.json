@@ -1,22 +1,22 @@
 {
   "date": "2026-11-11",
-  "updated_at": "2026-11-12T12:31",
+  "updated_at": "2026-11-12T12:44",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK E",
-      "horas": 16.0833,
+      "horas": 8.0833,
       "horas_disponiveis": 24.0,
-      "falhas": 8,
+      "falhas": 7,
       "por_turno": {
         "1": {
           "horas": 0.3667,
           "falhas": 5
         },
         "2": {
-          "horas": 15.7167,
-          "falhas": 3
+          "horas": 7.7167,
+          "falhas": 2
         },
         "3": {
           "horas": 0.0,
@@ -101,19 +101,6 @@
           "obs": "troca do conjunto de faca devido colisão com a régua móvel causando vários danos quebrado várias pinças saindo fora do ponto tendo que fazer uma nova pinça pega",
           "tag": "20567",
           "componente": "CONJUNTO CARRO MOVEL MESPACK E "
-        },
-        {
-          "data": "2026-11-11",
-          "inicio": "14:45",
-          "fim": "22:45",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 8.0,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "manutenção na mespack ",
-          "tag": "PS05",
-          "componente": "PASTEURIZADOR MESPACK E"
         },
         {
           "data": "2026-11-11",
@@ -788,7 +775,7 @@
           "inicio": "17:57",
           "fim": "19:06",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 1.15,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
@@ -1645,7 +1632,7 @@
   "turnos": {
     "Automação": {
       "1": 1.6667,
-      "2": 3.3333,
+      "2": 2.1833,
       "3": 0.8
     },
     "Elétrica": {
@@ -1655,7 +1642,7 @@
     },
     "Mecânica": {
       "1": 2.1333,
-      "2": 19.4,
+      "2": 12.55,
       "3": 0.8
     }
   },
@@ -1807,7 +1794,7 @@
           "inicio": "17:57",
           "fim": "19:06",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 1.15,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
@@ -2607,97 +2594,52 @@
       ]
     },
     {
-      "tag": "RB011",
-      "componente": "ROBO  ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
+      "tag": "TF-BJ4",
+      "componente": "TRANSFERIDO DE BANDEJA TF-BJ4",
+      "equipamento": "MESPACK R2",
       "falhas": 2,
-      "horas": 0.2,
+      "horas": 0.25,
       "por_turno": {
         "1": {
-          "horas": 0.2,
-          "falhas": 2
+          "horas": 0.1833,
+          "falhas": 1
         },
         "2": {
           "horas": 0.0,
           "falhas": 0
         },
         "3": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.0667,
+          "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-11-11",
-          "inicio": "08:45",
-          "fim": "08:53",
-          "turno": 1,
-          "departamento": "Mecânica",
+          "inicio": "02:07",
+          "fim": "02:11",
+          "turno": 3,
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "TROCA VENTOSA ROBÔ",
+          "horas": 0.0667,
+          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
           "obs": ""
         },
         {
           "data": "2026-11-11",
-          "inicio": "10:13",
-          "fim": "10:17",
+          "inicio": "12:42",
+          "fim": "12:53",
           "turno": 1,
-          "departamento": "Mecânica",
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "soda no suporte do sensor do transformador de saída robô 2"
+          "horas": 0.1833,
+          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
+          "obs": ""
         }
       ]
     }
   ],
   "parada_componentes": [
-    {
-      "tag": "PS05",
-      "componente": "PASTEURIZADOR MESPACK E",
-      "equipamento": "MESPACK E",
-      "falhas": 2,
-      "horas": 9.0833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 9.0833,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-11-11",
-          "inicio": "14:45",
-          "fim": "22:45",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 8.0,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "manutenção na mespack "
-        },
-        {
-          "data": "2026-11-11",
-          "inicio": "21:45",
-          "fim": "22:50",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 1.0833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca da válvula do tanque de produto "
-        }
-      ]
-    },
     {
       "tag": "20567",
       "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
@@ -2979,7 +2921,7 @@
           "inicio": "17:57",
           "fim": "19:06",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 1.15,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
@@ -3208,6 +3150,40 @@
           "horas": 1.0833,
           "motivo": "CARRO DE TRANSPORTE EM FALHA",
           "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "PS05",
+      "componente": "PASTEURIZADOR MESPACK E",
+      "equipamento": "MESPACK E",
+      "falhas": 1,
+      "horas": 1.0833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.0833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-11",
+          "inicio": "21:45",
+          "fim": "22:50",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da válvula do tanque de produto "
         }
       ]
     },
@@ -3617,15 +3593,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 800
+      "falhas": 799
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 241.4333,
-      "horas_paradas": 37.05,
-      "disponibilidade_pct": 84.6541,
-      "indisponibilidade_pct": 15.3459
+      "horas_paradas": 29.05,
+      "disponibilidade_pct": 87.9677,
+      "indisponibilidade_pct": 12.0323
     },
     "departamentos": {
       "Elétrica": {
@@ -3636,15 +3612,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 241.4333,
-        "horas_paradas": 22.3333,
-        "disponibilidade_pct": 90.7497,
-        "indisponibilidade_pct": 9.2503
+        "horas_paradas": 15.4833,
+        "disponibilidade_pct": 93.5869,
+        "indisponibilidade_pct": 6.4131
       },
       "Automação": {
         "horas_disponiveis": 91.9667,
-        "horas_paradas": 5.8,
-        "disponibilidade_pct": 93.6934,
-        "indisponibilidade_pct": 6.3066
+        "horas_paradas": 4.65,
+        "disponibilidade_pct": 94.9438,
+        "indisponibilidade_pct": 5.0562
       }
     }
   },
@@ -3652,12 +3628,12 @@
     "mes": "novembro",
     "ano": 2026,
     "ate": "2026-11-11",
-    "falhas": 800,
-    "horas_paradas": 157.5292,
+    "falhas": 799,
+    "horas_paradas": 149.5292,
     "horas_disponiveis": 1798.95,
-    "mtbf_min": 123.1066,
-    "disponibilidade_pct": 91.2433,
-    "indisponibilidade_pct": 8.7567,
+    "mtbf_min": 123.8614,
+    "disponibilidade_pct": 91.688,
+    "indisponibilidade_pct": 8.312,
     "meta_mtbf": 300,
     "status": "abaixo"
   }
