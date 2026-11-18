@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updated_at": "2026-11-18T12:48",
+  "updated_at": "2026-11-18T13:03",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -671,7 +671,7 @@
           "inicio": "01:00",
           "fim": "01:07",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1167,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
@@ -1516,7 +1516,7 @@
     "Automação": {
       "1": 1.5928,
       "2": 0.9667,
-      "3": 0.2
+      "3": 0.0833
     },
     "Elétrica": {
       "1": 0.9667,
@@ -1526,7 +1526,7 @@
     "Mecânica": {
       "1": 1.6333,
       "2": 2.9167,
-      "3": 3.7
+      "3": 3.8167
     }
   },
   "top_falhas": [
@@ -3616,15 +3616,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 216.9167,
-        "horas_paradas": 8.25,
-        "disponibilidade_pct": 96.1967,
-        "indisponibilidade_pct": 3.8033
+        "horas_paradas": 8.3667,
+        "disponibilidade_pct": 96.1429,
+        "indisponibilidade_pct": 3.8571
       },
       "Automação": {
         "horas_disponiveis": 92.3333,
-        "horas_paradas": 2.7595,
-        "disponibilidade_pct": 97.0114,
-        "indisponibilidade_pct": 2.9886
+        "horas_paradas": 2.6428,
+        "disponibilidade_pct": 97.1378,
+        "indisponibilidade_pct": 2.8622
       }
     }
   },
