@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "updated_at": "2026-11-18T13:18",
+  "updated_at": "2026-11-18T13:33",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1935,46 +1935,11 @@
           "componente": "SISTEMA DE DOSAGEM BICOS MESPACK D"
         }
       ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO AUTOMATICO VEGETAIS",
-      "horas": 0.05,
-      "horas_disponiveis": 22.0,
-      "falhas": 1,
-      "por_turno": {
-        "1": {
-          "horas": 0.05,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-11-17",
-          "inicio": "07:30",
-          "fim": "07:33",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": "",
-          "tag": "",
-          "componente": "FALHA NO TRANSFERIDOR 4"
-        }
-      ]
     }
   ],
   "turnos": {
     "Automação": {
-      "1": 1.2833,
+      "1": 1.2333,
       "2": 1.2167,
       "3": 0.6833
     },
@@ -4607,15 +4572,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 1477
+      "falhas": 1465
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 229.75,
-      "horas_paradas": 21.1,
-      "disponibilidade_pct": 90.8161,
-      "indisponibilidade_pct": 9.1839
+      "horas_paradas": 21.05,
+      "disponibilidade_pct": 90.8379,
+      "indisponibilidade_pct": 9.1621
     },
     "departamentos": {
       "Elétrica": {
@@ -4632,9 +4597,9 @@
       },
       "Automação": {
         "horas_disponiveis": 94.6667,
-        "horas_paradas": 3.1833,
-        "disponibilidade_pct": 96.6373,
-        "indisponibilidade_pct": 3.3627
+        "horas_paradas": 3.1333,
+        "disponibilidade_pct": 96.6901,
+        "indisponibilidade_pct": 3.3099
       }
     }
   },
@@ -4642,12 +4607,12 @@
     "mes": "novembro",
     "ano": 2026,
     "ate": "2026-11-17",
-    "falhas": 1477,
-    "horas_paradas": 281.3992,
+    "falhas": 1465,
+    "horas_paradas": 274.7894,
     "horas_disponiveis": 2906.6667,
-    "mtbf_min": 106.6459,
-    "disponibilidade_pct": 90.3188,
-    "indisponibilidade_pct": 9.6812,
+    "mtbf_min": 107.7902,
+    "disponibilidade_pct": 90.5462,
+    "indisponibilidade_pct": 9.4538,
     "meta_mtbf": 300,
     "status": "abaixo"
   }
