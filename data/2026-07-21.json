@@ -1,6 +1,6 @@
 {
   "date": "2026-07-21",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1579,93 +1579,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 2.5,
-      "horas_disponiveis": 22.0,
-      "falhas": 5,
-      "por_turno": {
-        "1": {
-          "horas": 0.1,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 2.4,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-21",
-          "inicio": "10:15",
-          "fim": "10:18",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": "",
-          "tag": "TP-BJ4-L2",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L2"
-        },
-        {
-          "data": "2026-07-21",
-          "inicio": "10:51",
-          "fim": "10:54",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "FEL01",
-          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
-        },
-        {
-          "data": "2026-07-21",
-          "inicio": "15:36",
-          "fim": "17:43",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 2.1167,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "pistão travado na curva do autoclave JPBJ9 ",
-          "tag": "31905",
-          "componente": "PISTÃO DE TRAVAMENTO DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-9"
-        },
-        {
-          "data": "2026-07-21",
-          "inicio": "18:43",
-          "fim": "18:49",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "",
-          "tag": "31905",
-          "componente": "PISTÃO DE TRAVAMENTO DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-9"
-        },
-        {
-          "data": "2026-07-21",
-          "inicio": "20:17",
-          "fim": "20:28",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": "esteira TPBJ9",
-          "tag": "31905",
-          "componente": "PISTÃO DE TRAVAMENTO DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-9"
-        }
-      ]
-    },
-    {
       "name": "CONDOR",
       "horas": 2.3667,
       "horas_disponiveis": 22.0,
@@ -2377,8 +2290,8 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 3.7833,
-      "2": 5.8,
+      "1": 3.6833,
+      "2": 3.4,
       "3": 7.2667
     },
     "Elétrica": {
@@ -3852,19 +3765,64 @@
       ]
     },
     {
-      "tag": "31905",
-      "componente": "PISTÃO DE TRAVAMENTO DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-9",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 3,
-      "horas": 2.4,
+      "tag": "31189",
+      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 0.9333,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 2.4,
-          "falhas": 3
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.9333,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-21",
+          "inicio": "04:35",
+          "fim": "04:50",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "AJUSTE NO ARRASTE",
+          "obs": ""
+        },
+        {
+          "data": "2026-07-21",
+          "inicio": "04:56",
+          "fim": "05:37",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.6833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no arraste "
+        }
+      ]
+    },
+    {
+      "tag": "20519",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
+      "equipamento": "MESPACK C",
+      "falhas": 2,
+      "horas": 0.7333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.7333,
+          "falhas": 2
         },
         "3": {
           "horas": 0.0,
@@ -3874,36 +3832,70 @@
       "ocorrencias": [
         {
           "data": "2026-07-21",
-          "inicio": "15:36",
-          "fim": "17:43",
+          "inicio": "16:02",
+          "fim": "16:20",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 2.1167,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "pistão travado na curva do autoclave JPBJ9 "
+          "horas": 0.3,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do tirante da mordaça superior "
         },
         {
           "data": "2026-07-21",
-          "inicio": "18:43",
-          "fim": "18:49",
+          "inicio": "17:12",
+          "fim": "17:38",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
+          "horas": 0.4333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "mecânico verificou oq poderia ser feito mais bobina está com problema fundo está passando muito colando "
+        }
+      ]
+    },
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 2,
+      "horas": 0.25,
+      "por_turno": {
+        "1": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1833,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-21",
+          "inicio": "07:57",
+          "fim": "08:01",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "TROCA DE PINÇAS",
           "obs": ""
         },
         {
           "data": "2026-07-21",
-          "inicio": "20:17",
-          "fim": "20:28",
-          "turno": 2,
-          "departamento": "Automação",
+          "inicio": "23:15",
+          "fim": "23:26",
+          "turno": 3,
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1833,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": "esteira TPBJ9"
+          "motivo": "AJUSTE NA RÉGUA",
+          "obs": ""
         }
       ]
     },
@@ -3953,51 +3945,6 @@
       ]
     },
     {
-      "tag": "31189",
-      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK R1",
-      "equipamento": "MESPACK R1",
-      "falhas": 2,
-      "horas": 0.9333,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.9333,
-          "falhas": 2
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-21",
-          "inicio": "04:35",
-          "fim": "04:50",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.25,
-          "motivo": "AJUSTE NO ARRASTE",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-21",
-          "inicio": "04:56",
-          "fim": "05:37",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.6833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste no arraste "
-        }
-      ]
-    },
-    {
       "tag": "31399",
       "componente": "CONJUNTO DE FACAS MESPACK R2",
       "equipamento": "MESPACK R2",
@@ -4038,51 +3985,6 @@
           "falhas": 1,
           "horas": 0.4167,
           "motivo": "TROCA DE FACA",
-          "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "20507",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
-      "equipamento": "MESPACK B",
-      "falhas": 2,
-      "horas": 0.25,
-      "por_turno": {
-        "1": {
-          "horas": 0.0667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.1833,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-21",
-          "inicio": "07:57",
-          "fim": "08:01",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "TROCA DE PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-21",
-          "inicio": "23:15",
-          "fim": "23:26",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "AJUSTE NA RÉGUA",
           "obs": ""
         }
       ]
@@ -5006,62 +4908,6 @@
       ]
     },
     {
-      "tag": "31905",
-      "componente": "PISTÃO DE TRAVAMENTO DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-9",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 3,
-      "horas": 2.4,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 2.4,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-21",
-          "inicio": "15:36",
-          "fim": "17:43",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 2.1167,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "pistão travado na curva do autoclave JPBJ9 "
-        },
-        {
-          "data": "2026-07-21",
-          "inicio": "18:43",
-          "fim": "18:49",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-21",
-          "inicio": "20:17",
-          "fim": "20:28",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": "esteira TPBJ9"
-        }
-      ]
-    },
-    {
       "tag": "ROBOTICA02",
       "componente": "ESTEIRÃO PARADO MESPACK F",
       "equipamento": "MESPACK F",
@@ -5930,36 +5776,70 @@
           "obs": "ajuste nos sensores de entradae saída."
         }
       ]
+    },
+    {
+      "tag": "32180",
+      "componente": "CONJUNTO DE SUPORTE VENTOSA ROBO ENTRAGA DE SACHE MESPACK E",
+      "equipamento": "MESPACK E",
+      "falhas": 1,
+      "horas": 0.2833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-21",
+          "inicio": "15:03",
+          "fim": "15:20",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca de suporte da ventosa e 2 pares de ventosas"
+        }
+      ]
     }
   ],
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -5967,15 +5847,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 27.0667,
-      "disponibilidade_pct": 90.5361,
-      "indisponibilidade_pct": 9.4639
+      "horas_paradas": 24.5667,
+      "disponibilidade_pct": 91.4103,
+      "indisponibilidade_pct": 8.5897
     },
     "departamentos": {
       "Elétrica": {
@@ -5992,9 +5872,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 16.85,
-        "disponibilidade_pct": 80.8523,
-        "indisponibilidade_pct": 19.1477
+        "horas_paradas": 14.35,
+        "disponibilidade_pct": 83.6932,
+        "indisponibilidade_pct": 16.3068
       }
     }
   },
@@ -6002,12 +5882,12 @@
     "mes": "julho",
     "ano": 2026,
     "ate": "2026-07-21",
-    "falhas": 2557,
-    "horas_paradas": 462.4699,
+    "falhas": 2506,
+    "horas_paradas": 448.5182,
     "horas_disponiveis": 5148.0,
-    "mtbf_min": 109.946,
-    "disponibilidade_pct": 91.0165,
-    "indisponibilidade_pct": 8.9835,
+    "mtbf_min": 112.5175,
+    "disponibilidade_pct": 91.2875,
+    "indisponibilidade_pct": 8.7125,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

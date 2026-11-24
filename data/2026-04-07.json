@@ -1,6 +1,6 @@
 {
   "date": "2026-04-07",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -505,17 +505,17 @@
     },
     {
       "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.7167,
+      "horas": 0.1167,
       "horas_disponiveis": 22.0,
-      "falhas": 3,
+      "falhas": 1,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.6,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.1167,
@@ -535,32 +535,6 @@
           "obs": "",
           "tag": "ROBOTICA03",
           "componente": "FALTA DE GRELHA R1"
-        },
-        {
-          "data": "2026-04-07",
-          "inicio": "20:40",
-          "fim": "20:45",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": "",
-          "tag": "ROBOTICA03",
-          "componente": "FALTA DE GRELHA R1"
-        },
-        {
-          "data": "2026-04-07",
-          "inicio": "20:52",
-          "fim": "21:23",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.5167,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": "Falha na corrente,TPBJ9,, corrente TPBJ8,e no pistão.",
-          "tag": "ROBOTICA03",
-          "componente": "FALTA DE GRELHA R1"
         }
       ]
     }
@@ -568,7 +542,7 @@
   "turnos": {
     "Automação": {
       "1": 0.0,
-      "2": 3.7833,
+      "2": 3.1833,
       "3": 0.9667
     },
     "Elétrica": {
@@ -808,16 +782,16 @@
       "tag": "ROBOTICA03",
       "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
-      "falhas": 11,
-      "horas": 2.65,
+      "falhas": 9,
+      "horas": 2.05,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 1.6167,
-          "falhas": 7
+          "horas": 1.0167,
+          "falhas": 5
         },
         "3": {
           "horas": 1.0333,
@@ -901,28 +875,6 @@
           "horas": 0.2833,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": ""
-        },
-        {
-          "data": "2026-04-07",
-          "inicio": "20:40",
-          "fim": "20:45",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-07",
-          "inicio": "20:52",
-          "fim": "21:23",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.5167,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": "Falha na corrente,TPBJ9,, corrente TPBJ8,e no pistão."
         },
         {
           "data": "2026-04-07",
@@ -1412,16 +1364,16 @@
       "tag": "ROBOTICA03",
       "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
-      "falhas": 11,
-      "horas": 2.65,
+      "falhas": 9,
+      "horas": 2.05,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 1.6167,
-          "falhas": 7
+          "horas": 1.0167,
+          "falhas": 5
         },
         "3": {
           "horas": 1.0333,
@@ -1505,28 +1457,6 @@
           "horas": 0.2833,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": ""
-        },
-        {
-          "data": "2026-04-07",
-          "inicio": "20:40",
-          "fim": "20:45",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-07",
-          "inicio": "20:52",
-          "fim": "21:23",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.5167,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": "Falha na corrente,TPBJ9,, corrente TPBJ8,e no pistão."
         },
         {
           "data": "2026-04-07",
@@ -1793,31 +1723,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -1825,15 +1755,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 7.0167,
-      "disponibilidade_pct": 97.5466,
-      "indisponibilidade_pct": 2.4534
+      "horas_paradas": 6.4167,
+      "disponibilidade_pct": 97.7564,
+      "indisponibilidade_pct": 2.2436
     },
     "departamentos": {
       "Elétrica": {
@@ -1850,9 +1780,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 4.75,
-        "disponibilidade_pct": 94.6023,
-        "indisponibilidade_pct": 5.3977
+        "horas_paradas": 4.15,
+        "disponibilidade_pct": 95.2841,
+        "indisponibilidade_pct": 4.7159
       }
     }
   },
@@ -1860,12 +1790,12 @@
     "mes": "abril",
     "ano": 2026,
     "ate": "2026-04-07",
-    "falhas": 293,
-    "horas_paradas": 43.6242,
+    "falhas": 279,
+    "horas_paradas": 41.6242,
     "horas_disponiveis": 1144.0,
-    "mtbf_min": 225.3329,
-    "disponibilidade_pct": 96.1867,
-    "indisponibilidade_pct": 3.8133,
+    "mtbf_min": 237.0701,
+    "disponibilidade_pct": 96.3615,
+    "indisponibilidade_pct": 3.6385,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

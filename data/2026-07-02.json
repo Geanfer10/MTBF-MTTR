@@ -1,6 +1,6 @@
 {
   "date": "2026-07-02",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1454,80 +1454,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 2.4833,
-      "horas_disponiveis": 22.0,
-      "falhas": 4,
-      "por_turno": {
-        "1": {
-          "horas": 0.1333,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 2.35,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-02",
-          "inicio": "11:06",
-          "fim": "11:09",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": "",
-          "tag": "TF-BJ4",
-          "componente": "TRANSFERIDO DE BANDEJA TF-BJ4"
-        },
-        {
-          "data": "2026-07-02",
-          "inicio": "14:13",
-          "fim": "14:18",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "FEL01",
-          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
-        },
-        {
-          "data": "2026-07-02",
-          "inicio": "16:10",
-          "fim": "17:35",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 1.4167,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "rompimento do cabo de sensor de esteira robô 2 foi feito a substituição ",
-          "tag": "TP-BJ9",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ-9"
-        },
-        {
-          "data": "2026-07-02",
-          "inicio": "20:34",
-          "fim": "21:30",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.9333,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "falha de emergência externa.",
-          "tag": "ETH",
-          "componente": "ERRO DE ETHERCAT"
-        }
-      ]
-    },
-    {
       "name": "MESPACK F",
       "horas": 2.1333,
       "horas_disponiveis": 22.0,
@@ -2121,13 +2047,13 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 2.6833,
-      "2": 6.0333,
+      "1": 2.55,
+      "2": 5.1,
       "3": 1.4333
     },
     "Elétrica": {
       "1": 1.3684,
-      "2": 3.0167,
+      "2": 1.6,
       "3": 0.0833
     },
     "Mecânica": {
@@ -3444,51 +3370,6 @@
       ]
     },
     {
-      "tag": "PS04",
-      "componente": "PASTEURIZADOR C-D",
-      "equipamento": "MESPACK C",
-      "falhas": 2,
-      "horas": 9.5667,
-      "por_turno": {
-        "1": {
-          "horas": 9.5667,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-02",
-          "inicio": "06:30",
-          "fim": "11:17",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 4.7833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "manutenção no pasteurizador "
-        },
-        {
-          "data": "2026-07-02",
-          "inicio": "06:30",
-          "fim": "11:17",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 4.7833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "Manutenção no pasteurizador."
-        }
-      ]
-    },
-    {
       "tag": "RB09",
       "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
       "equipamento": "MESPACK R1",
@@ -3534,19 +3415,19 @@
       ]
     },
     {
-      "tag": "FEL01",
-      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
+      "tag": "20391",
+      "componente": "ESTEIRA TRANSPORTE DE FRASCOS ROTULADEIRA TOPDOWN",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
       "falhas": 2,
-      "horas": 0.1333,
+      "horas": 0.3,
       "por_turno": {
         "1": {
-          "horas": 0.0833,
-          "falhas": 1
+          "horas": 0.3,
+          "falhas": 2
         },
         "2": {
-          "horas": 0.05,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,
@@ -3556,41 +3437,86 @@
       "ocorrencias": [
         {
           "data": "2026-07-02",
-          "inicio": "14:13",
-          "fim": "14:18",
+          "inicio": "08:11",
+          "fim": "08:24",
           "turno": 1,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
+          "horas": 0.2167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste na esteira de transporte."
         },
         {
           "data": "2026-07-02",
-          "inicio": "17:14",
-          "fim": "17:17",
-          "turno": 2,
-          "departamento": "Automação",
+          "inicio": "10:39",
+          "fim": "10:44",
+          "turno": 1,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+          "horas": 0.0833,
+          "motivo": "AJUSTE NA SELADORA",
           "obs": ""
         }
       ]
     },
     {
-      "tag": "20547",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
-      "equipamento": "MESPACK D",
+      "tag": "PS04",
+      "componente": "PASTEURIZADOR C-D",
+      "equipamento": "MESPACK C",
       "falhas": 2,
-      "horas": 0.2667,
+      "horas": 9.5667,
+      "por_turno": {
+        "1": {
+          "horas": 9.5667,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-02",
+          "inicio": "06:30",
+          "fim": "11:17",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 4.7833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção no pasteurizador "
+        },
+        {
+          "data": "2026-07-02",
+          "inicio": "06:30",
+          "fim": "11:17",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 4.7833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Manutenção no pasteurizador."
+        }
+      ]
+    },
+    {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 2,
+      "horas": 0.1167,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.2667,
+          "horas": 0.1167,
           "falhas": 2
         },
         "3": {
@@ -3601,25 +3527,25 @@
       "ocorrencias": [
         {
           "data": "2026-07-02",
-          "inicio": "18:04",
-          "fim": "18:10",
+          "inicio": "16:12",
+          "fim": "16:15",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "carro móvel fora do ponto"
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
         },
         {
           "data": "2026-07-02",
-          "inicio": "20:11",
-          "fim": "20:21",
+          "inicio": "17:57",
+          "fim": "18:01",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "carro movel fora do ponto"
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
         }
       ]
     }
@@ -4388,40 +4314,6 @@
       ]
     },
     {
-      "tag": "TP-BJ9",
-      "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ-9",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 1,
-      "horas": 1.4167,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 1.4167,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-02",
-          "inicio": "16:10",
-          "fim": "17:35",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 1.4167,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "rompimento do cabo de sensor de esteira robô 2 foi feito a substituição "
-        }
-      ]
-    },
-    {
       "tag": "31198",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
       "equipamento": "MESPACK R1",
@@ -4697,40 +4589,6 @@
           "horas": 0.95,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "Troca de máquina do inkjet "
-        }
-      ]
-    },
-    {
-      "tag": "ETH",
-      "componente": "ERRO DE ETHERCAT",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 1,
-      "horas": 0.9333,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.9333,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-02",
-          "inicio": "20:34",
-          "fim": "21:30",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.9333,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "falha de emergência externa."
         }
       ]
     },
@@ -5201,36 +5059,126 @@
           "obs": "lata amassada /polimento placa 5"
         }
       ]
+    },
+    {
+      "tag": "20391",
+      "componente": "ESTEIRA TRANSPORTE DE FRASCOS ROTULADEIRA TOPDOWN",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 2,
+      "horas": 0.3,
+      "por_turno": {
+        "1": {
+          "horas": 0.3,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-02",
+          "inicio": "08:11",
+          "fim": "08:24",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste na esteira de transporte."
+        },
+        {
+          "data": "2026-07-02",
+          "inicio": "10:39",
+          "fim": "10:44",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NA SELADORA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 0.2667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-02",
+          "inicio": "14:28",
+          "fim": "14:33",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-07-02",
+          "inicio": "21:19",
+          "fim": "21:30",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": ""
+        }
+      ]
     }
   ],
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -5238,22 +5186,22 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 30.6184,
-      "disponibilidade_pct": 89.2943,
-      "indisponibilidade_pct": 10.7057
+      "horas_paradas": 28.1351,
+      "disponibilidade_pct": 90.1626,
+      "indisponibilidade_pct": 9.8374
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 4.4684,
-        "disponibilidade_pct": 98.4376,
-        "indisponibilidade_pct": 1.5624
+        "horas_paradas": 3.0518,
+        "disponibilidade_pct": 98.9329,
+        "indisponibilidade_pct": 1.0671
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
@@ -5263,9 +5211,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 10.15,
-        "disponibilidade_pct": 88.4659,
-        "indisponibilidade_pct": 11.5341
+        "horas_paradas": 9.0833,
+        "disponibilidade_pct": 89.678,
+        "indisponibilidade_pct": 10.322
       }
     }
   },
@@ -5273,12 +5221,12 @@
     "mes": "julho",
     "ano": 2026,
     "ate": "2026-07-02",
-    "falhas": 246,
-    "horas_paradas": 49.5018,
+    "falhas": 241,
+    "horas_paradas": 46.9518,
     "horas_disponiveis": 572.0,
-    "mtbf_min": 127.4386,
-    "disponibilidade_pct": 91.3458,
-    "indisponibilidade_pct": 8.6542,
+    "mtbf_min": 130.7174,
+    "disponibilidade_pct": 91.7916,
+    "indisponibilidade_pct": 8.2084,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

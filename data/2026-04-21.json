@@ -1,6 +1,6 @@
 {
   "date": "2026-04-21",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -2550,46 +2550,11 @@
           "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B"
         }
       ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.05,
-      "horas_disponiveis": 22.0,
-      "falhas": 1,
-      "por_turno": {
-        "1": {
-          "horas": 0.05,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-04-21",
-          "inicio": "13:25",
-          "fim": "13:28",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "",
-          "tag": "RB010",
-          "componente": "ROBO  DESEMPILHADOR DE BANDEJA "
-        }
-      ]
     }
   ],
   "turnos": {
     "Automação": {
-      "1": 5.3167,
+      "1": 5.2667,
       "2": 5.9167,
       "3": 2.5
     },
@@ -4296,62 +4261,6 @@
       ]
     },
     {
-      "tag": "20560",
-      "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK E ",
-      "equipamento": "MESPACK E",
-      "falhas": 3,
-      "horas": 2.85,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 2.85,
-          "falhas": 3
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-04-21",
-          "inicio": "00:55",
-          "fim": "01:11",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2667,
-          "motivo": "AJUSTE NA MORDAÇA VERTICAL",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-21",
-          "inicio": "02:20",
-          "fim": "03:10",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.8333,
-          "motivo": "AJUSTE NA MORDAÇA VERTICAL",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-21",
-          "inicio": "04:25",
-          "fim": "06:10",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 1.75,
-          "motivo": "AJUSTE NA MORDAÇA VERTICAL",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "30433",
       "componente": "CABEÇOTE SUPERIOR 60L1",
       "equipamento": "60L1",
@@ -4464,6 +4373,62 @@
       ]
     },
     {
+      "tag": "20560",
+      "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 3,
+      "horas": 2.85,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 2.85,
+          "falhas": 3
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-21",
+          "inicio": "00:55",
+          "fim": "01:11",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "AJUSTE NA MORDAÇA VERTICAL",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-21",
+          "inicio": "02:20",
+          "fim": "03:10",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.8333,
+          "motivo": "AJUSTE NA MORDAÇA VERTICAL",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-21",
+          "inicio": "04:25",
+          "fim": "06:10",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.75,
+          "motivo": "AJUSTE NA MORDAÇA VERTICAL",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "MECANICA01",
       "componente": "AGUARDANDO MECANICO",
       "equipamento": "MESPACK E",
@@ -4520,19 +4485,19 @@
       ]
     },
     {
-      "tag": "20567",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
-      "equipamento": "MESPACK E",
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "equipamento": "MESPACK R1",
       "falhas": 2,
-      "horas": 0.4667,
+      "horas": 0.1667,
       "por_turno": {
         "1": {
-          "horas": 0.1833,
-          "falhas": 1
+          "horas": 0.1667,
+          "falhas": 2
         },
         "2": {
-          "horas": 0.2833,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,
@@ -4542,24 +4507,24 @@
       "ocorrencias": [
         {
           "data": "2026-04-21",
-          "inicio": "11:44",
-          "fim": "11:55",
+          "inicio": "07:31",
+          "fim": "07:36",
           "turno": 1,
-          "departamento": "Mecânica",
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "AJUSTE NAS PINÇAS",
+          "horas": 0.0833,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
           "obs": ""
         },
         {
           "data": "2026-04-21",
-          "inicio": "20:43",
-          "fim": "21:00",
-          "turno": 2,
-          "departamento": "Mecânica",
+          "inicio": "07:32",
+          "fim": "07:37",
+          "turno": 1,
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.2833,
-          "motivo": "AJUSTE NAS PINÇAS",
+          "horas": 0.0833,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
           "obs": ""
         }
       ]
@@ -6620,31 +6585,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -6652,15 +6617,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 30.2333,
-      "disponibilidade_pct": 89.4289,
-      "indisponibilidade_pct": 10.5711
+      "horas_paradas": 30.1833,
+      "disponibilidade_pct": 89.4464,
+      "indisponibilidade_pct": 10.5536
     },
     "departamentos": {
       "Elétrica": {
@@ -6677,9 +6642,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 13.7333,
-        "disponibilidade_pct": 84.3939,
-        "indisponibilidade_pct": 15.6061
+        "horas_paradas": 13.6833,
+        "disponibilidade_pct": 84.4508,
+        "indisponibilidade_pct": 15.5492
       }
     }
   },
@@ -6687,12 +6652,12 @@
     "mes": "abril",
     "ano": 2026,
     "ate": "2026-04-21",
-    "falhas": 1810,
-    "horas_paradas": 285.8742,
+    "falhas": 1758,
+    "horas_paradas": 273.4742,
     "horas_disponiveis": 4290.0,
-    "mtbf_min": 132.7335,
-    "disponibilidade_pct": 93.3363,
-    "indisponibilidade_pct": 6.6637,
+    "mtbf_min": 137.0828,
+    "disponibilidade_pct": 93.6253,
+    "indisponibilidade_pct": 6.3747,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

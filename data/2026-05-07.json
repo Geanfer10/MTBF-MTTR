@@ -1,6 +1,6 @@
 {
   "date": "2026-05-07",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1753,106 +1753,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 1.5333,
-      "horas_disponiveis": 22.0,
-      "falhas": 6,
-      "por_turno": {
-        "1": {
-          "horas": 1.5333,
-          "falhas": 6
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-07",
-          "inicio": "06:30",
-          "fim": "06:37",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "TROCA VENTOSA ROBÔ",
-          "obs": "",
-          "tag": "32258",
-          "componente": "VENTOSA  ROBO ENCAIXOTAMENTO VEGETAIS LADO DIREITO"
-        },
-        {
-          "data": "2026-05-07",
-          "inicio": "07:54",
-          "fim": "07:58",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste no sensor foto eletrônico de caixa vazia ",
-          "tag": "32113",
-          "componente": "SISTEMA TRAVAMENTO DE BANDEJA LADO ESQUERDO 02  ROBO DESEMPILHADOR"
-        },
-        {
-          "data": "2026-05-07",
-          "inicio": "08:05",
-          "fim": "08:19",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste no sensor q libera caixa ",
-          "tag": "32241",
-          "componente": "SISTEMA DE MANGUEIRA DE AR COMPRIMIDO ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
-        },
-        {
-          "data": "2026-05-07",
-          "inicio": "08:45",
-          "fim": "09:06",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.35,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "troca do fusível de comando do painel ",
-          "tag": "32124",
-          "componente": "PAINEL IHM FECH. DE CAIXA VEGETAIS"
-        },
-        {
-          "data": "2026-05-07",
-          "inicio": "08:45",
-          "fim": "09:06",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.35,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "troca do fusível do sensor de caixa vazia ",
-          "tag": "32244",
-          "componente": "SISTEMA PNEUMATICO ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
-        },
-        {
-          "data": "2026-05-07",
-          "inicio": "13:56",
-          "fim": "14:21",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.4167,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste é acompanhamento no sensor da esteira de caixa ",
-          "tag": "32024",
-          "componente": "SISTEMA DE SENSORES ESTEIRA TRANSPORTE CADENA TP-BJ4-L2"
-        }
-      ]
-    },
-    {
       "name": "MESPACK A",
       "horas": 0.7333,
       "horas_disponiveis": 22.0,
@@ -2039,12 +1939,12 @@
       "3": 1.2333
     },
     "Elétrica": {
-      "1": 1.6719,
+      "1": 0.2553,
       "2": 2.3706,
       "3": 1.1833
     },
     "Mecânica": {
-      "1": 2.6833,
+      "1": 2.5667,
       "2": 3.1667,
       "3": 6.9333
     }
@@ -3135,6 +3035,118 @@
       ]
     },
     {
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "equipamento": "MESPACK F",
+      "falhas": 3,
+      "horas": 0.2167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1667,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.05,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-05-07",
+          "inicio": "04:36",
+          "fim": "04:39",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-07",
+          "inicio": "18:44",
+          "fim": "18:51",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-07",
+          "inicio": "21:12",
+          "fim": "21:15",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "TP10",
+      "componente": "ESTEIRA TRANSPORTE ATM TP10",
+      "equipamento": "MESPACK E",
+      "falhas": 3,
+      "horas": 0.2553,
+      "por_turno": {
+        "1": {
+          "horas": 0.2553,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-05-07",
+          "inicio": "13:16",
+          "fim": "13:19",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.06,
+          "motivo": "ERRO ESTEIRA TP10",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-07",
+          "inicio": "13:41",
+          "fim": "13:46",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0953,
+          "motivo": "EMERGÊNCIA EM FALHA",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-07",
+          "inicio": "14:42",
+          "fim": "14:48",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "EMERGÊNCIA EM FALHA",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "20562",
       "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK E ",
       "equipamento": "MESPACK E",
@@ -3247,62 +3259,6 @@
       ]
     },
     {
-      "tag": "31407",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 3,
-      "horas": 0.2167,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.2167,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-07",
-          "inicio": "16:49",
-          "fim": "16:53",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "TROCA DE PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-05-07",
-          "inicio": "18:31",
-          "fim": "18:35",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "TROCA DE MOLA DAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-05-07",
-          "inicio": "18:51",
-          "fim": "18:56",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "31449",
       "componente": "CAIXA DE COMANDO RESET/EMERGENCIA ESTEIRA DE TRANSPORTE CADENA TP-BJ-17",
       "equipamento": "MESPACK F",
@@ -3359,9 +3315,9 @@
       ]
     },
     {
-      "tag": "MECANICA01",
-      "componente": "AGUARDANDO MECANICO",
-      "equipamento": "MESPACK F",
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "equipamento": "MESPACK R2",
       "falhas": 3,
       "horas": 0.2167,
       "por_turno": {
@@ -3370,65 +3326,9 @@
           "falhas": 0
         },
         "2": {
-          "horas": 0.1667,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.05,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-07",
-          "inicio": "04:36",
-          "fim": "04:39",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AGUARDANDO MECÂNICO",
-          "obs": ""
-        },
-        {
-          "data": "2026-05-07",
-          "inicio": "18:44",
-          "fim": "18:51",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "AGUARDANDO MECÂNICO",
-          "obs": ""
-        },
-        {
-          "data": "2026-05-07",
-          "inicio": "21:12",
-          "fim": "21:15",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AGUARDANDO MECÂNICO",
-          "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "TP10",
-      "componente": "ESTEIRA TRANSPORTE ATM TP10",
-      "equipamento": "MESPACK E",
-      "falhas": 3,
-      "horas": 0.2553,
-      "por_turno": {
-        "1": {
-          "horas": 0.2553,
+          "horas": 0.2167,
           "falhas": 3
         },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
         "3": {
           "horas": 0.0,
           "falhas": 0
@@ -3437,35 +3337,35 @@
       "ocorrencias": [
         {
           "data": "2026-05-07",
-          "inicio": "13:16",
-          "fim": "13:19",
-          "turno": 1,
-          "departamento": "Elétrica",
+          "inicio": "16:49",
+          "fim": "16:53",
+          "turno": 2,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.06,
-          "motivo": "ERRO ESTEIRA TP10",
+          "horas": 0.0667,
+          "motivo": "TROCA DE PINÇAS",
           "obs": ""
         },
         {
           "data": "2026-05-07",
-          "inicio": "13:41",
-          "fim": "13:46",
-          "turno": 1,
-          "departamento": "Elétrica",
+          "inicio": "18:31",
+          "fim": "18:35",
+          "turno": 2,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0953,
-          "motivo": "EMERGÊNCIA EM FALHA",
+          "horas": 0.0667,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
           "obs": ""
         },
         {
           "data": "2026-05-07",
-          "inicio": "14:42",
-          "fim": "14:48",
-          "turno": 1,
-          "departamento": "Elétrica",
+          "inicio": "18:51",
+          "fim": "18:56",
+          "turno": 2,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1,
-          "motivo": "EMERGÊNCIA EM FALHA",
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
           "obs": ""
         }
       ]
@@ -4794,40 +4694,6 @@
       ]
     },
     {
-      "tag": "32024",
-      "componente": "SISTEMA DE SENSORES ESTEIRA TRANSPORTE CADENA TP-BJ4-L2",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 1,
-      "horas": 0.4167,
-      "por_turno": {
-        "1": {
-          "horas": 0.4167,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-07",
-          "inicio": "13:56",
-          "fim": "14:21",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.4167,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste é acompanhamento no sensor da esteira de caixa "
-        }
-      ]
-    },
-    {
       "tag": "20562",
       "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK E ",
       "equipamento": "MESPACK E",
@@ -4884,14 +4750,14 @@
       ]
     },
     {
-      "tag": "32244",
-      "componente": "SISTEMA PNEUMATICO ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
+      "tag": "32107",
+      "componente": "PAINEL ELETRICO ROBO DESEMPILHADOR",
+      "equipamento": "MESPACK R2",
       "falhas": 1,
-      "horas": 0.35,
+      "horas": 0.3333,
       "por_turno": {
         "1": {
-          "horas": 0.35,
+          "horas": 0.3333,
           "falhas": 1
         },
         "2": {
@@ -4906,14 +4772,70 @@
       "ocorrencias": [
         {
           "data": "2026-05-07",
-          "inicio": "08:45",
+          "inicio": "08:46",
           "fim": "09:06",
           "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.3333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "troca do fusível de comando do painel"
+        }
+      ]
+    },
+    {
+      "tag": "31449",
+      "componente": "CAIXA DE COMANDO RESET/EMERGENCIA ESTEIRA DE TRANSPORTE CADENA TP-BJ-17",
+      "equipamento": "MESPACK F",
+      "falhas": 3,
+      "horas": 0.3039,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.3039,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-05-07",
+          "inicio": "14:57",
+          "fim": "15:05",
+          "turno": 2,
           "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.35,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "troca do fusível do sensor de caixa vazia "
+          "horas": 0.1333,
+          "motivo": "EMERGÊNCIA EM FALHA",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-07",
+          "inicio": "15:07",
+          "fim": "15:12",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0844,
+          "motivo": "EMERGÊNCIA EM FALHA",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-07",
+          "inicio": "17:43",
+          "fim": "17:48",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0861,
+          "motivo": "EMERGÊNCIA EM FALHA",
+          "obs": ""
         }
       ]
     }
@@ -4921,31 +4843,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -4953,28 +4875,28 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 26.0425,
-      "disponibilidade_pct": 90.8942,
-      "indisponibilidade_pct": 9.1058
+      "horas_paradas": 24.5092,
+      "disponibilidade_pct": 91.4304,
+      "indisponibilidade_pct": 8.5696
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 5.2258,
-        "disponibilidade_pct": 98.1728,
-        "indisponibilidade_pct": 1.8272
+        "horas_paradas": 3.8092,
+        "disponibilidade_pct": 98.6681,
+        "indisponibilidade_pct": 1.3319
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 12.7833,
-        "disponibilidade_pct": 95.5303,
-        "indisponibilidade_pct": 4.4697
+        "horas_paradas": 12.6667,
+        "disponibilidade_pct": 95.5711,
+        "indisponibilidade_pct": 4.4289
       },
       "Automação": {
         "horas_disponiveis": 88.0,
@@ -4988,12 +4910,12 @@
     "mes": "maio",
     "ano": 2026,
     "ate": "2026-05-07",
-    "falhas": 624,
-    "horas_paradas": 109.795,
+    "falhas": 599,
+    "horas_paradas": 103.1617,
     "horas_disponiveis": 1144.0,
-    "mtbf_min": 99.4428,
-    "disponibilidade_pct": 90.4025,
-    "indisponibilidade_pct": 9.5975,
+    "mtbf_min": 104.2576,
+    "disponibilidade_pct": 90.9824,
+    "indisponibilidade_pct": 9.0176,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

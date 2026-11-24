@@ -1,6 +1,6 @@
 {
   "date": "2026-06-22",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -2589,59 +2589,11 @@
           "componente": "CONJUNTO CARRO MOVEL MESPACK D "
         }
       ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.15,
-      "horas_disponiveis": 22.0,
-      "falhas": 2,
-      "por_turno": {
-        "1": {
-          "horas": 0.15,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-22",
-          "inicio": "11:30",
-          "fim": "11:33",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "FEL01",
-          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
-        },
-        {
-          "data": "2026-06-22",
-          "inicio": "13:37",
-          "fim": "13:43",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": "",
-          "tag": "ROBOTICA04",
-          "componente": "FALTA DE GRELHA R2"
-        }
-      ]
     }
   ],
   "turnos": {
     "Automação": {
-      "1": 3.7333,
+      "1": 3.5833,
       "2": 6.3833,
       "3": 8.1167
     },
@@ -2661,12 +2613,12 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 49,
-      "horas": 7.5,
+      "falhas": 48,
+      "horas": 7.4,
       "por_turno": {
         "1": {
-          "horas": 1.5,
-          "falhas": 12
+          "horas": 1.4,
+          "falhas": 11
         },
         "2": {
           "horas": 2.3333,
@@ -2939,17 +2891,6 @@
           "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1833,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-22",
-          "inicio": "13:37",
-          "fim": "13:43",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
           "obs": ""
         },
@@ -4303,62 +4244,6 @@
       ]
     },
     {
-      "tag": "30787",
-      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
-      "equipamento": "CONDOR",
-      "falhas": 3,
-      "horas": 1.2167,
-      "por_turno": {
-        "1": {
-          "horas": 0.8333,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.3833,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-22",
-          "inicio": "09:09",
-          "fim": "09:55",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.7667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "recravadeira fora do ponto"
-        },
-        {
-          "data": "2026-06-22",
-          "inicio": "13:20",
-          "fim": "13:24",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "tampa presa na recravadeira "
-        },
-        {
-          "data": "2026-06-22",
-          "inicio": "22:07",
-          "fim": "22:30",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "20519",
       "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
       "equipamento": "MESPACK C",
@@ -4411,6 +4296,62 @@
           "horas": 0.3833,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste na temperatura mordaças e entre outros "
+        }
+      ]
+    },
+    {
+      "tag": "30787",
+      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
+      "equipamento": "CONDOR",
+      "falhas": 3,
+      "horas": 1.2167,
+      "por_turno": {
+        "1": {
+          "horas": 0.8333,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.3833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-22",
+          "inicio": "09:09",
+          "fim": "09:55",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.7667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "recravadeira fora do ponto"
+        },
+        {
+          "data": "2026-06-22",
+          "inicio": "13:20",
+          "fim": "13:24",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "tampa presa na recravadeira "
+        },
+        {
+          "data": "2026-06-22",
+          "inicio": "22:07",
+          "fim": "22:30",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
         }
       ]
     },
@@ -4471,19 +4412,19 @@
       ]
     },
     {
-      "tag": "RB09",
-      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
-      "equipamento": "MESPACK R2",
+      "tag": "20476",
+      "componente": "CONJUNTO DESBOBINADOR MESPACK A ",
+      "equipamento": "MESPACK A",
       "falhas": 2,
-      "horas": 0.25,
+      "horas": 0.9667,
       "por_turno": {
         "1": {
-          "horas": 0.2,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "2": {
-          "horas": 0.05,
-          "falhas": 1
+          "horas": 0.9667,
+          "falhas": 2
         },
         "3": {
           "horas": 0.0,
@@ -4493,25 +4434,25 @@
       "ocorrencias": [
         {
           "data": "2026-06-22",
-          "inicio": "08:50",
-          "fim": "09:02",
-          "turno": 1,
-          "departamento": "Automação",
+          "inicio": "15:28",
+          "fim": "16:02",
+          "turno": 2,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.2,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
+          "horas": 0.5667,
+          "motivo": "AJUSTE DE FACA",
+          "obs": "e no perfurador de fundo embalagem não colando no fundo "
         },
         {
           "data": "2026-06-22",
-          "inicio": "16:08",
-          "fim": "16:11",
+          "inicio": "16:14",
+          "fim": "16:38",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ROBO EMPILHADOR EM FALHA",
-          "obs": ""
+          "horas": 0.4,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no desbobinado embalagem colando o fundo no triângulo "
         }
       ]
     },
@@ -4561,47 +4502,47 @@
       ]
     },
     {
-      "tag": "20476",
-      "componente": "CONJUNTO DESBOBINADOR MESPACK A ",
-      "equipamento": "MESPACK A",
+      "tag": "31319",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK F",
+      "equipamento": "MESPACK F",
       "falhas": 2,
-      "horas": 0.9667,
+      "horas": 0.2167,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.9667,
-          "falhas": 2
-        },
-        "3": {
           "horas": 0.0,
           "falhas": 0
+        },
+        "3": {
+          "horas": 0.2167,
+          "falhas": 2
         }
       },
       "ocorrencias": [
         {
           "data": "2026-06-22",
-          "inicio": "15:28",
-          "fim": "16:02",
-          "turno": 2,
+          "inicio": "00:16",
+          "fim": "00:20",
+          "turno": 3,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.5667,
-          "motivo": "AJUSTE DE FACA",
-          "obs": "e no perfurador de fundo embalagem não colando no fundo "
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste nos bicos"
         },
         {
           "data": "2026-06-22",
-          "inicio": "16:14",
-          "fim": "16:38",
-          "turno": 2,
+          "inicio": "00:26",
+          "fim": "00:35",
+          "turno": 3,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.4,
+          "horas": 0.15,
           "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste no desbobinado embalagem colando o fundo no triângulo "
+          "obs": "troca do bico 5"
         }
       ]
     }
@@ -4611,12 +4552,12 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 49,
-      "horas": 7.5,
+      "falhas": 48,
+      "horas": 7.4,
       "por_turno": {
         "1": {
-          "horas": 1.5,
-          "falhas": 12
+          "horas": 1.4,
+          "falhas": 11
         },
         "2": {
           "horas": 2.3333,
@@ -4889,17 +4830,6 @@
           "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1833,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-22",
-          "inicio": "13:37",
-          "fim": "13:43",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
           "obs": ""
         },
@@ -6650,31 +6580,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -6682,15 +6612,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 29.9833,
-      "disponibilidade_pct": 89.5163,
-      "indisponibilidade_pct": 10.4837
+      "horas_paradas": 29.8333,
+      "disponibilidade_pct": 89.5688,
+      "indisponibilidade_pct": 10.4312
     },
     "departamentos": {
       "Elétrica": {
@@ -6707,9 +6637,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 18.2333,
-        "disponibilidade_pct": 79.2803,
-        "indisponibilidade_pct": 20.7197
+        "horas_paradas": 18.0833,
+        "disponibilidade_pct": 79.4508,
+        "indisponibilidade_pct": 20.5492
       }
     }
   },
@@ -6717,12 +6647,12 @@
     "mes": "junho",
     "ano": 2026,
     "ate": "2026-06-22",
-    "falhas": 2387,
-    "horas_paradas": 429.4789,
+    "falhas": 2298,
+    "horas_paradas": 410.7862,
     "horas_disponiveis": 5434.0,
-    "mtbf_min": 125.7944,
-    "disponibilidade_pct": 92.0964,
-    "indisponibilidade_pct": 7.9036,
+    "mtbf_min": 131.1544,
+    "disponibilidade_pct": 92.4404,
+    "indisponibilidade_pct": 7.5596,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

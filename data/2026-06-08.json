@@ -1,6 +1,6 @@
 {
   "date": "2026-06-08",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1024,184 +1024,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 4.3833,
-      "horas_disponiveis": 22.0,
-      "falhas": 12,
-      "por_turno": {
-        "1": {
-          "horas": 1.15,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 1.6333,
-          "falhas": 5
-        },
-        "3": {
-          "horas": 1.6,
-          "falhas": 4
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-08",
-          "inicio": "00:23",
-          "fim": "00:39",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "manutenção nas ventosas ",
-          "tag": "31521",
-          "componente": "CONJUNTO DE SUPORTE VENTOSA ROBO MESPACK RETORT 02 COLETA DE SACHE"
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "00:40",
-          "fim": "00:51",
-          "turno": 3,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": "manutenção no encaixotamento e esvaziamento da linha R2, priorizando a R1",
-          "tag": "31899",
-          "componente": "MOTOR ESTEIRA DE TRANSPORTE CADENA TP-BJ-9"
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "01:17",
-          "fim": "02:03",
-          "turno": 3,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.7667,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": "manutenção no encaixotamento e priorizando a R1",
-          "tag": "31899",
-          "componente": "MOTOR ESTEIRA DE TRANSPORTE CADENA TP-BJ-9"
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "05:10",
-          "fim": "05:33",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca do suporte da ventosa  do robô ",
-          "tag": "32241",
-          "componente": "SISTEMA DE MANGUEIRA DE AR COMPRIMIDO ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "12:30",
-          "fim": "12:43",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2167,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "",
-          "tag": "32241",
-          "componente": "SISTEMA DE MANGUEIRA DE AR COMPRIMIDO ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "12:59",
-          "fim": "13:33",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.5667,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": "troca da manqueira do vácuo do robô 2 ",
-          "tag": "32241",
-          "componente": "SISTEMA DE MANGUEIRA DE AR COMPRIMIDO ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "13:02",
-          "fim": "13:24",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "",
-          "tag": "32241",
-          "componente": "SISTEMA DE MANGUEIRA DE AR COMPRIMIDO ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "15:28",
-          "fim": "15:37",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "AGUARDANDO MECÂNICO",
-          "obs": "",
-          "tag": "MECANICA01",
-          "componente": "AGUARDANDO MECANICO"
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "15:37",
-          "fim": "15:58",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.35,
-          "motivo": "ARMADORA DE CAIXAS EM FALHA",
-          "obs": "",
-          "tag": "FRM02",
-          "componente": "FORMADORA DE CAIXAS VEGETAIS"
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "19:17",
-          "fim": "19:52",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.5833,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "troca de 2 bases de ventosas do robô pegador e reposicionamento de esteira transportadora 15",
-          "tag": "TP-BJ15",
-          "componente": "ESTEIRA DE TRANSPORTE SAIDA MESPACK RETORT CADENA TP-BJ-15"
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "21:40",
-          "fim": "21:58",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "robô 2 parado,  mangueira rasgada ",
-          "tag": "32241",
-          "componente": "SISTEMA DE MANGUEIRA DE AR COMPRIMIDO ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "22:33",
-          "fim": "22:48",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.25,
-          "motivo": "TROCA MANGUEIRA DE ÁR",
-          "obs": "robô 2 ",
-          "tag": "32241",
-          "componente": "SISTEMA DE MANGUEIRA DE AR COMPRIMIDO ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
-        }
-      ]
-    },
-    {
       "name": "MESPACK E",
       "horas": 4.2333,
       "horas_disponiveis": 22.0,
@@ -1866,6 +1688,80 @@
       ]
     },
     {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 1.75,
+      "horas_disponiveis": 22.0,
+      "falhas": 4,
+      "por_turno": {
+        "1": {
+          "horas": 0.5667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 1.1833,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-08",
+          "inicio": "12:59",
+          "fim": "13:33",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.5667,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "troca da manqueira do vácuo do robô 2 ",
+          "tag": "32241",
+          "componente": "SISTEMA DE MANGUEIRA DE AR COMPRIMIDO ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
+        },
+        {
+          "data": "2026-06-08",
+          "inicio": "15:37",
+          "fim": "15:58",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.35,
+          "motivo": "ARMADORA DE CAIXAS EM FALHA",
+          "obs": "",
+          "tag": "FRM02",
+          "componente": "FORMADORA DE CAIXAS VEGETAIS"
+        },
+        {
+          "data": "2026-06-08",
+          "inicio": "19:17",
+          "fim": "19:52",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.5833,
+          "motivo": "OUTROS MOTIVOS ",
+          "obs": "troca de 2 bases de ventosas do robô pegador e reposicionamento de esteira transportadora 15",
+          "tag": "TP-BJ15",
+          "componente": "ESTEIRA DE TRANSPORTE SAIDA MESPACK RETORT CADENA TP-BJ-15"
+        },
+        {
+          "data": "2026-06-08",
+          "inicio": "22:33",
+          "fim": "22:48",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "TROCA MANGUEIRA DE ÁR",
+          "obs": "robô 2 ",
+          "tag": "32241",
+          "componente": "SISTEMA DE MANGUEIRA DE AR COMPRIMIDO ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
+        }
+      ]
+    },
+    {
       "name": "MESPACK C",
       "horas": 1.7,
       "horas_disponiveis": 22.0,
@@ -2017,14 +1913,14 @@
       "3": 2.95
     },
     "Elétrica": {
-      "1": 3.6333,
+      "1": 3.4167,
       "2": 1.65,
-      "3": 3.2
+      "3": 2.25
     },
     "Mecânica": {
-      "1": 3.25,
-      "2": 5.75,
-      "3": 2.8
+      "1": 2.8833,
+      "2": 5.3,
+      "3": 2.15
     }
   },
   "top_falhas": [
@@ -2891,95 +2787,6 @@
       ]
     },
     {
-      "tag": "32241",
-      "componente": "SISTEMA DE MANGUEIRA DE AR COMPRIMIDO ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 6,
-      "horas": 2.0833,
-      "por_turno": {
-        "1": {
-          "horas": 1.15,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.55,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.3833,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-08",
-          "inicio": "05:10",
-          "fim": "05:33",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca do suporte da ventosa  do robô "
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "12:30",
-          "fim": "12:43",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2167,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "12:59",
-          "fim": "13:33",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.5667,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": "troca da manqueira do vácuo do robô 2 "
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "13:02",
-          "fim": "13:24",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "21:40",
-          "fim": "21:58",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "robô 2 parado,  mangueira rasgada "
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "22:33",
-          "fim": "22:48",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.25,
-          "motivo": "TROCA MANGUEIRA DE ÁR",
-          "obs": "robô 2 "
-        }
-      ]
-    },
-    {
       "tag": "31404",
       "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
       "equipamento": "MESPACK R2",
@@ -3270,62 +3077,6 @@
       ]
     },
     {
-      "tag": "31407",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 3,
-      "horas": 0.5833,
-      "por_turno": {
-        "1": {
-          "horas": 0.1,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.4833,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-08",
-          "inicio": "11:50",
-          "fim": "11:56",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "16:41",
-          "fim": "16:47",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "18:29",
-          "fim": "18:52",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3833,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": "da régua móvel "
-        }
-      ]
-    },
-    {
       "tag": "ELETRICA01",
       "componente": "AGUARDANDO ELETRICA",
       "equipamento": "MESPACK E",
@@ -3382,6 +3133,62 @@
       ]
     },
     {
+      "tag": "20519",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
+      "equipamento": "MESPACK C",
+      "falhas": 3,
+      "horas": 1.6333,
+      "por_turno": {
+        "1": {
+          "horas": 0.9833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.3167,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.3333,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-08",
+          "inicio": "05:39",
+          "fim": "05:59",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da molhada mordaça ."
+        },
+        {
+          "data": "2026-06-08",
+          "inicio": "12:27",
+          "fim": "13:26",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.9833,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-08",
+          "inicio": "21:27",
+          "fim": "21:46",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do tirante da mordaça superior "
+        }
+      ]
+    },
+    {
       "tag": "INK05",
       "componente": "INKJET MESPACK E",
       "equipamento": "MESPACK E",
@@ -3434,6 +3241,62 @@
           "horas": 0.25,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "datadora em falha do lado esquerdo "
+        }
+      ]
+    },
+    {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 3,
+      "horas": 0.5833,
+      "por_turno": {
+        "1": {
+          "horas": 0.1,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.4833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-08",
+          "inicio": "11:50",
+          "fim": "11:56",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-08",
+          "inicio": "16:41",
+          "fim": "16:47",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-08",
+          "inicio": "18:29",
+          "fim": "18:52",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "da régua móvel "
         }
       ]
     }
@@ -4314,95 +4177,6 @@
       ]
     },
     {
-      "tag": "32241",
-      "componente": "SISTEMA DE MANGUEIRA DE AR COMPRIMIDO ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 6,
-      "horas": 2.0833,
-      "por_turno": {
-        "1": {
-          "horas": 1.15,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.55,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.3833,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-08",
-          "inicio": "05:10",
-          "fim": "05:33",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca do suporte da ventosa  do robô "
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "12:30",
-          "fim": "12:43",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2167,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "12:59",
-          "fim": "13:33",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.5667,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": "troca da manqueira do vácuo do robô 2 "
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "13:02",
-          "fim": "13:24",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "21:40",
-          "fim": "21:58",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "robô 2 parado,  mangueira rasgada "
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "22:33",
-          "fim": "22:48",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.25,
-          "motivo": "TROCA MANGUEIRA DE ÁR",
-          "obs": "robô 2 "
-        }
-      ]
-    },
-    {
       "tag": "20519",
       "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
       "equipamento": "MESPACK C",
@@ -4504,51 +4278,6 @@
       ]
     },
     {
-      "tag": "31899",
-      "componente": "MOTOR ESTEIRA DE TRANSPORTE CADENA TP-BJ-9",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 2,
-      "horas": 0.95,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.95,
-          "falhas": 2
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-08",
-          "inicio": "00:40",
-          "fim": "00:51",
-          "turno": 3,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": "manutenção no encaixotamento e esvaziamento da linha R2, priorizando a R1"
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "01:17",
-          "fim": "02:03",
-          "turno": 3,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.7667,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": "manutenção no encaixotamento e priorizando a R1"
-        }
-      ]
-    },
-    {
       "tag": "TP4",
       "componente": "ESTEIRA TRANSPORTE ATM TP4",
       "equipamento": "MESPACK F",
@@ -4624,6 +4353,51 @@
           "horas": 0.9167,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "Manutenção na impressora do inkijet "
+        }
+      ]
+    },
+    {
+      "tag": "32241",
+      "componente": "SISTEMA DE MANGUEIRA DE AR COMPRIMIDO ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO",
+      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
+      "falhas": 2,
+      "horas": 0.8167,
+      "por_turno": {
+        "1": {
+          "horas": 0.5667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.25,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-08",
+          "inicio": "12:59",
+          "fim": "13:33",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.5667,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "troca da manqueira do vácuo do robô 2 "
+        },
+        {
+          "data": "2026-06-08",
+          "inicio": "22:33",
+          "fim": "22:48",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "TROCA MANGUEIRA DE ÁR",
+          "obs": "robô 2 "
         }
       ]
     },
@@ -4839,36 +4613,70 @@
           "obs": "da régua móvel "
         }
       ]
+    },
+    {
+      "tag": "TP-BJ15",
+      "componente": "ESTEIRA DE TRANSPORTE SAIDA MESPACK RETORT CADENA TP-BJ-15",
+      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
+      "falhas": 1,
+      "horas": 0.5833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.5833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-08",
+          "inicio": "19:17",
+          "fim": "19:52",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.5833,
+          "motivo": "OUTROS MOTIVOS ",
+          "obs": "troca de 2 bases de ventosas do robô pegador e reposicionamento de esteira transportadora 15"
+        }
+      ]
     }
   ],
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -4876,28 +4684,28 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 28.9667,
-      "disponibilidade_pct": 89.8718,
-      "indisponibilidade_pct": 10.1282
+      "horas_paradas": 26.3333,
+      "disponibilidade_pct": 90.7925,
+      "indisponibilidade_pct": 9.2075
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 8.4833,
-        "disponibilidade_pct": 97.0338,
-        "indisponibilidade_pct": 2.9662
+        "horas_paradas": 7.3167,
+        "disponibilidade_pct": 97.4417,
+        "indisponibilidade_pct": 2.5583
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 11.8,
-        "disponibilidade_pct": 95.8741,
-        "indisponibilidade_pct": 4.1259
+        "horas_paradas": 10.3333,
+        "disponibilidade_pct": 96.3869,
+        "indisponibilidade_pct": 3.6131
       },
       "Automação": {
         "horas_disponiveis": 88.0,
@@ -4911,12 +4719,12 @@
     "mes": "junho",
     "ano": 2026,
     "ate": "2026-06-08",
-    "falhas": 786,
-    "horas_paradas": 146.5631,
+    "falhas": 750,
+    "horas_paradas": 139.9072,
     "horas_disponiveis": 2002.0,
-    "mtbf_min": 141.6364,
-    "disponibilidade_pct": 92.6792,
-    "indisponibilidade_pct": 7.3208,
+    "mtbf_min": 148.9674,
+    "disponibilidade_pct": 93.0116,
+    "indisponibilidade_pct": 6.9884,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

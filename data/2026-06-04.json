@@ -1,6 +1,6 @@
 {
   "date": "2026-06-04",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1481,54 +1481,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.2,
-      "horas_disponiveis": 22.0,
-      "falhas": 2,
-      "por_turno": {
-        "1": {
-          "horas": 0.2,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-04",
-          "inicio": "06:53",
-          "fim": "06:56",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": "",
-          "tag": "TP-BJ4-L2",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L2"
-        },
-        {
-          "data": "2026-06-04",
-          "inicio": "13:03",
-          "fim": "13:12",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": "",
-          "tag": "RB010",
-          "componente": "ROBO  DESEMPILHADOR DE BANDEJA "
-        }
-      ]
-    },
-    {
       "name": "MESPACK C",
       "horas": 0.15,
       "horas_disponiveis": 22.0,
@@ -1579,7 +1531,7 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 1.05,
+      "1": 0.85,
       "2": 1.2667,
       "3": 1.3
     },
@@ -2217,69 +2169,69 @@
       ]
     },
     {
-      "tag": "20547",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
-      "equipamento": "MESPACK D",
+      "tag": "20498",
+      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK B ",
+      "equipamento": "MESPACK B",
       "falhas": 4,
-      "horas": 1.8,
+      "horas": 1.4333,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.45,
+          "horas": 0.9667,
           "falhas": 3
         },
-        "3": {
-          "horas": 1.35,
+        "2": {
+          "horas": 0.4667,
           "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
         }
       },
       "ocorrencias": [
         {
           "data": "2026-06-04",
-          "inicio": "02:38",
-          "fim": "03:59",
-          "turno": 3,
+          "inicio": "10:00",
+          "fim": "10:27",
+          "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 1.35,
-          "motivo": "AJUSTE CARRO MÓVEL",
-          "obs": "ajuste no ponto zero do carro móvel,e ajuste no ponto da régua \ne foi feito ajuste de pinça e no esticador "
+          "horas": 0.45,
+          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "obs": ""
         },
         {
           "data": "2026-06-04",
-          "inicio": "16:20",
-          "fim": "16:27",
-          "turno": 2,
+          "inicio": "12:51",
+          "fim": "12:56",
+          "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste de guia"
+          "horas": 0.0833,
+          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "obs": ""
         },
         {
           "data": "2026-06-04",
-          "inicio": "18:31",
-          "fim": "18:44",
-          "turno": 2,
+          "inicio": "13:00",
+          "fim": "13:26",
+          "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.2167,
+          "horas": 0.4333,
           "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste do guia"
+          "obs": "ajuste na mola articulação da mordaça inferior "
         },
         {
           "data": "2026-06-04",
-          "inicio": "18:47",
-          "fim": "18:54",
+          "inicio": "16:10",
+          "fim": "16:38",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste do guia"
+          "horas": 0.4667,
+          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "obs": ""
         }
       ]
     },
@@ -2351,69 +2303,69 @@
       ]
     },
     {
-      "tag": "20498",
-      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK B ",
-      "equipamento": "MESPACK B",
+      "tag": "20547",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "equipamento": "MESPACK D",
       "falhas": 4,
-      "horas": 1.4333,
+      "horas": 1.8,
       "por_turno": {
         "1": {
-          "horas": 0.9667,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.4667,
-          "falhas": 1
-        },
-        "3": {
           "horas": 0.0,
           "falhas": 0
+        },
+        "2": {
+          "horas": 0.45,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 1.35,
+          "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-06-04",
-          "inicio": "10:00",
-          "fim": "10:27",
-          "turno": 1,
+          "inicio": "02:38",
+          "fim": "03:59",
+          "turno": 3,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.45,
-          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
-          "obs": ""
+          "horas": 1.35,
+          "motivo": "AJUSTE CARRO MÓVEL",
+          "obs": "ajuste no ponto zero do carro móvel,e ajuste no ponto da régua \ne foi feito ajuste de pinça e no esticador "
         },
         {
           "data": "2026-06-04",
-          "inicio": "12:51",
-          "fim": "12:56",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-04",
-          "inicio": "13:00",
-          "fim": "13:26",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.4333,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste na mola articulação da mordaça inferior "
-        },
-        {
-          "data": "2026-06-04",
-          "inicio": "16:10",
-          "fim": "16:38",
+          "inicio": "16:20",
+          "fim": "16:27",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.4667,
-          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
-          "obs": ""
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste de guia"
+        },
+        {
+          "data": "2026-06-04",
+          "inicio": "18:31",
+          "fim": "18:44",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste do guia"
+        },
+        {
+          "data": "2026-06-04",
+          "inicio": "18:47",
+          "fim": "18:54",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste do guia"
         }
       ]
     },
@@ -2530,64 +2482,64 @@
       ]
     },
     {
-      "tag": "20527",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
-      "equipamento": "MESPACK C",
+      "tag": "ELETRICA01",
+      "componente": "AGUARDANDO ELETRICA",
+      "equipamento": "MESPACK E",
       "falhas": 2,
-      "horas": 0.15,
+      "horas": 0.3333,
       "por_turno": {
         "1": {
-          "horas": 0.15,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 0
         },
         "2": {
           "horas": 0.0,
           "falhas": 0
         },
         "3": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.3333,
+          "falhas": 2
         }
       },
       "ocorrencias": [
         {
           "data": "2026-06-04",
-          "inicio": "10:47",
-          "fim": "10:50",
-          "turno": 1,
-          "departamento": "Mecânica",
+          "inicio": "01:34",
+          "fim": "01:49",
+          "turno": 3,
+          "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "horas": 0.25,
+          "motivo": "AGUARDANDO ELETRICISTA",
           "obs": ""
         },
         {
           "data": "2026-06-04",
-          "inicio": "14:20",
-          "fim": "14:26",
-          "turno": 1,
-          "departamento": "Mecânica",
+          "inicio": "03:51",
+          "fim": "03:56",
+          "turno": 3,
+          "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.1,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "Ajuste de ventosas e pinça."
+          "horas": 0.0833,
+          "motivo": "AGUARDANDO ELETRICISTA",
+          "obs": ""
         }
       ]
     },
     {
-      "tag": "INK12",
-      "componente": "INKJET RECRAVADEIRA CONDOR",
-      "equipamento": "CONDOR",
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "equipamento": "MESPACK R1",
       "falhas": 2,
-      "horas": 0.5167,
+      "horas": 0.3333,
       "por_turno": {
         "1": {
-          "horas": 0.5167,
-          "falhas": 2
+          "horas": 0.2667,
+          "falhas": 1
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.0667,
+          "falhas": 1
         },
         "3": {
           "horas": 0.0,
@@ -2597,25 +2549,25 @@
       "ocorrencias": [
         {
           "data": "2026-06-04",
-          "inicio": "07:49",
-          "fim": "08:05",
+          "inicio": "06:30",
+          "fim": "06:46",
           "turno": 1,
-          "departamento": "Elétrica",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.2667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "falha no inkijet "
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca de parafuso do bico de dosagem 4"
         },
         {
           "data": "2026-06-04",
-          "inicio": "12:43",
-          "fim": "12:58",
-          "turno": 1,
-          "departamento": "Elétrica",
+          "inicio": "16:44",
+          "fim": "16:48",
+          "turno": 2,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.25,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "falha no inkijet "
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico dosador 1"
         }
       ]
     }
@@ -3773,31 +3725,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -3805,15 +3757,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 21.55,
-      "disponibilidade_pct": 92.465,
-      "indisponibilidade_pct": 7.535
+      "horas_paradas": 21.35,
+      "disponibilidade_pct": 92.535,
+      "indisponibilidade_pct": 7.465
     },
     "departamentos": {
       "Elétrica": {
@@ -3830,9 +3782,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 3.6167,
-        "disponibilidade_pct": 95.8902,
-        "indisponibilidade_pct": 4.1098
+        "horas_paradas": 3.4167,
+        "disponibilidade_pct": 96.1174,
+        "indisponibilidade_pct": 3.8826
       }
     }
   },
@@ -3840,12 +3792,12 @@
     "mes": "junho",
     "ano": 2026,
     "ate": "2026-06-04",
-    "falhas": 440,
-    "horas_paradas": 83.6758,
+    "falhas": 420,
+    "horas_paradas": 81.3258,
     "horas_disponiveis": 1144.0,
-    "mtbf_min": 144.5897,
-    "disponibilidade_pct": 92.6857,
-    "indisponibilidade_pct": 7.3143,
+    "mtbf_min": 151.8106,
+    "disponibilidade_pct": 92.8911,
+    "indisponibilidade_pct": 7.1089,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1734,47 +1734,12 @@
           "componente": "MOTOR ELETRICO DA BOMBA DE ENVIO DE GRÃOS DO TANQUE BRANQUEADOR LINHA 001"
         }
       ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.1833,
-      "horas_disponiveis": 22.0,
-      "falhas": 1,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.1833,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-30",
-          "inicio": "18:55",
-          "fim": "19:06",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": "",
-          "tag": "FEL01",
-          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
-        }
-      ]
     }
   ],
   "turnos": {
     "Automação": {
       "1": 2.1667,
-      "2": 5.8751,
+      "2": 5.6918,
       "3": 3.9167
     },
     "Elétrica": {
@@ -2905,62 +2870,6 @@
       ]
     },
     {
-      "tag": "31407",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 3,
-      "horas": 0.2667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0833,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.1833,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-30",
-          "inicio": "10:51",
-          "fim": "10:56",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": "eli"
-        },
-        {
-          "data": "2026-08-30",
-          "inicio": "22:11",
-          "fim": "22:17",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-30",
-          "inicio": "22:30",
-          "fim": "22:35",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "31411",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
       "equipamento": "MESPACK R2",
@@ -3073,18 +2982,18 @@
       ]
     },
     {
-      "tag": "ETH",
-      "componente": "ERRO DE ETHERCAT",
-      "equipamento": "MESPACK F",
-      "falhas": 2,
-      "horas": 1.0167,
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 3,
+      "horas": 0.2667,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.0833,
+          "falhas": 1
         },
         "2": {
-          "horas": 1.0167,
+          "horas": 0.1833,
           "falhas": 2
         },
         "3": {
@@ -3095,24 +3004,35 @@
       "ocorrencias": [
         {
           "data": "2026-08-30",
-          "inicio": "21:35",
-          "fim": "22:11",
-          "turno": 2,
-          "departamento": "Automação",
+          "inicio": "10:51",
+          "fim": "10:56",
+          "turno": 1,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.6,
-          "motivo": "ERRO DE ETHERCAT",
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "eli"
+        },
+        {
+          "data": "2026-08-30",
+          "inicio": "22:11",
+          "fim": "22:17",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NAS PINÇAS",
           "obs": ""
         },
         {
           "data": "2026-08-30",
-          "inicio": "21:46",
-          "fim": "22:11",
+          "inicio": "22:30",
+          "fim": "22:35",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.4167,
-          "motivo": "ERRO DE ETHERCAT",
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
           "obs": ""
         }
       ]
@@ -3253,14 +3173,59 @@
       ]
     },
     {
-      "tag": "31310",
-      "componente": "CONJUNTO DE FACAS MESPACK F",
+      "tag": "ETH",
+      "componente": "ERRO DE ETHERCAT",
       "equipamento": "MESPACK F",
-      "falhas": 1,
-      "horas": 0.05,
+      "falhas": 2,
+      "horas": 1.0167,
       "por_turno": {
         "1": {
-          "horas": 0.05,
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.0167,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-30",
+          "inicio": "21:35",
+          "fim": "22:11",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.6,
+          "motivo": "ERRO DE ETHERCAT",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-30",
+          "inicio": "21:46",
+          "fim": "22:11",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.4167,
+          "motivo": "ERRO DE ETHERCAT",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "30343",
+      "componente": "MOTOR ELETRICO DA BOMBA DE ENVIO DE GRÃOS DO TANQUE BRANQUEADOR LINHA 001",
+      "equipamento": "CONDOR",
+      "falhas": 1,
+      "horas": 0.5,
+      "por_turno": {
+        "1": {
+          "horas": 0.5,
           "falhas": 1
         },
         "2": {
@@ -3275,14 +3240,14 @@
       "ocorrencias": [
         {
           "data": "2026-08-30",
-          "inicio": "08:25",
-          "fim": "08:28",
+          "inicio": "06:51",
+          "fim": "07:21",
           "turno": 1,
-          "departamento": "Mecânica",
+          "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AJUSTE DE FACA",
-          "obs": ""
+          "horas": 0.5,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "manutenção na enchedeira "
         }
       ]
     }
@@ -4869,31 +4834,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -4901,15 +4866,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 17.0924,
-      "disponibilidade_pct": 94.0236,
-      "indisponibilidade_pct": 5.9764
+      "horas_paradas": 16.909,
+      "disponibilidade_pct": 94.0877,
+      "indisponibilidade_pct": 5.9123
     },
     "departamentos": {
       "Elétrica": {
@@ -4926,9 +4891,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 11.9584,
-        "disponibilidade_pct": 86.4109,
-        "indisponibilidade_pct": 13.5891
+        "horas_paradas": 11.7751,
+        "disponibilidade_pct": 86.6192,
+        "indisponibilidade_pct": 13.3808
       }
     }
   },
@@ -4936,12 +4901,12 @@
     "mes": "agosto",
     "ano": 2026,
     "ate": "2026-08-30",
-    "falhas": 3662,
-    "horas_paradas": 569.7416,
+    "falhas": 3587,
+    "horas_paradas": 558.7803,
     "horas_disponiveis": 8008.0,
-    "mtbf_min": 121.8721,
-    "disponibilidade_pct": 92.8853,
-    "indisponibilidade_pct": 7.1147,
+    "mtbf_min": 124.6036,
+    "disponibilidade_pct": 93.0222,
+    "indisponibilidade_pct": 6.9778,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

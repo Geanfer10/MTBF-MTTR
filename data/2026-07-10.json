@@ -1,6 +1,6 @@
 {
   "date": "2026-07-10",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -2099,59 +2099,11 @@
           "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK B "
         }
       ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.1167,
-      "horas_disponiveis": 22.0,
-      "falhas": 2,
-      "por_turno": {
-        "1": {
-          "horas": 0.1167,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-10",
-          "inicio": "07:17",
-          "fim": "07:21",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "",
-          "tag": "ETH",
-          "componente": "ERRO DE ETHERCAT"
-        },
-        {
-          "data": "2026-07-10",
-          "inicio": "07:41",
-          "fim": "07:44",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "",
-          "tag": "ETH",
-          "componente": "ERRO DE ETHERCAT"
-        }
-      ]
     }
   ],
   "turnos": {
     "Automação": {
-      "1": 3.3333,
+      "1": 3.2167,
       "2": 2.75,
       "3": 1.9
     },
@@ -3528,51 +3480,6 @@
       ]
     },
     {
-      "tag": "RB010",
-      "componente": "ROBO  DESEMPILHADOR DE BANDEJA ",
-      "equipamento": "MESPACK R1",
-      "falhas": 2,
-      "horas": 0.0833,
-      "por_turno": {
-        "1": {
-          "horas": 0.05,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0333,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-10",
-          "inicio": "08:45",
-          "fim": "08:48",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-10",
-          "inicio": "19:53",
-          "fim": "19:55",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "MECANICA01",
       "componente": "AGUARDANDO MECANICO",
       "equipamento": "MESPACK R1",
@@ -3618,19 +3525,19 @@
       ]
     },
     {
-      "tag": "ETH",
-      "componente": "ERRO DE ETHERCAT",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
+      "tag": "FEL01",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+      "equipamento": "MESPACK R1",
       "falhas": 2,
       "horas": 0.1167,
       "por_turno": {
         "1": {
-          "horas": 0.1167,
-          "falhas": 2
-        },
-        "2": {
           "horas": 0.0,
           "falhas": 0
+        },
+        "2": {
+          "horas": 0.1167,
+          "falhas": 2
         },
         "3": {
           "horas": 0.0,
@@ -3640,24 +3547,24 @@
       "ocorrencias": [
         {
           "data": "2026-07-10",
-          "inicio": "07:17",
-          "fim": "07:21",
-          "turno": 1,
+          "inicio": "20:51",
+          "fim": "20:54",
+          "turno": 2,
           "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "ERRO DE ETHERCAT",
+          "horas": 0.05,
+          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
           "obs": ""
         },
         {
           "data": "2026-07-10",
-          "inicio": "07:41",
-          "fim": "07:44",
-          "turno": 1,
+          "inicio": "20:53",
+          "fim": "20:57",
+          "turno": 2,
           "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ERRO DE ETHERCAT",
+          "horas": 0.0667,
+          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
           "obs": ""
         }
       ]
@@ -3708,18 +3615,18 @@
       ]
     },
     {
-      "tag": "31407",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
-      "equipamento": "MESPACK R2",
+      "tag": "RB010",
+      "componente": "ROBO  DESEMPILHADOR DE BANDEJA ",
+      "equipamento": "MESPACK R1",
       "falhas": 2,
-      "horas": 0.1333,
+      "horas": 0.0833,
       "por_turno": {
         "1": {
-          "horas": 0.0667,
+          "horas": 0.05,
           "falhas": 1
         },
         "2": {
-          "horas": 0.0667,
+          "horas": 0.0333,
           "falhas": 1
         },
         "3": {
@@ -3730,25 +3637,70 @@
       "ocorrencias": [
         {
           "data": "2026-07-10",
-          "inicio": "10:01",
-          "fim": "10:05",
+          "inicio": "08:45",
+          "fim": "08:48",
           "turno": 1,
-          "departamento": "Mecânica",
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "horas": 0.05,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": ""
         },
         {
           "data": "2026-07-10",
-          "inicio": "21:46",
-          "fim": "21:50",
+          "inicio": "19:53",
+          "fim": "19:55",
           "turno": 2,
-          "departamento": "Mecânica",
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE NAS PINÇAS",
+          "horas": 0.0333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "INK06",
+      "componente": "INKJET MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 2,
+      "horas": 0.2833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.1,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-10",
+          "inicio": "00:53",
+          "fim": "00:59",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "OUTROS MOTIVOS ",
+          "obs": "falha do inkjet"
+        },
+        {
+          "data": "2026-07-10",
+          "inicio": "17:45",
+          "fim": "17:56",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "Limpeza no canhão do inkjet "
         }
       ]
     }
@@ -5434,31 +5386,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -5466,15 +5418,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 17.6742,
-      "disponibilidade_pct": 93.8202,
-      "indisponibilidade_pct": 6.1798
+      "horas_paradas": 17.5575,
+      "disponibilidade_pct": 93.861,
+      "indisponibilidade_pct": 6.139
     },
     "departamentos": {
       "Elétrica": {
@@ -5491,9 +5443,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 7.9833,
-        "disponibilidade_pct": 90.928,
-        "indisponibilidade_pct": 9.072
+        "horas_paradas": 7.8667,
+        "disponibilidade_pct": 91.0606,
+        "indisponibilidade_pct": 8.9394
       }
     }
   },
@@ -5501,12 +5453,12 @@
     "mes": "julho",
     "ano": 2026,
     "ate": "2026-07-10",
-    "falhas": 1269,
-    "horas_paradas": 206.9767,
+    "falhas": 1239,
+    "horas_paradas": 200.7204,
     "horas_disponiveis": 2574.0,
-    "mtbf_min": 111.916,
-    "disponibilidade_pct": 91.9589,
-    "indisponibilidade_pct": 8.0411,
+    "mtbf_min": 114.9288,
+    "disponibilidade_pct": 92.202,
+    "indisponibilidade_pct": 7.798,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

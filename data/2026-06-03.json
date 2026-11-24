@@ -1,6 +1,6 @@
 {
   "date": "2026-06-03",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1631,99 +1631,12 @@
           "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK D "
         }
       ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.6333,
-      "horas_disponiveis": 22.0,
-      "falhas": 5,
-      "por_turno": {
-        "1": {
-          "horas": 0.5,
-          "falhas": 4
-        },
-        "2": {
-          "horas": 0.1333,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-03",
-          "inicio": "06:37",
-          "fim": "06:40",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "",
-          "tag": "31954",
-          "componente": "PISTÃO DE TRAVAMENTO 03 DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-5"
-        },
-        {
-          "data": "2026-06-03",
-          "inicio": "07:05",
-          "fim": "07:25",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3333,
-          "motivo": "TROCA VENTOSA ROBÔ",
-          "obs": "",
-          "tag": "32239",
-          "componente": "VENTOSA ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
-        },
-        {
-          "data": "2026-06-03",
-          "inicio": "08:07",
-          "fim": "08:11",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": "",
-          "tag": "RB09",
-          "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS"
-        },
-        {
-          "data": "2026-06-03",
-          "inicio": "08:35",
-          "fim": "08:38",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": "",
-          "tag": "31954",
-          "componente": "PISTÃO DE TRAVAMENTO 03 DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-5"
-        },
-        {
-          "data": "2026-06-03",
-          "inicio": "14:47",
-          "fim": "14:55",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "",
-          "tag": "31905",
-          "componente": "PISTÃO DE TRAVAMENTO DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-9"
-        }
-      ]
     }
   ],
   "turnos": {
     "Automação": {
-      "1": 2.3667,
-      "2": 1.9167,
+      "1": 2.2,
+      "2": 1.7833,
       "3": 3.8
     },
     "Elétrica": {
@@ -1732,7 +1645,7 @@
       "3": 0.9167
     },
     "Mecânica": {
-      "1": 5.2833,
+      "1": 4.95,
       "2": 5.6,
       "3": 2.6333
     }
@@ -2437,147 +2350,69 @@
       ]
     },
     {
-      "tag": "RB09",
-      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
-      "equipamento": "MESPACK R1",
-      "falhas": 5,
-      "horas": 0.25,
-      "por_turno": {
-        "1": {
-          "horas": 0.15,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.1,
-          "falhas": 2
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-03",
-          "inicio": "00:35",
-          "fim": "00:39",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "ROBO EMPILHADOR EM FALHA",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-03",
-          "inicio": "00:36",
-          "fim": "00:38",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ROBO EMPILHADOR EM FALHA",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-03",
-          "inicio": "07:18",
-          "fim": "07:20",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-03",
-          "inicio": "08:07",
-          "fim": "08:11",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-03",
-          "inicio": "14:23",
-          "fim": "14:26",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": "falha no empilhador "
-        }
-      ]
-    },
-    {
-      "tag": "20437",
-      "componente": "VALVULA REDUTORA DE VAPOR PASTEURIZADOR 02 KG POUCH MESPACKS A E B",
-      "equipamento": "MESPACK A",
+      "tag": "20532",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK C",
+      "equipamento": "MESPACK C",
       "falhas": 4,
-      "horas": 3.15,
+      "horas": 1.05,
       "por_turno": {
         "1": {
-          "horas": 1.3333,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 1.8167,
-          "falhas": 2
-        },
-        "3": {
           "horas": 0.0,
           "falhas": 0
+        },
+        "2": {
+          "horas": 0.1333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.9167,
+          "falhas": 3
         }
       },
       "ocorrencias": [
         {
           "data": "2026-06-03",
-          "inicio": "14:10",
-          "fim": "14:50",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.6667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste na válvula de dreino do pasteurizado "
-        },
-        {
-          "data": "2026-06-03",
-          "inicio": "14:10",
-          "fim": "14:50",
-          "turno": 1,
+          "inicio": "00:52",
+          "fim": "01:00",
+          "turno": 3,
           "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.6667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "manutenção elétrica no dreino do pasteurizador"
-        },
-        {
-          "data": "2026-06-03",
-          "inicio": "14:45",
-          "fim": "16:26",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 1.6833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "manutenção elétrica no pasteurizado "
-        },
-        {
-          "data": "2026-06-03",
-          "inicio": "16:27",
-          "fim": "16:35",
-          "turno": 2,
-          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1333,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "no palsterilisado 2"
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza na eletro valvula."
+        },
+        {
+          "data": "2026-06-03",
+          "inicio": "03:44",
+          "fim": "04:11",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.45,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "Feita limpeza da eletro valvula, porém houve necessidade de substituir eletro valvula do bico N° 01"
+        },
+        {
+          "data": "2026-06-03",
+          "inicio": "04:30",
+          "fim": "04:50",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.3333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "Troca da placa do medidor de vazão do bico 01 e do bico 03."
+        },
+        {
+          "data": "2026-06-03",
+          "inicio": "19:40",
+          "fim": "19:48",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "troca da placa do medidor de vasão e troca da eletrovalvula 1"
         }
       ]
     },
@@ -2649,69 +2484,136 @@
       ]
     },
     {
-      "tag": "20532",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK C",
-      "equipamento": "MESPACK C",
+      "tag": "20437",
+      "componente": "VALVULA REDUTORA DE VAPOR PASTEURIZADOR 02 KG POUCH MESPACKS A E B",
+      "equipamento": "MESPACK A",
       "falhas": 4,
-      "horas": 1.05,
+      "horas": 3.15,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 1.3333,
+          "falhas": 2
         },
         "2": {
-          "horas": 0.1333,
-          "falhas": 1
+          "horas": 1.8167,
+          "falhas": 2
         },
         "3": {
-          "horas": 0.9167,
-          "falhas": 3
+          "horas": 0.0,
+          "falhas": 0
         }
       },
       "ocorrencias": [
         {
           "data": "2026-06-03",
-          "inicio": "00:52",
-          "fim": "01:00",
-          "turno": 3,
-          "departamento": "Elétrica",
+          "inicio": "14:10",
+          "fim": "14:50",
+          "turno": 1,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1333,
+          "horas": 0.6667,
           "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "limpeza na eletro valvula."
+          "obs": "ajuste na válvula de dreino do pasteurizado "
         },
         {
           "data": "2026-06-03",
-          "inicio": "03:44",
-          "fim": "04:11",
-          "turno": 3,
+          "inicio": "14:10",
+          "fim": "14:50",
+          "turno": 1,
           "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.45,
+          "horas": 0.6667,
           "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "Feita limpeza da eletro valvula, porém houve necessidade de substituir eletro valvula do bico N° 01"
+          "obs": "manutenção elétrica no dreino do pasteurizador"
         },
         {
           "data": "2026-06-03",
-          "inicio": "04:30",
-          "fim": "04:50",
-          "turno": 3,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.3333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "Troca da placa do medidor de vazão do bico 01 e do bico 03."
-        },
-        {
-          "data": "2026-06-03",
-          "inicio": "19:40",
-          "fim": "19:48",
+          "inicio": "14:45",
+          "fim": "16:26",
           "turno": 2,
           "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.1333,
+          "horas": 1.6833,
           "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "troca da placa do medidor de vasão e troca da eletrovalvula 1"
+          "obs": "manutenção elétrica no pasteurizado "
+        },
+        {
+          "data": "2026-06-03",
+          "inicio": "16:27",
+          "fim": "16:35",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "no palsterilisado 2"
+        }
+      ]
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "equipamento": "MESPACK R1",
+      "falhas": 4,
+      "horas": 0.1833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-03",
+          "inicio": "00:35",
+          "fim": "00:39",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-03",
+          "inicio": "00:36",
+          "fim": "00:38",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-03",
+          "inicio": "07:18",
+          "fim": "07:20",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-03",
+          "inicio": "14:23",
+          "fim": "14:26",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+          "obs": "falha no empilhador "
         }
       ]
     },
@@ -2772,62 +2674,6 @@
       ]
     },
     {
-      "tag": "31194",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
-      "equipamento": "MESPACK R1",
-      "falhas": 3,
-      "horas": 1.5,
-      "por_turno": {
-        "1": {
-          "horas": 0.0667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 1.4333,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-03",
-          "inicio": "12:19",
-          "fim": "12:23",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-03",
-          "inicio": "14:45",
-          "fim": "15:45",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 1.0,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "reposicionamento da pinça e da régua móvel "
-        },
-        {
-          "data": "2026-06-03",
-          "inicio": "22:07",
-          "fim": "22:33",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.4333,
-          "motivo": "TROCA DE MOLA DAS PINÇAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "20527",
       "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
       "equipamento": "MESPACK C",
@@ -2880,6 +2726,62 @@
           "horas": 0.05,
           "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
           "obs": "e ajuste na pinça."
+        }
+      ]
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 3,
+      "horas": 1.5,
+      "por_turno": {
+        "1": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 1.4333,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-03",
+          "inicio": "12:19",
+          "fim": "12:23",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-03",
+          "inicio": "14:45",
+          "fim": "15:45",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.0,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "reposicionamento da pinça e da régua móvel "
+        },
+        {
+          "data": "2026-06-03",
+          "inicio": "22:07",
+          "fim": "22:33",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4333,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": ""
         }
       ]
     }
@@ -4004,31 +3906,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -4036,15 +3938,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 29.3167,
-      "disponibilidade_pct": 89.7494,
-      "indisponibilidade_pct": 10.2506
+      "horas_paradas": 28.6833,
+      "disponibilidade_pct": 89.9709,
+      "indisponibilidade_pct": 10.0291
     },
     "departamentos": {
       "Elétrica": {
@@ -4055,15 +3957,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 13.5167,
-        "disponibilidade_pct": 95.2739,
-        "indisponibilidade_pct": 4.7261
+        "horas_paradas": 13.1833,
+        "disponibilidade_pct": 95.3904,
+        "indisponibilidade_pct": 4.6096
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 8.0833,
-        "disponibilidade_pct": 90.8144,
-        "indisponibilidade_pct": 9.1856
+        "horas_paradas": 7.7833,
+        "disponibilidade_pct": 91.1553,
+        "indisponibilidade_pct": 8.8447
       }
     }
   },
@@ -4071,12 +3973,12 @@
     "mes": "junho",
     "ano": 2026,
     "ate": "2026-06-03",
-    "falhas": 336,
-    "horas_paradas": 62.1258,
+    "falhas": 318,
+    "horas_paradas": 59.9758,
     "horas_disponiveis": 858.0,
-    "mtbf_min": 142.1204,
-    "disponibilidade_pct": 92.7592,
-    "indisponibilidade_pct": 7.2408,
+    "mtbf_min": 150.5706,
+    "disponibilidade_pct": 93.0098,
+    "indisponibilidade_pct": 6.9902,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

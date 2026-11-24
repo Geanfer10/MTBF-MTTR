@@ -1,6 +1,6 @@
 {
   "date": "2026-05-26",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1806,132 +1806,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.7833,
-      "horas_disponiveis": 22.0,
-      "falhas": 8,
-      "por_turno": {
-        "1": {
-          "horas": 0.3833,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.1167,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.2833,
-          "falhas": 4
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-26",
-          "inicio": "01:55",
-          "fim": "01:59",
-          "turno": 3,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "sensor estop com falha ",
-          "tag": "31996",
-          "componente": "SISTEMA DE SENSORES ESTEIRA TRANSPORTE CADENA TP-BJ4-L1"
-        },
-        {
-          "data": "2026-05-26",
-          "inicio": "03:48",
-          "fim": "03:48",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "transferidor 2 \n",
-          "tag": "TP-BJ4-L2",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L2"
-        },
-        {
-          "data": "2026-05-26",
-          "inicio": "04:10",
-          "fim": "04:18",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "tasferidor 2\n",
-          "tag": "TP-BJ4-L2",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L2"
-        },
-        {
-          "data": "2026-05-26",
-          "inicio": "08:50",
-          "fim": "09:06",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "Troca mangueira de vácuo Robô 02",
-          "tag": "32241",
-          "componente": "SISTEMA DE MANGUEIRA DE AR COMPRIMIDO ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
-        },
-        {
-          "data": "2026-05-26",
-          "inicio": "11:28",
-          "fim": "11:31",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "Grelha travada transferidor 2",
-          "tag": "TP-BJ4-L2",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L2"
-        },
-        {
-          "data": "2026-05-26",
-          "inicio": "14:00",
-          "fim": "14:04",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "Ajuste na cadena Robô 02",
-          "tag": "TP-BJ4-L2",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L2"
-        },
-        {
-          "data": "2026-05-26",
-          "inicio": "15:31",
-          "fim": "15:38",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "pistão travado na curva do autoclave JPBJ9 ",
-          "tag": "31951",
-          "componente": "CORRENTE ESTEIRA TRANSPORTE CADENA TP-BJ-5"
-        },
-        {
-          "data": "2026-05-26",
-          "inicio": "23:36",
-          "fim": "23:41",
-          "turno": 3,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "sensor estop com falha ",
-          "tag": "31996",
-          "componente": "SISTEMA DE SENSORES ESTEIRA TRANSPORTE CADENA TP-BJ4-L1"
-        }
-      ]
-    },
-    {
       "name": "CONDOR",
       "horas": 0.5667,
       "horas_disponiveis": 22.0,
@@ -2093,12 +1967,12 @@
     "Automação": {
       "1": 1.8667,
       "2": 4.3667,
-      "3": 1.6833
+      "3": 1.55
     },
     "Elétrica": {
-      "1": 1.3667,
-      "2": 0.3333,
-      "3": 1.7
+      "1": 0.9833,
+      "2": 0.2167,
+      "3": 1.55
     },
     "Mecânica": {
       "1": 2.7,
@@ -3181,124 +3055,57 @@
       ]
     },
     {
-      "tag": "TP-BJ4-L2",
-      "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L2",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 4,
-      "horas": 0.25,
+      "tag": "FEL01",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+      "equipamento": "MESPACK R2",
+      "falhas": 3,
+      "horas": 0.2333,
       "por_turno": {
         "1": {
-          "horas": 0.1167,
-          "falhas": 2
+          "horas": 0.05,
+          "falhas": 1
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.1833,
+          "falhas": 2
         },
         "3": {
-          "horas": 0.1333,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 0
         }
       },
       "ocorrencias": [
-        {
-          "data": "2026-05-26",
-          "inicio": "03:48",
-          "fim": "03:48",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "transferidor 2 \n"
-        },
-        {
-          "data": "2026-05-26",
-          "inicio": "04:10",
-          "fim": "04:18",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "tasferidor 2\n"
-        },
         {
           "data": "2026-05-26",
           "inicio": "11:28",
           "fim": "11:31",
           "turno": 1,
-          "departamento": "Elétrica",
+          "departamento": "Automação",
           "falhas": 1,
           "horas": 0.05,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "Grelha travada transferidor 2"
-        },
-        {
-          "data": "2026-05-26",
-          "inicio": "14:00",
-          "fim": "14:04",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "Ajuste na cadena Robô 02"
-        }
-      ]
-    },
-    {
-      "tag": "20378",
-      "componente": "CABEÇOTE DE INDUÇÃO",
-      "equipamento": "ENCHEDEIRA TOP DOWN",
-      "falhas": 3,
-      "horas": 0.45,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.45,
-          "falhas": 3
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-26",
-          "inicio": "03:34",
-          "fim": "03:51",
-          "turno": 3,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
           "obs": ""
         },
         {
           "data": "2026-05-26",
-          "inicio": "03:50",
-          "fim": "03:55",
-          "turno": 3,
-          "departamento": "Elétrica",
+          "inicio": "19:53",
+          "fim": "20:02",
+          "turno": 2,
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "horas": 0.15,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
           "obs": ""
         },
         {
           "data": "2026-05-26",
-          "inicio": "04:22",
-          "fim": "04:27",
-          "turno": 3,
-          "departamento": "Elétrica",
+          "inicio": "22:20",
+          "fim": "22:22",
+          "turno": 2,
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "horas": 0.0333,
+          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         }
       ]
@@ -3355,6 +3162,118 @@
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "AGUARDANDO ELETRICISTA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31480",
+      "componente": "CORRENTE ESTEIRA DE TRANSPORTE SAIDA MESPACK RETORT CADENA TP-BJ-15",
+      "equipamento": "MESPACK R1",
+      "falhas": 3,
+      "horas": 1.1167,
+      "por_turno": {
+        "1": {
+          "horas": 0.9167,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.2,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-05-26",
+          "inicio": "00:04",
+          "fim": "00:16",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-26",
+          "inicio": "11:36",
+          "fim": "12:03",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.45,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "corrente da cadena 2 travada"
+        },
+        {
+          "data": "2026-05-26",
+          "inicio": "11:37",
+          "fim": "12:05",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "corrente da cadena 2 travada "
+        }
+      ]
+    },
+    {
+      "tag": "20378",
+      "componente": "CABEÇOTE DE INDUÇÃO",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 3,
+      "horas": 0.45,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.45,
+          "falhas": 3
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-05-26",
+          "inicio": "03:34",
+          "fim": "03:51",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-26",
+          "inicio": "03:50",
+          "fim": "03:55",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-26",
+          "inicio": "04:22",
+          "fim": "04:27",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": ""
         }
       ]
@@ -3467,62 +3386,6 @@
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "AGUARDANDO MECÂNICO",
-          "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "INK12",
-      "componente": "INKJET RECRAVADEIRA CONDOR",
-      "equipamento": "CONDOR",
-      "falhas": 3,
-      "horas": 0.5667,
-      "por_turno": {
-        "1": {
-          "horas": 0.5667,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-26",
-          "inicio": "09:57",
-          "fim": "10:10",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2167,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-05-26",
-          "inicio": "10:23",
-          "fim": "10:30",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-05-26",
-          "inicio": "10:32",
-          "fim": "10:46",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": ""
         }
       ]
@@ -5033,31 +4896,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -5065,22 +4928,22 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 24.55,
-      "disponibilidade_pct": 91.4161,
-      "indisponibilidade_pct": 8.5839
+      "horas_paradas": 23.7667,
+      "disponibilidade_pct": 91.69,
+      "indisponibilidade_pct": 8.31
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 3.4,
-        "disponibilidade_pct": 98.8112,
-        "indisponibilidade_pct": 1.1888
+        "horas_paradas": 2.75,
+        "disponibilidade_pct": 99.0385,
+        "indisponibilidade_pct": 0.9615
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
@@ -5090,9 +4953,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 7.9167,
-        "disponibilidade_pct": 91.0038,
-        "indisponibilidade_pct": 8.9962
+        "horas_paradas": 7.7833,
+        "disponibilidade_pct": 91.1553,
+        "indisponibilidade_pct": 8.8447
       }
     }
   },
@@ -5100,12 +4963,12 @@
     "mes": "maio",
     "ano": 2026,
     "ate": "2026-05-26",
-    "falhas": 2821,
-    "horas_paradas": 495.3747,
+    "falhas": 2729,
+    "horas_paradas": 480.9064,
     "horas_disponiveis": 5720.0,
-    "mtbf_min": 111.1228,
-    "disponibilidade_pct": 91.3396,
-    "indisponibilidade_pct": 8.6604,
+    "mtbf_min": 115.1871,
+    "disponibilidade_pct": 91.5925,
+    "indisponibilidade_pct": 8.4075,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

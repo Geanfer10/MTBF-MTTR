@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -2512,54 +2512,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.7167,
-      "horas_disponiveis": 22.0,
-      "falhas": 2,
-      "por_turno": {
-        "1": {
-          "horas": 0.3667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.35,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-27",
-          "inicio": "10:38",
-          "fim": "11:00",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.3667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "botoeira da esteira de transporte de caixas em falha",
-          "tag": "31449",
-          "componente": "CAIXA DE COMANDO RESET/EMERGENCIA ESTEIRA DE TRANSPORTE CADENA TP-BJ-17"
-        },
-        {
-          "data": "2026-08-27",
-          "inicio": "19:45",
-          "fim": "20:06",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.35,
-          "motivo": "ARMADORA DE CAIXAS EM FALHA",
-          "obs": "serviço de solda, no guia da faca da formadora de caixas l",
-          "tag": "32131",
-          "componente": "CONJUNTO DE FITA FECH. DE CAIXA VEGETAIS"
-        }
-      ]
-    },
-    {
       "name": "CONDOR",
       "horas": 0.6,
       "horas_disponiveis": 22.0,
@@ -2652,6 +2604,41 @@
           "obs": "lata amassada na enchedeira",
           "tag": "30463",
           "componente": "CABEÇOTE SUPERIOR 60L2"
+        }
+      ]
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 0.35,
+      "horas_disponiveis": 22.0,
+      "falhas": 1,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.35,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-27",
+          "inicio": "19:45",
+          "fim": "20:06",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.35,
+          "motivo": "ARMADORA DE CAIXAS EM FALHA",
+          "obs": "serviço de solda, no guia da faca da formadora de caixas l",
+          "tag": "32131",
+          "componente": "CONJUNTO DE FITA FECH. DE CAIXA VEGETAIS"
         }
       ]
     },
@@ -2794,7 +2781,7 @@
       "3": 1.6029
     },
     "Elétrica": {
-      "1": 0.75,
+      "1": 0.3833,
       "2": 4.0167,
       "3": 0.4
     },
@@ -4398,62 +4385,6 @@
       ]
     },
     {
-      "tag": "31191",
-      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
-      "equipamento": "MESPACK R1",
-      "falhas": 3,
-      "horas": 0.6667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.5833,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0833,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-27",
-          "inicio": "03:37",
-          "fim": "03:42",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE DE VENTOSAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-27",
-          "inicio": "15:11",
-          "fim": "15:19",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-27",
-          "inicio": "17:05",
-          "fim": "17:32",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.45,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "serviço de solda na base superior da ventosa 4"
-        }
-      ]
-    },
-    {
       "tag": "20572",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK E",
       "equipamento": "MESPACK E",
@@ -4618,6 +4549,62 @@
           "horas": 0.1667,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "repasse do segundo turno máquina parada aguardando elétrica "
+        }
+      ]
+    },
+    {
+      "tag": "EST01",
+      "componente": "ESTEIRA TALISCADA MESPACK E",
+      "equipamento": "MESPACK E",
+      "falhas": 3,
+      "horas": 0.4333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4333,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-27",
+          "inicio": "16:44",
+          "fim": "16:48",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste na esteira talescada "
+        },
+        {
+          "data": "2026-08-27",
+          "inicio": "16:48",
+          "fim": "17:01",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no tobogã saída mespack "
+        },
+        {
+          "data": "2026-08-27",
+          "inicio": "19:01",
+          "fim": "19:10",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no guia do tobogã "
         }
       ]
     }
@@ -6523,31 +6510,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -6555,22 +6542,22 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 31.1363,
-      "disponibilidade_pct": 89.1132,
-      "indisponibilidade_pct": 10.8868
+      "horas_paradas": 30.7696,
+      "disponibilidade_pct": 89.2414,
+      "indisponibilidade_pct": 10.7586
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 5.1667,
-        "disponibilidade_pct": 98.1935,
-        "indisponibilidade_pct": 1.8065
+        "horas_paradas": 4.8,
+        "disponibilidade_pct": 98.3217,
+        "indisponibilidade_pct": 1.6783
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
@@ -6590,12 +6577,12 @@
     "mes": "agosto",
     "ano": 2026,
     "ate": "2026-08-27",
-    "falhas": 3203,
-    "horas_paradas": 485.2414,
+    "falhas": 3133,
+    "horas_paradas": 474.6712,
     "horas_disponiveis": 7150.0,
-    "mtbf_min": 124.8472,
-    "disponibilidade_pct": 93.2134,
-    "indisponibilidade_pct": 6.7866,
+    "mtbf_min": 127.839,
+    "disponibilidade_pct": 93.3612,
+    "indisponibilidade_pct": 6.6388,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

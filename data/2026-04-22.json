@@ -1,6 +1,6 @@
 {
   "date": "2026-04-22",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1709,59 +1709,11 @@
           "componente": "CONJUNTO CARRO MOVEL MESPACK A "
         }
       ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.1,
-      "horas_disponiveis": 22.0,
-      "falhas": 2,
-      "por_turno": {
-        "1": {
-          "horas": 0.1,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-04-22",
-          "inicio": "07:44",
-          "fim": "07:47",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": "",
-          "tag": "RB011",
-          "componente": "ROBO  ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
-        },
-        {
-          "data": "2026-04-22",
-          "inicio": "08:48",
-          "fim": "08:51",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "",
-          "tag": "RB010",
-          "componente": "ROBO  DESEMPILHADOR DE BANDEJA "
-        }
-      ]
     }
   ],
   "turnos": {
     "Automação": {
-      "1": 1.6167,
+      "1": 1.5167,
       "2": 4.0833,
       "3": 1.0
     },
@@ -2809,19 +2761,19 @@
       ]
     },
     {
-      "tag": "PS04",
-      "componente": "PASTEURIZADOR C-D",
-      "equipamento": "MESPACK C",
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "equipamento": "MESPACK R2",
       "falhas": 3,
-      "horas": 2.5,
+      "horas": 0.4,
       "por_turno": {
         "1": {
-          "horas": 1.1667,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "2": {
-          "horas": 1.3333,
-          "falhas": 2
+          "horas": 0.4,
+          "falhas": 3
         },
         "3": {
           "horas": 0.0,
@@ -2831,36 +2783,36 @@
       "ocorrencias": [
         {
           "data": "2026-04-22",
-          "inicio": "13:35",
-          "fim": "14:45",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 1.1667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "manutenção no pasteurizador."
-        },
-        {
-          "data": "2026-04-22",
-          "inicio": "15:40",
-          "fim": "16:20",
+          "inicio": "16:06",
+          "fim": "16:11",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.6667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "manutenção na bomba de água quente "
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
         },
         {
           "data": "2026-04-22",
-          "inicio": "15:40",
-          "fim": "16:20",
+          "inicio": "18:29",
+          "fim": "18:40",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.6667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "manutenção na bomba de água quente "
+          "horas": 0.1833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-22",
+          "inicio": "20:05",
+          "fim": "20:13",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
         }
       ]
     },
@@ -2921,19 +2873,19 @@
       ]
     },
     {
-      "tag": "31407",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
-      "equipamento": "MESPACK R2",
+      "tag": "PS04",
+      "componente": "PASTEURIZADOR C-D",
+      "equipamento": "MESPACK C",
       "falhas": 3,
-      "horas": 0.4,
+      "horas": 2.5,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 1.1667,
+          "falhas": 1
         },
         "2": {
-          "horas": 0.4,
-          "falhas": 3
+          "horas": 1.3333,
+          "falhas": 2
         },
         "3": {
           "horas": 0.0,
@@ -2943,80 +2895,80 @@
       "ocorrencias": [
         {
           "data": "2026-04-22",
-          "inicio": "16:06",
-          "fim": "16:11",
-          "turno": 2,
+          "inicio": "13:35",
+          "fim": "14:45",
+          "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
+          "horas": 1.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção no pasteurizador."
         },
         {
           "data": "2026-04-22",
-          "inicio": "18:29",
-          "fim": "18:40",
+          "inicio": "15:40",
+          "fim": "16:20",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
+          "horas": 0.6667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção na bomba de água quente "
         },
         {
           "data": "2026-04-22",
-          "inicio": "20:05",
-          "fim": "20:13",
+          "inicio": "15:40",
+          "fim": "16:20",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
+          "horas": 0.6667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção na bomba de água quente "
         }
       ]
     },
     {
-      "tag": "ELETRICA01",
-      "componente": "AGUARDANDO ELETRICA",
-      "equipamento": "MESPACK C",
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "equipamento": "MESPACK B",
       "falhas": 2,
-      "horas": 0.2667,
+      "horas": 0.1833,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.1167,
+          "falhas": 1
         },
         "3": {
-          "horas": 0.2667,
-          "falhas": 2
+          "horas": 0.0667,
+          "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-04-22",
-          "inicio": "00:04",
-          "fim": "00:13",
+          "inicio": "05:18",
+          "fim": "05:22",
           "turno": 3,
-          "departamento": "Elétrica",
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.15,
-          "motivo": "AGUARDANDO ELETRICISTA",
+          "horas": 0.0667,
+          "motivo": "AGUARDANDO MECÂNICO",
           "obs": ""
         },
         {
           "data": "2026-04-22",
-          "inicio": "02:03",
-          "fim": "02:10",
-          "turno": 3,
-          "departamento": "Elétrica",
+          "inicio": "16:23",
+          "fim": "16:30",
+          "turno": 2,
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1167,
-          "motivo": "AGUARDANDO ELETRICISTA",
+          "motivo": "AGUARDANDO MECÂNICO",
           "obs": ""
         }
       ]
@@ -4351,31 +4303,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -4383,15 +4335,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 22.5,
-      "disponibilidade_pct": 92.1329,
-      "indisponibilidade_pct": 7.8671
+      "horas_paradas": 22.4,
+      "disponibilidade_pct": 92.1678,
+      "indisponibilidade_pct": 7.8322
     },
     "departamentos": {
       "Elétrica": {
@@ -4408,9 +4360,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 6.7,
-        "disponibilidade_pct": 92.3864,
-        "indisponibilidade_pct": 7.6136
+        "horas_paradas": 6.6,
+        "disponibilidade_pct": 92.5,
+        "indisponibilidade_pct": 7.5
       }
     }
   },
@@ -4418,12 +4370,12 @@
     "mes": "abril",
     "ano": 2026,
     "ate": "2026-04-22",
-    "falhas": 1928,
-    "horas_paradas": 308.3742,
+    "falhas": 1874,
+    "horas_paradas": 295.8742,
     "horas_disponiveis": 4576.0,
-    "mtbf_min": 132.8099,
-    "disponibilidade_pct": 93.2611,
-    "indisponibilidade_pct": 6.7389,
+    "mtbf_min": 137.0371,
+    "disponibilidade_pct": 93.5342,
+    "indisponibilidade_pct": 6.4658,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

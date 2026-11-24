@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1803,17 +1803,17 @@
     },
     {
       "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.4833,
+      "horas": 0.3167,
       "horas_disponiveis": 22.0,
-      "falhas": 2,
+      "falhas": 1,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.4833,
-          "falhas": 2
+          "horas": 0.3167,
+          "falhas": 1
         },
         "3": {
           "horas": 0.0,
@@ -1821,19 +1821,6 @@
         }
       },
       "ocorrencias": [
-        {
-          "data": "2026-08-08",
-          "inicio": "15:08",
-          "fim": "15:18",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "TROCA DE VENTOSAS",
-          "obs": "robô 1",
-          "tag": "32258",
-          "componente": "VENTOSA  ROBO ENCAIXOTAMENTO VEGETAIS LADO DIREITO"
-        },
         {
           "data": "2026-08-08",
           "inicio": "17:30",
@@ -1863,7 +1850,7 @@
     },
     "Mecânica": {
       "1": 1.75,
-      "2": 4.9667,
+      "2": 4.8,
       "3": 0.65
     }
   },
@@ -2565,117 +2552,6 @@
       ]
     },
     {
-      "tag": "INK04",
-      "componente": "INKJET MESPACK D",
-      "equipamento": "MESPACK D",
-      "falhas": 8,
-      "horas": 2.0667,
-      "por_turno": {
-        "1": {
-          "horas": 0.75,
-          "falhas": 5
-        },
-        "2": {
-          "horas": 1.3167,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-08",
-          "inicio": "11:47",
-          "fim": "11:54",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "limpeza do canhão do inkejt "
-        },
-        {
-          "data": "2026-08-08",
-          "inicio": "12:30",
-          "fim": "12:42",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "limpeza do canhão do inkjet "
-        },
-        {
-          "data": "2026-08-08",
-          "inicio": "13:18",
-          "fim": "13:27",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-08",
-          "inicio": "13:49",
-          "fim": "13:58",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "limpeza do canhão do inkejt "
-        },
-        {
-          "data": "2026-08-08",
-          "inicio": "14:25",
-          "fim": "14:33",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "limpeza do canhão do inkejt "
-        },
-        {
-          "data": "2026-08-08",
-          "inicio": "15:23",
-          "fim": "15:32",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "limpeza do canhão de inkejt "
-        },
-        {
-          "data": "2026-08-08",
-          "inicio": "15:51",
-          "fim": "16:08",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2833,
-          "motivo": "LIMPEZA ELETROVÁLVULA",
-          "obs": "1 e 3"
-        },
-        {
-          "data": "2026-08-08",
-          "inicio": "16:11",
-          "fim": "17:04",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.8833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "troca de inkjet "
-        }
-      ]
-    },
-    {
       "tag": "ROBOTICA03",
       "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
@@ -2783,6 +2659,117 @@
           "horas": 0.1667,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "INK04",
+      "componente": "INKJET MESPACK D",
+      "equipamento": "MESPACK D",
+      "falhas": 8,
+      "horas": 2.0667,
+      "por_turno": {
+        "1": {
+          "horas": 0.75,
+          "falhas": 5
+        },
+        "2": {
+          "horas": 1.3167,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-08",
+          "inicio": "11:47",
+          "fim": "11:54",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza do canhão do inkejt "
+        },
+        {
+          "data": "2026-08-08",
+          "inicio": "12:30",
+          "fim": "12:42",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza do canhão do inkjet "
+        },
+        {
+          "data": "2026-08-08",
+          "inicio": "13:18",
+          "fim": "13:27",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-08",
+          "inicio": "13:49",
+          "fim": "13:58",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza do canhão do inkejt "
+        },
+        {
+          "data": "2026-08-08",
+          "inicio": "14:25",
+          "fim": "14:33",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza do canhão do inkejt "
+        },
+        {
+          "data": "2026-08-08",
+          "inicio": "15:23",
+          "fim": "15:32",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza do canhão de inkejt "
+        },
+        {
+          "data": "2026-08-08",
+          "inicio": "15:51",
+          "fim": "16:08",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "LIMPEZA ELETROVÁLVULA",
+          "obs": "1 e 3"
+        },
+        {
+          "data": "2026-08-08",
+          "inicio": "16:11",
+          "fim": "17:04",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.8833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "troca de inkjet "
         }
       ]
     },
@@ -3133,51 +3120,6 @@
       ]
     },
     {
-      "tag": "20563",
-      "componente": "CONJUNTO DE FACAS MESPACK E ",
-      "equipamento": "MESPACK E",
-      "falhas": 2,
-      "horas": 0.1667,
-      "por_turno": {
-        "1": {
-          "horas": 0.1667,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-08",
-          "inicio": "06:45",
-          "fim": "06:50",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE DE FACA",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-08",
-          "inicio": "07:09",
-          "fim": "07:14",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE DE FACA",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "20492",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK A",
       "equipamento": "MESPACK A",
@@ -3219,6 +3161,51 @@
           "horas": 0.65,
           "motivo": "TROCA ELETROVALVULA",
           "obs": "troca da placa do bico 1"
+        }
+      ]
+    },
+    {
+      "tag": "20563",
+      "componente": "CONJUNTO DE FACAS MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 2,
+      "horas": 0.1667,
+      "por_turno": {
+        "1": {
+          "horas": 0.1667,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-08",
+          "inicio": "06:45",
+          "fim": "06:50",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE DE FACA",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-08",
+          "inicio": "07:09",
+          "fim": "07:14",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE DE FACA",
+          "obs": ""
         }
       ]
     }
@@ -4640,31 +4627,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -4672,15 +4659,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 18.0,
-      "disponibilidade_pct": 93.7063,
-      "indisponibilidade_pct": 6.2937
+      "horas_paradas": 17.8333,
+      "disponibilidade_pct": 93.7646,
+      "indisponibilidade_pct": 6.2354
     },
     "departamentos": {
       "Elétrica": {
@@ -4691,9 +4678,9 @@
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 7.3667,
-        "disponibilidade_pct": 97.4242,
-        "indisponibilidade_pct": 2.5758
+        "horas_paradas": 7.2,
+        "disponibilidade_pct": 97.4825,
+        "indisponibilidade_pct": 2.5175
       },
       "Automação": {
         "horas_disponiveis": 88.0,
@@ -4707,12 +4694,12 @@
     "mes": "agosto",
     "ano": 2026,
     "ate": "2026-08-08",
-    "falhas": 844,
-    "horas_paradas": 120.4285,
+    "falhas": 814,
+    "horas_paradas": 116.4118,
     "horas_disponiveis": 2002.0,
-    "mtbf_min": 133.761,
-    "disponibilidade_pct": 93.9846,
-    "indisponibilidade_pct": 6.0154,
+    "mtbf_min": 138.9868,
+    "disponibilidade_pct": 94.1852,
+    "indisponibilidade_pct": 5.8148,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

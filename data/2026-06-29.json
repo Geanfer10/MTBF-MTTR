@@ -1,6 +1,6 @@
 {
   "date": "2026-06-29",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1273,67 +1273,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.3833,
-      "horas_disponiveis": 22.0,
-      "falhas": 3,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.3833,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-29",
-          "inicio": "16:39",
-          "fim": "16:45",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "serviço de solda no guia da bandeja, esteira TPBJ8",
-          "tag": "tp-bj8",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ-8"
-        },
-        {
-          "data": "2026-06-29",
-          "inicio": "20:40",
-          "fim": "20:50",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "Ajuste no sensor.",
-          "tag": "31440",
-          "componente": "SISTEMA DE SENSORES ESTEIRA DE TRANSPORTE CADENA TP-BJ-18"
-        },
-        {
-          "data": "2026-06-29",
-          "inicio": "22:31",
-          "fim": "22:38",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "CARRO DE TRANSPORTE EM FALHA",
-          "obs": "",
-          "tag": "TRS01",
-          "componente": "TRANSFER DE BANDEJA "
-        }
-      ]
-    },
-    {
       "name": "MESPACK B",
       "horas": 0.25,
       "horas_disponiveis": 22.0,
@@ -1372,17 +1311,17 @@
   "turnos": {
     "Automação": {
       "1": 1.9667,
-      "2": 2.25,
+      "2": 2.1333,
       "3": 1.2238
     },
     "Elétrica": {
       "1": 0.8667,
-      "2": 0.6833,
+      "2": 0.5167,
       "3": 0.1
     },
     "Mecânica": {
       "1": 1.6333,
-      "2": 1.6167,
+      "2": 1.5167,
       "3": 2.7811
     }
   },
@@ -2231,51 +2170,6 @@
       ]
     },
     {
-      "tag": "RB010",
-      "componente": "ROBO  DESEMPILHADOR DE BANDEJA ",
-      "equipamento": "MESPACK R1",
-      "falhas": 2,
-      "horas": 0.1333,
-      "por_turno": {
-        "1": {
-          "horas": 0.1333,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-29",
-          "inicio": "07:52",
-          "fim": "07:54",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-29",
-          "inicio": "09:41",
-          "fim": "09:47",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "MECANICA01",
       "componente": "AGUARDANDO MECANICO",
       "equipamento": "MESPACK R2",
@@ -2321,6 +2215,85 @@
       ]
     },
     {
+      "tag": "RB010",
+      "componente": "ROBO  DESEMPILHADOR DE BANDEJA ",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 0.1333,
+      "por_turno": {
+        "1": {
+          "horas": 0.1333,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-29",
+          "inicio": "07:52",
+          "fim": "07:54",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-29",
+          "inicio": "09:41",
+          "fim": "09:47",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20476",
+      "componente": "CONJUNTO DESBOBINADOR MESPACK A ",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.1833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-29",
+          "inicio": "21:38",
+          "fim": "21:49",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "AJUSTE NO PERFURADOR",
+          "obs": "fora da posição "
+        }
+      ]
+    },
+    {
       "tag": "20492",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK A",
       "equipamento": "MESPACK A",
@@ -2355,11 +2328,11 @@
       ]
     },
     {
-      "tag": "20499",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B ",
-      "equipamento": "MESPACK B",
+      "tag": "20289",
+      "componente": "MOTOR ELÉTRICO REDUTOR ESTEIRA PULMÃO ENCAIXOTAMENTO 3100/4KG",
+      "equipamento": "ENCHEDEIRA COPO/LATA",
       "falhas": 1,
-      "horas": 0.25,
+      "horas": 0.3333,
       "por_turno": {
         "1": {
           "horas": 0.0,
@@ -2370,55 +2343,21 @@
           "falhas": 0
         },
         "3": {
-          "horas": 0.25,
+          "horas": 0.3333,
           "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-06-29",
-          "inicio": "23:37",
-          "fim": "23:52",
+          "inicio": "03:38",
+          "fim": "03:58",
           "turno": 3,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.25,
-          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
-          "obs": "troca do parafuso do mancal "
-        }
-      ]
-    },
-    {
-      "tag": "20519",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
-      "equipamento": "MESPACK C",
-      "falhas": 1,
-      "horas": 0.2833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.2833,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-29",
-          "inicio": "05:07",
-          "fim": "05:24",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2833,
+          "horas": 0.3333,
           "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "Troca do rolamento "
+          "obs": "esperando manutenção na seladora "
         }
       ]
     }
@@ -3543,31 +3482,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -3575,34 +3514,34 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 13.1215,
-      "disponibilidade_pct": 95.412,
-      "indisponibilidade_pct": 4.588
+      "horas_paradas": 12.7382,
+      "disponibilidade_pct": 95.5461,
+      "indisponibilidade_pct": 4.4539
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 1.65,
-        "disponibilidade_pct": 99.4231,
-        "indisponibilidade_pct": 0.5769
+        "horas_paradas": 1.4833,
+        "disponibilidade_pct": 99.4814,
+        "indisponibilidade_pct": 0.5186
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 6.0311,
-        "disponibilidade_pct": 97.8912,
-        "indisponibilidade_pct": 2.1088
+        "horas_paradas": 5.9311,
+        "disponibilidade_pct": 97.9262,
+        "indisponibilidade_pct": 2.0738
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 5.4404,
-        "disponibilidade_pct": 93.8177,
-        "indisponibilidade_pct": 6.1823
+        "horas_paradas": 5.3238,
+        "disponibilidade_pct": 93.9503,
+        "indisponibilidade_pct": 6.0497
       }
     }
   },
@@ -3610,12 +3549,12 @@
     "mes": "junho",
     "ano": 2026,
     "ate": "2026-06-29",
-    "falhas": 3181,
-    "horas_paradas": 545.657,
+    "falhas": 3065,
+    "horas_paradas": 521.4013,
     "horas_disponiveis": 7150.0,
-    "mtbf_min": 124.5711,
-    "disponibilidade_pct": 92.3684,
-    "indisponibilidade_pct": 7.6316,
+    "mtbf_min": 129.7605,
+    "disponibilidade_pct": 92.7077,
+    "indisponibilidade_pct": 7.2923,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

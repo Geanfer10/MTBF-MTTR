@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1744,54 +1744,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 1.8333,
-      "horas_disponiveis": 22.0,
-      "falhas": 2,
-      "por_turno": {
-        "1": {
-          "horas": 0.3333,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 1.5,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-23",
-          "inicio": "10:47",
-          "fim": "11:07",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.3333,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "",
-          "tag": "ETH",
-          "componente": "ERRO DE ETHERCAT"
-        },
-        {
-          "data": "2026-07-23",
-          "inicio": "19:20",
-          "fim": "20:50",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 1.5,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "robô 2 sensor das caixas, +robô 1 parado devido a desabilitação das esteiras para a troca do sensor do robô 2, em um curto prazo de horário, e deslocamento do e",
-          "tag": "RB02",
-          "componente": "ROBO PALETIZAÇÃO ATOMATADOS"
-        }
-      ]
-    },
-    {
       "name": "60L1",
       "horas": 1.3833,
       "horas_disponiveis": 22.0,
@@ -2477,13 +2429,13 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 7.9333,
+      "1": 7.6,
       "2": 4.05,
       "3": 2.3
     },
     "Elétrica": {
       "1": 4.1667,
-      "2": 3.45,
+      "2": 1.95,
       "3": 0.3667
     },
     "Mecânica": {
@@ -3731,73 +3683,6 @@
       ]
     },
     {
-      "tag": "20487",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
-      "equipamento": "MESPACK A",
-      "falhas": 4,
-      "horas": 0.5667,
-      "por_turno": {
-        "1": {
-          "horas": 0.1167,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.2833,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.1667,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-23",
-          "inicio": "03:26",
-          "fim": "03:36",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-23",
-          "inicio": "10:15",
-          "fim": "10:22",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-23",
-          "inicio": "15:37",
-          "fim": "15:40",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-23",
-          "inicio": "17:39",
-          "fim": "17:53",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2333,
-          "motivo": "AJUSTE DE VENTOSAS",
-          "obs": "ecno conjunto das mesas"
-        }
-      ]
-    },
-    {
       "tag": "20567",
       "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
       "equipamento": "MESPACK E",
@@ -3928,6 +3813,73 @@
           "horas": 0.0833,
           "motivo": "AJUSTE DO ESTICADOR",
           "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20487",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
+      "equipamento": "MESPACK A",
+      "falhas": 4,
+      "horas": 0.5667,
+      "por_turno": {
+        "1": {
+          "horas": 0.1167,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.2833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.1667,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-23",
+          "inicio": "03:26",
+          "fim": "03:36",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-07-23",
+          "inicio": "10:15",
+          "fim": "10:22",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-07-23",
+          "inicio": "15:37",
+          "fim": "15:40",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-07-23",
+          "inicio": "17:39",
+          "fim": "17:53",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": "ecno conjunto das mesas"
         }
       ]
     },
@@ -4100,19 +4052,19 @@
       ]
     },
     {
-      "tag": "20367",
-      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
-      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "equipamento": "MESPACK C",
       "falhas": 2,
-      "horas": 0.2833,
+      "horas": 0.2,
       "por_turno": {
         "1": {
-          "horas": 0.2833,
-          "falhas": 2
+          "horas": 0.0833,
+          "falhas": 1
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.1167,
+          "falhas": 1
         },
         "3": {
           "horas": 0.0,
@@ -4122,25 +4074,25 @@
       "ocorrencias": [
         {
           "data": "2026-07-23",
-          "inicio": "06:43",
-          "fim": "06:53",
+          "inicio": "13:34",
+          "fim": "13:39",
           "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste dos bicos "
+          "horas": 0.0833,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
         },
         {
           "data": "2026-07-23",
-          "inicio": "07:40",
-          "fim": "07:47",
-          "turno": 1,
+          "inicio": "16:11",
+          "fim": "16:18",
+          "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1167,
           "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste nos bicos"
+          "obs": "carro móvel fora do ponto "
         }
       ]
     }
@@ -5185,51 +5137,6 @@
       ]
     },
     {
-      "tag": "RB02",
-      "componente": "ROBO PALETIZAÇÃO ATOMATADOS",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 2,
-      "horas": 1.6833,
-      "por_turno": {
-        "1": {
-          "horas": 0.1833,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 1.5,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-23",
-          "inicio": "11:17",
-          "fim": "11:28",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": "Falta de bandeja devido troca de suporte de ventosa do robô 2 do encaixotamento "
-        },
-        {
-          "data": "2026-07-23",
-          "inicio": "19:20",
-          "fim": "20:50",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 1.5,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "robô 2 sensor das caixas, +robô 1 parado devido a desabilitação das esteiras para a troca do sensor do robô 2, em um curto prazo de horário, e deslocamento do e"
-        }
-      ]
-    },
-    {
       "tag": "ROBOTICA03",
       "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
@@ -5887,36 +5794,81 @@
           "obs": "sensor das latas"
         }
       ]
+    },
+    {
+      "tag": "INK10",
+      "componente": "INKJET RECRAVADEIRA 60L1",
+      "equipamento": "60L1",
+      "falhas": 2,
+      "horas": 0.45,
+      "por_turno": {
+        "1": {
+          "horas": 0.45,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-23",
+          "inicio": "08:05",
+          "fim": "08:20",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "falha no indjet "
+        },
+        {
+          "data": "2026-07-23",
+          "inicio": "09:07",
+          "fim": "09:19",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "falha no inkijet "
+        }
+      ]
     }
   ],
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -5924,22 +5876,22 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 28.65,
-      "disponibilidade_pct": 89.9825,
-      "indisponibilidade_pct": 10.0175
+      "horas_paradas": 26.8167,
+      "disponibilidade_pct": 90.6235,
+      "indisponibilidade_pct": 9.3765
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 7.9833,
-        "disponibilidade_pct": 97.2086,
-        "indisponibilidade_pct": 2.7914
+        "horas_paradas": 6.4833,
+        "disponibilidade_pct": 97.7331,
+        "indisponibilidade_pct": 2.2669
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
@@ -5949,9 +5901,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 14.2833,
-        "disponibilidade_pct": 83.7689,
-        "indisponibilidade_pct": 16.2311
+        "horas_paradas": 13.95,
+        "disponibilidade_pct": 84.1477,
+        "indisponibilidade_pct": 15.8523
       }
     }
   },
@@ -5959,12 +5911,12 @@
     "mes": "julho",
     "ano": 2026,
     "ate": "2026-07-23",
-    "falhas": 2881,
-    "horas_paradas": 514.7296,
+    "falhas": 2821,
+    "horas_paradas": 497.7279,
     "horas_disponiveis": 5720.0,
-    "mtbf_min": 108.4055,
-    "disponibilidade_pct": 91.0012,
-    "indisponibilidade_pct": 8.9988,
+    "mtbf_min": 111.0728,
+    "disponibilidade_pct": 91.2985,
+    "indisponibilidade_pct": 8.7015,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

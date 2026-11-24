@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1839,46 +1839,11 @@
           "componente": "CONJUNTO DE SELAGEM DE RESFRIAMENTO INFERIOR MESPACK D "
         }
       ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.0667,
-      "horas_disponiveis": 22.0,
-      "falhas": 1,
-      "por_turno": {
-        "1": {
-          "horas": 0.0667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-10",
-          "inicio": "14:18",
-          "fim": "14:22",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "FEL01",
-          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
-        }
-      ]
     }
   ],
   "turnos": {
     "Automação": {
-      "1": 2.7167,
+      "1": 2.65,
       "2": 3.65,
       "3": 2.3833
     },
@@ -3235,62 +3200,6 @@
       ]
     },
     {
-      "tag": "FEL01",
-      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 3,
-      "horas": 0.2333,
-      "por_turno": {
-        "1": {
-          "horas": 0.2333,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-10",
-          "inicio": "09:18",
-          "fim": "09:22",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-10",
-          "inicio": "09:22",
-          "fim": "09:28",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-10",
-          "inicio": "14:18",
-          "fim": "14:22",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "31194",
       "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
       "equipamento": "MESPACK R1",
@@ -3336,47 +3245,92 @@
       ]
     },
     {
-      "tag": "31319",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK F",
-      "equipamento": "MESPACK F",
+      "tag": "20499",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B ",
+      "equipamento": "MESPACK B",
       "falhas": 2,
-      "horas": 1.85,
+      "horas": 0.55,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.6833,
+          "horas": 0.4667,
           "falhas": 1
         },
         "3": {
-          "horas": 1.1667,
+          "horas": 0.0833,
           "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-08-10",
-          "inicio": "22:04",
-          "fim": "22:45",
-          "turno": 2,
-          "departamento": "Elétrica",
+          "inicio": "04:48",
+          "fim": "04:53",
+          "turno": 3,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.6833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "embalagem número 4 dosando pouco produto ( eletricista investigando possível causa )."
+          "horas": 0.0833,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "obs": "ajuste no eixo do conjunto de selagem "
         },
         {
           "data": "2026-08-10",
-          "inicio": "22:45",
-          "fim": "23:55",
-          "turno": 3,
-          "departamento": "Elétrica",
+          "inicio": "15:02",
+          "fim": "15:30",
+          "turno": 2,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 1.1667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "TROCA DO MEDIDOR DE VAZÃO BICO 08."
+          "horas": 0.4667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "alinhamento da mordaça e ajuste na mordaça superior "
+        }
+      ]
+    },
+    {
+      "tag": "31404",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 2,
+      "horas": 0.1833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1833,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-10",
+          "inicio": "03:44",
+          "fim": "03:52",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste de pinça e ajuste nas ventosas "
+        },
+        {
+          "data": "2026-08-10",
+          "inicio": "04:37",
+          "fim": "04:40",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste nas ventosas "
         }
       ]
     }
@@ -4930,31 +4884,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -4962,15 +4916,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 21.0,
-      "disponibilidade_pct": 92.6573,
-      "indisponibilidade_pct": 7.3427
+      "horas_paradas": 20.9333,
+      "disponibilidade_pct": 92.6807,
+      "indisponibilidade_pct": 7.3193
     },
     "departamentos": {
       "Elétrica": {
@@ -4987,9 +4941,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 8.75,
-        "disponibilidade_pct": 90.0568,
-        "indisponibilidade_pct": 9.9432
+        "horas_paradas": 8.6833,
+        "disponibilidade_pct": 90.1326,
+        "indisponibilidade_pct": 9.8674
       }
     }
   },
@@ -4997,12 +4951,12 @@
     "mes": "agosto",
     "ano": 2026,
     "ate": "2026-08-10",
-    "falhas": 971,
-    "horas_paradas": 141.4285,
+    "falhas": 940,
+    "horas_paradas": 137.3452,
     "horas_disponiveis": 2288.0,
-    "mtbf_min": 132.6409,
-    "disponibilidade_pct": 93.8187,
-    "indisponibilidade_pct": 6.1813,
+    "mtbf_min": 137.2758,
+    "disponibilidade_pct": 93.9972,
+    "indisponibilidade_pct": 6.0028,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

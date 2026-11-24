@@ -1,6 +1,6 @@
 {
   "date": "2026-05-16",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -750,90 +750,16 @@
           "componente": "FALTA DE GRELHA R1"
         }
       ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.3167,
-      "horas_disponiveis": 22.0,
-      "falhas": 4,
-      "por_turno": {
-        "1": {
-          "horas": 0.3167,
-          "falhas": 4
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-16",
-          "inicio": "07:19",
-          "fim": "07:22",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "FEL01",
-          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
-        },
-        {
-          "data": "2026-05-16",
-          "inicio": "13:26",
-          "fim": "13:30",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "FEL01",
-          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
-        },
-        {
-          "data": "2026-05-16",
-          "inicio": "14:10",
-          "fim": "14:14",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": "",
-          "tag": "TF-BJ4",
-          "componente": "TRANSFERIDO DE BANDEJA TF-BJ4"
-        },
-        {
-          "data": "2026-05-16",
-          "inicio": "14:21",
-          "fim": "14:29",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste na balança da seladoura",
-          "tag": "32129",
-          "componente": "BALANÇA FECH. DE CAIXA VEGETAIS"
-        }
-      ]
     }
   ],
   "turnos": {
     "Automação": {
-      "1": 1.6833,
+      "1": 1.5,
       "2": 0.7667,
       "3": 0.0
     },
     "Elétrica": {
-      "1": 0.6833,
+      "1": 0.55,
       "2": 0.25,
       "3": 0.0
     },
@@ -1411,65 +1337,20 @@
       ]
     },
     {
-      "tag": "FEL01",
-      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 2,
-      "horas": 0.1167,
+      "tag": "30790",
+      "componente": "ROSCA SEM FIM RECRAVADEIRA CONDOR",
+      "equipamento": "CONDOR",
+      "falhas": 1,
+      "horas": 0.0667,
       "por_turno": {
         "1": {
-          "horas": 0.1167,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 0
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-16",
-          "inicio": "07:19",
-          "fim": "07:22",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-05-16",
-          "inicio": "13:26",
-          "fim": "13:30",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
           "horas": 0.0667,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "20374",
-      "componente": "VÁLVULA DE PRODUTO ENCHEDEIRA TOPDOWN",
-      "equipamento": "ENCHEDEIRA TOP DOWN",
-      "falhas": 1,
-      "horas": 0.1833,
-      "por_turno": {
-        "1": {
-          "horas": 0.1833,
           "falhas": 1
         },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
         "3": {
           "horas": 0.0,
           "falhas": 0
@@ -1478,14 +1359,14 @@
       "ocorrencias": [
         {
           "data": "2026-05-16",
-          "inicio": "12:29",
-          "fim": "12:40",
-          "turno": 1,
+          "inicio": "15:56",
+          "fim": "16:00",
+          "turno": 2,
           "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.1833,
+          "horas": 0.0667,
           "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste na válvula de produto da enchedera "
+          "obs": "falha no cilindro da enchedeira "
         }
       ]
     },
@@ -1524,14 +1405,14 @@
       ]
     },
     {
-      "tag": "31194",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
-      "equipamento": "MESPACK R1",
+      "tag": "20374",
+      "componente": "VÁLVULA DE PRODUTO ENCHEDEIRA TOPDOWN",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
       "falhas": 1,
-      "horas": 0.0667,
+      "horas": 0.1833,
       "por_turno": {
         "1": {
-          "horas": 0.0667,
+          "horas": 0.1833,
           "falhas": 1
         },
         "2": {
@@ -1546,14 +1427,14 @@
       "ocorrencias": [
         {
           "data": "2026-05-16",
-          "inicio": "09:52",
-          "fim": "09:56",
+          "inicio": "12:29",
+          "fim": "12:40",
           "turno": 1,
-          "departamento": "Mecânica",
+          "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste na válvula de produto da enchedera "
         }
       ]
     },
@@ -1592,19 +1473,19 @@
       ]
     },
     {
-      "tag": "30790",
-      "componente": "ROSCA SEM FIM RECRAVADEIRA CONDOR",
-      "equipamento": "CONDOR",
+      "tag": "ELETRICA01",
+      "componente": "AGUARDANDO ELETRICA",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
       "falhas": 1,
-      "horas": 0.0667,
+      "horas": 0.4167,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.4167,
+          "falhas": 1
         },
         "2": {
-          "horas": 0.0667,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,
@@ -1614,26 +1495,26 @@
       "ocorrencias": [
         {
           "data": "2026-05-16",
-          "inicio": "15:56",
-          "fim": "16:00",
-          "turno": 2,
-          "departamento": "Elétrica",
+          "inicio": "12:04",
+          "fim": "12:29",
+          "turno": 1,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "falha no cilindro da enchedeira "
+          "horas": 0.4167,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": "válvula da enchedera não abre"
         }
       ]
     },
     {
-      "tag": "32129",
-      "componente": "BALANÇA FECH. DE CAIXA VEGETAIS",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "equipamento": "MESPACK R1",
       "falhas": 1,
-      "horas": 0.1333,
+      "horas": 0.0667,
       "por_turno": {
         "1": {
-          "horas": 0.1333,
+          "horas": 0.0667,
           "falhas": 1
         },
         "2": {
@@ -1648,14 +1529,48 @@
       "ocorrencias": [
         {
           "data": "2026-05-16",
-          "inicio": "14:21",
-          "fim": "14:29",
+          "inicio": "09:52",
+          "fim": "09:56",
           "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "INK12",
+      "componente": "INKJET RECRAVADEIRA CONDOR",
+      "equipamento": "CONDOR",
+      "falhas": 1,
+      "horas": 0.1833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-05-16",
+          "inicio": "16:15",
+          "fim": "16:26",
+          "turno": 2,
           "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.1333,
+          "horas": 0.1833,
           "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste na balança da seladoura"
+          "obs": ""
         }
       ]
     }
@@ -2364,85 +2279,6 @@
       ]
     },
     {
-      "tag": "32129",
-      "componente": "BALANÇA FECH. DE CAIXA VEGETAIS",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 1,
-      "horas": 0.1333,
-      "por_turno": {
-        "1": {
-          "horas": 0.1333,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-16",
-          "inicio": "14:21",
-          "fim": "14:29",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste na balança da seladoura"
-        }
-      ]
-    },
-    {
-      "tag": "FEL01",
-      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 2,
-      "horas": 0.1167,
-      "por_turno": {
-        "1": {
-          "horas": 0.1167,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-16",
-          "inicio": "07:19",
-          "fim": "07:22",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-05-16",
-          "inicio": "13:26",
-          "fim": "13:30",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "20391",
       "componente": "ESTEIRA TRANSPORTE DE FRASCOS ROTULADEIRA TOPDOWN",
       "equipamento": "ENCHEDEIRA TOP DOWN",
@@ -2545,14 +2381,14 @@
       ]
     },
     {
-      "tag": "TF-BJ4",
-      "componente": "TRANSFERIDO DE BANDEJA TF-BJ4",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
+      "tag": "31191",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
+      "equipamento": "MESPACK R1",
       "falhas": 1,
-      "horas": 0.0667,
+      "horas": 0.05,
       "por_turno": {
         "1": {
-          "horas": 0.0667,
+          "horas": 0.05,
           "falhas": 1
         },
         "2": {
@@ -2567,13 +2403,13 @@
       "ocorrencias": [
         {
           "data": "2026-05-16",
-          "inicio": "14:10",
-          "fim": "14:14",
+          "inicio": "07:41",
+          "fim": "07:44",
           "turno": 1,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "horas": 0.05,
+          "motivo": "TROCA DE VENTOSAS",
           "obs": ""
         }
       ]
@@ -2582,31 +2418,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -2614,22 +2450,22 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 5.6,
-      "disponibilidade_pct": 98.042,
-      "indisponibilidade_pct": 1.958
+      "horas_paradas": 5.2833,
+      "disponibilidade_pct": 98.1527,
+      "indisponibilidade_pct": 1.8473
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 0.9333,
-        "disponibilidade_pct": 99.6737,
-        "indisponibilidade_pct": 0.3263
+        "horas_paradas": 0.8,
+        "disponibilidade_pct": 99.7203,
+        "indisponibilidade_pct": 0.2797
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
@@ -2639,9 +2475,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 2.45,
-        "disponibilidade_pct": 97.2159,
-        "indisponibilidade_pct": 2.7841
+        "horas_paradas": 2.2667,
+        "disponibilidade_pct": 97.4242,
+        "indisponibilidade_pct": 2.5758
       }
     }
   },
@@ -2649,12 +2485,12 @@
     "mes": "maio",
     "ano": 2026,
     "ate": "2026-05-16",
-    "falhas": 1518,
-    "horas_paradas": 275.3406,
+    "falhas": 1477,
+    "horas_paradas": 266.7606,
     "horas_disponiveis": 3432.0,
-    "mtbf_min": 124.7691,
-    "disponibilidade_pct": 91.9773,
-    "indisponibilidade_pct": 8.0227,
+    "mtbf_min": 128.5812,
+    "disponibilidade_pct": 92.2273,
+    "indisponibilidade_pct": 7.7727,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

@@ -1,6 +1,6 @@
 {
   "date": "2026-06-17",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -2229,59 +2229,11 @@
           "componente": "CONJUNTO CARRO MOVEL MESPACK B "
         }
       ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.1167,
-      "horas_disponiveis": 22.0,
-      "falhas": 2,
-      "por_turno": {
-        "1": {
-          "horas": 0.1167,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-17",
-          "inicio": "10:34",
-          "fim": "10:38",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": "",
-          "tag": "TP-BJ4-L2",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L2"
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "11:16",
-          "fim": "11:19",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "FEL01",
-          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
-        }
-      ]
     }
   ],
   "turnos": {
     "Automação": {
-      "1": 2.5333,
+      "1": 2.4167,
       "2": 4.6167,
       "3": 2.5667
     },
@@ -2750,293 +2702,6 @@
       ]
     },
     {
-      "tag": "ROBOTICA02",
-      "componente": "ESTEIRÃO PARADO MESPACK F",
-      "equipamento": "MESPACK F",
-      "falhas": 24,
-      "horas": 2.0,
-      "por_turno": {
-        "1": {
-          "horas": 0.5667,
-          "falhas": 7
-        },
-        "2": {
-          "horas": 1.1333,
-          "falhas": 14
-        },
-        "3": {
-          "horas": 0.3,
-          "falhas": 3
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-17",
-          "inicio": "01:39",
-          "fim": "01:49",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "02:02",
-          "fim": "02:04",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "02:29",
-          "fim": "02:35",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "07:21",
-          "fim": "07:24",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "07:30",
-          "fim": "07:34",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "07:37",
-          "fim": "07:39",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "07:43",
-          "fim": "07:55",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.2,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "09:45",
-          "fim": "09:47",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "13:48",
-          "fim": "13:50",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "13:53",
-          "fim": "14:02",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "15:13",
-          "fim": "15:16",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "15:24",
-          "fim": "15:43",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.3167,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "15:46",
-          "fim": "15:49",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "17:31",
-          "fim": "17:33",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "18:34",
-          "fim": "18:36",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "18:49",
-          "fim": "18:54",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "19:08",
-          "fim": "19:12",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "20:04",
-          "fim": "20:07",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "20:12",
-          "fim": "20:18",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "20:36",
-          "fim": "20:43",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "20:56",
-          "fim": "20:59",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "21:31",
-          "fim": "21:33",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "21:38",
-          "fim": "21:43",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "22:06",
-          "fim": "22:10",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
@@ -3319,6 +2984,293 @@
           "falhas": 1,
           "horas": 0.2167,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "ROBOTICA02",
+      "componente": "ESTEIRÃO PARADO MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 24,
+      "horas": 2.0,
+      "por_turno": {
+        "1": {
+          "horas": 0.5667,
+          "falhas": 7
+        },
+        "2": {
+          "horas": 1.1333,
+          "falhas": 14
+        },
+        "3": {
+          "horas": 0.3,
+          "falhas": 3
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-17",
+          "inicio": "01:39",
+          "fim": "01:49",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "02:02",
+          "fim": "02:04",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "02:29",
+          "fim": "02:35",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "07:21",
+          "fim": "07:24",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "07:30",
+          "fim": "07:34",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "07:37",
+          "fim": "07:39",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "07:43",
+          "fim": "07:55",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "09:45",
+          "fim": "09:47",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "13:48",
+          "fim": "13:50",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "13:53",
+          "fim": "14:02",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "15:13",
+          "fim": "15:16",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "15:24",
+          "fim": "15:43",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.3167,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "15:46",
+          "fim": "15:49",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "17:31",
+          "fim": "17:33",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "18:34",
+          "fim": "18:36",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "18:49",
+          "fim": "18:54",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "19:08",
+          "fim": "19:12",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "20:04",
+          "fim": "20:07",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "20:12",
+          "fim": "20:18",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "20:36",
+          "fim": "20:43",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "20:56",
+          "fim": "20:59",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "21:31",
+          "fim": "21:33",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "21:38",
+          "fim": "21:43",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "22:06",
+          "fim": "22:10",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": ""
         }
       ]
@@ -3880,47 +3832,47 @@
       ]
     },
     {
-      "tag": "EP06",
-      "componente": "EMPURRADOR DE EMBALAGENS MESPACK E",
-      "equipamento": "MESPACK E",
+      "tag": "31192",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK R1",
+      "equipamento": "MESPACK F",
       "falhas": 2,
-      "horas": 0.3667,
+      "horas": 0.4667,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.3667,
-          "falhas": 2
+          "horas": 0.1333,
+          "falhas": 1
         },
         "3": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.3333,
+          "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-06-17",
-          "inicio": "16:58",
-          "fim": "17:11",
+          "inicio": "18:12",
+          "fim": "18:20",
           "turno": 2,
-          "departamento": "Elétrica",
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.2167,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste no empurrador "
+          "horas": 0.1333,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": ""
         },
         {
           "data": "2026-06-17",
-          "inicio": "17:18",
-          "fim": "17:27",
-          "turno": 2,
-          "departamento": "Elétrica",
+          "inicio": "23:33",
+          "fim": "23:53",
+          "turno": 3,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.15,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste no empurrador "
+          "horas": 0.3333,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": ""
         }
       ]
     },
@@ -3970,46 +3922,46 @@
       ]
     },
     {
-      "tag": "31192",
-      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK R1",
-      "equipamento": "MESPACK F",
+      "tag": "20563",
+      "componente": "CONJUNTO DE FACAS MESPACK E ",
+      "equipamento": "MESPACK E",
       "falhas": 2,
-      "horas": 0.4667,
+      "horas": 0.5167,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.1333,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
-          "horas": 0.3333,
-          "falhas": 1
+          "horas": 0.5167,
+          "falhas": 2
         }
       },
       "ocorrencias": [
         {
           "data": "2026-06-17",
-          "inicio": "18:12",
-          "fim": "18:20",
-          "turno": 2,
+          "inicio": "00:15",
+          "fim": "00:27",
+          "turno": 3,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "AJUSTE DO ESTICADOR",
+          "horas": 0.2,
+          "motivo": "AJUSTE DE FACA",
           "obs": ""
         },
         {
           "data": "2026-06-17",
-          "inicio": "23:33",
-          "fim": "23:53",
+          "inicio": "01:07",
+          "fim": "01:26",
           "turno": 3,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.3333,
-          "motivo": "AJUSTE DO ESTICADOR",
+          "horas": 0.3167,
+          "motivo": "AJUSTE DE FACA",
           "obs": ""
         }
       ]
@@ -5701,6 +5653,51 @@
       ]
     },
     {
+      "tag": "EP06",
+      "componente": "EMPURRADOR DE EMBALAGENS MESPACK E",
+      "equipamento": "MESPACK E",
+      "falhas": 2,
+      "horas": 0.3667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.3667,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-17",
+          "inicio": "16:58",
+          "fim": "17:11",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no empurrador "
+        },
+        {
+          "data": "2026-06-17",
+          "inicio": "17:18",
+          "fim": "17:27",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no empurrador "
+        }
+      ]
+    },
+    {
       "tag": "30463",
       "componente": "CABEÇOTE SUPERIOR 60L2",
       "equipamento": "60L2",
@@ -5768,51 +5765,6 @@
       ]
     },
     {
-      "tag": "EP06",
-      "componente": "EMPURRADOR DE EMBALAGENS MESPACK E",
-      "equipamento": "MESPACK E",
-      "falhas": 2,
-      "horas": 0.3667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.3667,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-17",
-          "inicio": "16:58",
-          "fim": "17:11",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2167,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste no empurrador "
-        },
-        {
-          "data": "2026-06-17",
-          "inicio": "17:18",
-          "fim": "17:27",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste no empurrador "
-        }
-      ]
-    },
-    {
       "tag": "20550",
       "componente": "CONJUNTO TANQUE DE PRODUTO MESPACK D ",
       "equipamento": "MESPACK D",
@@ -5850,31 +5802,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -5882,15 +5834,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 24.65,
-      "disponibilidade_pct": 91.3811,
-      "indisponibilidade_pct": 8.6189
+      "horas_paradas": 24.5333,
+      "disponibilidade_pct": 91.4219,
+      "indisponibilidade_pct": 8.5781
     },
     "departamentos": {
       "Elétrica": {
@@ -5907,9 +5859,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 9.7167,
-        "disponibilidade_pct": 88.9583,
-        "indisponibilidade_pct": 11.0417
+        "horas_paradas": 9.6,
+        "disponibilidade_pct": 89.0909,
+        "indisponibilidade_pct": 10.9091
       }
     }
   },
@@ -5917,12 +5869,12 @@
     "mes": "junho",
     "ano": 2026,
     "ate": "2026-06-17",
-    "falhas": 1814,
-    "horas_paradas": 332.1286,
+    "falhas": 1741,
+    "horas_paradas": 315.9343,
     "horas_disponiveis": 4290.0,
-    "mtbf_min": 130.9108,
-    "disponibilidade_pct": 92.2581,
-    "indisponibilidade_pct": 7.7419,
+    "mtbf_min": 136.958,
+    "disponibilidade_pct": 92.6356,
+    "indisponibilidade_pct": 7.3644,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

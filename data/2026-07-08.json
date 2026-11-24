@@ -1,6 +1,6 @@
 {
   "date": "2026-07-08",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -2031,80 +2031,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.4729,
-      "horas_disponiveis": 22.0,
-      "falhas": 4,
-      "por_turno": {
-        "1": {
-          "horas": 0.2,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.2729,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-08",
-          "inicio": "06:31",
-          "fim": "06:38",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca de mola da seladoura ",
-          "tag": "32127",
-          "componente": "CABEÇOTE FECH. DE CIAXAS VEGETAIS"
-        },
-        {
-          "data": "2026-07-08",
-          "inicio": "06:59",
-          "fim": "07:04",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": "aguardando pilha de bandejas ",
-          "tag": "RB09",
-          "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS"
-        },
-        {
-          "data": "2026-07-08",
-          "inicio": "19:15",
-          "fim": "19:23",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1396,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "pistão travado na curva do autoclave JPBJ9 ",
-          "tag": "31905",
-          "componente": "PISTÃO DE TRAVAMENTO DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-9"
-        },
-        {
-          "data": "2026-07-08",
-          "inicio": "20:14",
-          "fim": "20:22",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "ROBO EMPILHADOR EM FALHA",
-          "obs": "",
-          "tag": "RB09",
-          "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS"
-        }
-      ]
-    },
-    {
       "name": "MESPACK D",
       "horas": 0.3667,
       "horas_disponiveis": 22.0,
@@ -2173,12 +2099,47 @@
           "componente": "ESTEIRA TRANSPORTE DE FRASCOS ROTULADEIRA TOPDOWN"
         }
       ]
+    },
+    {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 0.0833,
+      "horas_disponiveis": 22.0,
+      "falhas": 1,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-08",
+          "inicio": "06:59",
+          "fim": "07:04",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "aguardando pilha de bandejas ",
+          "tag": "RB09",
+          "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS"
+        }
+      ]
     }
   ],
   "turnos": {
     "Automação": {
       "1": 3.35,
-      "2": 3.6396,
+      "2": 3.3667,
       "3": 3.6
     },
     "Elétrica": {
@@ -2187,7 +2148,7 @@
       "3": 1.5333
     },
     "Mecânica": {
-      "1": 3.0333,
+      "1": 2.9167,
       "2": 4.95,
       "3": 0.8333
     }
@@ -3456,73 +3417,6 @@
       ]
     },
     {
-      "tag": "RB09",
-      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 4,
-      "horas": 0.5167,
-      "por_turno": {
-        "1": {
-          "horas": 0.2,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.3167,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-08",
-          "inicio": "06:59",
-          "fim": "07:04",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": "aguardando pilha de bandejas "
-        },
-        {
-          "data": "2026-07-08",
-          "inicio": "13:33",
-          "fim": "13:40",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-08",
-          "inicio": "20:11",
-          "fim": "20:22",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "ROBO EMPILHADOR EM FALHA",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-08",
-          "inicio": "20:14",
-          "fim": "20:22",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "ROBO EMPILHADOR EM FALHA",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "31871",
       "componente": "CORRENTE ESTEIRA TRANSPORTE CADENA TP-BJ-11",
       "equipamento": "MESPACK R2",
@@ -3641,6 +3535,62 @@
           "falhas": 1,
           "horas": 0.4833,
           "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "equipamento": "MESPACK R2",
+      "falhas": 3,
+      "horas": 0.3833,
+      "por_turno": {
+        "1": {
+          "horas": 0.2,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-08",
+          "inicio": "06:59",
+          "fim": "07:04",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "aguardando pilha de bandejas "
+        },
+        {
+          "data": "2026-07-08",
+          "inicio": "13:33",
+          "fim": "13:40",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-07-08",
+          "inicio": "20:11",
+          "fim": "20:22",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
           "obs": ""
         }
       ]
@@ -5057,73 +5007,6 @@
       ]
     },
     {
-      "tag": "RB09",
-      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 4,
-      "horas": 0.5167,
-      "por_turno": {
-        "1": {
-          "horas": 0.2,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.3167,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-08",
-          "inicio": "06:59",
-          "fim": "07:04",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": "aguardando pilha de bandejas "
-        },
-        {
-          "data": "2026-07-08",
-          "inicio": "13:33",
-          "fim": "13:40",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-08",
-          "inicio": "20:11",
-          "fim": "20:22",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "ROBO EMPILHADOR EM FALHA",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-08",
-          "inicio": "20:14",
-          "fim": "20:22",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "ROBO EMPILHADOR EM FALHA",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "20560",
       "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK E ",
       "equipamento": "MESPACK E",
@@ -5279,36 +5162,92 @@
           "obs": ""
         }
       ]
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "equipamento": "MESPACK R2",
+      "falhas": 3,
+      "horas": 0.3833,
+      "por_turno": {
+        "1": {
+          "horas": 0.2,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-08",
+          "inicio": "06:59",
+          "fim": "07:04",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "aguardando pilha de bandejas "
+        },
+        {
+          "data": "2026-07-08",
+          "inicio": "13:33",
+          "fim": "13:40",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-07-08",
+          "inicio": "20:11",
+          "fim": "20:22",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": ""
+        }
+      ]
     }
   ],
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -5316,15 +5255,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 25.0229,
-      "disponibilidade_pct": 91.2507,
-      "indisponibilidade_pct": 8.7493
+      "horas_paradas": 24.6333,
+      "disponibilidade_pct": 91.3869,
+      "indisponibilidade_pct": 8.6131
     },
     "departamentos": {
       "Elétrica": {
@@ -5335,15 +5274,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 8.8167,
-        "disponibilidade_pct": 96.9172,
-        "indisponibilidade_pct": 3.0828
+        "horas_paradas": 8.7,
+        "disponibilidade_pct": 96.958,
+        "indisponibilidade_pct": 3.042
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 10.5896,
-        "disponibilidade_pct": 87.9664,
-        "indisponibilidade_pct": 12.0336
+        "horas_paradas": 10.3167,
+        "disponibilidade_pct": 88.2765,
+        "indisponibilidade_pct": 11.7235
       }
     }
   },
@@ -5351,12 +5290,12 @@
     "mes": "julho",
     "ano": 2026,
     "ate": "2026-07-08",
-    "falhas": 962,
-    "horas_paradas": 165.414,
+    "falhas": 938,
+    "horas_paradas": 159.4577,
     "horas_disponiveis": 2002.0,
-    "mtbf_min": 114.548,
-    "disponibilidade_pct": 91.7376,
-    "indisponibilidade_pct": 8.2624,
+    "mtbf_min": 117.8598,
+    "disponibilidade_pct": 92.0351,
+    "indisponibilidade_pct": 7.9649,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

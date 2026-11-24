@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1332,67 +1332,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 1.9,
-      "horas_disponiveis": 22.0,
-      "falhas": 3,
-      "por_turno": {
-        "1": {
-          "horas": 1.9,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-19",
-          "inicio": "07:13",
-          "fim": "07:18",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "FEL01",
-          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
-        },
-        {
-          "data": "2026-08-19",
-          "inicio": "08:37",
-          "fim": "10:23",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 1.7667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "quebra da corrente da cadena 11",
-          "tag": "31871",
-          "componente": "CORRENTE ESTEIRA TRANSPORTE CADENA TP-BJ-11"
-        },
-        {
-          "data": "2026-08-19",
-          "inicio": "13:54",
-          "fim": "13:57",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": "",
-          "tag": "TF-BJ4",
-          "componente": "TRANSFERIDO DE BANDEJA TF-BJ4"
-        }
-      ]
-    },
-    {
       "name": "MESPACK F",
       "horas": 1.8667,
       "horas_disponiveis": 22.0,
@@ -2034,7 +1973,7 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 1.85,
+      "1": 1.7167,
       "2": 4.3667,
       "3": 3.2
     },
@@ -2044,7 +1983,7 @@
       "3": 0.0
     },
     "Mecânica": {
-      "1": 8.7833,
+      "1": 7.0167,
       "2": 3.25,
       "3": 1.2167
     }
@@ -3179,73 +3118,6 @@
       ]
     },
     {
-      "tag": "30787",
-      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
-      "equipamento": "CONDOR",
-      "falhas": 4,
-      "horas": 0.85,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.85,
-          "falhas": 4
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-19",
-          "inicio": "16:09",
-          "fim": "16:12",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "tampa presa"
-        },
-        {
-          "data": "2026-08-19",
-          "inicio": "16:32",
-          "fim": "16:50",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento cabeçote 1"
-        },
-        {
-          "data": "2026-08-19",
-          "inicio": "17:45",
-          "fim": "18:05",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3333,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento cabeçote 1"
-        },
-        {
-          "data": "2026-08-19",
-          "inicio": "21:58",
-          "fim": "22:08",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento cabeçote 3"
-        }
-      ]
-    },
-    {
       "tag": "31194",
       "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
       "equipamento": "MESPACK R1",
@@ -3313,19 +3185,19 @@
       ]
     },
     {
-      "tag": "31411",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 3,
-      "horas": 0.2833,
+      "tag": "30787",
+      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
+      "equipamento": "CONDOR",
+      "falhas": 4,
+      "horas": 0.85,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.2833,
-          "falhas": 3
+          "horas": 0.85,
+          "falhas": 4
         },
         "3": {
           "horas": 0.0,
@@ -3335,92 +3207,47 @@
       "ocorrencias": [
         {
           "data": "2026-08-19",
-          "inicio": "15:15",
-          "fim": "15:17",
+          "inicio": "16:09",
+          "fim": "16:12",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "BICO DOSADOR ENTUPIDO",
-          "obs": ""
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "tampa presa"
         },
         {
           "data": "2026-08-19",
-          "inicio": "18:02",
-          "fim": "18:11",
+          "inicio": "16:32",
+          "fim": "16:50",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.15,
-          "motivo": "BICO DOSADOR ENTUPIDO",
-          "obs": ""
+          "horas": 0.3,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento cabeçote 1"
         },
         {
           "data": "2026-08-19",
-          "inicio": "22:30",
-          "fim": "22:36",
+          "inicio": "17:45",
+          "fim": "18:05",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1,
-          "motivo": "BICO DOSADOR ENTUPIDO",
-          "obs": "bico 1 e 2 entupido "
-        }
-      ]
-    },
-    {
-      "tag": "31198",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
-      "equipamento": "MESPACK R1",
-      "falhas": 3,
-      "horas": 0.3833,
-      "por_turno": {
-        "1": {
-          "horas": 0.3833,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-19",
-          "inicio": "08:01",
-          "fim": "08:07",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "AJUSTE NO BICO DE DOSAGEM",
-          "obs": ""
+          "horas": 0.3333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento cabeçote 1"
         },
         {
           "data": "2026-08-19",
-          "inicio": "10:41",
-          "fim": "10:52",
-          "turno": 1,
+          "inicio": "21:58",
+          "fim": "22:08",
+          "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "AJUSTE NO BICO DE DOSAGEM",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-19",
-          "inicio": "10:54",
-          "fim": "11:00",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "AJUSTE NO BICO DE DOSAGEM",
-          "obs": ""
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento cabeçote 3"
         }
       ]
     },
@@ -3481,6 +3308,62 @@
       ]
     },
     {
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 3,
+      "horas": 0.3833,
+      "por_turno": {
+        "1": {
+          "horas": 0.3833,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-19",
+          "inicio": "08:01",
+          "fim": "08:07",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-19",
+          "inicio": "10:41",
+          "fim": "10:52",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-19",
+          "inicio": "10:54",
+          "fim": "11:00",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "31407",
       "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
       "equipamento": "MESPACK R2",
@@ -3533,6 +3416,62 @@
           "horas": 0.0833,
           "motivo": "AJUSTE NAS PINÇAS",
           "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 3,
+      "horas": 0.2833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2833,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-19",
+          "inicio": "15:15",
+          "fim": "15:17",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-19",
+          "inicio": "18:02",
+          "fim": "18:11",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-19",
+          "inicio": "22:30",
+          "fim": "22:36",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": "bico 1 e 2 entupido "
         }
       ]
     }
@@ -4143,40 +4082,6 @@
           "horas": 0.05,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
           "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "31871",
-      "componente": "CORRENTE ESTEIRA TRANSPORTE CADENA TP-BJ-11",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 1,
-      "horas": 1.7667,
-      "por_turno": {
-        "1": {
-          "horas": 1.7667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-19",
-          "inicio": "08:37",
-          "fim": "10:23",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 1.7667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "quebra da corrente da cadena 11"
         }
       ]
     },
@@ -5070,36 +4975,70 @@
           "obs": "régua móvel fora do ponto "
         }
       ]
+    },
+    {
+      "tag": "20558",
+      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 1,
+      "horas": 0.3833,
+      "por_turno": {
+        "1": {
+          "horas": 0.3833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-19",
+          "inicio": "07:08",
+          "fim": "07:31",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3833,
+          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "obs": ""
+        }
+      ]
     }
   ],
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -5107,15 +5046,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 23.55,
-      "disponibilidade_pct": 91.7657,
-      "indisponibilidade_pct": 8.2343
+      "horas_paradas": 21.65,
+      "disponibilidade_pct": 92.4301,
+      "indisponibilidade_pct": 7.5699
     },
     "departamentos": {
       "Elétrica": {
@@ -5126,15 +5065,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 13.25,
-        "disponibilidade_pct": 95.3671,
-        "indisponibilidade_pct": 4.6329
+        "horas_paradas": 11.4833,
+        "disponibilidade_pct": 95.9848,
+        "indisponibilidade_pct": 4.0152
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 9.4167,
-        "disponibilidade_pct": 89.2992,
-        "indisponibilidade_pct": 10.7008
+        "horas_paradas": 9.2833,
+        "disponibilidade_pct": 89.4508,
+        "indisponibilidade_pct": 10.5492
       }
     }
   },
@@ -5142,12 +5081,12 @@
     "mes": "agosto",
     "ano": 2026,
     "ate": "2026-08-19",
-    "falhas": 2131,
-    "horas_paradas": 316.214,
+    "falhas": 2078,
+    "horas_paradas": 307.725,
     "horas_disponiveis": 4862.0,
-    "mtbf_min": 127.9902,
-    "disponibilidade_pct": 93.4962,
-    "indisponibilidade_pct": 6.5038,
+    "mtbf_min": 131.4998,
+    "disponibilidade_pct": 93.6708,
+    "indisponibilidade_pct": 6.3292,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

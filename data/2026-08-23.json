@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1371,47 +1371,12 @@
           "componente": "CABEÇOTE SUPERIOR MOCOCA M3"
         }
       ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.1382,
-      "horas_disponiveis": 22.0,
-      "falhas": 1,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.1382,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-23",
-          "inicio": "19:50",
-          "fim": "19:58",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1382,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "pistão de freio travado na curva do autoclave TPBJ9 ",
-          "tag": "31905",
-          "componente": "PISTÃO DE TRAVAMENTO DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-9"
-        }
-      ]
     }
   ],
   "turnos": {
     "Automação": {
       "1": 0.0,
-      "2": 4.1052,
+      "2": 3.967,
       "3": 1.1333
     },
     "Elétrica": {
@@ -2159,62 +2124,6 @@
       ]
     },
     {
-      "tag": "20512",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
-      "equipamento": "MESPACK B",
-      "falhas": 3,
-      "horas": 0.55,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.55,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-23",
-          "inicio": "15:44",
-          "fim": "15:55",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "limpeza na eletrovalvula "
-        },
-        {
-          "data": "2026-08-23",
-          "inicio": "15:57",
-          "fim": "16:05",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca do bico 03"
-        },
-        {
-          "data": "2026-08-23",
-          "inicio": "19:42",
-          "fim": "19:56",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "limpeza na eletrovalvula "
-        }
-      ]
-    },
-    {
       "tag": "MECANICA01",
       "componente": "AGUARDANDO MECANICO",
       "equipamento": "MESPACK A",
@@ -2327,6 +2236,62 @@
       ]
     },
     {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "equipamento": "MESPACK B",
+      "falhas": 3,
+      "horas": 0.55,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.55,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-23",
+          "inicio": "15:44",
+          "fim": "15:55",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza na eletrovalvula "
+        },
+        {
+          "data": "2026-08-23",
+          "inicio": "15:57",
+          "fim": "16:05",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do bico 03"
+        },
+        {
+          "data": "2026-08-23",
+          "inicio": "19:42",
+          "fim": "19:56",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza na eletrovalvula "
+        }
+      ]
+    },
+    {
       "tag": "31394",
       "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK R2",
       "equipamento": "MESPACK R2",
@@ -2417,46 +2382,46 @@
       ]
     },
     {
-      "tag": "IDX-04",
-      "componente": "ESTEIRA INDEXIDAORA DE SASHE R2",
-      "equipamento": "MESPACK R2",
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "equipamento": "MESPACK R1",
       "falhas": 2,
-      "horas": 0.4667,
+      "horas": 0.1833,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.4667,
-          "falhas": 2
+          "horas": 0.0667,
+          "falhas": 1
         },
         "3": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.1167,
+          "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-08-23",
-          "inicio": "21:24",
-          "fim": "21:43",
-          "turno": 2,
+          "inicio": "05:31",
+          "fim": "05:38",
+          "turno": 3,
           "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.3167,
-          "motivo": "REFAZEAMENTO DO LAGARTO",
+          "horas": 0.1167,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
           "obs": ""
         },
         {
           "data": "2026-08-23",
-          "inicio": "22:26",
-          "fim": "22:35",
+          "inicio": "22:21",
+          "fim": "22:25",
           "turno": 2,
           "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.15,
-          "motivo": "REFAZEAMENTO DO LAGARTO",
+          "horas": 0.0667,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
           "obs": ""
         }
       ]
@@ -3549,31 +3514,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -3581,15 +3546,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 18.3886,
-      "disponibilidade_pct": 93.5704,
-      "indisponibilidade_pct": 6.4296
+      "horas_paradas": 18.2504,
+      "disponibilidade_pct": 93.6188,
+      "indisponibilidade_pct": 6.3812
     },
     "departamentos": {
       "Elétrica": {
@@ -3606,9 +3571,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 5.2386,
-        "disponibilidade_pct": 94.0471,
-        "indisponibilidade_pct": 5.9529
+        "horas_paradas": 5.1004,
+        "disponibilidade_pct": 94.2041,
+        "indisponibilidade_pct": 5.7959
       }
     }
   },
@@ -3616,12 +3581,12 @@
     "mes": "agosto",
     "ano": 2026,
     "ate": "2026-08-23",
-    "falhas": 2595,
-    "horas_paradas": 388.0026,
+    "falhas": 2532,
+    "horas_paradas": 378.5587,
     "horas_disponiveis": 6006.0,
-    "mtbf_min": 129.8959,
-    "disponibilidade_pct": 93.5398,
-    "indisponibilidade_pct": 6.4602,
+    "mtbf_min": 133.3517,
+    "disponibilidade_pct": 93.697,
+    "indisponibilidade_pct": 6.303,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

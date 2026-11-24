@@ -1,6 +1,6 @@
 {
   "date": "2026-04-17",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -2377,145 +2377,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 1.3667,
-      "horas_disponiveis": 22.0,
-      "falhas": 9,
-      "por_turno": {
-        "1": {
-          "horas": 0.95,
-          "falhas": 7
-        },
-        "2": {
-          "horas": 0.1333,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.2833,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-04-17",
-          "inicio": "05:20",
-          "fim": "05:37",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.2833,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "",
-          "tag": "RB010",
-          "componente": "ROBO  DESEMPILHADOR DE BANDEJA "
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "07:02",
-          "fim": "07:05",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": "",
-          "tag": "RB012",
-          "componente": "ROBO  ENCAIXOTAMENTO VEGETAIS LADO DIREITO"
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "07:10",
-          "fim": "07:45",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.5833,
-          "motivo": "TROCA VENTOSA ROBÔ",
-          "obs": "",
-          "tag": "RB012",
-          "componente": "ROBO  ENCAIXOTAMENTO VEGETAIS LADO DIREITO"
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "09:03",
-          "fim": "09:06",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": "",
-          "tag": "RB011",
-          "componente": "ROBO  ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "09:20",
-          "fim": "09:24",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": "",
-          "tag": "RB010",
-          "componente": "ROBO  DESEMPILHADOR DE BANDEJA "
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "10:48",
-          "fim": "10:52",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": "",
-          "tag": "RB011",
-          "componente": "ROBO  ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "11:01",
-          "fim": "11:05",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": "",
-          "tag": "RB012",
-          "componente": "ROBO  ENCAIXOTAMENTO VEGETAIS LADO DIREITO"
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "12:33",
-          "fim": "12:37",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "",
-          "tag": "RB010",
-          "componente": "ROBO  DESEMPILHADOR DE BANDEJA "
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "23:18",
-          "fim": "23:26",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "",
-          "tag": "ROBOTICA03",
-          "componente": "FALTA DE GRELHA R1"
-        }
-      ]
-    },
-    {
       "name": "MESPACK C",
       "horas": 0.5167,
       "horas_disponiveis": 22.0,
@@ -2627,9 +2488,9 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 5.1833,
-      "2": 4.7667,
-      "3": 5.15
+      "1": 4.8167,
+      "2": 4.6333,
+      "3": 4.8667
     },
     "Elétrica": {
       "1": 0.4333,
@@ -2637,7 +2498,7 @@
       "3": 0.3
     },
     "Mecânica": {
-      "1": 2.2833,
+      "1": 1.7,
       "2": 3.3667,
       "3": 0.6833
     }
@@ -3893,16 +3754,16 @@
       "tag": "ROBOTICA03",
       "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
-      "falhas": 22,
-      "horas": 2.2167,
+      "falhas": 21,
+      "horas": 2.0833,
       "por_turno": {
         "1": {
           "horas": 0.5333,
           "falhas": 9
         },
         "2": {
-          "horas": 0.4667,
-          "falhas": 6
+          "horas": 0.3333,
+          "falhas": 5
         },
         "3": {
           "horas": 1.2167,
@@ -4121,17 +3982,6 @@
         },
         {
           "data": "2026-04-17",
-          "inicio": "23:18",
-          "fim": "23:26",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-17",
           "inicio": "23:23",
           "fim": "23:26",
           "turno": 2,
@@ -4150,95 +4000,6 @@
           "falhas": 1,
           "horas": 0.15,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "20507",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
-      "equipamento": "MESPACK B",
-      "falhas": 6,
-      "horas": 0.75,
-      "por_turno": {
-        "1": {
-          "horas": 0.2,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.3167,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.2333,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-04-17",
-          "inicio": "03:38",
-          "fim": "03:52",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2333,
-          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "07:59",
-          "fim": "08:04",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste na mesa "
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "08:27",
-          "fim": "08:30",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste no triângulo "
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "10:15",
-          "fim": "10:19",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste no triângulo "
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "15:32",
-          "fim": "15:48",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2667,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": "Ajuste nas pinça e Ajuste na mordaça de resfriamento "
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "16:36",
-          "fim": "16:39",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AJUSTE NAS PINÇAS",
           "obs": ""
         }
       ]
@@ -4333,6 +4094,95 @@
       ]
     },
     {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 6,
+      "horas": 0.75,
+      "por_turno": {
+        "1": {
+          "horas": 0.2,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.3167,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.2333,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-17",
+          "inicio": "03:38",
+          "fim": "03:52",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-17",
+          "inicio": "07:59",
+          "fim": "08:04",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste na mesa "
+        },
+        {
+          "data": "2026-04-17",
+          "inicio": "08:27",
+          "fim": "08:30",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no triângulo "
+        },
+        {
+          "data": "2026-04-17",
+          "inicio": "10:15",
+          "fim": "10:19",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no triângulo "
+        },
+        {
+          "data": "2026-04-17",
+          "inicio": "15:32",
+          "fim": "15:48",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "Ajuste nas pinça e Ajuste na mordaça de resfriamento "
+        },
+        {
+          "data": "2026-04-17",
+          "inicio": "16:36",
+          "fim": "16:39",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "31314",
       "componente": "CONJUNTO CARRO MOVEL MESPACK F",
       "equipamento": "MESPACK F",
@@ -4411,69 +4261,69 @@
       ]
     },
     {
-      "tag": "MP07",
-      "componente": "MESPACK F",
-      "equipamento": "MESPACK F",
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "equipamento": "MESPACK R1",
       "falhas": 4,
-      "horas": 0.5333,
+      "horas": 0.3333,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.2333,
-          "falhas": 2
+          "horas": 0.3333,
+          "falhas": 4
         },
         "3": {
-          "horas": 0.3,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 0
         }
       },
       "ocorrencias": [
         {
           "data": "2026-04-17",
-          "inicio": "01:49",
-          "fim": "01:58",
-          "turno": 3,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "falha no sensor das portas"
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "02:17",
-          "fim": "02:26",
-          "turno": 3,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "falha no sensor das portas "
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "17:41",
-          "fim": "17:47",
+          "inicio": "16:39",
+          "fim": "16:43",
           "turno": 2,
-          "departamento": "Elétrica",
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "falha no alarme da porta 07"
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
         },
         {
           "data": "2026-04-17",
-          "inicio": "19:10",
-          "fim": "19:18",
+          "inicio": "16:45",
+          "fim": "16:53",
           "turno": 2,
-          "departamento": "Elétrica",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "falha no alarme da porta 07"
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-17",
+          "inicio": "17:04",
+          "fim": "17:10",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-17",
+          "inicio": "20:12",
+          "fim": "20:14",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "TROCA DE VENTOSAS",
+          "obs": ""
         }
       ]
     },
@@ -4545,69 +4395,69 @@
       ]
     },
     {
-      "tag": "31194",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
-      "equipamento": "MESPACK R1",
+      "tag": "MP07",
+      "componente": "MESPACK F",
+      "equipamento": "MESPACK F",
       "falhas": 4,
-      "horas": 0.3333,
+      "horas": 0.5333,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.3333,
-          "falhas": 4
+          "horas": 0.2333,
+          "falhas": 2
         },
         "3": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.3,
+          "falhas": 2
         }
       },
       "ocorrencias": [
         {
           "data": "2026-04-17",
-          "inicio": "16:39",
-          "fim": "16:43",
-          "turno": 2,
-          "departamento": "Mecânica",
+          "inicio": "01:49",
+          "fim": "01:58",
+          "turno": 3,
+          "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "falha no sensor das portas"
         },
         {
           "data": "2026-04-17",
-          "inicio": "16:45",
-          "fim": "16:53",
-          "turno": 2,
-          "departamento": "Mecânica",
+          "inicio": "02:17",
+          "fim": "02:26",
+          "turno": 3,
+          "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "falha no sensor das portas "
         },
         {
           "data": "2026-04-17",
-          "inicio": "17:04",
-          "fim": "17:10",
+          "inicio": "17:41",
+          "fim": "17:47",
           "turno": 2,
-          "departamento": "Mecânica",
+          "departamento": "Elétrica",
           "falhas": 1,
           "horas": 0.1,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "falha no alarme da porta 07"
         },
         {
           "data": "2026-04-17",
-          "inicio": "20:12",
-          "fim": "20:14",
+          "inicio": "19:10",
+          "fim": "19:18",
           "turno": 2,
-          "departamento": "Mecânica",
+          "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "TROCA DE VENTOSAS",
-          "obs": ""
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "falha no alarme da porta 07"
         }
       ]
     },
@@ -4668,58 +4518,58 @@
       ]
     },
     {
-      "tag": "RB010",
-      "componente": "ROBO  DESEMPILHADOR DE BANDEJA ",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "equipamento": "MESPACK R2",
       "falhas": 3,
-      "horas": 0.4167,
+      "horas": 0.7167,
       "por_turno": {
         "1": {
-          "horas": 0.1333,
-          "falhas": 2
-        },
-        "2": {
           "horas": 0.0,
           "falhas": 0
         },
+        "2": {
+          "horas": 0.6667,
+          "falhas": 2
+        },
         "3": {
-          "horas": 0.2833,
+          "horas": 0.05,
           "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-04-17",
-          "inicio": "05:20",
-          "fim": "05:37",
+          "inicio": "00:56",
+          "fim": "00:59",
           "turno": 3,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.2833,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
           "obs": ""
         },
         {
           "data": "2026-04-17",
-          "inicio": "09:20",
-          "fim": "09:24",
-          "turno": 1,
-          "departamento": "Automação",
+          "inicio": "18:22",
+          "fim": "18:27",
+          "turno": 2,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
           "obs": ""
         },
         {
           "data": "2026-04-17",
-          "inicio": "12:33",
-          "fim": "12:37",
-          "turno": 1,
-          "departamento": "Automação",
+          "inicio": "18:50",
+          "fim": "19:25",
+          "turno": 2,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": ""
+          "horas": 0.5833,
+          "motivo": "AJUSTE CARRO MÓVEL",
+          "obs": "ajuste da embalagem,pinças e facas, ventosa "
         }
       ]
     }
@@ -5975,16 +5825,16 @@
       "tag": "ROBOTICA03",
       "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
-      "falhas": 22,
-      "horas": 2.2167,
+      "falhas": 21,
+      "horas": 2.0833,
       "por_turno": {
         "1": {
           "horas": 0.5333,
           "falhas": 9
         },
         "2": {
-          "horas": 0.4667,
-          "falhas": 6
+          "horas": 0.3333,
+          "falhas": 5
         },
         "3": {
           "horas": 1.2167,
@@ -6199,17 +6049,6 @@
           "falhas": 1,
           "horas": 0.05,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "23:18",
-          "fim": "23:26",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
           "obs": ""
         },
         {
@@ -6456,62 +6295,6 @@
           "horas": 0.5833,
           "motivo": "AJUSTE CARRO MÓVEL",
           "obs": "ajuste da embalagem,pinças e facas, ventosa "
-        }
-      ]
-    },
-    {
-      "tag": "RB012",
-      "componente": "ROBO  ENCAIXOTAMENTO VEGETAIS LADO DIREITO",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 3,
-      "horas": 0.7,
-      "por_turno": {
-        "1": {
-          "horas": 0.7,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-04-17",
-          "inicio": "07:02",
-          "fim": "07:05",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "07:10",
-          "fim": "07:45",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.5833,
-          "motivo": "TROCA VENTOSA ROBÔ",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "11:01",
-          "fim": "11:05",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": ""
         }
       ]
     },
@@ -6784,62 +6567,6 @@
       ]
     },
     {
-      "tag": "RB010",
-      "componente": "ROBO  DESEMPILHADOR DE BANDEJA ",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 3,
-      "horas": 0.4167,
-      "por_turno": {
-        "1": {
-          "horas": 0.1333,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.2833,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-04-17",
-          "inicio": "05:20",
-          "fim": "05:37",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.2833,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "09:20",
-          "fim": "09:24",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-17",
-          "inicio": "12:33",
-          "fim": "12:37",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "31194",
       "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
       "equipamento": "MESPACK R1",
@@ -6939,36 +6666,104 @@
           "obs": ""
         }
       ]
+    },
+    {
+      "tag": "31185",
+      "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 1,
+      "horas": 0.2833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-17",
+          "inicio": "21:27",
+          "fim": "21:44",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "obs": "troca da mola da mordaça inferior "
+        }
+      ]
+    },
+    {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.2667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-17",
+          "inicio": "14:45",
+          "fim": "15:01",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Troca de mola da mordaça vertical,Ajuste nas pinças e Ajuste na posição dos bicos"
+        }
+      ]
     }
   ],
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -6976,15 +6771,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 22.8833,
-      "disponibilidade_pct": 91.9988,
-      "indisponibilidade_pct": 8.0012
+      "horas_paradas": 21.5167,
+      "disponibilidade_pct": 92.4767,
+      "indisponibilidade_pct": 7.5233
     },
     "departamentos": {
       "Elétrica": {
@@ -6995,15 +6790,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 6.3333,
-        "disponibilidade_pct": 97.7855,
-        "indisponibilidade_pct": 2.2145
+        "horas_paradas": 5.75,
+        "disponibilidade_pct": 97.9895,
+        "indisponibilidade_pct": 2.0105
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 15.1,
-        "disponibilidade_pct": 82.8409,
-        "indisponibilidade_pct": 17.1591
+        "horas_paradas": 14.3167,
+        "disponibilidade_pct": 83.7311,
+        "indisponibilidade_pct": 16.2689
       }
     }
   },
@@ -7011,12 +6806,12 @@
     "mes": "abril",
     "ano": 2026,
     "ate": "2026-04-17",
-    "falhas": 1393,
-    "horas_paradas": 214.0242,
+    "falhas": 1346,
+    "horas_paradas": 202.1908,
     "horas_disponiveis": 3432.0,
-    "mtbf_min": 138.6063,
-    "disponibilidade_pct": 93.7639,
-    "indisponibilidade_pct": 6.2361,
+    "mtbf_min": 143.9737,
+    "disponibilidade_pct": 94.1087,
+    "indisponibilidade_pct": 5.8913,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

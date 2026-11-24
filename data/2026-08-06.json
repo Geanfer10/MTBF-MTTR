@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1732,93 +1732,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.95,
-      "horas_disponiveis": 22.0,
-      "falhas": 5,
-      "por_turno": {
-        "1": {
-          "horas": 0.95,
-          "falhas": 5
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-06",
-          "inicio": "07:30",
-          "fim": "08:00",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.5,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca de suporte da ventosa ",
-          "tag": "32239",
-          "componente": "VENTOSA ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
-        },
-        {
-          "data": "2026-08-06",
-          "inicio": "10:19",
-          "fim": "10:28",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "AGUARDANDO MECÂNICO",
-          "obs": "",
-          "tag": "MECANICA01",
-          "componente": "AGUARDANDO MECANICO"
-        },
-        {
-          "data": "2026-08-06",
-          "inicio": "10:29",
-          "fim": "10:38",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca de suporte da ventosa robô 1 ",
-          "tag": "31502",
-          "componente": "CONJUNTO DE SUPORTE VENTOSA ROBO MESPACK RETORT 01 COLETA DE SACHE"
-        },
-        {
-          "data": "2026-08-06",
-          "inicio": "13:02",
-          "fim": "13:09",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste mangueira de vácuo ",
-          "tag": "32260",
-          "componente": "SISTEMA DE MANGUEIRA DE AR COMPRIMIDO ROBO ENCAIXOTAMENTO VEGETAIS LADO DIREITO"
-        },
-        {
-          "data": "2026-08-06",
-          "inicio": "13:24",
-          "fim": "13:26",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": "",
-          "tag": "32082",
-          "componente": "PISTÃO PNEUMATICO ELEVADOR DE BANDEJA TF-BJ1-2"
-        }
-      ]
-    },
-    {
       "name": "MESPACK C",
       "horas": 0.6667,
       "horas_disponiveis": 22.0,
@@ -1895,7 +1808,7 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 3.55,
+      "1": 3.5167,
       "2": 1.5,
       "3": 1.3667
     },
@@ -1905,7 +1818,7 @@
       "3": 0.0
     },
     "Mecânica": {
-      "1": 2.75,
+      "1": 1.8333,
       "2": 6.4667,
       "3": 1.2833
     }
@@ -2963,19 +2876,19 @@
       ]
     },
     {
-      "tag": "20479",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A ",
-      "equipamento": "MESPACK A",
+      "tag": "20505",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK B ",
+      "equipamento": "MESPACK B",
       "falhas": 3,
-      "horas": 1.8667,
+      "horas": 0.6167,
       "por_turno": {
         "1": {
-          "horas": 1.8667,
-          "falhas": 3
+          "horas": 0.0667,
+          "falhas": 1
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.55,
+          "falhas": 2
         },
         "3": {
           "horas": 0.0,
@@ -2985,36 +2898,36 @@
       "ocorrencias": [
         {
           "data": "2026-08-06",
-          "inicio": "09:33",
-          "fim": "10:00",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.45,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "troca do PT sem é da restencia "
-        },
-        {
-          "data": "2026-08-06",
-          "inicio": "10:00",
-          "fim": "11:08",
+          "inicio": "10:28",
+          "fim": "10:32",
           "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 1.1333,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "quebra do parafuso da mordaça superior "
+          "horas": 0.0667,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": ""
         },
         {
           "data": "2026-08-06",
-          "inicio": "11:08",
-          "fim": "11:25",
-          "turno": 1,
-          "departamento": "Elétrica",
+          "inicio": "17:55",
+          "fim": "18:03",
+          "turno": 2,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.2833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "foi feito reaperto no plug "
+          "horas": 0.1333,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-06",
+          "inicio": "18:46",
+          "fim": "19:11",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da mola da pinça e ajuste no esticador "
         }
       ]
     },
@@ -3131,62 +3044,6 @@
       ]
     },
     {
-      "tag": "20505",
-      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK B ",
-      "equipamento": "MESPACK B",
-      "falhas": 3,
-      "horas": 0.6167,
-      "por_turno": {
-        "1": {
-          "horas": 0.0667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.55,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-06",
-          "inicio": "10:28",
-          "fim": "10:32",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE DO ESTICADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-06",
-          "inicio": "17:55",
-          "fim": "18:03",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "AJUSTE DO ESTICADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-06",
-          "inicio": "18:46",
-          "fim": "19:11",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.4167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca da mola da pinça e ajuste no esticador "
-        }
-      ]
-    },
-    {
       "tag": "31198",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
       "equipamento": "MESPACK R1",
@@ -3239,6 +3096,62 @@
           "horas": 0.1667,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "manutenção na abraçadeira da válvula "
+        }
+      ]
+    },
+    {
+      "tag": "20479",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A ",
+      "equipamento": "MESPACK A",
+      "falhas": 3,
+      "horas": 1.8667,
+      "por_turno": {
+        "1": {
+          "horas": 1.8667,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-06",
+          "inicio": "09:33",
+          "fim": "10:00",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.45,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "troca do PT sem é da restencia "
+        },
+        {
+          "data": "2026-08-06",
+          "inicio": "10:00",
+          "fim": "11:08",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.1333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "quebra do parafuso da mordaça superior "
+        },
+        {
+          "data": "2026-08-06",
+          "inicio": "11:08",
+          "fim": "11:25",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "foi feito reaperto no plug "
         }
       ]
     },
@@ -4622,40 +4535,6 @@
       ]
     },
     {
-      "tag": "32239",
-      "componente": "VENTOSA ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 1,
-      "horas": 0.5,
-      "por_turno": {
-        "1": {
-          "horas": 0.5,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-06",
-          "inicio": "07:30",
-          "fim": "08:00",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.5,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca de suporte da ventosa "
-        }
-      ]
-    },
-    {
       "tag": "31314",
       "componente": "CONJUNTO CARRO MOVEL MESPACK F",
       "equipamento": "MESPACK F",
@@ -4755,36 +4634,92 @@
           "obs": ""
         }
       ]
+    },
+    {
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 3,
+      "horas": 0.25,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-06",
+          "inicio": "09:13",
+          "fim": "09:16",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-06",
+          "inicio": "12:35",
+          "fim": "12:37",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-06",
+          "inicio": "17:05",
+          "fim": "17:15",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção na abraçadeira da válvula "
+        }
+      ]
     }
   ],
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -4792,15 +4727,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 20.4667,
-      "disponibilidade_pct": 92.8438,
-      "indisponibilidade_pct": 7.1562
+      "horas_paradas": 19.5167,
+      "disponibilidade_pct": 93.176,
+      "indisponibilidade_pct": 6.824
     },
     "departamentos": {
       "Elétrica": {
@@ -4811,15 +4746,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 10.5,
-        "disponibilidade_pct": 96.3287,
-        "indisponibilidade_pct": 3.6713
+        "horas_paradas": 9.5833,
+        "disponibilidade_pct": 96.6492,
+        "indisponibilidade_pct": 3.3508
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 6.4167,
-        "disponibilidade_pct": 92.7083,
-        "indisponibilidade_pct": 7.2917
+        "horas_paradas": 6.3833,
+        "disponibilidade_pct": 92.7462,
+        "indisponibilidade_pct": 7.2538
       }
     }
   },
@@ -4827,12 +4762,12 @@
     "mes": "agosto",
     "ano": 2026,
     "ate": "2026-08-06",
-    "falhas": 567,
-    "horas_paradas": 78.1792,
+    "falhas": 547,
+    "horas_paradas": 75.3625,
     "horas_disponiveis": 1430.0,
-    "mtbf_min": 143.0498,
-    "disponibilidade_pct": 94.5329,
-    "indisponibilidade_pct": 5.4671,
+    "mtbf_min": 148.5891,
+    "disponibilidade_pct": 94.7299,
+    "indisponibilidade_pct": 5.2701,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

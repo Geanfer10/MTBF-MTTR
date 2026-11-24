@@ -1,6 +1,6 @@
 {
   "date": "2026-07-28",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1800,72 +1800,11 @@
           "componente": "CABEÇOTE SUPERIOR CONDOR 2KG"
         }
       ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.1833,
-      "horas_disponiveis": 22.0,
-      "falhas": 3,
-      "por_turno": {
-        "1": {
-          "horas": 0.1833,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-28",
-          "inicio": "07:31",
-          "fim": "07:35",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "FEL01",
-          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
-        },
-        {
-          "data": "2026-07-28",
-          "inicio": "07:58",
-          "fim": "08:01",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": "",
-          "tag": "31905",
-          "componente": "PISTÃO DE TRAVAMENTO DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-9"
-        },
-        {
-          "data": "2026-07-28",
-          "inicio": "10:06",
-          "fim": "10:10",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "FEL01",
-          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
-        }
-      ]
     }
   ],
   "turnos": {
     "Automação": {
-      "1": 2.25,
+      "1": 2.0667,
       "2": 2.0333,
       "3": 2.2833
     },
@@ -2933,73 +2872,6 @@
       ]
     },
     {
-      "tag": "FEL01",
-      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 4,
-      "horas": 0.2333,
-      "por_turno": {
-        "1": {
-          "horas": 0.1333,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.1,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-28",
-          "inicio": "07:31",
-          "fim": "07:35",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-28",
-          "inicio": "10:06",
-          "fim": "10:10",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-28",
-          "inicio": "22:08",
-          "fim": "22:11",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-28",
-          "inicio": "22:11",
-          "fim": "22:14",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "31194",
       "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
       "equipamento": "MESPACK R1",
@@ -3168,51 +3040,6 @@
       ]
     },
     {
-      "tag": "TF-BJ4",
-      "componente": "TRANSFERIDO DE BANDEJA TF-BJ4",
-      "equipamento": "MESPACK R1",
-      "falhas": 2,
-      "horas": 0.0833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0833,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-28",
-          "inicio": "09:14",
-          "fim": "09:16",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-28",
-          "inicio": "09:16",
-          "fim": "09:19",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "31407",
       "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
       "equipamento": "MESPACK R2",
@@ -3253,6 +3080,96 @@
           "falhas": 1,
           "horas": 0.0667,
           "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 2,
+      "horas": 0.5667,
+      "por_turno": {
+        "1": {
+          "horas": 0.5667,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-28",
+          "inicio": "09:33",
+          "fim": "09:47",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Troca do pistão de entrada do apoiador do encaixotamento "
+        },
+        {
+          "data": "2026-07-28",
+          "inicio": "11:57",
+          "fim": "12:17",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do bico de pato 4"
+        }
+      ]
+    },
+    {
+      "tag": "FEL01",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 0.1,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-28",
+          "inicio": "22:08",
+          "fim": "22:11",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-07-28",
+          "inicio": "22:11",
+          "fim": "22:14",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
           "obs": ""
         }
       ]
@@ -4675,31 +4592,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -4707,15 +4624,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 16.8667,
-      "disponibilidade_pct": 94.1026,
-      "indisponibilidade_pct": 5.8974
+      "horas_paradas": 16.6833,
+      "disponibilidade_pct": 94.1667,
+      "indisponibilidade_pct": 5.8333
     },
     "departamentos": {
       "Elétrica": {
@@ -4732,9 +4649,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 6.5667,
-        "disponibilidade_pct": 92.5379,
-        "indisponibilidade_pct": 7.4621
+        "horas_paradas": 6.3833,
+        "disponibilidade_pct": 92.7462,
+        "indisponibilidade_pct": 7.2538
       }
     }
   },
@@ -4742,12 +4659,12 @@
     "mes": "julho",
     "ano": 2026,
     "ate": "2026-07-28",
-    "falhas": 3305,
-    "horas_paradas": 582.6665,
+    "falhas": 3232,
+    "horas_paradas": 563.7982,
     "horas_disponiveis": 6864.0,
-    "mtbf_min": 114.0333,
-    "disponibilidade_pct": 91.5113,
-    "indisponibilidade_pct": 8.4887,
+    "mtbf_min": 116.9592,
+    "disponibilidade_pct": 91.7862,
+    "indisponibilidade_pct": 8.2138,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

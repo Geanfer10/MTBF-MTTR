@@ -1,6 +1,6 @@
 {
   "date": "2026-07-16",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -2317,119 +2317,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.9311,
-      "horas_disponiveis": 22.0,
-      "falhas": 7,
-      "por_turno": {
-        "1": {
-          "horas": 0.25,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.6811,
-          "falhas": 4
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-16",
-          "inicio": "09:00",
-          "fim": "09:07",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": "",
-          "tag": "TP-BJ4-L2",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L2"
-        },
-        {
-          "data": "2026-07-16",
-          "inicio": "09:15",
-          "fim": "09:20",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AGUARDANDO ELETRICISTA",
-          "obs": "para troca de lote",
-          "tag": "ELETRICA01",
-          "componente": "AGUARDANDO ELETRICA"
-        },
-        {
-          "data": "2026-07-16",
-          "inicio": "14:23",
-          "fim": "14:26",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": "",
-          "tag": "TP-BJ4-L2",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L2"
-        },
-        {
-          "data": "2026-07-16",
-          "inicio": "15:00",
-          "fim": "15:10",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "pistão travado na curva do autoclave JPBJ9 ",
-          "tag": "31905",
-          "componente": "PISTÃO DE TRAVAMENTO DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-9"
-        },
-        {
-          "data": "2026-07-16",
-          "inicio": "15:33",
-          "fim": "15:44",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1863,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "pistão travado na curva do autoclave JPBJ9 ",
-          "tag": "31905",
-          "componente": "PISTÃO DE TRAVAMENTO DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-9"
-        },
-        {
-          "data": "2026-07-16",
-          "inicio": "17:10",
-          "fim": "17:20",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1782,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "pistão travado na curva do autoclave JPBJ9 ",
-          "tag": "31905",
-          "componente": "PISTÃO DE TRAVAMENTO DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-9"
-        },
-        {
-          "data": "2026-07-16",
-          "inicio": "21:33",
-          "fim": "21:42",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "pistão travado na curva do autoclave JPBJ9 ",
-          "tag": "31905",
-          "componente": "PISTÃO DE TRAVAMENTO DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-9"
-        }
-      ]
-    },
-    {
       "name": "60L2",
       "horas": 0.75,
       "horas_disponiveis": 22.0,
@@ -2628,12 +2515,12 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 3.4333,
-      "2": 2.3978,
+      "1": 3.2667,
+      "2": 1.7167,
       "3": 1.8833
     },
     "Elétrica": {
-      "1": 1.5667,
+      "1": 1.4833,
       "2": 4.0667,
       "3": 0.0833
     },
@@ -4017,73 +3904,6 @@
       ]
     },
     {
-      "tag": "31905",
-      "componente": "PISTÃO DE TRAVAMENTO DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-9",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 4,
-      "horas": 0.6811,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.6811,
-          "falhas": 4
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-16",
-          "inicio": "15:00",
-          "fim": "15:10",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "pistão travado na curva do autoclave JPBJ9 "
-        },
-        {
-          "data": "2026-07-16",
-          "inicio": "15:33",
-          "fim": "15:44",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1863,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "pistão travado na curva do autoclave JPBJ9 "
-        },
-        {
-          "data": "2026-07-16",
-          "inicio": "17:10",
-          "fim": "17:20",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1782,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "pistão travado na curva do autoclave JPBJ9 "
-        },
-        {
-          "data": "2026-07-16",
-          "inicio": "21:33",
-          "fim": "21:42",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "pistão travado na curva do autoclave JPBJ9 "
-        }
-      ]
-    },
-    {
       "tag": "20567",
       "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
       "equipamento": "MESPACK E",
@@ -4259,6 +4079,62 @@
           "horas": 0.05,
           "motivo": "AJUSTE DE FACA",
           "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "ink04",
+      "componente": "INKJET MESPACK D",
+      "equipamento": "MESPACK D",
+      "falhas": 3,
+      "horas": 1.3,
+      "por_turno": {
+        "1": {
+          "horas": 0.2,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 1.1,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-16",
+          "inicio": "13:25",
+          "fim": "13:37",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza do canhão do inkjet "
+        },
+        {
+          "data": "2026-07-16",
+          "inicio": "14:52",
+          "fim": "15:10",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.3,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza do canhão "
+        },
+        {
+          "data": "2026-07-16",
+          "inicio": "15:14",
+          "fim": "16:02",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.8,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza do canhão "
         }
       ]
     }
@@ -5884,62 +5760,6 @@
       ]
     },
     {
-      "tag": "ELETRICA01",
-      "componente": "AGUARDANDO ELETRICA",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 3,
-      "horas": 0.9,
-      "por_turno": {
-        "1": {
-          "horas": 0.0833,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.8167,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-16",
-          "inicio": "09:15",
-          "fim": "09:20",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AGUARDANDO ELETRICISTA",
-          "obs": "para troca de lote"
-        },
-        {
-          "data": "2026-07-16",
-          "inicio": "17:24",
-          "fim": "18:01",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.6167,
-          "motivo": "AGUARDANDO ELETRICISTA",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-16",
-          "inicio": "17:40",
-          "fim": "17:52",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2,
-          "motivo": "AGUARDANDO ELETRICISTA",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "20499",
       "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B ",
       "equipamento": "MESPACK B",
@@ -5983,36 +5803,81 @@
           "obs": "troca do Echo de rolamento da mordaça superior \"\n( no meio do processo foi mais demorado pq o mecânico teve que arrumar a mespack A )"
         }
       ]
+    },
+    {
+      "tag": "ELETRICA01",
+      "componente": "AGUARDANDO ELETRICA",
+      "equipamento": "MESPACK A",
+      "falhas": 2,
+      "horas": 0.8167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.8167,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-16",
+          "inicio": "17:24",
+          "fim": "18:01",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.6167,
+          "motivo": "AGUARDANDO ELETRICISTA",
+          "obs": ""
+        },
+        {
+          "data": "2026-07-16",
+          "inicio": "17:40",
+          "fim": "17:52",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "AGUARDANDO ELETRICISTA",
+          "obs": ""
+        }
+      ]
     }
   ],
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -6020,22 +5885,22 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 35.3644,
-      "disponibilidade_pct": 87.6348,
-      "indisponibilidade_pct": 12.3652
+      "horas_paradas": 34.4333,
+      "disponibilidade_pct": 87.9604,
+      "indisponibilidade_pct": 12.0396
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 5.7167,
-        "disponibilidade_pct": 98.0012,
-        "indisponibilidade_pct": 1.9988
+        "horas_paradas": 5.6333,
+        "disponibilidade_pct": 98.0303,
+        "indisponibilidade_pct": 1.9697
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
@@ -6045,9 +5910,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 7.7144,
-        "disponibilidade_pct": 91.2336,
-        "indisponibilidade_pct": 8.7664
+        "horas_paradas": 6.8667,
+        "disponibilidade_pct": 92.197,
+        "indisponibilidade_pct": 7.803
       }
     }
   },
@@ -6055,12 +5920,12 @@
     "mes": "julho",
     "ano": 2026,
     "ate": "2026-07-16",
-    "falhas": 1970,
-    "horas_paradas": 346.6082,
+    "falhas": 1933,
+    "horas_paradas": 339.4209,
     "horas_disponiveis": 4004.0,
-    "mtbf_min": 111.3926,
-    "disponibilidade_pct": 91.3435,
-    "indisponibilidade_pct": 8.6565,
+    "mtbf_min": 113.7479,
+    "disponibilidade_pct": 91.523,
+    "indisponibilidade_pct": 8.477,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

@@ -1,6 +1,6 @@
 {
   "date": "2026-04-10",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1789,13 +1789,13 @@
     },
     {
       "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.75,
+      "horas": 0.6333,
       "horas_disponiveis": 22.0,
-      "falhas": 3,
+      "falhas": 1,
       "por_turno": {
         "1": {
-          "horas": 0.1167,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 0
         },
         "2": {
           "horas": 0.6333,
@@ -1807,32 +1807,6 @@
         }
       },
       "ocorrencias": [
-        {
-          "data": "2026-04-10",
-          "inicio": "07:19",
-          "fim": "07:21",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "ROBOTICA03",
-          "componente": "FALTA DE GRELHA R1"
-        },
-        {
-          "data": "2026-04-10",
-          "inicio": "09:40",
-          "fim": "09:45",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca de mola da faca da seladora de caixa ",
-          "tag": "ROBOTICA03",
-          "componente": "FALTA DE GRELHA R1"
-        },
         {
           "data": "2026-04-10",
           "inicio": "16:00",
@@ -1851,7 +1825,7 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 2.2333,
+      "1": 2.2,
       "2": 3.5667,
       "3": 3.1833
     },
@@ -1861,7 +1835,7 @@
       "3": 0.0
     },
     "Mecânica": {
-      "1": 2.9,
+      "1": 2.8167,
       "2": 1.5,
       "3": 0.55
     }
@@ -3041,12 +3015,12 @@
       "tag": "ROBOTICA03",
       "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
-      "falhas": 10,
-      "horas": 0.7667,
+      "falhas": 8,
+      "horas": 0.65,
       "por_turno": {
         "1": {
-          "horas": 0.3167,
-          "falhas": 5
+          "horas": 0.2,
+          "falhas": 3
         },
         "2": {
           "horas": 0.2333,
@@ -3093,17 +3067,6 @@
         },
         {
           "data": "2026-04-10",
-          "inicio": "07:19",
-          "fim": "07:21",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-10",
           "inicio": "09:09",
           "fim": "09:11",
           "turno": 1,
@@ -3123,17 +3086,6 @@
           "horas": 0.1167,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": ""
-        },
-        {
-          "data": "2026-04-10",
-          "inicio": "09:40",
-          "fim": "09:45",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca de mola da faca da seladora de caixa "
         },
         {
           "data": "2026-04-10",
@@ -4896,12 +4848,12 @@
       "tag": "ROBOTICA03",
       "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
-      "falhas": 10,
-      "horas": 0.7667,
+      "falhas": 8,
+      "horas": 0.65,
       "por_turno": {
         "1": {
-          "horas": 0.3167,
-          "falhas": 5
+          "horas": 0.2,
+          "falhas": 3
         },
         "2": {
           "horas": 0.2333,
@@ -4948,17 +4900,6 @@
         },
         {
           "data": "2026-04-10",
-          "inicio": "07:19",
-          "fim": "07:21",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-10",
           "inicio": "09:09",
           "fim": "09:11",
           "turno": 1,
@@ -4978,17 +4919,6 @@
           "horas": 0.1167,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": ""
-        },
-        {
-          "data": "2026-04-10",
-          "inicio": "09:40",
-          "fim": "09:45",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca de mola da faca da seladora de caixa "
         },
         {
           "data": "2026-04-10",
@@ -5255,31 +5185,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -5287,15 +5217,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 17.0833,
-      "disponibilidade_pct": 94.0268,
-      "indisponibilidade_pct": 5.9732
+      "horas_paradas": 16.9667,
+      "disponibilidade_pct": 94.0676,
+      "indisponibilidade_pct": 5.9324
     },
     "departamentos": {
       "Elétrica": {
@@ -5306,15 +5236,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 4.95,
-        "disponibilidade_pct": 98.2692,
-        "indisponibilidade_pct": 1.7308
+        "horas_paradas": 4.8667,
+        "disponibilidade_pct": 98.2984,
+        "indisponibilidade_pct": 1.7016
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 8.9833,
-        "disponibilidade_pct": 89.7917,
-        "indisponibilidade_pct": 10.2083
+        "horas_paradas": 8.95,
+        "disponibilidade_pct": 89.8295,
+        "indisponibilidade_pct": 10.1705
       }
     }
   },
@@ -5322,12 +5252,12 @@
     "mes": "abril",
     "ano": 2026,
     "ate": "2026-04-10",
-    "falhas": 640,
-    "horas_paradas": 100.3408,
+    "falhas": 614,
+    "horas_paradas": 92.2242,
     "horas_disponiveis": 2002.0,
-    "mtbf_min": 178.2805,
-    "disponibilidade_pct": 94.988,
-    "indisponibilidade_pct": 5.012,
+    "mtbf_min": 186.623,
+    "disponibilidade_pct": 95.3934,
+    "indisponibilidade_pct": 4.6066,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

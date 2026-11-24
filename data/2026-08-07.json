@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -2014,145 +2014,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 1.0333,
-      "horas_disponiveis": 22.0,
-      "falhas": 9,
-      "por_turno": {
-        "1": {
-          "horas": 0.25,
-          "falhas": 5
-        },
-        "2": {
-          "horas": 0.7833,
-          "falhas": 4
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-07",
-          "inicio": "07:40",
-          "fim": "07:44",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": "",
-          "tag": "TP-BJ4-L2",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L2"
-        },
-        {
-          "data": "2026-08-07",
-          "inicio": "08:01",
-          "fim": "08:04",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "",
-          "tag": "ETH",
-          "componente": "ERRO DE ETHERCAT"
-        },
-        {
-          "data": "2026-08-07",
-          "inicio": "11:01",
-          "fim": "11:04",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "",
-          "tag": "ETH",
-          "componente": "ERRO DE ETHERCAT"
-        },
-        {
-          "data": "2026-08-07",
-          "inicio": "12:18",
-          "fim": "12:21",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "",
-          "tag": "ETH",
-          "componente": "ERRO DE ETHERCAT"
-        },
-        {
-          "data": "2026-08-07",
-          "inicio": "12:24",
-          "fim": "12:26",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "",
-          "tag": "ETH",
-          "componente": "ERRO DE ETHERCAT"
-        },
-        {
-          "data": "2026-08-07",
-          "inicio": "16:00",
-          "fim": "16:15",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.25,
-          "motivo": "TROCA DE VENTOSAS",
-          "obs": "",
-          "tag": "32239",
-          "componente": "VENTOSA ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
-        },
-        {
-          "data": "2026-08-07",
-          "inicio": "16:50",
-          "fim": "17:13",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3833,
-          "motivo": "TROCA DE VENTOSAS",
-          "obs": "",
-          "tag": "32239",
-          "componente": "VENTOSA ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
-        },
-        {
-          "data": "2026-08-07",
-          "inicio": "21:26",
-          "fim": "21:30",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "FEL01",
-          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
-        },
-        {
-          "data": "2026-08-07",
-          "inicio": "22:01",
-          "fim": "22:06",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": "",
-          "tag": "TP-BJ4-L2",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L2"
-        }
-      ]
-    },
-    {
       "name": "ENCHEDEIRA TOP DOWN",
       "horas": 0.6167,
       "horas_disponiveis": 22.0,
@@ -2203,8 +2064,8 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 2.9167,
-      "2": 2.75,
+      "1": 2.6667,
+      "2": 2.6,
       "3": 4.25
     },
     "Elétrica": {
@@ -2214,7 +2075,7 @@
     },
     "Mecânica": {
       "1": 2.7,
-      "2": 3.6,
+      "2": 2.9667,
       "3": 4.3167
     }
   },
@@ -3425,68 +3286,68 @@
       ]
     },
     {
-      "tag": "ETH",
-      "componente": "ERRO DE ETHERCAT",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "equipamento": "MESPACK R1",
       "falhas": 4,
-      "horas": 0.1833,
+      "horas": 0.3667,
       "por_turno": {
         "1": {
-          "horas": 0.1833,
-          "falhas": 4
+          "horas": 0.0333,
+          "falhas": 1
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.0667,
+          "falhas": 1
         },
         "3": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.2667,
+          "falhas": 2
         }
       },
       "ocorrencias": [
         {
           "data": "2026-08-07",
-          "inicio": "08:01",
-          "fim": "08:04",
-          "turno": 1,
-          "departamento": "Automação",
+          "inicio": "03:57",
+          "fim": "04:10",
+          "turno": 3,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": ""
+          "horas": 0.2167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do pino do bico dosador dois da salmoura "
         },
         {
           "data": "2026-08-07",
-          "inicio": "11:01",
-          "fim": "11:04",
+          "inicio": "10:00",
+          "fim": "10:02",
           "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-07",
-          "inicio": "12:18",
-          "fim": "12:21",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-07",
-          "inicio": "12:24",
-          "fim": "12:26",
-          "turno": 1,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0333,
-          "motivo": "ERRO DE ETHERCAT",
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-07",
+          "inicio": "22:04",
+          "fim": "22:08",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza no sensor da enchedeira "
+        },
+        {
+          "data": "2026-08-07",
+          "inicio": "22:53",
+          "fim": "22:56",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
           "obs": ""
         }
       ]
@@ -3559,73 +3420,6 @@
       ]
     },
     {
-      "tag": "31198",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
-      "equipamento": "MESPACK R1",
-      "falhas": 4,
-      "horas": 0.3667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0333,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0667,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.2667,
-          "falhas": 2
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-07",
-          "inicio": "03:57",
-          "fim": "04:10",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca do pino do bico dosador dois da salmoura "
-        },
-        {
-          "data": "2026-08-07",
-          "inicio": "10:00",
-          "fim": "10:02",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "BICO DOSADOR ENTUPIDO",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-07",
-          "inicio": "22:04",
-          "fim": "22:08",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "limpeza no sensor da enchedeira "
-        },
-        {
-          "data": "2026-08-07",
-          "inicio": "22:53",
-          "fim": "22:56",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AJUSTE NO BICO DE DOSAGEM",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "31314",
       "componente": "CONJUNTO CARRO MOVEL MESPACK F",
       "equipamento": "MESPACK F",
@@ -3682,58 +3476,58 @@
       ]
     },
     {
-      "tag": "20512",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
-      "equipamento": "MESPACK B",
+      "tag": "20564",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK E ",
+      "equipamento": "MESPACK E",
       "falhas": 3,
-      "horas": 1.6333,
+      "horas": 0.4833,
       "por_turno": {
         "1": {
-          "horas": 0.25,
+          "horas": 0.2333,
           "falhas": 1
         },
         "2": {
-          "horas": 1.3833,
-          "falhas": 2
-        },
-        "3": {
           "horas": 0.0,
           "falhas": 0
+        },
+        "3": {
+          "horas": 0.25,
+          "falhas": 2
         }
       },
       "ocorrencias": [
         {
           "data": "2026-08-07",
-          "inicio": "07:45",
-          "fim": "08:00",
+          "inicio": "02:53",
+          "fim": "02:57",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "TROCA DE VENTOSAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-07",
+          "inicio": "03:04",
+          "fim": "03:15",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-07",
+          "inicio": "08:36",
+          "fim": "08:50",
           "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.25,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": "ajuste na mesa, ajuste no guia, ajuste no bico 2"
-        },
-        {
-          "data": "2026-08-07",
-          "inicio": "14:46",
-          "fim": "16:00",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 1.2333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste no peso (peso baixo ) limpeza da eletroválvula ,  drenagem dos bicos "
-        },
-        {
-          "data": "2026-08-07",
-          "inicio": "16:23",
-          "fim": "16:32",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "regulador de fluxo do bico 03"
+          "horas": 0.2333,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
         }
       ]
     },
@@ -3790,6 +3584,62 @@
           "horas": 0.4167,
           "motivo": "AGUARDANDO ELETRICISTA",
           "obs": "em acompanhamento mespack A e B "
+        }
+      ]
+    },
+    {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "equipamento": "MESPACK B",
+      "falhas": 3,
+      "horas": 1.6333,
+      "por_turno": {
+        "1": {
+          "horas": 0.25,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 1.3833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-07",
+          "inicio": "07:45",
+          "fim": "08:00",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "ajuste na mesa, ajuste no guia, ajuste no bico 2"
+        },
+        {
+          "data": "2026-08-07",
+          "inicio": "14:46",
+          "fim": "16:00",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 1.2333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no peso (peso baixo ) limpeza da eletroválvula ,  drenagem dos bicos "
+        },
+        {
+          "data": "2026-08-07",
+          "inicio": "16:23",
+          "fim": "16:32",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "regulador de fluxo do bico 03"
         }
       ]
     }
@@ -5237,51 +5087,6 @@
       ]
     },
     {
-      "tag": "32239",
-      "componente": "VENTOSA ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 2,
-      "horas": 0.6333,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.6333,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-07",
-          "inicio": "16:00",
-          "fim": "16:15",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.25,
-          "motivo": "TROCA DE VENTOSAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-07",
-          "inicio": "16:50",
-          "fim": "17:13",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3833,
-          "motivo": "TROCA DE VENTOSAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "20367",
       "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
       "equipamento": "ENCHEDEIRA TOP DOWN",
@@ -5426,36 +5231,103 @@
           "obs": "troca da mola do esticador "
         }
       ]
+    },
+    {
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 4,
+      "horas": 0.3667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.2667,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-07",
+          "inicio": "03:57",
+          "fim": "04:10",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do pino do bico dosador dois da salmoura "
+        },
+        {
+          "data": "2026-08-07",
+          "inicio": "10:00",
+          "fim": "10:02",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-07",
+          "inicio": "22:04",
+          "fim": "22:08",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza no sensor da enchedeira "
+        },
+        {
+          "data": "2026-08-07",
+          "inicio": "22:53",
+          "fim": "22:56",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": ""
+        }
+      ]
     }
   ],
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -5463,15 +5335,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 24.2493,
-      "disponibilidade_pct": 91.5212,
-      "indisponibilidade_pct": 8.4788
+      "horas_paradas": 23.216,
+      "disponibilidade_pct": 91.8825,
+      "indisponibilidade_pct": 8.1175
     },
     "departamentos": {
       "Elétrica": {
@@ -5482,15 +5354,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 10.6167,
-        "disponibilidade_pct": 96.2879,
-        "indisponibilidade_pct": 3.7121
+        "horas_paradas": 9.9833,
+        "disponibilidade_pct": 96.5093,
+        "indisponibilidade_pct": 3.4907
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 9.9167,
-        "disponibilidade_pct": 88.7311,
-        "indisponibilidade_pct": 11.2689
+        "horas_paradas": 9.5167,
+        "disponibilidade_pct": 89.1856,
+        "indisponibilidade_pct": 10.8144
       }
     }
   },
@@ -5498,12 +5370,12 @@
     "mes": "agosto",
     "ano": 2026,
     "ate": "2026-08-07",
-    "falhas": 719,
-    "horas_paradas": 102.4285,
+    "falhas": 690,
+    "horas_paradas": 98.5785,
     "horas_disponiveis": 1716.0,
-    "mtbf_min": 134.6513,
-    "disponibilidade_pct": 94.031,
-    "indisponibilidade_pct": 5.969,
+    "mtbf_min": 140.6453,
+    "disponibilidade_pct": 94.2553,
+    "indisponibilidade_pct": 5.7447,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

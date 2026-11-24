@@ -1,6 +1,6 @@
 {
   "date": "2026-04-15",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1741,106 +1741,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.7333,
-      "horas_disponiveis": 22.0,
-      "falhas": 6,
-      "por_turno": {
-        "1": {
-          "horas": 0.5333,
-          "falhas": 4
-        },
-        "2": {
-          "horas": 0.2,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-04-15",
-          "inicio": "09:21",
-          "fim": "09:24",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": "",
-          "tag": "ROBOTICA03",
-          "componente": "FALTA DE GRELHA R1"
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "11:32",
-          "fim": "11:35",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "ROBOTICA03",
-          "componente": "FALTA DE GRELHA R1"
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "13:32",
-          "fim": "13:37",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": "",
-          "tag": "ROBOTICA03",
-          "componente": "FALTA DE GRELHA R1"
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "13:44",
-          "fim": "14:05",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.35,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "troca de sensor do transferidor 4 ",
-          "tag": "ROBOTICA03",
-          "componente": "FALTA DE GRELHA R1"
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "15:15",
-          "fim": "15:21",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": "",
-          "tag": "ROBOTICA03",
-          "componente": "FALTA DE GRELHA R1"
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "19:59",
-          "fim": "20:05",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "PISTÃO TRAVADO ROBÔ",
-          "obs": "",
-          "tag": "ROBOTICA03",
-          "componente": "FALTA DE GRELHA R1"
-        }
-      ]
-    },
-    {
       "name": "60L1",
       "horas": 0.5333,
       "horas_disponiveis": 22.0,
@@ -1952,13 +1852,13 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 2.3833,
-      "2": 2.2333,
+      "1": 2.2,
+      "2": 2.1333,
       "3": 1.3667
     },
     "Elétrica": {
-      "1": 0.5333,
-      "2": 0.1,
+      "1": 0.1833,
+      "2": 0.0,
       "3": 1.7667
     },
     "Mecânica": {
@@ -2444,205 +2344,6 @@
       ]
     },
     {
-      "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA R1",
-      "equipamento": "MESPACK R1",
-      "falhas": 16,
-      "horas": 1.6333,
-      "por_turno": {
-        "1": {
-          "horas": 1.1333,
-          "falhas": 10
-        },
-        "2": {
-          "horas": 0.4667,
-          "falhas": 5
-        },
-        "3": {
-          "horas": 0.0333,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-04-15",
-          "inicio": "00:02",
-          "fim": "00:04",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "07:15",
-          "fim": "07:23",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "07:26",
-          "fim": "07:35",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "08:25",
-          "fim": "08:28",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "09:21",
-          "fim": "09:24",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "09:51",
-          "fim": "09:52",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0167,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "11:08",
-          "fim": "11:10",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "REFAZEAMENTO DO LAGARTO",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "11:32",
-          "fim": "11:35",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "13:32",
-          "fim": "13:37",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "13:44",
-          "fim": "14:05",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.35,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "troca de sensor do transferidor 4 "
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "13:53",
-          "fim": "14:06",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.2167,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "15:13",
-          "fim": "15:16",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "15:15",
-          "fim": "15:21",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "17:29",
-          "fim": "17:35",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "19:59",
-          "fim": "20:05",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "PISTÃO TRAVADO ROBÔ",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "21:18",
-          "fim": "21:25",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "ROBOTICA02",
       "componente": "ESTEIRÃO PARADO MESPACK F",
       "equipamento": "MESPACK F",
@@ -2793,6 +2494,139 @@
           "falhas": 1,
           "horas": 0.0333,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 10,
+      "horas": 0.9,
+      "por_turno": {
+        "1": {
+          "horas": 0.6,
+          "falhas": 6
+        },
+        "2": {
+          "horas": 0.2667,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0333,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-15",
+          "inicio": "00:02",
+          "fim": "00:04",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-15",
+          "inicio": "07:15",
+          "fim": "07:23",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-15",
+          "inicio": "07:26",
+          "fim": "07:35",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-15",
+          "inicio": "08:25",
+          "fim": "08:28",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-15",
+          "inicio": "09:51",
+          "fim": "09:52",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0167,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-15",
+          "inicio": "11:08",
+          "fim": "11:10",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "REFAZEAMENTO DO LAGARTO",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-15",
+          "inicio": "13:53",
+          "fim": "14:06",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-15",
+          "inicio": "15:13",
+          "fim": "15:16",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-15",
+          "inicio": "17:29",
+          "fim": "17:35",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-15",
+          "inicio": "21:18",
+          "fim": "21:25",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": ""
         }
       ]
@@ -3735,205 +3569,6 @@
       ]
     },
     {
-      "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA R1",
-      "equipamento": "MESPACK R1",
-      "falhas": 16,
-      "horas": 1.6333,
-      "por_turno": {
-        "1": {
-          "horas": 1.1333,
-          "falhas": 10
-        },
-        "2": {
-          "horas": 0.4667,
-          "falhas": 5
-        },
-        "3": {
-          "horas": 0.0333,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-04-15",
-          "inicio": "00:02",
-          "fim": "00:04",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "07:15",
-          "fim": "07:23",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "07:26",
-          "fim": "07:35",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "08:25",
-          "fim": "08:28",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "09:21",
-          "fim": "09:24",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "09:51",
-          "fim": "09:52",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0167,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "11:08",
-          "fim": "11:10",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "REFAZEAMENTO DO LAGARTO",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "11:32",
-          "fim": "11:35",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "13:32",
-          "fim": "13:37",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "13:44",
-          "fim": "14:05",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.35,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "troca de sensor do transferidor 4 "
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "13:53",
-          "fim": "14:06",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.2167,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "15:13",
-          "fim": "15:16",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "15:15",
-          "fim": "15:21",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "17:29",
-          "fim": "17:35",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "19:59",
-          "fim": "20:05",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "PISTÃO TRAVADO ROBÔ",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-15",
-          "inicio": "21:18",
-          "fim": "21:25",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "ROBOTICA01",
       "componente": "ESTEIRÃO PARADO MESPACK E",
       "equipamento": "MESPACK E",
@@ -4261,6 +3896,139 @@
           "falhas": 1,
           "horas": 0.15,
           "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 10,
+      "horas": 0.9,
+      "por_turno": {
+        "1": {
+          "horas": 0.6,
+          "falhas": 6
+        },
+        "2": {
+          "horas": 0.2667,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0333,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-15",
+          "inicio": "00:02",
+          "fim": "00:04",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-15",
+          "inicio": "07:15",
+          "fim": "07:23",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-15",
+          "inicio": "07:26",
+          "fim": "07:35",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-15",
+          "inicio": "08:25",
+          "fim": "08:28",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-15",
+          "inicio": "09:51",
+          "fim": "09:52",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0167,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-15",
+          "inicio": "11:08",
+          "fim": "11:10",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "REFAZEAMENTO DO LAGARTO",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-15",
+          "inicio": "13:53",
+          "fim": "14:06",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-15",
+          "inicio": "15:13",
+          "fim": "15:16",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-15",
+          "inicio": "17:29",
+          "fim": "17:35",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-15",
+          "inicio": "21:18",
+          "fim": "21:25",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": ""
         }
       ]
@@ -4839,31 +4607,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -4871,22 +4639,22 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 19.15,
-      "disponibilidade_pct": 93.3042,
-      "indisponibilidade_pct": 6.6958
+      "horas_paradas": 18.4167,
+      "disponibilidade_pct": 93.5606,
+      "indisponibilidade_pct": 6.4394
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 2.4,
-        "disponibilidade_pct": 99.1608,
-        "indisponibilidade_pct": 0.8392
+        "horas_paradas": 1.95,
+        "disponibilidade_pct": 99.3182,
+        "indisponibilidade_pct": 0.6818
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
@@ -4896,9 +4664,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 5.9833,
-        "disponibilidade_pct": 93.2008,
-        "indisponibilidade_pct": 6.7992
+        "horas_paradas": 5.7,
+        "disponibilidade_pct": 93.5227,
+        "indisponibilidade_pct": 6.4773
       }
     }
   },
@@ -4906,12 +4674,12 @@
     "mes": "abril",
     "ano": 2026,
     "ate": "2026-04-15",
-    "falhas": 1047,
-    "horas_paradas": 164.6075,
+    "falhas": 1011,
+    "horas_paradas": 155.4908,
     "horas_disponiveis": 2860.0,
-    "mtbf_min": 154.4638,
-    "disponibilidade_pct": 94.2445,
-    "indisponibilidade_pct": 5.7555,
+    "mtbf_min": 160.505,
+    "disponibilidade_pct": 94.5633,
+    "indisponibilidade_pct": 5.4367,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

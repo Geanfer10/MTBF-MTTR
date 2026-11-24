@@ -1,6 +1,6 @@
 {
   "date": "2026-06-19",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1064,54 +1064,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.25,
-      "horas_disponiveis": 22.0,
-      "falhas": 2,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.25,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-19",
-          "inicio": "16:33",
-          "fim": "16:40",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "bandejas travada na curva do autoclave JPBJ9 ",
-          "tag": "TF-BJ4",
-          "componente": "TRANSFERIDO DE BANDEJA TF-BJ4"
-        },
-        {
-          "data": "2026-06-19",
-          "inicio": "20:00",
-          "fim": "20:08",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "corrente desarmou robô 2 ",
-          "tag": "TP-BJ4-L2",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L2"
-        }
-      ]
-    },
-    {
       "name": "ENCHEDEIRA COPO/LATA",
       "horas": 0.2,
       "horas_disponiveis": 22.0,
@@ -1312,12 +1264,12 @@
     },
     "Elétrica": {
       "1": 0.0,
-      "2": 0.8667,
+      "2": 0.7333,
       "3": 0.0
     },
     "Mecânica": {
       "1": 1.1667,
-      "2": 1.7667,
+      "2": 1.65,
       "3": 0.0
     }
   },
@@ -2110,51 +2062,6 @@
       ]
     },
     {
-      "tag": "RB09",
-      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
-      "equipamento": "MESPACK R2",
-      "falhas": 2,
-      "horas": 0.15,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.15,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-19",
-          "inicio": "16:14",
-          "fim": "16:20",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "ROBO EMPILHADOR EM FALHA",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-19",
-          "inicio": "17:14",
-          "fim": "17:17",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ROBO EMPILHADOR EM FALHA",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "30463",
       "componente": "CABEÇOTE SUPERIOR 60L2",
       "equipamento": "60l2",
@@ -2196,6 +2103,51 @@
           "horas": 0.1167,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "polimento da placa do cabeçote 6"
+        }
+      ]
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "equipamento": "MESPACK R2",
+      "falhas": 2,
+      "horas": 0.15,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.15,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-19",
+          "inicio": "16:14",
+          "fim": "16:20",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-19",
+          "inicio": "17:14",
+          "fim": "17:17",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": ""
         }
       ]
     },
@@ -2245,18 +2197,18 @@
       ]
     },
     {
-      "tag": "20476",
-      "componente": "CONJUNTO DESBOBINADOR MESPACK A ",
-      "equipamento": "MESPACK A",
+      "tag": "20553",
+      "componente": "PAINEL OPERACIONAL MESPACK D",
+      "equipamento": "MESPACK D",
       "falhas": 1,
-      "horas": 0.0833,
+      "horas": 0.15,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.0833,
+          "horas": 0.15,
           "falhas": 1
         },
         "3": {
@@ -2267,14 +2219,14 @@
       "ocorrencias": [
         {
           "data": "2026-06-19",
-          "inicio": "15:00",
-          "fim": "15:05",
+          "inicio": "15:52",
+          "fim": "16:01",
           "turno": 2,
-          "departamento": "Mecânica",
+          "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "alinhamento do perfurador fora da posição "
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "alarme "
         }
       ]
     },
@@ -2313,14 +2265,14 @@
       ]
     },
     {
-      "tag": "30777",
-      "componente": "CABEÇOTE SUPERIOR MOCOCA M3",
-      "equipamento": "ENCHEDEIRA COPO/LATA",
+      "tag": "20527",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
+      "equipamento": "MESPACK C",
       "falhas": 1,
-      "horas": 0.0833,
+      "horas": 0.05,
       "por_turno": {
         "1": {
-          "horas": 0.0833,
+          "horas": 0.05,
           "falhas": 1
         },
         "2": {
@@ -2335,14 +2287,14 @@
       "ocorrencias": [
         {
           "data": "2026-06-19",
-          "inicio": "09:03",
-          "fim": "09:08",
+          "inicio": "08:33",
+          "fim": "08:36",
           "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0833,
+          "horas": 0.05,
           "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento de placa .laminação "
+          "obs": "ajuste no guia "
         }
       ]
     }
@@ -3328,40 +3280,6 @@
       ]
     },
     {
-      "tag": "20553",
-      "componente": "PAINEL OPERACIONAL MESPACK D",
-      "equipamento": "MESPACK D",
-      "falhas": 1,
-      "horas": 0.15,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.15,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-19",
-          "inicio": "15:52",
-          "fim": "16:01",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "alarme "
-        }
-      ]
-    },
-    {
       "tag": "RB09",
       "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
       "equipamento": "MESPACK R2",
@@ -3407,6 +3325,40 @@
       ]
     },
     {
+      "tag": "20553",
+      "componente": "PAINEL OPERACIONAL MESPACK D",
+      "equipamento": "MESPACK D",
+      "falhas": 1,
+      "horas": 0.15,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.15,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-19",
+          "inicio": "15:52",
+          "fim": "16:01",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "alarme "
+        }
+      ]
+    },
+    {
       "tag": "20540",
       "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK D ",
       "equipamento": "MESPACK D",
@@ -3441,19 +3393,19 @@
       ]
     },
     {
-      "tag": "TP-BJ4-L2",
-      "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L2",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "equipamento": "MESPACK R1",
       "falhas": 1,
       "horas": 0.1333,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
           "horas": 0.1333,
           "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,
@@ -3463,14 +3415,14 @@
       "ocorrencias": [
         {
           "data": "2026-06-19",
-          "inicio": "20:00",
-          "fim": "20:08",
-          "turno": 2,
-          "departamento": "Elétrica",
+          "inicio": "09:18",
+          "fim": "09:26",
+          "turno": 1,
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "corrente desarmou robô 2 "
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
         }
       ]
     }
@@ -3478,31 +3430,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -3510,28 +3462,28 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 9.573,
-      "disponibilidade_pct": 96.6528,
-      "indisponibilidade_pct": 3.3472
+      "horas_paradas": 9.323,
+      "disponibilidade_pct": 96.7402,
+      "indisponibilidade_pct": 3.2598
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 0.8667,
-        "disponibilidade_pct": 99.697,
-        "indisponibilidade_pct": 0.303
+        "horas_paradas": 0.7333,
+        "disponibilidade_pct": 99.7436,
+        "indisponibilidade_pct": 0.2564
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 2.9333,
-        "disponibilidade_pct": 98.9744,
-        "indisponibilidade_pct": 1.0256
+        "horas_paradas": 2.8167,
+        "disponibilidade_pct": 99.0152,
+        "indisponibilidade_pct": 0.9848
       },
       "Automação": {
         "horas_disponiveis": 88.0,
@@ -3545,12 +3497,12 @@
     "mes": "junho",
     "ano": 2026,
     "ate": "2026-06-19",
-    "falhas": 2064,
-    "horas_paradas": 376.9553,
+    "falhas": 1981,
+    "horas_paradas": 359.5771,
     "horas_disponiveis": 4862.0,
-    "mtbf_min": 130.3792,
-    "disponibilidade_pct": 92.2469,
-    "indisponibilidade_pct": 7.7531,
+    "mtbf_min": 136.3682,
+    "disponibilidade_pct": 92.6043,
+    "indisponibilidade_pct": 7.3957,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

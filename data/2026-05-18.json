@@ -1,6 +1,6 @@
 {
   "date": "2026-05-18",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -2096,80 +2096,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.8833,
-      "horas_disponiveis": 22.0,
-      "falhas": 4,
-      "por_turno": {
-        "1": {
-          "horas": 0.4,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.4833,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-18",
-          "inicio": "13:00",
-          "fim": "13:20",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3333,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "solda da base do sensor",
-          "tag": "32041",
-          "componente": "SISTEMA DE SENSORES ESTEIRA TRANSPORTE CADENA TP-BJ2-L2"
-        },
-        {
-          "data": "2026-05-18",
-          "inicio": "13:41",
-          "fim": "13:45",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "falha tpbj 8",
-          "tag": "TP-BJ8",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ-8"
-        },
-        {
-          "data": "2026-05-18",
-          "inicio": "18:28",
-          "fim": "18:39",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "robô 1 parado problema no sensor e no guia",
-          "tag": "RB012",
-          "componente": "ROBO  ENCAIXOTAMENTO VEGETAIS LADO DIREITO"
-        },
-        {
-          "data": "2026-05-18",
-          "inicio": "19:45",
-          "fim": "20:03",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.3,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "robô 1 parado problema no sensor e no guia ",
-          "tag": "RB012",
-          "componente": "ROBO  ENCAIXOTAMENTO VEGETAIS LADO DIREITO"
-        }
-      ]
-    },
-    {
       "name": "MESPACK D",
       "horas": 0.4833,
       "horas_disponiveis": 22.0,
@@ -2299,12 +2225,12 @@
       "3": 1.6833
     },
     "Elétrica": {
-      "1": 1.1553,
-      "2": 1.0167,
+      "1": 1.0886,
+      "2": 0.5333,
       "3": 0.1833
     },
     "Mecânica": {
-      "1": 8.4167,
+      "1": 8.0833,
       "2": 7.6167,
       "3": 2.0833
     }
@@ -3539,84 +3465,6 @@
       ]
     },
     {
-      "tag": "20567",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
-      "equipamento": "MESPACK E",
-      "falhas": 5,
-      "horas": 0.8667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.8667,
-          "falhas": 5
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-18",
-          "inicio": "15:51",
-          "fim": "16:00",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-05-18",
-          "inicio": "17:19",
-          "fim": "17:25",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-05-18",
-          "inicio": "17:40",
-          "fim": "17:45",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-05-18",
-          "inicio": "18:44",
-          "fim": "19:10",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.4333,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-05-18",
-          "inicio": "19:20",
-          "fim": "19:26",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "31198",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
       "equipamento": "MESPACK R1",
@@ -3690,6 +3538,84 @@
           "falhas": 1,
           "horas": 0.05,
           "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 5,
+      "horas": 0.8667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.8667,
+          "falhas": 5
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-05-18",
+          "inicio": "15:51",
+          "fim": "16:00",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-18",
+          "inicio": "17:19",
+          "fim": "17:25",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-18",
+          "inicio": "17:40",
+          "fim": "17:45",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-18",
+          "inicio": "18:44",
+          "fim": "19:10",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4333,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-18",
+          "inicio": "19:20",
+          "fim": "19:26",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NAS PINÇAS",
           "obs": ""
         }
       ]
@@ -5452,18 +5378,18 @@
       ]
     },
     {
-      "tag": "RB012",
-      "componente": "ROBO  ENCAIXOTAMENTO VEGETAIS LADO DIREITO",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 2,
-      "horas": 0.4833,
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 4,
+      "horas": 0.4167,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.1,
+          "falhas": 2
         },
         "2": {
-          "horas": 0.4833,
+          "horas": 0.3167,
           "falhas": 2
         },
         "3": {
@@ -5474,25 +5400,47 @@
       "ocorrencias": [
         {
           "data": "2026-05-18",
-          "inicio": "18:28",
-          "fim": "18:39",
-          "turno": 2,
-          "departamento": "Elétrica",
+          "inicio": "09:49",
+          "fim": "09:52",
+          "turno": 1,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "robô 1 parado problema no sensor e no guia"
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no pegador de embalagem "
         },
         {
           "data": "2026-05-18",
-          "inicio": "19:45",
-          "fim": "20:03",
-          "turno": 2,
-          "departamento": "Elétrica",
+          "inicio": "09:56",
+          "fim": "09:59",
+          "turno": 1,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.3,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "robô 1 parado problema no sensor e no guia "
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no pegador de embalagem "
+        },
+        {
+          "data": "2026-05-18",
+          "inicio": "16:04",
+          "fim": "16:11",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-18",
+          "inicio": "21:12",
+          "fim": "21:24",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
         }
       ]
     }
@@ -5500,31 +5448,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -5532,28 +5480,28 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 29.6053,
-      "disponibilidade_pct": 89.6485,
-      "indisponibilidade_pct": 10.3515
+      "horas_paradas": 28.7219,
+      "disponibilidade_pct": 89.9574,
+      "indisponibilidade_pct": 10.0426
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 2.3553,
-        "disponibilidade_pct": 99.1765,
-        "indisponibilidade_pct": 0.8235
+        "horas_paradas": 1.8053,
+        "disponibilidade_pct": 99.3688,
+        "indisponibilidade_pct": 0.6312
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 18.1167,
-        "disponibilidade_pct": 93.6655,
-        "indisponibilidade_pct": 6.3345
+        "horas_paradas": 17.7833,
+        "disponibilidade_pct": 93.7821,
+        "indisponibilidade_pct": 6.2179
       },
       "Automação": {
         "horas_disponiveis": 88.0,
@@ -5567,12 +5515,12 @@
     "mes": "maio",
     "ano": 2026,
     "ate": "2026-05-18",
-    "falhas": 1677,
-    "horas_paradas": 304.9458,
+    "falhas": 1632,
+    "horas_paradas": 295.4825,
     "horas_disponiveis": 3718.0,
-    "mtbf_min": 122.1129,
-    "disponibilidade_pct": 91.7981,
-    "indisponibilidade_pct": 8.2019,
+    "mtbf_min": 125.8278,
+    "disponibilidade_pct": 92.0526,
+    "indisponibilidade_pct": 7.9474,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

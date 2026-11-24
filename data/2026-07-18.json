@@ -1,6 +1,6 @@
 {
   "date": "2026-07-18",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -981,80 +981,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 3.6833,
-      "horas_disponiveis": 22.0,
-      "falhas": 4,
-      "por_turno": {
-        "1": {
-          "horas": 0.3833,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 3.3,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-18",
-          "inicio": "13:03",
-          "fim": "13:26",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.3833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "sensor da seladoura de caixas em falha",
-          "tag": "32032",
-          "componente": "SISTEMA DE SENSORES ESTEIRA TRANSPORTE CADENA TP-BJ3-L2"
-        },
-        {
-          "data": "2026-07-18",
-          "inicio": "15:06",
-          "fim": "15:27",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.35,
-          "motivo": "AJUSTE DE VENTOSAS",
-          "obs": "Robô 2 ventosa Quebrada.",
-          "tag": "32238",
-          "componente": "CONJUNTO DE SUPORTE VENTOSA ROBO ENCAIXOTAMENTO VEGETAIS LADO ESQUERDO"
-        },
-        {
-          "data": "2026-07-18",
-          "inicio": "19:00",
-          "fim": "19:17",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.2833,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "mais+ manutenção no pistão de freio ",
-          "tag": "31905",
-          "componente": "PISTÃO DE TRAVAMENTO DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-9"
-        },
-        {
-          "data": "2026-07-18",
-          "inicio": "20:15",
-          "fim": "22:55",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 2.6667,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "mais+ passando bandejas vazias ",
-          "tag": "ETH",
-          "componente": "ERRO DE ETHERCAT"
-        }
-      ]
-    },
-    {
       "name": "MESPACK D",
       "horas": 1.6667,
       "horas_disponiveis": 22.0,
@@ -1658,17 +1584,17 @@
   "turnos": {
     "Automação": {
       "1": 2.4833,
-      "2": 6.4833,
+      "2": 3.5333,
       "3": 0.1667
     },
     "Elétrica": {
-      "1": 0.8,
+      "1": 0.4167,
       "2": 0.4667,
       "3": 0.1667
     },
     "Mecânica": {
       "1": 6.1,
-      "2": 7.4167,
+      "2": 7.0667,
       "3": 2.4833
     }
   },
@@ -2695,58 +2621,114 @@
       ]
     },
     {
-      "tag": "MECANICA01",
-      "componente": "AGUARDANDO MECANICO",
-      "equipamento": "MESPACK C",
+      "tag": "20547",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "equipamento": "MESPACK D",
       "falhas": 3,
-      "horas": 0.2833,
+      "horas": 0.4,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.1667,
+          "falhas": 2
         },
         "2": {
           "horas": 0.2333,
-          "falhas": 2
+          "falhas": 1
         },
         "3": {
-          "horas": 0.05,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         }
       },
       "ocorrencias": [
         {
           "data": "2026-07-18",
-          "inicio": "01:17",
-          "fim": "01:20",
-          "turno": 3,
+          "inicio": "10:32",
+          "fim": "10:37",
+          "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AGUARDANDO MECÂNICO",
+          "horas": 0.0833,
+          "motivo": "AJUSTE CARRO MÓVEL",
           "obs": ""
         },
         {
           "data": "2026-07-18",
-          "inicio": "14:45",
-          "fim": "14:50",
+          "inicio": "11:52",
+          "fim": "11:57",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE CARRO MÓVEL",
+          "obs": ""
+        },
+        {
+          "data": "2026-07-18",
+          "inicio": "20:29",
+          "fim": "20:43",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "carro móvel fora do ponto, ajuste de pinça,pressão do carro móvel "
+        }
+      ]
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 3,
+      "horas": 0.2667,
+      "por_turno": {
+        "1": {
+          "horas": 0.05,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.2167,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-18",
+          "inicio": "07:38",
+          "fim": "07:41",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-07-18",
+          "inicio": "22:03",
+          "fim": "22:08",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0833,
-          "motivo": "AGUARDANDO MECÂNICO",
+          "motivo": "AJUSTE NAS PINÇAS",
           "obs": ""
         },
         {
           "data": "2026-07-18",
-          "inicio": "20:03",
-          "fim": "20:12",
+          "inicio": "22:13",
+          "fim": "22:21",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.15,
-          "motivo": "AGUARDANDO MECÂNICO",
-          "obs": ""
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no guia embalagem "
         }
       ]
     },
@@ -2803,62 +2785,6 @@
           "horas": 0.1,
           "motivo": "OUTROS MOTIVOS ",
           "obs": "limpeza na esteira do empurrador "
-        }
-      ]
-    },
-    {
-      "tag": "20547",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
-      "equipamento": "MESPACK D",
-      "falhas": 3,
-      "horas": 0.4,
-      "por_turno": {
-        "1": {
-          "horas": 0.1667,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.2333,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-18",
-          "inicio": "10:32",
-          "fim": "10:37",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE CARRO MÓVEL",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-18",
-          "inicio": "11:52",
-          "fim": "11:57",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE CARRO MÓVEL",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-18",
-          "inicio": "20:29",
-          "fim": "20:43",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2333,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "carro móvel fora do ponto, ajuste de pinça,pressão do carro móvel "
         }
       ]
     }
@@ -2972,40 +2898,6 @@
           "horas": 0.65,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "manutenção na encheideira falha no bico 4"
-        }
-      ]
-    },
-    {
-      "tag": "ETH",
-      "componente": "ERRO DE ETHERCAT",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 1,
-      "horas": 2.6667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 2.6667,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-18",
-          "inicio": "20:15",
-          "fim": "22:55",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 2.6667,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "mais+ passando bandejas vazias "
         }
       ]
     },
@@ -4056,36 +3948,92 @@
       ]
     },
     {
-      "tag": "32032",
-      "componente": "SISTEMA DE SENSORES ESTEIRA TRANSPORTE CADENA TP-BJ3-L2",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
+      "tag": "20523",
+      "componente": "CONJUNTO DE FACAS MESPACK C ",
+      "equipamento": "MESPACK C",
       "falhas": 1,
-      "horas": 0.3833,
+      "horas": 0.2833,
       "por_turno": {
         "1": {
-          "horas": 0.3833,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "2": {
           "horas": 0.0,
           "falhas": 0
         },
         "3": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.2833,
+          "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-07-18",
-          "inicio": "13:03",
-          "fim": "13:26",
-          "turno": 1,
-          "departamento": "Elétrica",
+          "inicio": "01:20",
+          "fim": "01:37",
+          "turno": 3,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.3833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "sensor da seladoura de caixas em falha"
+          "horas": 0.2833,
+          "motivo": "AJUSTE DE FACA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "equipamento": "MESPACK C",
+      "falhas": 3,
+      "horas": 0.2833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2333,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.05,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-18",
+          "inicio": "01:17",
+          "fim": "01:20",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        },
+        {
+          "data": "2026-07-18",
+          "inicio": "14:45",
+          "fim": "14:50",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        },
+        {
+          "data": "2026-07-18",
+          "inicio": "20:03",
+          "fim": "20:12",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
         }
       ]
     }
@@ -4093,31 +4041,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -4125,34 +4073,34 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 26.5667,
-      "disponibilidade_pct": 90.711,
-      "indisponibilidade_pct": 9.289
+      "horas_paradas": 22.8833,
+      "disponibilidade_pct": 91.9988,
+      "indisponibilidade_pct": 8.0012
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 1.4333,
-        "disponibilidade_pct": 99.4988,
-        "indisponibilidade_pct": 0.5012
+        "horas_paradas": 1.05,
+        "disponibilidade_pct": 99.6329,
+        "indisponibilidade_pct": 0.3671
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 16.0,
-        "disponibilidade_pct": 94.4056,
-        "indisponibilidade_pct": 5.5944
+        "horas_paradas": 15.65,
+        "disponibilidade_pct": 94.528,
+        "indisponibilidade_pct": 5.472
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 9.1333,
-        "disponibilidade_pct": 89.6212,
-        "indisponibilidade_pct": 10.3788
+        "horas_paradas": 6.1833,
+        "disponibilidade_pct": 92.9735,
+        "indisponibilidade_pct": 7.0265
       }
     }
   },
@@ -4160,12 +4108,12 @@
     "mes": "julho",
     "ano": 2026,
     "ate": "2026-07-18",
-    "falhas": 2214,
-    "horas_paradas": 401.1032,
+    "falhas": 2171,
+    "horas_paradas": 389.9516,
     "horas_disponiveis": 4576.0,
-    "mtbf_min": 113.1408,
-    "disponibilidade_pct": 91.2346,
-    "indisponibilidade_pct": 8.7654,
+    "mtbf_min": 115.69,
+    "disponibilidade_pct": 91.4783,
+    "indisponibilidade_pct": 8.5217,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

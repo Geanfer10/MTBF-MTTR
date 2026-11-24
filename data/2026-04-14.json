@@ -1,6 +1,6 @@
 {
   "date": "2026-04-14",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1704,72 +1704,11 @@
           "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK D "
         }
       ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.1667,
-      "horas_disponiveis": 22.0,
-      "falhas": 3,
-      "por_turno": {
-        "1": {
-          "horas": 0.1667,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-04-14",
-          "inicio": "06:50",
-          "fim": "06:53",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "ROBOTICA03",
-          "componente": "FALTA DE GRELHA R1"
-        },
-        {
-          "data": "2026-04-14",
-          "inicio": "08:20",
-          "fim": "08:23",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "ROBOTICA03",
-          "componente": "FALTA DE GRELHA R1"
-        },
-        {
-          "data": "2026-04-14",
-          "inicio": "08:28",
-          "fim": "08:32",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "ROBOTICA03",
-          "componente": "FALTA DE GRELHA R1"
-        }
-      ]
     }
   ],
   "turnos": {
     "Automação": {
-      "1": 1.5,
+      "1": 1.3333,
       "2": 2.2833,
       "3": 3.6667
     },
@@ -2813,117 +2752,6 @@
       ]
     },
     {
-      "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA R1",
-      "equipamento": "MESPACK R1",
-      "falhas": 8,
-      "horas": 0.9333,
-      "por_turno": {
-        "1": {
-          "horas": 0.1667,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.7667,
-          "falhas": 5
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-04-14",
-          "inicio": "01:30",
-          "fim": "01:49",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.3167,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": "troca de sensor "
-        },
-        {
-          "data": "2026-04-14",
-          "inicio": "02:05",
-          "fim": "02:11",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-14",
-          "inicio": "03:05",
-          "fim": "03:10",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-14",
-          "inicio": "03:50",
-          "fim": "03:56",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-14",
-          "inicio": "06:50",
-          "fim": "06:53",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-14",
-          "inicio": "08:20",
-          "fim": "08:23",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-14",
-          "inicio": "08:28",
-          "fim": "08:32",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-14",
-          "inicio": "23:43",
-          "fim": "23:53",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "30433",
       "componente": "CABEÇOTE SUPERIOR 60L1",
       "equipamento": "60L1",
@@ -3009,6 +2837,84 @@
           "horas": 0.0333,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "polimento da placa cabeçote 3 "
+        }
+      ]
+    },
+    {
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 5,
+      "horas": 0.7667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.7667,
+          "falhas": 5
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-04-14",
+          "inicio": "01:30",
+          "fim": "01:49",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.3167,
+          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
+          "obs": "troca de sensor "
+        },
+        {
+          "data": "2026-04-14",
+          "inicio": "02:05",
+          "fim": "02:11",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-14",
+          "inicio": "03:05",
+          "fim": "03:10",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-14",
+          "inicio": "03:50",
+          "fim": "03:56",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-04-14",
+          "inicio": "23:43",
+          "fim": "23:53",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
         }
       ]
     },
@@ -4437,12 +4343,12 @@
       "tag": "ROBOTICA03",
       "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
-      "falhas": 8,
-      "horas": 0.9333,
+      "falhas": 5,
+      "horas": 0.7667,
       "por_turno": {
         "1": {
-          "horas": 0.1667,
-          "falhas": 3
+          "horas": 0.0,
+          "falhas": 0
         },
         "2": {
           "horas": 0.0,
@@ -4496,39 +4402,6 @@
           "falhas": 1,
           "horas": 0.1,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-14",
-          "inicio": "06:50",
-          "fim": "06:53",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-14",
-          "inicio": "08:20",
-          "fim": "08:23",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-04-14",
-          "inicio": "08:28",
-          "fim": "08:32",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
           "obs": ""
         },
         {
@@ -4931,31 +4804,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -4963,15 +4836,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 14.2833,
-      "disponibilidade_pct": 95.0058,
-      "indisponibilidade_pct": 4.9942
+      "horas_paradas": 14.1167,
+      "disponibilidade_pct": 95.0641,
+      "indisponibilidade_pct": 4.9359
     },
     "departamentos": {
       "Elétrica": {
@@ -4988,9 +4861,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 7.45,
-        "disponibilidade_pct": 91.5341,
-        "indisponibilidade_pct": 8.4659
+        "horas_paradas": 7.2833,
+        "disponibilidade_pct": 91.7235,
+        "indisponibilidade_pct": 8.2765
       }
     }
   },
@@ -4998,12 +4871,12 @@
     "mes": "abril",
     "ano": 2026,
     "ate": "2026-04-14",
-    "falhas": 916,
-    "horas_paradas": 145.4575,
+    "falhas": 886,
+    "horas_paradas": 137.0742,
     "horas_disponiveis": 2574.0,
-    "mtbf_min": 159.0748,
-    "disponibilidade_pct": 94.349,
-    "indisponibilidade_pct": 5.651,
+    "mtbf_min": 165.0288,
+    "disponibilidade_pct": 94.6747,
+    "indisponibilidade_pct": 5.3253,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1766,106 +1766,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 2.85,
-      "horas_disponiveis": 22.0,
-      "falhas": 6,
-      "por_turno": {
-        "1": {
-          "horas": 2.85,
-          "falhas": 6
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-09-28",
-          "inicio": "08:39",
-          "fim": "10:55",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 2.2667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "troca da bomba de vácuo ",
-          "tag": "32261",
-          "componente": "BOMBA DE VACUO ROBO ENCAIXOTAMENTO VEGETAIS LADO DIREITO"
-        },
-        {
-          "data": "2026-09-28",
-          "inicio": "10:05",
-          "fim": "10:16",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "",
-          "tag": "ETH",
-          "componente": "ERRO DE ETHERCAT"
-        },
-        {
-          "data": "2026-09-28",
-          "inicio": "10:33",
-          "fim": "10:39",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "",
-          "tag": "ETH",
-          "componente": "ERRO DE ETHERCAT"
-        },
-        {
-          "data": "2026-09-28",
-          "inicio": "10:40",
-          "fim": "10:43",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "",
-          "tag": "ETH",
-          "componente": "ERRO DE ETHERCAT"
-        },
-        {
-          "data": "2026-09-28",
-          "inicio": "11:47",
-          "fim": "11:50",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "",
-          "tag": "ETH",
-          "componente": "ERRO DE ETHERCAT"
-        },
-        {
-          "data": "2026-09-28",
-          "inicio": "14:05",
-          "fim": "14:17",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.2,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": "",
-          "tag": "ETH",
-          "componente": "ERRO DE ETHERCAT"
-        }
-      ]
-    },
-    {
       "name": "MESPACK R1",
       "horas": 1.9667,
       "horas_disponiveis": 22.0,
@@ -2183,6 +2083,41 @@
       ]
     },
     {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 0.2,
+      "horas_disponiveis": 22.0,
+      "falhas": 1,
+      "por_turno": {
+        "1": {
+          "horas": 0.2,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-28",
+          "inicio": "14:05",
+          "fim": "14:17",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "",
+          "tag": "ETH",
+          "componente": "ERRO DE ETHERCAT"
+        }
+      ]
+    },
+    {
       "name": "ENCHEDEIRA TOP DOWN",
       "horas": 0.0833,
       "horas_disponiveis": 22.0,
@@ -2220,12 +2155,12 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 3.6167,
+      "1": 3.2333,
       "2": 2.9333,
       "3": 1.45
     },
     "Elétrica": {
-      "1": 4.6333,
+      "1": 2.3667,
       "2": 0.7667,
       "3": 1.7667
     },
@@ -3266,84 +3201,6 @@
       ]
     },
     {
-      "tag": "ETH",
-      "componente": "ERRO DE ETHERCAT",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 5,
-      "horas": 0.5833,
-      "por_turno": {
-        "1": {
-          "horas": 0.5833,
-          "falhas": 5
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-09-28",
-          "inicio": "10:05",
-          "fim": "10:16",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-28",
-          "inicio": "10:33",
-          "fim": "10:39",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-28",
-          "inicio": "10:40",
-          "fim": "10:43",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-28",
-          "inicio": "11:47",
-          "fim": "11:50",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-28",
-          "inicio": "14:05",
-          "fim": "14:17",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.2,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "RB09",
       "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
       "equipamento": "MESPACK R2",
@@ -3418,6 +3275,73 @@
           "horas": 0.05,
           "motivo": "ROBO EMPILHADOR EM FALHA",
           "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 4,
+      "horas": 0.4667,
+      "por_turno": {
+        "1": {
+          "horas": 0.3667,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.1,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-28",
+          "inicio": "12:47",
+          "fim": "12:50",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-28",
+          "inicio": "14:26",
+          "fim": "14:45",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.3167,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-28",
+          "inicio": "15:18",
+          "fim": "15:20",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-28",
+          "inicio": "17:25",
+          "fim": "17:29",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "correção da posição das embalagens "
         }
       ]
     },
@@ -3556,73 +3480,6 @@
       ]
     },
     {
-      "tag": "31407",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 4,
-      "horas": 0.4667,
-      "por_turno": {
-        "1": {
-          "horas": 0.3667,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.1,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-09-28",
-          "inicio": "12:47",
-          "fim": "12:50",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-28",
-          "inicio": "14:26",
-          "fim": "14:45",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.3167,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-28",
-          "inicio": "15:18",
-          "fim": "15:20",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-28",
-          "inicio": "17:25",
-          "fim": "17:29",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "correção da posição das embalagens "
-        }
-      ]
-    },
-    {
       "tag": "20512",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
       "equipamento": "MESPACK B",
@@ -3675,6 +3532,62 @@
           "horas": 0.0833,
           "motivo": "AJUSTE NO BICO DE DOSAGEM",
           "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20499",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 3,
+      "horas": 0.5167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.15,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.3667,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-28",
+          "inicio": "02:15",
+          "fim": "02:19",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-28",
+          "inicio": "02:23",
+          "fim": "02:41",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "obs": "selagem e resfriamento "
+        },
+        {
+          "data": "2026-09-28",
+          "inicio": "17:02",
+          "fim": "17:11",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "folga dos parafusos do braço de movimento do eixo das mordaças superior "
         }
       ]
     }
@@ -4064,40 +3977,6 @@
           "horas": 0.1167,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "32261",
-      "componente": "BOMBA DE VACUO ROBO ENCAIXOTAMENTO VEGETAIS LADO DIREITO",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 1,
-      "horas": 2.2667,
-      "por_turno": {
-        "1": {
-          "horas": 2.2667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-09-28",
-          "inicio": "08:39",
-          "fim": "10:55",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 2.2667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "troca da bomba de vácuo "
         }
       ]
     },
@@ -4959,84 +4838,6 @@
       ]
     },
     {
-      "tag": "ETH",
-      "componente": "ERRO DE ETHERCAT",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 5,
-      "horas": 0.5833,
-      "por_turno": {
-        "1": {
-          "horas": 0.5833,
-          "falhas": 5
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-09-28",
-          "inicio": "10:05",
-          "fim": "10:16",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-28",
-          "inicio": "10:33",
-          "fim": "10:39",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-28",
-          "inicio": "10:40",
-          "fim": "10:43",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-28",
-          "inicio": "11:47",
-          "fim": "11:50",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-28",
-          "inicio": "14:05",
-          "fim": "14:17",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.2,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "31305",
       "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK F",
       "equipamento": "MESPACK F",
@@ -5069,36 +4870,148 @@
           "obs": ""
         }
       ]
+    },
+    {
+      "tag": "31396",
+      "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 3,
+      "horas": 0.5333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.5333,
+          "falhas": 3
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-28",
+          "inicio": "00:39",
+          "fim": "00:43",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NA MORDAÇA VERTICAL",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-28",
+          "inicio": "23:07",
+          "fim": "23:16",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "AJUSTE NA MORDAÇA VERTICAL",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-28",
+          "inicio": "23:45",
+          "fim": "00:04",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3167,
+          "motivo": "AJUSTE NA MORDAÇA VERTICAL",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20499",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 3,
+      "horas": 0.5167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.15,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.3667,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-28",
+          "inicio": "02:15",
+          "fim": "02:19",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-28",
+          "inicio": "02:23",
+          "fim": "02:41",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "obs": "selagem e resfriamento "
+        },
+        {
+          "data": "2026-09-28",
+          "inicio": "17:02",
+          "fim": "17:11",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "folga dos parafusos do braço de movimento do eixo das mordaças superior "
+        }
+      ]
     }
   ],
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -5106,22 +5019,22 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 41.6667,
-      "disponibilidade_pct": 85.4312,
-      "indisponibilidade_pct": 14.5688
+      "horas_paradas": 39.0167,
+      "disponibilidade_pct": 86.3578,
+      "indisponibilidade_pct": 13.6422
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 7.1667,
-        "disponibilidade_pct": 97.4942,
-        "indisponibilidade_pct": 2.5058
+        "horas_paradas": 4.9,
+        "disponibilidade_pct": 98.2867,
+        "indisponibilidade_pct": 1.7133
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
@@ -5131,9 +5044,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 8.0,
-        "disponibilidade_pct": 90.9091,
-        "indisponibilidade_pct": 9.0909
+        "horas_paradas": 7.6167,
+        "disponibilidade_pct": 91.3447,
+        "indisponibilidade_pct": 8.6553
       }
     }
   },
@@ -5141,12 +5054,12 @@
     "mes": "setembro",
     "ano": 2026,
     "ate": "2026-09-28",
-    "falhas": 3440,
-    "horas_paradas": 546.1008,
+    "falhas": 3431,
+    "horas_paradas": 543.0841,
     "horas_disponiveis": 7722.0,
-    "mtbf_min": 125.161,
-    "disponibilidade_pct": 92.928,
-    "indisponibilidade_pct": 7.072,
+    "mtbf_min": 125.5421,
+    "disponibilidade_pct": 92.9671,
+    "indisponibilidade_pct": 7.0329,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

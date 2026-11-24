@@ -1,6 +1,6 @@
 {
   "date": "2026-06-27",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1571,119 +1571,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.8833,
-      "horas_disponiveis": 22.0,
-      "falhas": 7,
-      "por_turno": {
-        "1": {
-          "horas": 0.3,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.5833,
-          "falhas": 4
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-27",
-          "inicio": "07:50",
-          "fim": "07:55",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": "",
-          "tag": "ROBOTICA03",
-          "componente": "FALTA DE GRELHA R1"
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "08:26",
-          "fim": "08:36",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "",
-          "tag": "ETH",
-          "componente": "ERRO DE ETHERCAT"
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "10:37",
-          "fim": "10:40",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "ROBOTICA03",
-          "componente": "FALTA DE GRELHA R1"
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "18:05",
-          "fim": "18:20",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.25,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": "sensor fora da posição , robô desempenhador ",
-          "tag": "31929",
-          "componente": "SISTEMA DE SENSORES ELEVADOR DE BANDEJA TF-BJ-3"
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "19:35",
-          "fim": "19:38",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": "falha no robô empilhador ",
-          "tag": "RB09",
-          "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS"
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "20:00",
-          "fim": "20:12",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "falha no sensor do robô desempenhador ",
-          "tag": "31929",
-          "componente": "SISTEMA DE SENSORES ELEVADOR DE BANDEJA TF-BJ-3"
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "20:27",
-          "fim": "20:32",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "falha no sensor do robô desempenhador ",
-          "tag": "31929",
-          "componente": "SISTEMA DE SENSORES ELEVADOR DE BANDEJA TF-BJ-3"
-        }
-      ]
-    },
-    {
       "name": "MESPACK A",
       "horas": 0.3667,
       "horas_disponiveis": 22.0,
@@ -1808,13 +1695,13 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 4.0,
-      "2": 4.6833,
+      "1": 3.7,
+      "2": 4.3833,
       "3": 0.1833
     },
     "Elétrica": {
       "1": 0.1333,
-      "2": 0.4,
+      "2": 0.1167,
       "3": 0.0
     },
     "Mecânica": {
@@ -2126,12 +2013,12 @@
       "tag": "ROBOTICA03",
       "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
-      "falhas": 20,
-      "horas": 1.8167,
+      "falhas": 18,
+      "horas": 1.6833,
       "por_turno": {
         "1": {
-          "horas": 0.7833,
-          "falhas": 11
+          "horas": 0.65,
+          "falhas": 9
         },
         "2": {
           "horas": 0.9,
@@ -2151,17 +2038,6 @@
           "departamento": "Automação",
           "falhas": 1,
           "horas": 0.1333,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "07:50",
-          "fim": "07:55",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
           "obs": ""
         },
@@ -2196,17 +2072,6 @@
           "falhas": 1,
           "horas": 0.0667,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "10:37",
-          "fim": "10:40",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
           "obs": ""
         },
         {
@@ -2831,95 +2696,6 @@
       ]
     },
     {
-      "tag": "30787",
-      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
-      "equipamento": "CONDOR",
-      "falhas": 6,
-      "horas": 2.7833,
-      "por_turno": {
-        "1": {
-          "horas": 2.3667,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.4167,
-          "falhas": 4
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-27",
-          "inicio": "07:26",
-          "fim": "09:28",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 2.0333,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste na recravadeira "
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "10:15",
-          "fim": "10:35",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3333,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento na placa do cabeçote 1 e ajuste na recravadeira "
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "15:17",
-          "fim": "15:23",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "recravadeira ( tampa presa)"
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "15:45",
-          "fim": "15:52",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "tampa presa"
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "17:38",
-          "fim": "17:43",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "tampa presa "
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "18:28",
-          "fim": "18:35",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "31314",
       "componente": "CONJUNTO CARRO MOVEL MESPACK F",
       "equipamento": "MESPACK F",
@@ -3009,19 +2785,19 @@
       ]
     },
     {
-      "tag": "31929",
-      "componente": "SISTEMA DE SENSORES ELEVADOR DE BANDEJA TF-BJ-3",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 3,
-      "horas": 0.5333,
+      "tag": "30787",
+      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
+      "equipamento": "CONDOR",
+      "falhas": 6,
+      "horas": 2.7833,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 2.3667,
+          "falhas": 2
         },
         "2": {
-          "horas": 0.5333,
-          "falhas": 3
+          "horas": 0.4167,
+          "falhas": 4
         },
         "3": {
           "horas": 0.0,
@@ -3031,36 +2807,69 @@
       "ocorrencias": [
         {
           "data": "2026-06-27",
-          "inicio": "18:05",
-          "fim": "18:20",
-          "turno": 2,
-          "departamento": "Automação",
+          "inicio": "07:26",
+          "fim": "09:28",
+          "turno": 1,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.25,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": "sensor fora da posição , robô desempenhador "
+          "horas": 2.0333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste na recravadeira "
         },
         {
           "data": "2026-06-27",
-          "inicio": "20:00",
-          "fim": "20:12",
-          "turno": 2,
-          "departamento": "Elétrica",
+          "inicio": "10:15",
+          "fim": "10:35",
+          "turno": 1,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.2,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "falha no sensor do robô desempenhador "
+          "horas": 0.3333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento na placa do cabeçote 1 e ajuste na recravadeira "
         },
         {
           "data": "2026-06-27",
-          "inicio": "20:27",
-          "fim": "20:32",
+          "inicio": "15:17",
+          "fim": "15:23",
           "turno": 2,
-          "departamento": "Elétrica",
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "recravadeira ( tampa presa)"
+        },
+        {
+          "data": "2026-06-27",
+          "inicio": "15:45",
+          "fim": "15:52",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "tampa presa"
+        },
+        {
+          "data": "2026-06-27",
+          "inicio": "17:38",
+          "fim": "17:43",
+          "turno": 2,
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "falha no sensor do robô desempenhador "
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "tampa presa "
+        },
+        {
+          "data": "2026-06-27",
+          "inicio": "18:28",
+          "fim": "18:35",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
         }
       ]
     },
@@ -3177,19 +2986,64 @@
       ]
     },
     {
-      "tag": "RB09",
-      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
-      "equipamento": "MESPACK R1",
-      "falhas": 3,
-      "horas": 0.2333,
+      "tag": "20492",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK A",
+      "equipamento": "MESPACK A",
+      "falhas": 2,
+      "horas": 0.2,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.2333,
-          "falhas": 3
+          "horas": 0.2,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-27",
+          "inicio": "18:58",
+          "fim": "19:03",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "OUTROS MOTIVOS ",
+          "obs": "falha na dosagem dos bicos "
+        },
+        {
+          "data": "2026-06-27",
+          "inicio": "19:23",
+          "fim": "19:30",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "LIMPEZA ELETROVÁLVULA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 0.1833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 2
         },
         "3": {
           "horas": 0.0,
@@ -3210,17 +3064,6 @@
         },
         {
           "data": "2026-06-27",
-          "inicio": "19:35",
-          "fim": "19:38",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": "falha no robô empilhador "
-        },
-        {
-          "data": "2026-06-27",
           "inicio": "20:35",
           "fim": "20:41",
           "turno": 2,
@@ -3233,18 +3076,18 @@
       ]
     },
     {
-      "tag": "20502",
-      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK B ",
-      "equipamento": "MESPACK B",
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "equipamento": "MESPACK R2",
       "falhas": 2,
-      "horas": 0.1833,
+      "horas": 0.1167,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.1833,
+          "horas": 0.1167,
           "falhas": 2
         },
         "3": {
@@ -3255,24 +3098,24 @@
       "ocorrencias": [
         {
           "data": "2026-06-27",
-          "inicio": "14:49",
-          "fim": "14:55",
+          "inicio": "21:49",
+          "fim": "21:53",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1,
-          "motivo": "AJUSTE NO ARRASTE",
-          "obs": ""
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "e ajuste no esticador embalagem 3"
         },
         {
           "data": "2026-06-27",
-          "inicio": "15:00",
-          "fim": "15:05",
+          "inicio": "22:00",
+          "fim": "22:03",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NO ARRASTE",
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
           "obs": ""
         }
       ]
@@ -3670,12 +3513,12 @@
       "tag": "ROBOTICA03",
       "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
-      "falhas": 20,
-      "horas": 1.8167,
+      "falhas": 18,
+      "horas": 1.6833,
       "por_turno": {
         "1": {
-          "horas": 0.7833,
-          "falhas": 11
+          "horas": 0.65,
+          "falhas": 9
         },
         "2": {
           "horas": 0.9,
@@ -3695,17 +3538,6 @@
           "departamento": "Automação",
           "falhas": 1,
           "horas": 0.1333,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "07:50",
-          "fim": "07:55",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
           "obs": ""
         },
@@ -3740,17 +3572,6 @@
           "falhas": 1,
           "horas": 0.0667,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "10:37",
-          "fim": "10:40",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
           "obs": ""
         },
         {
@@ -4576,62 +4397,6 @@
       ]
     },
     {
-      "tag": "31929",
-      "componente": "SISTEMA DE SENSORES ELEVADOR DE BANDEJA TF-BJ-3",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 3,
-      "horas": 0.5333,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.5333,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-27",
-          "inicio": "18:05",
-          "fim": "18:20",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.25,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": "sensor fora da posição , robô desempenhador "
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "20:00",
-          "fim": "20:12",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "falha no sensor do robô desempenhador "
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "20:27",
-          "fim": "20:32",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "falha no sensor do robô desempenhador "
-        }
-      ]
-    },
-    {
       "tag": "32109",
       "componente": "GARRA DE PEGAR BANDEJA ROBO DESEMPILHADOR",
       "equipamento": "MESPACK R2",
@@ -4662,62 +4427,6 @@
           "horas": 0.3667,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": "devido garra do desempilhador fora de posição "
-        }
-      ]
-    },
-    {
-      "tag": "RB09",
-      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
-      "equipamento": "MESPACK R1",
-      "falhas": 3,
-      "horas": 0.2333,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.2333,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-27",
-          "inicio": "19:31",
-          "fim": "19:36",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "ROBO EMPILHADOR EM FALHA",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "19:35",
-          "fim": "19:38",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": "falha no robô empilhador "
-        },
-        {
-          "data": "2026-06-27",
-          "inicio": "20:35",
-          "fim": "20:41",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "ROBO EMPILHADOR EM FALHA",
-          "obs": ""
         }
       ]
     },
@@ -4833,36 +4542,115 @@
           "obs": ""
         }
       ]
+    },
+    {
+      "tag": "RB09",
+      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 0.1833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-27",
+          "inicio": "19:31",
+          "fim": "19:36",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-27",
+          "inicio": "20:35",
+          "fim": "20:41",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31304",
+      "componente": "CONJUNTO FORMADOR DE EMBALAGEM MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 1,
+      "horas": 0.1833,
+      "por_turno": {
+        "1": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-27",
+          "inicio": "11:25",
+          "fim": "11:36",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no triângulo formador de embalagem "
+        }
+      ]
     }
   ],
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -4870,22 +4658,22 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 16.2833,
-      "disponibilidade_pct": 94.3065,
-      "indisponibilidade_pct": 5.6935
+      "horas_paradas": 15.4,
+      "disponibilidade_pct": 94.6154,
+      "indisponibilidade_pct": 5.3846
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 0.5333,
-        "disponibilidade_pct": 99.8135,
-        "indisponibilidade_pct": 0.1865
+        "horas_paradas": 0.25,
+        "disponibilidade_pct": 99.9126,
+        "indisponibilidade_pct": 0.0874
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
@@ -4895,9 +4683,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 8.8667,
-        "disponibilidade_pct": 89.9242,
-        "indisponibilidade_pct": 10.0758
+        "horas_paradas": 8.2667,
+        "disponibilidade_pct": 90.6061,
+        "indisponibilidade_pct": 9.3939
       }
     }
   },
@@ -4905,12 +4693,12 @@
     "mes": "junho",
     "ano": 2026,
     "ate": "2026-06-27",
-    "falhas": 3093,
-    "horas_paradas": 532.5355,
+    "falhas": 2980,
+    "horas_paradas": 508.6631,
     "horas_disponiveis": 6864.0,
-    "mtbf_min": 122.8218,
-    "disponibilidade_pct": 92.2416,
-    "indisponibilidade_pct": 7.7584,
+    "mtbf_min": 127.9598,
+    "disponibilidade_pct": 92.5894,
+    "indisponibilidade_pct": 7.4106,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

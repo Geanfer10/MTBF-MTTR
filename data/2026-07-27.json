@@ -1,6 +1,6 @@
 {
   "date": "2026-07-27",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1672,80 +1672,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.3,
-      "horas_disponiveis": 22.0,
-      "falhas": 4,
-      "por_turno": {
-        "1": {
-          "horas": 0.1,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.2,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-27",
-          "inicio": "10:57",
-          "fim": "11:00",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "FEL01",
-          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
-        },
-        {
-          "data": "2026-07-27",
-          "inicio": "11:08",
-          "fim": "11:11",
-          "turno": 1,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste sensor da cadena 7",
-          "tag": "TP-BJ7",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ-7"
-        },
-        {
-          "data": "2026-07-27",
-          "inicio": "16:01",
-          "fim": "16:08",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "acúmulo de bandeja+ bandeja travada na esteira TPBJ9 ",
-          "tag": "TP-BJ9",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ-9"
-        },
-        {
-          "data": "2026-07-27",
-          "inicio": "21:01",
-          "fim": "21:06",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "FEL01",
-          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
-        }
-      ]
-    },
-    {
       "name": "ENCHEDEIRA TOP DOWN",
       "horas": 0.1667,
       "horas_disponiveis": 22.0,
@@ -1831,18 +1757,18 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 1.65,
-      "2": 2.3667,
+      "1": 1.6,
+      "2": 2.2833,
       "3": 1.5833
     },
     "Elétrica": {
-      "1": 1.6833,
+      "1": 1.6333,
       "2": 3.95,
       "3": 1.4667
     },
     "Mecânica": {
       "1": 0.8,
-      "2": 1.85,
+      "2": 1.7333,
       "3": 7.4536
     }
   },
@@ -2845,58 +2771,58 @@
       ]
     },
     {
-      "tag": "FEL01",
-      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
+      "tag": "31842",
+      "componente": "CORRERIA SINCRONIZADORA 02 DAESTEIRA INDEXADORA COLETA COL-L1-L1E MESPACK F",
+      "equipamento": "MESPACK F",
       "falhas": 3,
-      "horas": 0.2,
+      "horas": 2.75,
       "por_turno": {
         "1": {
-          "horas": 0.05,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "2": {
-          "horas": 0.0833,
-          "falhas": 1
+          "horas": 2.75,
+          "falhas": 3
         },
         "3": {
-          "horas": 0.0667,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         }
       },
       "ocorrencias": [
         {
           "data": "2026-07-27",
-          "inicio": "00:44",
-          "fim": "00:48",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-27",
-          "inicio": "10:57",
-          "fim": "11:00",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-27",
-          "inicio": "21:01",
-          "fim": "21:06",
+          "inicio": "17:02",
+          "fim": "17:16",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": ""
+          "horas": 0.2333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "acompanhamento da elétrica "
+        },
+        {
+          "data": "2026-07-27",
+          "inicio": "17:23",
+          "fim": "18:03",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.6667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da base das canecas, alinhamento da base das canecas, e ajustes nas canecas da lagarta esquerda"
+        },
+        {
+          "data": "2026-07-27",
+          "inicio": "18:07",
+          "fim": "19:58",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 1.85,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "marcação de ponto nas lagartas esquerdas, e apoio à equipe mecânica "
         }
       ]
     },
@@ -3013,19 +2939,19 @@
       ]
     },
     {
-      "tag": "31842",
-      "componente": "CORRERIA SINCRONIZADORA 02 DAESTEIRA INDEXADORA COLETA COL-L1-L1E MESPACK F",
-      "equipamento": "MESPACK F",
-      "falhas": 3,
-      "horas": 2.75,
+      "tag": "20367",
+      "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 2,
+      "horas": 0.1667,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 2.75,
-          "falhas": 3
+          "horas": 0.1667,
+          "falhas": 2
         },
         "3": {
           "horas": 0.0,
@@ -3035,53 +2961,42 @@
       "ocorrencias": [
         {
           "data": "2026-07-27",
-          "inicio": "17:02",
-          "fim": "17:16",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "acompanhamento da elétrica "
-        },
-        {
-          "data": "2026-07-27",
-          "inicio": "17:23",
-          "fim": "18:03",
+          "inicio": "18:20",
+          "fim": "18:25",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.6667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca da base das canecas, alinhamento da base das canecas, e ajustes nas canecas da lagarta esquerda"
+          "horas": 0.0833,
+          "motivo": "OUTROS MOTIVOS ",
+          "obs": "obs: mecânica "
         },
         {
           "data": "2026-07-27",
-          "inicio": "18:07",
-          "fim": "19:58",
+          "inicio": "20:20",
+          "fim": "20:25",
           "turno": 2,
-          "departamento": "Elétrica",
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 1.85,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "marcação de ponto nas lagartas esquerdas, e apoio à equipe mecânica "
+          "horas": 0.0833,
+          "motivo": "OUTROS MOTIVOS ",
+          "obs": "obs: mecânica "
         }
       ]
     },
     {
-      "tag": "20493",
-      "componente": "PAINEL OPERACIONAL MESPACK A",
-      "equipamento": "MESPACK A",
+      "tag": "31191",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
+      "equipamento": "MESPACK R1",
       "falhas": 2,
-      "horas": 0.9,
+      "horas": 0.1167,
       "por_turno": {
         "1": {
-          "horas": 0.9,
-          "falhas": 2
-        },
-        "2": {
           "horas": 0.0,
           "falhas": 0
+        },
+        "2": {
+          "horas": 0.1167,
+          "falhas": 2
         },
         "3": {
           "horas": 0.0,
@@ -3091,25 +3006,25 @@
       "ocorrencias": [
         {
           "data": "2026-07-27",
-          "inicio": "13:12",
-          "fim": "13:44",
-          "turno": 1,
-          "departamento": "Elétrica",
+          "inicio": "17:05",
+          "fim": "17:08",
+          "turno": 2,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.5333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "manutenção segurança das portas"
+          "horas": 0.05,
+          "motivo": "TROCA DE VENTOSAS",
+          "obs": ""
         },
         {
           "data": "2026-07-27",
-          "inicio": "14:01",
-          "fim": "14:23",
-          "turno": 1,
-          "departamento": "Elétrica",
+          "inicio": "22:19",
+          "fim": "22:23",
+          "turno": 2,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.3667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "manutenção elétrica na botoeira de emergência "
+          "horas": 0.0667,
+          "motivo": "TROCA DE VENTOSAS",
+          "obs": ""
         }
       ]
     }
@@ -4399,31 +4314,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -4431,34 +4346,34 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 22.8036,
-      "disponibilidade_pct": 92.0267,
-      "indisponibilidade_pct": 7.9733
+      "horas_paradas": 22.5036,
+      "disponibilidade_pct": 92.1316,
+      "indisponibilidade_pct": 7.8684
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 7.1,
-        "disponibilidade_pct": 97.5175,
-        "indisponibilidade_pct": 2.4825
+        "horas_paradas": 7.05,
+        "disponibilidade_pct": 97.535,
+        "indisponibilidade_pct": 2.465
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 10.1036,
-        "disponibilidade_pct": 96.4673,
-        "indisponibilidade_pct": 3.5327
+        "horas_paradas": 9.987,
+        "disponibilidade_pct": 96.508,
+        "indisponibilidade_pct": 3.492
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 5.6,
-        "disponibilidade_pct": 93.6364,
-        "indisponibilidade_pct": 6.3636
+        "horas_paradas": 5.4667,
+        "disponibilidade_pct": 93.7879,
+        "indisponibilidade_pct": 6.2121
       }
     }
   },
@@ -4466,12 +4381,12 @@
     "mes": "julho",
     "ano": 2026,
     "ate": "2026-07-27",
-    "falhas": 3179,
-    "horas_paradas": 565.7999,
+    "falhas": 3109,
+    "horas_paradas": 547.1149,
     "horas_disponiveis": 6578.0,
-    "mtbf_min": 113.4734,
-    "disponibilidade_pct": 91.3986,
-    "indisponibilidade_pct": 8.6014,
+    "mtbf_min": 116.3889,
+    "disponibilidade_pct": 91.6827,
+    "indisponibilidade_pct": 8.3173,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

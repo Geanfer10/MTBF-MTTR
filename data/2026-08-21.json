@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1756,59 +1756,11 @@
           "componente": "CABEÇOTE SUPERIOR CONDOR 2KG"
         }
       ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.1167,
-      "horas_disponiveis": 22.0,
-      "falhas": 2,
-      "por_turno": {
-        "1": {
-          "horas": 0.1167,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-21",
-          "inicio": "08:58",
-          "fim": "09:02",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "FEL01",
-          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
-        },
-        {
-          "data": "2026-08-21",
-          "inicio": "13:34",
-          "fim": "13:37",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "FEL01",
-          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
-        }
-      ]
     }
   ],
   "turnos": {
     "Automação": {
-      "1": 1.6667,
+      "1": 1.55,
       "2": 1.5833,
       "3": 3.1333
     },
@@ -4739,31 +4691,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -4771,15 +4723,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 18.3833,
-      "disponibilidade_pct": 93.5723,
-      "indisponibilidade_pct": 6.4277
+      "horas_paradas": 18.2667,
+      "disponibilidade_pct": 93.6131,
+      "indisponibilidade_pct": 6.3869
     },
     "departamentos": {
       "Elétrica": {
@@ -4796,9 +4748,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 6.3833,
-        "disponibilidade_pct": 92.7462,
-        "indisponibilidade_pct": 7.2538
+        "horas_paradas": 6.2667,
+        "disponibilidade_pct": 92.8788,
+        "indisponibilidade_pct": 7.1212
       }
     }
   },
@@ -4806,12 +4758,12 @@
     "mes": "agosto",
     "ano": 2026,
     "ate": "2026-08-21",
-    "falhas": 2398,
-    "horas_paradas": 354.914,
+    "falhas": 2339,
+    "horas_paradas": 345.8917,
     "horas_disponiveis": 5434.0,
-    "mtbf_min": 127.0831,
-    "disponibilidade_pct": 93.4686,
-    "indisponibilidade_pct": 6.5314,
+    "mtbf_min": 130.5201,
+    "disponibilidade_pct": 93.6347,
+    "indisponibilidade_pct": 6.3653,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

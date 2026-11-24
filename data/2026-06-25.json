@@ -1,6 +1,6 @@
 {
   "date": "2026-06-25",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -2079,67 +2079,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.5963,
-      "horas_disponiveis": 22.0,
-      "falhas": 3,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.5963,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-25",
-          "inicio": "17:31",
-          "fim": "17:41",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "ajuste na seladora ",
-          "tag": "32127",
-          "componente": "CABEÇOTE FECH. DE CIAXAS VEGETAIS"
-        },
-        {
-          "data": "2026-06-25",
-          "inicio": "20:30",
-          "fim": "20:48",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.3,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "Ajuste no sensor do robô Desapilhador.",
-          "tag": "32110",
-          "componente": "SISTEMA TRAVAMENTO DE BANDEJA LADO DIREITO 01 ROBO DESEMPILHADOR"
-        },
-        {
-          "data": "2026-06-25",
-          "inicio": "21:35",
-          "fim": "21:42",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1296,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": "falha no robô Desapilhador ",
-          "tag": "RB010",
-          "componente": "ROBO  DESEMPILHADOR DE BANDEJA "
-        }
-      ]
-    },
-    {
       "name": "60L2",
       "horas": 0.1167,
       "horas_disponiveis": 22.0,
@@ -2178,17 +2117,17 @@
   "turnos": {
     "Automação": {
       "1": 3.95,
-      "2": 3.4963,
+      "2": 3.3667,
       "3": 2.4667
     },
     "Elétrica": {
       "1": 0.0,
-      "2": 1.4667,
+      "2": 1.1667,
       "3": 0.7667
     },
     "Mecânica": {
       "1": 2.0,
-      "2": 3.9833,
+      "2": 3.8167,
       "3": 1.9167
     }
   },
@@ -3325,16 +3264,16 @@
       "tag": "RB010",
       "componente": "ROBO  DESEMPILHADOR DE BANDEJA ",
       "equipamento": "MESPACK R1",
-      "falhas": 6,
-      "horas": 0.4629,
+      "falhas": 5,
+      "horas": 0.3333,
       "por_turno": {
         "1": {
           "horas": 0.3333,
           "falhas": 5
         },
         "2": {
-          "horas": 0.1296,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,
@@ -3396,17 +3335,6 @@
           "horas": 0.05,
           "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
           "obs": ""
-        },
-        {
-          "data": "2026-06-25",
-          "inicio": "21:35",
-          "fim": "21:42",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1296,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": "falha no robô Desapilhador "
         }
       ]
     },
@@ -4901,95 +4829,6 @@
       ]
     },
     {
-      "tag": "RB010",
-      "componente": "ROBO  DESEMPILHADOR DE BANDEJA ",
-      "equipamento": "MESPACK R1",
-      "falhas": 6,
-      "horas": 0.4629,
-      "por_turno": {
-        "1": {
-          "horas": 0.3333,
-          "falhas": 5
-        },
-        "2": {
-          "horas": 0.1296,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-25",
-          "inicio": "11:08",
-          "fim": "11:10",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-25",
-          "inicio": "11:10",
-          "fim": "11:13",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-25",
-          "inicio": "11:14",
-          "fim": "11:16",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-25",
-          "inicio": "11:15",
-          "fim": "11:25",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-25",
-          "inicio": "11:19",
-          "fim": "11:22",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-25",
-          "inicio": "21:35",
-          "fim": "21:42",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1296,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": "falha no robô Desapilhador "
-        }
-      ]
-    },
-    {
       "tag": "ROBOTICA02",
       "componente": "ESTEIRÃO PARADO MESPACK F",
       "equipamento": "MESPACK F",
@@ -5190,6 +5029,84 @@
       ]
     },
     {
+      "tag": "RB010",
+      "componente": "ROBO  DESEMPILHADOR DE BANDEJA ",
+      "equipamento": "MESPACK R1",
+      "falhas": 5,
+      "horas": 0.3333,
+      "por_turno": {
+        "1": {
+          "horas": 0.3333,
+          "falhas": 5
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-25",
+          "inicio": "11:08",
+          "fim": "11:10",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-25",
+          "inicio": "11:10",
+          "fim": "11:13",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-25",
+          "inicio": "11:14",
+          "fim": "11:16",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-25",
+          "inicio": "11:15",
+          "fim": "11:25",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-25",
+          "inicio": "11:19",
+          "fim": "11:22",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "ELETRICA01",
       "componente": "AGUARDANDO ELETRICA",
       "equipamento": "MESPACK B",
@@ -5313,10 +5230,10 @@
       ]
     },
     {
-      "tag": "32110",
-      "componente": "SISTEMA TRAVAMENTO DE BANDEJA LADO DIREITO 01 ROBO DESEMPILHADOR",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 1,
+      "tag": "31198",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 4,
       "horas": 0.3,
       "por_turno": {
         "1": {
@@ -5324,25 +5241,58 @@
           "falhas": 0
         },
         "2": {
-          "horas": 0.3,
+          "horas": 0.05,
           "falhas": 1
         },
         "3": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.25,
+          "falhas": 3
         }
       },
       "ocorrencias": [
         {
           "data": "2026-06-25",
-          "inicio": "20:30",
-          "fim": "20:48",
-          "turno": 2,
-          "departamento": "Elétrica",
+          "inicio": "00:13",
+          "fim": "00:14",
+          "turno": 3,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.3,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "Ajuste no sensor do robô Desapilhador."
+          "horas": 0.0167,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-25",
+          "inicio": "01:23",
+          "fim": "01:30",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico"
+        },
+        {
+          "data": "2026-06-25",
+          "inicio": "01:59",
+          "fim": "02:06",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico"
+        },
+        {
+          "data": "2026-06-25",
+          "inicio": "14:47",
+          "fim": "14:50",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
         }
       ]
     }
@@ -5350,31 +5300,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -5382,34 +5332,34 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 20.0463,
-      "disponibilidade_pct": 92.9908,
-      "indisponibilidade_pct": 7.0092
+      "horas_paradas": 19.45,
+      "disponibilidade_pct": 93.1993,
+      "indisponibilidade_pct": 6.8007
     },
     "departamentos": {
       "Elétrica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 2.2333,
-        "disponibilidade_pct": 99.2191,
-        "indisponibilidade_pct": 0.7809
+        "horas_paradas": 1.9333,
+        "disponibilidade_pct": 99.324,
+        "indisponibilidade_pct": 0.676
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 7.9,
-        "disponibilidade_pct": 97.2378,
-        "indisponibilidade_pct": 2.7622
+        "horas_paradas": 7.7333,
+        "disponibilidade_pct": 97.296,
+        "indisponibilidade_pct": 2.704
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 9.9129,
-        "disponibilidade_pct": 88.7353,
-        "indisponibilidade_pct": 11.2647
+        "horas_paradas": 9.7833,
+        "disponibilidade_pct": 88.8826,
+        "indisponibilidade_pct": 11.1174
       }
     }
   },
@@ -5417,12 +5367,12 @@
     "mes": "junho",
     "ano": 2026,
     "ate": "2026-06-25",
-    "falhas": 2817,
-    "horas_paradas": 494.8739,
+    "falhas": 2717,
+    "horas_paradas": 473.5682,
     "horas_disponiveis": 6292.0,
-    "mtbf_min": 123.4745,
-    "disponibilidade_pct": 92.1349,
-    "indisponibilidade_pct": 7.8651,
+    "mtbf_min": 128.4895,
+    "disponibilidade_pct": 92.4735,
+    "indisponibilidade_pct": 7.5265,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

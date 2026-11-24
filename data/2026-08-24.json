@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -2268,59 +2268,11 @@
           "componente": "CABEÇOTE SUPERIOR CONDOR 2KG"
         }
       ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.1167,
-      "horas_disponiveis": 22.0,
-      "falhas": 2,
-      "por_turno": {
-        "1": {
-          "horas": 0.1167,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-24",
-          "inicio": "06:40",
-          "fim": "06:44",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": "",
-          "tag": "TF-BJ4",
-          "componente": "TRANSFERIDO DE BANDEJA TF-BJ4"
-        },
-        {
-          "data": "2026-08-24",
-          "inicio": "08:36",
-          "fim": "08:39",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": "",
-          "tag": "TF-BJ4",
-          "componente": "TRANSFERIDO DE BANDEJA TF-BJ4"
-        }
-      ]
     }
   ],
   "turnos": {
     "Automação": {
-      "1": 2.6167,
+      "1": 2.5,
       "2": 2.5167,
       "3": 1.9333
     },
@@ -3520,84 +3472,6 @@
       ]
     },
     {
-      "tag": "31407",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 5,
-      "horas": 0.5667,
-      "por_turno": {
-        "1": {
-          "horas": 0.35,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.1333,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0833,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-24",
-          "inicio": "01:18",
-          "fim": "01:23",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-24",
-          "inicio": "14:19",
-          "fim": "14:31",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "solda no robô 1 pegador de embalagem "
-        },
-        {
-          "data": "2026-08-24",
-          "inicio": "14:31",
-          "fim": "14:40",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "solda no robô pegador de embalagem "
-        },
-        {
-          "data": "2026-08-24",
-          "inicio": "19:35",
-          "fim": "19:38",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-24",
-          "inicio": "19:56",
-          "fim": "20:01",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "TROCA DE MOLA DAS PINÇAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "20487",
       "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
       "equipamento": "MESPACK A",
@@ -3676,68 +3550,213 @@
       ]
     },
     {
-      "tag": "MECANICA01",
-      "componente": "AGUARDANDO MECANICO",
+      "tag": "31407",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 5,
+      "horas": 0.5667,
+      "por_turno": {
+        "1": {
+          "horas": 0.35,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.1333,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0833,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-24",
+          "inicio": "01:18",
+          "fim": "01:23",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-24",
+          "inicio": "14:19",
+          "fim": "14:31",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "solda no robô 1 pegador de embalagem "
+        },
+        {
+          "data": "2026-08-24",
+          "inicio": "14:31",
+          "fim": "14:40",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "solda no robô pegador de embalagem "
+        },
+        {
+          "data": "2026-08-24",
+          "inicio": "19:35",
+          "fim": "19:38",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-24",
+          "inicio": "19:56",
+          "fim": "20:01",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
       "equipamento": "MESPACK B",
       "falhas": 4,
-      "horas": 0.5,
+      "horas": 0.75,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.2333,
-          "falhas": 2
+          "horas": 0.75,
+          "falhas": 4
         },
         "3": {
-          "horas": 0.2667,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 0
         }
       },
       "ocorrencias": [
         {
           "data": "2026-08-24",
-          "inicio": "05:22",
-          "fim": "05:30",
-          "turno": 3,
+          "inicio": "14:45",
+          "fim": "14:56",
+          "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "AGUARDANDO MECÂNICO",
+          "horas": 0.1833,
+          "motivo": "AJUSTE NAS VÁLVULAS DE DOSAGEM",
           "obs": ""
         },
         {
           "data": "2026-08-24",
-          "inicio": "05:22",
-          "fim": "05:30",
-          "turno": 3,
+          "inicio": "16:32",
+          "fim": "16:42",
+          "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "AGUARDANDO MECÂNICO",
+          "horas": 0.1667,
+          "motivo": "AJUSTE NAS VÁLVULAS DE DOSAGEM",
           "obs": ""
         },
         {
           "data": "2026-08-24",
-          "inicio": "19:10",
-          "fim": "19:17",
+          "inicio": "16:50",
+          "fim": "17:07",
           "turno": 2,
-          "departamento": "Mecânica",
+          "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "AGUARDANDO MECÂNICO",
-          "obs": "mecânico na retort 1"
+          "horas": 0.2833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "troca da eletrovalvula e da placa do medidor de vazão "
         },
         {
           "data": "2026-08-24",
-          "inicio": "20:53",
-          "fim": "21:00",
+          "inicio": "21:02",
+          "fim": "21:09",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1167,
-          "motivo": "AGUARDANDO MECÂNICO",
+          "motivo": "TROCA DE BICO",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 4,
+      "horas": 0.55,
+      "por_turno": {
+        "1": {
+          "horas": 0.15,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.4,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-24",
+          "inicio": "10:12",
+          "fim": "10:21",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "TROCA DE PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-24",
+          "inicio": "18:19",
+          "fim": "18:27",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-24",
+          "inicio": "19:15",
+          "fim": "19:25",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-24",
+          "inicio": "20:41",
+          "fim": "20:47",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NAS PINÇAS",
           "obs": ""
         }
       ]
@@ -3810,135 +3829,68 @@
       ]
     },
     {
-      "tag": "31314",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
-      "equipamento": "MESPACK F",
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "equipamento": "MESPACK B",
       "falhas": 4,
-      "horas": 0.55,
+      "horas": 0.5,
       "por_turno": {
         "1": {
-          "horas": 0.15,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.4,
-          "falhas": 3
-        },
-        "3": {
           "horas": 0.0,
           "falhas": 0
+        },
+        "2": {
+          "horas": 0.2333,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.2667,
+          "falhas": 2
         }
       },
       "ocorrencias": [
         {
           "data": "2026-08-24",
-          "inicio": "10:12",
-          "fim": "10:21",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "TROCA DE PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-24",
-          "inicio": "18:19",
-          "fim": "18:27",
-          "turno": 2,
+          "inicio": "05:22",
+          "fim": "05:30",
+          "turno": 3,
           "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1333,
-          "motivo": "AJUSTE NAS PINÇAS",
+          "motivo": "AGUARDANDO MECÂNICO",
           "obs": ""
         },
         {
           "data": "2026-08-24",
-          "inicio": "19:15",
-          "fim": "19:25",
-          "turno": 2,
+          "inicio": "05:22",
+          "fim": "05:30",
+          "turno": 3,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "AJUSTE NAS PINÇAS",
+          "horas": 0.1333,
+          "motivo": "AGUARDANDO MECÂNICO",
           "obs": ""
         },
         {
           "data": "2026-08-24",
-          "inicio": "20:41",
-          "fim": "20:47",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "20512",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
-      "equipamento": "MESPACK B",
-      "falhas": 4,
-      "horas": 0.75,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.75,
-          "falhas": 4
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-24",
-          "inicio": "14:45",
-          "fim": "14:56",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "AJUSTE NAS VÁLVULAS DE DOSAGEM",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-24",
-          "inicio": "16:32",
-          "fim": "16:42",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "AJUSTE NAS VÁLVULAS DE DOSAGEM",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-24",
-          "inicio": "16:50",
-          "fim": "17:07",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "troca da eletrovalvula e da placa do medidor de vazão "
-        },
-        {
-          "data": "2026-08-24",
-          "inicio": "21:02",
-          "fim": "21:09",
+          "inicio": "19:10",
+          "fim": "19:17",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1167,
-          "motivo": "TROCA DE BICO",
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": "mecânico na retort 1"
+        },
+        {
+          "data": "2026-08-24",
+          "inicio": "20:53",
+          "fim": "21:00",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "AGUARDANDO MECÂNICO",
           "obs": ""
         }
       ]
@@ -5669,31 +5621,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -5701,15 +5653,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 23.85,
-      "disponibilidade_pct": 91.6608,
-      "indisponibilidade_pct": 8.3392
+      "horas_paradas": 23.7333,
+      "disponibilidade_pct": 91.7016,
+      "indisponibilidade_pct": 8.2984
     },
     "departamentos": {
       "Elétrica": {
@@ -5726,9 +5678,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 7.0667,
-        "disponibilidade_pct": 91.9697,
-        "indisponibilidade_pct": 8.0303
+        "horas_paradas": 6.95,
+        "disponibilidade_pct": 92.1023,
+        "indisponibilidade_pct": 7.8977
       }
     }
   },
@@ -5736,12 +5688,12 @@
     "mes": "agosto",
     "ano": 2026,
     "ate": "2026-08-24",
-    "falhas": 2756,
-    "horas_paradas": 411.8526,
+    "falhas": 2691,
+    "horas_paradas": 402.292,
     "horas_disponiveis": 6292.0,
-    "mtbf_min": 128.0148,
-    "disponibilidade_pct": 93.4543,
-    "indisponibilidade_pct": 6.5457,
+    "mtbf_min": 131.3201,
+    "disponibilidade_pct": 93.6063,
+    "indisponibilidade_pct": 6.3937,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

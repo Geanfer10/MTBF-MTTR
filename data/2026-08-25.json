@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1891,47 +1891,12 @@
           "componente": "CONJUNTO CARRO MOVEL MESPACK B "
         }
       ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.1097,
-      "horas_disponiveis": 22.0,
-      "falhas": 1,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.1097,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-25",
-          "inicio": "19:48",
-          "fim": "19:54",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1097,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": "",
-          "tag": "TP-BJ9",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ-9"
-        }
-      ]
     }
   ],
   "turnos": {
     "Automação": {
       "1": 2.85,
-      "2": 2.6097,
+      "2": 2.5,
       "3": 1.8333
     },
     "Elétrica": {
@@ -2721,84 +2686,6 @@
       ]
     },
     {
-      "tag": "30787",
-      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
-      "equipamento": "CONDOR",
-      "falhas": 5,
-      "horas": 0.6167,
-      "por_turno": {
-        "1": {
-          "horas": 0.0833,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.5333,
-          "falhas": 4
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-25",
-          "inicio": "09:55",
-          "fim": "10:00",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento do cabeçote 1"
-        },
-        {
-          "data": "2026-08-25",
-          "inicio": "16:11",
-          "fim": "16:14",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "lata presa"
-        },
-        {
-          "data": "2026-08-25",
-          "inicio": "16:56",
-          "fim": "17:08",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "Polimento cabeçote 1"
-        },
-        {
-          "data": "2026-08-25",
-          "inicio": "18:13",
-          "fim": "18:24",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento cabeçote 1"
-        },
-        {
-          "data": "2026-08-25",
-          "inicio": "21:59",
-          "fim": "22:05",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "tampa presa "
-        }
-      ]
-    },
-    {
       "tag": "31194",
       "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
       "equipamento": "MESPACK R1",
@@ -2955,18 +2842,18 @@
       ]
     },
     {
-      "tag": "20567",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
-      "equipamento": "MESPACK E",
-      "falhas": 4,
-      "horas": 0.7167,
+      "tag": "30787",
+      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
+      "equipamento": "CONDOR",
+      "falhas": 5,
+      "horas": 0.6167,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.0833,
+          "falhas": 1
         },
         "2": {
-          "horas": 0.7167,
+          "horas": 0.5333,
           "falhas": 4
         },
         "3": {
@@ -2977,47 +2864,58 @@
       "ocorrencias": [
         {
           "data": "2026-08-25",
-          "inicio": "15:52",
-          "fim": "16:00",
-          "turno": 2,
+          "inicio": "09:55",
+          "fim": "10:00",
+          "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-25",
-          "inicio": "17:26",
-          "fim": "17:34",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-25",
-          "inicio": "18:37",
-          "fim": "19:00",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3833,
+          "horas": 0.0833,
           "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste na pinça de transferência "
+          "obs": "polimento do cabeçote 1"
         },
         {
           "data": "2026-08-25",
-          "inicio": "21:09",
-          "fim": "21:13",
+          "inicio": "16:11",
+          "fim": "16:14",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "lata presa"
+        },
+        {
+          "data": "2026-08-25",
+          "inicio": "16:56",
+          "fim": "17:08",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Polimento cabeçote 1"
+        },
+        {
+          "data": "2026-08-25",
+          "inicio": "18:13",
+          "fim": "18:24",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento cabeçote 1"
+        },
+        {
+          "data": "2026-08-25",
+          "inicio": "21:59",
+          "fim": "22:05",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "tampa presa "
         }
       ]
     },
@@ -3089,6 +2987,73 @@
       ]
     },
     {
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 4,
+      "horas": 0.7167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.7167,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-25",
+          "inicio": "15:52",
+          "fim": "16:00",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-25",
+          "inicio": "17:26",
+          "fim": "17:34",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-25",
+          "inicio": "18:37",
+          "fim": "19:00",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste na pinça de transferência "
+        },
+        {
+          "data": "2026-08-25",
+          "inicio": "21:09",
+          "fim": "21:13",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "31407",
       "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
       "equipamento": "MESPACK R2",
@@ -3156,6 +3121,62 @@
       ]
     },
     {
+      "tag": "20563",
+      "componente": "CONJUNTO DE FACAS MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 3,
+      "horas": 0.8833,
+      "por_turno": {
+        "1": {
+          "horas": 0.2,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.6833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-25",
+          "inicio": "08:47",
+          "fim": "08:55",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE DE FACA",
+          "obs": "ajuste na faca de corte da emenda da bobina "
+        },
+        {
+          "data": "2026-08-25",
+          "inicio": "12:29",
+          "fim": "12:33",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE DE FACA",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-25",
+          "inicio": "19:47",
+          "fim": "20:28",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.6833,
+          "motivo": "TROCA DE FACA",
+          "obs": "conjunto de faca e ajuste no guia "
+        }
+      ]
+    },
+    {
       "tag": "31191",
       "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
       "equipamento": "MESPACK R1",
@@ -3207,62 +3228,6 @@
           "falhas": 1,
           "horas": 0.0333,
           "motivo": "TROCA DE VENTOSAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "20507",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
-      "equipamento": "MESPACK B",
-      "falhas": 3,
-      "horas": 0.25,
-      "por_turno": {
-        "1": {
-          "horas": 0.1833,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0667,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-25",
-          "inicio": "07:49",
-          "fim": "07:55",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-25",
-          "inicio": "08:00",
-          "fim": "08:05",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-25",
-          "inicio": "16:12",
-          "fim": "16:16",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
           "obs": ""
         }
       ]
@@ -4258,6 +4223,73 @@
       ]
     },
     {
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 4,
+      "horas": 0.7167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.7167,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-25",
+          "inicio": "15:52",
+          "fim": "16:00",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-25",
+          "inicio": "17:26",
+          "fim": "17:34",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-25",
+          "inicio": "18:37",
+          "fim": "19:00",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste na pinça de transferência "
+        },
+        {
+          "data": "2026-08-25",
+          "inicio": "21:09",
+          "fim": "21:13",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "ROBOTICA01",
       "componente": "ESTEIRÃO PARADO MESPACK E",
       "equipamento": "MESPACK E",
@@ -4331,73 +4363,6 @@
           "falhas": 1,
           "horas": 0.3667,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "20567",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
-      "equipamento": "MESPACK E",
-      "falhas": 4,
-      "horas": 0.7167,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.7167,
-          "falhas": 4
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-25",
-          "inicio": "15:52",
-          "fim": "16:00",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-25",
-          "inicio": "17:26",
-          "fim": "17:34",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-25",
-          "inicio": "18:37",
-          "fim": "19:00",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste na pinça de transferência "
-        },
-        {
-          "data": "2026-08-25",
-          "inicio": "21:09",
-          "fim": "21:13",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE NAS PINÇAS",
           "obs": ""
         }
       ]
@@ -4696,31 +4661,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -4728,15 +4693,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 25.1359,
-      "disponibilidade_pct": 91.2112,
-      "indisponibilidade_pct": 8.7888
+      "horas_paradas": 25.0262,
+      "disponibilidade_pct": 91.2496,
+      "indisponibilidade_pct": 8.7504
     },
     "departamentos": {
       "Elétrica": {
@@ -4753,9 +4718,9 @@
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 7.293,
-        "disponibilidade_pct": 91.7125,
-        "indisponibilidade_pct": 8.2875
+        "horas_paradas": 7.1833,
+        "disponibilidade_pct": 91.8371,
+        "indisponibilidade_pct": 8.1629
       }
     }
   },
@@ -4763,12 +4728,12 @@
     "mes": "agosto",
     "ano": 2026,
     "ate": "2026-08-25",
-    "falhas": 2887,
-    "horas_paradas": 436.9885,
+    "falhas": 2821,
+    "horas_paradas": 427.3183,
     "horas_disponiveis": 6578.0,
-    "mtbf_min": 127.6275,
-    "disponibilidade_pct": 93.3568,
-    "indisponibilidade_pct": 6.6432,
+    "mtbf_min": 130.8192,
+    "disponibilidade_pct": 93.5038,
+    "indisponibilidade_pct": 6.4962,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

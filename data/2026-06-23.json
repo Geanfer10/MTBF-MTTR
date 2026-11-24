@@ -1,6 +1,6 @@
 {
   "date": "2026-06-23",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -2043,80 +2043,6 @@
       ]
     },
     {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 1.2167,
-      "horas_disponiveis": 22.0,
-      "falhas": 4,
-      "por_turno": {
-        "1": {
-          "horas": 0.8,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.4167,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-23",
-          "inicio": "10:09",
-          "fim": "10:12",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": "",
-          "tag": "TP-BJ4-L2",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L2"
-        },
-        {
-          "data": "2026-06-23",
-          "inicio": "10:37",
-          "fim": "10:41",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": "",
-          "tag": "TP-BJ4-L2",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L2"
-        },
-        {
-          "data": "2026-06-23",
-          "inicio": "12:44",
-          "fim": "13:25",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.6833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca da corrente da cadena de transferência 11",
-          "tag": "31871",
-          "componente": "CORRENTE ESTEIRA TRANSPORTE CADENA TP-BJ-11"
-        },
-        {
-          "data": "2026-06-23",
-          "inicio": "16:05",
-          "fim": "16:30",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.4167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "corrente quebrou dó elevador robô desenpilhador ",
-          "tag": "31433",
-          "componente": "CORRENTE ESTEIRA DE TRANSPORTE CADENA TP-BJ-18"
-        }
-      ]
-    },
-    {
       "name": "MESPACK C",
       "horas": 1.0,
       "horas_disponiveis": 22.0,
@@ -2550,7 +2476,7 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 4.132,
+      "1": 4.0153,
       "2": 3.75,
       "3": 3.2333
     },
@@ -2560,8 +2486,8 @@
       "3": 0.5333
     },
     "Mecânica": {
-      "1": 5.2167,
-      "2": 3.6833,
+      "1": 4.5333,
+      "2": 3.2667,
       "3": 7.9167
     }
   },
@@ -4227,62 +4153,6 @@
       ]
     },
     {
-      "tag": "20483",
-      "componente": "CONJUNTO DE FACAS MESPACK A ",
-      "equipamento": "MESPACK A",
-      "falhas": 3,
-      "horas": 0.5,
-      "por_turno": {
-        "1": {
-          "horas": 0.35,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.15,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-23",
-          "inicio": "09:53",
-          "fim": "10:07",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2333,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste na faça "
-        },
-        {
-          "data": "2026-06-23",
-          "inicio": "10:58",
-          "fim": "11:05",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-23",
-          "inicio": "20:51",
-          "fim": "21:00",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "AJUSTE DE FACA",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "20519",
       "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
       "equipamento": "MESPACK C",
@@ -4335,6 +4205,62 @@
           "horas": 0.35,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "reposição do eixo 30 da mordaça superior "
+        }
+      ]
+    },
+    {
+      "tag": "20483",
+      "componente": "CONJUNTO DE FACAS MESPACK A ",
+      "equipamento": "MESPACK A",
+      "falhas": 3,
+      "horas": 0.5,
+      "por_turno": {
+        "1": {
+          "horas": 0.35,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.15,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-23",
+          "inicio": "09:53",
+          "fim": "10:07",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste na faça "
+        },
+        {
+          "data": "2026-06-23",
+          "inicio": "10:58",
+          "fim": "11:05",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-23",
+          "inicio": "20:51",
+          "fim": "21:00",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "AJUSTE DE FACA",
+          "obs": ""
         }
       ]
     }
@@ -6058,40 +5984,6 @@
       ]
     },
     {
-      "tag": "31871",
-      "componente": "CORRENTE ESTEIRA TRANSPORTE CADENA TP-BJ-11",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 1,
-      "horas": 0.6833,
-      "por_turno": {
-        "1": {
-          "horas": 0.6833,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-23",
-          "inicio": "12:44",
-          "fim": "13:25",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.6833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca da corrente da cadena de transferência 11"
-        }
-      ]
-    },
-    {
       "tag": "20543",
       "componente": "CONJUNTO DE FACAS MESPACK D ",
       "equipamento": "MESPACK D",
@@ -6158,36 +6050,103 @@
           "obs": ""
         }
       ]
+    },
+    {
+      "tag": "31319",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 4,
+      "horas": 0.6167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.5333,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-23",
+          "inicio": "10:47",
+          "fim": "10:52",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-23",
+          "inicio": "17:48",
+          "fim": "18:02",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "TROCA DE BICO",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-23",
+          "inicio": "18:46",
+          "fim": "18:53",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "LIMPEZA ELETROVÁLVULA",
+          "obs": "do bico 4"
+        },
+        {
+          "data": "2026-06-23",
+          "inicio": "19:00",
+          "fim": "19:11",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "TROCA DE BICO",
+          "obs": "dosador 4."
+        }
+      ]
     }
   ],
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -6195,15 +6154,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 30.1987,
-      "disponibilidade_pct": 89.441,
-      "indisponibilidade_pct": 10.559
+      "horas_paradas": 28.982,
+      "disponibilidade_pct": 89.8664,
+      "indisponibilidade_pct": 10.1336
     },
     "departamentos": {
       "Elétrica": {
@@ -6214,15 +6173,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 16.8167,
-        "disponibilidade_pct": 94.12,
-        "indisponibilidade_pct": 5.88
+        "horas_paradas": 15.7167,
+        "disponibilidade_pct": 94.5047,
+        "indisponibilidade_pct": 5.4953
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 11.1153,
-        "disponibilidade_pct": 87.3689,
-        "indisponibilidade_pct": 12.6311
+        "horas_paradas": 10.9987,
+        "disponibilidade_pct": 87.5015,
+        "indisponibilidade_pct": 12.4985
       }
     }
   },
@@ -6230,12 +6189,12 @@
     "mes": "junho",
     "ano": 2026,
     "ate": "2026-06-23",
-    "falhas": 2564,
-    "horas_paradas": 459.6776,
+    "falhas": 2471,
+    "horas_paradas": 439.7682,
     "horas_disponiveis": 5720.0,
-    "mtbf_min": 123.0965,
-    "disponibilidade_pct": 91.9637,
-    "indisponibilidade_pct": 8.0363,
+    "mtbf_min": 128.2128,
+    "disponibilidade_pct": 92.3117,
+    "indisponibilidade_pct": 7.6883,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

@@ -1,6 +1,6 @@
 {
   "date": "2026-07-06",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1791,100 +1791,13 @@
           "componente": "CONJUNTO CARRO MOVEL MESPACK D "
         }
       ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 0.4833,
-      "horas_disponiveis": 22.0,
-      "falhas": 5,
-      "por_turno": {
-        "1": {
-          "horas": 0.1333,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.1667,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.1833,
-          "falhas": 3
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-06",
-          "inicio": "00:34",
-          "fim": "00:36",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "",
-          "tag": "ETH",
-          "componente": "ERRO DE ETHERCAT"
-        },
-        {
-          "data": "2026-07-06",
-          "inicio": "00:44",
-          "fim": "00:47",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "PISTÃO DE FREIO DAS BANDEJAS TRAVADO",
-          "obs": "",
-          "tag": "31954",
-          "componente": "PISTÃO DE TRAVAMENTO 03 DE BANDEJA ESTEIRA DE TRANSPORTE CADENA TP-BJ-5"
-        },
-        {
-          "data": "2026-07-06",
-          "inicio": "01:58",
-          "fim": "02:04",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-          "obs": "",
-          "tag": "FEL01",
-          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
-        },
-        {
-          "data": "2026-07-06",
-          "inicio": "13:33",
-          "fim": "13:41",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca de mola do cabeçote da armadora de caixas ",
-          "tag": "32127",
-          "componente": "CABEÇOTE FECH. DE CIAXAS VEGETAIS"
-        },
-        {
-          "data": "2026-07-06",
-          "inicio": "19:30",
-          "fim": "19:40",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": "falha no desempilhador, robô desceu com a bandeja com outra no P1",
-          "tag": "RB10",
-          "componente": "FALHA DO EMPILHADOR E DESEMPILHADOR"
-        }
-      ]
     }
   ],
   "turnos": {
     "Automação": {
       "1": 2.25,
-      "2": 2.7,
-      "3": 4.25
+      "2": 2.5333,
+      "3": 4.0667
     },
     "Elétrica": {
       "1": 8.1833,
@@ -1892,7 +1805,7 @@
       "3": 2.1667
     },
     "Mecânica": {
-      "1": 4.65,
+      "1": 4.5167,
       "2": 1.55,
       "3": 1.1333
     }
@@ -3050,62 +2963,6 @@
       ]
     },
     {
-      "tag": "20547",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
-      "equipamento": "MESPACK D",
-      "falhas": 3,
-      "horas": 0.4,
-      "por_turno": {
-        "1": {
-          "horas": 0.4,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-06",
-          "inicio": "07:53",
-          "fim": "08:04",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "AJUSTE NA RÉGUA",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-06",
-          "inicio": "08:18",
-          "fim": "08:23",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NA RÉGUA",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-06",
-          "inicio": "08:39",
-          "fim": "08:47",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "AJUSTE NA RÉGUA",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "31312",
       "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK F",
       "equipamento": "MESPACK F",
@@ -3162,19 +3019,19 @@
       ]
     },
     {
-      "tag": "20507",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
-      "equipamento": "MESPACK B",
-      "falhas": 2,
-      "horas": 0.1667,
+      "tag": "20547",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "equipamento": "MESPACK D",
+      "falhas": 3,
+      "horas": 0.4,
       "por_turno": {
         "1": {
-          "horas": 0.05,
-          "falhas": 1
+          "horas": 0.4,
+          "falhas": 3
         },
         "2": {
-          "horas": 0.1167,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,
@@ -3184,25 +3041,126 @@
       "ocorrencias": [
         {
           "data": "2026-07-06",
-          "inicio": "12:49",
-          "fim": "12:52",
+          "inicio": "07:53",
+          "fim": "08:04",
           "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AJUSTE NAS PINÇAS",
+          "horas": 0.1833,
+          "motivo": "AJUSTE NA RÉGUA",
           "obs": ""
         },
         {
           "data": "2026-07-06",
-          "inicio": "19:38",
-          "fim": "19:45",
-          "turno": 2,
+          "inicio": "08:18",
+          "fim": "08:23",
+          "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "AJUSTE NO PEGADOR",
+          "horas": 0.0833,
+          "motivo": "AJUSTE NA RÉGUA",
           "obs": ""
+        },
+        {
+          "data": "2026-07-06",
+          "inicio": "08:39",
+          "fim": "08:47",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE NA RÉGUA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31871",
+      "componente": "CORRENTE ESTEIRA TRANSPORTE CADENA TP-BJ-11",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 0.7333,
+      "por_turno": {
+        "1": {
+          "horas": 0.7333,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-06",
+          "inicio": "11:18",
+          "fim": "11:40",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "corrente cadena 11quebrada "
+        },
+        {
+          "data": "2026-07-06",
+          "inicio": "11:21",
+          "fim": "11:43",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "corrente da da cadena 11 quebrou"
+        }
+      ]
+    },
+    {
+      "tag": "32107",
+      "componente": "PAINEL ELETRICO ROBO DESEMPILHADOR",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 3.8333,
+      "por_turno": {
+        "1": {
+          "horas": 3.8333,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-06",
+          "inicio": "06:30",
+          "fim": "10:10",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 3.6667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "falha elétrica no conector do robô r 1"
+        },
+        {
+          "data": "2026-07-06",
+          "inicio": "10:03",
+          "fim": "10:13",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "foi tirado falha no robô 1"
         }
       ]
     },
@@ -3248,51 +3206,6 @@
           "horas": 0.8667,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "variação de temperatura elétrica "
-        }
-      ]
-    },
-    {
-      "tag": "20559",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK E ",
-      "equipamento": "MESPACK E",
-      "falhas": 2,
-      "horas": 2.2,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 2.2,
-          "falhas": 2
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-06",
-          "inicio": "01:18",
-          "fim": "01:49",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.5167,
-          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-06",
-          "inicio": "23:37",
-          "fim": "01:18",
-          "turno": 3,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 1.6833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "troca da resistência da mordaça superior traseira e dianteira e PT 100"
         }
       ]
     }
@@ -4780,31 +4693,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -4812,15 +4725,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 26.95,
-      "disponibilidade_pct": 90.5769,
-      "indisponibilidade_pct": 9.4231
+      "horas_paradas": 26.4667,
+      "disponibilidade_pct": 90.7459,
+      "indisponibilidade_pct": 9.2541
     },
     "departamentos": {
       "Elétrica": {
@@ -4831,15 +4744,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 7.3333,
-        "disponibilidade_pct": 97.4359,
-        "indisponibilidade_pct": 2.5641
+        "horas_paradas": 7.2,
+        "disponibilidade_pct": 97.4825,
+        "indisponibilidade_pct": 2.5175
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 9.2,
-        "disponibilidade_pct": 89.5455,
-        "indisponibilidade_pct": 10.4545
+        "horas_paradas": 8.85,
+        "disponibilidade_pct": 89.9432,
+        "indisponibilidade_pct": 10.0568
       }
     }
   },
@@ -4847,12 +4760,12 @@
     "mes": "julho",
     "ano": 2026,
     "ate": "2026-07-06",
-    "falhas": 660,
-    "horas_paradas": 118.6314,
+    "falhas": 642,
+    "horas_paradas": 113.398,
     "horas_disponiveis": 1430.0,
-    "mtbf_min": 119.2153,
-    "disponibilidade_pct": 91.7041,
-    "indisponibilidade_pct": 8.2959,
+    "mtbf_min": 123.0469,
+    "disponibilidade_pct": 92.0701,
+    "indisponibilidade_pct": 7.9299,
     "meta_mtbf": 300,
     "status": "abaixo"
   }

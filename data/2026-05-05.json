@@ -1,6 +1,6 @@
 {
   "date": "2026-05-05",
-  "updated_at": "2026-11-24T20:03",
+  "updated_at": "2026-11-24T20:18",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -864,106 +864,6 @@
           "obs": "",
           "tag": "ROBOTICA03",
           "componente": "FALTA DE GRELHA R1"
-        }
-      ]
-    },
-    {
-      "name": "ENCAIXOTAMENTO VEGETAIS",
-      "horas": 3.0333,
-      "horas_disponiveis": 22.0,
-      "falhas": 6,
-      "por_turno": {
-        "1": {
-          "horas": 0.6167,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 2.4167,
-          "falhas": 4
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-05",
-          "inicio": "08:37",
-          "fim": "08:39",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": "ENCAIXOTAMENTO AUTOMATICO VEGETAIS",
-          "tag": "TP-BJ4-L1",
-          "componente": "ESTEIRA DE TRANSPORTE CADENA TP-BJ4-L1"
-        },
-        {
-          "data": "2026-05-05",
-          "inicio": "08:48",
-          "fim": "09:23",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.5833,
-          "motivo": "TROCA VENTOSA ROBÔ",
-          "obs": "",
-          "tag": "32258",
-          "componente": "VENTOSA  ROBO ENCAIXOTAMENTO VEGETAIS LADO DIREITO"
-        },
-        {
-          "data": "2026-05-05",
-          "inicio": "15:55",
-          "fim": "16:18",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3833,
-          "motivo": "SACHÉ PRESO NA SELADORA",
-          "obs": "Problema na seladora, seladora Quebrada.",
-          "tag": "ARM01",
-          "componente": "ARMADORA DE CAIXA PACKFORM VEGETAIS"
-        },
-        {
-          "data": "2026-05-05",
-          "inicio": "16:28",
-          "fim": "16:35",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "SACHÉ PRESO NA SELADORA",
-          "obs": "ajuste na seladora ",
-          "tag": "ARM01",
-          "componente": "ARMADORA DE CAIXA PACKFORM VEGETAIS"
-        },
-        {
-          "data": "2026-05-05",
-          "inicio": "17:20",
-          "fim": "18:20",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 1.0,
-          "motivo": "GARRAS TRAVADAS",
-          "obs": "ENCAIXOTAMENTO AUTOMATICO VEGETAIS",
-          "tag": "32109",
-          "componente": "GARRA DE PEGAR BANDEJA ROBO DESEMPILHADOR"
-        },
-        {
-          "data": "2026-05-05",
-          "inicio": "21:35",
-          "fim": "22:30",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.9167,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "ENCAIXOTAMENTO AUTOMATICO VEGETAIS",
-          "tag": "ETH",
-          "componente": "ERRO DE ETHERCAT"
         }
       ]
     },
@@ -2257,6 +2157,41 @@
       ]
     },
     {
+      "name": "ENCAIXOTAMENTO VEGETAIS",
+      "horas": 1.0,
+      "horas_disponiveis": 22.0,
+      "falhas": 1,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.0,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-05-05",
+          "inicio": "17:20",
+          "fim": "18:20",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 1.0,
+          "motivo": "GARRAS TRAVADAS",
+          "obs": "ENCAIXOTAMENTO AUTOMATICO VEGETAIS",
+          "tag": "32109",
+          "componente": "GARRA DE PEGAR BANDEJA ROBO DESEMPILHADOR"
+        }
+      ]
+    },
+    {
       "name": "MESPACK A",
       "horas": 0.9167,
       "horas_disponiveis": 22.0,
@@ -2390,8 +2325,8 @@
   ],
   "turnos": {
     "Automação": {
-      "1": 3.15,
-      "2": 8.5903,
+      "1": 3.1167,
+      "2": 7.6736,
       "3": 4.6833
     },
     "Elétrica": {
@@ -2400,8 +2335,8 @@
       "3": 0.2333
     },
     "Mecânica": {
-      "1": 4.2333,
-      "2": 3.7,
+      "1": 3.65,
+      "2": 3.2,
       "3": 2.15
     }
   },
@@ -3633,73 +3568,6 @@
       ]
     },
     {
-      "tag": "31404",
-      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 4,
-      "horas": 1.25,
-      "por_turno": {
-        "1": {
-          "horas": 1.15,
-          "falhas": 3
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.1,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-05",
-          "inicio": "00:54",
-          "fim": "01:00",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "AJUSTE DE VENTOSAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-05-05",
-          "inicio": "06:53",
-          "fim": "07:07",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2333,
-          "motivo": "AJUSTE DE VENTOSAS",
-          "obs": "e troca das ventosa "
-        },
-        {
-          "data": "2026-05-05",
-          "inicio": "11:05",
-          "fim": "11:22",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2833,
-          "motivo": "AJUSTE DE VENTOSAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-05-05",
-          "inicio": "11:22",
-          "fim": "12:00",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.6333,
-          "motivo": "AJUSTE DE VENTOSAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "20367",
       "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
       "equipamento": "ENCHEDEIRA TOP DOWN",
@@ -3830,6 +3698,129 @@
           "horas": 0.1,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "verificando o mow briak"
+        }
+      ]
+    },
+    {
+      "tag": "31404",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 4,
+      "horas": 1.25,
+      "por_turno": {
+        "1": {
+          "horas": 1.15,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-05-05",
+          "inicio": "00:54",
+          "fim": "01:00",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-05",
+          "inicio": "06:53",
+          "fim": "07:07",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": "e troca das ventosa "
+        },
+        {
+          "data": "2026-05-05",
+          "inicio": "11:05",
+          "fim": "11:22",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-05",
+          "inicio": "11:22",
+          "fim": "12:00",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.6333,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "equipamento": "CONDOR",
+      "falhas": 3,
+      "horas": 0.3167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.2333,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-05-05",
+          "inicio": "07:15",
+          "fim": "07:20",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "aguardando mecânico "
+        },
+        {
+          "data": "2026-05-05",
+          "inicio": "18:40",
+          "fim": "18:50",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-05",
+          "inicio": "19:32",
+          "fim": "19:36",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
         }
       ]
     },
@@ -3998,62 +3989,6 @@
           "horas": 0.2,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "sem injet "
-        }
-      ]
-    },
-    {
-      "tag": "MECANICA01",
-      "componente": "AGUARDANDO MECANICO",
-      "equipamento": "CONDOR",
-      "falhas": 3,
-      "horas": 0.3167,
-      "por_turno": {
-        "1": {
-          "horas": 0.0833,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.2333,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-05",
-          "inicio": "07:15",
-          "fim": "07:20",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "aguardando mecânico "
-        },
-        {
-          "data": "2026-05-05",
-          "inicio": "18:40",
-          "fim": "18:50",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "AGUARDANDO MECÂNICO",
-          "obs": ""
-        },
-        {
-          "data": "2026-05-05",
-          "inicio": "19:32",
-          "fim": "19:36",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AGUARDANDO MECÂNICO",
-          "obs": ""
         }
       ]
     }
@@ -5366,40 +5301,6 @@
       ]
     },
     {
-      "tag": "ETH",
-      "componente": "ERRO DE ETHERCAT",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 1,
-      "horas": 0.9167,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.9167,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-05",
-          "inicio": "21:35",
-          "fim": "22:30",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.9167,
-          "motivo": "ERRO DE ETHERCAT",
-          "obs": "ENCAIXOTAMENTO AUTOMATICO VEGETAIS"
-        }
-      ]
-    },
-    {
       "tag": "20367",
       "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
       "equipamento": "ENCHEDEIRA TOP DOWN",
@@ -5634,51 +5535,6 @@
       ]
     },
     {
-      "tag": "20539",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK D ",
-      "equipamento": "MESPACK D",
-      "falhas": 2,
-      "horas": 0.6,
-      "por_turno": {
-        "1": {
-          "horas": 0.6,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-05",
-          "inicio": "07:30",
-          "fim": "07:39",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
-          "obs": "troca da mola do suplemento mecânico da mordaça "
-        },
-        {
-          "data": "2026-05-05",
-          "inicio": "09:43",
-          "fim": "10:10",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.45,
-          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "INK12",
       "componente": "INKJET RECRAVADEIRA CONDOR",
       "equipamento": "CONDOR",
@@ -5735,15 +5591,15 @@
       ]
     },
     {
-      "tag": "32258",
-      "componente": "VENTOSA  ROBO ENCAIXOTAMENTO VEGETAIS LADO DIREITO",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 1,
-      "horas": 0.5833,
+      "tag": "20539",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK D ",
+      "equipamento": "MESPACK D",
+      "falhas": 2,
+      "horas": 0.6,
       "por_turno": {
         "1": {
-          "horas": 0.5833,
-          "falhas": 1
+          "horas": 0.6,
+          "falhas": 2
         },
         "2": {
           "horas": 0.0,
@@ -5757,14 +5613,93 @@
       "ocorrencias": [
         {
           "data": "2026-05-05",
-          "inicio": "08:48",
-          "fim": "09:23",
+          "inicio": "07:30",
+          "fim": "07:39",
           "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.5833,
-          "motivo": "TROCA VENTOSA ROBÔ",
+          "horas": 0.15,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "obs": "troca da mola do suplemento mecânico da mordaça "
+        },
+        {
+          "data": "2026-05-05",
+          "inicio": "09:43",
+          "fim": "10:10",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.45,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
           "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20561",
+      "componente": "CONJUNTO DE SELAGEM DE RESFRIAMENTO INFERIOR MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 1,
+      "horas": 0.45,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.45,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-05-05",
+          "inicio": "17:57",
+          "fim": "18:24",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.45,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste na mordaça de resfriamento superior "
+        }
+      ]
+    },
+    {
+      "tag": "20560",
+      "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 1,
+      "horas": 0.4167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4167,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-05-05",
+          "inicio": "20:37",
+          "fim": "21:02",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da borracha da mordaça vertical "
         }
       ]
     }
@@ -5772,31 +5707,31 @@
   "evolucao_mensal": [
     {
       "mes": "março",
-      "falhas": 180
+      "falhas": 170
     },
     {
       "mes": "abril",
-      "falhas": 2228
+      "falhas": 2166
     },
     {
       "mes": "maio",
-      "falhas": 3154
+      "falhas": 3041
     },
     {
       "mes": "junho",
-      "falhas": 3283
+      "falhas": 3162
     },
     {
       "mes": "julho",
-      "falhas": 3645
+      "falhas": 3563
     },
     {
       "mes": "agosto",
-      "falhas": 3818
+      "falhas": 3743
     },
     {
       "mes": "setembro",
-      "falhas": 3676
+      "falhas": 3667
     },
     {
       "mes": "outubro",
@@ -5804,15 +5739,15 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2103
+      "falhas": 2094
     }
   ],
   "disponibilidade": {
     "geral": {
       "horas_disponiveis": 286.0,
-      "horas_paradas": 28.6236,
-      "disponibilidade_pct": 89.9917,
-      "indisponibilidade_pct": 10.0083
+      "horas_paradas": 26.5903,
+      "disponibilidade_pct": 90.7027,
+      "indisponibilidade_pct": 9.2973
     },
     "departamentos": {
       "Elétrica": {
@@ -5823,15 +5758,15 @@
       },
       "Mecânica": {
         "horas_disponiveis": 286.0,
-        "horas_paradas": 10.0833,
-        "disponibilidade_pct": 96.4744,
-        "indisponibilidade_pct": 3.5256
+        "horas_paradas": 9.0,
+        "disponibilidade_pct": 96.8531,
+        "indisponibilidade_pct": 3.1469
       },
       "Automação": {
         "horas_disponiveis": 88.0,
-        "horas_paradas": 16.4236,
-        "disponibilidade_pct": 81.3368,
-        "indisponibilidade_pct": 18.6632
+        "horas_paradas": 15.4736,
+        "disponibilidade_pct": 82.4164,
+        "indisponibilidade_pct": 17.5836
       }
     }
   },
@@ -5839,12 +5774,12 @@
     "mes": "maio",
     "ano": 2026,
     "ate": "2026-05-05",
-    "falhas": 354,
-    "horas_paradas": 63.3508,
+    "falhas": 342,
+    "horas_paradas": 58.6675,
     "horas_disponiveis": 572.0,
-    "mtbf_min": 86.2117,
-    "disponibilidade_pct": 88.9247,
-    "indisponibilidade_pct": 11.0753,
+    "mtbf_min": 90.0583,
+    "disponibilidade_pct": 89.7434,
+    "indisponibilidade_pct": 10.2566,
     "meta_mtbf": 300,
     "status": "abaixo"
   }
