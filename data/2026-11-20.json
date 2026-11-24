@@ -1,13 +1,13 @@
 {
   "date": "2026-11-20",
-  "updated_at": "2026-11-24T14:33",
+  "updated_at": "2026-11-24T17:03",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK R1",
       "horas": 5.8667,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 23.5,
       "falhas": 33,
       "por_turno": {
         "1": {
@@ -458,7 +458,7 @@
     {
       "name": "MESPACK R2",
       "horas": 3.5,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 23.5,
       "falhas": 22,
       "por_turno": {
         "1": {
@@ -766,7 +766,7 @@
     {
       "name": "MESPACK F",
       "horas": 2.1,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 23.0,
       "falhas": 19,
       "por_turno": {
         "1": {
@@ -1035,7 +1035,7 @@
     {
       "name": "MESPACK E",
       "horas": 1.9167,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 23.0,
       "falhas": 14,
       "por_turno": {
         "1": {
@@ -1379,8 +1379,8 @@
           "horas": 0.65,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "aguardando mecânico, polimento na placa [ laminação]",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "30777",
+          "componente": "CABEÇOTE SUPERIOR MOCOCA M3"
         },
         {
           "data": "2026-11-20",
@@ -1392,8 +1392,8 @@
           "horas": 0.45,
           "motivo": "AGUARDANDO MECÂNICO",
           "obs": "Mecânico priorizando 60l2 e Condor",
-          "tag": "",
-          "componente": "AGUARDANDO MECÂNICO"
+          "tag": "MECANICA01",
+          "componente": "AGUARDANDO MECANICO"
         },
         {
           "data": "2026-11-20",
@@ -1405,8 +1405,8 @@
           "horas": 0.1667,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "Polimento da placa",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "30777",
+          "componente": "CABEÇOTE SUPERIOR MOCOCA M3"
         }
       ]
     },
@@ -1440,8 +1440,8 @@
           "horas": 0.05,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "aguardando mecânico ",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "MECANICA01",
+          "componente": "AGUARDANDO MECANICO"
         },
         {
           "data": "2026-11-20",
@@ -1453,15 +1453,15 @@
           "horas": 1.05,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "manutenção mecânica \\ajuste recravadeira e ajuste cabeçote 5",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "30463",
+          "componente": "CABEÇOTE SUPERIOR 60L2"
         }
       ]
     },
     {
       "name": "MESPACK B",
       "horas": 1.05,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 23.5,
       "falhas": 8,
       "por_turno": {
         "1": {
@@ -1488,8 +1488,8 @@
           "horas": 0.0833,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "falha no sistema da planta ",
-          "tag": "",
-          "componente": "MANUTENÇÃO ELÉTRICA"
+          "tag": "PS03",
+          "componente": "PASTEURIZADOR A-B"
         },
         {
           "data": "2026-11-20",
@@ -1501,8 +1501,8 @@
           "horas": 0.1167,
           "motivo": "AJUSTE NAS PINÇAS",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NAS PINÇAS"
+          "tag": "20507",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK B "
         },
         {
           "data": "2026-11-20",
@@ -1514,8 +1514,8 @@
           "horas": 0.1,
           "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NO GUIA DE EMBALAGEM"
+          "tag": "20507",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK B "
         },
         {
           "data": "2026-11-20",
@@ -1527,8 +1527,8 @@
           "horas": 0.1667,
           "motivo": "AJUSTE NAS PINÇAS",
           "obs": "ajuste na régua móvel troca do Teflon ",
-          "tag": "",
-          "componente": "AJUSTE NAS PINÇAS"
+          "tag": "20507",
+          "componente": "CONJUNTO CARRO MOVEL MESPACK B "
         },
         {
           "data": "2026-11-20",
@@ -1540,8 +1540,8 @@
           "horas": 0.1,
           "motivo": "AJUSTE NO PERFURADOR",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NO PERFURADOR"
+          "tag": "20496",
+          "componente": "CONJUNTO DESBOBINADOR MESPACK B "
         },
         {
           "data": "2026-11-20",
@@ -1553,8 +1553,8 @@
           "horas": 0.2833,
           "motivo": "LIMPEZA ELETROVÁLVULA",
           "obs": "bicos 1 2 e 3",
-          "tag": "",
-          "componente": "LIMPEZA ELETROVÁLVULA"
+          "tag": "20512",
+          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B"
         },
         {
           "data": "2026-11-20",
@@ -1566,8 +1566,8 @@
           "horas": 0.1333,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "troca da faca do perfurador ",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "20496",
+          "componente": "CONJUNTO DESBOBINADOR MESPACK B "
         },
         {
           "data": "2026-11-20",
@@ -1579,15 +1579,15 @@
           "horas": 0.0667,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste perfurador de embalagem ",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "20496",
+          "componente": "CONJUNTO DESBOBINADOR MESPACK B "
         }
       ]
     },
     {
       "name": "MESPACK D",
       "horas": 0.9833,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 23.0,
       "falhas": 4,
       "por_turno": {
         "1": {
@@ -1661,7 +1661,7 @@
     {
       "name": "CONDOR",
       "horas": 0.9333,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 21.5,
       "falhas": 4,
       "por_turno": {
         "1": {
@@ -1688,8 +1688,8 @@
           "horas": 0.15,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "retirada de latas amassada da recravadeira devido o guia de tampas falhar ",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "30787",
+          "componente": "CABEÇOTE SUPERIOR CONDOR 2KG"
         },
         {
           "data": "2026-11-20",
@@ -1701,8 +1701,8 @@
           "horas": 0.4,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste no guia de tampas ",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "30787",
+          "componente": "CABEÇOTE SUPERIOR CONDOR 2KG"
         },
         {
           "data": "2026-11-20",
@@ -1714,8 +1714,8 @@
           "horas": 0.3,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "tampa presa na recravadeira ",
-          "tag": "",
-          "componente": "MANUTENÇÃO MECÂNICA"
+          "tag": "30787",
+          "componente": "CABEÇOTE SUPERIOR CONDOR 2KG"
         },
         {
           "data": "2026-11-20",
@@ -1727,15 +1727,15 @@
           "horas": 0.0833,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "ajuste no sensor da enchedeira ",
-          "tag": "",
-          "componente": "MANUTENÇÃO ELÉTRICA"
+          "tag": "31038",
+          "componente": "MOTOR ELETRICO ESTEIRA DE ALIMENTAÇÃO MOCOCAS E RECRAVADEIRA CONDOR 2KG"
         }
       ]
     },
     {
       "name": "MESPACK C",
       "horas": 0.7333,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 23.0,
       "falhas": 2,
       "por_turno": {
         "1": {
@@ -1783,7 +1783,7 @@
     {
       "name": "MESPACK A",
       "horas": 0.35,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 23.5,
       "falhas": 1,
       "por_turno": {
         "1": {
@@ -1810,8 +1810,8 @@
           "horas": 0.35,
           "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
           "obs": "",
-          "tag": "",
-          "componente": "AJUSTE NA MORDAÇA SUPERIOR"
+          "tag": "20479",
+          "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A "
         }
       ]
     },
@@ -1973,8 +1973,866 @@
       "3": 3.75
     }
   },
-  "top_falhas": [],
-  "parada_componentes": [],
+  "top_falhas": [
+    {
+      "tag": "20496",
+      "componente": "CONJUNTO DESBOBINADOR MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 3,
+      "horas": 0.3,
+      "por_turno": {
+        "1": {
+          "horas": 0.1,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.2,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "14:20",
+          "fim": "14:26",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NO PERFURADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-20",
+          "inicio": "23:18",
+          "fim": "23:26",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da faca do perfurador "
+        },
+        {
+          "data": "2026-11-20",
+          "inicio": "23:38",
+          "fim": "23:42",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste perfurador de embalagem "
+        }
+      ]
+    },
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 3,
+      "horas": 0.3833,
+      "por_turno": {
+        "1": {
+          "horas": 0.3833,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "06:48",
+          "fim": "06:55",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-20",
+          "inicio": "07:26",
+          "fim": "07:32",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-20",
+          "inicio": "07:42",
+          "fim": "07:52",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "ajuste na régua móvel troca do Teflon "
+        }
+      ]
+    },
+    {
+      "tag": "30787",
+      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
+      "equipamento": "CONDOR",
+      "falhas": 3,
+      "horas": 0.85,
+      "por_turno": {
+        "1": {
+          "horas": 0.55,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.3,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "09:28",
+          "fim": "09:37",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "retirada de latas amassada da recravadeira devido o guia de tampas falhar "
+        },
+        {
+          "data": "2026-11-20",
+          "inicio": "12:18",
+          "fim": "12:42",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no guia de tampas "
+        },
+        {
+          "data": "2026-11-20",
+          "inicio": "18:00",
+          "fim": "18:18",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "tampa presa na recravadeira "
+        }
+      ]
+    },
+    {
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "equipamento": "60L2",
+      "falhas": 2,
+      "horas": 0.5,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.45,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.05,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "00:13",
+          "fim": "00:16",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "aguardando mecânico "
+        },
+        {
+          "data": "2026-11-20",
+          "inicio": "18:15",
+          "fim": "18:42",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.45,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": "Mecânico priorizando 60l2 e Condor"
+        }
+      ]
+    },
+    {
+      "tag": "30777",
+      "componente": "CABEÇOTE SUPERIOR MOCOCA M3",
+      "equipamento": "ENCHEDEIRA COPO/LATA",
+      "falhas": 2,
+      "horas": 0.8167,
+      "por_turno": {
+        "1": {
+          "horas": 0.65,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "13:35",
+          "fim": "14:14",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.65,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "aguardando mecânico, polimento na placa [ laminação]"
+        },
+        {
+          "data": "2026-11-20",
+          "inicio": "18:42",
+          "fim": "18:52",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Polimento da placa"
+        }
+      ]
+    },
+    {
+      "tag": "20479",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A ",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.35,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.35,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "22:43",
+          "fim": "23:04",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.35,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "30463",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
+      "equipamento": "60L2",
+      "falhas": 1,
+      "horas": 1.05,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.05,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "17:32",
+          "fim": "18:35",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção mecânica \\ajuste recravadeira e ajuste cabeçote 5"
+        }
+      ]
+    },
+    {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.2833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "19:47",
+          "fim": "20:04",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "LIMPEZA ELETROVÁLVULA",
+          "obs": "bicos 1 2 e 3"
+        }
+      ]
+    },
+    {
+      "tag": "31038",
+      "componente": "MOTOR ELETRICO ESTEIRA DE ALIMENTAÇÃO MOCOCAS E RECRAVADEIRA CONDOR 2KG",
+      "equipamento": "CONDOR",
+      "falhas": 1,
+      "horas": 0.0833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "18:20",
+          "fim": "18:25",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no sensor da enchedeira "
+        }
+      ]
+    },
+    {
+      "tag": "PS03",
+      "componente": "PASTEURIZADOR A-B",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.0833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0833,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "06:15",
+          "fim": "06:20",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "falha no sistema da planta "
+        }
+      ]
+    }
+  ],
+  "parada_componentes": [
+    {
+      "tag": "30463",
+      "componente": "CABEÇOTE SUPERIOR 60L2",
+      "equipamento": "60L2",
+      "falhas": 1,
+      "horas": 1.05,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 1.05,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "17:32",
+          "fim": "18:35",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "manutenção mecânica \\ajuste recravadeira e ajuste cabeçote 5"
+        }
+      ]
+    },
+    {
+      "tag": "30787",
+      "componente": "CABEÇOTE SUPERIOR CONDOR 2KG",
+      "equipamento": "CONDOR",
+      "falhas": 3,
+      "horas": 0.85,
+      "por_turno": {
+        "1": {
+          "horas": 0.55,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.3,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "09:28",
+          "fim": "09:37",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "retirada de latas amassada da recravadeira devido o guia de tampas falhar "
+        },
+        {
+          "data": "2026-11-20",
+          "inicio": "12:18",
+          "fim": "12:42",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no guia de tampas "
+        },
+        {
+          "data": "2026-11-20",
+          "inicio": "18:00",
+          "fim": "18:18",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "tampa presa na recravadeira "
+        }
+      ]
+    },
+    {
+      "tag": "30777",
+      "componente": "CABEÇOTE SUPERIOR MOCOCA M3",
+      "equipamento": "ENCHEDEIRA COPO/LATA",
+      "falhas": 2,
+      "horas": 0.8167,
+      "por_turno": {
+        "1": {
+          "horas": 0.65,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.1667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "13:35",
+          "fim": "14:14",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.65,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "aguardando mecânico, polimento na placa [ laminação]"
+        },
+        {
+          "data": "2026-11-20",
+          "inicio": "18:42",
+          "fim": "18:52",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Polimento da placa"
+        }
+      ]
+    },
+    {
+      "tag": "MECANICA01",
+      "componente": "AGUARDANDO MECANICO",
+      "equipamento": "60L2",
+      "falhas": 2,
+      "horas": 0.5,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.45,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.05,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "00:13",
+          "fim": "00:16",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "aguardando mecânico "
+        },
+        {
+          "data": "2026-11-20",
+          "inicio": "18:15",
+          "fim": "18:42",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.45,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": "Mecânico priorizando 60l2 e Condor"
+        }
+      ]
+    },
+    {
+      "tag": "20507",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 3,
+      "horas": 0.3833,
+      "por_turno": {
+        "1": {
+          "horas": 0.3833,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "06:48",
+          "fim": "06:55",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-20",
+          "inicio": "07:26",
+          "fim": "07:32",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-20",
+          "inicio": "07:42",
+          "fim": "07:52",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "ajuste na régua móvel troca do Teflon "
+        }
+      ]
+    },
+    {
+      "tag": "20479",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK A ",
+      "equipamento": "MESPACK A",
+      "falhas": 1,
+      "horas": 0.35,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.35,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "22:43",
+          "fim": "23:04",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.35,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20496",
+      "componente": "CONJUNTO DESBOBINADOR MESPACK B ",
+      "equipamento": "MESPACK B",
+      "falhas": 3,
+      "horas": 0.3,
+      "por_turno": {
+        "1": {
+          "horas": 0.1,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.2,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "14:20",
+          "fim": "14:26",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NO PERFURADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-20",
+          "inicio": "23:18",
+          "fim": "23:26",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da faca do perfurador "
+        },
+        {
+          "data": "2026-11-20",
+          "inicio": "23:38",
+          "fim": "23:42",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste perfurador de embalagem "
+        }
+      ]
+    },
+    {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.2833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "19:47",
+          "fim": "20:04",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "LIMPEZA ELETROVÁLVULA",
+          "obs": "bicos 1 2 e 3"
+        }
+      ]
+    },
+    {
+      "tag": "31038",
+      "componente": "MOTOR ELETRICO ESTEIRA DE ALIMENTAÇÃO MOCOCAS E RECRAVADEIRA CONDOR 2KG",
+      "equipamento": "CONDOR",
+      "falhas": 1,
+      "horas": 0.0833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "18:20",
+          "fim": "18:25",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "ajuste no sensor da enchedeira "
+        }
+      ]
+    },
+    {
+      "tag": "PS03",
+      "componente": "PASTEURIZADOR A-B",
+      "equipamento": "MESPACK B",
+      "falhas": 1,
+      "horas": 0.0833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0833,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-20",
+          "inicio": "06:15",
+          "fim": "06:20",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "falha no sistema da planta "
+        }
+      ]
+    }
+  ],
   "evolucao_mensal": [
     {
       "mes": "março",
@@ -2015,29 +2873,29 @@
   ],
   "disponibilidade": {
     "geral": {
-      "horas_disponiveis": 286.0,
+      "horas_disponiveis": 251.5,
       "horas_paradas": 21.7963,
-      "disponibilidade_pct": 92.3789,
-      "indisponibilidade_pct": 7.6211
+      "disponibilidade_pct": 91.3335,
+      "indisponibilidade_pct": 8.6665
     },
     "departamentos": {
       "Elétrica": {
-        "horas_disponiveis": 286.0,
+        "horas_disponiveis": 251.5,
         "horas_paradas": 4.9333,
-        "disponibilidade_pct": 98.2751,
-        "indisponibilidade_pct": 1.7249
+        "disponibilidade_pct": 98.0384,
+        "indisponibilidade_pct": 1.9616
       },
       "Mecânica": {
-        "horas_disponiveis": 286.0,
+        "horas_disponiveis": 251.5,
         "horas_paradas": 11.0167,
-        "disponibilidade_pct": 96.148,
-        "indisponibilidade_pct": 3.852
+        "disponibilidade_pct": 95.6196,
+        "indisponibilidade_pct": 4.3804
       },
       "Automação": {
-        "horas_disponiveis": 88.0,
+        "horas_disponiveis": 93.0,
         "horas_paradas": 5.8463,
-        "disponibilidade_pct": 93.3564,
-        "indisponibilidade_pct": 6.6436
+        "disponibilidade_pct": 93.7136,
+        "indisponibilidade_pct": 6.2864
       }
     }
   },
@@ -2047,10 +2905,10 @@
     "ate": "2026-11-20",
     "falhas": 1851,
     "horas_paradas": 346.2357,
-    "horas_disponiveis": 3382.0,
-    "mtbf_min": 98.404,
-    "disponibilidade_pct": 89.7624,
-    "indisponibilidade_pct": 10.2376,
+    "horas_disponiveis": 3633.5,
+    "mtbf_min": 106.5564,
+    "disponibilidade_pct": 90.471,
+    "indisponibilidade_pct": 9.529,
     "meta_mtbf": 300,
     "status": "abaixo"
   }
