@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updated_at": "2026-11-25T11:33",
+  "updated_at": "2026-11-25T11:48",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1560,8 +1560,8 @@
           "horas": 0.0667,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "ROBOTICA04",
-          "componente": "FALTA DE GRELHA R2"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-08-27",
@@ -3546,16 +3546,16 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 22,
-      "horas": 2.8667,
+      "falhas": 21,
+      "horas": 2.8,
       "por_turno": {
         "1": {
           "horas": 0.95,
           "falhas": 10
         },
         "2": {
-          "horas": 1.5333,
-          "falhas": 9
+          "horas": 1.4667,
+          "falhas": 8
         },
         "3": {
           "horas": 0.3833,
@@ -3759,17 +3759,6 @@
           "falhas": 1,
           "horas": 0.2667,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-27",
-          "inicio": "18:03",
-          "fim": "18:07",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -4385,6 +4374,62 @@
       ]
     },
     {
+      "tag": "31191",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 3,
+      "horas": 0.6667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.5833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0833,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-27",
+          "inicio": "03:37",
+          "fim": "03:42",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-27",
+          "inicio": "15:11",
+          "fim": "15:19",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-27",
+          "inicio": "17:05",
+          "fim": "17:32",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.45,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "serviço de solda na base superior da ventosa 4"
+        }
+      ]
+    },
+    {
       "tag": "20572",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK E",
       "equipamento": "MESPACK E",
@@ -4549,62 +4594,6 @@
           "horas": 0.1667,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "repasse do segundo turno máquina parada aguardando elétrica "
-        }
-      ]
-    },
-    {
-      "tag": "EST01",
-      "componente": "ESTEIRA TALISCADA MESPACK E",
-      "equipamento": "MESPACK E",
-      "falhas": 3,
-      "horas": 0.4333,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.4333,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-27",
-          "inicio": "16:44",
-          "fim": "16:48",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "ajuste na esteira talescada "
-        },
-        {
-          "data": "2026-08-27",
-          "inicio": "16:48",
-          "fim": "17:01",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste no tobogã saída mespack "
-        },
-        {
-          "data": "2026-08-27",
-          "inicio": "19:01",
-          "fim": "19:10",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste no guia do tobogã "
         }
       ]
     }
@@ -5243,16 +5232,16 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 22,
-      "horas": 2.8667,
+      "falhas": 21,
+      "horas": 2.8,
       "por_turno": {
         "1": {
           "horas": 0.95,
           "falhas": 10
         },
         "2": {
-          "horas": 1.5333,
-          "falhas": 9
+          "horas": 1.4667,
+          "falhas": 8
         },
         "3": {
           "horas": 0.3833,
@@ -5456,17 +5445,6 @@
           "falhas": 1,
           "horas": 0.2667,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-27",
-          "inicio": "18:03",
-          "fim": "18:07",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -6514,7 +6492,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -6542,7 +6520,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {

@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updated_at": "2026-11-25T11:33",
+  "updated_at": "2026-11-25T11:48",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -190,8 +190,8 @@
           "horas": 0.0833,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "ROBOTICA04",
-          "componente": "FALTA DE GRELHA R2"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-08-23",
@@ -1395,16 +1395,16 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 15,
-      "horas": 2.6504,
+      "falhas": 14,
+      "horas": 2.567,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 2.5504,
-          "falhas": 14
+          "horas": 2.467,
+          "falhas": 13
         },
         "3": {
           "horas": 0.1,
@@ -1487,17 +1487,6 @@
           "falhas": 1,
           "horas": 0.6,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-23",
-          "inicio": "18:27",
-          "fim": "18:32",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -2124,6 +2113,62 @@
       ]
     },
     {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "equipamento": "MESPACK B",
+      "falhas": 3,
+      "horas": 0.55,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.55,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-23",
+          "inicio": "15:44",
+          "fim": "15:55",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza na eletrovalvula "
+        },
+        {
+          "data": "2026-08-23",
+          "inicio": "15:57",
+          "fim": "16:05",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do bico 03"
+        },
+        {
+          "data": "2026-08-23",
+          "inicio": "19:42",
+          "fim": "19:56",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza na eletrovalvula "
+        }
+      ]
+    },
+    {
       "tag": "MECANICA01",
       "componente": "AGUARDANDO MECANICO",
       "equipamento": "MESPACK A",
@@ -2236,62 +2281,6 @@
       ]
     },
     {
-      "tag": "20512",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
-      "equipamento": "MESPACK B",
-      "falhas": 3,
-      "horas": 0.55,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.55,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-23",
-          "inicio": "15:44",
-          "fim": "15:55",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "limpeza na eletrovalvula "
-        },
-        {
-          "data": "2026-08-23",
-          "inicio": "15:57",
-          "fim": "16:05",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca do bico 03"
-        },
-        {
-          "data": "2026-08-23",
-          "inicio": "19:42",
-          "fim": "19:56",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "limpeza na eletrovalvula "
-        }
-      ]
-    },
-    {
       "tag": "31394",
       "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK R2",
       "equipamento": "MESPACK R2",
@@ -2382,46 +2371,46 @@
       ]
     },
     {
-      "tag": "RB09",
-      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
-      "equipamento": "MESPACK R1",
+      "tag": "IDX-04",
+      "componente": "ESTEIRA INDEXIDAORA DE SASHE R2",
+      "equipamento": "MESPACK R2",
       "falhas": 2,
-      "horas": 0.1833,
+      "horas": 0.4667,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.0667,
-          "falhas": 1
+          "horas": 0.4667,
+          "falhas": 2
         },
         "3": {
-          "horas": 0.1167,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         }
       },
       "ocorrencias": [
         {
           "data": "2026-08-23",
-          "inicio": "05:31",
-          "fim": "05:38",
-          "turno": 3,
+          "inicio": "21:24",
+          "fim": "21:43",
+          "turno": 2,
           "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "horas": 0.3167,
+          "motivo": "REFAZEAMENTO DO LAGARTO",
           "obs": ""
         },
         {
           "data": "2026-08-23",
-          "inicio": "22:21",
-          "fim": "22:25",
+          "inicio": "22:26",
+          "fim": "22:35",
           "turno": 2,
           "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "ROBO EMPILHADOR EM FALHA",
+          "horas": 0.15,
+          "motivo": "REFAZEAMENTO DO LAGARTO",
           "obs": ""
         }
       ]
@@ -2477,16 +2466,16 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 15,
-      "horas": 2.6504,
+      "falhas": 14,
+      "horas": 2.567,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 2.5504,
-          "falhas": 14
+          "horas": 2.467,
+          "falhas": 13
         },
         "3": {
           "horas": 0.1,
@@ -2569,17 +2558,6 @@
           "falhas": 1,
           "horas": 0.6,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-23",
-          "inicio": "18:27",
-          "fim": "18:32",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -3518,7 +3496,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -3546,7 +3524,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {

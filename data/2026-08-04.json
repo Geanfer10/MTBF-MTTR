@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "updated_at": "2026-11-25T11:33",
+  "updated_at": "2026-11-25T11:48",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -437,8 +437,8 @@
           "horas": 0.0333,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "ROBOTICA04",
-          "componente": "FALTA DE GRELHA R2"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-08-04",
@@ -1659,16 +1659,16 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 34,
-      "horas": 3.5125,
+      "falhas": 33,
+      "horas": 3.4792,
       "por_turno": {
         "1": {
           "horas": 1.3958,
           "falhas": 12
         },
         "2": {
-          "horas": 1.2667,
-          "falhas": 15
+          "horas": 1.2333,
+          "falhas": 14
         },
         "3": {
           "horas": 0.85,
@@ -1938,17 +1938,6 @@
           "falhas": 1,
           "horas": 0.0333,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-04",
-          "inicio": "17:48",
-          "fim": "17:50",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -2519,118 +2508,6 @@
       ]
     },
     {
-      "tag": "31404",
-      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 3,
-      "horas": 0.2,
-      "por_turno": {
-        "1": {
-          "horas": 0.0333,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.1667,
-          "falhas": 2
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-04",
-          "inicio": "08:09",
-          "fim": "08:11",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "TROCA DE VENTOSAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-04",
-          "inicio": "23:46",
-          "fim": "23:50",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "TROCA DE VENTOSAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-04",
-          "inicio": "23:56",
-          "fim": "00:02",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca das ventosas e ajuste de pinça "
-        }
-      ]
-    },
-    {
-      "tag": "30777",
-      "componente": "CABEÇOTE SUPERIOR MOCOCA M3",
-      "equipamento": "ENCHEDEIRA COPO/LATA",
-      "falhas": 3,
-      "horas": 0.1833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.0833,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.1,
-          "falhas": 2
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-04",
-          "inicio": "03:18",
-          "fim": "03:21",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-04",
-          "inicio": "16:34",
-          "fim": "16:39",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento na placa e ajuste no cabeçote superior "
-        },
-        {
-          "data": "2026-08-04",
-          "inicio": "23:12",
-          "fim": "23:15",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "MECANICA01",
       "componente": "AGUARDANDO MECANICO",
       "equipamento": "ENCHEDEIRA COPO/LATA",
@@ -2743,47 +2620,159 @@
       ]
     },
     {
-      "tag": "20562",
-      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK E ",
-      "equipamento": "MESPACK E",
-      "falhas": 2,
-      "horas": 0.1167,
+      "tag": "30777",
+      "componente": "CABEÇOTE SUPERIOR MOCOCA M3",
+      "equipamento": "ENCHEDEIRA COPO/LATA",
+      "falhas": 3,
+      "horas": 0.1833,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.0833,
+          "falhas": 1
         },
         "3": {
-          "horas": 0.1167,
+          "horas": 0.1,
           "falhas": 2
         }
       },
       "ocorrencias": [
         {
           "data": "2026-08-04",
-          "inicio": "03:33",
-          "fim": "03:36",
+          "inicio": "03:18",
+          "fim": "03:21",
           "turno": 3,
-          "departamento": "Elétrica",
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "Calibragem de fotocélula "
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
         },
         {
           "data": "2026-08-04",
-          "inicio": "04:06",
-          "fim": "04:10",
+          "inicio": "16:34",
+          "fim": "16:39",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento na placa e ajuste no cabeçote superior "
+        },
+        {
+          "data": "2026-08-04",
+          "inicio": "23:12",
+          "fim": "23:15",
           "turno": 3,
-          "departamento": "Elétrica",
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31404",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 3,
+      "horas": 0.2,
+      "por_turno": {
+        "1": {
+          "horas": 0.0333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1667,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-04",
+          "inicio": "08:09",
+          "fim": "08:11",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "TROCA DE VENTOSAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-04",
+          "inicio": "23:46",
+          "fim": "23:50",
+          "turno": 3,
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0667,
+          "motivo": "TROCA DE VENTOSAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-04",
+          "inicio": "23:56",
+          "fim": "00:02",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca das ventosas e ajuste de pinça "
+        }
+      ]
+    },
+    {
+      "tag": "31929",
+      "componente": "SISTEMA DE SENSORES ELEVADOR DE BANDEJA TF-BJ-3",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 0.7667,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.7667,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-04",
+          "inicio": "21:19",
+          "fim": "21:39",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.3333,
           "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "calibragem no sensor de fotocélula do desbobinador "
+          "obs": "bandeja travada no sensor "
+        },
+        {
+          "data": "2026-08-04",
+          "inicio": "21:21",
+          "fim": "21:47",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.4333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "carrinho de bandeja encavalou no sensor "
         }
       ]
     },
@@ -2833,18 +2822,18 @@
       ]
     },
     {
-      "tag": "20482",
-      "componente": "CONJUNTO DE ARRASTE DE EMBALAGEM MESPACK A ",
-      "equipamento": "MESPACK C",
+      "tag": "20539",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK D ",
+      "equipamento": "MESPACK D",
       "falhas": 2,
-      "horas": 0.3,
+      "horas": 0.8167,
       "por_turno": {
         "1": {
-          "horas": 0.2,
+          "horas": 0.4333,
           "falhas": 1
         },
         "2": {
-          "horas": 0.1,
+          "horas": 0.3833,
           "falhas": 1
         },
         "3": {
@@ -2855,25 +2844,25 @@
       "ocorrencias": [
         {
           "data": "2026-08-04",
-          "inicio": "14:33",
-          "fim": "14:45",
+          "inicio": "08:23",
+          "fim": "08:49",
           "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.2,
-          "motivo": "AJUSTE NO ARRASTE",
+          "horas": 0.4333,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
           "obs": ""
         },
         {
           "data": "2026-08-04",
-          "inicio": "15:12",
-          "fim": "15:18",
+          "inicio": "20:31",
+          "fim": "20:54",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1,
-          "motivo": "AJUSTE NO ARRASTE",
-          "obs": ""
+          "horas": 0.3833,
+          "motivo": "AJUSTE NA MORDAÇA INFERIOR",
+          "obs": "troca de mola da mordaça "
         }
       ]
     }
@@ -2883,16 +2872,16 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 34,
-      "horas": 3.5125,
+      "falhas": 33,
+      "horas": 3.4792,
       "por_turno": {
         "1": {
           "horas": 1.3958,
           "falhas": 12
         },
         "2": {
-          "horas": 1.2667,
-          "falhas": 15
+          "horas": 1.2333,
+          "falhas": 14
         },
         "3": {
           "horas": 0.85,
@@ -3162,17 +3151,6 @@
           "falhas": 1,
           "horas": 0.0333,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-04",
-          "inicio": "17:48",
-          "fim": "17:50",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -4189,7 +4167,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -4217,7 +4195,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {

@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "updated_at": "2026-11-25T11:33",
+  "updated_at": "2026-11-25T11:48",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -307,8 +307,8 @@
           "horas": 0.0333,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "ROBOTICA04",
-          "componente": "FALTA DE GRELHA R2"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-08-28",
@@ -2262,12 +2262,12 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 24,
-      "horas": 3.3333,
+      "falhas": 23,
+      "horas": 3.3,
       "por_turno": {
         "1": {
-          "horas": 1.0333,
-          "falhas": 14
+          "horas": 1.0,
+          "falhas": 13
         },
         "2": {
           "horas": 0.9667,
@@ -2442,17 +2442,6 @@
           "falhas": 1,
           "horas": 0.15,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-28",
-          "inicio": "13:44",
-          "fim": "13:46",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -3200,6 +3189,84 @@
       ]
     },
     {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 5,
+      "horas": 0.3333,
+      "por_turno": {
+        "1": {
+          "horas": 0.1167,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.2167,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-28",
+          "inicio": "06:44",
+          "fim": "06:47",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-28",
+          "inicio": "07:48",
+          "fim": "07:52",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-28",
+          "inicio": "15:05",
+          "fim": "15:10",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-28",
+          "inicio": "15:24",
+          "fim": "15:29",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-28",
+          "inicio": "15:30",
+          "fim": "15:33",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "31198",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R1",
       "equipamento": "MESPACK R1",
@@ -3356,84 +3423,6 @@
       ]
     },
     {
-      "tag": "31194",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
-      "equipamento": "MESPACK R1",
-      "falhas": 5,
-      "horas": 0.3333,
-      "por_turno": {
-        "1": {
-          "horas": 0.1167,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.2167,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-28",
-          "inicio": "06:44",
-          "fim": "06:47",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-28",
-          "inicio": "07:48",
-          "fim": "07:52",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-28",
-          "inicio": "15:05",
-          "fim": "15:10",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-28",
-          "inicio": "15:24",
-          "fim": "15:29",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-28",
-          "inicio": "15:30",
-          "fim": "15:33",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "31314",
       "componente": "CONJUNTO CARRO MOVEL MESPACK F",
       "equipamento": "MESPACK F",
@@ -3557,58 +3546,58 @@
       ]
     },
     {
-      "tag": "20564",
-      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK E ",
-      "equipamento": "MESPACK E",
+      "tag": "INK06",
+      "componente": "INKJET MESPACK F",
+      "equipamento": "MESPACK F",
       "falhas": 3,
-      "horas": 0.5833,
+      "horas": 1.45,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 1.45,
+          "falhas": 3
         },
         "3": {
-          "horas": 0.5833,
-          "falhas": 3
+          "horas": 0.0,
+          "falhas": 0
         }
       },
       "ocorrencias": [
         {
           "data": "2026-08-28",
-          "inicio": "00:20",
-          "fim": "00:50",
-          "turno": 3,
-          "departamento": "Mecânica",
+          "inicio": "15:02",
+          "fim": "15:10",
+          "turno": 2,
+          "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.5,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "Ajuste nas pinça e nas ventosas "
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza no canhão de inkjet "
         },
         {
           "data": "2026-08-28",
-          "inicio": "02:57",
-          "fim": "02:59",
-          "turno": 3,
-          "departamento": "Mecânica",
+          "inicio": "15:15",
+          "fim": "15:29",
+          "turno": 2,
+          "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "AJUSTE DE VENTOSAS",
-          "obs": ""
+          "horas": 0.2333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "limpeza no canhão de inkjet "
         },
         {
           "data": "2026-08-28",
-          "inicio": "04:40",
-          "fim": "04:43",
-          "turno": 3,
-          "departamento": "Mecânica",
+          "inicio": "18:50",
+          "fim": "19:55",
+          "turno": 2,
+          "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AJUSTE DE VENTOSAS",
-          "obs": ""
+          "horas": 1.0833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "troca do canhão de inkjet "
         }
       ]
     }
@@ -3618,12 +3607,12 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 24,
-      "horas": 3.3333,
+      "falhas": 23,
+      "horas": 3.3,
       "por_turno": {
         "1": {
-          "horas": 1.0333,
-          "falhas": 14
+          "horas": 1.0,
+          "falhas": 13
         },
         "2": {
           "horas": 0.9667,
@@ -3798,17 +3787,6 @@
           "falhas": 1,
           "horas": 0.15,
           "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-28",
-          "inicio": "13:44",
-          "fim": "13:46",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -4902,7 +4880,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -4930,7 +4908,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {

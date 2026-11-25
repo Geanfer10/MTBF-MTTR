@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "updated_at": "2026-11-25T11:33",
+  "updated_at": "2026-11-25T11:48",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -641,8 +641,8 @@
           "horas": 0.05,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "ROBOTICA04",
-          "componente": "FALTA DE GRELHA R2"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-08-12",
@@ -2910,293 +2910,6 @@
       ]
     },
     {
-      "tag": "ROBOTICA04",
-      "componente": "FALTA DE GRELHA R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 24,
-      "horas": 3.6,
-      "por_turno": {
-        "1": {
-          "horas": 0.9667,
-          "falhas": 5
-        },
-        "2": {
-          "horas": 1.6833,
-          "falhas": 11
-        },
-        "3": {
-          "horas": 0.95,
-          "falhas": 8
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-12",
-          "inicio": "00:44",
-          "fim": "00:48",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "00:58",
-          "fim": "01:04",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "03:47",
-          "fim": "03:55",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "04:16",
-          "fim": "04:25",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "06:19",
-          "fim": "06:30",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "07:30",
-          "fim": "07:36",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "08:49",
-          "fim": "08:52",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "09:23",
-          "fim": "09:29",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "09:34",
-          "fim": "09:49",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.25,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "10:08",
-          "fim": "10:36",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.4667,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": "troca do sensor do trasferidor do robô 1"
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "15:05",
-          "fim": "15:07",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "15:16",
-          "fim": "15:19",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "15:43",
-          "fim": "15:50",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "17:53",
-          "fim": "18:00",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "18:12",
-          "fim": "18:20",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "19:04",
-          "fim": "19:10",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "19:38",
-          "fim": "19:44",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "19:48",
-          "fim": "20:12",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.4,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "20:22",
-          "fim": "20:31",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.15,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "20:55",
-          "fim": "21:01",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "21:59",
-          "fim": "22:22",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.3833,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "23:27",
-          "fim": "23:38",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "23:44",
-          "fim": "23:47",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "23:50",
-          "fim": "23:55",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "ROBOTICA03",
       "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
@@ -3469,6 +3182,282 @@
           "horas": 0.1,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": "falta de grelha e troca de teflon"
+        }
+      ]
+    },
+    {
+      "tag": "ROBOTICA04",
+      "componente": "FALTA DE GRELHA R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 23,
+      "horas": 3.55,
+      "por_turno": {
+        "1": {
+          "horas": 0.9167,
+          "falhas": 4
+        },
+        "2": {
+          "horas": 1.6833,
+          "falhas": 11
+        },
+        "3": {
+          "horas": 0.95,
+          "falhas": 8
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-12",
+          "inicio": "00:44",
+          "fim": "00:48",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "00:58",
+          "fim": "01:04",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "03:47",
+          "fim": "03:55",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "04:16",
+          "fim": "04:25",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "06:19",
+          "fim": "06:30",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "07:30",
+          "fim": "07:36",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "09:23",
+          "fim": "09:29",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "09:34",
+          "fim": "09:49",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.25,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "10:08",
+          "fim": "10:36",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.4667,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": "troca do sensor do trasferidor do robô 1"
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "15:05",
+          "fim": "15:07",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "15:16",
+          "fim": "15:19",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "15:43",
+          "fim": "15:50",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "17:53",
+          "fim": "18:00",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "18:12",
+          "fim": "18:20",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "19:04",
+          "fim": "19:10",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "19:38",
+          "fim": "19:44",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "19:48",
+          "fim": "20:12",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.4,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "20:22",
+          "fim": "20:31",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.15,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "20:55",
+          "fim": "21:01",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "21:59",
+          "fim": "22:22",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.3833,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "23:27",
+          "fim": "23:38",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "23:44",
+          "fim": "23:47",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "23:50",
+          "fim": "23:55",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
+          "obs": ""
         }
       ]
     },
@@ -4050,6 +4039,62 @@
       ]
     },
     {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "equipamento": "MESPACK B",
+      "falhas": 3,
+      "horas": 0.4833,
+      "por_turno": {
+        "1": {
+          "horas": 0.1833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.3,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-12",
+          "inicio": "01:07",
+          "fim": "01:19",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "TROCA DE BICO",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "05:20",
+          "fim": "05:26",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "LIMPEZA ELETROVÁLVULA",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-12",
+          "inicio": "07:35",
+          "fim": "07:46",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "TROCA DE BICO",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "MECANICA01",
       "componente": "AGUARDANDO MECANICO",
       "equipamento": "MESPACK B",
@@ -4162,62 +4207,6 @@
       ]
     },
     {
-      "tag": "20512",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
-      "equipamento": "MESPACK B",
-      "falhas": 3,
-      "horas": 0.4833,
-      "por_turno": {
-        "1": {
-          "horas": 0.1833,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.3,
-          "falhas": 2
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-12",
-          "inicio": "01:07",
-          "fim": "01:19",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2,
-          "motivo": "TROCA DE BICO",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "05:20",
-          "fim": "05:26",
-          "turno": 3,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "LIMPEZA ELETROVÁLVULA",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "07:35",
-          "fim": "07:46",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "TROCA DE BICO",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "32003",
       "componente": "CORRENTE ESTEIRA TRANSPORTE CADENA TP-BJ3-L1",
       "equipamento": "MESPACK R1",
@@ -4268,12 +4257,12 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 24,
-      "horas": 3.6,
+      "falhas": 23,
+      "horas": 3.55,
       "por_turno": {
         "1": {
-          "horas": 0.9667,
-          "falhas": 5
+          "horas": 0.9167,
+          "falhas": 4
         },
         "2": {
           "horas": 1.6833,
@@ -4349,17 +4338,6 @@
           "falhas": 1,
           "horas": 0.1,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-12",
-          "inicio": "08:49",
-          "fim": "08:52",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -6146,7 +6124,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -6174,7 +6152,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {

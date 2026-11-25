@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "updated_at": "2026-11-25T11:33",
+  "updated_at": "2026-11-25T11:48",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -60,8 +60,8 @@
           "horas": 0.0333,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "ROBOTICA04",
-          "componente": "FALTA DE GRELHA R2"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-08-01",
@@ -1209,12 +1209,12 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 18,
-      "horas": 3.0,
+      "falhas": 17,
+      "horas": 2.9667,
       "por_turno": {
         "1": {
-          "horas": 0.4167,
-          "falhas": 5
+          "horas": 0.3833,
+          "falhas": 4
         },
         "2": {
           "horas": 2.5833,
@@ -1246,17 +1246,6 @@
           "falhas": 1,
           "horas": 0.1667,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-01",
-          "inicio": "11:46",
-          "fim": "11:48",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -1782,6 +1771,51 @@
       ]
     },
     {
+      "tag": "31191",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 0.1,
+      "por_turno": {
+        "1": {
+          "horas": 0.0333,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-01",
+          "inicio": "13:35",
+          "fim": "13:37",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-08-01",
+          "inicio": "17:44",
+          "fim": "17:48",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "TROCA DE VENTOSAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "20567",
       "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
       "equipamento": "MESPACK E",
@@ -1917,51 +1951,6 @@
       ]
     },
     {
-      "tag": "20512",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
-      "equipamento": "MESPACK B",
-      "falhas": 2,
-      "horas": 0.4833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.4833,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-01",
-          "inicio": "16:44",
-          "fim": "16:48",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "troca de regulador de fluxo do pistão "
-        },
-        {
-          "data": "2026-08-01",
-          "inicio": "18:30",
-          "fim": "18:55",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.4167,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "troca da mangueira da Válvula de produto "
-        }
-      ]
-    },
-    {
       "tag": "20367",
       "componente": "DOSADOR VOLUMETRICO ROTATIVO ENCHEDEIRA TOPDOWN",
       "equipamento": "ENCHEDEIRA TOP DOWN",
@@ -2007,6 +1996,51 @@
       ]
     },
     {
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "equipamento": "MESPACK B",
+      "falhas": 2,
+      "horas": 0.4833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.4833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-08-01",
+          "inicio": "16:44",
+          "fim": "16:48",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "troca de regulador de fluxo do pistão "
+        },
+        {
+          "data": "2026-08-01",
+          "inicio": "18:30",
+          "fim": "18:55",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.4167,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "troca da mangueira da Válvula de produto "
+        }
+      ]
+    },
+    {
       "tag": "20503",
       "componente": "CONJUNTO DE FACAS MESPACK B ",
       "equipamento": "MESPACK B",
@@ -2048,51 +2082,6 @@
           "horas": 0.2333,
           "motivo": "AJUSTE DE FACA",
           "obs": "troca de bobina "
-        }
-      ]
-    },
-    {
-      "tag": "31191",
-      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
-      "equipamento": "MESPACK R1",
-      "falhas": 2,
-      "horas": 0.1,
-      "por_turno": {
-        "1": {
-          "horas": 0.0333,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.0667,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-08-01",
-          "inicio": "13:35",
-          "fim": "13:37",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "AJUSTE DE VENTOSAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-01",
-          "inicio": "17:44",
-          "fim": "17:48",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "TROCA DE VENTOSAS",
-          "obs": ""
         }
       ]
     },
@@ -2147,12 +2136,12 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 18,
-      "horas": 3.0,
+      "falhas": 17,
+      "horas": 2.9667,
       "por_turno": {
         "1": {
-          "horas": 0.4167,
-          "falhas": 5
+          "horas": 0.3833,
+          "falhas": 4
         },
         "2": {
           "horas": 2.5833,
@@ -2184,17 +2173,6 @@
           "falhas": 1,
           "horas": 0.1667,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-08-01",
-          "inicio": "11:46",
-          "fim": "11:48",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -3156,7 +3134,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -3184,7 +3162,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {

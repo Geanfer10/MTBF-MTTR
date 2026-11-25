@@ -1,6 +1,6 @@
 {
   "date": "2026-07-09",
-  "updated_at": "2026-11-25T11:33",
+  "updated_at": "2026-11-25T11:47",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -1122,8 +1122,8 @@
           "horas": 0.1167,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "ROBOTICA04",
-          "componente": "FALTA DE GRELHA R2"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-07-09",
@@ -2637,16 +2637,16 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 28,
-      "horas": 2.7667,
+      "falhas": 27,
+      "horas": 2.65,
       "por_turno": {
         "1": {
           "horas": 0.9167,
           "falhas": 10
         },
         "2": {
-          "horas": 1.1667,
-          "falhas": 12
+          "horas": 1.05,
+          "falhas": 11
         },
         "3": {
           "horas": 0.6833,
@@ -2927,17 +2927,6 @@
           "falhas": 1,
           "horas": 0.1,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-09",
-          "inicio": "21:52",
-          "fim": "21:59",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -3720,6 +3709,51 @@
       ]
     },
     {
+      "tag": "20565",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 2,
+      "horas": 0.5,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.5,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-09",
+          "inicio": "03:04",
+          "fim": "03:12",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-07-09",
+          "inicio": "03:22",
+          "fim": "03:44",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3667,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "TP10",
       "componente": "ESTEIRA TRANSPORTE ATM TP10",
       "equipamento": "MESPACK E",
@@ -3806,51 +3840,6 @@
           "horas": 0.4167,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "foi feito o home da esteira de saída (embalagem estava prendendo muito na esteira tobogã)"
-        }
-      ]
-    },
-    {
-      "tag": "31407",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 2,
-      "horas": 0.1667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.1667,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-09",
-          "inicio": "22:10",
-          "fim": "22:14",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-09",
-          "inicio": "22:31",
-          "fim": "22:37",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
         }
       ]
     }
@@ -4235,16 +4224,16 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 28,
-      "horas": 2.7667,
+      "falhas": 27,
+      "horas": 2.65,
       "por_turno": {
         "1": {
           "horas": 0.9167,
           "falhas": 10
         },
         "2": {
-          "horas": 1.1667,
-          "falhas": 12
+          "horas": 1.05,
+          "falhas": 11
         },
         "3": {
           "horas": 0.6833,
@@ -4525,17 +4514,6 @@
           "falhas": 1,
           "horas": 0.1,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-09",
-          "inicio": "21:52",
-          "fim": "21:59",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -5562,7 +5540,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -5590,7 +5568,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {

@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "updated_at": "2026-11-25T11:33",
+  "updated_at": "2026-11-25T11:48",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -945,8 +945,8 @@
           "horas": 0.0333,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "",
-          "componente": "ALARME DE PRESSÃO DO LUBRIFICADOR"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-11-21",
@@ -2591,84 +2591,6 @@
       ]
     },
     {
-      "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO MESPACK E",
-      "equipamento": "MESPACK E",
-      "falhas": 5,
-      "horas": 0.3,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.2167,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0833,
-          "falhas": 2
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-11-21",
-          "inicio": "05:38",
-          "fim": "05:40",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-11-21",
-          "inicio": "17:24",
-          "fim": "17:28",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-11-21",
-          "inicio": "17:40",
-          "fim": "17:45",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-11-21",
-          "inicio": "19:38",
-          "fim": "19:42",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-11-21",
-          "inicio": "23:18",
-          "fim": "23:21",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "RB09",
       "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
       "equipamento": "MESPACK R2",
@@ -2747,69 +2669,80 @@
       ]
     },
     {
-      "tag": "INK10",
-      "componente": "INKJET RECRAVADEIRA 60L1",
-      "equipamento": "60L1",
-      "falhas": 4,
-      "horas": 1.1667,
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "equipamento": "MESPACK E",
+      "falhas": 5,
+      "horas": 0.3,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 1.0333,
+          "horas": 0.2167,
           "falhas": 3
         },
         "3": {
-          "horas": 0.1333,
-          "falhas": 1
+          "horas": 0.0833,
+          "falhas": 2
         }
       },
       "ocorrencias": [
         {
           "data": "2026-11-21",
-          "inicio": "16:00",
-          "fim": "16:08",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "latas passando sem indjet "
-        },
-        {
-          "data": "2026-11-21",
-          "inicio": "16:15",
-          "fim": "16:32",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.2833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "latas passando sem indjet "
-        },
-        {
-          "data": "2026-11-21",
-          "inicio": "17:05",
-          "fim": "17:42",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.6167,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "latas passando sem indjet (troca de monitor)"
-        },
-        {
-          "data": "2026-11-21",
-          "inicio": "23:34",
-          "fim": "23:42",
+          "inicio": "05:38",
+          "fim": "05:40",
           "turno": 3,
-          "departamento": "Elétrica",
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "Falta de solvente."
+          "horas": 0.0333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-21",
+          "inicio": "17:24",
+          "fim": "17:28",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-21",
+          "inicio": "17:40",
+          "fim": "17:45",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-21",
+          "inicio": "19:38",
+          "fim": "19:42",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-21",
+          "inicio": "23:18",
+          "fim": "23:21",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
         }
       ]
     },
@@ -2881,58 +2814,69 @@
       ]
     },
     {
-      "tag": "20388",
-      "componente": "CABECOTE ARRASTE SUPERIOR ROTULADEIRA TOPDOWN",
-      "equipamento": "ENCHEDEIRA TOP DOWN",
-      "falhas": 3,
-      "horas": 0.9167,
+      "tag": "INK10",
+      "componente": "INKJET RECRAVADEIRA 60L1",
+      "equipamento": "60L1",
+      "falhas": 4,
+      "horas": 1.1667,
       "por_turno": {
         "1": {
           "horas": 0.0,
           "falhas": 0
         },
         "2": {
-          "horas": 0.1167,
-          "falhas": 1
+          "horas": 1.0333,
+          "falhas": 3
         },
         "3": {
-          "horas": 0.8,
-          "falhas": 2
+          "horas": 0.1333,
+          "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-11-21",
-          "inicio": "04:00",
-          "fim": "04:28",
-          "turno": 3,
-          "departamento": "Mecânica",
+          "inicio": "16:00",
+          "fim": "16:08",
+          "turno": 2,
+          "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.4667,
-          "motivo": "AGUARDANDO MECÂNICO",
-          "obs": ""
+          "horas": 0.1333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "latas passando sem indjet "
         },
         {
           "data": "2026-11-21",
-          "inicio": "04:00",
-          "fim": "04:20",
+          "inicio": "16:15",
+          "fim": "16:32",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "latas passando sem indjet "
+        },
+        {
+          "data": "2026-11-21",
+          "inicio": "17:05",
+          "fim": "17:42",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.6167,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "latas passando sem indjet (troca de monitor)"
+        },
+        {
+          "data": "2026-11-21",
+          "inicio": "23:34",
+          "fim": "23:42",
           "turno": 3,
           "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.3333,
+          "horas": 0.1333,
           "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": ""
-        },
-        {
-          "data": "2026-11-21",
-          "inicio": "15:23",
-          "fim": "15:30",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste de pressão dos bicos da enchedeira"
+          "obs": "Falta de solvente."
         }
       ]
     },
@@ -2989,6 +2933,62 @@
           "horas": 0.2333,
           "motivo": "BICO DOSADOR ENTUPIDO",
           "obs": "bico 2"
+        }
+      ]
+    },
+    {
+      "tag": "20388",
+      "componente": "CABECOTE ARRASTE SUPERIOR ROTULADEIRA TOPDOWN",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 3,
+      "horas": 0.9167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.1167,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.8,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-11-21",
+          "inicio": "04:00",
+          "fim": "04:28",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4667,
+          "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-21",
+          "inicio": "04:00",
+          "fim": "04:20",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.3333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-11-21",
+          "inicio": "15:23",
+          "fim": "15:30",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste de pressão dos bicos da enchedeira"
         }
       ]
     }
@@ -4153,9 +4153,9 @@
       ]
     },
     {
-      "tag": "31191",
-      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
-      "equipamento": "MESPACK R1",
+      "tag": "20512",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK B",
+      "equipamento": "MESPACK B",
       "falhas": 2,
       "horas": 0.4,
       "por_turno": {
@@ -4164,36 +4164,36 @@
           "falhas": 0
         },
         "2": {
-          "horas": 0.25,
+          "horas": 0.35,
           "falhas": 1
         },
         "3": {
-          "horas": 0.15,
+          "horas": 0.05,
           "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-11-21",
-          "inicio": "22:10",
-          "fim": "22:25",
+          "inicio": "17:20",
+          "fim": "17:41",
           "turno": 2,
-          "departamento": "Mecânica",
+          "departamento": "Elétrica",
           "falhas": 1,
-          "horas": 0.25,
-          "motivo": "AJUSTE DE VENTOSAS",
+          "horas": 0.35,
+          "motivo": "LIMPEZA ELETROVÁLVULA",
           "obs": ""
         },
         {
           "data": "2026-11-21",
-          "inicio": "23:42",
-          "fim": "23:51",
+          "inicio": "23:20",
+          "fim": "23:23",
           "turno": 3,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.15,
-          "motivo": "TROCA DE VENTOSAS",
-          "obs": ""
+          "horas": 0.05,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste no bico"
         }
       ]
     }
@@ -4205,7 +4205,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -4233,7 +4233,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {

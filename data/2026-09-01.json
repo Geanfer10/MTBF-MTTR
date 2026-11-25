@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updated_at": "2026-11-25T11:33",
+  "updated_at": "2026-11-25T11:48",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -407,8 +407,8 @@
           "horas": 0.0333,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "ROBOTICA04",
-          "componente": "FALTA DE GRELHA R2"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-09-01",
@@ -2752,8 +2752,8 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 34,
-      "horas": 3.2667,
+      "falhas": 33,
+      "horas": 3.2333,
       "por_turno": {
         "1": {
           "horas": 1.5167,
@@ -2764,22 +2764,11 @@
           "falhas": 8
         },
         "3": {
-          "horas": 0.9667,
-          "falhas": 9
+          "horas": 0.9333,
+          "falhas": 8
         }
       },
       "ocorrencias": [
-        {
-          "data": "2026-09-01",
-          "inicio": "00:06",
-          "fim": "00:08",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
-          "obs": ""
-        },
         {
           "data": "2026-09-01",
           "inicio": "00:18",
@@ -4122,6 +4111,51 @@
       ]
     },
     {
+      "tag": "IDX-03",
+      "componente": "ESTEIRA INDEXADORA DE SASHE R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 0.35,
+      "por_turno": {
+        "1": {
+          "horas": 0.35,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-01",
+          "inicio": "07:09",
+          "fim": "07:27",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.3,
+          "motivo": "REFAZEAMENTO DO LAGARTO",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-01",
+          "inicio": "07:56",
+          "fim": "07:59",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "REFAZEAMENTO DO LAGARTO",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "INK09",
       "componente": "INKJET ROTULADEIRA TOPDONW",
       "equipamento": "ENCHEDEIRA TOP DOWN",
@@ -4163,51 +4197,6 @@
           "horas": 0.1667,
           "motivo": "MANUTENÇÃO ELÉTRICA",
           "obs": "ajuste na datadora "
-        }
-      ]
-    },
-    {
-      "tag": "31411",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 2,
-      "horas": 0.1833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.1833,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-09-01",
-          "inicio": "16:09",
-          "fim": "16:13",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE NA PRESÃO DE DOSAGEM ",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-01",
-          "inicio": "19:36",
-          "fim": "19:43",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": "e ajuste bico dosador 1 "
         }
       ]
     }
@@ -4317,8 +4306,8 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 34,
-      "horas": 3.2667,
+      "falhas": 33,
+      "horas": 3.2333,
       "por_turno": {
         "1": {
           "horas": 1.5167,
@@ -4329,22 +4318,11 @@
           "falhas": 8
         },
         "3": {
-          "horas": 0.9667,
-          "falhas": 9
+          "horas": 0.9333,
+          "falhas": 8
         }
       },
       "ocorrencias": [
-        {
-          "data": "2026-09-01",
-          "inicio": "00:06",
-          "fim": "00:08",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
-          "obs": ""
-        },
         {
           "data": "2026-09-01",
           "inicio": "00:18",
@@ -6205,7 +6183,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -6233,7 +6211,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {

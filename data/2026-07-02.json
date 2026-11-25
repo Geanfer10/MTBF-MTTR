@@ -1,6 +1,6 @@
 {
   "date": "2026-07-02",
-  "updated_at": "2026-11-25T11:33",
+  "updated_at": "2026-11-25T11:47",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -247,8 +247,8 @@
           "horas": 0.0333,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "ROBOTICA04",
-          "componente": "FALTA DE GRELHA R2"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-07-02",
@@ -2067,8 +2067,8 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 37,
-      "horas": 4.7,
+      "falhas": 36,
+      "horas": 4.6667,
       "por_turno": {
         "1": {
           "horas": 1.25,
@@ -2079,8 +2079,8 @@
           "falhas": 12
         },
         "3": {
-          "horas": 0.8167,
-          "falhas": 10
+          "horas": 0.7833,
+          "falhas": 9
         }
       },
       "ocorrencias": [
@@ -2104,17 +2104,6 @@
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-02",
-          "inicio": "00:40",
-          "fim": "00:42",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -3415,51 +3404,6 @@
       ]
     },
     {
-      "tag": "20391",
-      "componente": "ESTEIRA TRANSPORTE DE FRASCOS ROTULADEIRA TOPDOWN",
-      "equipamento": "ENCHEDEIRA TOP DOWN",
-      "falhas": 2,
-      "horas": 0.3,
-      "por_turno": {
-        "1": {
-          "horas": 0.3,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-02",
-          "inicio": "08:11",
-          "fim": "08:24",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste na esteira de transporte."
-        },
-        {
-          "data": "2026-07-02",
-          "inicio": "10:39",
-          "fim": "10:44",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NA SELADORA",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "PS04",
       "componente": "PASTEURIZADOR C-D",
       "equipamento": "MESPACK C",
@@ -3505,19 +3449,19 @@
       ]
     },
     {
-      "tag": "31407",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
-      "equipamento": "MESPACK R2",
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "equipamento": "MESPACK R1",
       "falhas": 2,
-      "horas": 0.1167,
+      "horas": 0.1,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.1,
+          "falhas": 2
         },
         "2": {
-          "horas": 0.1167,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 0
         },
         "3": {
           "horas": 0.0,
@@ -3527,9 +3471,9 @@
       "ocorrencias": [
         {
           "data": "2026-07-02",
-          "inicio": "16:12",
-          "fim": "16:15",
-          "turno": 2,
+          "inicio": "08:11",
+          "fim": "08:14",
+          "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.05,
@@ -3538,13 +3482,58 @@
         },
         {
           "data": "2026-07-02",
-          "inicio": "17:57",
-          "fim": "18:01",
-          "turno": 2,
+          "inicio": "08:28",
+          "fim": "08:31",
+          "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE NAS PINÇAS",
+          "horas": 0.05,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20391",
+      "componente": "ESTEIRA TRANSPORTE DE FRASCOS ROTULADEIRA TOPDOWN",
+      "equipamento": "ENCHEDEIRA TOP DOWN",
+      "falhas": 2,
+      "horas": 0.3,
+      "por_turno": {
+        "1": {
+          "horas": 0.3,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-02",
+          "inicio": "08:11",
+          "fim": "08:24",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste na esteira de transporte."
+        },
+        {
+          "data": "2026-07-02",
+          "inicio": "10:39",
+          "fim": "10:44",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NA SELADORA",
           "obs": ""
         }
       ]
@@ -3600,8 +3589,8 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 37,
-      "horas": 4.7,
+      "falhas": 36,
+      "horas": 4.6667,
       "por_turno": {
         "1": {
           "horas": 1.25,
@@ -3612,8 +3601,8 @@
           "falhas": 12
         },
         "3": {
-          "horas": 0.8167,
-          "falhas": 10
+          "horas": 0.7833,
+          "falhas": 9
         }
       },
       "ocorrencias": [
@@ -3637,17 +3626,6 @@
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-02",
-          "inicio": "00:40",
-          "fim": "00:42",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -5106,19 +5084,19 @@
       ]
     },
     {
-      "tag": "RB09",
-      "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
-      "equipamento": "MESPACK R1",
+      "tag": "20547",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK D ",
+      "equipamento": "MESPACK D",
       "falhas": 2,
       "horas": 0.2667,
       "por_turno": {
         "1": {
-          "horas": 0.0833,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "2": {
-          "horas": 0.1833,
-          "falhas": 1
+          "horas": 0.2667,
+          "falhas": 2
         },
         "3": {
           "horas": 0.0,
@@ -5128,25 +5106,25 @@
       "ocorrencias": [
         {
           "data": "2026-07-02",
-          "inicio": "14:28",
-          "fim": "14:33",
-          "turno": 1,
-          "departamento": "Automação",
+          "inicio": "18:04",
+          "fim": "18:10",
+          "turno": 2,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "carro móvel fora do ponto"
         },
         {
           "data": "2026-07-02",
-          "inicio": "21:19",
-          "fim": "21:30",
+          "inicio": "20:11",
+          "fim": "20:21",
           "turno": 2,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "ROBO EMPILHADOR EM FALHA",
-          "obs": ""
+          "horas": 0.1667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "carro movel fora do ponto"
         }
       ]
     }
@@ -5158,7 +5136,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -5186,7 +5164,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {

@@ -1,6 +1,6 @@
 {
   "date": "2026-07-21",
-  "updated_at": "2026-11-25T11:33",
+  "updated_at": "2026-11-25T11:48",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -706,8 +706,8 @@
           "horas": 0.0333,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "ROBOTICA04",
-          "componente": "FALTA DE GRELHA R2"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-07-21",
@@ -2751,8 +2751,8 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 37,
-      "horas": 3.8,
+      "falhas": 36,
+      "horas": 3.7667,
       "por_turno": {
         "1": {
           "horas": 1.3167,
@@ -2763,8 +2763,8 @@
           "falhas": 12
         },
         "3": {
-          "horas": 0.95,
-          "falhas": 11
+          "horas": 0.9167,
+          "falhas": 10
         }
       },
       "ocorrencias": [
@@ -2832,17 +2832,6 @@
           "falhas": 1,
           "horas": 0.0667,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-21",
-          "inicio": "05:08",
-          "fim": "05:10",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -3810,6 +3799,96 @@
       ]
     },
     {
+      "tag": "31399",
+      "componente": "CONJUNTO DE FACAS MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 2,
+      "horas": 0.45,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.45,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-21",
+          "inicio": "16:33",
+          "fim": "16:35",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "AJUSTE DE FACA",
+          "obs": ""
+        },
+        {
+          "data": "2026-07-21",
+          "inicio": "16:48",
+          "fim": "17:13",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4167,
+          "motivo": "TROCA DE FACA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "30433",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
+      "equipamento": "60L1",
+      "falhas": 2,
+      "horas": 0.2833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2833,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-21",
+          "inicio": "17:05",
+          "fim": "17:11",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento placa 5"
+        },
+        {
+          "data": "2026-07-21",
+          "inicio": "17:49",
+          "fim": "18:00",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "lata amassada (polimento da placa 4"
+        }
+      ]
+    },
+    {
       "tag": "20519",
       "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
       "equipamento": "MESPACK C",
@@ -3941,96 +4020,6 @@
           "horas": 0.1,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste nos sensores de entradae saída."
-        }
-      ]
-    },
-    {
-      "tag": "31399",
-      "componente": "CONJUNTO DE FACAS MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 2,
-      "horas": 0.45,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.45,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-21",
-          "inicio": "16:33",
-          "fim": "16:35",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "AJUSTE DE FACA",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-21",
-          "inicio": "16:48",
-          "fim": "17:13",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.4167,
-          "motivo": "TROCA DE FACA",
-          "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "30433",
-      "componente": "CABEÇOTE SUPERIOR 60L1",
-      "equipamento": "60L1",
-      "falhas": 2,
-      "horas": 0.2833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.2833,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-21",
-          "inicio": "17:05",
-          "fim": "17:11",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento placa 5"
-        },
-        {
-          "data": "2026-07-21",
-          "inicio": "17:49",
-          "fim": "18:00",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "lata amassada (polimento da placa 4"
         }
       ]
     }
@@ -4481,8 +4470,8 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 37,
-      "horas": 3.8,
+      "falhas": 36,
+      "horas": 3.7667,
       "por_turno": {
         "1": {
           "horas": 1.3167,
@@ -4493,8 +4482,8 @@
           "falhas": 12
         },
         "3": {
-          "horas": 0.95,
-          "falhas": 11
+          "horas": 0.9167,
+          "falhas": 10
         }
       },
       "ocorrencias": [
@@ -4562,17 +4551,6 @@
           "falhas": 1,
           "horas": 0.0667,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-21",
-          "inicio": "05:08",
-          "fim": "05:10",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -5778,10 +5756,10 @@
       ]
     },
     {
-      "tag": "32180",
-      "componente": "CONJUNTO DE SUPORTE VENTOSA ROBO ENTRAGA DE SACHE MESPACK E",
-      "equipamento": "MESPACK E",
-      "falhas": 1,
+      "tag": "30433",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
+      "equipamento": "60L1",
+      "falhas": 2,
       "horas": 0.2833,
       "por_turno": {
         "1": {
@@ -5790,7 +5768,7 @@
         },
         "2": {
           "horas": 0.2833,
-          "falhas": 1
+          "falhas": 2
         },
         "3": {
           "horas": 0.0,
@@ -5800,14 +5778,25 @@
       "ocorrencias": [
         {
           "data": "2026-07-21",
-          "inicio": "15:03",
-          "fim": "15:20",
+          "inicio": "17:05",
+          "fim": "17:11",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.2833,
+          "horas": 0.1,
           "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca de suporte da ventosa e 2 pares de ventosas"
+          "obs": "polimento placa 5"
+        },
+        {
+          "data": "2026-07-21",
+          "inicio": "17:49",
+          "fim": "18:00",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "lata amassada (polimento da placa 4"
         }
       ]
     }
@@ -5819,7 +5808,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -5847,7 +5836,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {

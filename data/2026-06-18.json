@@ -1,6 +1,6 @@
 {
   "date": "2026-06-18",
-  "updated_at": "2026-11-25T11:32",
+  "updated_at": "2026-11-25T11:47",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -927,8 +927,8 @@
           "horas": 0.0333,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "ROBOTICA04",
-          "componente": "FALTA DE GRELHA R2"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-06-18",
@@ -940,8 +940,8 @@
           "horas": 0.0333,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "ROBOTICA04",
-          "componente": "FALTA DE GRELHA R2"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-06-18",
@@ -2314,16 +2314,16 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 35,
-      "horas": 3.5167,
+      "falhas": 33,
+      "horas": 3.45,
       "por_turno": {
         "1": {
           "horas": 1.3833,
           "falhas": 13
         },
         "2": {
-          "horas": 1.1167,
-          "falhas": 13
+          "horas": 1.05,
+          "falhas": 11
         },
         "3": {
           "horas": 1.0167,
@@ -2604,28 +2604,6 @@
           "falhas": 1,
           "horas": 0.1167,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-18",
-          "inicio": "19:32",
-          "fim": "19:34",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-18",
-          "inicio": "19:46",
-          "fim": "19:48",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -3493,6 +3471,73 @@
       ]
     },
     {
+      "tag": "31192",
+      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK R1",
+      "equipamento": "MESPACK F",
+      "falhas": 4,
+      "horas": 0.45,
+      "por_turno": {
+        "1": {
+          "horas": 0.0667,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.3833,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-18",
+          "inicio": "08:45",
+          "fim": "08:49",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-18",
+          "inicio": "15:22",
+          "fim": "15:33",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-18",
+          "inicio": "15:44",
+          "fim": "15:48",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE DO ESTICADOR",
+          "obs": "e ajuste na mordaça vertical "
+        },
+        {
+          "data": "2026-06-18",
+          "inicio": "18:50",
+          "fim": "18:58",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": "e ajuste do Esticador "
+        }
+      ]
+    },
+    {
       "tag": "20560",
       "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK E ",
       "equipamento": "MESPACK E",
@@ -3627,73 +3672,6 @@
       ]
     },
     {
-      "tag": "31192",
-      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK R1",
-      "equipamento": "MESPACK F",
-      "falhas": 4,
-      "horas": 0.45,
-      "por_turno": {
-        "1": {
-          "horas": 0.0667,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.3833,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-18",
-          "inicio": "08:45",
-          "fim": "08:49",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE DO ESTICADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-18",
-          "inicio": "15:22",
-          "fim": "15:33",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "AJUSTE DO ESTICADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-18",
-          "inicio": "15:44",
-          "fim": "15:48",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE DO ESTICADOR",
-          "obs": "e ajuste na mordaça vertical "
-        },
-        {
-          "data": "2026-06-18",
-          "inicio": "18:50",
-          "fim": "18:58",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": "e ajuste do Esticador "
-        }
-      ]
-    },
-    {
       "tag": "20567",
       "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
       "equipamento": "MESPACK E",
@@ -3750,57 +3728,57 @@
       ]
     },
     {
-      "tag": "FEL01",
-      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
-      "equipamento": "MESPACK R2",
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "equipamento": "MESPACK R1",
       "falhas": 3,
-      "horas": 0.1833,
+      "horas": 0.6167,
       "por_turno": {
         "1": {
-          "horas": 0.15,
-          "falhas": 2
+          "horas": 0.4667,
+          "falhas": 1
         },
         "2": {
-          "horas": 0.0333,
+          "horas": 0.1167,
           "falhas": 1
         },
         "3": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.0333,
+          "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-06-18",
-          "inicio": "10:39",
-          "fim": "10:44",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-18",
-          "inicio": "10:41",
-          "fim": "10:45",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-18",
-          "inicio": "15:15",
-          "fim": "15:17",
-          "turno": 2,
-          "departamento": "Automação",
+          "inicio": "01:25",
+          "fim": "01:27",
+          "turno": 3,
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.0333,
-          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-18",
+          "inicio": "14:22",
+          "fim": "14:50",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-18",
+          "inicio": "22:05",
+          "fim": "22:12",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "AJUSTE NAS PINÇAS",
           "obs": ""
         }
       ]
@@ -3862,57 +3840,57 @@
       ]
     },
     {
-      "tag": "20487",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
-      "equipamento": "MESPACK A",
+      "tag": "FEL01",
+      "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
+      "equipamento": "MESPACK R2",
       "falhas": 3,
-      "horas": 0.6667,
+      "horas": 0.1833,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.15,
+          "falhas": 2
         },
         "2": {
-          "horas": 0.2,
+          "horas": 0.0333,
           "falhas": 1
         },
         "3": {
-          "horas": 0.4667,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 0
         }
       },
       "ocorrencias": [
         {
           "data": "2026-06-18",
-          "inicio": "03:47",
-          "fim": "03:55",
-          "turno": 3,
-          "departamento": "Mecânica",
+          "inicio": "10:39",
+          "fim": "10:44",
+          "turno": 1,
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste na pinça "
+          "horas": 0.0833,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+          "obs": ""
         },
         {
           "data": "2026-06-18",
-          "inicio": "04:00",
-          "fim": "04:20",
-          "turno": 3,
-          "departamento": "Mecânica",
+          "inicio": "10:41",
+          "fim": "10:45",
+          "turno": 1,
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.3333,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "Ajuste na pinça "
+          "horas": 0.0667,
+          "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
+          "obs": ""
         },
         {
           "data": "2026-06-18",
-          "inicio": "15:26",
-          "fim": "15:38",
+          "inicio": "15:15",
+          "fim": "15:17",
           "turno": 2,
-          "departamento": "Mecânica",
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.2,
-          "motivo": "AJUSTE NAS PINÇAS",
+          "horas": 0.0333,
+          "motivo": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
           "obs": ""
         }
       ]
@@ -4035,16 +4013,16 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 35,
-      "horas": 3.5167,
+      "falhas": 33,
+      "horas": 3.45,
       "por_turno": {
         "1": {
           "horas": 1.3833,
           "falhas": 13
         },
         "2": {
-          "horas": 1.1167,
-          "falhas": 13
+          "horas": 1.05,
+          "falhas": 11
         },
         "3": {
           "horas": 1.0167,
@@ -4325,28 +4303,6 @@
           "falhas": 1,
           "horas": 0.1167,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-18",
-          "inicio": "19:32",
-          "fim": "19:34",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-18",
-          "inicio": "19:46",
-          "fim": "19:48",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -5581,7 +5537,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -5609,7 +5565,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {

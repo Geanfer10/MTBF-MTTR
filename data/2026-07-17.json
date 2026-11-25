@@ -1,6 +1,6 @@
 {
   "date": "2026-07-17",
-  "updated_at": "2026-11-25T11:33",
+  "updated_at": "2026-11-25T11:48",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -459,8 +459,8 @@
           "horas": 0.05,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "ROBOTICA04",
-          "componente": "FALTA DE GRELHA R2"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-07-17",
@@ -1963,12 +1963,12 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 22,
-      "horas": 2.6167,
+      "falhas": 21,
+      "horas": 2.5667,
       "por_turno": {
         "1": {
-          "horas": 0.8333,
-          "falhas": 10
+          "horas": 0.7833,
+          "falhas": 9
         },
         "2": {
           "horas": 1.3667,
@@ -2121,17 +2121,6 @@
           "falhas": 1,
           "horas": 0.05,
           "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-17",
-          "inicio": "14:28",
-          "fim": "14:31",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -2746,6 +2735,84 @@
       ]
     },
     {
+      "tag": "30433",
+      "componente": "CABEÇOTE SUPERIOR 60L1",
+      "equipamento": "60L1",
+      "falhas": 5,
+      "horas": 1.4333,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.9833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.3667,
+          "falhas": 3
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-17",
+          "inicio": "02:54",
+          "fim": "02:58",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Ajuste no cabeçote 4."
+        },
+        {
+          "data": "2026-07-17",
+          "inicio": "03:26",
+          "fim": "03:33",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Lata amassada na recravadeira."
+        },
+        {
+          "data": "2026-07-17",
+          "inicio": "06:56",
+          "fim": "07:01",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento no rolete do Ed 6."
+        },
+        {
+          "data": "2026-07-17",
+          "inicio": "19:09",
+          "fim": "20:08",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.9833,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": ""
+        },
+        {
+          "data": "2026-07-17",
+          "inicio": "23:45",
+          "fim": "23:56",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Polimento nos roletes e cabeçotes 3,4."
+        }
+      ]
+    },
+    {
       "tag": "20527",
       "componente": "CONJUNTO CARRO MOVEL MESPACK C ",
       "equipamento": "MESPACK C",
@@ -2824,80 +2891,69 @@
       ]
     },
     {
-      "tag": "30433",
-      "componente": "CABEÇOTE SUPERIOR 60L1",
-      "equipamento": "60L1",
-      "falhas": 5,
-      "horas": 1.4333,
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 4,
+      "horas": 1.0167,
       "por_turno": {
         "1": {
-          "horas": 0.0833,
-          "falhas": 1
+          "horas": 0.8667,
+          "falhas": 2
         },
         "2": {
-          "horas": 0.9833,
-          "falhas": 1
+          "horas": 0.15,
+          "falhas": 2
         },
         "3": {
-          "horas": 0.3667,
-          "falhas": 3
+          "horas": 0.0,
+          "falhas": 0
         }
       },
       "ocorrencias": [
         {
           "data": "2026-07-17",
-          "inicio": "02:54",
-          "fim": "02:58",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "Ajuste no cabeçote 4."
-        },
-        {
-          "data": "2026-07-17",
-          "inicio": "03:26",
-          "fim": "03:33",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "Lata amassada na recravadeira."
-        },
-        {
-          "data": "2026-07-17",
-          "inicio": "06:56",
-          "fim": "07:01",
+          "inicio": "09:04",
+          "fim": "09:53",
           "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0833,
+          "horas": 0.8167,
           "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "polimento no rolete do Ed 6."
+          "obs": "Bico de pato 3 quebrado "
         },
         {
           "data": "2026-07-17",
-          "inicio": "19:09",
-          "fim": "20:08",
-          "turno": 2,
-          "departamento": "Elétrica",
+          "inicio": "13:23",
+          "fim": "13:26",
+          "turno": 1,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.9833,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "horas": 0.05,
+          "motivo": "BICO DOSADOR ENTUPIDO",
           "obs": ""
         },
         {
           "data": "2026-07-17",
-          "inicio": "23:45",
-          "fim": "23:56",
-          "turno": 3,
+          "inicio": "15:23",
+          "fim": "15:27",
+          "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "Polimento nos roletes e cabeçotes 3,4."
+          "horas": 0.0667,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": "bico 3"
+        },
+        {
+          "data": "2026-07-17",
+          "inicio": "19:09",
+          "fim": "19:14",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
         }
       ]
     },
@@ -3036,129 +3092,6 @@
       ]
     },
     {
-      "tag": "31411",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 4,
-      "horas": 1.0167,
-      "por_turno": {
-        "1": {
-          "horas": 0.8667,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.15,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-17",
-          "inicio": "09:04",
-          "fim": "09:53",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.8167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "Bico de pato 3 quebrado "
-        },
-        {
-          "data": "2026-07-17",
-          "inicio": "13:23",
-          "fim": "13:26",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "BICO DOSADOR ENTUPIDO",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-17",
-          "inicio": "15:23",
-          "fim": "15:27",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "BICO DOSADOR ENTUPIDO",
-          "obs": "bico 3"
-        },
-        {
-          "data": "2026-07-17",
-          "inicio": "19:09",
-          "fim": "19:14",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "BICO DOSADOR ENTUPIDO",
-          "obs": ""
-        }
-      ]
-    },
-    {
-      "tag": "20545",
-      "componente": "CONJUNTO ESTICADOR DE EMBALAGENS MESPACK D ",
-      "equipamento": "MESPACK D",
-      "falhas": 3,
-      "horas": 0.2667,
-      "por_turno": {
-        "1": {
-          "horas": 0.2,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.0667,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-07-17",
-          "inicio": "04:31",
-          "fim": "04:35",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE DO ESTICADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-17",
-          "inicio": "11:52",
-          "fim": "11:57",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE DO ESTICADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-17",
-          "inicio": "13:19",
-          "fim": "13:26",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "TROCA DE VENTOSAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "31191",
       "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R1",
       "equipamento": "MESPACK R1",
@@ -3210,6 +3143,62 @@
           "falhas": 1,
           "horas": 0.05,
           "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20567",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 3,
+      "horas": 0.25,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.2,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.05,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-07-17",
+          "inicio": "16:08",
+          "fim": "16:14",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-07-17",
+          "inicio": "19:28",
+          "fim": "19:34",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-07-17",
+          "inicio": "23:44",
+          "fim": "23:47",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
           "obs": ""
         }
       ]
@@ -3299,12 +3288,12 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 22,
-      "horas": 2.6167,
+      "falhas": 21,
+      "horas": 2.5667,
       "por_turno": {
         "1": {
-          "horas": 0.8333,
-          "falhas": 10
+          "horas": 0.7833,
+          "falhas": 9
         },
         "2": {
           "horas": 1.3667,
@@ -3457,17 +3446,6 @@
           "falhas": 1,
           "horas": 0.05,
           "motivo": "FALHA DO EMPILHADOR E DESEMPILHADOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-07-17",
-          "inicio": "14:28",
-          "fim": "14:31",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -4537,7 +4515,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -4565,7 +4543,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {

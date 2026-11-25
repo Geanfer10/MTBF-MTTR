@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "updated_at": "2026-11-25T11:33",
+  "updated_at": "2026-11-25T11:48",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -697,8 +697,8 @@
           "horas": 0.0333,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "31411",
-          "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-09-19",
@@ -2350,183 +2350,6 @@
       ]
     },
     {
-      "tag": "31411",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 14,
-      "horas": 1.55,
-      "por_turno": {
-        "1": {
-          "horas": 0.6833,
-          "falhas": 7
-        },
-        "2": {
-          "horas": 0.65,
-          "falhas": 6
-        },
-        "3": {
-          "horas": 0.2167,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-09-19",
-          "inicio": "01:19",
-          "fim": "01:32",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2167,
-          "motivo": "AJUSTE NO BICO DE DOSAGEM",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "10:14",
-          "fim": "10:20",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1,
-          "motivo": "BICO DOSADOR ENTUPIDO",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "10:52",
-          "fim": "10:54",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "BICO DOSADOR ENTUPIDO",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "11:10",
-          "fim": "11:14",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "BICO DOSADOR ENTUPIDO",
-          "obs": "bico 1 entupido"
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "11:37",
-          "fim": "11:41",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE NO BICO DE DOSAGEM",
-          "obs": "Ajuste no bico dosador 1"
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "11:55",
-          "fim": "12:05",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "Troca do bico dosador 3 da salmoura "
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "12:12",
-          "fim": "12:17",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "BICO DOSADOR ENTUPIDO",
-          "obs": "bico dosador 1 e 4 entupindo "
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "14:10",
-          "fim": "14:20",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "AJUSTE NO BICO DE DOSAGEM",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "15:36",
-          "fim": "15:38",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "AJUSTE NO BICO DE DOSAGEM",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "16:09",
-          "fim": "16:12",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "BICO DOSADOR ENTUPIDO",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "16:17",
-          "fim": "16:27",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1667,
-          "motivo": "AJUSTE NO BICO DE DOSAGEM",
-          "obs": "bico 1 "
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "20:04",
-          "fim": "20:07",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "BICO DOSADOR ENTUPIDO",
-          "obs": "bico 1 "
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "20:08",
-          "fim": "20:27",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste na coluna do bico de pato "
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "21:05",
-          "fim": "21:07",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "31194",
       "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
       "equipamento": "MESPACK R1",
@@ -2693,102 +2516,168 @@
       ]
     },
     {
-      "tag": "ROBOTICA01",
-      "componente": "ESTEIRÃO PARADO MESPACK E",
-      "equipamento": "MESPACK E",
-      "falhas": 7,
-      "horas": 0.85,
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 13,
+      "horas": 1.5167,
       "por_turno": {
         "1": {
-          "horas": 0.2667,
-          "falhas": 3
+          "horas": 0.6833,
+          "falhas": 7
         },
         "2": {
-          "horas": 0.5833,
-          "falhas": 4
+          "horas": 0.6167,
+          "falhas": 5
         },
         "3": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.2167,
+          "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-09-19",
-          "inicio": "08:06",
-          "fim": "08:10",
-          "turno": 1,
-          "departamento": "Automação",
+          "inicio": "01:19",
+          "fim": "01:32",
+          "turno": 3,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "horas": 0.2167,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-19",
+          "inicio": "10:14",
+          "fim": "10:20",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "BICO DOSADOR ENTUPIDO",
           "obs": ""
         },
         {
           "data": "2026-09-19",
           "inicio": "10:52",
-          "fim": "10:59",
+          "fim": "10:54",
           "turno": 1,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
           "obs": ""
         },
         {
           "data": "2026-09-19",
-          "inicio": "13:15",
-          "fim": "13:20",
+          "inicio": "11:10",
+          "fim": "11:14",
           "turno": 1,
-          "departamento": "Automação",
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
+          "horas": 0.0667,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": "bico 1 entupido"
         },
         {
           "data": "2026-09-19",
-          "inicio": "15:02",
-          "fim": "15:08",
-          "turno": 2,
-          "departamento": "Automação",
+          "inicio": "11:37",
+          "fim": "11:41",
+          "turno": 1,
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
+          "horas": 0.0667,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": "Ajuste no bico dosador 1"
         },
         {
           "data": "2026-09-19",
-          "inicio": "17:02",
-          "fim": "17:13",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "19:49",
-          "fim": "19:57",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "20:33",
-          "fim": "20:43",
-          "turno": 2,
-          "departamento": "Automação",
+          "inicio": "11:55",
+          "fim": "12:05",
+          "turno": 1,
+          "departamento": "Mecânica",
           "falhas": 1,
           "horas": 0.1667,
-          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "Troca do bico dosador 3 da salmoura "
+        },
+        {
+          "data": "2026-09-19",
+          "inicio": "12:12",
+          "fim": "12:17",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": "bico dosador 1 e 4 entupindo "
+        },
+        {
+          "data": "2026-09-19",
+          "inicio": "14:10",
+          "fim": "14:20",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
           "obs": ""
+        },
+        {
+          "data": "2026-09-19",
+          "inicio": "15:36",
+          "fim": "15:38",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-19",
+          "inicio": "16:09",
+          "fim": "16:12",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-19",
+          "inicio": "16:17",
+          "fim": "16:27",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1667,
+          "motivo": "AJUSTE NO BICO DE DOSAGEM",
+          "obs": "bico 1 "
+        },
+        {
+          "data": "2026-09-19",
+          "inicio": "20:04",
+          "fim": "20:07",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "BICO DOSADOR ENTUPIDO",
+          "obs": "bico 1 "
+        },
+        {
+          "data": "2026-09-19",
+          "inicio": "20:08",
+          "fim": "20:27",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "ajuste na coluna do bico de pato "
         }
       ]
     },
@@ -2887,6 +2776,106 @@
           "departamento": "Automação",
           "falhas": 1,
           "horas": 0.1,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "ROBOTICA01",
+      "componente": "ESTEIRÃO PARADO MESPACK E",
+      "equipamento": "MESPACK E",
+      "falhas": 7,
+      "horas": 0.85,
+      "por_turno": {
+        "1": {
+          "horas": 0.2667,
+          "falhas": 3
+        },
+        "2": {
+          "horas": 0.5833,
+          "falhas": 4
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-19",
+          "inicio": "08:06",
+          "fim": "08:10",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-19",
+          "inicio": "10:52",
+          "fim": "10:59",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-19",
+          "inicio": "13:15",
+          "fim": "13:20",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-19",
+          "inicio": "15:02",
+          "fim": "15:08",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-19",
+          "inicio": "17:02",
+          "fim": "17:13",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1833,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-19",
+          "inicio": "19:49",
+          "fim": "19:57",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-19",
+          "inicio": "20:33",
+          "fim": "20:43",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1667,
           "motivo": "ESTEIRÃO PARADO (AUTOMAÇÃO)",
           "obs": ""
         }
@@ -3049,84 +3038,6 @@
       ]
     },
     {
-      "tag": "TF-BJ4",
-      "componente": "TRANSFERIDO DE BANDEJA TF-BJ4",
-      "equipamento": "MESPACK R1",
-      "falhas": 5,
-      "horas": 0.4,
-      "por_turno": {
-        "1": {
-          "horas": 0.3667,
-          "falhas": 4
-        },
-        "2": {
-          "horas": 0.0333,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-09-19",
-          "inicio": "07:23",
-          "fim": "07:25",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "07:36",
-          "fim": "07:38",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "12:36",
-          "fim": "12:41",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "12:56",
-          "fim": "13:09",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.2167,
-          "motivo": "FALHA NO TRANSFERIDOR 4",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "19:27",
-          "fim": "19:29",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "RB09",
       "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
       "equipamento": "MESPACK R2",
@@ -3205,19 +3116,19 @@
       ]
     },
     {
-      "tag": "ELETRICA01",
-      "componente": "AGUARDANDO ELETRICA",
-      "equipamento": "MESPACK F",
-      "falhas": 2,
-      "horas": 0.1333,
+      "tag": "TF-BJ4",
+      "componente": "TRANSFERIDO DE BANDEJA TF-BJ4",
+      "equipamento": "MESPACK R1",
+      "falhas": 5,
+      "horas": 0.4,
       "por_turno": {
         "1": {
-          "horas": 0.1333,
-          "falhas": 2
+          "horas": 0.3667,
+          "falhas": 4
         },
         "2": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.0333,
+          "falhas": 1
         },
         "3": {
           "horas": 0.0,
@@ -3227,24 +3138,57 @@
       "ocorrencias": [
         {
           "data": "2026-09-19",
-          "inicio": "09:46",
-          "fim": "09:50",
+          "inicio": "07:23",
+          "fim": "07:25",
           "turno": 1,
-          "departamento": "Elétrica",
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AGUARDANDO ELETRICISTA",
+          "horas": 0.0333,
+          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
           "obs": ""
         },
         {
           "data": "2026-09-19",
-          "inicio": "10:14",
-          "fim": "10:18",
+          "inicio": "07:36",
+          "fim": "07:38",
           "turno": 1,
-          "departamento": "Elétrica",
+          "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AGUARDANDO ELETRICISTA",
+          "horas": 0.0333,
+          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-19",
+          "inicio": "12:36",
+          "fim": "12:41",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-19",
+          "inicio": "12:56",
+          "fim": "13:09",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.2167,
+          "motivo": "FALHA NO TRANSFERIDOR 4",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-19",
+          "inicio": "19:27",
+          "fim": "19:29",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "BANDEJA ACAVALADA SOBRE A OUTRA",
           "obs": ""
         }
       ]
@@ -3290,6 +3234,51 @@
           "falhas": 1,
           "horas": 0.1,
           "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "ELETRICA01",
+      "componente": "AGUARDANDO ELETRICA",
+      "equipamento": "MESPACK F",
+      "falhas": 2,
+      "horas": 0.1333,
+      "por_turno": {
+        "1": {
+          "horas": 0.1333,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-19",
+          "inicio": "09:46",
+          "fim": "09:50",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AGUARDANDO ELETRICISTA",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-19",
+          "inicio": "10:14",
+          "fim": "10:18",
+          "turno": 1,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AGUARDANDO ELETRICISTA",
           "obs": ""
         }
       ]
@@ -3808,16 +3797,16 @@
       "tag": "31411",
       "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
       "equipamento": "MESPACK R2",
-      "falhas": 14,
-      "horas": 1.55,
+      "falhas": 13,
+      "horas": 1.5167,
       "por_turno": {
         "1": {
           "horas": 0.6833,
           "falhas": 7
         },
         "2": {
-          "horas": 0.65,
-          "falhas": 6
+          "horas": 0.6167,
+          "falhas": 5
         },
         "3": {
           "horas": 0.2167,
@@ -3967,17 +3956,6 @@
           "horas": 0.3167,
           "motivo": "MANUTENÇÃO MECÂNICA",
           "obs": "ajuste na coluna do bico de pato "
-        },
-        {
-          "data": "2026-09-19",
-          "inicio": "21:05",
-          "fim": "21:07",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
-          "obs": ""
         }
       ]
     },
@@ -4804,7 +4782,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -4832,7 +4810,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {

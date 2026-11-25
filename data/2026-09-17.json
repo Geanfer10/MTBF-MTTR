@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "updated_at": "2026-11-25T11:33",
+  "updated_at": "2026-11-25T11:48",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -86,8 +86,8 @@
           "horas": 0.0833,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "limpeza na mordaça inferior e alarme de lubrificação ",
-          "tag": "31394",
-          "componente": "CONJUNTO DE SELAGEM INFERIOR MESPACK R2"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-09-17",
@@ -2898,161 +2898,6 @@
       ]
     },
     {
-      "tag": "ROBOTICA03",
-      "componente": "FALTA DE GRELHA R1",
-      "equipamento": "MESPACK R1",
-      "falhas": 12,
-      "horas": 1.0167,
-      "por_turno": {
-        "1": {
-          "horas": 0.1167,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.4833,
-          "falhas": 7
-        },
-        "3": {
-          "horas": 0.4167,
-          "falhas": 3
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-09-17",
-          "inicio": "02:57",
-          "fim": "03:02",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "03:49",
-          "fim": "04:01",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.2,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "04:50",
-          "fim": "04:58",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "10:33",
-          "fim": "10:35",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "14:17",
-          "fim": "14:22",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "15:14",
-          "fim": "15:16",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "16:04",
-          "fim": "16:07",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "16:56",
-          "fim": "17:07",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "17:44",
-          "fim": "17:47",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "17:56",
-          "fim": "17:59",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "20:35",
-          "fim": "20:39",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "22:42",
-          "fim": "22:45",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "ROBOTICA01",
       "componente": "ESTEIRÃO PARADO MESPACK E",
       "equipamento": "MESPACK E",
@@ -3208,123 +3053,156 @@
       ]
     },
     {
-      "tag": "31194",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "tag": "ROBOTICA03",
+      "componente": "FALTA DE GRELHA R1",
       "equipamento": "MESPACK R1",
-      "falhas": 9,
-      "horas": 0.5667,
+      "falhas": 12,
+      "horas": 1.0167,
       "por_turno": {
         "1": {
-          "horas": 0.3667,
-          "falhas": 7
+          "horas": 0.1167,
+          "falhas": 2
         },
         "2": {
-          "horas": 0.1167,
-          "falhas": 1
+          "horas": 0.4833,
+          "falhas": 7
         },
         "3": {
-          "horas": 0.0833,
-          "falhas": 1
+          "horas": 0.4167,
+          "falhas": 3
         }
       },
       "ocorrencias": [
         {
           "data": "2026-09-17",
-          "inicio": "04:45",
-          "fim": "04:50",
+          "inicio": "02:57",
+          "fim": "03:02",
           "turno": 3,
-          "departamento": "Mecânica",
+          "departamento": "Automação",
           "falhas": 1,
           "horas": 0.0833,
-          "motivo": "AJUSTE NAS PINÇAS",
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": ""
         },
         {
           "data": "2026-09-17",
-          "inicio": "07:01",
-          "fim": "07:06",
-          "turno": 1,
-          "departamento": "Mecânica",
+          "inicio": "03:49",
+          "fim": "04:01",
+          "turno": 3,
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NAS PINÇAS",
+          "horas": 0.2,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": ""
         },
         {
           "data": "2026-09-17",
-          "inicio": "07:33",
-          "fim": "07:36",
+          "inicio": "04:50",
+          "fim": "04:58",
+          "turno": 3,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "10:33",
+          "fim": "10:35",
           "turno": 1,
-          "departamento": "Mecânica",
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "14:17",
+          "fim": "14:22",
+          "turno": 1,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "15:14",
+          "fim": "15:16",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "16:04",
+          "fim": "16:07",
+          "turno": 2,
+          "departamento": "Automação",
           "falhas": 1,
           "horas": 0.05,
-          "motivo": "AJUSTE NAS PINÇAS",
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": ""
         },
         {
           "data": "2026-09-17",
-          "inicio": "09:58",
-          "fim": "10:00",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "12:18",
-          "fim": "12:22",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "12:25",
-          "fim": "12:27",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "13:20",
-          "fim": "13:24",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "13:44",
-          "fim": "13:46",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "TROCA DE MOLA DAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "18:11",
-          "fim": "18:18",
+          "inicio": "16:56",
+          "fim": "17:07",
           "turno": 2,
-          "departamento": "Mecânica",
+          "departamento": "Automação",
           "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "AJUSTE NAS PINÇAS",
+          "horas": 0.1833,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "17:44",
+          "fim": "17:47",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "17:56",
+          "fim": "17:59",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "20:35",
+          "fim": "20:39",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "22:42",
+          "fim": "22:45",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "FALTA DE GRELHA (BANDEJA)",
           "obs": ""
         }
       ]
@@ -3447,6 +3325,128 @@
           "falhas": 1,
           "horas": 0.0667,
           "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31194",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 9,
+      "horas": 0.5667,
+      "por_turno": {
+        "1": {
+          "horas": 0.3667,
+          "falhas": 7
+        },
+        "2": {
+          "horas": 0.1167,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0833,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-17",
+          "inicio": "04:45",
+          "fim": "04:50",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "07:01",
+          "fim": "07:06",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "07:33",
+          "fim": "07:36",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "09:58",
+          "fim": "10:00",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "12:18",
+          "fim": "12:22",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "12:25",
+          "fim": "12:27",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "13:20",
+          "fim": "13:24",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0667,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "13:44",
+          "fim": "13:46",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "TROCA DE MOLA DAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "18:11",
+          "fim": "18:18",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "AJUSTE NAS PINÇAS",
           "obs": ""
         }
       ]
@@ -3608,73 +3608,6 @@
       ]
     },
     {
-      "tag": "ELETRICA01",
-      "componente": "AGUARDANDO ELETRICA",
-      "equipamento": "60l1",
-      "falhas": 4,
-      "horas": 0.5833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.4167,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.1667,
-          "falhas": 2
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-09-17",
-          "inicio": "00:14",
-          "fim": "00:22",
-          "turno": 3,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.1333,
-          "motivo": "AGUARDANDO ELETRICISTA",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "06:13",
-          "fim": "06:15",
-          "turno": 3,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "AGUARDANDO ELETRICISTA",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "17:00",
-          "fim": "17:20",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.3333,
-          "motivo": "MANUTENÇÃO ELÉTRICA",
-          "obs": "queda de energia "
-        },
-        {
-          "data": "2026-09-17",
-          "inicio": "18:06",
-          "fim": "18:11",
-          "turno": 2,
-          "departamento": "Elétrica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AGUARDANDO ELETRICISTA",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "TF-BJ4",
       "componente": "TRANSFERIDO DE BANDEJA TF-BJ4",
       "equipamento": "MESPACK R1",
@@ -3809,57 +3742,124 @@
       ]
     },
     {
-      "tag": "MECANICA01",
-      "componente": "AGUARDANDO MECANICO",
-      "equipamento": "MESPACK R1",
-      "falhas": 3,
-      "horas": 0.1667,
+      "tag": "ELETRICA01",
+      "componente": "AGUARDANDO ELETRICA",
+      "equipamento": "60l1",
+      "falhas": 4,
+      "horas": 0.5833,
       "por_turno": {
         "1": {
-          "horas": 0.0333,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         },
         "2": {
-          "horas": 0.1333,
+          "horas": 0.4167,
           "falhas": 2
         },
         "3": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 0.1667,
+          "falhas": 2
         }
       },
       "ocorrencias": [
         {
           "data": "2026-09-17",
-          "inicio": "12:16",
-          "fim": "12:18",
-          "turno": 1,
-          "departamento": "Mecânica",
+          "inicio": "00:14",
+          "fim": "00:22",
+          "turno": 3,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.1333,
+          "motivo": "AGUARDANDO ELETRICISTA",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "06:13",
+          "fim": "06:15",
+          "turno": 3,
+          "departamento": "Elétrica",
           "falhas": 1,
           "horas": 0.0333,
-          "motivo": "AGUARDANDO MECÂNICO",
+          "motivo": "AGUARDANDO ELETRICISTA",
           "obs": ""
         },
         {
           "data": "2026-09-17",
-          "inicio": "15:35",
-          "fim": "15:39",
+          "inicio": "17:00",
+          "fim": "17:20",
           "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.3333,
+          "motivo": "MANUTENÇÃO ELÉTRICA",
+          "obs": "queda de energia "
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "18:06",
+          "fim": "18:11",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AGUARDANDO ELETRICISTA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "20563",
+      "componente": "CONJUNTO DE FACAS MESPACK E ",
+      "equipamento": "MESPACK E",
+      "falhas": 3,
+      "horas": 0.3167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.3167,
+          "falhas": 3
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-17",
+          "inicio": "02:15",
+          "fim": "02:21",
+          "turno": 3,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AGUARDANDO MECÂNICO",
+          "horas": 0.1,
+          "motivo": "AJUSTE DE FACA",
           "obs": ""
         },
         {
           "data": "2026-09-17",
-          "inicio": "18:31",
-          "fim": "18:35",
-          "turno": 2,
+          "inicio": "02:55",
+          "fim": "03:01",
+          "turno": 3,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0667,
-          "motivo": "AGUARDANDO MECÂNICO",
+          "horas": 0.1,
+          "motivo": "AJUSTE DE FACA",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-17",
+          "inicio": "22:54",
+          "fim": "23:01",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1167,
+          "motivo": "AJUSTE DE FACA",
           "obs": ""
         }
       ]
@@ -5495,7 +5495,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -5523,7 +5523,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {

@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updated_at": "2026-11-25T11:33",
+  "updated_at": "2026-11-25T11:48",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -229,8 +229,8 @@
           "horas": 0.0333,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "ROBOTICA04",
-          "componente": "FALTA DE GRELHA R2"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-09-08",
@@ -2591,12 +2591,12 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 28,
-      "horas": 3.5833,
+      "falhas": 27,
+      "horas": 3.55,
       "por_turno": {
         "1": {
-          "horas": 1.5167,
-          "falhas": 15
+          "horas": 1.4833,
+          "falhas": 14
         },
         "2": {
           "horas": 0.8,
@@ -2749,17 +2749,6 @@
           "falhas": 1,
           "horas": 0.0333,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-08",
-          "inicio": "09:17",
-          "fim": "09:19",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -3584,73 +3573,6 @@
       ]
     },
     {
-      "tag": "31411",
-      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 4,
-      "horas": 0.3667,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.3667,
-          "falhas": 4
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-09-08",
-          "inicio": "14:45",
-          "fim": "14:47",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "BICO DOSADOR ENTUPIDO",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-08",
-          "inicio": "17:33",
-          "fim": "17:46",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.2167,
-          "motivo": "AJUSTE NA PRESÃO DE DOSAGEM ",
-          "obs": "ajuste bico dosador 1 e limpeza de ventosa robô pegador de embalagem "
-        },
-        {
-          "data": "2026-09-08",
-          "inicio": "17:54",
-          "fim": "17:56",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "AJUSTE NA PRESÃO DE DOSAGEM ",
-          "obs": "ajuste bico dosador 2"
-        },
-        {
-          "data": "2026-09-08",
-          "inicio": "19:10",
-          "fim": "19:15",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NA PRESÃO DE DOSAGEM ",
-          "obs": "ajuste bico dosador 2"
-        }
-      ]
-    },
-    {
       "tag": "MECANICA01",
       "componente": "AGUARDANDO MECANICO",
       "equipamento": "MESPACK R2",
@@ -3718,58 +3640,69 @@
       ]
     },
     {
-      "tag": "20519",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
-      "equipamento": "MESPACK C",
-      "falhas": 3,
-      "horas": 2.0,
+      "tag": "31411",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 4,
+      "horas": 0.3667,
       "por_turno": {
         "1": {
-          "horas": 2.0,
-          "falhas": 2
-        },
-        "2": {
           "horas": 0.0,
           "falhas": 0
         },
+        "2": {
+          "horas": 0.3667,
+          "falhas": 4
+        },
         "3": {
           "horas": 0.0,
-          "falhas": 1
+          "falhas": 0
         }
       },
       "ocorrencias": [
         {
           "data": "2026-09-08",
-          "inicio": "03:44",
-          "fim": "03:44",
-          "turno": 3,
+          "inicio": "14:45",
+          "fim": "14:47",
+          "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.0,
-          "motivo": "AJUSTE DE VENTOSAS",
-          "obs": "ajuste na ventosas "
-        },
-        {
-          "data": "2026-09-08",
-          "inicio": "08:05",
-          "fim": "08:24",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3167,
-          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "horas": 0.0333,
+          "motivo": "BICO DOSADOR ENTUPIDO",
           "obs": ""
         },
         {
           "data": "2026-09-08",
-          "inicio": "09:04",
-          "fim": "10:45",
-          "turno": 1,
+          "inicio": "17:33",
+          "fim": "17:46",
+          "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 1.6833,
-          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
-          "obs": ""
+          "horas": 0.2167,
+          "motivo": "AJUSTE NA PRESÃO DE DOSAGEM ",
+          "obs": "ajuste bico dosador 1 e limpeza de ventosa robô pegador de embalagem "
+        },
+        {
+          "data": "2026-09-08",
+          "inicio": "17:54",
+          "fim": "17:56",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "AJUSTE NA PRESÃO DE DOSAGEM ",
+          "obs": "ajuste bico dosador 2"
+        },
+        {
+          "data": "2026-09-08",
+          "inicio": "19:10",
+          "fim": "19:15",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0833,
+          "motivo": "AJUSTE NA PRESÃO DE DOSAGEM ",
+          "obs": "ajuste bico dosador 2"
         }
       ]
     },
@@ -3830,47 +3763,103 @@
       ]
     },
     {
-      "tag": "31187",
-      "componente": "CONJUNTO DE SELAGEM VERTICAL MESPACK R1",
-      "equipamento": "MESPACK R1",
-      "falhas": 2,
-      "horas": 1.1,
+      "tag": "20519",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
+      "equipamento": "MESPACK C",
+      "falhas": 3,
+      "horas": 2.0,
       "por_turno": {
         "1": {
-          "horas": 0.0,
-          "falhas": 0
+          "horas": 2.0,
+          "falhas": 2
         },
         "2": {
           "horas": 0.0,
           "falhas": 0
         },
         "3": {
-          "horas": 1.1,
-          "falhas": 2
+          "horas": 0.0,
+          "falhas": 1
         }
       },
       "ocorrencias": [
         {
           "data": "2026-09-08",
-          "inicio": "04:18",
-          "fim": "04:29",
+          "inicio": "03:44",
+          "fim": "03:44",
           "turno": 3,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.1833,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "ajuste manual na mordaça vertical cedendo"
+          "horas": 0.0,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": "ajuste na ventosas "
         },
         {
           "data": "2026-09-08",
-          "inicio": "04:59",
-          "fim": "05:54",
-          "turno": 3,
+          "inicio": "08:05",
+          "fim": "08:24",
+          "turno": 1,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.9167,
+          "horas": 0.3167,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-09-08",
+          "inicio": "09:04",
+          "fim": "10:45",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.6833,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31190",
+      "componente": "CONJUNTO DE FACAS MESPACK R1",
+      "equipamento": "MESPACK R1",
+      "falhas": 2,
+      "horas": 0.4333,
+      "por_turno": {
+        "1": {
+          "horas": 0.1,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.3333,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-09-08",
+          "inicio": "06:58",
+          "fim": "07:04",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
           "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "manutenção manual na mordaça vertical "
+          "obs": "ajuste na faca e ajuste na ventosa"
+        },
+        {
+          "data": "2026-09-08",
+          "inicio": "20:26",
+          "fim": "20:46",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da faca do perfurador de fundo "
         }
       ]
     }
@@ -3880,12 +3869,12 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 28,
-      "horas": 3.5833,
+      "falhas": 27,
+      "horas": 3.55,
       "por_turno": {
         "1": {
-          "horas": 1.5167,
-          "falhas": 15
+          "horas": 1.4833,
+          "falhas": 14
         },
         "2": {
           "horas": 0.8,
@@ -4038,17 +4027,6 @@
           "falhas": 1,
           "horas": 0.0333,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-08",
-          "inicio": "09:17",
-          "fim": "09:19",
-          "turno": 1,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -5596,9 +5574,9 @@
       ]
     },
     {
-      "tag": "31314",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
-      "equipamento": "MESPACK F",
+      "tag": "30777",
+      "componente": "CABEÇOTE SUPERIOR MOCOCA M3",
+      "equipamento": "ENCHEDEIRA COPO/LATA",
       "falhas": 2,
       "horas": 0.3667,
       "por_turno": {
@@ -5607,36 +5585,36 @@
           "falhas": 0
         },
         "2": {
-          "horas": 0.3167,
-          "falhas": 1
+          "horas": 0.3667,
+          "falhas": 2
         },
         "3": {
-          "horas": 0.05,
-          "falhas": 1
+          "horas": 0.0,
+          "falhas": 0
         }
       },
       "ocorrencias": [
         {
           "data": "2026-09-08",
-          "inicio": "02:00",
-          "fim": "02:03",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AJUSTE NO GUIA DE EMBALAGEM",
-          "obs": ""
-        },
-        {
-          "data": "2026-09-08",
-          "inicio": "19:29",
-          "fim": "19:48",
+          "inicio": "16:45",
+          "fim": "16:51",
           "turno": 2,
           "departamento": "Mecânica",
           "falhas": 1,
-          "horas": 0.3167,
+          "horas": 0.1,
           "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "Ajuste no esticador, troca de mola da pinça "
+          "obs": "polimento da placa. "
+        },
+        {
+          "data": "2026-09-08",
+          "inicio": "17:17",
+          "fim": "17:33",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.2667,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "polimento da placa"
         }
       ]
     }
@@ -5648,7 +5626,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -5676,7 +5654,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {

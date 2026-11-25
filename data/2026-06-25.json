@@ -1,6 +1,6 @@
 {
   "date": "2026-06-25",
-  "updated_at": "2026-11-25T11:33",
+  "updated_at": "2026-11-25T11:47",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -47,8 +47,8 @@
           "horas": 0.0333,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "ROBOTICA04",
-          "componente": "FALTA DE GRELHA R2"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-06-25",
@@ -2136,8 +2136,8 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 35,
-      "horas": 5.0333,
+      "falhas": 34,
+      "horas": 5.0,
       "por_turno": {
         "1": {
           "horas": 1.2,
@@ -2148,8 +2148,8 @@
           "falhas": 12
         },
         "3": {
-          "horas": 1.6667,
-          "falhas": 13
+          "horas": 1.6333,
+          "falhas": 12
         }
       },
       "ocorrencias": [
@@ -2162,17 +2162,6 @@
           "falhas": 1,
           "horas": 0.2333,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-25",
-          "inicio": "01:20",
-          "fim": "01:22",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -3484,73 +3473,6 @@
       ]
     },
     {
-      "tag": "31314",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
-      "equipamento": "MESPACK F",
-      "falhas": 4,
-      "horas": 0.1833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0833,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "3": {
-          "horas": 0.1,
-          "falhas": 2
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-25",
-          "inicio": "02:43",
-          "fim": "02:46",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-25",
-          "inicio": "03:16",
-          "fim": "03:19",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-25",
-          "inicio": "07:16",
-          "fim": "07:19",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-25",
-          "inicio": "07:25",
-          "fim": "07:27",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "IDX-04",
       "componente": "ESTEIRA INDEXIDAORA DE SASHE R2",
       "equipamento": "MESPACK R2",
@@ -3618,6 +3540,73 @@
       ]
     },
     {
+      "tag": "31314",
+      "componente": "CONJUNTO CARRO MOVEL MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 4,
+      "horas": 0.1833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0833,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "3": {
+          "horas": 0.1,
+          "falhas": 2
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-25",
+          "inicio": "02:43",
+          "fim": "02:46",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-25",
+          "inicio": "03:16",
+          "fim": "03:19",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-25",
+          "inicio": "07:16",
+          "fim": "07:19",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.05,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-25",
+          "inicio": "07:25",
+          "fim": "07:27",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "AJUSTE NAS PINÇAS",
+          "obs": ""
+        }
+      ]
+    },
+    {
       "tag": "20487",
       "componente": "CONJUNTO CARRO MOVEL MESPACK A ",
       "equipamento": "MESPACK A",
@@ -3679,8 +3668,8 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 35,
-      "horas": 5.0333,
+      "falhas": 34,
+      "horas": 5.0,
       "por_turno": {
         "1": {
           "horas": 1.2,
@@ -3691,8 +3680,8 @@
           "falhas": 12
         },
         "3": {
-          "horas": 1.6667,
-          "falhas": 13
+          "horas": 1.6333,
+          "falhas": 12
         }
       },
       "ocorrencias": [
@@ -3705,17 +3694,6 @@
           "falhas": 1,
           "horas": 0.2333,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-25",
-          "inicio": "01:20",
-          "fim": "01:22",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -5304,7 +5282,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -5332,7 +5310,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {

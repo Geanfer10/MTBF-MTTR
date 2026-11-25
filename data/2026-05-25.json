@@ -1,6 +1,6 @@
 {
   "date": "2026-05-25",
-  "updated_at": "2026-11-25T11:32",
+  "updated_at": "2026-11-25T11:47",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -238,8 +238,8 @@
           "horas": 0.05,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "FEL01",
-          "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-05-25",
@@ -3340,8 +3340,8 @@
       "tag": "FEL01",
       "componente": "FALHA DE COMUNICAÇÃO ENTRE AS LINHAS",
       "equipamento": "MESPACK R2",
-      "falhas": 6,
-      "horas": 0.3667,
+      "falhas": 5,
+      "horas": 0.3167,
       "por_turno": {
         "1": {
           "horas": 0.1333,
@@ -3352,8 +3352,8 @@
           "falhas": 2
         },
         "3": {
-          "horas": 0.1167,
-          "falhas": 2
+          "horas": 0.0667,
+          "falhas": 1
         }
       },
       "ocorrencias": [
@@ -3366,17 +3366,6 @@
           "falhas": 1,
           "horas": 0.0667,
           "motivo": "BASE PRESA NAS CADENAS E TRANSFERIDORES",
-          "obs": ""
-        },
-        {
-          "data": "2026-05-25",
-          "inicio": "03:51",
-          "fim": "03:54",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.05,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -3493,62 +3482,6 @@
       ]
     },
     {
-      "tag": "20567",
-      "componente": "CONJUNTO CARRO MOVEL MESPACK E ",
-      "equipamento": "MESPACK E",
-      "falhas": 3,
-      "horas": 0.2833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.2,
-          "falhas": 2
-        },
-        "3": {
-          "horas": 0.0833,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-05-25",
-          "inicio": "04:49",
-          "fim": "04:54",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-05-25",
-          "inicio": "16:41",
-          "fim": "16:48",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.1167,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-05-25",
-          "inicio": "20:55",
-          "fim": "21:00",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0833,
-          "motivo": "AJUSTE NAS PINÇAS",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "MECANICA01",
       "componente": "AGUARDANDO MECANICO",
       "equipamento": "MESPACK R2",
@@ -3600,6 +3533,62 @@
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "AGUARDANDO MECÂNICO",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31319",
+      "componente": "SISTEMA DE DOSAGEM BICOS MESPACK F",
+      "equipamento": "MESPACK F",
+      "falhas": 3,
+      "horas": 0.6167,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.5167,
+          "falhas": 2
+        },
+        "3": {
+          "horas": 0.1,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-05-25",
+          "inicio": "16:04",
+          "fim": "16:16",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.2,
+          "motivo": "LIMPEZA ELETROVÁLVULA",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-25",
+          "inicio": "16:54",
+          "fim": "17:13",
+          "turno": 2,
+          "departamento": "Elétrica",
+          "falhas": 1,
+          "horas": 0.3167,
+          "motivo": "TROCA ELETROVALVULA",
+          "obs": ""
+        },
+        {
+          "data": "2026-05-25",
+          "inicio": "23:47",
+          "fim": "23:53",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.1,
+          "motivo": "TROCA DE BICO",
           "obs": ""
         }
       ]
@@ -5214,7 +5203,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -5242,7 +5231,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {

@@ -1,6 +1,6 @@
 {
   "date": "2026-06-08",
-  "updated_at": "2026-11-25T11:32",
+  "updated_at": "2026-11-25T11:47",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
@@ -138,8 +138,8 @@
           "horas": 0.0333,
           "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": "",
-          "tag": "ROBOTICA04",
-          "componente": "FALTA DE GRELHA R2"
+          "tag": "31615",
+          "componente": "SISTEMA DE LUBRIFICAÇÃO MESPACK R2"
         },
         {
           "data": "2026-06-08",
@@ -2447,8 +2447,8 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 20,
-      "horas": 2.2,
+      "falhas": 19,
+      "horas": 2.1667,
       "por_turno": {
         "1": {
           "horas": 0.6,
@@ -2459,8 +2459,8 @@
           "falhas": 5
         },
         "3": {
-          "horas": 1.0833,
-          "falhas": 11
+          "horas": 1.05,
+          "falhas": 10
         }
       },
       "ocorrencias": [
@@ -2539,17 +2539,6 @@
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "04:35",
-          "fim": "04:37",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -2787,84 +2776,6 @@
       ]
     },
     {
-      "tag": "31404",
-      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
-      "equipamento": "MESPACK R2",
-      "falhas": 5,
-      "horas": 2.6167,
-      "por_turno": {
-        "1": {
-          "horas": 1.1333,
-          "falhas": 2
-        },
-        "2": {
-          "horas": 1.4833,
-          "falhas": 3
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-08",
-          "inicio": "09:30",
-          "fim": "10:13",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.7167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "diversos ajustes pinças ventosas pegador de embalagem "
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "10:31",
-          "fim": "10:56",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.4167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "diversos ajustes pinças ventosas pegador de embalagem "
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "15:16",
-          "fim": "16:21",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 1.0833,
-          "motivo": "AJUSTE DE VENTOSAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "16:29",
-          "fim": "16:31",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "AJUSTE DE VENTOSAS",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "20:40",
-          "fim": "21:02",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3667,
-          "motivo": "AJUSTE DO ESTICADOR",
-          "obs": ""
-        }
-      ]
-    },
-    {
       "tag": "RB09",
       "componente": "ROBO  EMPILHADOR DE BANDEJA VEGETAIS",
       "equipamento": "MESPACK R2",
@@ -2938,6 +2849,84 @@
           "falhas": 1,
           "horas": 0.05,
           "motivo": "ROBO EMPILHADOR EM FALHA",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "tag": "31404",
+      "componente": "CONJUNTO ABRIDOR DE EMBALAGEM MESPACK R2",
+      "equipamento": "MESPACK R2",
+      "falhas": 5,
+      "horas": 2.6167,
+      "por_turno": {
+        "1": {
+          "horas": 1.1333,
+          "falhas": 2
+        },
+        "2": {
+          "horas": 1.4833,
+          "falhas": 3
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-08",
+          "inicio": "09:30",
+          "fim": "10:13",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.7167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "diversos ajustes pinças ventosas pegador de embalagem "
+        },
+        {
+          "data": "2026-06-08",
+          "inicio": "10:31",
+          "fim": "10:56",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.4167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "diversos ajustes pinças ventosas pegador de embalagem "
+        },
+        {
+          "data": "2026-06-08",
+          "inicio": "15:16",
+          "fim": "16:21",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 1.0833,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-08",
+          "inicio": "16:29",
+          "fim": "16:31",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.0333,
+          "motivo": "AJUSTE DE VENTOSAS",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-08",
+          "inicio": "20:40",
+          "fim": "21:02",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3667,
+          "motivo": "AJUSTE DO ESTICADOR",
           "obs": ""
         }
       ]
@@ -3133,62 +3122,6 @@
       ]
     },
     {
-      "tag": "20519",
-      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
-      "equipamento": "MESPACK C",
-      "falhas": 3,
-      "horas": 1.6333,
-      "por_turno": {
-        "1": {
-          "horas": 0.9833,
-          "falhas": 1
-        },
-        "2": {
-          "horas": 0.3167,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.3333,
-          "falhas": 1
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-08",
-          "inicio": "05:39",
-          "fim": "05:59",
-          "turno": 3,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3333,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca da molhada mordaça ."
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "12:27",
-          "fim": "13:26",
-          "turno": 1,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.9833,
-          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "21:27",
-          "fim": "21:46",
-          "turno": 2,
-          "departamento": "Mecânica",
-          "falhas": 1,
-          "horas": 0.3167,
-          "motivo": "MANUTENÇÃO MECÂNICA",
-          "obs": "troca do tirante da mordaça superior "
-        }
-      ]
-    },
-    {
       "tag": "INK05",
       "componente": "INKJET MESPACK E",
       "equipamento": "MESPACK E",
@@ -3297,6 +3230,62 @@
           "horas": 0.3833,
           "motivo": "AJUSTE NAS PINÇAS",
           "obs": "da régua móvel "
+        }
+      ]
+    },
+    {
+      "tag": "20519",
+      "componente": "CONJUNTO DE SELAGEM SUPERIOR MESPACK C ",
+      "equipamento": "MESPACK C",
+      "falhas": 3,
+      "horas": 1.6333,
+      "por_turno": {
+        "1": {
+          "horas": 0.9833,
+          "falhas": 1
+        },
+        "2": {
+          "horas": 0.3167,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.3333,
+          "falhas": 1
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-08",
+          "inicio": "05:39",
+          "fim": "05:59",
+          "turno": 3,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3333,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca da molhada mordaça ."
+        },
+        {
+          "data": "2026-06-08",
+          "inicio": "12:27",
+          "fim": "13:26",
+          "turno": 1,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.9833,
+          "motivo": "AJUSTE NA MORDAÇA SUPERIOR",
+          "obs": ""
+        },
+        {
+          "data": "2026-06-08",
+          "inicio": "21:27",
+          "fim": "21:46",
+          "turno": 2,
+          "departamento": "Mecânica",
+          "falhas": 1,
+          "horas": 0.3167,
+          "motivo": "MANUTENÇÃO MECÂNICA",
+          "obs": "troca do tirante da mordaça superior "
         }
       ]
     }
@@ -3661,8 +3650,8 @@
       "tag": "ROBOTICA04",
       "componente": "FALTA DE GRELHA R2",
       "equipamento": "MESPACK R2",
-      "falhas": 20,
-      "horas": 2.2,
+      "falhas": 19,
+      "horas": 2.1667,
       "por_turno": {
         "1": {
           "horas": 0.6,
@@ -3673,8 +3662,8 @@
           "falhas": 5
         },
         "3": {
-          "horas": 1.0833,
-          "falhas": 11
+          "horas": 1.05,
+          "falhas": 10
         }
       },
       "ocorrencias": [
@@ -3753,17 +3742,6 @@
           "falhas": 1,
           "horas": 0.0833,
           "motivo": "FALTA DE GRELHA (BANDEJA)",
-          "obs": ""
-        },
-        {
-          "data": "2026-06-08",
-          "inicio": "04:35",
-          "fim": "04:37",
-          "turno": 3,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.0333,
-          "motivo": "ALARME DE PRESSÃO DO LUBRIFICADOR",
           "obs": ""
         },
         {
@@ -4559,6 +4537,40 @@
       ]
     },
     {
+      "tag": "TP-BJ15",
+      "componente": "ESTEIRA DE TRANSPORTE SAIDA MESPACK RETORT CADENA TP-BJ-15",
+      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
+      "falhas": 1,
+      "horas": 0.5833,
+      "por_turno": {
+        "1": {
+          "horas": 0.0,
+          "falhas": 0
+        },
+        "2": {
+          "horas": 0.5833,
+          "falhas": 1
+        },
+        "3": {
+          "horas": 0.0,
+          "falhas": 0
+        }
+      },
+      "ocorrencias": [
+        {
+          "data": "2026-06-08",
+          "inicio": "19:17",
+          "fim": "19:52",
+          "turno": 2,
+          "departamento": "Automação",
+          "falhas": 1,
+          "horas": 0.5833,
+          "motivo": "OUTROS MOTIVOS ",
+          "obs": "troca de 2 bases de ventosas do robô pegador e reposicionamento de esteira transportadora 15"
+        }
+      ]
+    },
+    {
       "tag": "31407",
       "componente": "CONJUNTO CARRO MOVEL MESPACK R2",
       "equipamento": "MESPACK R2",
@@ -4613,40 +4625,6 @@
           "obs": "da régua móvel "
         }
       ]
-    },
-    {
-      "tag": "TP-BJ15",
-      "componente": "ESTEIRA DE TRANSPORTE SAIDA MESPACK RETORT CADENA TP-BJ-15",
-      "equipamento": "ENCAIXOTAMENTO VEGETAIS",
-      "falhas": 1,
-      "horas": 0.5833,
-      "por_turno": {
-        "1": {
-          "horas": 0.0,
-          "falhas": 0
-        },
-        "2": {
-          "horas": 0.5833,
-          "falhas": 1
-        },
-        "3": {
-          "horas": 0.0,
-          "falhas": 0
-        }
-      },
-      "ocorrencias": [
-        {
-          "data": "2026-06-08",
-          "inicio": "19:17",
-          "fim": "19:52",
-          "turno": 2,
-          "departamento": "Automação",
-          "falhas": 1,
-          "horas": 0.5833,
-          "motivo": "OUTROS MOTIVOS ",
-          "obs": "troca de 2 bases de ventosas do robô pegador e reposicionamento de esteira transportadora 15"
-        }
-      ]
     }
   ],
   "evolucao_mensal": [
@@ -4656,7 +4634,7 @@
     },
     {
       "mes": "abril",
-      "falhas": 2166
+      "falhas": 2165
     },
     {
       "mes": "maio",
@@ -4684,7 +4662,7 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2324
+      "falhas": 2323
     }
   ],
   "disponibilidade": {
