@@ -1,13 +1,13 @@
 {
   "date": "2026-11-25",
-  "updated_at": "2026-11-26T15:18",
+  "updated_at": "2026-11-27T11:48",
   "meta_mtbf": 300,
   "dias_parados": 0,
   "equip": [
     {
       "name": "MESPACK R2",
       "horas": 5.3167,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 22.6667,
       "falhas": 36,
       "por_turno": {
         "1": {
@@ -497,7 +497,7 @@
     {
       "name": "MESPACK E",
       "horas": 4.4833,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 24.0,
       "falhas": 18,
       "por_turno": {
         "1": {
@@ -753,7 +753,7 @@
     {
       "name": "MESPACK R1",
       "horas": 3.9167,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 22.6667,
       "falhas": 24,
       "por_turno": {
         "1": {
@@ -1174,7 +1174,7 @@
     {
       "name": "ENCHEDEIRA TOP DOWN",
       "horas": 2.0,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 20.0,
       "falhas": 1,
       "por_turno": {
         "1": {
@@ -1283,7 +1283,7 @@
     {
       "name": "MESPACK C",
       "horas": 1.8167,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 23.5,
       "falhas": 5,
       "por_turno": {
         "1": {
@@ -1370,7 +1370,7 @@
     {
       "name": "MESPACK A",
       "horas": 1.25,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 23.5,
       "falhas": 8,
       "por_turno": {
         "1": {
@@ -1496,7 +1496,7 @@
     {
       "name": "MESPACK B",
       "horas": 0.9667,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 23.5,
       "falhas": 7,
       "por_turno": {
         "1": {
@@ -1609,7 +1609,7 @@
     {
       "name": "60L1",
       "horas": 0.0667,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 24.0,
       "falhas": 1,
       "por_turno": {
         "1": {
@@ -1644,7 +1644,7 @@
     {
       "name": "MESPACK D",
       "horas": 0.0667,
-      "horas_disponiveis": 22.0,
+      "horas_disponiveis": 23.5,
       "falhas": 1,
       "por_turno": {
         "1": {
@@ -3894,34 +3894,34 @@
     },
     {
       "mes": "novembro",
-      "falhas": 2433
+      "falhas": 2556
     }
   ],
   "disponibilidade": {
     "geral": {
-      "horas_disponiveis": 286.0,
+      "horas_disponiveis": 253.3333,
       "horas_paradas": 23.9,
-      "disponibilidade_pct": 91.6434,
-      "indisponibilidade_pct": 8.3566
+      "disponibilidade_pct": 90.5658,
+      "indisponibilidade_pct": 9.4342
     },
     "departamentos": {
       "Elétrica": {
-        "horas_disponiveis": 286.0,
+        "horas_disponiveis": 253.3333,
         "horas_paradas": 4.2,
-        "disponibilidade_pct": 98.5315,
-        "indisponibilidade_pct": 1.4685
+        "disponibilidade_pct": 98.3421,
+        "indisponibilidade_pct": 1.6579
       },
       "Mecânica": {
-        "horas_disponiveis": 286.0,
+        "horas_disponiveis": 253.3333,
         "horas_paradas": 14.2,
-        "disponibilidade_pct": 95.035,
-        "indisponibilidade_pct": 4.965
+        "disponibilidade_pct": 94.3947,
+        "indisponibilidade_pct": 5.6053
       },
       "Automação": {
-        "horas_disponiveis": 88.0,
+        "horas_disponiveis": 69.3333,
         "horas_paradas": 5.5,
-        "disponibilidade_pct": 93.75,
-        "indisponibilidade_pct": 6.25
+        "disponibilidade_pct": 92.0673,
+        "indisponibilidade_pct": 7.9327
       }
     }
   },
@@ -3931,10 +3931,10 @@
     "ate": "2026-11-25",
     "falhas": 2433,
     "horas_paradas": 452.484,
-    "horas_disponiveis": 4585.55,
-    "mtbf_min": 101.9252,
-    "disponibilidade_pct": 90.1324,
-    "indisponibilidade_pct": 9.8676,
+    "horas_disponiveis": 4838.8833,
+    "mtbf_min": 108.1726,
+    "disponibilidade_pct": 90.649,
+    "indisponibilidade_pct": 9.351,
     "meta_mtbf": 300,
     "status": "abaixo"
   }
